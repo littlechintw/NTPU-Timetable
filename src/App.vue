@@ -1,32 +1,41 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <v-app-bar app dark>
+      <v-toolbar-title>NTPU 課程試排</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <!-- <v-btn
+        rounded
+        href="https://www.google.com/maps/d/edit?mid=1FG6nbX7nVaz5NvasFz-2s6CgZ5dUHHbE"
+        target="_blank"
+      >
+        Google Map
+        <v-icon right dark>mdi-map</v-icon>
+      </v-btn> -->
+    </v-app-bar>
+    <v-content>
+      <v-card>
+        <v-content>
+          <router-view />
+        </v-content>
+
+        <v-footer padless class="font-weight-medium">
+          <v-col class="text-center" cols="12" style="font-size: 14px">
+            &copy; {{ new Date().getFullYear() }} Copyright
+            <a href="https://littlechintw.github.io">littlechintw.github.io</a>.
+            All rights reserved.
+          </v-col>
+        </v-footer>
+      </v-card>
+    </v-content>
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+export default {
+  name: "App",
 
-#nav {
-  padding: 30px;
-}
+  components: {},
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+  data: () => ({}),
+};
+</script>

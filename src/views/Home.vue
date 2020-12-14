@@ -1,18 +1,608 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- overlay page -->
+    <v-overlay :absolute="absolute" :value="overlay">
+      <v-card
+        class="mx-auto text-left overflow-y-auto"
+        outlined
+        v-click-outside="onClickOutside"
+        :min-height="window_height * 0.6"
+        :min-width="window_width * 0.6"
+        :max-height="window_height * 0.6"
+        :max-width="window_width * 0.6"
+      >
+        <v-card color="warning" @click="overlay = false">
+          <v-icon>mdi-close</v-icon>
+        </v-card>
+        <v-card-text style="color: white">
+          <v-chip>{{ overlay_data.courseID }}</v-chip>
+          <v-chip color="green">{{ overlay_data.department }}</v-chip>
+
+          <br /><br />
+          <h1>{{ overlay_data.title.ch }} | {{ overlay_data.title.en }}</h1>
+          <br />
+          <h3>時數： {{ overlay_data.hours }}</h3>
+          <h3>學分數： {{ overlay_data.credit }}</h3>
+          <h3>
+            教授：
+            <a
+              style="color: white"
+              v-for="data in overlay_data.teacher"
+              :key="data"
+            >
+              {{ data }}<a v-if="overlay_data.teacher.length > 1">, </a>
+            </a>
+          </h3>
+          <h3>
+            課堂資訊：
+            <a
+              style="color: white"
+              v-for="data in overlay_data.course_detail"
+              :key="data"
+            >
+              {{ data.original
+              }}<a v-if="overlay_data.course_detail.length > 1">, </a>
+            </a>
+          </h3>
+
+          <br />
+          <h3>原始資料</h3>
+          <json-viewer
+            :value="overlay_data"
+            :expand-depth="1"
+            copyable
+          ></json-viewer>
+        </v-card-text>
+      </v-card>
+    </v-overlay>
+
+    <v-row>
+      <v-col cols="12" md="3">
+        <!-- Search -->
+        <v-card class="align-self-center" flat>
+          <v-card
+            class="pa-2 mx-auto"
+            elevation="5"
+            align="center"
+            justify="center"
+            outlined
+            tile
+            min-width="200px"
+            min-height="140px"
+          >
+            資料時間: {{ course_data.start_time }}
+            <v-text-field
+              v-model="search_input"
+              label="Write something..."
+            ></v-text-field>
+            <v-btn dark depressed @click="search_course"> Search </v-btn>
+            <br /><br /><v-divider />
+
+            <v-list style="max-height: 400px" class="overflow-y-auto">
+              <v-card
+                class="mx-auto text-left"
+                outlined
+                v-for="data in search_list"
+                :key="data"
+                @click="
+                  overlay = !overlay;
+                  overlay_courseID = data.courseID;
+                  write_overlay();
+                "
+              >
+                <v-list-item three-line>
+                  <v-list-item-content>
+                    <v-list-item-title class="headline mb-1">
+                      {{ data.title }}
+                    </v-list-item-title>
+                    <v-list-item-subtitle>
+                      {{ data.department }}
+                    </v-list-item-subtitle>
+                    <v-list-item-subtitle
+                      v-for="InData in data.course_detail"
+                      :key="InData"
+                    >
+                      {{ InData.original }}
+                    </v-list-item-subtitle>
+                    <v-list-item-subtitle>
+                      {{ data.subtitle }}
+                    </v-list-item-subtitle>
+                  </v-list-item-content>
+
+                  <v-btn
+                    icon
+                    large
+                    :color="get_status_icon(data.courseID).color"
+                    @click="change_course_select_status(data.courseID)"
+                  >
+                    <v-icon>{{ get_status_icon(data.courseID).icon }}</v-icon>
+                  </v-btn>
+                </v-list-item>
+              </v-card>
+            </v-list>
+          </v-card>
+        </v-card>
+        <br />
+
+        <!-- Select Table -->
+        <v-card class="align-self-center" flat>
+          <v-card
+            class="pa-2 mx-auto"
+            elevation="5"
+            align="center"
+            justify="center"
+            outlined
+            tile
+            min-width="200px"
+            min-height="140px"
+          >
+            <h2>已選課程</h2>
+            <v-divider />
+
+            <v-list style="max-height: 500px" class="overflow-y-auto">
+              <v-card
+                class="mx-auto text-left"
+                outlined
+                v-for="data in select_list"
+                :key="data"
+                @click="
+                  overlay = !overlay;
+                  overlay_courseID = data.courseID;
+                  write_overlay();
+                "
+              >
+                <v-list-item three-line>
+                  <v-list-item-content>
+                    <v-list-item-title class="headline mb-1">
+                      {{ data.title }}
+                    </v-list-item-title>
+                    <v-list-item-subtitle>
+                      {{ data.department }}
+                    </v-list-item-subtitle>
+                    <v-list-item-subtitle
+                      v-for="InData in data.course_detail"
+                      :key="InData"
+                    >
+                      {{ InData.original }}
+                    </v-list-item-subtitle>
+                    <v-list-item-subtitle>
+                      {{ data.subtitle }}
+                    </v-list-item-subtitle>
+                  </v-list-item-content>
+
+                  <v-btn
+                    icon
+                    large
+                    :color="get_status_icon(data.courseID).color"
+                    @click="change_course_select_status(data.courseID)"
+                  >
+                    <v-icon>{{ get_status_icon(data.courseID).icon }}</v-icon>
+                  </v-btn>
+                </v-list-item>
+              </v-card>
+            </v-list>
+          </v-card>
+        </v-card>
+      </v-col>
+
+      <v-col cols="12" md="8">
+        <!-- Time Table -->
+        <v-simple-table>
+          <template v-slot:default>
+            <thead>
+              <tr>
+                <th v-for="data in days_data" :key="data" class="text-left">
+                  <v-card
+                    class="align-self-center"
+                    flat
+                    min-width="90px"
+                    min-height="30px"
+                    align="center"
+                    justify="center"
+                    >{{ data }}
+                  </v-card>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="data in body_data" :key="data">
+                <td v-for="item in data" :key="item">
+                  <v-card
+                    class="align-self-center"
+                    flat
+                    min-width="90px"
+                    min-height="60px"
+                    align="center"
+                    justify="center"
+                  >
+                    <v-list-item-content v-if="item.show_title">
+                      <div class="overline mb-4">
+                        {{ item.title }}
+                      </div>
+                      <v-list-item-subtitle>
+                        {{ item.subtitle }}
+                      </v-list-item-subtitle>
+                    </v-list-item-content>
+
+                    <v-card-text
+                      align="center"
+                      justify="center"
+                      v-if="item.show_chip"
+                    >
+                      <v-chip-group
+                        v-model="selection"
+                        active-class=""
+                        column
+                        multiple
+                      >
+                        <v-chip
+                          :color="data.color"
+                          v-for="data in item.chip"
+                          :key="data"
+                          @click="
+                            overlay = !overlay;
+                            overlay_courseID = data.courseID;
+                            write_overlay();
+                          "
+                        >
+                          {{ data.title }}
+                        </v-chip>
+                      </v-chip-group>
+                    </v-card-text>
+                  </v-card>
+                </td>
+              </tr>
+            </tbody>
+          </template>
+        </v-simple-table>
+      </v-col>
+    </v-row>
+    <br />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import course_json from "../../clawer/all_course_list.json";
 
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
+  name: "Home",
+  components: {},
+  data: () => ({
+    window_height: 700,
+    window_width: 1600,
+    list_data: [],
+    days_data: ["😀", "日", "一", "二", "三", "四", "五", "六"],
+    body_data: [],
+    course_data: course_json,
+    search_input: "",
+    search_list: [
+      {
+        title: "[Feature🛠] Search🔍",
+        subtitle: "You can fill in the key word and search courses!",
+        courseID: "0000",
+      },
+    ],
+    select_list: [],
+    color_table: [
+      "#E6B0AA",
+      "#F5B7B1",
+      "#D7BDE2",
+      "#D2B4DE",
+      "#A9CCE3",
+      "#AED6F1",
+      "#A3E4D7",
+      "#A2D9CE",
+      "#A9DFBF",
+      "#ABEBC6",
+      "#F9E79F",
+      "#FAD7A0",
+      "#F5CBA7",
+      "#EDBB99",
+    ],
+    overlay: false,
+    overlay_courseID: "",
+    overlay_data: {
+      year: "",
+      semester: "",
+      courseID: "",
+      department: "",
+      department_level: [],
+      compulsory: [],
+      title: {
+        ch: "",
+        en: "",
+        limit: false,
+        other: "",
+      },
+      teacher: [""],
+      category: "",
+      credit: "",
+      hours: "",
+      language: "",
+      course_detail: [
+        {
+          courseTime: 1,
+          time_category: "",
+          sessions: [],
+          place: "",
+          original: "",
+        },
+      ],
+      sign: "",
+      sign_people: "",
+      max_people: "",
+      url: "",
+    },
+  }),
+  methods: {
+    // Init Table
+    init_table() {
+      for (var i = 0; i < 11; i++) {
+        var tmp = [];
+        for (var j = 0; j < 8; j++) {
+          tmp.push({
+            title: "",
+            subtitle: "",
+            chip: [],
+            show_title: false,
+            show_chip: true,
+          });
+          if (i == 4) {
+            tmp[j]["chip"].push({
+              title: "❌",
+              color: "white",
+            });
+          }
+        }
+        tmp[0]["show_title"] = true;
+        tmp[0]["show_chip"] = false;
+        let time_table = [
+          "1",
+          "2",
+          "3",
+          "4",
+          "中午",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "晚上",
+        ];
+        let time_table_time = [
+          "08:10 ~ 09:00",
+          "09:10 ~ 10:00",
+          "10:10 ~ 11:00",
+          "11:10 ~ 12:00",
+          "12:10 ~ 13:00",
+          "13:10 ~ 14:00",
+          "14:10 ~ 15:00",
+          "15:10 ~ 16:00",
+          "16:10 ~ 17:00",
+          "17:10 ~ 18:00",
+          "18:30 ~ 22:10",
+        ];
+        tmp[0]["title"] = time_table[i];
+        tmp[0]["subtitle"] = time_table_time[i];
+        this.body_data.push(tmp);
+      }
+      // this.write_course();
+      let selectCourse = this.get_course_select_status();
+      for (i = 0; i < selectCourse.length; i++) {
+        let tmp_course_detail = selectCourse[i].course_detail;
+        for (j = 0; j < tmp_course_detail.length; j++) {
+          let tmp_time = tmp_course_detail[j].courseTime;
+          let tmp_sessions = tmp_course_detail[j].sessions;
+          for (var k = 0; k < tmp_sessions.length; k++) {
+            var convert_time = -1;
+            var convert_sessions = -1;
+            if (tmp_time === 7) {
+              convert_time = 1;
+            } else {
+              convert_time = tmp_time + 1;
+            }
+            if (tmp_sessions[k] >= 1 && tmp_sessions[k] <= 4) {
+              convert_sessions = tmp_sessions[k] - 1;
+            } else if (tmp_sessions[k] >= 5 && tmp_sessions[k] <= 9) {
+              convert_sessions = tmp_sessions[k];
+            } else {
+              convert_sessions = 10;
+            }
+            this.change_body_chip(true, convert_sessions, convert_time, {
+              title: selectCourse[i].courseID + " " + selectCourse[i].title.ch,
+              color: this.color_table[selectCourse[i].index % 14],
+              courseID: selectCourse[i].courseID,
+            });
+          }
+        }
+      }
+    },
+    // Print CourseData
+    write_course(mode, chipData) {
+      let detail = chipData.course_detail;
+      for (var i = 0; i < detail.length; i++) {
+        let tmp_time = detail[i].courseTime;
+        let tmp_sessions = detail[i].sessions;
+        for (var j = 0; j < tmp_sessions.length; j++) {
+          var convert_time = -1;
+          var convert_sessions = -1;
+          if (tmp_time === 7) {
+            convert_time = 1;
+          } else {
+            convert_time = tmp_time + 1;
+          }
+          if (tmp_sessions[j] >= 1 && tmp_sessions[j] <= 4) {
+            convert_sessions = tmp_sessions[j] - 1;
+          } else if (tmp_sessions[j] >= 5 && tmp_sessions[j] <= 9) {
+            convert_sessions = tmp_sessions[j];
+          } else {
+            convert_sessions = 10;
+          }
+          this.change_body_chip(mode, convert_sessions, convert_time, {
+            title: chipData.courseID + " " + chipData.title.ch,
+            color: this.color_table[chipData.index % 14],
+            courseID: chipData.courseID,
+          });
+        }
+      }
+    },
+    // 改變 chip 內容
+    change_body_chip(mode, r, c, chipData) {
+      console.log("change_body_chip");
+      console.log(mode);
+      console.log(r);
+      console.log(c);
+      console.log(chipData);
+      console.log(this.body_data[r][c]["chip"]);
+      if (mode) {
+        this.body_data[r][c]["chip"].push({
+          title: chipData.title,
+          color: chipData.color,
+          courseID: chipData.courseID,
+        });
+      } else {
+        var tmp_list = [];
+        for (var i = 0; i < this.body_data[r][c]["chip"].length; i++) {
+          if (
+            this.body_data[r][c]["chip"][i]["courseID"] != chipData.courseID
+          ) {
+            tmp_list.push({
+              title: this.body_data[r][c]["chip"][i].title,
+              color: this.body_data[r][c]["chip"][i].color,
+              courseID: this.body_data[r][c]["chip"][i].courseID,
+            });
+          }
+        }
+        this.body_data[r][c]["chip"] = tmp_list;
+      }
+      console.log(this.body_data[r][c]["chip"]);
+    },
+    // 搜尋課程
+    search_course() {
+      if (this.search_input === "") return false;
+      this.search_list = [];
+      var flag = 0;
+      for (var i = 0; i < this.course_data.data.length; i++) {
+        if (flag > 100) return 0;
+        let tmp = this.course_data.data[i];
+        let tmp_json = [tmp.courseID, tmp.title.ch, tmp.title.en, tmp.teacher];
+        if (String(tmp_json).indexOf(this.search_input) !== -1) {
+          this.search_list.push({
+            title: tmp.courseID + " " + tmp.title.ch,
+            subtitle:
+              tmp.teacher + " | 時數/學分: " + tmp.hours + "/" + tmp.credit,
+            courseID: tmp.courseID,
+            department: tmp.department,
+            course_detail: tmp.course_detail,
+          });
+          flag += 1;
+        }
+      }
+      if (this.search_list.length === 0) {
+        this.search_list.push({
+          title: "404 Not Found!",
+          subtitle: "Please change the key word and search again!",
+          courseID: "0000",
+        });
+      }
+    },
+    // 取得課程選擇項目按鈕
+    get_status_icon(ID) {
+      var output = {
+        icon: "mdi-plus",
+        color: "blue",
+      };
+      if (ID === "0000") {
+        output["icon"] = "mdi-close";
+        output["color"] = "red";
+      } else {
+        var tmp_list = this.get_course_select_status();
+        for (var i = 0; i < tmp_list.length; i++) {
+          if (tmp_list[i].courseID == ID) {
+            output["icon"] = "mdi-close";
+            output["color"] = "red";
+          }
+        }
+      }
+      return output;
+    },
+    // 取得 storage 項目
+    get_course_select_status() {
+      return JSON.parse(localStorage.getItem("SelectCourse"));
+    },
+    // 改變 storage 項目
+    change_course_select_status(ID) {
+      if (ID === "0000") return false;
+      console.log("Change status " + ID);
+      var tmp_list = this.get_course_select_status();
+      var flag = false;
+      for (var i = 0; i < tmp_list.length; i++) {
+        if (tmp_list[i].courseID == ID) {
+          flag = true;
+        }
+      }
+      var tmp_data = this.get_courseID_data(ID);
+      if (flag) {
+        var tmp = [];
+        for (var j = 0; j < tmp_list.length; j++) {
+          if (tmp_list[j].courseID != ID) {
+            tmp.push(tmp_list[j]);
+          }
+        }
+        tmp_list = tmp;
+        this.write_course(false, tmp_data);
+      } else {
+        tmp_data["index"] = tmp_list.length;
+        tmp_list.push(tmp_data);
+        this.write_course(true, tmp_data);
+      }
+      localStorage.setItem("SelectCourse", JSON.stringify(tmp_list));
+      this.search_course();
+      this.select_list_maker();
+    },
+    // 創造 select_list
+    select_list_maker() {
+      this.select_list = [];
+      let tmp_list = this.get_course_select_status();
+      for (var i = 0; i < tmp_list.length; i++) {
+        this.select_list.push({
+          title: tmp_list[i].courseID + " " + tmp_list[i].title.ch,
+          subtitle:
+            tmp_list[i].teacher +
+            " | 時數/學分: " +
+            tmp_list[i].hours +
+            "/" +
+            tmp_list[i].credit,
+          courseID: tmp_list[i].courseID,
+          department: tmp_list[i].department,
+          course_detail: tmp_list[i].course_detail,
+        });
+      }
+    },
+    // 獲得課程資訊
+    get_courseID_data(ID) {
+      for (var i = 0; i < this.course_data.data.length; i++) {
+        if (this.course_data.data[i].courseID === ID) {
+          return this.course_data.data[i];
+        }
+      }
+      return "error";
+    },
+    onClickOutside() {
+      this.overlay = false;
+    },
+    write_overlay() {
+      this.overlay_data = this.get_courseID_data(this.overlay_courseID);
+    },
+  },
+  created: function () {
+    this.window_height = window.innerHeight;
+    this.window_width = window.innerWidth;
+    if (!localStorage.getItem("SelectCourse")) {
+      localStorage.setItem("SelectCourse", JSON.stringify([]));
+    }
+    this.select_list_maker();
+    this.init_table();
+  },
+};
 </script>

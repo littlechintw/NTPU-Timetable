@@ -67,14 +67,14 @@ def course_info_decode(data):
     output = []
     for info in data:
         single_data = {
-            'time': 'N/A',
+            'courseTime': 'N/A',
             'time_category': 'N/A',
             'sessions': 'N/A',
             'place': 'N/A',
             'original': info,
         }
         if info.find('每週未維護') > -1:
-            single_data['time'] = 'N'
+            single_data['courseTime'] = 'N'
             single_data['time_category'] = 'N'
             single_data['sessions'] = 'N'
         elif info.find('每週') > -1:
@@ -85,19 +85,19 @@ def course_info_decode(data):
             single_data['time_category'] = 'E'
 
         if info.find('週一') > -1:
-            single_data['time'] = 1
+            single_data['courseTime'] = 1
         elif info.find('週二') > -1:
-            single_data['time'] = 2
+            single_data['courseTime'] = 2
         elif info.find('週三') > -1:
-            single_data['time'] = 3
+            single_data['courseTime'] = 3
         elif info.find('週四') > -1:
-            single_data['time'] = 4
+            single_data['courseTime'] = 4
         elif info.find('週五') > -1:
-            single_data['time'] = 5
+            single_data['courseTime'] = 5
         elif info.find('週六') > -1:
-            single_data['time'] = 6
+            single_data['courseTime'] = 6
         elif info.find('週日') > -1:
-            single_data['time'] = 7
+            single_data['courseTime'] = 7
 
         find_sessions = info.find('~')
         if find_sessions > -1:
@@ -177,5 +177,5 @@ output = {
     'data': all_course_list,
 }
 
-with open('all_course_list.txt', 'w', newline='', encoding='utf-8') as outfile:
+with open('all_course_list.json', 'w', newline='', encoding='utf-8') as outfile:
     json.dump(output, outfile, ensure_ascii=False, indent = 4)
