@@ -14,9 +14,12 @@
     </v-app-bar>
     <v-content>
       <v-card>
-        <v-content>
-          <router-view />
-        </v-content>
+        <v-card>
+          <v-alert type="warning" dismissible dense>
+            此僅為試排課程，請依然要到選課系統選課。
+          </v-alert>
+        </v-card>
+        <router-view />
 
         <v-footer padless class="font-weight-medium">
           <v-col class="text-center" cols="12" style="font-size: 14px">
@@ -36,6 +39,13 @@ export default {
 
   components: {},
 
-  data: () => ({}),
+  data: () => ({
+    window_height: 700,
+    window_width: 1600,
+  }),
+  created: function () {
+    this.window_height = window.innerHeight;
+    this.window_width = window.innerWidth;
+  },
 };
 </script>
