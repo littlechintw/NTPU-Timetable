@@ -21,31 +21,49 @@
           <br /><br />
           <h1>{{ overlay_data.title.ch }} | {{ overlay_data.title.en }}</h1>
           <br />
-          <h3>時數： {{ overlay_data.hours }}</h3>
-          <h3>學分數： {{ overlay_data.credit }}</h3>
+          <h3>時數: {{ overlay_data.hours }}</h3>
+          <h3>學分數: {{ overlay_data.credit }}</h3>
           <h3>
-            教授：
+            教授:
             <a
               style="color: white"
               v-for="data in overlay_data.teacher"
               :key="data"
             >
-              {{ data }}<a v-if="overlay_data.teacher.length > 1">, </a>
+              {{ data }}
+              <a style="color: white" v-if="overlay_data.teacher.length > 1"
+                >,
+              </a>
             </a>
           </h3>
           <h3>
-            課堂資訊：
+            課堂資訊:
             <a
               style="color: white"
               v-for="data in overlay_data.course_detail"
               :key="data"
             >
-              {{ data.original
-              }}<a v-if="overlay_data.course_detail.length > 1">, </a>
+              {{ data.original }}
+              <a
+                style="color: white"
+                v-if="overlay_data.course_detail.length > 1"
+                >,
+              </a>
             </a>
           </h3>
-
           <br />
+          <v-btn
+            rounded
+            outlined
+            color="info"
+            :href="overlay_data.url"
+            target="_blank"
+          >
+            <v-icon left> mdi-launch </v-icon>
+            完整資訊
+          </v-btn>
+
+          <br /><br />
           <h3>原始資料</h3>
           <json-viewer
             :value="overlay_data"
@@ -70,13 +88,17 @@
             min-width="200px"
             min-height="140px"
           >
-            資料時間: {{ course_data.start_time }}
-            <v-text-field
-              v-model="search_input"
-              label="Write something..."
-            ></v-text-field>
-            <v-btn dark depressed @click="search_course"> Search </v-btn>
-            <br /><br /><v-divider />
+            <v-chip color="info">
+              課程資料時間: {{ course_data.start_time }}
+            </v-chip>
+            <v-form v-on:submit.prevent="search_course">
+              <v-text-field
+                v-model="search_input"
+                label="課程代碼 / 課程名稱 / 教授"
+              ></v-text-field>
+              <v-btn dark depressed @click="search_course"> Search </v-btn>
+            </v-form>
+            <br /><v-divider />
 
             <v-list style="max-height: 400px" class="overflow-y-auto">
               <v-card
@@ -137,6 +159,7 @@
             min-height="140px"
           >
             <h2>已選課程</h2>
+            <h3>學分 / 時數: {{ show_credit }} / {{ show_hours }}</h3>
             <v-divider />
 
             <v-list style="max-height: 500px" class="overflow-y-auto">
@@ -187,74 +210,76 @@
 
       <v-col cols="12" md="8">
         <!-- Time Table -->
-        <v-simple-table>
-          <template v-slot:default>
-            <thead>
-              <tr>
-                <th v-for="data in days_data" :key="data" class="text-left">
-                  <v-card
-                    class="align-self-center"
-                    flat
-                    min-width="90px"
-                    min-height="30px"
-                    align="center"
-                    justify="center"
-                    >{{ data }}
-                  </v-card>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="data in body_data" :key="data">
-                <td v-for="item in data" :key="item">
-                  <v-card
-                    class="align-self-center"
-                    flat
-                    min-width="90px"
-                    min-height="60px"
-                    align="center"
-                    justify="center"
-                  >
-                    <v-list-item-content v-if="item.show_title">
-                      <div class="overline mb-4">
-                        {{ item.title }}
-                      </div>
-                      <v-list-item-subtitle>
-                        {{ item.subtitle }}
-                      </v-list-item-subtitle>
-                    </v-list-item-content>
-
-                    <v-card-text
+        <div ref="thehtml">
+          <v-simple-table>
+            <template v-slot:default>
+              <thead>
+                <tr>
+                  <th v-for="data in days_data" :key="data" class="text-left">
+                    <v-card
+                      class="align-self-center"
+                      flat
+                      min-width="90px"
+                      min-height="30px"
                       align="center"
                       justify="center"
-                      v-if="item.show_chip"
+                      >{{ data }}
+                    </v-card>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="data in body_data" :key="data">
+                  <td v-for="item in data" :key="item">
+                    <v-card
+                      class="align-self-center"
+                      flat
+                      min-width="90px"
+                      min-height="60px"
+                      align="center"
+                      justify="center"
                     >
-                      <v-chip-group
-                        v-model="selection"
-                        active-class=""
-                        column
-                        multiple
+                      <v-list-item-content v-if="item.show_title">
+                        <div class="overline mb-4">
+                          {{ item.title }}
+                        </div>
+                        <v-list-item-subtitle>
+                          {{ item.subtitle }}
+                        </v-list-item-subtitle>
+                      </v-list-item-content>
+
+                      <v-card-text
+                        align="center"
+                        justify="center"
+                        v-if="item.show_chip"
                       >
-                        <v-chip
-                          :color="data.color"
-                          v-for="data in item.chip"
-                          :key="data"
-                          @click="
-                            overlay = !overlay;
-                            overlay_courseID = data.courseID;
-                            write_overlay();
-                          "
+                        <v-chip-group
+                          v-model="selection"
+                          active-class=""
+                          column
+                          multiple
                         >
-                          {{ data.title }}
-                        </v-chip>
-                      </v-chip-group>
-                    </v-card-text>
-                  </v-card>
-                </td>
-              </tr>
-            </tbody>
-          </template>
-        </v-simple-table>
+                          <v-chip
+                            :color="data.color"
+                            v-for="data in item.chip"
+                            :key="data"
+                            @click="
+                              overlay = !overlay;
+                              overlay_courseID = data.courseID;
+                              write_overlay();
+                            "
+                          >
+                            {{ data.title }}
+                          </v-chip>
+                        </v-chip-group>
+                      </v-card-text>
+                    </v-card>
+                  </td>
+                </tr>
+              </tbody>
+            </template>
+          </v-simple-table>
+        </div>
       </v-col>
     </v-row>
     <br />
@@ -263,7 +288,6 @@
 
 <script>
 import course_json from "../../clawer/all_course_list.json";
-
 export default {
   name: "Home",
   components: {},
@@ -332,8 +356,13 @@ export default {
       sign_people: "",
       max_people: "",
       url: "",
+      show_credit: 0,
+      show_hours: 0,
     },
   }),
+  mounted() {
+    this.html = this.$refs.thehtml;
+  },
   methods: {
     // Init Table
     init_table() {
@@ -388,8 +417,12 @@ export default {
       }
       // this.write_course();
       let selectCourse = this.get_course_select_status();
+      if (!this.show_credit) this.show_credit = 0;
+      if (!this.show_hours) this.show_hours = 0;
       for (i = 0; i < selectCourse.length; i++) {
         let tmp_course_detail = selectCourse[i].course_detail;
+        this.show_credit += parseInt(selectCourse[i].credit);
+        this.show_hours += parseInt(selectCourse[i].hours);
         for (j = 0; j < tmp_course_detail.length; j++) {
           let tmp_time = tmp_course_detail[j].courseTime;
           let tmp_sessions = tmp_course_detail[j].sessions;
@@ -419,6 +452,13 @@ export default {
     },
     // Print CourseData
     write_course(mode, chipData) {
+      if (mode) {
+        this.show_credit += parseInt(chipData.credit);
+        this.show_hours += parseInt(chipData.hours);
+      } else {
+        this.show_credit -= parseInt(chipData.credit);
+        this.show_hours -= parseInt(chipData.hours);
+      }
       let detail = chipData.course_detail;
       for (var i = 0; i < detail.length; i++) {
         let tmp_time = detail[i].courseTime;
@@ -448,12 +488,6 @@ export default {
     },
     // 改變 chip 內容
     change_body_chip(mode, r, c, chipData) {
-      console.log("change_body_chip");
-      console.log(mode);
-      console.log(r);
-      console.log(c);
-      console.log(chipData);
-      console.log(this.body_data[r][c]["chip"]);
       if (mode) {
         this.body_data[r][c]["chip"].push({
           title: chipData.title,
@@ -475,7 +509,6 @@ export default {
         }
         this.body_data[r][c]["chip"] = tmp_list;
       }
-      console.log(this.body_data[r][c]["chip"]);
     },
     // 搜尋課程
     search_course() {
@@ -490,7 +523,7 @@ export default {
           this.search_list.push({
             title: tmp.courseID + " " + tmp.title.ch,
             subtitle:
-              tmp.teacher + " | 時數/學分: " + tmp.hours + "/" + tmp.credit,
+              tmp.teacher + " | 學分 / 時數: " + tmp.credit + " / " + tmp.hours,
             courseID: tmp.courseID,
             department: tmp.department,
             course_detail: tmp.course_detail,
@@ -533,7 +566,6 @@ export default {
     // 改變 storage 項目
     change_course_select_status(ID) {
       if (ID === "0000") return false;
-      console.log("Change status " + ID);
       var tmp_list = this.get_course_select_status();
       var flag = false;
       for (var i = 0; i < tmp_list.length; i++) {
@@ -569,10 +601,10 @@ export default {
           title: tmp_list[i].courseID + " " + tmp_list[i].title.ch,
           subtitle:
             tmp_list[i].teacher +
-            " | 時數/學分: " +
-            tmp_list[i].hours +
-            "/" +
-            tmp_list[i].credit,
+            " | 學分 / 時數: " +
+            tmp_list[i].credit +
+            " / " +
+            tmp_list[i].hours,
           courseID: tmp_list[i].courseID,
           department: tmp_list[i].department,
           course_detail: tmp_list[i].course_detail,
