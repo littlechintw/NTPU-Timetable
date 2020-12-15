@@ -11,6 +11,14 @@ Vue.config.productionTip = false
 import JSONView from 'vue-json-viewer'
 Vue.use(JSONView)
 
+// Google Analytics
+import VueAnalytics from 'vue-analytics'
+Vue.use(VueAnalytics, {
+  id: 'UA-167881827-3',
+  router,
+  checkDuplicatedScript: true
+})
+
 new Vue({
   el: '#app',
   data() {
