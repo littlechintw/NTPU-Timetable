@@ -167,7 +167,7 @@ all_course_list = []
 fliter_item = []
 
 print('Read Config...')
-with open('clawer_config.json') as config_file:
+with open('../config.json') as config_file:
     config_data = json.load(config_file)
     print('Config: ' + str(config_data))
 
@@ -194,4 +194,7 @@ output = {
 }
 
 with open('all_course_list.json', 'w', newline='', encoding='utf-8') as outfile:
+    json.dump(output, outfile, ensure_ascii=False, indent = 4)
+
+with open(config_data['year'] + config_data['semester'] + 'all_course_list.json', 'w', newline='', encoding='utf-8') as outfile:
     json.dump(output, outfile, ensure_ascii=False, indent = 4)
