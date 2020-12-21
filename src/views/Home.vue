@@ -6,10 +6,10 @@
         class="mx-auto text-left overflow-y-auto"
         outlined
         v-click-outside="onClickOutside"
-        :min-height="window_height * 0.6"
-        :min-width="window_width * 0.6"
-        :max-height="window_height * 0.6"
-        :max-width="window_width * 0.6"
+        :min-height="window_height * 0.7"
+        :max-height="window_height * 0.7"
+        :min-width="window_width * 0.7"
+        :max-width="window_width * 0.7"
       >
         <v-card color="warning" @click="overlay = false">
           <v-icon>mdi-close</v-icon>
@@ -17,6 +17,15 @@
         <v-card-text style="color: white">
           <v-chip>{{ overlay_data.courseID }}</v-chip>
           <v-chip color="green">{{ overlay_data.department }}</v-chip>
+          <v-chip
+            color="blue"
+            v-for="data in overlay_data.department_level"
+            :key="data"
+          >
+            {{ data.original }} ({{
+              get_compulsory(overlay_data, data.original)
+            }})
+          </v-chip>
 
           <br /><br />
           <h1>{{ overlay_data.title.ch }} | {{ overlay_data.title.en }}</h1>
@@ -54,9 +63,16 @@
           <br />
           <v-btn
             rounded
-            outlined
             color="info"
-            :href="overlay_data.url"
+            :href="
+              'https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?g_serial=' +
+              overlay_data.courseID +
+              '&g_year=' +
+              overlay_data.year +
+              '&g_term=' +
+              overlay_data.semester +
+              '&show_info=all'
+            "
             target="_blank"
           >
             <v-icon left> mdi-launch </v-icon>
@@ -88,18 +104,43 @@
             min-width="200px"
             min-height="140px"
           >
-            <v-chip color="info">
-              課程資料時間: {{ course_data.start_time }}
-            </v-chip>
             <v-form v-on:submit.prevent="search_course">
               <v-text-field
                 v-model="search_input"
-                label="課程代碼 / 課程名稱 / 教授"
+                label="課程代碼 / 課程名稱 / 教授 / 開課單位"
               ></v-text-field>
-              <v-btn dark depressed @click="search_course"> Search </v-btn>
             </v-form>
-            <br /><v-divider />
 
+            <v-combobox
+              v-model="fliter_chips"
+              :items="fliter_items"
+              chips
+              clearable
+              label="篩選器"
+              multiple
+              prepend-icon="mdi-filter-variant"
+              solo
+            >
+              <template v-slot:selection="{ attrs, item, select, selected }">
+                <v-chip
+                  v-bind="attrs"
+                  :input-value="selected"
+                  close
+                  @click="select"
+                  @click:close="fliter_remove(item)"
+                >
+                  <strong>{{ item }}</strong>
+                </v-chip>
+              </template>
+            </v-combobox>
+
+            <v-btn dark depressed @click="search_course"> Search </v-btn>
+
+            <br /><br /><v-divider />
+            <!-- <v-chip color="info"> -->
+            課程資料時間: {{ course_data.start_time }}
+            <!-- </v-chip> -->
+            <p>{{ search_result }}</p>
             <v-list style="max-height: 400px" class="overflow-y-auto">
               <v-card
                 class="mx-auto text-left"
@@ -161,7 +202,6 @@
             <h2>已選課程</h2>
             <h3>學分 / 時數: {{ show_credit }} / {{ show_hours }}</h3>
             <v-divider />
-
             <v-list style="max-height: 500px" class="overflow-y-auto">
               <v-card
                 class="mx-auto text-left"
@@ -234,6 +274,7 @@
                     <v-card
                       class="align-self-center"
                       flat
+                      :color="item.color"
                       min-width="90px"
                       min-height="60px"
                       align="center"
@@ -299,12 +340,31 @@ export default {
     body_data: [],
     course_data: course_json,
     search_input: "",
+    search_result: "",
     search_list: [
       {
         title: "[Feature🛠] Search🔍",
         subtitle: "You can fill in the key word and search courses!",
         courseID: "0000",
       },
+    ],
+    fliter_chips: [],
+    fliter_items: [],
+    fliter_time: [
+      "週一上午",
+      "週一下午",
+      "週二上午",
+      "週二下午",
+      "週三上午",
+      "週三下午",
+      "週四上午",
+      "週四下午",
+      "週五上午",
+      "週五下午",
+      "週六上午",
+      "週六下午",
+      "週日上午",
+      "週日下午",
     ],
     select_list: [],
     color_table: [
@@ -373,6 +433,7 @@ export default {
             title: "",
             subtitle: "",
             chip: [],
+            color: "white",
             show_title: false,
             show_chip: true,
           });
@@ -440,6 +501,7 @@ export default {
               convert_sessions = tmp_sessions[k];
             } else {
               convert_sessions = 10;
+              k += 10;
             }
             this.change_body_chip(true, convert_sessions, convert_time, {
               title: selectCourse[i].courseID + " " + selectCourse[i].title.ch,
@@ -448,6 +510,12 @@ export default {
             });
           }
         }
+      }
+      for (i = 0; i < this.fliter_time.length; i++) {
+        this.fliter_items.push(this.fliter_time[i]);
+      }
+      for (i = 0; i < this.course_data.fliter_item.length; i++) {
+        this.fliter_items.push(this.course_data.fliter_item[i]);
       }
     },
     // Print CourseData
@@ -477,6 +545,7 @@ export default {
             convert_sessions = tmp_sessions[j];
           } else {
             convert_sessions = 10;
+            j += 10;
           }
           this.change_body_chip(mode, convert_sessions, convert_time, {
             title: chipData.courseID + " " + chipData.title.ch,
@@ -509,26 +578,58 @@ export default {
         }
         this.body_data[r][c]["chip"] = tmp_list;
       }
+      this.body_data[r][c]["color"] = this.get_table_card_color(
+        this.body_data[r][c]["chip"]
+      );
+    },
+    // 取得表格內 card 顏色
+    get_table_card_color(chip) {
+      if (chip.length > 1) {
+        return "red";
+      }
+      return "white";
     },
     // 搜尋課程
     search_course() {
-      if (this.search_input === "") return false;
+      if (this.search_input === "" && this.fliter_chips.length === 0)
+        return false;
       this.search_list = [];
       var flag = 0;
       for (var i = 0; i < this.course_data.data.length; i++) {
-        if (flag > 100) return 0;
+        this.search_result = "找到 " + String(flag) + " 個課程";
+        if (flag >= 150) {
+          this.search_result =
+            "找到 " +
+            String(flag) +
+            "+ 項資料，最多顯示 " +
+            String(flag) +
+            " 筆資料";
+          return 0;
+        }
         let tmp = this.course_data.data[i];
-        let tmp_json = [tmp.courseID, tmp.title.ch, tmp.title.en, tmp.teacher];
+        let tmp_json = [
+          tmp.courseID,
+          tmp.title.ch,
+          tmp.title.en,
+          tmp.teacher,
+          tmp.department,
+        ];
         if (String(tmp_json).indexOf(this.search_input) !== -1) {
-          this.search_list.push({
-            title: tmp.courseID + " " + tmp.title.ch,
-            subtitle:
-              tmp.teacher + " | 學分 / 時數: " + tmp.credit + " / " + tmp.hours,
-            courseID: tmp.courseID,
-            department: tmp.department,
-            course_detail: tmp.course_detail,
-          });
-          flag += 1;
+          if (this.verify_search_item(tmp)) {
+            this.search_list.push({
+              title: tmp.courseID + " " + tmp.title.ch,
+              subtitle:
+                tmp.teacher +
+                " | 學分 / 時數: " +
+                tmp.credit +
+                " / " +
+                tmp.hours,
+              courseID: tmp.courseID,
+              department: tmp.department,
+              course_detail: tmp.course_detail,
+            });
+            flag += 1;
+          }
         }
       }
       if (this.search_list.length === 0) {
@@ -538,6 +639,74 @@ export default {
           courseID: "0000",
         });
       }
+    },
+    // 驗證 fliter 後資料是否可用
+    verify_search_item(item) {
+      var time_exite = false;
+      var department_exite = false;
+      var time_flag = false;
+      var department_flag = false;
+      if (this.fliter_chips.length == 0) {
+        return true;
+      } else {
+        for (var i = 0; i < this.fliter_chips.length; i++) {
+          var tmp_time = false;
+          for (var j = 0; j < this.fliter_time.length; j++) {
+            if (this.fliter_chips[i] === this.fliter_time[j]) {
+              tmp_time = true;
+              time_exite = true;
+              if (this.single_verify_search_item_time(j, item)) {
+                time_flag = true;
+              }
+            }
+          }
+          if (!tmp_time) {
+            department_exite = true;
+            if (
+              this.single_verify_search_item_department(
+                this.fliter_chips[i],
+                item
+              )
+            ) {
+              department_flag = true;
+            }
+          }
+        }
+        if (time_exite === true && department_exite === true) {
+          if (time_flag === true && department_flag === true) {
+            return true;
+          }
+        } else {
+          if (time_flag === true || department_flag === true) {
+            return true;
+          }
+        }
+      }
+      return false;
+    },
+    // 驗證 fliter 後資料是否可用
+    single_verify_search_item_time(j, item) {
+      for (var k = 0; k < item.course_detail.length; k++) {
+        if (item.course_detail[k].courseTime === Math.floor(j / 2) + 1) {
+          for (var l = 0; l < item.course_detail[k].sessions.length; l++) {
+            if (item.course_detail[k].sessions[l] <= 4 && j % 2 == 0) {
+              return true;
+            } else if (item.course_detail[k].sessions[l] >= 5 && j % 2 == 1) {
+              return true;
+            }
+          }
+        }
+      }
+      return false;
+    },
+    // 驗證 fliter 後資料是否可用
+    single_verify_search_item_department(fliter, item) {
+      for (var j = 0; j < item.department_level.length; j++) {
+        if (fliter === item.department_level[j].original) {
+          return true;
+        }
+      }
+      return false;
     },
     // 取得課程選擇項目按鈕
     get_status_icon(ID) {
@@ -611,6 +780,23 @@ export default {
         });
       }
     },
+    // overlay
+    get_compulsory(course, department_level) {
+      var flag = -1;
+      for (var i = 0; i < course.department_level.length; i++) {
+        if (department_level == course.department_level[i].original) {
+          flag = i;
+        }
+      }
+      if (flag === -1) {
+        return "Error!";
+      }
+      let compulsory_len = course.compulsory.length;
+      if (flag > compulsory_len) {
+        return course.compulsory[compulsory_len - 1];
+      }
+      return course.compulsory[flag];
+    },
     // 獲得課程資訊
     get_courseID_data(ID) {
       for (var i = 0; i < this.course_data.data.length; i++) {
@@ -619,6 +805,10 @@ export default {
         }
       }
       return "error";
+    },
+    fliter_remove(item) {
+      this.fliter_chips.splice(this.fliter_chips.indexOf(item), 1);
+      this.fliter_chips = [...this.fliter_chips];
     },
     onClickOutside() {
       this.overlay = false;

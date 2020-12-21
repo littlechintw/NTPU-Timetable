@@ -3,14 +3,10 @@
     <v-app-bar app dark>
       <v-toolbar-title>NTPU 課程試排</v-toolbar-title>
       <v-spacer></v-spacer>
-      <!-- <v-btn
-        rounded
-        href="https://www.google.com/maps/d/edit?mid=1FG6nbX7nVaz5NvasFz-2s6CgZ5dUHHbE"
-        target="_blank"
-      >
-        Google Map
-        <v-icon right dark>mdi-map</v-icon>
-      </v-btn> -->
+      <v-btn rounded>
+        <v-icon left dark>mdi-calendar</v-icon>
+        {{ config_data.year }} 學年 | 第 {{ config_data.semester }} 學期
+      </v-btn>
     </v-app-bar>
     <v-content>
       <v-card>
@@ -34,14 +30,15 @@
 </template>
 
 <script>
+import config from "../config.json";
 export default {
   name: "App",
-
   components: {},
 
   data: () => ({
     window_height: 700,
     window_width: 1600,
+    config_data: config,
   }),
   created: function () {
     this.window_height = window.innerHeight;
