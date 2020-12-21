@@ -15,7 +15,7 @@ def all_num_check(inputtext):
 def department_level_decode(data):
     output = []
 
-    data = data[1:-2].split('\n')
+    data = data[1:-1].split('\n')
     for info in data:
         info = info.replace(' ', '').replace('\xa0', '')
         single_data = {
@@ -29,6 +29,8 @@ def department_level_decode(data):
         elif info.find('學分學程') > -1:
             single_data['category'] = '學分學程'
         elif info.find('通識') > -1:
+            single_data['category'] = '通識'
+        elif info.find('向度') > -1:
             single_data['category'] = '通識'
         else:
             for i in range(1,6):
@@ -155,7 +157,6 @@ def get_course(year, semester, week):
             'sign': c_data[14].text,
             'sign_people': c_data[15].text,
             'max_people': c_data[16].text,
-            'url': 'https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?g_serial=' + c_data[3].text + '&g_year=' + c_data[1].text + '&g_term=' + c_data[2].text + '&show_info=part'
         }
         course_json_list.append(c_json)
 
@@ -163,18 +164,33 @@ def get_course(year, semester, week):
 
 start_time = str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
 all_course_list = []
+fliter_item = []
+
+print('Read Config...')
+with open('clawer_config.json') as config_file:
+    config_data = json.load(config_file)
+    print('Config: ' + str(config_data))
 
 for i in range(1, 8):
-    print('Write week %d' % i)
-    temp_list = get_course(109, 1, i)
+    print('Read week - %d' % i)
+    temp_list = get_course(config_data['year'], config_data['semester'], i)
     for temp in temp_list:
         all_course_list.append(temp)
+
+for course in all_course_list:
+    for department in course['department_level']:
+        if department['original'] not in fliter_item:
+            fliter_item.append(department['original'])
+
+fliter_item.sort()
+
 end_time = str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
 
 output = {
     'start_time': start_time,
     'end_time': end_time,
     'data': all_course_list,
+    'fliter_item': fliter_item,
 }
 
 with open('all_course_list.json', 'w', newline='', encoding='utf-8') as outfile:
