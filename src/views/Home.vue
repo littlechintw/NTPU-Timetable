@@ -29,6 +29,7 @@
 
           <br /><br />
           <h1>{{ overlay_data.title.ch }} | {{ overlay_data.title.en }}</h1>
+          <h4>{{ overlay_data.title.other }}</h4>
           <br />
           <h3>時數: {{ overlay_data.hours }}</h3>
           <h3>學分數: {{ overlay_data.credit }}</h3>
@@ -147,8 +148,11 @@
                 outlined
                 v-for="data in search_list"
                 :key="data"
+                :color="data.color"
                 @click="
-                  overlay = !overlay;
+                  if (data.courseID != '0000') {
+                    overlay = !overlay;
+                  }
                   overlay_courseID = data.courseID;
                   write_overlay();
                 "
@@ -244,6 +248,24 @@
                 </v-list-item>
               </v-card>
             </v-list>
+          </v-card>
+        </v-card>
+
+        <!-- Support Table -->
+        <br />
+        <v-card class="align-self-center" flat>
+          <v-card
+            class="pa-2 mx-auto"
+            elevation="5"
+            align="center"
+            justify="center"
+            outlined
+            tile
+            min-width="200px"
+            min-height="50px"
+          >
+            <h4>發生問題、課程問題，請寄送 Email 至</h4>
+            <a>ntpu-timetable-support@googlegroups.com</a>
           </v-card>
         </v-card>
       </v-col>
@@ -346,6 +368,7 @@ export default {
         title: "[Feature🛠] Search🔍",
         subtitle: "You can fill in the key word and search courses!",
         courseID: "0000",
+        color: "",
       },
     ],
     fliter_chips: [],
@@ -615,7 +638,8 @@ export default {
           tmp.department,
         ];
         if (String(tmp_json).indexOf(this.search_input) !== -1) {
-          if (this.verify_search_item(tmp)) {
+          let fliter_flag = this.verify_search_item(tmp);
+          if (fliter_flag.result === true) {
             this.search_list.push({
               title: tmp.courseID + " " + tmp.title.ch,
               subtitle:
@@ -627,6 +651,7 @@ export default {
               courseID: tmp.courseID,
               department: tmp.department,
               course_detail: tmp.course_detail,
+              color: fliter_flag.color,
             });
             flag += 1;
           }
@@ -637,6 +662,7 @@ export default {
           title: "404 Not Found!",
           subtitle: "Please change the key word and search again!",
           courseID: "0000",
+          color: "orange",
         });
       }
     },
@@ -646,8 +672,12 @@ export default {
       var department_exite = false;
       var time_flag = false;
       var department_flag = false;
+      var color_flag = "";
       if (this.fliter_chips.length == 0) {
-        return true;
+        return {
+          result: true,
+          color: "",
+        };
       } else {
         for (var i = 0; i < this.fliter_chips.length; i++) {
           var tmp_time = false;
@@ -669,20 +699,35 @@ export default {
               )
             ) {
               department_flag = true;
+              if (color_flag === "") {
+                color_flag = this.get_search_item_department_color(
+                  this.fliter_chips[i],
+                  item
+                );
+              }
             }
           }
         }
         if (time_exite === true && department_exite === true) {
           if (time_flag === true && department_flag === true) {
-            return true;
+            return {
+              result: true,
+              color: color_flag,
+            };
           }
         } else {
           if (time_flag === true || department_flag === true) {
-            return true;
+            return {
+              result: true,
+              color: color_flag,
+            };
           }
         }
       }
-      return false;
+      return {
+        result: false,
+        color: color_flag,
+      };
     },
     // 驗證 fliter 後資料是否可用
     single_verify_search_item_time(j, item) {
@@ -707,6 +752,16 @@ export default {
         }
       }
       return false;
+    },
+    // 驗證 fliter 後資料呈現顏色
+    get_search_item_department_color(fliter, item) {
+      var f = this.get_compulsory(item, fliter);
+      if (f == "必") {
+        return "#FFF1EF";
+      } else if (f == "選") {
+        return "#EDFBFF";
+      }
+      return "";
     },
     // 取得課程選擇項目按鈕
     get_status_icon(ID) {
@@ -792,7 +847,7 @@ export default {
         return "Error!";
       }
       let compulsory_len = course.compulsory.length;
-      if (flag > compulsory_len) {
+      if (flag >= compulsory_len) {
         return course.compulsory[compulsory_len - 1];
       }
       return course.compulsory[flag];
@@ -800,11 +855,44 @@ export default {
     // 獲得課程資訊
     get_courseID_data(ID) {
       for (var i = 0; i < this.course_data.data.length; i++) {
-        if (this.course_data.data[i].courseID === ID) {
+        if (this.course_data.data[i].courseID == ID) {
           return this.course_data.data[i];
         }
       }
-      return "error";
+      return {
+        year: "",
+        semester: "",
+        courseID: ID,
+        department: "",
+        department_level: [],
+        compulsory: [],
+        title: {
+          ch: "Error",
+          en: "Cannot get data",
+          limit: false,
+          other: "",
+        },
+        teacher: [""],
+        category: "",
+        credit: "",
+        hours: "",
+        language: "",
+        course_detail: [
+          {
+            courseTime: 1,
+            time_category: "",
+            sessions: [],
+            place: "",
+            original: "",
+          },
+        ],
+        sign: "",
+        sign_people: "",
+        max_people: "",
+        url: "",
+        show_credit: 0,
+        show_hours: 0,
+      };
     },
     fliter_remove(item) {
       this.fliter_chips.splice(this.fliter_chips.indexOf(item), 1);
