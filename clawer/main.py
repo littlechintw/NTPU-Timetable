@@ -196,5 +196,5 @@ output = {
 with open('all_course_list.json', 'w', newline='', encoding='utf-8') as outfile:
     json.dump(output, outfile, ensure_ascii=False, indent = 4)
 
-with open(config_data['year'] + config_data['semester'] + 'all_course_list.json', 'w', newline='', encoding='utf-8') as outfile:
+with open(str(config_data['year']) + str(config_data['semester']) + 'all_course_list.json', 'w', newline='', encoding='utf-8') as outfile:
     json.dump(output, outfile, ensure_ascii=False, indent = 4)
