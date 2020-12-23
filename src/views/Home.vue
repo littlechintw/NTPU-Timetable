@@ -369,7 +369,7 @@ export default {
     select_list: [],
     color_table: [
       "#E6B0AA",
-      "#F5B7B1",
+      "#5499C7",
       "#D7BDE2",
       "#D2B4DE",
       "#A9CCE3",
