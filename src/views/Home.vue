@@ -29,7 +29,9 @@
 
           <br /><br />
           <h1>{{ overlay_data.title.ch }} | {{ overlay_data.title.en }}</h1>
-          <h4>{{ overlay_data.title.other }}</h4>
+          <h4 v-if="overlay_data.title.other != ''">
+            {{ overlay_data.title.other }}
+          </h4>
           <br />
           <h3>時數: {{ overlay_data.hours }}</h3>
           <h3>學分數: {{ overlay_data.credit }}</h3>
@@ -77,7 +79,22 @@
             target="_blank"
           >
             <v-icon left> mdi-launch </v-icon>
-            完整資訊
+            課程大綱
+          </v-btn>
+          <v-btn
+            rounded
+            color="info"
+            :href="
+              'https://google.com/search?q=' +
+              overlay_data.title.ch +
+              ' ' +
+              overlay_data.teacher +
+              ' 北大'
+            "
+            target="_blank"
+          >
+            <v-icon left> mdi-launch </v-icon>
+            Google 找找!
           </v-btn>
 
           <br /><br />
@@ -213,7 +230,9 @@
                 v-for="data in select_list"
                 :key="data"
                 @click="
-                  overlay = !overlay;
+                  if (data.courseID != '0000') {
+                    overlay = !overlay;
+                  }
                   overlay_courseID = data.courseID;
                   write_overlay();
                 "
@@ -272,7 +291,7 @@
 
       <v-col cols="12" md="8">
         <!-- Time Table -->
-        <div ref="thehtml">
+        <div ref="table_capture">
           <v-simple-table>
             <template v-slot:default>
               <thead>
@@ -327,7 +346,9 @@
                             v-for="data in item.chip"
                             :key="data"
                             @click="
-                              overlay = !overlay;
+                              if (data.courseID != '0000') {
+                                overlay = !overlay;
+                              }
                               overlay_courseID = data.courseID;
                               write_overlay();
                             "
@@ -354,6 +375,7 @@ import course_json from "../../clawer/all_course_list.json";
 export default {
   name: "Home",
   components: {},
+  props: {},
   data: () => ({
     window_height: 700,
     window_width: 1600,
@@ -443,9 +465,6 @@ export default {
       show_hours: 0,
     },
   }),
-  mounted() {
-    this.html = this.$refs.thehtml;
-  },
   methods: {
     // Init Table
     init_table() {
@@ -464,6 +483,7 @@ export default {
             tmp[j]["chip"].push({
               title: "❌",
               color: "white",
+              courseID: "0000",
             });
           }
         }

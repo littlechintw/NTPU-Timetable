@@ -57,6 +57,8 @@ def data_title_decode(data):
     else:
         limit = True
     other = data.find('font').text[3:]
+    if other.replace(' ', '') == '':
+        other = other.replace(' ', '')
     en = data.get_text().split('備註')[0].replace(ch, '')
     return {
         'ch': ch.replace('\xa0', ''),
