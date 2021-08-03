@@ -195,11 +195,11 @@ output = {
     'fliter_item': fliter_item,
 }
 
-with open('all_course_list.json', 'w', newline='', encoding='utf-8') as outfile:
+with open('clawer/all_course_list.json', 'w', newline='', encoding='utf-8') as outfile:
     json.dump(output, outfile, ensure_ascii=False, indent = 4)
 
-with open(str(config_data['year']) + str(config_data['semester']) + 'all_course_list.json', 'w', newline='', encoding='utf-8') as outfile:
+with open('clawer/' + str(config_data['year']) + str(config_data['semester']) + 'all_course_list.json', 'w', newline='', encoding='utf-8') as outfile:
     json.dump(output, outfile, ensure_ascii=False, indent = 4)
 
-with open('history/' + str(time.strftime("%Y-%m-%d", time.localtime())) + '_' + str(config_data['year']) + str(config_data['semester']) + 'all_course_list.json', 'w', newline='', encoding='utf-8') as outfile:
+with open('clawer/history/' + str(time.strftime("%Y-%m-%d", time.localtime())) + '_' + str(config_data['year']) + str(config_data['semester']) + 'all_course_list.json', 'w', newline='', encoding='utf-8') as outfile:
     json.dump(output, outfile, ensure_ascii=False, indent = 4)
