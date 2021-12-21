@@ -169,7 +169,7 @@ all_course_list = []
 fliter_item = []
 
 print('Read Config...')
-with open('config.json') as config_file:
+with open('../config.json') as config_file:
     config_data = json.load(config_file)
     print('Config: ' + str(config_data))
 
