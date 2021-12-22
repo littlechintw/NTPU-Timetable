@@ -283,6 +283,18 @@
             min-width="200px"
             min-height="50px"
           >
+            <br />
+            <v-btn rounded dark :href="'https://hackmd.io'" target="_blank">
+              <v-icon left> mdi-launch </v-icon>
+              操作手冊
+            </v-btn>
+            <br />
+            <br />
+            <v-btn dark depressed color="red" @click="reset_all">
+              重設所有資料
+            </v-btn>
+            <br />
+            <br />
             <h4>發生問題、課程問題，請寄送 Email 至</h4>
             <a>ntpu-timetable-support@googlegroups.com</a>
           </v-card>
@@ -352,6 +364,12 @@
                               overlay_courseID = data.courseID;
                               write_overlay();
                             "
+                            style="
+                              width: 70px;
+                              height: auto;
+                              white-space: normal;
+                              text-align: center;
+                            "
                           >
                             {{ data.title }}
                           </v-chip>
@@ -414,13 +432,13 @@ export default {
     select_list: [],
     color_table: [
       "#E6B0AA",
-      "#5499C7",
-      "#D7BDE2",
+      "#FFE181",
       "#D2B4DE",
       "#A9CCE3",
       "#AED6F1",
       "#A3E4D7",
       "#A2D9CE",
+      "#E2BDD6",
       "#A9DFBF",
       "#ABEBC6",
       "#F9E79F",
@@ -854,6 +872,11 @@ export default {
           course_detail: tmp_list[i].course_detail,
         });
       }
+    },
+    reset_all() {
+      localStorage.setItem("SelectCourse", []);
+      this.select_list_maker();
+      this.init_table();
     },
     // overlay
     get_compulsory(course, department_level) {
