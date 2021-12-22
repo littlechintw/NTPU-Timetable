@@ -284,7 +284,12 @@
             min-height="50px"
           >
             <br />
-            <v-btn rounded dark :href="'https://hackmd.io'" target="_blank">
+            <v-btn
+              rounded
+              dark
+              :href="'https://hackmd.io/@littlechin/rJYHHfeiK'"
+              target="_blank"
+            >
               <v-icon left> mdi-launch </v-icon>
               操作手冊
             </v-btn>
