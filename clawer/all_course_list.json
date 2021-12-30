@@ -1,6 +1,6 @@
 {
-    "start_time": "2021-12-28 01:03:58",
-    "end_time": "2021-12-28 01:04:46",
+    "start_time": "2021-12-30 01:03:32",
+    "end_time": "2021-12-30 01:03:59",
     "data": [
         {
             "year": "110",
@@ -6128,8 +6128,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一2~4\t"
+                    "place": "資1F-10",
+                    "original": "每週一2~4\t資1F-10"
                 }
             ],
             "sign": "否",
@@ -6506,8 +6506,9 @@
             },
             "teacher": [
                 "游擱嘉",
+                "陳淑玲",
                 "吳孟紋",
-                "陳淑玲"
+                "涂登才"
             ],
             "category": "半",
             "credit": "3",
@@ -10739,8 +10740,8 @@
                         5,
                         6
                     ],
-                    "place": "",
-                    "original": "每週一5~6\t"
+                    "place": "法5F19",
+                    "original": "每週一5~6\t法5F19"
                 }
             ],
             "sign": "否",
@@ -13601,7 +13602,7 @@
                 "ch": "不動產與城鄉環境實務操作",
                 "en": "Intership of real estate and built environment",
                 "limit": true,
-                "other": "B組，詳細選課流程資訊預計於110年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。109-2學期將採用新方式選課，同意選課之名單由系辦公室統一通知課務組，若有疑問請洽系辦公室。"
+                "other": "B組，詳細選課流程資訊預計於111年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。110-2學期將採用新方式選課，同意選課之名單由系辦公室統一通知課務組，若有疑問請洽系辦公室。"
             },
             "teacher": [
                 "曾明遜"
@@ -13806,7 +13807,7 @@
                 "ch": "不動產與城鄉環境實務操作",
                 "en": "Intership of real estate and built environment",
                 "limit": true,
-                "other": "D組，詳細選課流程資訊預計於110年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。109-2學期將採用新方式選課，同意選課之名單由系辦公室統一通知課務組，若有疑問請洽系辦公室。"
+                "other": "D組，詳細選課流程資訊預計於111年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。110-2學期將採用新方式選課，同意選課之名單由系辦公室統一通知課務組，若有疑問請洽系辦公室。"
             },
             "teacher": [
                 "黃健彰"
@@ -14265,7 +14266,7 @@
                 "ch": "不動產與城鄉環境實務操作",
                 "en": "Intership of real estate and built environment",
                 "limit": true,
-                "other": "F組，詳細選課流程資訊預計於110年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。109-2學期將採用新方式選課，同意選課之名單由系辦公室統一通知課務組，若有疑問請洽系辦公室。"
+                "other": "F組，詳細選課流程資訊預計於111年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。110-2學期將採用新方式選課，同意選課之名單由系辦公室統一通知課務組，若有疑問請洽系辦公室。"
             },
             "teacher": [
                 "******"
@@ -14782,8 +14783,8 @@
                         5,
                         6
                     ],
-                    "place": "文2F07",
-                    "original": "每週一5~6\t文2F07"
+                    "place": "文2F12",
+                    "original": "每週一5~6\t文2F12"
                 }
             ],
             "sign": "否",
@@ -21686,9 +21687,16 @@
                     "class": "",
                     "category": "歷史碩",
                     "original": "歷史碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "歷史碩",
+                    "original": "歷史碩2"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -21697,7 +21705,7 @@
                 "ch": "史學與文化資產之理論、方法與實踐",
                 "en": "Theory, Method and Practice of History and Cultural Heritage",
                 "limit": false,
-                "other": "本課程除了3學分正課外，另包含研究實作之指導18小時(6次指導6*3H)，研究實作之指導時間將於第一次上課時公告。\r\n教師授課時數4小時"
+                "other": "上課教室：文8F09。本課程除了3學分正課外，另包含研究實作之指導18小時(6次指導6*3H)，研究實作之指導時間將於第一次上課時公告。\r\n教師授課時數4小時"
             },
             "teacher": [
                 "王淳熙",
@@ -21716,74 +21724,13 @@
                         6,
                         7
                     ],
-                    "place": "文1F10",
-                    "original": "每週一5~7\t文1F10"
+                    "place": "",
+                    "original": "每週一5~7\t"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "3"
-        },
-        {
-            "year": "110",
-            "semester": "2",
-            "courseID": "M5212",
-            "department": "歷史碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "歷史碩",
-                    "original": "歷史碩1"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "歷史實踐與文化資產學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "歷史實踐與文化資產學士微學程"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "史學與文化資產之理論、方法與實踐",
-                "en": "Theory, Method and Practice of History and Cultural Heritage",
-                "limit": false,
-                "other": "本課程除了3學分正課外，另包含研究實作之指導18小時(6次指導6*3H)，研究實作之指導時間將於第一次上課時公告。"
-            },
-            "teacher": [
-                "蔡龍保",
-                "王淳熙"
-            ],
-            "category": "半",
-            "credit": "4",
-            "hours": "4",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 1,
-                    "time_category": "A",
-                    "sessions": [
-                        5,
-                        6,
-                        7
-                    ],
-                    "place": "文1F10",
-                    "original": "每週一5~7\t文1F10"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "3"
+            "max_people": "6"
         },
         {
             "year": "110",
@@ -21826,7 +21773,7 @@
                 "ch": "史學與文化資產之理論、方法與實踐",
                 "en": "Theory, Method and Practice of History and Cultural Heritage",
                 "limit": true,
-                "other": "本課程除了3學分正課外，另包含研究實作之指導18小時(6次指導6*3H)，研究實作之指導時間將於第一次上課時公告。\r\n教師授課時數4小時"
+                "other": "上課教室：文8F09。本課程除了3學分正課外，另包含研究實作之指導18小時(6次指導6*3H)，研究實作之指導時間將於第一次上課時公告。\r\n教師授課時數4小時"
             },
             "teacher": [
                 "蔡龍保",
@@ -21845,8 +21792,8 @@
                         6,
                         7
                     ],
-                    "place": "文1F10",
-                    "original": "每週一5~7\t文1F10"
+                    "place": "",
+                    "original": "每週一5~7\t"
                 }
             ],
             "sign": "否",
@@ -23026,8 +22973,8 @@
                         7,
                         8
                     ],
-                    "place": "文2F07",
-                    "original": "每週一7~8\t文2F07"
+                    "place": "文2F12",
+                    "original": "每週一7~8\t文2F12"
                 }
             ],
             "sign": "否",
@@ -24223,8 +24170,8 @@
                         7,
                         8
                     ],
-                    "place": "文2F12",
-                    "original": "每週一7~8\t文2F12"
+                    "place": "文2F07",
+                    "original": "每週一7~8\t文2F07"
                 }
             ],
             "sign": "否",
@@ -24286,8 +24233,8 @@
                         5,
                         6
                     ],
-                    "place": "文2F12",
-                    "original": "每週一5~6\t文2F12"
+                    "place": "文2F07",
+                    "original": "每週一5~6\t文2F07"
                 }
             ],
             "sign": "否",
@@ -27215,7 +27162,7 @@
                 "ch": "資源管理專題討論（四）",
                 "en": "Seminar on Natural Resources Management IV ",
                 "limit": false,
-                "other": "109.2.25通知上課時間更改為星期二7-8節\r\n109.3.6通知設課時間更改為星期二5-6節"
+                "other": " "
             },
             "teacher": [
                 "李育明"
@@ -39721,8 +39668,8 @@
                         5,
                         6
                     ],
-                    "place": "",
-                    "original": "每週二5~6\t"
+                    "place": "法2F13",
+                    "original": "每週二5~6\t法2F13"
                 }
             ],
             "sign": "否",
@@ -40179,8 +40126,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週二7~8\t"
+                    "place": "法2F13",
+                    "original": "每週二7~8\t法2F13"
                 }
             ],
             "sign": "否",
@@ -45952,8 +45899,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週二5~7\t"
+                    "place": "公2F35",
+                    "original": "每週二5~7\t公2F35"
                 }
             ],
             "sign": "否",
@@ -47191,6 +47138,59 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "M6052",
+            "department": "企博",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "A",
+                    "category": "企博",
+                    "original": "企博2A"
+                },
+                {
+                    "grade": "2",
+                    "class": "A",
+                    "category": "企碩",
+                    "original": "企碩2A"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "跨文化管理研究專題研討",
+                "en": "Seminar on Cross-cultural management and research",
+                "limit": false,
+                "other": "*1101229通知異動上課時間，原(四)5-7改(二)。\r\n上課教室：商4F05-3。"
+            },
+            "teacher": [
+                "陳心懿"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "",
+                    "original": "每週二5~7\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M6053",
             "department": "企碩",
             "department_level": [
@@ -47254,8 +47254,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週二2~4\t"
+                    "place": "資1F-14",
+                    "original": "每週二2~4\t資1F-14"
                 }
             ],
             "sign": "否",
@@ -55048,10 +55048,10 @@
                 "ch": "不動產與城鄉環境進階專題討論（二）",
                 "en": "Advanced Seminar in Real Estate and Built Environment II",
                 "limit": false,
-                "other": "109學年度(含)以後入學者為必修，1學分2小時。108學年度以前入學者可選為選修課，但仍須完成修業規定中所要求的原本各項規定。進階專討(一一)至(四)之間無關聯性可依照學生需求自行修課。"
+                "other": "*1101229通知異動授課老師。109學年度(含)以後入學者為必修，1學分2小時。108學年度以前入學者可選為選修課，但仍須完成修業規定中所要求的原本各項規定。進階專討(一)至(四)之間無關聯性可依照學生需求自行修課。"
             },
             "teacher": [
-                "陳國華"
+                "******"
             ],
             "category": "半",
             "credit": "1",
@@ -55065,8 +55065,8 @@
                         7,
                         8
                     ],
-                    "place": "公2F01",
-                    "original": "每週三7~8\t公2F01"
+                    "place": "公1F10",
+                    "original": "每週三7~8\t公1F10"
                 }
             ],
             "sign": "否",
@@ -55182,7 +55182,7 @@
                 "ch": "不動產與城鄉環境專題討論(二)",
                 "en": "Seminar on Real Estate and Built Environment II",
                 "limit": true,
-                "other": "碩一請選專討（二），碩二請選專討（四）。公院227教室。為避免選錯課程，若非碩一欲選本科，請在加退選期間與系辦公室聯絡。"
+                "other": "碩一請選專討（二），碩二請選專討（四）。為避免選錯課程，若非碩一欲選本科，請在加退選期間與系辦公室聯絡。"
             },
             "teacher": [
                 "洪鴻智"
@@ -55273,10 +55273,10 @@
                 "ch": "不動產與城鄉環境專題討論(四)",
                 "en": "Seminar on Real Estate and Built Environment IV",
                 "limit": false,
-                "other": "碩一請選專討（二），碩二請選專討（四）。公院226教室。"
+                "other": "*1101229通知異動授課教師。碩一請選專討（二），碩二請選專討（四）。"
             },
             "teacher": [
-                "游舜德"
+                "陳國華"
             ],
             "category": "半",
             "credit": "1",
@@ -55364,10 +55364,10 @@
                 "ch": "不動產與城鄉環境進階專題討論（四）",
                 "en": "Advanced Seminar in Real Estate and Built Environment Ⅳ",
                 "limit": false,
-                "other": "109學年度(含)以後入學者為必修，1學分2小時。108學年度以前入學者可選為選修課，但仍須完成修業規定中所要求的原本各項規定。進階專討(一一)至(四)之間無關聯性可依照學生需求自行修課。"
+                "other": "109學年度(含)以後入學者為必修，1學分2小時。108學年度以前入學者可選為選修課，但仍須完成修業規定中所要求的原本各項規定。進階專討(一)至(四)之間無關聯性可依照學生需求自行修課。"
             },
             "teacher": [
-                "彭序文"
+                "******"
             ],
             "category": "半",
             "credit": "1",
@@ -55381,8 +55381,8 @@
                         7,
                         8
                     ],
-                    "place": "公2F02",
-                    "original": "每週三7~8\t公2F02"
+                    "place": "公1F02",
+                    "original": "每週三7~8\t公1F02"
                 }
             ],
             "sign": "否",
@@ -64900,8 +64900,8 @@
                         9,
                         10
                     ],
-                    "place": "",
-                    "original": "每週三9~10\t"
+                    "place": "公1F01",
+                    "original": "每週三9~10\t公1F01"
                 }
             ],
             "sign": "是",
@@ -70550,6 +70550,66 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "M5104",
+            "department": "犯罪學碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "犯罪學碩士學分微學程"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "暴力犯罪專題研究",
+                "en": "Seminar on Violent Crime",
+                "limit": false,
+                "other": "教室:台北教學大樓820研討室。（與在職專班合班上課）"
+            },
+            "teacher": [
+                "侯崇文"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "820",
+                    "original": "每週三10~12\t820"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "6"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M5111",
             "department": "電機碩",
             "department_level": [
@@ -70588,7 +70648,7 @@
                 "ch": "機器學習於金融科技之應用",
                 "en": "Machine Learning Application for Financial Technology",
                 "limit": false,
-                "other": "與學士班合班。課程有實驗需求，部分週次需至實驗室授課，上課地點：電資大樓411嵌入式系統實驗室。"
+                "other": "[停開]與學士班合班。課程有實驗需求，部分週次需至實驗室授課，上課地點：電資大樓411嵌入式系統實驗室。1101228通知停開。"
             },
             "teacher": [
                 "******"
@@ -70895,7 +70955,7 @@
                 "ch": "居住環境專題研究",
                 "en": "Living Environment Seminar",
                 "limit": false,
-                "other": "第2教室：公832，博碩士班不限年級均可選修。"
+                "other": "博碩士班不限年級均可選修。"
             },
             "teacher": [
                 "王世燁"
@@ -71700,6 +71760,12 @@
             "department_level": [
                 {
                     "grade": "1",
+                    "class": "A",
+                    "category": "企博",
+                    "original": "企博1A"
+                },
+                {
+                    "grade": "1",
                     "class": "",
                     "category": "財務金融碩士學位學程",
                     "original": "財務金融碩士學位學程1"
@@ -71730,6 +71796,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -71959,8 +72026,8 @@
                         8,
                         9
                     ],
-                    "place": "",
-                    "original": "每週三7~9\t"
+                    "place": "商2F03",
+                    "original": "每週三7~9\t商2F03"
                 }
             ],
             "sign": "是",
@@ -75038,8 +75105,8 @@
                         8,
                         9
                     ],
-                    "place": "",
-                    "original": "每週三7~9\t"
+                    "place": "商2F03",
+                    "original": "每週三7~9\t商2F03"
                 }
             ],
             "sign": "是",
@@ -75179,7 +75246,7 @@
                 "ch": "機器學習於金融科技之應用",
                 "en": "Machine Learning Application for Financial Technology",
                 "limit": false,
-                "other": "與碩士班合班。課程有實驗需求，部分週次需至實驗室授課，上課地點：電資大樓411嵌入式系統實驗室。"
+                "other": "[停開]與碩士班合班。課程有實驗需求，部分週次需至實驗室授課，上課地點：電資大樓411嵌入式系統實驗室。1101228通知停開。"
             },
             "teacher": [
                 "******"
@@ -79064,8 +79131,8 @@
                     "sessions": [
                         13
                     ],
-                    "place": "",
-                    "original": "每週四13~13\t"
+                    "place": "411",
+                    "original": "每週四13~13\t411"
                 }
             ],
             "sign": "否",
@@ -79091,7 +79158,7 @@
             "title": {
                 "ch": "游泳（一）",
                 "en": "Swimming(1)",
-                "limit": true,
+                "limit": false,
                 "other": "1.上課地點：本校游泳池。2.開學第一週，請同學攜帶泳具至泳池上課。3.上學期為12節，下學期為34節。"
             },
             "teacher": [
@@ -79188,7 +79255,7 @@
             "title": {
                 "ch": "游泳（一）",
                 "en": "Swimming(1)",
-                "limit": true,
+                "limit": false,
                 "other": "1.上課地點：本校游泳池。2.開學第一週，請同學攜帶泳具至泳池上課。3.上學期為34節，下學期為12節。"
             },
             "teacher": [
@@ -79363,8 +79430,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週四2~4\t"
+                    "place": "商1F15",
+                    "original": "每週四2~4\t商1F15"
                 }
             ],
             "sign": "否",
@@ -79810,8 +79877,8 @@
                         12,
                         13
                     ],
-                    "place": "306",
-                    "original": "每週四12~13\t306"
+                    "place": "208",
+                    "original": "每週四12~13\t208"
                 }
             ],
             "sign": "否",
@@ -79862,8 +79929,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週四10~11\t"
+                    "place": "307",
+                    "original": "每週四10~11\t307"
                 }
             ],
             "sign": "否",
@@ -80084,8 +80151,8 @@
                         10,
                         11
                     ],
-                    "place": "306",
-                    "original": "每週四10~11\t306"
+                    "place": "208",
+                    "original": "每週四10~11\t208"
                 }
             ],
             "sign": "否",
@@ -82196,7 +82263,7 @@
                 "ch": "社會科學研究法",
                 "en": "Research Method for Social Science",
                 "limit": false,
-                "other": "教室-三峽社科大樓512研討室（林育聖教授2學分，黃沈伯洋教授1學分）"
+                "other": "教室-三峽社科大樓512研討室（林育聖教授2學分，沈伯洋教授1學分）"
             },
             "teacher": [
                 "林育聖",
@@ -82399,6 +82466,52 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "M5204",
+            "department": "經博",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "經博",
+                    "original": "經博1"
+                }
+            ],
+            "compulsory": [
+                "必"
+            ],
+            "title": {
+                "ch": "數量方法（二）",
+                "en": "Quantitative Methods Ⅱ",
+                "limit": false,
+                "other": " "
+            },
+            "teacher": [
+                "王健合"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "",
+                    "original": "每週四2~4\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "5"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M5347",
             "department": "企碩",
             "department_level": [
@@ -82430,7 +82543,7 @@
             "compulsory": [
                 "必",
                 "必",
-                "選",
+                "必",
                 "必"
             ],
             "title": {
@@ -82990,8 +83103,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週四10~12\t"
+                    "place": "505",
+                    "original": "每週四10~12\t505"
                 }
             ],
             "sign": "否",
@@ -83173,8 +83286,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週四10~12\t"
+                    "place": "411",
+                    "original": "每週四10~12\t411"
                 }
             ],
             "sign": "否",
@@ -83381,8 +83494,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週四10~12\t"
+                    "place": "302",
+                    "original": "每週四10~12\t302"
                 }
             ],
             "sign": "否",
@@ -90279,8 +90392,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週四3~4\t"
+                    "place": "法2F19",
+                    "original": "每週四3~4\t法2F19"
                 }
             ],
             "sign": "否",
@@ -90578,8 +90691,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週四10~11\t"
+                    "place": "102",
+                    "original": "每週四10~11\t102"
                 }
             ],
             "sign": "否",
@@ -90967,8 +91080,8 @@
                         12,
                         13
                     ],
-                    "place": "",
-                    "original": "每週四12~13\t"
+                    "place": "308",
+                    "original": "每週四12~13\t308"
                 }
             ],
             "sign": "否",
@@ -91269,8 +91382,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週四10~11\t"
+                    "place": "308",
+                    "original": "每週四10~11\t308"
                 }
             ],
             "sign": "否",
@@ -93757,7 +93870,7 @@
             "title": {
                 "ch": "不動產開發",
                 "en": "Real Estate Development",
-                "limit": true,
+                "limit": false,
                 "other": "主修經營與管理組(原不動產組)者必選，其他組別為選修。合班授課。"
             },
             "teacher": [
@@ -95842,7 +95955,7 @@
                 "ch": "不動產財經計量分析",
                 "en": "Econometric Analysis for Real Estate Finance and Economics",
                 "limit": false,
-                "other": "[停開]教室：公433教室，博碩士班不限年級均可選修。"
+                "other": "*1101229通知開課。教室：公433教室，博碩士班不限年級均可選修。"
             },
             "teacher": [
                 "彭序文"
@@ -96170,7 +96283,7 @@
                 "ch": "深度學習於醫學影像之應用",
                 "en": "Application of Deep Learning in Medical Imaging",
                 "limit": false,
-                "other": "與學士班合班。課程有實驗需求，部分週次需至實驗室授課，上課地點：電資大樓411嵌入式系統實驗室。"
+                "other": "[停開]與學士班合班。課程有實驗需求，部分週次需至實驗室授課，上課地點：電資大樓411嵌入式系統實驗室。1101228通知停開。"
             },
             "teacher": [
                 "******"
@@ -97206,59 +97319,6 @@
         {
             "year": "110",
             "semester": "2",
-            "courseID": "M6052",
-            "department": "企博",
-            "department_level": [
-                {
-                    "grade": "2",
-                    "class": "A",
-                    "category": "企博",
-                    "original": "企博2A"
-                },
-                {
-                    "grade": "2",
-                    "class": "A",
-                    "category": "企碩",
-                    "original": "企碩2A"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "跨文化管理研究專題研討",
-                "en": "Seminar on Cross-cultural management and research",
-                "limit": false,
-                "other": "商4F05-3"
-            },
-            "teacher": [
-                "陳心懿"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "英語English",
-            "course_detail": [
-                {
-                    "courseTime": 4,
-                    "time_category": "A",
-                    "sessions": [
-                        5,
-                        6,
-                        7
-                    ],
-                    "place": "",
-                    "original": "每週四5~7\t"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "15"
-        },
-        {
-            "year": "110",
-            "semester": "2",
             "courseID": "M6060",
             "department": "法碩法專組",
             "department_level": [
@@ -97864,8 +97924,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週四10~12\t"
+                    "place": "410",
+                    "original": "每週四10~12\t410"
                 }
             ],
             "sign": "是",
@@ -98037,8 +98097,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週四10~12\t"
+                    "place": "304",
+                    "original": "每週四10~12\t304"
                 }
             ],
             "sign": "否",
@@ -98083,8 +98143,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週四10~12\t"
+                    "place": "506",
+                    "original": "每週四10~12\t506"
                 }
             ],
             "sign": "否",
@@ -98136,8 +98196,8 @@
                         11,
                         12
                     ],
-                    "place": "309",
-                    "original": "每週四10~12\t309"
+                    "place": "204",
+                    "original": "每週四10~12\t204"
                 }
             ],
             "sign": "否",
@@ -100728,7 +100788,7 @@
                 "ch": "深度學習於醫學影像之應用",
                 "en": "Application of Deep Learning in Medical Imaging",
                 "limit": false,
-                "other": "與碩士班合班。課程有實驗需求，部分週次需至實驗室授課，上課地點：電資大樓411嵌入式系統實驗室。"
+                "other": "[停開]與碩士班合班。課程有實驗需求，部分週次需至實驗室授課，上課地點：電資大樓411嵌入式系統實驗室。1101228通知停開。"
             },
             "teacher": [
                 "******"
@@ -101278,8 +101338,8 @@
                         8,
                         9
                     ],
-                    "place": "",
-                    "original": "每週四8~9\t"
+                    "place": "207",
+                    "original": "每週四8~9\t207"
                 }
             ],
             "sign": "否",
@@ -101439,8 +101499,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週四10~11\t"
+                    "place": "207",
+                    "original": "每週四10~11\t207"
                 }
             ],
             "sign": "否",
@@ -102087,7 +102147,7 @@
                 "ch": "現代西方世界的形成",
                 "en": "The Making of Modern Western Civilization",
                 "limit": false,
-                "other": "歷史系學生（含雙主修）修習者，不列入通識畢業學分。"
+                "other": "[停開]1101230通知停開。歷史系學生（含雙主修）修習者，不列入通識畢業學分。"
             },
             "teacher": [
                 "楊子政"
@@ -104175,8 +104235,8 @@
                         12,
                         13
                     ],
-                    "place": "304",
-                    "original": "每週五12~13\t304"
+                    "place": "306",
+                    "original": "每週五12~13\t306"
                 }
             ],
             "sign": "是",
@@ -105110,58 +105170,6 @@
         {
             "year": "110",
             "semester": "2",
-            "courseID": "M5036",
-            "department": "行政碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "行政博",
-                    "original": "行政博1"
-                },
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "行政碩",
-                    "original": "行政碩1"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "必"
-            ],
-            "title": {
-                "ch": "社群媒體政治專題",
-                "en": "Seminar on Social Media Politics",
-                "limit": false,
-                "other": "博士班、碩士班3組選修課程"
-            },
-            "teacher": [
-                "劉嘉薇"
-            ],
-            "category": "半",
-            "credit": "2",
-            "hours": "2",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 5,
-                    "time_category": "A",
-                    "sessions": [
-                        3,
-                        4
-                    ],
-                    "place": "公2F01",
-                    "original": "每週五3~4\t公2F01"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "10"
-        },
-        {
-            "year": "110",
-            "semester": "2",
             "courseID": "M5125",
             "department": "城市治理碩士學位學程",
             "department_level": [
@@ -105203,8 +105211,8 @@
                         5,
                         6
                     ],
-                    "place": "",
-                    "original": "每週五5~6\t"
+                    "place": "公1F01",
+                    "original": "每週五5~6\t公1F01"
                 }
             ],
             "sign": "否",
@@ -108214,7 +108222,7 @@
                 "ch": "地理資訊系統",
                 "en": "Geographic Information System",
                 "limit": true,
-                "other": "請勿跨班。特殊原因需跨班者及修習教育學程者請事先提出申請。第二教室公434 。\r\n"
+                "other": "請勿跨班。特殊原因需跨班者請事先提出申請。第二教室公434 。\r\n"
             },
             "teacher": [
                 "林柏丞"
@@ -109208,8 +109216,8 @@
                         11,
                         12
                     ],
-                    "place": "402",
-                    "original": "每週五10~12\t402"
+                    "place": "201",
+                    "original": "每週五10~12\t201"
                 }
             ],
             "sign": "否",
@@ -110270,7 +110278,7 @@
                 "ch": "個體經濟學",
                 "en": "Microeconomics",
                 "limit": false,
-                "other": "限修人數70人。\r\n先修:經濟學原理(全學年上學期及格)或經濟學6學分(全學年及格);微積分(曾修習非0分).\r\n敬請安排社 103 教室"
+                "other": "限修人數70人。\r\n先修:經濟學原理(全學年上學期及格)或經濟學6學分(全學年及格);微積分(曾修習非0分)。"
             },
             "teacher": [
                 "謝修"
@@ -111408,6 +111416,58 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "M5036",
+            "department": "行政碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "行政博",
+                    "original": "行政博1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "行政碩",
+                    "original": "行政碩1"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "社群媒體政治專題",
+                "en": "Seminar on Social Media Politics",
+                "limit": false,
+                "other": "博士班、碩士班3組選修課程"
+            },
+            "teacher": [
+                "劉嘉薇"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "公2F01",
+                    "original": "每週五3~4\t公2F01"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "10"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M5053",
             "department": "法碩法專組",
             "department_level": [
@@ -111727,7 +111787,7 @@
                 "ch": "法院組織法",
                 "en": "Judicial Organization",
                 "limit": true,
-                "other": "1.限法碩法專組學生修習，與學士班合班。2.先修科目：民法總則。"
+                "other": "1.限法碩法專組學生修習，與學士班合班。2.先修科目：民法總則、憲法。"
             },
             "teacher": [
                 "林超駿"
@@ -112185,8 +112245,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週五3~4\t"
+                    "place": "法5F16",
+                    "original": "每週五3~4\t法5F16"
                 }
             ],
             "sign": "否",
@@ -113703,7 +113763,7 @@
                 "ch": "法院組織法",
                 "en": "Judicial Organization",
                 "limit": true,
-                "other": "先修科目：民法總則，司法組任必修課程之一。"
+                "other": "先修科目：民法總則、憲法，司法組任必修課程之一。"
             },
             "teacher": [
                 "林超駿"
@@ -114405,7 +114465,7 @@
                 "ch": "不動產與城鄉環境實務操作",
                 "en": "Intership of real estate and built environment",
                 "limit": true,
-                "other": "C組，詳細選課流程資訊預計於110年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。109-2學期將採用新方式選課，同意選課之名單由系辦公室統一通知課務組，若有疑問請洽系辦公室。"
+                "other": "C組，詳細選課流程資訊預計於111年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。110-2學期將採用新方式選課，同意選課之名單由系辦公室統一通知課務組，若有疑問請洽系辦公室。"
             },
             "teacher": [
                 "林柏丞"
@@ -114575,7 +114635,7 @@
                 "ch": "不動產與城鄉環境實務操作",
                 "en": "Intership of real estate and built environment",
                 "limit": true,
-                "other": "E組，詳細選課流程資訊預計於110年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。109-2學期將採用新方式選課，同意選課之名單由系辦公室統一通知課務組，若有疑問請洽系辦公室。"
+                "other": "E組，詳細選課流程資訊預計於111年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。110-2學期將採用新方式選課，同意選課之名單由系辦公室統一通知課務組，若有疑問請洽系辦公室。"
             },
             "teacher": [
                 "******"
@@ -115746,7 +115806,7 @@
                 "ch": "不動產與城鄉環境實務操作",
                 "en": "Intership of real estate and built environment",
                 "limit": true,
-                "other": "A組，詳細選課流程資訊預計於110年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。109-2學期將採用新方式選課，同意選課之名單由系辦公室統一通知課務組，若有疑問請洽系辦公室。"
+                "other": "A組，詳細選課流程資訊預計於111年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。110-2學期將採用新方式選課，同意選課之名單由系辦公室統一通知課務組，若有疑問請洽系辦公室。"
             },
             "teacher": [
                 "顧嘉安"
@@ -117285,66 +117345,6 @@
         {
             "year": "110",
             "semester": "2",
-            "courseID": "M5104",
-            "department": "犯罪學碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "犯罪學碩",
-                    "original": "犯罪學碩1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "犯罪學碩",
-                    "original": "犯罪學碩2"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "犯罪學碩士學分微學程"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "暴力犯罪專題研究",
-                "en": "Seminar on Violent Crime",
-                "limit": false,
-                "other": "教室:台北教學大樓820研討室。（與在職專班合班上課）"
-            },
-            "teacher": [
-                "侯崇文"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 5,
-                    "time_category": "A",
-                    "sessions": [
-                        10,
-                        11,
-                        12
-                    ],
-                    "place": "715",
-                    "original": "每週五10~12\t715"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "6"
-        },
-        {
-            "year": "110",
-            "semester": "2",
             "courseID": "M5122",
             "department": "資源碩",
             "department_level": [
@@ -118436,8 +118436,8 @@
                         11,
                         12
                     ],
-                    "place": "203",
-                    "original": "每週五10~12\t203"
+                    "place": "206",
+                    "original": "每週五10~12\t206"
                 }
             ],
             "sign": "是",
@@ -118694,8 +118694,8 @@
                         8,
                         9
                     ],
-                    "place": "302",
-                    "original": "每週五7~9\t302"
+                    "place": "206",
+                    "original": "每週五7~9\t206"
                 }
             ],
             "sign": "否",
@@ -120698,8 +120698,8 @@
                         10,
                         11
                     ],
-                    "place": "303",
-                    "original": "每週五10~11\t303"
+                    "place": "402",
+                    "original": "每週五10~11\t402"
                 }
             ],
             "sign": "否",
@@ -124814,7 +124814,7 @@
             "title": {
                 "ch": "策略管理",
                 "en": "Strategy Management",
-                "limit": false,
+                "limit": true,
                 "other": "上課地點：教學大樓719"
             },
             "teacher": [
@@ -125356,8 +125356,8 @@
                         3,
                         4
                     ],
-                    "place": "法5F18",
-                    "original": "每週六3~4\t法5F18"
+                    "place": "法2F24",
+                    "original": "每週六3~4\t法2F24"
                 }
             ],
             "sign": "否",
@@ -126691,30 +126691,9 @@
                     "class": "B",
                     "category": "企博",
                     "original": "企博1B"
-                },
-                {
-                    "grade": "2",
-                    "class": "B",
-                    "category": "企碩",
-                    "original": "企碩2B"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "N/A",
-                    "original": "財務金融碩士學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "投資管理碩士微學程"
                 }
             ],
             "compulsory": [
-                "選",
-                "選",
-                "選",
                 "選"
             ],
             "title": {
