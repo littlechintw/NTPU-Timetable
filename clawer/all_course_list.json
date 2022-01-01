@@ -1,6 +1,6 @@
 {
-    "start_time": "2021-12-30 01:03:32",
-    "end_time": "2021-12-30 01:03:59",
+    "start_time": "2022-01-01 01:06:33",
+    "end_time": "2022-01-01 01:07:07",
     "data": [
         {
             "year": "110",
@@ -17947,6 +17947,52 @@
             ],
             "sign": "是",
             "sign_people": "2",
+            "max_people": "10"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "M5784",
+            "department": "企博",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "企博",
+                    "original": "企博1B"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "公司理財專題研討",
+                "en": "Seminar : Corporate Finance",
+                "limit": false,
+                "other": "*1101230通知異動上課時間，原(六)2-4改(一)7-9節。\r\n*上課教室：教學710教室。"
+            },
+            "teacher": [
+                "林美珍"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "place": "710",
+                    "original": "每週一7~9\t710"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "10"
         },
         {
@@ -49153,6 +49199,13 @@
                     ],
                     "place": "公2F27",
                     "original": "每週二2~4\t公2F27"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室公2F39"
                 }
             ],
             "sign": "否",
@@ -73266,6 +73319,52 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "N4064",
+            "department": "(進修)社工",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "(進修)社工",
+                    "original": "(進修)社工4"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "社會福利規劃與評估",
+                "en": "Planning & Evaluation for Social Welfare",
+                "limit": true,
+                "other": " "
+            },
+            "teacher": [
+                "張菁芬"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "",
+                    "original": "每週三10~12\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "P1024",
             "department": "犯碩職",
             "department_level": [
@@ -74223,6 +74322,13 @@
                     ],
                     "place": "公2F26",
                     "original": "每週三2~4\t公2F26"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室公2F39"
                 }
             ],
             "sign": "否",
@@ -77065,7 +77171,7 @@
                 "ch": "Excel之統計資料分析",
                 "en": "Excel for Statistical Data Analysis",
                 "limit": false,
-                "other": "英語授課,高年級優先；統計系學生&企管系學生(含雙主修)修習,不列入通識畢業學分；請安排電腦教室。"
+                "other": "[停開]*1101230通知停開。英語授課,高年級優先；統計系學生&企管系學生(含雙主修)修習,不列入通識畢業學分；請安排電腦教室。"
             },
             "teacher": [
                 "雷淑儀"
@@ -79377,66 +79483,6 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "5"
-        },
-        {
-            "year": "110",
-            "semester": "2",
-            "courseID": "M6024",
-            "department": "金融碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "財務金融碩士學位學程",
-                    "original": "財務金融碩士學位學程1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "財務金融碩士學位學程",
-                    "original": "財務金融碩士學位學程2"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "金融碩",
-                    "original": "金融碩2"
-                }
-            ],
-            "compulsory": [
-                "必",
-                "必",
-                "必"
-            ],
-            "title": {
-                "ch": "金融倫理學",
-                "en": "Financial Ethics",
-                "limit": false,
-                "other": " "
-            },
-            "teacher": [
-                "池祥麟"
-            ],
-            "category": "半",
-            "credit": "2",
-            "hours": "2",
-            "language": "英語English",
-            "course_detail": [
-                {
-                    "courseTime": 4,
-                    "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "商1F15",
-                    "original": "每週四2~4\t商1F15"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "40"
         },
         {
             "year": "110",
@@ -82016,8 +82062,8 @@
                         3,
                         4
                     ],
-                    "place": "文4F06",
-                    "original": "每週四3~4\t文4F06"
+                    "place": "文2F07",
+                    "original": "每週四3~4\t文2F07"
                 }
             ],
             "sign": "是",
@@ -88548,7 +88594,7 @@
                 "ch": "工程倫理與現代社會",
                 "en": "Engineering Ethics and Modern Society",
                 "limit": false,
-                "other": "與學士班合開"
+                "other": "[停開]與學士班合開。1101230停開。"
             },
             "teacher": [
                 "謝欣霖"
@@ -88773,7 +88819,7 @@
                 "ch": "工程倫理與現代社會",
                 "en": "Engineering Ethics and Modern Society",
                 "limit": false,
-                "other": "與碩士班合開"
+                "other": "[停開]與碩士班合開。1101230停開"
             },
             "teacher": [
                 "謝欣霖"
@@ -95857,73 +95903,6 @@
         {
             "year": "110",
             "semester": "2",
-            "courseID": "M5109",
-            "department": "經碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "經博",
-                    "original": "經博1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "經博",
-                    "original": "經博2"
-                },
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "經碩",
-                    "original": "經碩1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "經碩",
-                    "original": "經碩2"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選",
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "互動式經濟資料視覺化處理",
-                "en": "Interactive Economic Data Visualization",
-                "limit": false,
-                "other": "與學士班互動式經濟資料視覺化處理合班.社421系史室."
-            },
-            "teacher": [
-                "林茂廷"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 4,
-                    "time_category": "A",
-                    "sessions": [
-                        7,
-                        8,
-                        9
-                    ],
-                    "place": "",
-                    "original": "每週四7~9\t"
-                }
-            ],
-            "sign": "是",
-            "sign_people": "4",
-            "max_people": "23"
-        },
-        {
-            "year": "110",
-            "semester": "2",
             "courseID": "M5129",
             "department": "不動產城鄉碩",
             "department_level": [
@@ -98872,59 +98851,6 @@
             "sign": "是",
             "sign_people": "10",
             "max_people": "50"
-        },
-        {
-            "year": "110",
-            "semester": "2",
-            "courseID": "U2001",
-            "department": "經濟系",
-            "department_level": [
-                {
-                    "grade": "2",
-                    "class": "A",
-                    "category": "經濟系",
-                    "original": "經濟系2A"
-                },
-                {
-                    "grade": "2",
-                    "class": "B",
-                    "category": "經濟系",
-                    "original": "經濟系2B"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "互動式經濟資料視覺化處理",
-                "en": "Interactive Economic Data Visualization",
-                "limit": false,
-                "other": "與碩士班合開。社421系史室。\r\n"
-            },
-            "teacher": [
-                "林茂廷"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 4,
-                    "time_category": "A",
-                    "sessions": [
-                        7,
-                        8,
-                        9
-                    ],
-                    "place": "",
-                    "original": "每週四7~9\t"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "22"
         },
         {
             "year": "110",
@@ -105218,6 +105144,66 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "15"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "M6024",
+            "department": "金融碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "財務金融碩士學位學程",
+                    "original": "財務金融碩士學位學程1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "財務金融碩士學位學程",
+                    "original": "財務金融碩士學位學程2"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "金融碩",
+                    "original": "金融碩2"
+                }
+            ],
+            "compulsory": [
+                "必",
+                "必",
+                "必"
+            ],
+            "title": {
+                "ch": "金融倫理學",
+                "en": "Financial Ethics",
+                "limit": false,
+                "other": "*1101230通知異動上課時間，原(四)2-4改(五)2-4。"
+            },
+            "teacher": [
+                "池祥麟"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "",
+                    "original": "每週五2~4\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
         },
         {
             "year": "110",
@@ -117345,6 +117331,73 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "M5109",
+            "department": "經碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "經博",
+                    "original": "經博1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "經博",
+                    "original": "經博2"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "經碩",
+                    "original": "經碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "經碩",
+                    "original": "經碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "互動式經濟資料視覺化處理",
+                "en": "Interactive Economic Data Visualization",
+                "limit": false,
+                "other": "與學士班互動式經濟資料視覺化處理合班.社421系史室."
+            },
+            "teacher": [
+                "林茂廷"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        8,
+                        9,
+                        10
+                    ],
+                    "place": "",
+                    "original": "每週五8~10\t"
+                }
+            ],
+            "sign": "是",
+            "sign_people": "4",
+            "max_people": "23"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M5122",
             "department": "資源碩",
             "department_level": [
@@ -119088,6 +119141,59 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "43"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "U2001",
+            "department": "經濟系",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "A",
+                    "category": "經濟系",
+                    "original": "經濟系2A"
+                },
+                {
+                    "grade": "2",
+                    "class": "B",
+                    "category": "經濟系",
+                    "original": "經濟系2B"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "互動式經濟資料視覺化處理",
+                "en": "Interactive Economic Data Visualization",
+                "limit": false,
+                "other": "與碩士班合開。社421系史室。\r\n"
+            },
+            "teacher": [
+                "林茂廷"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        8,
+                        9,
+                        10
+                    ],
+                    "place": "",
+                    "original": "每週五8~10\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "22"
         },
         {
             "year": "110",
@@ -126683,52 +126789,6 @@
         {
             "year": "110",
             "semester": "2",
-            "courseID": "M5784",
-            "department": "企博",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "B",
-                    "category": "企博",
-                    "original": "企博1B"
-                }
-            ],
-            "compulsory": [
-                "選"
-            ],
-            "title": {
-                "ch": "公司理財專題研討",
-                "en": "Seminar : Corporate Finance",
-                "limit": false,
-                "other": " "
-            },
-            "teacher": [
-                "林美珍"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 6,
-                    "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "",
-                    "original": "每週六2~4\t"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "10"
-        },
-        {
-            "year": "110",
-            "semester": "2",
             "courseID": "M6032",
             "department": "企博",
             "department_level": [
@@ -127756,10 +127816,10 @@
                 "選"
             ],
             "title": {
-                "ch": "政治社會學",
-                "en": "Political Sociology",
+                "ch": "社會不平等",
+                "en": "Social Inequality",
                 "limit": false,
-                "other": " "
+                "other": "1101230依系所通知原「政治社會學」更名為「社會不平等」。"
             },
             "teacher": [
                 "沈幼蓀"
