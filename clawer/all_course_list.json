@@ -1,6 +1,6 @@
 {
-    "start_time": "2022-01-01 01:06:33",
-    "end_time": "2022-01-01 01:07:07",
+    "start_time": "2022-01-06 01:11:44",
+    "end_time": "2022-01-06 01:12:19",
     "data": [
         {
             "year": "110",
@@ -2487,10 +2487,10 @@
                 "ch": "土地行政與管理專題",
                 "en": "Seminar in Land Administration and Management",
                 "limit": true,
-                "other": "本科自105學年度開始由全年4學分改為半年2學分，重補修課程者僅需取得2學分即可不分上下學期。請注意仍應補修其他本系課程以補足畢業學分。本科不開放學士班學生選修。"
+                "other": "本科自105學年度開始由全年4學分改為半年2學分，重補修課程者僅需取得2學分即可不分上下學期。請注意仍應補修其他本系課程以補足畢業學分。本科不開放學士班學生選修。1110105依系所通知更換授課教師。"
             },
             "teacher": [
-                "紀聰吉"
+                "何彥陞"
             ],
             "category": "半",
             "credit": "2",
@@ -5361,13 +5361,13 @@
                         5,
                         6
                     ],
-                    "place": "電1F01",
-                    "original": "每週一5~6\t電1F01"
+                    "place": "法2F01",
+                    "original": "每週一5~6\t法2F01"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "104"
+            "max_people": "130"
         },
         {
             "year": "110",
@@ -7378,7 +7378,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "80"
+            "max_people": "76"
         },
         {
             "year": "110",
@@ -7512,8 +7512,8 @@
                         3,
                         4
                     ],
-                    "place": "商1F11",
-                    "original": "實習每週一3~4\t商1F11"
+                    "place": "商2F05",
+                    "original": "實習每週一3~4\t商2F05"
                 }
             ],
             "sign": "否",
@@ -7620,7 +7620,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "73"
+            "max_people": "74"
         },
         {
             "year": "110",
@@ -7722,7 +7722,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "73"
+            "max_people": "74"
         },
         {
             "year": "110",
@@ -8337,7 +8337,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "73"
+            "max_people": "74"
         },
         {
             "year": "110",
@@ -8788,7 +8788,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "71"
         },
         {
             "year": "110",
@@ -10462,7 +10462,7 @@
                 "ch": "法理學專題研究",
                 "en": "Seminar：Jurisprudence",
                 "limit": false,
-                "other": " "
+                "other": "[停開]1110103通知停開"
             },
             "teacher": [
                 "王鵬翔"
@@ -13455,7 +13455,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "109"
+            "max_people": "76"
         },
         {
             "year": "110",
@@ -16620,7 +16620,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "14"
+            "max_people": "20"
         },
         {
             "year": "110",
@@ -16845,9 +16845,16 @@
                     "class": "",
                     "category": "資訊碩",
                     "original": "資訊碩1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -18538,6 +18545,52 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "50"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "M6151",
+            "department": "企博",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "企博",
+                    "original": "企博2"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "決策支援系統專題研討",
+                "en": "Seminar : Decision Support System",
+                "limit": false,
+                "other": "*1110103通知新開課程。"
+            },
+            "teacher": [
+                "方文昌"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "",
+                    "original": "每週一10~12\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "10"
         },
         {
             "year": "110",
@@ -21352,7 +21405,7 @@
                 "ch": "衝突管理",
                 "en": "Conflict Management",
                 "limit": false,
-                "other": " "
+                "other": "上課教室：商111"
             },
             "teacher": [
                 "劉仲矩"
@@ -21370,8 +21423,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一2~4\t"
+                    "place": "商1F11",
+                    "original": "每週一2~4\t商1F11"
                 }
             ],
             "sign": "否",
@@ -23756,6 +23809,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "美學、文化與藝術學士學分學程"
                 },
@@ -23785,6 +23844,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通"
@@ -24624,6 +24684,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "美學、文化與藝術學士學分學程"
                 },
@@ -24653,6 +24719,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通"
@@ -24764,6 +24831,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "創新創業學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "101-102向度五"
                 },
@@ -24781,6 +24854,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通"
             ],
             "title": {
@@ -25665,8 +25739,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F01",
-                    "original": "每週一5~6\t法2F01"
+                    "place": "電1F01",
+                    "original": "每週一5~6\t電1F01"
                 }
             ],
             "sign": "否",
@@ -26100,8 +26174,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一3~4\t"
+                    "place": "文1F11",
+                    "original": "每週一3~4\t文1F11"
                 }
             ],
             "sign": "是",
@@ -27379,7 +27453,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "52"
+            "max_people": "60"
         },
         {
             "year": "110",
@@ -28225,8 +28299,8 @@
                         10,
                         11
                     ],
-                    "place": "204",
-                    "original": "每週二10~11\t204"
+                    "place": "202",
+                    "original": "每週二10~11\t202"
                 }
             ],
             "sign": "否",
@@ -28270,8 +28344,8 @@
                         12,
                         13
                     ],
-                    "place": "204",
-                    "original": "每週二12~13\t204"
+                    "place": "202",
+                    "original": "每週二12~13\t202"
                 }
             ],
             "sign": "否",
@@ -28777,8 +28851,8 @@
                         12,
                         13
                     ],
-                    "place": "411",
-                    "original": "每週二12~13\t411"
+                    "place": "205",
+                    "original": "每週二12~13\t205"
                 }
             ],
             "sign": "否",
@@ -29917,7 +29991,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "72"
+            "max_people": "73"
         },
         {
             "year": "110",
@@ -30375,12 +30449,6 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "N/A",
-                    "original": "文創產業行銷學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "N/A",
                     "original": "職涯探索及創新創業學程"
                 },
                 {
@@ -30424,7 +30492,6 @@
                 "選",
                 "選",
                 "選",
-                "必",
                 "必",
                 "必",
                 "必",
@@ -31255,6 +31322,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "企業社會責任學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "法律暨企業社會責任學士學分學程"
                 },
                 {
@@ -31271,6 +31344,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -33270,8 +33344,8 @@
                         11,
                         12
                     ],
-                    "place": "105",
-                    "original": "每週二10~12\t105"
+                    "place": "209",
+                    "original": "每週二10~12\t209"
                 }
             ],
             "sign": "否",
@@ -35100,8 +35174,8 @@
                         3,
                         4
                     ],
-                    "place": "電1F03",
-                    "original": "每週二2~4\t電1F03"
+                    "place": "電1F01",
+                    "original": "每週二2~4\t電1F01"
                 }
             ],
             "sign": "是",
@@ -40617,8 +40691,8 @@
                         7,
                         8
                     ],
-                    "place": "202",
-                    "original": "每週二7~8\t202"
+                    "place": "211",
+                    "original": "每週二7~8\t211"
                 }
             ],
             "sign": "否",
@@ -40662,8 +40736,8 @@
                         12,
                         13
                     ],
-                    "place": "202",
-                    "original": "每週二12~13\t202"
+                    "place": "204",
+                    "original": "每週二12~13\t204"
                 }
             ],
             "sign": "否",
@@ -40707,8 +40781,8 @@
                         10,
                         11
                     ],
-                    "place": "202",
-                    "original": "每週二10~11\t202"
+                    "place": "204",
+                    "original": "每週二10~11\t204"
                 }
             ],
             "sign": "否",
@@ -41130,8 +41204,8 @@
                         12,
                         13
                     ],
-                    "place": "205",
-                    "original": "每週二12~13\t205"
+                    "place": "306",
+                    "original": "每週二12~13\t306"
                 }
             ],
             "sign": "是",
@@ -41942,6 +42016,51 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "111"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "U2136",
+            "department": "外語系",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "外語系",
+                    "original": "外語系2"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "英文短篇作品選讀",
+                "en": "Short Stories in English",
+                "limit": false,
+                "other": "1110103通知新開課程。"
+            },
+            "teacher": [
+                "張懿仁"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文2F10",
+                    "original": "每週二3~4\t文2F10"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
         },
         {
             "year": "110",
@@ -42926,9 +43045,16 @@
                     "class": "",
                     "category": "歷史系",
                     "original": "歷史系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -43407,12 +43533,19 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "N/A",
+                    "original": "鑑識學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
                     "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
                 "必",
                 "必",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -43493,12 +43626,6 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "N/A",
-                    "original": "文創產業行銷學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "學分學程",
                     "original": "醫療科技暨法律學分學程"
                 },
@@ -43536,7 +43663,6 @@
             "compulsory": [
                 "必",
                 "必",
-                "選",
                 "選",
                 "選",
                 "選",
@@ -45809,9 +45935,16 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -45873,7 +46006,7 @@
                 "ch": "高等演算法",
                 "en": "Advanced Algorithms",
                 "limit": false,
-                "other": " "
+                "other": "[停開]1110103停開。"
             },
             "teacher": [
                 "莊東穎",
@@ -46573,6 +46706,12 @@
                     "original": "資源博1"
                 },
                 {
+                    "grade": "2",
+                    "class": "",
+                    "category": "資源博",
+                    "original": "資源博2"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "資源碩",
@@ -46597,13 +46736,28 @@
                     "original": "都碩1"
                 },
                 {
+                    "grade": "2",
+                    "class": "",
+                    "category": "都碩",
+                    "original": "都碩2"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "不動產城鄉碩",
                     "original": "不動產城鄉碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "不動產城鄉碩",
+                    "original": "不動產城鄉碩2"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -46913,9 +47067,23 @@
                     "class": "",
                     "category": "資訊碩",
                     "original": "資訊碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "財務金融碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "投資管理碩士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -48078,8 +48246,8 @@
                         11,
                         12
                     ],
-                    "place": "507電腦暨語言教室",
-                    "original": "每週二10~12\t507電腦暨語言教室"
+                    "place": "C2F03",
+                    "original": "每週二10~12\tC2F03"
                 }
             ],
             "sign": "否",
@@ -48498,8 +48666,8 @@
                         11,
                         12
                     ],
-                    "place": "C2F03",
-                    "original": "每週二10~12\tC2F03"
+                    "place": "507電腦暨語言教室",
+                    "original": "每週二10~12\t507電腦暨語言教室"
                 }
             ],
             "sign": "否",
@@ -51366,9 +51534,16 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -56870,7 +57045,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "53"
+            "max_people": "56"
         },
         {
             "year": "110",
@@ -56974,7 +57149,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "70"
         },
         {
             "year": "110",
@@ -60803,7 +60978,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "71"
         },
         {
             "year": "110",
@@ -61039,8 +61214,8 @@
                         3,
                         4
                     ],
-                    "place": "商1F11",
-                    "original": "實習每週一3~4\t商1F11"
+                    "place": "商2F05",
+                    "original": "實習每週一3~4\t商2F05"
                 }
             ],
             "sign": "否",
@@ -65655,8 +65830,8 @@
                         3,
                         4
                     ],
-                    "place": "法5F17",
-                    "original": "每週三3~4\t法5F17"
+                    "place": "法2F15",
+                    "original": "每週三3~4\t法2F15"
                 }
             ],
             "sign": "否",
@@ -68301,6 +68476,51 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "U3144",
+            "department": "外語系",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "外語系",
+                    "original": "外語系3"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "工程/科技英文(一)",
+                "en": "Engineering/technology English (I)",
+                "limit": false,
+                "other": "1110103通知新開課程。"
+            },
+            "teacher": [
+                "張懿仁"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文1F11",
+                    "original": "每週三3~4\t文1F11"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "U3226",
             "department": "財政系",
             "department_level": [
@@ -68669,10 +68889,10 @@
                 "ch": "英美小說與改編評析",
                 "en": "English Novels and Adaptations",
                 "limit": false,
-                "other": " "
+                "other": "1101229通知授課教師異動。"
             },
             "teacher": [
-                "王景智"
+                "張懿仁"
             ],
             "category": "半",
             "credit": "2",
@@ -70178,9 +70398,16 @@
                     "class": "",
                     "category": "資訊碩",
                     "original": "資訊碩1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -70338,9 +70565,16 @@
                     "class": "A",
                     "category": "企碩",
                     "original": "企碩1A"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -70401,7 +70635,7 @@
                 "ch": "管理個案專題研討",
                 "en": "Seminar on Case Studies in Business Administration",
                 "limit": false,
-                "other": " "
+                "other": "[停開]*1110103通知停開課程。"
             },
             "teacher": [
                 "方文昌"
@@ -71139,8 +71373,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週三10~12\t"
+                    "place": "713",
+                    "original": "每週三10~12\t713"
                 }
             ],
             "sign": "否",
@@ -71174,7 +71408,7 @@
                 "ch": "新產品行銷專題研討",
                 "en": "Seminar on New Prodoct Marketing",
                 "limit": false,
-                "other": "教室:教學7F13"
+                "other": "教室:教學7F10"
             },
             "teacher": [
                 "張惠真"
@@ -71192,8 +71426,8 @@
                         11,
                         12
                     ],
-                    "place": "713",
-                    "original": "每週三10~12\t713"
+                    "place": "710",
+                    "original": "每週三10~12\t710"
                 }
             ],
             "sign": "否",
@@ -71631,8 +71865,8 @@
                         8,
                         9
                     ],
-                    "place": "",
-                    "original": "每週三7~9\t"
+                    "place": "社207",
+                    "original": "每週三7~9\t社207"
                 }
             ],
             "sign": "是",
@@ -72048,9 +72282,23 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "財務金融碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "投資管理碩士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -72725,7 +72973,7 @@
                 "ch": "統計應用軟體設計與製作",
                 "en": "The Design of Statistical Apps",
                 "limit": false,
-                "other": "*請修此課程學生自備筆電。 上課教室：商702教室。\r\n*與統3&統4合開。"
+                "other": "*請修此課程學生自備筆電。\r\n*與統3&統4合開。"
             },
             "teacher": [
                 "汪群超"
@@ -72743,8 +72991,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週三2~4\t"
+                    "place": "電1F02",
+                    "original": "每週三2~4\t電1F02"
                 }
             ],
             "sign": "否",
@@ -73188,8 +73436,8 @@
                         11,
                         12
                     ],
-                    "place": "504",
-                    "original": "每週三10~12\t504"
+                    "place": "404",
+                    "original": "每週三10~12\t404"
                 }
             ],
             "sign": "否",
@@ -73354,8 +73602,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週三10~12\t"
+                    "place": "409",
+                    "original": "每週三10~12\t409"
                 }
             ],
             "sign": "否",
@@ -74362,7 +74610,7 @@
                 "ch": "統計應用軟體設計與製作",
                 "en": "The Design of Statistical Apps",
                 "limit": false,
-                "other": "*請修此課程學生自備筆電。 上課教室：商702教室。\r\n*與統碩1&統碩2合開。"
+                "other": "*請修此課程學生自備筆電。\r\n*與統碩1&統碩2合開。"
             },
             "teacher": [
                 "汪群超"
@@ -74380,8 +74628,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週三2~4\t"
+                    "place": "電1F02",
+                    "original": "每週三2~4\t電1F02"
                 }
             ],
             "sign": "否",
@@ -74702,13 +74950,20 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週三2~4\t"
+                    "place": "資B1F-06",
+                    "original": "每週三2~4\t資B1F-06"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室電1F05"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "36"
+            "max_people": "55"
         },
         {
             "year": "110",
@@ -75181,9 +75436,16 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -75639,11 +75901,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "法政策學—永續發展學士微學程"
                 }
             ],
             "compulsory": [
+                "輔",
                 "輔",
                 "輔",
                 "輔"
@@ -75703,9 +75972,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "企業社會責任學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
                 }
             ],
             "compulsory": [
+                "輔",
                 "輔",
                 "輔",
                 "輔"
@@ -77211,6 +77487,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "創新創業學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "職涯探索及創新創業學程"
                 },
@@ -77240,6 +77522,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通"
@@ -78226,8 +78509,8 @@
                         12,
                         13
                     ],
-                    "place": "305",
-                    "original": "每週四12~13\t305"
+                    "place": "206",
+                    "original": "每週四12~13\t206"
                 }
             ],
             "sign": "否",
@@ -79185,7 +79468,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "50"
         },
         {
             "year": "110",
@@ -79237,8 +79520,8 @@
                     "sessions": [
                         13
                     ],
-                    "place": "411",
-                    "original": "每週四13~13\t411"
+                    "place": "204",
+                    "original": "每週四13~13\t204"
                 }
             ],
             "sign": "否",
@@ -79923,8 +80206,8 @@
                         12,
                         13
                     ],
-                    "place": "208",
-                    "original": "每週四12~13\t208"
+                    "place": "504",
+                    "original": "每週四12~13\t504"
                 }
             ],
             "sign": "否",
@@ -79975,8 +80258,8 @@
                         10,
                         11
                     ],
-                    "place": "307",
-                    "original": "每週四10~11\t307"
+                    "place": "103",
+                    "original": "每週四10~11\t103"
                 }
             ],
             "sign": "否",
@@ -80197,8 +80480,8 @@
                         10,
                         11
                     ],
-                    "place": "208",
-                    "original": "每週四10~11\t208"
+                    "place": "504",
+                    "original": "每週四10~11\t504"
                 }
             ],
             "sign": "否",
@@ -80530,8 +80813,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F02",
-                    "original": "每週四3~4\t法2F02"
+                    "place": "法1F19",
+                    "original": "每週四3~4\t法1F19"
                 }
             ],
             "sign": "否",
@@ -82520,9 +82803,16 @@
                     "class": "",
                     "category": "經博",
                     "original": "經博1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "經博",
+                    "original": "經博2"
                 }
             ],
             "compulsory": [
+                "必",
                 "必"
             ],
             "title": {
@@ -83332,8 +83622,8 @@
                         11,
                         12
                     ],
-                    "place": "411",
-                    "original": "每週四10~12\t411"
+                    "place": "204",
+                    "original": "每週四10~12\t204"
                 }
             ],
             "sign": "否",
@@ -83897,7 +84187,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "69"
         },
         {
             "year": "110",
@@ -83964,7 +84254,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "69"
         },
         {
             "year": "110",
@@ -84025,8 +84315,8 @@
                         6,
                         7
                     ],
-                    "place": "電1F01",
-                    "original": "每週四5~7\t電1F01"
+                    "place": "電1F06",
+                    "original": "每週四5~7\t電1F06"
                 }
             ],
             "sign": "是",
@@ -84098,7 +84388,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "69"
         },
         {
             "year": "110",
@@ -84123,9 +84413,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "企業社會責任學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必"
@@ -86301,11 +86598,18 @@
                     ],
                     "place": "電1F02",
                     "original": "每週四5~7\t電1F02"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室電1F01"
                 }
             ],
             "sign": "是",
             "sign_people": "9",
-            "max_people": "70"
+            "max_people": "110"
         },
         {
             "year": "110",
@@ -87606,9 +87910,37 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系3B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "創新創業學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
                 "必",
                 "必"
             ],
@@ -87659,9 +87991,23 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系3B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "創新創業學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必"
             ],
@@ -88656,8 +89002,8 @@
                         10,
                         11
                     ],
-                    "place": "305",
-                    "original": "每週四10~11\t305"
+                    "place": "207",
+                    "original": "每週四10~11\t207"
                 }
             ],
             "sign": "否",
@@ -90824,8 +91170,8 @@
                         12,
                         13
                     ],
-                    "place": "307",
-                    "original": "每週四12~13\t307"
+                    "place": "103",
+                    "original": "每週四12~13\t103"
                 }
             ],
             "sign": "是",
@@ -90869,8 +91215,8 @@
                         10,
                         11
                     ],
-                    "place": "504",
-                    "original": "每週四10~11\t504"
+                    "place": "307",
+                    "original": "每週四10~11\t307"
                 }
             ],
             "sign": "否",
@@ -91053,8 +91399,8 @@
                         8,
                         9
                     ],
-                    "place": "301",
-                    "original": "每週四8~9\t301"
+                    "place": "314",
+                    "original": "每週四8~9\t314"
                 }
             ],
             "sign": "是",
@@ -91369,8 +91715,8 @@
                         12,
                         13
                     ],
-                    "place": "414",
-                    "original": "每週四12~13\t414"
+                    "place": "307",
+                    "original": "每週四12~13\t307"
                 }
             ],
             "sign": "是",
@@ -91494,8 +91840,8 @@
                         8,
                         9
                     ],
-                    "place": "304",
-                    "original": "每週四8~9\t304"
+                    "place": "311",
+                    "original": "每週四8~9\t311"
                 }
             ],
             "sign": "否",
@@ -91574,8 +91920,8 @@
                         6,
                         7
                     ],
-                    "place": "301",
-                    "original": "每週四6~7\t301"
+                    "place": "314",
+                    "original": "每週四6~7\t314"
                 }
             ],
             "sign": "否",
@@ -91619,8 +91965,8 @@
                         12,
                         13
                     ],
-                    "place": "504",
-                    "original": "每週四12~13\t504"
+                    "place": "306",
+                    "original": "每週四12~13\t306"
                 }
             ],
             "sign": "否",
@@ -92046,7 +92392,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "52"
+            "max_people": "54"
         },
         {
             "year": "110",
@@ -94080,13 +94426,13 @@
                         1,
                         2
                     ],
-                    "place": "公1F27",
-                    "original": "每週四1~2\t公1F27"
+                    "place": "法2F01",
+                    "original": "每週四1~2\t法2F01"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "90"
+            "max_people": "136"
         },
         {
             "year": "110",
@@ -96621,7 +96967,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "22"
         },
         {
             "year": "110",
@@ -97101,9 +97447,16 @@
                     "class": "B",
                     "category": "企碩",
                     "original": "企碩1B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -97128,8 +97481,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週四10~12\t"
+                    "place": "712",
+                    "original": "每週四10~12\t712"
                 }
             ],
             "sign": "否",
@@ -97427,11 +97780,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "創新創業學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -97526,9 +97886,16 @@
                     "class": "A",
                     "category": "企碩",
                     "original": "企碩2A"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -97751,8 +98118,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週四10~12\t"
+                    "place": "711",
+                    "original": "每週四10~12\t711"
                 }
             ],
             "sign": "否",
@@ -97850,8 +98217,8 @@
                         6,
                         7
                     ],
-                    "place": "304",
-                    "original": "每週四5~7\t304"
+                    "place": "312",
+                    "original": "每週四5~7\t312"
                 }
             ],
             "sign": "否",
@@ -98175,8 +98542,8 @@
                         11,
                         12
                     ],
-                    "place": "204",
-                    "original": "每週四10~12\t204"
+                    "place": "411",
+                    "original": "每週四10~12\t411"
                 }
             ],
             "sign": "否",
@@ -100378,13 +100745,13 @@
                         6,
                         7
                     ],
-                    "place": "商2F07",
-                    "original": "每週四5~7\t商2F07"
+                    "place": "商1F02",
+                    "original": "每週四5~7\t商1F02"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "109"
+            "max_people": "131"
         },
         {
             "year": "110",
@@ -100760,7 +101127,7 @@
                 "ch": "社會科學頂石教育專題",
                 "en": "Seminar on Social Sciences Capstone Education",
                 "limit": true,
-                "other": " "
+                "other": "此門課程為社工系大四畢業專題。"
             },
             "teacher": [
                 "曾敏傑"
@@ -100784,7 +101151,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "50"
         },
         {
             "year": "110",
@@ -101264,8 +101631,8 @@
                         8,
                         9
                     ],
-                    "place": "207",
-                    "original": "每週四8~9\t207"
+                    "place": "209",
+                    "original": "每週四8~9\t209"
                 }
             ],
             "sign": "否",
@@ -101425,8 +101792,8 @@
                         10,
                         11
                     ],
-                    "place": "207",
-                    "original": "每週四10~11\t207"
+                    "place": "209",
+                    "original": "每週四10~11\t209"
                 }
             ],
             "sign": "否",
@@ -104161,8 +104528,8 @@
                         12,
                         13
                     ],
-                    "place": "306",
-                    "original": "每週五12~13\t306"
+                    "place": "207",
+                    "original": "每週五12~13\t207"
                 }
             ],
             "sign": "是",
@@ -104987,8 +105354,8 @@
                     "sessions": [
                         10
                     ],
-                    "place": "",
-                    "original": "每週五10~10\t"
+                    "place": "308",
+                    "original": "每週五10~10\t308"
                 }
             ],
             "sign": "否",
@@ -105168,9 +105535,16 @@
                     "class": "",
                     "category": "金融碩",
                     "original": "金融碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必"
@@ -105288,8 +105662,8 @@
                         12,
                         13
                     ],
-                    "place": "314",
-                    "original": "每週五12~13\t314"
+                    "place": "305",
+                    "original": "每週五12~13\t305"
                 }
             ],
             "sign": "否",
@@ -105333,8 +105707,8 @@
                         10,
                         11
                     ],
-                    "place": "301",
-                    "original": "每週五10~11\t301"
+                    "place": "310",
+                    "original": "每週五10~11\t310"
                 }
             ],
             "sign": "否",
@@ -105378,8 +105752,8 @@
                         10,
                         11
                     ],
-                    "place": "411",
-                    "original": "每週五10~11\t411"
+                    "place": "408",
+                    "original": "每週五10~11\t408"
                 }
             ],
             "sign": "否",
@@ -105558,8 +105932,8 @@
                         12,
                         13
                     ],
-                    "place": "301",
-                    "original": "每週五12~13\t301"
+                    "place": "310",
+                    "original": "每週五12~13\t310"
                 }
             ],
             "sign": "否",
@@ -105933,8 +106307,8 @@
                         10,
                         11
                     ],
-                    "place": "C5F05",
-                    "original": "每週五10~11\tC5F05"
+                    "place": "C2F02",
+                    "original": "每週五10~11\tC2F02"
                 }
             ],
             "sign": "否",
@@ -105991,7 +106365,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "51"
+            "max_people": "54"
         },
         {
             "year": "110",
@@ -107051,7 +107425,7 @@
                 "ch": "大一國文：經典閱讀與詮釋",
                 "en": "Freshman Chinese:the Classics Reading and Interpretation",
                 "limit": true,
-                "other": "人工加簽限收4人。1.請安排於人文208教室。\r\n2.本班級為僑外生國文班，限僑外生學生選修。\r\n3.選課前請確認下學期是否與貴系必修課衝堂，請選擇未衝堂之班級修讀。"
+                "other": "1.請安排於人文208教室。\r\n2.本班級為僑外生國文班，限僑外生學生選修。\r\n3.選課前請確認下學期是否與貴系必修課衝堂，請選擇未衝堂之班級修讀。"
             },
             "teacher": [
                 "吳惠玲"
@@ -107072,8 +107446,8 @@
                     "original": "每週五3~4\t文2F08"
                 }
             ],
-            "sign": "是",
-            "sign_people": "4",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "0"
         },
         {
@@ -109208,7 +109582,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "75"
+            "max_people": "95"
         },
         {
             "year": "110",
@@ -109336,8 +109710,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週五10~12\t"
+                    "place": "502",
+                    "original": "每週五10~12\t502"
                 }
             ],
             "sign": "否",
@@ -109389,8 +109763,8 @@
                         11,
                         12
                     ],
-                    "place": "507電腦暨語言教室",
-                    "original": "每週五10~12\t507電腦暨語言教室"
+                    "place": "C5F05",
+                    "original": "每週五10~12\tC5F05"
                 }
             ],
             "sign": "否",
@@ -109692,8 +110066,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週五10~12\t"
+                    "place": "205",
+                    "original": "每週五10~12\t205"
                 }
             ],
             "sign": "否",
@@ -109738,8 +110112,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週五10~12\t"
+                    "place": "505",
+                    "original": "每週五10~12\t505"
                 }
             ],
             "sign": "否",
@@ -110118,6 +110492,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "租稅行政救濟學分學程"
                 },
@@ -110181,6 +110561,7 @@
                 "選",
                 "選",
                 "選",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -111902,6 +112283,51 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "M5208",
+            "department": "歷史碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "歷史碩",
+                    "original": "歷史碩1"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "唐宋變革論與宋代史學",
+                "en": "Special topic on the \"Tang-Song Transformation\" and Song history",
+                "limit": false,
+                "other": "1110105通知新開。上課教室：文8F25。"
+            },
+            "teacher": [
+                "山口智哉"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "",
+                    "original": "每週五3~4\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "5"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M5416",
             "department": "歷史碩",
             "department_level": [
@@ -112599,8 +113025,8 @@
                         12,
                         13
                     ],
-                    "place": "C5F05",
-                    "original": "每週五12~13\tC5F05"
+                    "place": "C2F02",
+                    "original": "每週五12~13\tC2F02"
                 }
             ],
             "sign": "否",
@@ -112901,8 +113327,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週五10~11\t"
+                    "place": "207",
+                    "original": "每週五10~11\t207"
                 }
             ],
             "sign": "否",
@@ -112946,8 +113372,8 @@
                         10,
                         11
                     ],
-                    "place": "306",
-                    "original": "每週五10~11\t306"
+                    "place": "506",
+                    "original": "每週五10~11\t506"
                 }
             ],
             "sign": "否",
@@ -114578,7 +115004,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "42"
         },
         {
             "year": "110",
@@ -115079,6 +115505,51 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "52"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "U3148",
+            "department": "外語系",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "外語系",
+                    "original": "外語系3"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "電影與族裔論述",
+                "en": "Film Genre and Minority Discourse",
+                "limit": false,
+                "other": "1110103通知新開課程。"
+            },
+            "teacher": [
+                "洪筱婷"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        7,
+                        8
+                    ],
+                    "place": "文2F10",
+                    "original": "每週五7~8\t文2F10"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
         },
         {
             "year": "110",
@@ -117105,6 +117576,51 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "U4369",
+            "department": "外語系",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "外語系",
+                    "original": "外語系4"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "歐陸文學與文化",
+                "en": "Euro-Continental Literature and Culture",
+                "limit": false,
+                "other": "1110103通知新開課程。"
+            },
+            "teacher": [
+                "洪筱婷"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "文2F11",
+                    "original": "每週五5~6\t文2F11"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M5018",
             "department": "經碩",
             "department_level": [
@@ -117167,7 +117683,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "22"
         },
         {
             "year": "110",
@@ -117659,7 +118175,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "中文",
+            "language": "英語English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -118542,8 +119058,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週五10~12\t"
+                    "place": "504",
+                    "original": "每週五10~12\t504"
                 }
             ],
             "sign": "否",
@@ -118648,8 +119164,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週五10~12\t"
+                    "place": "301",
+                    "original": "每週五10~12\t301"
                 }
             ],
             "sign": "否",
@@ -120026,6 +120542,12 @@
             "department": "資工系",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務學程"
+                },
+                {
                     "grade": "3",
                     "class": "",
                     "category": "資工系",
@@ -120033,6 +120555,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -120461,7 +120984,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "中文",
+            "language": "英語English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -120741,8 +121264,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週五10~11\t"
+                    "place": "305",
+                    "original": "每週五10~11\t305"
                 }
             ],
             "sign": "否",
@@ -120804,8 +121327,8 @@
                         10,
                         11
                     ],
-                    "place": "402",
-                    "original": "每週五10~11\t402"
+                    "place": "411",
+                    "original": "每週五10~11\t411"
                 }
             ],
             "sign": "否",
@@ -121098,8 +121621,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週五10~11\t"
+                    "place": "402",
+                    "original": "每週五10~11\t402"
                 }
             ],
             "sign": "否",
@@ -122319,6 +122842,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "美學、文化與藝術學士學分學程"
                 },
@@ -122348,6 +122877,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通"
@@ -125697,8 +126227,8 @@
                         7,
                         8
                     ],
-                    "place": "401",
-                    "original": "雙週六5~8\t401"
+                    "place": "311",
+                    "original": "雙週六5~8\t311"
                 }
             ],
             "sign": "否",
@@ -125956,8 +126486,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週六3~4\t"
+                    "place": "413",
+                    "original": "每週六3~4\t413"
                 }
             ],
             "sign": "否",
@@ -126398,8 +126928,8 @@
                         7,
                         8
                     ],
-                    "place": "312",
-                    "original": "單週六5~8\t312"
+                    "place": "309",
+                    "original": "單週六5~8\t309"
                 }
             ],
             "sign": "否",
@@ -126744,16 +127274,9 @@
                     "class": "B",
                     "category": "企博",
                     "original": "企博1B"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "N/A",
-                    "original": "英語商學碩士學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選"
             ],
             "title": {
@@ -126870,8 +127393,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週六2~4\t"
+                    "place": "711",
+                    "original": "每週六2~4\t711"
                 }
             ],
             "sign": "否",
@@ -126944,8 +127467,8 @@
                         3,
                         4
                     ],
-                    "place": "414",
-                    "original": "每週六2~4\t414"
+                    "place": "313",
+                    "original": "每週六2~4\t313"
                 }
             ],
             "sign": "否",
@@ -127209,8 +127732,8 @@
                         3,
                         4
                     ],
-                    "place": "312",
-                    "original": "每週六2~4\t312"
+                    "place": "303",
+                    "original": "每週六2~4\t303"
                 }
             ],
             "sign": "否",
@@ -127770,8 +128293,8 @@
                         3,
                         4
                     ],
-                    "place": "310",
-                    "original": "每週六2~4\t310"
+                    "place": "408",
+                    "original": "每週六2~4\t408"
                 }
             ],
             "sign": "是",
@@ -128625,6 +129148,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "賽會籌組人力就業學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "職涯探索及創新創業學程"
                 },
@@ -128636,6 +129165,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
