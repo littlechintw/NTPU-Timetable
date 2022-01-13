@@ -1,6 +1,6 @@
 {
-    "start_time": "2022-01-08 01:05:14",
-    "end_time": "2022-01-08 01:05:42",
+    "start_time": "2022-01-13 01:09:02",
+    "end_time": "2022-01-13 01:09:52",
     "data": [
         {
             "year": "110",
@@ -1200,6 +1200,59 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "U2079",
+            "department": "電機系",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "電機系",
+                    "original": "電機系2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "電路與系統學士微學程"
+                }
+            ],
+            "compulsory": [
+                "必",
+                "必"
+            ],
+            "title": {
+                "ch": "電子電路實驗II",
+                "en": "Electronic Circuits Lab.II",
+                "limit": false,
+                "other": "上課地點：音律電機資訊大樓410電子電路暨數位系統實驗室。"
+            },
+            "teacher": [
+                "黃弘一"
+            ],
+            "category": "半",
+            "credit": "1",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "",
+                    "original": "每週一2~4\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "50"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "U2355",
             "department": "資工系",
             "department_level": [
@@ -1838,7 +1891,7 @@
                 "ch": "電腦概論與程式設計",
                 "en": "Introduction to Computer Science and Programming",
                 "limit": false,
-                "other": "安排電腦教室C1F05及一般教室\r\n已選修並通過「電腦概論」課程之同學，請勿再選修本課程，將不重複承認畢業學分。"
+                "other": "安排電腦教室C1F05。\r\n已選修並通過「電腦概論」課程之同學，請勿再選修本課程，將不重複承認畢業學分。"
             },
             "teacher": [
                 "林昭碧"
@@ -2393,8 +2446,8 @@
                         10,
                         11
                     ],
-                    "place": "504",
-                    "original": "每週一10~11\t504"
+                    "place": "204",
+                    "original": "每週一10~11\t204"
                 }
             ],
             "sign": "否",
@@ -4303,8 +4356,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一3~4\t"
+                    "place": "社106",
+                    "original": "每週一3~4\t社106"
                 }
             ],
             "sign": "否",
@@ -4355,8 +4408,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一3~4\t"
+                    "place": "社207",
+                    "original": "每週一3~4\t社207"
                 }
             ],
             "sign": "否",
@@ -7140,8 +7193,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一2~4\t"
+                    "place": "社104",
+                    "original": "每週一2~4\t社104"
                 }
             ],
             "sign": "是",
@@ -7762,8 +7815,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一2~4\t"
+                    "place": "電1F05",
+                    "original": "每週一2~4\t電1F05"
                 }
             ],
             "sign": "否",
@@ -8313,7 +8366,7 @@
                 "ch": "微積分",
                 "en": "Calculus",
                 "limit": false,
-                "other": " "
+                "other": "*人工加簽限收1名。"
             },
             "teacher": [
                 "林財川"
@@ -8335,55 +8388,9 @@
                     "original": "每週一5~7\t商2F10"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "14",
             "max_people": "74"
-        },
-        {
-            "year": "110",
-            "semester": "2",
-            "courseID": "U2071",
-            "department": "電機系",
-            "department_level": [
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "電機系",
-                    "original": "電機系2"
-                }
-            ],
-            "compulsory": [
-                "必"
-            ],
-            "title": {
-                "ch": "電子學Ⅱ",
-                "en": "Microelectronics II",
-                "limit": false,
-                "other": " "
-            },
-            "teacher": [
-                "黃弘一"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 1,
-                    "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "電1F03",
-                    "original": "每週一2~4\t電1F03"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "55"
         },
         {
             "year": "110",
@@ -8450,7 +8457,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "62"
         },
         {
             "year": "110",
@@ -8601,7 +8608,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "62"
         },
         {
             "year": "110",
@@ -9315,9 +9322,9 @@
             },
             "teacher": [
                 "蔡家昌",
+                "謝榮桂",
                 "游擱嘉",
-                "劉仲矩",
-                "謝榮桂"
+                "劉仲矩"
             ],
             "category": "半",
             "credit": "4",
@@ -9437,8 +9444,8 @@
                         10,
                         11
                     ],
-                    "place": "507電腦暨語言教室",
-                    "original": "單週一10~11\t507電腦暨語言教室"
+                    "place": "C5F05",
+                    "original": "單週一10~11\tC5F05"
                 }
             ],
             "sign": "否",
@@ -14535,6 +14542,13 @@
                     ],
                     "place": "公1F30",
                     "original": "每週一7~8\t公1F30"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室電1F01"
                 }
             ],
             "sign": "否",
@@ -15799,10 +15813,10 @@
                 "選"
             ],
             "title": {
-                "ch": "中文（一）",
-                "en": "Chinese  1",
+                "ch": "華語（一）",
+                "en": "Chinese(1)",
                 "limit": true,
-                "other": "This course is a 9-week intensive course (Feb 21,2022-Apr 22, 2022), and the class time is Monday and Wednesday 13:10-15:00."
+                "other": "(原課程名稱：中文(一))This course is a 9-week intensive course (Feb 21,2022-Apr 22, 2022), and the class time is Monday and Wednesday 13:10-15:00."
             },
             "teacher": [
                 "吳品慧"
@@ -17179,13 +17193,80 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一2~4\t"
+                    "place": "電1F03",
+                    "original": "每週一2~4\t電1F03"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
             "max_people": "20"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "M5108",
+            "department": "電機碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "電資博",
+                    "original": "電資博1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "電資博",
+                    "original": "電資博2"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "電機碩",
+                    "original": "電機碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "電機碩",
+                    "original": "電機碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "混合訊號積體電路佈局與分析",
+                "en": "Analysis and Layout of Mixed-Signal IC",
+                "limit": false,
+                "other": "與大學部合班。"
+            },
+            "teacher": [
+                "黃弘一"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "",
+                    "original": "每週一6~8\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
         },
         {
             "year": "110",
@@ -17295,7 +17376,7 @@
                 "ch": "勞動經濟學實證分析",
                 "en": "Empirical Analysis of Labor Economics",
                 "limit": false,
-                "other": " "
+                "other": "社327教室"
             },
             "teacher": [
                 "許秀芬"
@@ -17553,8 +17634,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週一10~12\t"
+                    "place": "708",
+                    "original": "每週一10~12\t708"
                 }
             ],
             "sign": "否",
@@ -18121,8 +18202,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週一6~8\t"
+                    "place": "社109",
+                    "original": "每週一6~8\t社109"
                 }
             ],
             "sign": "是",
@@ -18651,8 +18732,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週一6~8\t"
+                    "place": "社B01",
+                    "original": "每週一6~8\t社B01"
                 }
             ],
             "sign": "否",
@@ -19698,8 +19779,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週一5~7\t"
+                    "place": "社208",
+                    "original": "每週一5~7\t社208"
                 }
             ],
             "sign": "否",
@@ -20424,8 +20505,8 @@
                         6,
                         7
                     ],
-                    "place": "社B02",
-                    "original": "每週一5~7\t社B02"
+                    "place": "公5F32",
+                    "original": "每週一5~7\t公5F32"
                 }
             ],
             "sign": "是",
@@ -20643,8 +20724,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一2~4\t"
+                    "place": "社107",
+                    "original": "每週一2~4\t社107"
                 }
             ],
             "sign": "是",
@@ -20703,8 +20784,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週一5~7\t"
+                    "place": "電1F03",
+                    "original": "每週一5~7\t電1F03"
                 }
             ],
             "sign": "否",
@@ -21144,8 +21225,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一2~4\t"
+                    "place": "電1F03",
+                    "original": "每週一2~4\t電1F03"
                 }
             ],
             "sign": "否",
@@ -21508,6 +21589,59 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "U4523",
+            "department": "電機系",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "電機系",
+                    "original": "電機系3"
+                },
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "電機系",
+                    "original": "電機系4"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "混合訊號積體電路佈局與分析",
+                "en": "Analysis and Layout of Mixed-Signal IC",
+                "limit": false,
+                "other": "與碩士班合班。"
+            },
+            "teacher": [
+                "黃弘一"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "",
+                    "original": "每週一6~8\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "50"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "U4578",
             "department": "社學系",
             "department_level": [
@@ -21550,8 +21684,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週一6~8\t"
+                    "place": "社B01",
+                    "original": "每週一6~8\t社B01"
                 }
             ],
             "sign": "是",
@@ -21755,8 +21889,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週一6~8\t"
+                    "place": "社B02",
+                    "original": "每週一6~8\t社B02"
                 }
             ],
             "sign": "否",
@@ -26264,8 +26398,8 @@
                         1,
                         2
                     ],
-                    "place": "",
-                    "original": "每週一1~2\t"
+                    "place": "文6F06",
+                    "original": "每週一1~2\t文6F06"
                 }
             ],
             "sign": "是",
@@ -27549,12 +27683,12 @@
                     "courseTime": 2,
                     "time_category": "A",
                     "sessions": [
-                        2,
-                        3,
-                        4
+                        5,
+                        6,
+                        7
                     ],
-                    "place": "電4F10",
-                    "original": "每週二2~4\t電4F10"
+                    "place": "",
+                    "original": "每週二5~7\t"
                 }
             ],
             "sign": "否",
@@ -27611,66 +27745,13 @@
                     "sessions": [
                         8
                     ],
-                    "place": "",
-                    "original": "每週二8~8\t"
+                    "place": "社101",
+                    "original": "每週二8~8\t社101"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
             "max_people": "55"
-        },
-        {
-            "year": "110",
-            "semester": "2",
-            "courseID": "U2079",
-            "department": "電機系",
-            "department_level": [
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "電機系",
-                    "original": "電機系2"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "電路與系統學士微學程"
-                }
-            ],
-            "compulsory": [
-                "必",
-                "必"
-            ],
-            "title": {
-                "ch": "電子電路實驗II",
-                "en": "Electronic Circuits Lab.II",
-                "limit": false,
-                "other": "上課地點：音律電機資訊大樓410電子電路暨數位系統實驗室。"
-            },
-            "teacher": [
-                "黃弘一"
-            ],
-            "category": "半",
-            "credit": "1",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 2,
-                    "time_category": "A",
-                    "sessions": [
-                        6,
-                        7,
-                        8
-                    ],
-                    "place": "電4F10",
-                    "original": "每週二6~8\t電4F10"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "50"
         },
         {
             "year": "110",
@@ -28851,8 +28932,8 @@
                         12,
                         13
                     ],
-                    "place": "205",
-                    "original": "每週二12~13\t205"
+                    "place": "414",
+                    "original": "每週二12~13\t414"
                 }
             ],
             "sign": "否",
@@ -29991,7 +30072,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "73"
+            "max_people": "74"
         },
         {
             "year": "110",
@@ -30836,8 +30917,8 @@
                         5,
                         6
                     ],
-                    "place": "公2F36",
-                    "original": "每週二5~6\t公2F36"
+                    "place": "公5F32",
+                    "original": "每週二5~6\t公5F32"
                 }
             ],
             "sign": "否",
@@ -31496,8 +31577,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F02",
-                    "original": "每週二7~8\t法2F02"
+                    "place": "公5F32",
+                    "original": "每週二7~8\t公5F32"
                 },
                 {
                     "courseTime": "N/A",
@@ -34093,12 +34174,12 @@
                     "courseTime": 2,
                     "time_category": "A",
                     "sessions": [
-                        6,
-                        7,
-                        8
+                        2,
+                        3,
+                        4
                     ],
-                    "place": "電2F01",
-                    "original": "每週二6~8\t電2F01"
+                    "place": "",
+                    "original": "每週二2~4\t"
                 }
             ],
             "sign": "否",
@@ -34315,8 +34396,8 @@
                         3,
                         4
                     ],
-                    "place": "社105",
-                    "original": "每週二2~4\t社105"
+                    "place": "社B02",
+                    "original": "每週二2~4\t社B02"
                 }
             ],
             "sign": "否",
@@ -35608,6 +35689,52 @@
             "sign": "是",
             "sign_people": "8",
             "max_people": "43"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "U2071",
+            "department": "電機系",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "電機系",
+                    "original": "電機系2"
+                }
+            ],
+            "compulsory": [
+                "必"
+            ],
+            "title": {
+                "ch": "電子學Ⅱ",
+                "en": "Microelectronics II",
+                "limit": false,
+                "other": " "
+            },
+            "teacher": [
+                "黃弘一"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "",
+                    "original": "每週二5~7\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "55"
         },
         {
             "year": "110",
@@ -38644,8 +38771,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週二3~4\t"
+                    "place": "社5F12",
+                    "original": "每週二3~4\t社5F12"
                 }
             ],
             "sign": "否",
@@ -43926,6 +44053,13 @@
                     ],
                     "place": "公1F15",
                     "original": "每週二5~6\t公1F15"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室法1F04"
                 }
             ],
             "sign": "否",
@@ -44512,7 +44646,7 @@
             ],
             "title": {
                 "ch": "韓語（二）",
-                "en": "Korean Ⅱ",
+                "en": "Korean(2)",
                 "limit": false,
                 "other": "建議已修習「韓語(一)」之學生選修。\r\n請儘量安排語言教室"
             },
@@ -44654,7 +44788,7 @@
             ],
             "title": {
                 "ch": "韓語（一）",
-                "en": "Korean I",
+                "en": "Korean(1)",
                 "limit": false,
                 "other": "請儘量安排語言教室"
             },
@@ -45202,8 +45336,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週二2~4\t"
+                    "place": "社碩職_618教室",
+                    "original": "每週二2~4\t社碩職_618教室"
                 }
             ],
             "sign": "否",
@@ -45328,7 +45462,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "8"
+            "max_people": "13"
         },
         {
             "year": "110",
@@ -45562,8 +45696,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週二5~7\t"
+                    "place": "社109",
+                    "original": "每週二5~7\t社109"
                 }
             ],
             "sign": "否",
@@ -45622,8 +45756,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週二10~12\t"
+                    "place": "715",
+                    "original": "每週二10~12\t715"
                 }
             ],
             "sign": "否",
@@ -45756,80 +45890,13 @@
                         9,
                         10
                     ],
-                    "place": "",
-                    "original": "每週二8~10\t"
+                    "place": "電1F03",
+                    "original": "每週二8~10\t電1F03"
                 }
             ],
             "sign": "是",
             "sign_people": "10",
             "max_people": "54"
-        },
-        {
-            "year": "110",
-            "semester": "2",
-            "courseID": "M5108",
-            "department": "電機碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "電資博",
-                    "original": "電資博1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "電資博",
-                    "original": "電資博2"
-                },
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "電機碩",
-                    "original": "電機碩1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "電機碩",
-                    "original": "電機碩2"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選",
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "混合訊號積體電路佈局與分析",
-                "en": "Analysis and Layout of Mixed-Signal IC",
-                "limit": false,
-                "other": "與大學部合班。"
-            },
-            "teacher": [
-                "黃弘一"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "英語English",
-            "course_detail": [
-                {
-                    "courseTime": 2,
-                    "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "電2F02",
-                    "original": "每週二2~4\t電2F02"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "40"
         },
         {
             "year": "110",
@@ -45886,12 +45953,12 @@
                     "courseTime": 2,
                     "time_category": "A",
                     "sessions": [
-                        2,
-                        3,
-                        4
+                        6,
+                        7,
+                        8
                     ],
-                    "place": "電1F05",
-                    "original": "每週二2~4\t電1F05"
+                    "place": "",
+                    "original": "每週二6~8\t"
                 }
             ],
             "sign": "否",
@@ -46159,13 +46226,13 @@
                         6,
                         7
                     ],
-                    "place": "電1F06",
-                    "original": "每週二5~7\t電1F06"
+                    "place": "電1F03",
+                    "original": "每週二5~7\t電1F03"
                 }
             ],
             "sign": "是",
             "sign_people": "1",
-            "max_people": "9"
+            "max_people": "22"
         },
         {
             "year": "110",
@@ -46967,8 +47034,8 @@
                         9,
                         10
                     ],
-                    "place": "",
-                    "original": "每週二8~10\t"
+                    "place": "社6F22",
+                    "original": "每週二8~10\t社6F22"
                 }
             ],
             "sign": "否",
@@ -47034,8 +47101,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週二6~8\t"
+                    "place": "社110",
+                    "original": "每週二6~8\t社110"
                 }
             ],
             "sign": "否",
@@ -47100,7 +47167,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "15"
         },
         {
             "year": "110",
@@ -47751,8 +47818,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週二6~8\t"
+                    "place": "社208",
+                    "original": "每週二6~8\t社208"
                 }
             ],
             "sign": "是",
@@ -47905,8 +47972,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週二2~4\t"
+                    "place": "社109",
+                    "original": "每週二2~4\t社109"
                 }
             ],
             "sign": "否",
@@ -48278,8 +48345,8 @@
                         11,
                         12
                     ],
-                    "place": "504",
-                    "original": "每週二10~12\t504"
+                    "place": "205",
+                    "original": "每週二10~12\t205"
                 }
             ],
             "sign": "否",
@@ -49044,8 +49111,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週二2~4\t"
+                    "place": "社113",
+                    "original": "每週二2~4\t社113"
                 }
             ],
             "sign": "否",
@@ -49164,8 +49231,8 @@
                         3,
                         4
                     ],
-                    "place": "電1F02",
-                    "original": "每週二2~4\t電1F02"
+                    "place": "社105",
+                    "original": "每週二2~4\t社105"
                 }
             ],
             "sign": "否",
@@ -49231,8 +49298,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週二5~7\t"
+                    "place": "社205",
+                    "original": "每週二5~7\t社205"
                 }
             ],
             "sign": "是",
@@ -49305,8 +49372,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週二6~8\t"
+                    "place": "社103",
+                    "original": "每週二6~8\t社103"
                 }
             ],
             "sign": "否",
@@ -49954,8 +50021,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週二2~4\t"
+                    "place": "社108",
+                    "original": "每週二2~4\t社108"
                 }
             ],
             "sign": "是",
@@ -50596,13 +50663,13 @@
                         6,
                         7
                     ],
-                    "place": "電1F06",
-                    "original": "每週二5~7\t電1F06"
+                    "place": "電1F03",
+                    "original": "每週二5~7\t電1F03"
                 }
             ],
             "sign": "是",
             "sign_people": "7",
-            "max_people": "39"
+            "max_people": "60"
         },
         {
             "year": "110",
@@ -51157,8 +51224,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週二5~7\t"
+                    "place": "社201",
+                    "original": "每週二5~7\t社201"
                 }
             ],
             "sign": "是",
@@ -51439,12 +51506,12 @@
                     "courseTime": 2,
                     "time_category": "A",
                     "sessions": [
-                        2,
-                        3,
-                        4
+                        6,
+                        7,
+                        8
                     ],
-                    "place": "電1F05",
-                    "original": "每週二2~4\t電1F05"
+                    "place": "",
+                    "original": "每週二6~8\t"
                 }
             ],
             "sign": "否",
@@ -51655,8 +51722,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週二2~4\t"
+                    "place": "社109",
+                    "original": "每週二2~4\t社109"
                 }
             ],
             "sign": "否",
@@ -51712,59 +51779,6 @@
         {
             "year": "110",
             "semester": "2",
-            "courseID": "U4523",
-            "department": "電機系",
-            "department_level": [
-                {
-                    "grade": "3",
-                    "class": "",
-                    "category": "電機系",
-                    "original": "電機系3"
-                },
-                {
-                    "grade": "4",
-                    "class": "",
-                    "category": "電機系",
-                    "original": "電機系4"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "混合訊號積體電路佈局與分析",
-                "en": "Analysis and Layout of Mixed-Signal IC",
-                "limit": false,
-                "other": "與碩士班合班。"
-            },
-            "teacher": [
-                "黃弘一"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "英語English",
-            "course_detail": [
-                {
-                    "courseTime": 2,
-                    "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "電2F02",
-                    "original": "每週二2~4\t電2F02"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "50"
-        },
-        {
-            "year": "110",
-            "semester": "2",
             "courseID": "U4576",
             "department": "社學系",
             "department_level": [
@@ -51814,8 +51828,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週二6~8\t"
+                    "place": "社105",
+                    "original": "每週二6~8\t社105"
                 }
             ],
             "sign": "否",
@@ -51874,8 +51888,8 @@
                         9,
                         10
                     ],
-                    "place": "",
-                    "original": "每週二8~10\t"
+                    "place": "社6F22",
+                    "original": "每週二8~10\t社6F22"
                 }
             ],
             "sign": "是",
@@ -57135,7 +57149,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "70"
+            "max_people": "72"
         },
         {
             "year": "110",
@@ -58194,8 +58208,8 @@
                         3,
                         4
                     ],
-                    "place": "電1F01",
-                    "original": "每週三3~4\t電1F01"
+                    "place": "社B02",
+                    "original": "每週三3~4\t社B02"
                 }
             ],
             "sign": "否",
@@ -58267,8 +58281,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F02",
-                    "original": "每週三3~4\t法2F02"
+                    "place": "公5F32",
+                    "original": "每週三3~4\t公5F32"
                 },
                 {
                     "courseTime": "N/A",
@@ -58493,8 +58507,8 @@
                         7,
                         8
                     ],
-                    "place": "公2F36",
-                    "original": "每週三7~8\t公2F36"
+                    "place": "公5F32",
+                    "original": "每週三7~8\t公5F32"
                 }
             ],
             "sign": "否",
@@ -69109,7 +69123,7 @@
             ],
             "title": {
                 "ch": "韓語（一）",
-                "en": "Korean I",
+                "en": "Korean(1)",
                 "limit": false,
                 "other": "請儘量安排語言教室"
             },
@@ -69243,10 +69257,10 @@
                 "選"
             ],
             "title": {
-                "ch": "中文（二）",
-                "en": "Chinese  2",
+                "ch": "華語（二）",
+                "en": "Chinese(2)",
                 "limit": true,
-                "other": "1.This course is a 9-week intensive course (Apr 25, 2022-Jun 24, 2022), and the class time is Monday and Wednesday 13:10-15:00 2.It is recommended for students who have studied Chinese (1)."
+                "other": "(原課程名稱：中文(二))1.This course is a 9-week intensive course (Apr 25, 2022-Jun 24, 2022), and the class time is Monday and Wednesday 13:10-15:00 2.It is recommended for students who have studied Chinese (1)."
             },
             "teacher": [
                 "吳品慧"
@@ -69362,7 +69376,7 @@
             ],
             "title": {
                 "ch": "韓語（二）",
-                "en": "Korean Ⅱ",
+                "en": "Korean(2)",
                 "limit": false,
                 "other": "建議已修習「韓語(一)」之學生選修。\r\n請儘量安排語言教室"
             },
@@ -69602,7 +69616,7 @@
             ],
             "title": {
                 "ch": "韓語（一）",
-                "en": "Korean I",
+                "en": "Korean(1)",
                 "limit": false,
                 "other": "請儘量安排語言教室"
             },
@@ -69698,10 +69712,10 @@
                 "選"
             ],
             "title": {
-                "ch": "學中文旅遊臺灣",
-                "en": "Learn  Chinese  and  Travel  Taiwan",
+                "ch": "學華語旅遊臺灣",
+                "en": "Learn Chinese and Travel Taiwan",
                 "limit": true,
-                "other": "三峽校區.\r\n1.建議有中文(二)或具有實用視聽華語第二冊第一課至第七課之中文能力之外籍生修習。\r\n2.請安排文院及一般教室"
+                "other": "(原課程名稱：學中文旅遊臺灣)三峽校區.\r\n1.建議有中文(二)或具有實用視聽華語第二冊第一課至第七課之中文能力之外籍生修習。\r\n2.請安排文院及一般教室"
             },
             "teacher": [
                 "吳敍百"
@@ -69972,10 +69986,10 @@
                 "選"
             ],
             "title": {
-                "ch": "從臺灣美食學中文",
-                "en": "Learn  Chinese  from  Food  in  Taiwan",
+                "ch": "從臺灣美食學華語",
+                "en": "Learn Chinese from Food in Taiwan",
                 "limit": true,
-                "other": "1101006通知停開。1.建議有中文(二)或具有實用視聽華語第二冊第一課至第七課之中文能力之外籍生修習。\r\n2.請安排文院及一般教室"
+                "other": "(原課程名稱：從臺灣美食學中文)1.建議有中文(二)或具有實用視聽華語第二冊第一課至第七課之中文能力之外籍生修習。\r\n2.請安排文院及一般教室"
             },
             "teacher": [
                 "吳敍百"
@@ -70364,6 +70378,58 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "U4371",
+            "department": "財政系",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "財政系",
+                    "original": "財政系3"
+                },
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "財政系",
+                    "original": "財政系4"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "財政金融實習",
+                "en": "Public finance & financial internship",
+                "limit": false,
+                "other": "111.1.4新增課程"
+            },
+            "teacher": [
+                "林翠芳"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        1,
+                        2
+                    ],
+                    "place": "公2F05",
+                    "original": "每週三1~2\t公2F05"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "20"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M5010",
             "department": "資訊碩",
             "department_level": [
@@ -70526,8 +70592,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週三10~12\t"
+                    "place": "715",
+                    "original": "每週三10~12\t715"
                 }
             ],
             "sign": "否",
@@ -70759,8 +70825,8 @@
                         8,
                         9
                     ],
-                    "place": "",
-                    "original": "每週三7~9\t"
+                    "place": "社208",
+                    "original": "每週三7~9\t社208"
                 }
             ],
             "sign": "否",
@@ -71013,73 +71079,6 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "35"
-        },
-        {
-            "year": "110",
-            "semester": "2",
-            "courseID": "M5115",
-            "department": "資源碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "資源博",
-                    "original": "資源博1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "資源博",
-                    "original": "資源博2"
-                },
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "資源碩",
-                    "original": "資源碩1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "資源碩",
-                    "original": "資源碩2"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選",
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "生態評估與管理",
-                "en": "Ecological Assessment and Managment",
-                "limit": false,
-                "other": " "
-            },
-            "teacher": [
-                "王之佑"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 3,
-                    "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "公2F02",
-                    "original": "每週三2~4\t公2F02"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "25"
         },
         {
             "year": "110",
@@ -72465,8 +72464,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週三2~4\t"
+                    "place": "社208",
+                    "original": "每週三2~4\t社208"
                 }
             ],
             "sign": "否",
@@ -72831,7 +72830,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "15"
         },
         {
             "year": "110",
@@ -73941,8 +73940,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週三2~4\t"
+                    "place": "社103",
+                    "original": "每週三2~4\t社103"
                 }
             ],
             "sign": "否",
@@ -74100,8 +74099,8 @@
                         8,
                         9
                     ],
-                    "place": "",
-                    "original": "每週三7~9\t"
+                    "place": "社108",
+                    "original": "每週三7~9\t社108"
                 }
             ],
             "sign": "是",
@@ -75519,8 +75518,8 @@
                         8,
                         9
                     ],
-                    "place": "",
-                    "original": "每週三7~9\t"
+                    "place": "社110",
+                    "original": "每週三7~9\t社110"
                 }
             ],
             "sign": "否",
@@ -75565,8 +75564,8 @@
                         8,
                         9
                     ],
-                    "place": "",
-                    "original": "每週三7~9\t"
+                    "place": "社109",
+                    "original": "每週三7~9\t社109"
                 }
             ],
             "sign": "否",
@@ -75788,6 +75787,59 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "U4370",
+            "department": "電機系",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "嵌入式系統學分學程"
+                },
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "電機系",
+                    "original": "電機系4"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "超大型積體電路設計導論",
+                "en": "Introduction to VLSI Design",
+                "limit": false,
+                "other": " "
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "",
+                    "original": "每週三2~4\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "50"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "U4595",
             "department": "社學系",
             "department_level": [
@@ -75858,8 +75910,8 @@
                         8,
                         9
                     ],
-                    "place": "",
-                    "original": "每週三7~9\t"
+                    "place": "社201",
+                    "original": "每週三7~9\t社201"
                 }
             ],
             "sign": "否",
@@ -77847,6 +77899,70 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "U4372",
+            "department": "資源碩",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "通識4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "101-102向度五"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "103-104向度五"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度五"
+                }
+            ],
+            "compulsory": [
+                "通"
+            ],
+            "title": {
+                "ch": "生態學原理",
+                "en": "Principles of Ecology",
+                "limit": false,
+                "other": "111.1.10通知新增課程"
+            },
+            "teacher": [
+                "王之佑"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "公1F04",
+                    "original": "每週三2~4\t公1F04"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "0"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "U2007",
             "department": "師培中心",
             "department_level": [
@@ -77888,8 +78004,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週三7~8\t"
+                    "place": "文9F06",
+                    "original": "每週三7~8\t文9F06"
                 }
             ],
             "sign": "否",
@@ -77940,8 +78056,8 @@
                         1,
                         2
                     ],
-                    "place": "",
-                    "original": "每週三1~2\t"
+                    "place": "文9F06",
+                    "original": "每週三1~2\t文9F06"
                 }
             ],
             "sign": "否",
@@ -78044,8 +78160,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週三3~4\t"
+                    "place": "文9F06",
+                    "original": "每週三3~4\t文9F06"
                 }
             ],
             "sign": "是",
@@ -82597,8 +82713,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週四2~4\t"
+                    "place": "社5F12",
+                    "original": "每週四2~4\t社5F12"
                 }
             ],
             "sign": "否",
@@ -83562,8 +83678,8 @@
                         11,
                         12
                     ],
-                    "place": "502",
-                    "original": "每週四10~12\t502"
+                    "place": "411",
+                    "original": "每週四10~12\t411"
                 }
             ],
             "sign": "否",
@@ -85565,8 +85681,8 @@
                         3,
                         4
                     ],
-                    "place": "公1F30",
-                    "original": "每週四2~4\t公1F30"
+                    "place": "公5F32",
+                    "original": "每週四2~4\t公5F32"
                 }
             ],
             "sign": "否",
@@ -86508,8 +86624,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週四2~4\t"
+                    "place": "社103",
+                    "original": "每週四2~4\t社103"
                 }
             ],
             "sign": "否",
@@ -88988,8 +89104,8 @@
                         10,
                         11
                     ],
-                    "place": "207",
-                    "original": "每週四10~11\t207"
+                    "place": "306",
+                    "original": "每週四10~11\t306"
                 }
             ],
             "sign": "否",
@@ -89328,8 +89444,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週四10~11\t"
+                    "place": "715",
+                    "original": "每週四10~11\t715"
                 }
             ],
             "sign": "否",
@@ -91201,8 +91317,8 @@
                         12,
                         13
                     ],
-                    "place": "103",
-                    "original": "每週四12~13\t103"
+                    "place": "307",
+                    "original": "每週四12~13\t307"
                 }
             ],
             "sign": "是",
@@ -91746,8 +91862,8 @@
                         12,
                         13
                     ],
-                    "place": "307",
-                    "original": "每週四12~13\t307"
+                    "place": "209",
+                    "original": "每週四12~13\t209"
                 }
             ],
             "sign": "是",
@@ -96280,6 +96396,73 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "M5115",
+            "department": "資源碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "資源博",
+                    "original": "資源博1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "資源博",
+                    "original": "資源博2"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "資源碩",
+                    "original": "資源碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "資源碩",
+                    "original": "資源碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "生態評估與管理",
+                "en": "Ecological Assessment and Managment",
+                "limit": false,
+                "other": "111.1.10通知課程時間由三2-4改為四2-4"
+            },
+            "teacher": [
+                "王之佑"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "公2F03",
+                    "original": "每週四2~4\t公2F03"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M5129",
             "department": "不動產城鄉碩",
             "department_level": [
@@ -96537,8 +96720,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週四5~7\t"
+                    "place": "社5F12",
+                    "original": "每週四5~7\t社5F12"
                 }
             ],
             "sign": "否",
@@ -97112,8 +97295,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週四2~4\t"
+                    "place": "社208",
+                    "original": "每週四2~4\t社208"
                 }
             ],
             "sign": "否",
@@ -97579,8 +97762,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週四5~7\t"
+                    "place": "社109",
+                    "original": "每週四5~7\t社109"
                 }
             ],
             "sign": "否",
@@ -97631,7 +97814,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "15"
         },
         {
             "year": "110",
@@ -98520,8 +98703,8 @@
                         11,
                         12
                     ],
-                    "place": "506",
-                    "original": "每週四10~12\t506"
+                    "place": "208",
+                    "original": "每週四10~12\t208"
                 }
             ],
             "sign": "否",
@@ -98573,8 +98756,8 @@
                         11,
                         12
                     ],
-                    "place": "411",
-                    "original": "每週四10~12\t411"
+                    "place": "506",
+                    "original": "每週四10~12\t506"
                 }
             ],
             "sign": "否",
@@ -98939,8 +99122,8 @@
                         3,
                         4
                     ],
-                    "place": "電1F05",
-                    "original": "每週四2~4\t電1F05"
+                    "place": "電1F06",
+                    "original": "每週四2~4\t電1F06"
                 }
             ],
             "sign": "是",
@@ -99006,8 +99189,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週四5~7\t"
+                    "place": "社110",
+                    "original": "每週四5~7\t社110"
                 }
             ],
             "sign": "否",
@@ -99394,8 +99577,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週四5~7\t"
+                    "place": "社207",
+                    "original": "每週四5~7\t社207"
                 }
             ],
             "sign": "是",
@@ -100229,8 +100412,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週四10~12\t"
+                    "place": "電1F03",
+                    "original": "每週四10~12\t電1F03"
                 }
             ],
             "sign": "否",
@@ -100282,8 +100465,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週四2~4\t"
+                    "place": "電1F04",
+                    "original": "每週四2~4\t電1F04"
                 }
             ],
             "sign": "否",
@@ -100536,8 +100719,8 @@
                         7,
                         8
                     ],
-                    "place": "社103",
-                    "original": "每週四6~8\t社103"
+                    "place": "社105",
+                    "original": "每週四6~8\t社105"
                 }
             ],
             "sign": "否",
@@ -100662,7 +100845,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "50"
+            "max_people": "59"
         },
         {
             "year": "110",
@@ -100723,8 +100906,8 @@
                         6,
                         7
                     ],
-                    "place": "社107",
-                    "original": "每週四5~7\t社107"
+                    "place": "社205",
+                    "original": "每週四5~7\t社205"
                 }
             ],
             "sign": "否",
@@ -101176,8 +101359,8 @@
                         7,
                         8
                     ],
-                    "place": "社105",
-                    "original": "每週四6~8\t社105"
+                    "place": "社108",
+                    "original": "每週四6~8\t社108"
                 }
             ],
             "sign": "否",
@@ -101229,8 +101412,8 @@
                         9,
                         10
                     ],
-                    "place": "",
-                    "original": "每週四8~10\t"
+                    "place": "社109",
+                    "original": "每週四8~10\t社109"
                 }
             ],
             "sign": "否",
@@ -101455,8 +101638,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週四2~4\t"
+                    "place": "社101",
+                    "original": "每週四2~4\t社101"
                 }
             ],
             "sign": "否",
@@ -102929,8 +103112,8 @@
                         5,
                         6
                     ],
-                    "place": "社205",
-                    "original": "每週四5~6\t社205"
+                    "place": "社107",
+                    "original": "每週四5~6\t社107"
                 }
             ],
             "sign": "是",
@@ -104275,8 +104458,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週四7~8\t"
+                    "place": "文6F06",
+                    "original": "每週四7~8\t文6F06"
                 }
             ],
             "sign": "是",
@@ -104320,8 +104503,8 @@
                         1,
                         2
                     ],
-                    "place": "",
-                    "original": "每週四1~2\t"
+                    "place": "文6F06",
+                    "original": "每週四1~2\t文6F06"
                 }
             ],
             "sign": "否",
@@ -105269,8 +105452,8 @@
                         5,
                         6
                     ],
-                    "place": "",
-                    "original": "每週五5~6\t"
+                    "place": "電1F02",
+                    "original": "每週五5~6\t電1F02"
                 }
             ],
             "sign": "否",
@@ -105828,8 +106011,8 @@
                         10,
                         11
                     ],
-                    "place": "413",
-                    "original": "每週五10~11\t413"
+                    "place": "414",
+                    "original": "每週五10~11\t414"
                 }
             ],
             "sign": "否",
@@ -105873,8 +106056,8 @@
                         12,
                         13
                     ],
-                    "place": "413",
-                    "original": "每週五12~13\t413"
+                    "place": "414",
+                    "original": "每週五12~13\t414"
                 }
             ],
             "sign": "否",
@@ -108689,8 +108872,8 @@
                         5,
                         6
                     ],
-                    "place": "文1F11",
-                    "original": "每週五5~6\t文1F11"
+                    "place": "公5F32",
+                    "original": "每週五5~6\t公5F32"
                 }
             ],
             "sign": "否",
@@ -108741,13 +108924,13 @@
                         5,
                         6
                     ],
-                    "place": "公1F15",
-                    "original": "每週五5~6\t公1F15"
+                    "place": "電1F01",
+                    "original": "每週五5~6\t電1F01"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "70"
+            "max_people": "80"
         },
         {
             "year": "110",
@@ -109741,8 +109924,8 @@
                         11,
                         12
                     ],
-                    "place": "502",
-                    "original": "每週五10~12\t502"
+                    "place": "204",
+                    "original": "每週五10~12\t204"
                 }
             ],
             "sign": "否",
@@ -110289,8 +110472,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週五5~7\t"
+                    "place": "電1F03",
+                    "original": "每週五5~7\t電1F03"
                 }
             ],
             "sign": "否",
@@ -113039,7 +113222,7 @@
                 "ch": "電腦概論與程式設計",
                 "en": "Introduction to Computer Science and Programming",
                 "limit": false,
-                "other": "安排電腦教室及一般教室。\r\n本科不計入經濟學系雙主修加修課程學分。"
+                "other": "安排電腦教室。\r\n本科不計入經濟學系雙主修加修課程學分。"
             },
             "teacher": [
                 "張明桑"
@@ -113230,7 +113413,7 @@
                 "ch": "國際私法各論",
                 "en": "Specific Provisions of Conflict of Laws",
                 "limit": true,
-                "other": "1.先修科目：國際私法總論。\r\n2.民事法學群、財經法學群、國際法暨比較法學群。\r\n3.國際法暨外交事務學士學分學程。"
+                "other": "[停開]1.先修科目：國際私法總論。\r\n2.民事法學群、財經法學群、國際法暨比較法學群。\r\n3.國際法暨外交事務學士學分學程。\r\n4.1110110依系所通知停開。"
             },
             "teacher": [
                 "小林貴典"
@@ -113455,8 +113638,8 @@
                         10,
                         11
                     ],
-                    "place": "202",
-                    "original": "每週五10~11\t202"
+                    "place": "206",
+                    "original": "每週五10~11\t206"
                 }
             ],
             "sign": "否",
@@ -115449,8 +115632,8 @@
                         3,
                         4
                     ],
-                    "place": "公1F30",
-                    "original": "每週五3~4\t公1F30"
+                    "place": "公5F32",
+                    "original": "每週五3~4\t公5F32"
                 }
             ],
             "sign": "是",
@@ -115706,8 +115889,8 @@
                         1,
                         2
                     ],
-                    "place": "公1F27",
-                    "original": "每週五1~2\t公1F27"
+                    "place": "公5F32",
+                    "original": "每週五1~2\t公5F32"
                 }
             ],
             "sign": "否",
@@ -117333,10 +117516,10 @@
                 "選"
             ],
             "title": {
-                "ch": "學中文旅遊臺灣",
-                "en": "Learn  Chinese  and  Travel  Taiwan",
+                "ch": "學華語旅遊臺灣",
+                "en": "Learn Chinese and Travel Taiwan",
                 "limit": true,
-                "other": "[停開]1110105通知停開。三峽校區.\r\n1.建議有中文(二)或具有實用視聽華語第二冊第一課至第七課之中文能力之外籍生修習。\r\n2.請安排文院及一般教室"
+                "other": "[停開](原課程名稱：學中文旅遊臺灣)1110105通知停開。三峽校區.\r\n1.建議有中文(二)或具有實用視聽華語第二冊第一課至第七課之中文能力之外籍生修習。\r\n2.請安排文院及一般教室"
             },
             "teacher": [
                 "吳品慧"
@@ -117652,6 +117835,51 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "U4373",
+            "department": "語言",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "共同科",
+                    "original": "共同科4"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "華語（三）",
+                "en": "Chinese(3)",
+                "limit": false,
+                "other": "1110105通知新開。(原課程名稱：中文(三))"
+            },
+            "teacher": [
+                "吳品慧"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "0",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "",
+                    "original": "每週五5~6\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "0"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M5018",
             "department": "經碩",
             "department_level": [
@@ -117800,8 +118028,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週五2~4\t"
+                    "place": "社208",
+                    "original": "每週五2~4\t社208"
                 }
             ],
             "sign": "否",
@@ -118068,8 +118296,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週五5~7\t"
+                    "place": "社208",
+                    "original": "每週五5~7\t社208"
                 }
             ],
             "sign": "否",
@@ -118135,8 +118363,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週五5~7\t"
+                    "place": "社108",
+                    "original": "每週五5~7\t社108"
                 }
             ],
             "sign": "否",
@@ -118469,7 +118697,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "17"
+            "max_people": "20"
         },
         {
             "year": "110",
@@ -119036,8 +119264,8 @@
                         11,
                         12
                     ],
-                    "place": "206",
-                    "original": "每週五10~12\t206"
+                    "place": "209",
+                    "original": "每週五10~12\t209"
                 }
             ],
             "sign": "是",
@@ -119089,8 +119317,8 @@
                         11,
                         12
                     ],
-                    "place": "504",
-                    "original": "每週五10~12\t504"
+                    "place": "208",
+                    "original": "每週五10~12\t208"
                 }
             ],
             "sign": "否",
@@ -120770,8 +120998,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週五2~4\t"
+                    "place": "社109",
+                    "original": "每週五2~4\t社109"
                 }
             ],
             "sign": "否",
@@ -120844,7 +121072,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "51"
+            "max_people": "68"
         },
         {
             "year": "110",
@@ -121092,8 +121320,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週五5~7\t"
+                    "place": "社206",
+                    "original": "每週五5~7\t社206"
                 }
             ],
             "sign": "否",
@@ -121155,8 +121383,8 @@
                         10,
                         11
                     ],
-                    "place": "103",
-                    "original": "每週五10~11\t103"
+                    "place": "202",
+                    "original": "每週五10~11\t202"
                 }
             ],
             "sign": "是",
@@ -121358,8 +121586,8 @@
                         10,
                         11
                     ],
-                    "place": "411",
-                    "original": "每週五10~11\t411"
+                    "place": "413",
+                    "original": "每週五10~11\t413"
                 }
             ],
             "sign": "否",
@@ -123287,8 +123515,8 @@
                         1,
                         2
                     ],
-                    "place": "",
-                    "original": "每週五1~2\t"
+                    "place": "文2F10",
+                    "original": "每週五1~2\t文2F10"
                 }
             ],
             "sign": "是",
@@ -123458,8 +123686,8 @@
                         6,
                         7
                     ],
-                    "place": "303",
-                    "original": "每週六5~7\t303"
+                    "place": "302",
+                    "original": "每週六5~7\t302"
                 }
             ],
             "sign": "否",
@@ -123548,8 +123776,8 @@
                         5,
                         6
                     ],
-                    "place": "211",
-                    "original": "每週六5~6\t211"
+                    "place": "303",
+                    "original": "每週六5~6\t303"
                 }
             ],
             "sign": "否",
@@ -123593,8 +123821,8 @@
                         7,
                         8
                     ],
-                    "place": "211",
-                    "original": "每週六7~8\t211"
+                    "place": "303",
+                    "original": "每週六7~8\t303"
                 }
             ],
             "sign": "否",
@@ -123829,8 +124057,8 @@
                         5,
                         6
                     ],
-                    "place": "103",
-                    "original": "每週六5~6\t103"
+                    "place": "314",
+                    "original": "每週六5~6\t314"
                 }
             ],
             "sign": "否",
@@ -124926,8 +125154,8 @@
                         6,
                         7
                     ],
-                    "place": "202",
-                    "original": "每週六5~7\t202"
+                    "place": "306",
+                    "original": "每週六5~7\t306"
                 }
             ],
             "sign": "是",
@@ -127558,8 +127786,8 @@
                         3,
                         4
                     ],
-                    "place": "302",
-                    "original": "每週六2~4\t302"
+                    "place": "405",
+                    "original": "每週六2~4\t405"
                 }
             ],
             "sign": "否",
@@ -127611,8 +127839,8 @@
                         3,
                         4
                     ],
-                    "place": "406",
-                    "original": "每週六2~4\t406"
+                    "place": "308",
+                    "original": "每週六2~4\t308"
                 }
             ],
             "sign": "是",
@@ -127763,8 +127991,8 @@
                         3,
                         4
                     ],
-                    "place": "211",
-                    "original": "每週六2~4\t211"
+                    "place": "303",
+                    "original": "每週六2~4\t303"
                 }
             ],
             "sign": "否",
@@ -127862,8 +128090,8 @@
                         3,
                         4
                     ],
-                    "place": "308",
-                    "original": "每週六2~4\t308"
+                    "place": "414",
+                    "original": "每週六2~4\t414"
                 }
             ],
             "sign": "否",
@@ -127929,8 +128157,8 @@
                         6,
                         7
                     ],
-                    "place": "314",
-                    "original": "每週六5~7\t314"
+                    "place": "506",
+                    "original": "每週六5~7\t506"
                 }
             ],
             "sign": "否",
@@ -128035,8 +128263,8 @@
                         3,
                         4
                     ],
-                    "place": "411",
-                    "original": "每週六2~4\t411"
+                    "place": "506",
+                    "original": "每週六2~4\t506"
                 }
             ],
             "sign": "是",
@@ -128868,7 +129096,7 @@
                 "ch": "公司理財專題研討",
                 "en": "Seminar : Corporate Finance",
                 "limit": false,
-                "other": "教學大樓719教室\r\n游擱嘉(2)、吳孟紋(1)"
+                "other": "[停開]教學大樓719教室\r\n游擱嘉(2)、吳孟紋(1)\r\n1110112依系所通知停開。"
             },
             "teacher": [
                 "吳孟紋",
@@ -129474,8 +129702,8 @@
                         3,
                         4
                     ],
-                    "place": "303",
-                    "original": "每週六3~4\t303"
+                    "place": "302",
+                    "original": "每週六3~4\t302"
                 }
             ],
             "sign": "否",
