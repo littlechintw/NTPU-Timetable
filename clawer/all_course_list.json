@@ -1,6 +1,6 @@
 {
-    "start_time": "2022-01-13 01:09:02",
-    "end_time": "2022-01-13 01:09:52",
+    "start_time": "2022-01-15 01:04:57",
+    "end_time": "2022-01-15 01:05:38",
     "data": [
         {
             "year": "110",
@@ -100,10 +100,10 @@
                 "必"
             ],
             "title": {
-                "ch": "中文（一）",
-                "en": "Chinese  1",
+                "ch": "華語（一）",
+                "en": "Chinese(1)",
                 "limit": false,
-                "other": "This course is a 9-week intensive course (Feb 21,2022-Apr 22, 2022), and the class time is Monday and Wednesday 13:10-15:00."
+                "other": "(原課程名稱：中文(一))This course is a 9-week intensive course (Feb 21,2022-Apr 22, 2022), and the class time is Monday and Wednesday 13:10-15:00."
             },
             "teacher": [
                 "吳品慧"
@@ -2328,8 +2328,8 @@
                         10,
                         11
                     ],
-                    "place": "315",
-                    "original": "每週一10~11\t315"
+                    "place": "502",
+                    "original": "每週一10~11\t502"
                 }
             ],
             "sign": "否",
@@ -4554,8 +4554,8 @@
                         7,
                         8
                     ],
-                    "place": "公2F36",
-                    "original": "每週一7~8\t公2F36"
+                    "place": "法1F19",
+                    "original": "每週一7~8\t法1F19"
                 }
             ],
             "sign": "否",
@@ -13356,6 +13356,51 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "U2180",
+            "department": "外語系",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "外語系",
+                    "original": "外語系2"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "商用英文",
+                "en": "Business English",
+                "limit": false,
+                "other": "1110113通知新開。"
+            },
+            "teacher": [
+                "陳郁彬"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "商1F15",
+                    "original": "每週一3~4\t商1F15"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "U2211",
             "department": "行政系",
             "department_level": [
@@ -14297,6 +14342,51 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "15"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "U3149",
+            "department": "外語系",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "外語系",
+                    "original": "外語系3"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "語言發展",
+                "en": "Language Development",
+                "limit": false,
+                "other": "1110113通知新開。"
+            },
+            "teacher": [
+                "陳郁彬"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "文1F10",
+                    "original": "每週一5~6\t文1F10"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
         },
         {
             "year": "110",
@@ -16062,8 +16152,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一3~4\t"
+                    "place": "社B01",
+                    "original": "每週一3~4\t社B01"
                 }
             ],
             "sign": "是",
@@ -22191,8 +22281,8 @@
                         10,
                         11
                     ],
-                    "place": "313",
-                    "original": "每週一10~11\t313"
+                    "place": "315",
+                    "original": "每週一10~11\t315"
                 }
             ],
             "sign": "否",
@@ -42150,10 +42240,10 @@
                 "ch": "英文短篇作品選讀",
                 "en": "Short Stories in English",
                 "limit": false,
-                "other": "1110103通知新開課程。"
+                "other": "1110103通知新開課程。授課教師：張懿仁"
             },
             "teacher": [
-                "張懿仁"
+                "******"
             ],
             "category": "半",
             "credit": "2",
@@ -44526,8 +44616,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F02",
-                    "original": "每週二5~6\t法2F02"
+                    "place": "公2F36",
+                    "original": "每週二5~6\t公2F36"
                 }
             ],
             "sign": "是",
@@ -44710,8 +44800,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週二3~4\t"
+                    "place": "電1F03",
+                    "original": "每週二3~4\t電1F03"
                 }
             ],
             "sign": "否",
@@ -54508,10 +54598,10 @@
                 "必"
             ],
             "title": {
-                "ch": "中文（二）",
-                "en": "Chinese  2",
+                "ch": "華語（二）",
+                "en": "Chinese(2)",
                 "limit": false,
-                "other": "1.This course is a 9-week intensive course (Apr 25, 2022-Jun 24, 2022), and the class time is Monday and Wednesday 13:10-15:00 2.It is recommended for students who have studied Chinese (1)."
+                "other": "(原課程名稱：中文(二))1.This course is a 9-week intensive course (Apr 25, 2022-Jun 24, 2022), and the class time is Monday and Wednesday 13:10-15:00 2.It is recommended for students who have studied Chinese (1)."
             },
             "teacher": [
                 "吳品慧"
@@ -68493,10 +68583,10 @@
                 "ch": "工程/科技英文(一)",
                 "en": "Engineering/technology English (I)",
                 "limit": false,
-                "other": "1110103通知新開課程。"
+                "other": "1110103通知新開課程。授課教師：張懿仁"
             },
             "teacher": [
-                "張懿仁"
+                "******"
             ],
             "category": "半",
             "credit": "2",
@@ -68889,10 +68979,10 @@
                 "ch": "英美小說與改編評析",
                 "en": "English Novels and Adaptations",
                 "limit": false,
-                "other": "1101229通知授課教師異動。"
+                "other": "1101229通知授課教師異動。授課教師：張懿仁"
             },
             "teacher": [
-                "張懿仁"
+                "******"
             ],
             "category": "半",
             "credit": "2",
@@ -71362,9 +71452,9 @@
                     "original": "每週三10~12\t713"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "24"
+            "sign": "是",
+            "sign_people": "7",
+            "max_people": "35"
         },
         {
             "year": "110",
@@ -75811,7 +75901,7 @@
                 "ch": "超大型積體電路設計導論",
                 "en": "Introduction to VLSI Design",
                 "limit": false,
-                "other": " "
+                "other": "[停開]"
             },
             "teacher": [
                 "******"
@@ -75910,13 +76000,13 @@
                         8,
                         9
                     ],
-                    "place": "社201",
-                    "original": "每週三7~9\t社201"
+                    "place": "社104",
+                    "original": "每週三7~9\t社104"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "45"
+            "max_people": "70"
         },
         {
             "year": "110",
@@ -82988,7 +83078,7 @@
                 "ch": "研究方法",
                 "en": "Research Methodology",
                 "limit": false,
-                "other": " "
+                "other": "*限收企管碩乙組、智慧醫療管理英語碩士學士學位學程(已額滿)。"
             },
             "teacher": [
                 "陳宥杉",
@@ -83011,8 +83101,8 @@
                     "original": "每週四5~7\t商2F03"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "7",
             "max_people": "36"
         },
         {
@@ -98140,7 +98230,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "20"
         },
         {
             "year": "110",
@@ -115632,8 +115722,8 @@
                         3,
                         4
                     ],
-                    "place": "公5F32",
-                    "original": "每週五3~4\t公5F32"
+                    "place": "公1F30",
+                    "original": "每週五3~4\t公1F30"
                 }
             ],
             "sign": "是",
@@ -115889,8 +115979,8 @@
                         1,
                         2
                     ],
-                    "place": "公5F32",
-                    "original": "每週五1~2\t公5F32"
+                    "place": "公1F27",
+                    "original": "每週五1~2\t公1F27"
                 }
             ],
             "sign": "否",
@@ -119522,8 +119612,8 @@
                         8,
                         9
                     ],
-                    "place": "206",
-                    "original": "每週五7~9\t206"
+                    "place": "210",
+                    "original": "每週五7~9\t210"
                 }
             ],
             "sign": "否",
