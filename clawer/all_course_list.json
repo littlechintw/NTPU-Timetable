@@ -1,6 +1,6 @@
 {
-    "start_time": "2022-01-15 01:04:57",
-    "end_time": "2022-01-15 01:05:38",
+    "start_time": "2022-01-18 01:07:59",
+    "end_time": "2022-01-18 01:08:40",
     "data": [
         {
             "year": "110",
@@ -11625,8 +11625,8 @@
                         12,
                         13
                     ],
-                    "place": "308",
-                    "original": "每週一12~13\t308"
+                    "place": "502",
+                    "original": "每週一12~13\t502"
                 }
             ],
             "sign": "否",
@@ -31007,8 +31007,8 @@
                         5,
                         6
                     ],
-                    "place": "公5F32",
-                    "original": "每週二5~6\t公5F32"
+                    "place": "公2F36",
+                    "original": "每週二5~6\t公2F36"
                 }
             ],
             "sign": "否",
@@ -44616,8 +44616,8 @@
                         5,
                         6
                     ],
-                    "place": "公2F36",
-                    "original": "每週二5~6\t公2F36"
+                    "place": "公5F32",
+                    "original": "每週二5~6\t公5F32"
                 }
             ],
             "sign": "是",
@@ -96044,6 +96044,131 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "U4374",
+            "department": "語言",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "共同科",
+                    "original": "共同科4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "ESP專業英文菁英學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "A-EGP進階英文學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "全球化公共事務英語學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "經濟分析與領導人才學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "A-EGP進階英文學士微學程"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "媒體英文 ",
+                "en": "Media English",
+                "limit": false,
+                "other": "1110117通知新開。1.原「專業英文：媒體英文」，若重複修習僅能擇一計入畢業學分及學程。\r\n2.建議達本校「外語能力指標檢核辦法之英語檢定」標準或已修畢語文通識「大學英語文課程之學士班二年級(含)以上同學選修。"
+            },
+            "teacher": [
+                "布萊德"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "文3F10_L",
+                    "original": "每週四5~6\t文3F10_L"
+                }
+            ],
+            "sign": "是",
+            "sign_people": "6",
+            "max_people": "0"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "U4375",
+            "department": "共同科",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "共同科",
+                    "original": "共同科4"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "商用學術英語簡報技巧",
+                "en": "Academic Presentation in Business",
+                "limit": false,
+                "other": "1110117通知新開。"
+            },
+            "teacher": [
+                "林少弘"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文5F07_L",
+                    "original": "每週四3~4\t文5F07_L"
+                }
+            ],
+            "sign": "是",
+            "sign_people": "6",
+            "max_people": "0"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M5019",
             "department": "都碩",
             "department_level": [
@@ -117265,7 +117390,7 @@
                 "ch": "中級寫作",
                 "en": "Intermediate Writing",
                 "limit": false,
-                "other": "[停開]1101215通知停開。建議達本校「外語能力指標檢核辦法之英語檢定」標準或已修畢語文通識「大學英語文課程之學士班二年級(含)以上同學選修。"
+                "other": "1110117通知新開。建議達本校「外語能力指標檢核辦法之英語檢定」標準或已修畢語文通識「大學英語文課程之學士班二年級(含)以上同學選修。"
             },
             "teacher": [
                 "布萊德"
@@ -117282,8 +117407,8 @@
                         3,
                         4
                     ],
-                    "place": "文3F02_L",
-                    "original": "每週五3~4\t文3F02_L"
+                    "place": "文3F12_L",
+                    "original": "每週五3~4\t文3F12_L"
                 }
             ],
             "sign": "是",
