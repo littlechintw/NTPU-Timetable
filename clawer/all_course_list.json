@@ -1,6 +1,6 @@
 {
-    "start_time": "2022-01-18 01:07:59",
-    "end_time": "2022-01-18 01:08:40",
+    "start_time": "2022-01-20 01:12:57",
+    "end_time": "2022-01-20 01:13:47",
     "data": [
         {
             "year": "110",
@@ -6068,8 +6068,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一2~4\t"
+                    "place": "商1F04",
+                    "original": "每週一2~4\t商1F04"
                 }
             ],
             "sign": "是",
@@ -18052,8 +18052,8 @@
                         3,
                         4
                     ],
-                    "place": "資1F-14",
-                    "original": "每週一2~4\t資1F-14"
+                    "place": "商3F10",
+                    "original": "每週一2~4\t商3F10"
                 }
             ],
             "sign": "否",
@@ -19802,8 +19802,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週一5~7\t"
+                    "place": "商3F10",
+                    "original": "每週一5~7\t商3F10"
                 }
             ],
             "sign": "否",
@@ -21008,8 +21008,8 @@
                         6,
                         7
                     ],
-                    "place": "法2F28",
-                    "original": "每週一5~7\t法2F28"
+                    "place": "商1F16",
+                    "original": "每週一5~7\t商1F16"
                 }
             ],
             "sign": "否",
@@ -21933,8 +21933,8 @@
                         3,
                         4
                     ],
-                    "place": "資1F-14",
-                    "original": "每週一2~4\t資1F-14"
+                    "place": "商3F10",
+                    "original": "每週一2~4\t商3F10"
                 }
             ],
             "sign": "否",
@@ -31739,7 +31739,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "34"
+            "max_people": "57"
         },
         {
             "year": "110",
@@ -31798,7 +31798,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "34"
+            "max_people": "57"
         },
         {
             "year": "110",
@@ -36695,8 +36695,8 @@
                         3,
                         4
                     ],
-                    "place": "法1F04",
-                    "original": "每週二2~4\t法1F04"
+                    "place": "商1F16",
+                    "original": "每週二2~4\t商1F16"
                 }
             ],
             "sign": "否",
@@ -37444,7 +37444,7 @@
                 "ch": "會計資訊系統",
                 "en": "Accounting Information System",
                 "limit": true,
-                "other": "\r\n限4年級同學選修,與電子商務4合班,與統計系4合班。"
+                "other": "限4年級同學選修,與電子商務4合班,與統計系4合班。"
             },
             "teacher": [
                 "王怡心"
@@ -37462,8 +37462,8 @@
                         3,
                         4
                     ],
-                    "place": "資1F-09",
-                    "original": "每週二2~4\t資1F-09"
+                    "place": "商3F10",
+                    "original": "每週二2~4\t商3F10"
                 }
             ],
             "sign": "否",
@@ -39529,6 +39529,93 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "16"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "M5211",
+            "department": "法碩一般生組",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法博",
+                    "original": "法博1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "法博",
+                    "original": "法博2"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法碩一般生組",
+                    "original": "法碩一般生組1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "法碩一般生組",
+                    "original": "法碩一般生組2"
+                },
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "法碩一般生組",
+                    "original": "法碩一般生組3"
+                },
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "法碩法專組",
+                    "original": "法碩法專組3"
+                },
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "法碩法專組",
+                    "original": "法碩法專組4"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "金融法各論專題研究（一）",
+                "en": "Seminar: Financial Laws Ⅰ",
+                "limit": true,
+                "other": "1110119通知新開。法專組先修科目：商事法總論暨公司法。"
+            },
+            "teacher": [
+                "林國彬"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        7,
+                        8
+                    ],
+                    "place": "法5F16",
+                    "original": "每週二7~8\t法5F16"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "20"
         },
         {
             "year": "110",
@@ -41819,7 +41906,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "50"
         },
         {
             "year": "110",
@@ -45666,8 +45753,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週二5~7\t"
+                    "place": "商4F05-1",
+                    "original": "每週二5~7\t商4F05-1"
                 }
             ],
             "sign": "否",
@@ -49508,15 +49595,8 @@
                         3,
                         4
                     ],
-                    "place": "公2F27",
-                    "original": "每週二2~4\t公2F27"
-                },
-                {
-                    "courseTime": "N/A",
-                    "time_category": "N/A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "第二教室公2F39"
+                    "place": "公2F39",
+                    "original": "每週二2~4\t公2F39"
                 }
             ],
             "sign": "否",
@@ -50058,8 +50138,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週二5~7\t"
+                    "place": "法2F02",
+                    "original": "每週二5~7\t法2F02"
                 }
             ],
             "sign": "否",
@@ -71852,8 +71932,8 @@
                 "選"
             ],
             "title": {
-                "ch": "績效評估專題研討",
-                "en": "Seminar on Performance Evaluation",
+                "ch": "計量決策分析",
+                "en": "Quantitative Decision Making",
                 "limit": false,
                 "other": " "
             },
@@ -72402,8 +72482,8 @@
                         8,
                         9
                     ],
-                    "place": "商2F03",
-                    "original": "每週三7~9\t商2F03"
+                    "place": "資1F-14",
+                    "original": "每週三7~9\t資1F-14"
                 }
             ],
             "sign": "是",
@@ -74643,15 +74723,8 @@
                         3,
                         4
                     ],
-                    "place": "公2F26",
-                    "original": "每週三2~4\t公2F26"
-                },
-                {
-                    "courseTime": "N/A",
-                    "time_category": "N/A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "第二教室公2F39"
+                    "place": "公2F39",
+                    "original": "每週三2~4\t公2F39"
                 }
             ],
             "sign": "否",
@@ -75326,8 +75399,8 @@
                         7,
                         8
                     ],
-                    "place": "文3F10_L",
-                    "original": "每週三6~8\t文3F10_L"
+                    "place": "商3F10",
+                    "original": "每週三6~8\t商3F10"
                 }
             ],
             "sign": "否",
@@ -75548,8 +75621,8 @@
                         8,
                         9
                     ],
-                    "place": "商2F03",
-                    "original": "每週三7~9\t商2F03"
+                    "place": "資1F-14",
+                    "original": "每週三7~9\t資1F-14"
                 }
             ],
             "sign": "是",
@@ -84373,8 +84446,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F16",
-                    "original": "每週四2~4\t法2F16"
+                    "place": "商1F09",
+                    "original": "每週四2~4\t商1F09"
                 }
             ],
             "sign": "否",
@@ -87722,8 +87795,8 @@
                         3,
                         4
                     ],
-                    "place": "資B1F-06",
-                    "original": "每週四2~4\t資B1F-06"
+                    "place": "商3F10",
+                    "original": "每週四2~4\t商3F10"
                 }
             ],
             "sign": "否",
@@ -96141,7 +96214,7 @@
                 "ch": "商用學術英語簡報技巧",
                 "en": "Academic Presentation in Business",
                 "limit": false,
-                "other": "1110117通知新開。"
+                "other": "1110117通知新開。建議未來規劃修讀商學院英語授課課程(EMI)之學生先修讀本課程"
             },
             "teacher": [
                 "林少弘"
@@ -96352,73 +96425,6 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "50"
-        },
-        {
-            "year": "110",
-            "semester": "2",
-            "courseID": "M5063",
-            "department": "通訊碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "電資博",
-                    "original": "電資博1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "電資博",
-                    "original": "電資博2"
-                },
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "通訊碩",
-                    "original": "通訊碩1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "通訊碩",
-                    "original": "通訊碩2"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選",
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "消息理論",
-                "en": "Information Theory ",
-                "limit": false,
-                "other": "與學士班4年級合班。"
-            },
-            "teacher": [
-                "******"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 4,
-                    "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "電2F06",
-                    "original": "每週四2~4\t電2F06"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "9"
         },
         {
             "year": "110",
@@ -98175,6 +98181,59 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "10"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "M6063",
+            "department": "通訊碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "通訊碩",
+                    "original": "通訊碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "通訊碩",
+                    "original": "通訊碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "編碼理論",
+                "en": "Coding Theory",
+                "limit": false,
+                "other": "與學士班4年級合班"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "電2F01",
+                    "original": "每週四2~4\t電2F01"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "20"
         },
         {
             "year": "110",
@@ -101301,8 +101360,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週四5~7\t"
+                    "place": "商3F10",
+                    "original": "每週四5~7\t商3F10"
                 }
             ],
             "sign": "否",
@@ -101475,8 +101534,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週四5~7\t"
+                    "place": "商2F07",
+                    "original": "每週四5~7\t商2F07"
                 }
             ],
             "sign": "否",
@@ -101684,38 +101743,24 @@
         {
             "year": "110",
             "semester": "2",
-            "courseID": "U4356",
+            "courseID": "U4414",
             "department": "通訊系",
             "department_level": [
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "ESP專業英文學士學分學程"
-                },
                 {
                     "grade": "4",
                     "class": "",
                     "category": "通訊系",
                     "original": "通訊系4"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "ESP專業英文學士微學程"
                 }
             ],
             "compulsory": [
-                "選",
-                "選",
                 "選"
             ],
             "title": {
-                "ch": "消息理論",
-                "en": "Information Theory ",
+                "ch": "編碼理論",
+                "en": "Coding Theory",
                 "limit": false,
-                "other": "與碩士班合開"
+                "other": "與碩士班合班"
             },
             "teacher": [
                 "******"
@@ -101723,7 +101768,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "中文",
+            "language": "英語English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -101733,8 +101778,8 @@
                         3,
                         4
                     ],
-                    "place": "電2F06",
-                    "original": "每週四2~4\t電2F06"
+                    "place": "電2F01",
+                    "original": "每週四2~4\t電2F01"
                 }
             ],
             "sign": "否",
@@ -106000,8 +106045,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週五2~4\t"
+                    "place": "商8F01",
+                    "original": "每週五2~4\t商8F01"
                 }
             ],
             "sign": "否",
@@ -108941,8 +108986,8 @@
                         5,
                         6
                     ],
-                    "place": "資1F-10",
-                    "original": "每週五5~6\t資1F-10"
+                    "place": "商3F10",
+                    "original": "每週五5~6\t商3F10"
                 }
             ],
             "sign": "否",
@@ -111617,8 +111662,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週五5~7\t"
+                    "place": "商2F10",
+                    "original": "每週五5~7\t商2F10"
                 }
             ],
             "sign": "否",
@@ -118208,6 +118253,73 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "M5063",
+            "department": "通訊碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "電資博",
+                    "original": "電資博1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "電資博",
+                    "original": "電資博2"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "通訊碩",
+                    "original": "通訊碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "通訊碩",
+                    "original": "通訊碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "消息理論",
+                "en": "Information Theory ",
+                "limit": false,
+                "other": "與學士班4年級合班。"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "電2F06",
+                    "original": "每週五2~4\t電2F06"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "9"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M5064",
             "department": "社工碩",
             "department_level": [
@@ -119186,59 +119298,6 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "15"
-        },
-        {
-            "year": "110",
-            "semester": "2",
-            "courseID": "M6063",
-            "department": "通訊碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "通訊碩",
-                    "original": "通訊碩1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "通訊碩",
-                    "original": "通訊碩2"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "編碼理論",
-                "en": "Coding Theory",
-                "limit": false,
-                "other": "與學士班4年級合班"
-            },
-            "teacher": [
-                "******"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "英語English",
-            "course_detail": [
-                {
-                    "courseTime": 5,
-                    "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "電1F03",
-                    "original": "每週五2~4\t電1F03"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "20"
         },
         {
             "year": "110",
@@ -121366,24 +121425,38 @@
         {
             "year": "110",
             "semester": "2",
-            "courseID": "U4414",
+            "courseID": "U4356",
             "department": "通訊系",
             "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "ESP專業英文學士學分學程"
+                },
                 {
                     "grade": "4",
                     "class": "",
                     "category": "通訊系",
                     "original": "通訊系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "ESP專業英文學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
-                "ch": "編碼理論",
-                "en": "Coding Theory",
+                "ch": "消息理論",
+                "en": "Information Theory ",
                 "limit": false,
-                "other": "與碩士班合班"
+                "other": "與碩士班合開"
             },
             "teacher": [
                 "******"
@@ -121391,7 +121464,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "中文",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -121401,8 +121474,8 @@
                         3,
                         4
                     ],
-                    "place": "電1F03",
-                    "original": "每週五2~4\t電1F03"
+                    "place": "電2F06",
+                    "original": "每週五2~4\t電2F06"
                 }
             ],
             "sign": "否",
