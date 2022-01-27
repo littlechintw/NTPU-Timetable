@@ -1,6 +1,6 @@
 {
-    "start_time": "2022-01-25 01:08:23",
-    "end_time": "2022-01-25 01:08:57",
+    "start_time": "2022-01-27 01:02:54",
+    "end_time": "2022-01-27 01:03:34",
     "data": [
         {
             "year": "110",
@@ -1096,7 +1096,7 @@
                 "other": "*1100126通知異動時間，原(五)2-2改至(一)8-8。上課教室：商6F27。"
             },
             "teacher": [
-                "******"
+                "薛敏正"
             ],
             "category": "半",
             "credit": "1",
@@ -8457,7 +8457,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "62"
+            "max_people": "66"
         },
         {
             "year": "110",
@@ -14643,7 +14643,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "76"
+            "max_people": "78"
         },
         {
             "year": "110",
@@ -15784,8 +15784,8 @@
                         5,
                         6
                     ],
-                    "place": "文3F09_L",
-                    "original": "每週一5~6\t文3F09_L"
+                    "place": "文5F06_L",
+                    "original": "每週一5~6\t文5F06_L"
                 }
             ],
             "sign": "是",
@@ -16454,8 +16454,8 @@
                         5,
                         6
                     ],
-                    "place": "文5F06_L",
-                    "original": "每週一5~6\t文5F06_L"
+                    "place": "文3F09_L",
+                    "original": "每週一5~6\t文3F09_L"
                 }
             ],
             "sign": "是",
@@ -18755,8 +18755,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週一10~12\t"
+                    "place": "712",
+                    "original": "每週一10~12\t712"
                 }
             ],
             "sign": "否",
@@ -35612,7 +35612,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "43"
+            "max_people": "46"
         },
         {
             "year": "110",
@@ -36807,7 +36807,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "43"
+            "max_people": "46"
         },
         {
             "year": "110",
@@ -36867,7 +36867,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "43"
+            "max_people": "46"
         },
         {
             "year": "110",
@@ -37057,7 +37057,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "86"
+            "max_people": "87"
         },
         {
             "year": "110",
@@ -42844,7 +42844,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "90"
+            "max_people": "94"
         },
         {
             "year": "110",
@@ -44176,8 +44176,8 @@
                         3,
                         4
                     ],
-                    "place": "文4F09",
-                    "original": "每週二3~4\t文4F09"
+                    "place": "文4F05_L",
+                    "original": "每週二3~4\t文4F05_L"
                 }
             ],
             "sign": "否",
@@ -44228,20 +44228,13 @@
                         5,
                         6
                     ],
-                    "place": "公1F15",
-                    "original": "每週二5~6\t公1F15"
-                },
-                {
-                    "courseTime": "N/A",
-                    "time_category": "N/A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "第二教室法1F04"
+                    "place": "法1F04",
+                    "original": "每週二5~6\t法1F04"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "70"
+            "max_people": "76"
         },
         {
             "year": "110",
@@ -44502,8 +44495,8 @@
                         3,
                         4
                     ],
-                    "place": "文3F10_L",
-                    "original": "每週二3~4\t文3F10_L"
+                    "place": "文3F11_L",
+                    "original": "每週二3~4\t文3F11_L"
                 }
             ],
             "sign": "否",
@@ -44842,8 +44835,8 @@
                         3,
                         4
                     ],
-                    "place": "文4F05_L",
-                    "original": "每週二3~4\t文4F05_L"
+                    "place": "文4F09",
+                    "original": "每週二3~4\t文4F09"
                 }
             ],
             "sign": "是",
@@ -45081,8 +45074,8 @@
                         3,
                         4
                     ],
-                    "place": "文3F11_L",
-                    "original": "每週二3~4\t文3F11_L"
+                    "place": "文3F10_L",
+                    "original": "每週二3~4\t文3F10_L"
                 }
             ],
             "sign": "否",
@@ -46438,7 +46431,7 @@
                 "ch": "實驗設計",
                 "en": "Experimental Design",
                 "limit": false,
-                "other": "教室：教學7F12"
+                "other": "教室：教學7F14"
             },
             "teacher": [
                 "劉惠美"
@@ -46456,8 +46449,8 @@
                         11,
                         12
                     ],
-                    "place": "712",
-                    "original": "每週二10~12\t712"
+                    "place": "714",
+                    "original": "每週二10~12\t714"
                 }
             ],
             "sign": "否",
@@ -46695,7 +46688,7 @@
             ],
             "sign": "是",
             "sign_people": "4",
-            "max_people": "20"
+            "max_people": "30"
         },
         {
             "year": "110",
@@ -47825,8 +47818,8 @@
                         11,
                         12
                     ],
-                    "place": "709",
-                    "original": "每週二10~12\t709"
+                    "place": "712",
+                    "original": "每週二10~12\t712"
                 }
             ],
             "sign": "否",
@@ -56085,7 +56078,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "150"
+            "max_people": "161"
         },
         {
             "year": "110",
@@ -58839,7 +58832,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "16"
+            "max_people": "17"
         },
         {
             "year": "110",
@@ -62521,7 +62514,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "63"
+            "max_people": "64"
         },
         {
             "year": "110",
@@ -62597,7 +62590,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "63"
+            "max_people": "65"
         },
         {
             "year": "110",
@@ -73321,7 +73314,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "13"
+            "max_people": "22"
         },
         {
             "year": "110",
@@ -74522,7 +74515,7 @@
                 "ch": "中級會計學",
                 "en": "Intermediate Accounting",
                 "limit": true,
-                "other": "\r\n本科不計入經濟學系雙主修加修課程學分。"
+                "other": "本科不計入經濟學系雙主修加修課程學分。"
             },
             "teacher": [
                 "薛富井"
@@ -74556,7 +74549,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "90"
+            "max_people": "96"
         },
         {
             "year": "110",
@@ -74951,7 +74944,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "26"
+            "max_people": "35"
         },
         {
             "year": "110",
@@ -81038,7 +81031,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "52"
+            "max_people": "53"
         },
         {
             "year": "110",
@@ -87903,7 +87896,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "60"
+            "max_people": "62"
         },
         {
             "year": "110",
@@ -87991,7 +87984,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "60"
+            "max_people": "62"
         },
         {
             "year": "110",
@@ -95230,7 +95223,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "52"
+            "max_people": "58"
         },
         {
             "year": "110",
@@ -95705,7 +95698,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "52"
+            "max_people": "58"
         },
         {
             "year": "110",
@@ -105855,8 +105848,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F08",
-                    "original": "每週五2~4\t商2F08"
+                    "place": "商2F09",
+                    "original": "每週五2~4\t商2F09"
                 }
             ],
             "sign": "是",
@@ -107106,7 +107099,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "54"
+            "max_people": "55"
         },
         {
             "year": "110",
@@ -108658,7 +108651,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "43"
+            "max_people": "42"
         },
         {
             "year": "110",
@@ -114521,7 +114514,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "42"
         },
         {
             "year": "110",
@@ -118469,7 +118462,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "22"
+            "max_people": "23"
         },
         {
             "year": "110",
@@ -120700,7 +120693,7 @@
                 "ch": "中級會計學",
                 "en": "Intermediate Accounting",
                 "limit": true,
-                "other": "\r\n本科不計入經濟學系雙主修加修課程學分。"
+                "other": "本科不計入經濟學系雙主修加修課程學分。"
             },
             "teacher": [
                 "薛富井"
@@ -120734,7 +120727,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "90"
+            "max_people": "96"
         },
         {
             "year": "110",
@@ -120960,8 +120953,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F16",
-                    "original": "每週五2~4\t法2F16"
+                    "place": "商2F08",
+                    "original": "每週五2~4\t商2F08"
                 }
             ],
             "sign": "是",
