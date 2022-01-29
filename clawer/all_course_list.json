@@ -1,6 +1,6 @@
 {
-    "start_time": "2022-01-27 01:02:54",
-    "end_time": "2022-01-27 01:03:34",
+    "start_time": "2022-01-29 00:58:06",
+    "end_time": "2022-01-29 00:58:55",
     "data": [
         {
             "year": "110",
@@ -7327,8 +7327,8 @@
                     "original": "每週一5~7\t法2F02"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "16",
             "max_people": "82"
         },
         {
@@ -14275,7 +14275,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "104"
+            "max_people": "109"
         },
         {
             "year": "110",
@@ -19914,7 +19914,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "羅國暉"
             ],
             "category": "半",
             "credit": "3",
@@ -34257,7 +34257,7 @@
                 "ch": "數位系統設計",
                 "en": "Digital Systems Design",
                 "limit": false,
-                "other": " "
+                "other": "將與資訊工程學系『數位系統設計』(U1558)合班上課。\r\n上課地點：商1F01教室。"
             },
             "teacher": [
                 "陳永源"
@@ -34275,13 +34275,13 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週二2~4\t"
+                    "place": "商1F01",
+                    "original": "每週二2~4\t商1F01"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "55"
+            "max_people": "120"
         },
         {
             "year": "110",
@@ -34771,13 +34771,6 @@
                     "original": "每週四3~4\t公1F19"
                 },
                 {
-                    "courseTime": "N/A",
-                    "time_category": "N/A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "第二教室公1F19"
-                },
-                {
                     "courseTime": 4,
                     "time_category": "A",
                     "sessions": [
@@ -35004,12 +34997,6 @@
                     "original": "商學院1"
                 },
                 {
-                    "grade": "1",
-                    "class": "",
-                    "category": "商學院",
-                    "original": "商學院1"
-                },
-                {
                     "grade": "2",
                     "class": "",
                     "category": "統計系",
@@ -35089,7 +35076,6 @@
                 "必",
                 "必",
                 "必",
-                "必",
                 "必"
             ],
             "title": {
@@ -35116,13 +35102,6 @@
                     ],
                     "place": "商2F11",
                     "original": "每週二5~7\t商2F11"
-                },
-                {
-                    "courseTime": "N/A",
-                    "time_category": "N/A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "第二教室公1F19"
                 },
                 {
                     "courseTime": 4,
@@ -35327,7 +35306,7 @@
                 "ch": "數位系統設計",
                 "en": "Digital Systems Design",
                 "limit": false,
-                "other": " "
+                "other": "[停開]本門課110-2停開，惟原定初選階段(1/27公告)已核准分發之同學(計75名)，屆時將安排與電機工程學系『數位系統設計』(U1127)合班上課。\r\n上課地點：商1F01教室。"
             },
             "teacher": [
                 "鄭穎仁"
@@ -35345,8 +35324,8 @@
                         3,
                         4
                     ],
-                    "place": "電1F01",
-                    "original": "每週二2~4\t電1F01"
+                    "place": "",
+                    "original": "每週二2~4\t"
                 }
             ],
             "sign": "否",
@@ -38969,8 +38948,8 @@
                         3,
                         4
                     ],
-                    "place": "法5F16",
-                    "original": "每週二3~4\t法5F16"
+                    "place": "法2F25",
+                    "original": "每週二3~4\t法2F25"
                 }
             ],
             "sign": "否",
@@ -40542,7 +40521,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "20"
         },
         {
             "year": "110",
@@ -43707,8 +43686,8 @@
                     "original": "每週二3~4\t法4F14"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "22",
             "max_people": "113"
         },
         {
@@ -52637,7 +52616,7 @@
                 "ch": "數位影像處理與應用",
                 "en": "Digital Image Processing and Applications",
                 "limit": false,
-                "other": "資工系、電機系學生(含雙主修)選讀，不列入其通識畢業學分數。\r\n48人，電腦教室需有Microsoft Office 2013以上含Word、PowerPoint、Excel等；PhotoImpact X3；Adobe CS5以上含Flash、Photoshop 等，只能安排C2F02，請與1213節安排同一間電腦教室。"
+                "other": "[停開]資工系、電機系學生(含雙主修)選讀，不列入其通識畢業學分數。\r\n48人，電腦教室需有Microsoft Office 2013以上含Word、PowerPoint、Excel等；PhotoImpact X3；Adobe CS5以上含Flash、Photoshop 等。\r\n1110127依系所通知停開(教師因故未便回台授課)。"
             },
             "teacher": [
                 "何善輝"
@@ -52714,7 +52693,7 @@
                 "ch": "計算機生活應用",
                 "en": "Applications of Computer Science in Our Daily Life",
                 "limit": false,
-                "other": "資工系、電機系學生(含雙主修)選讀，不列入其通識畢業學分數。\r\n48人，電腦教室需有Microsoft Office 2013以上含Word、PowerPoint、Excel等；PhotoImpact X3；Adobe CS5以上含Flash、Photoshop 等，只能安排C2F02。請與1011節安排同一間電腦教室。"
+                "other": "[停開]資工系、電機系學生(含雙主修)選讀，不列入其通識畢業學分數。\r\n48人，電腦教室需有Microsoft Office 2013以上含Word、PowerPoint、Excel等；PhotoImpact X3；Adobe CS5以上含Flash、Photoshop 等。\r\n1110127依系所通知停開(教師因故未便回台授課)。"
             },
             "teacher": [
                 "何善輝"
@@ -62112,8 +62091,8 @@
                         6,
                         7
                     ],
-                    "place": "商1F02",
-                    "original": "每週三5~7\t商1F02"
+                    "place": "商1F11",
+                    "original": "每週三5~7\t商1F11"
                 }
             ],
             "sign": "否",
@@ -68494,7 +68473,7 @@
                 "ch": "現代東亞",
                 "en": "Modern East Asia",
                 "limit": true,
-                "other": " "
+                "other": "[停開]*1110128通知停開課程。"
             },
             "teacher": [
                 "******"
@@ -74158,7 +74137,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "0"
         },
         {
             "year": "110",
@@ -77026,7 +77005,7 @@
                 "ch": "數位影像處理與應用",
                 "en": "Digital Image Processing and Applications",
                 "limit": false,
-                "other": "資工系、電機系學生(含雙主修)選讀，不列入其通識畢業學分數。\r\n50人，電腦教室需有Microsoft Office 2013以上含Word、PowerPoint、Excel等；PhotoImpact X3；Adobe CS5以上含Flash、Photoshop 等。\r\n請與78節安排同一間電腦教室。"
+                "other": "[停開]111.1.27通知停開\r\n資工系、電機系學生(含雙主修)選讀，不列入其通識畢業學分數。\r\n50人，電腦教室需有Microsoft Office 2013以上含Word、PowerPoint、Excel等；PhotoImpact X3；Adobe CS5以上含Flash、Photoshop 等。\r\n請與78節安排同一間電腦教室。"
             },
             "teacher": [
                 "何善輝"
@@ -77432,7 +77411,7 @@
                 "ch": "計算機生活應用",
                 "en": "Applications of Computer Science in Our Daily Life",
                 "limit": false,
-                "other": "資工系、電機系學生(含雙主修)選讀，不列入其通識畢業學分數。\r\n50人，電腦教室需有Microsoft Office 2013以上含Word、PowerPoint、Excel等；PhotoImpact X3；Adobe CS5以上含Flash、Photoshop 等。\r\n請與56節安排同一間電腦教室。"
+                "other": "[停開]111.1.27通知停開\r\n資工系、電機系學生(含雙主修)選讀，不列入其通識畢業學分數。\r\n50人，電腦教室需有Microsoft Office 2013以上含Word、PowerPoint、Excel等；PhotoImpact X3；Adobe CS5以上含Flash、Photoshop 等。\r\n請與56節安排同一間電腦教室。"
             },
             "teacher": [
                 "何善輝"
@@ -78083,6 +78062,69 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "U4377",
+            "department": "通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "通識4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "101-102向度二"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "103-104向度三"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度三"
+                }
+            ],
+            "compulsory": [
+                "通"
+            ],
+            "title": {
+                "ch": "中國走向世界",
+                "en": "China Goes to the World",
+                "limit": false,
+                "other": "1110127通知新開。"
+            },
+            "teacher": [
+                "羅國暉"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        7,
+                        8
+                    ],
+                    "place": "",
+                    "original": "每週三7~8\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "0"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "U4609",
             "department": "歷史系",
             "department_level": [
@@ -78126,7 +78168,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "中文",
+            "language": "其他Other language",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -84897,8 +84939,8 @@
                         8,
                         9
                     ],
-                    "place": "商1F09",
-                    "original": "每週四7~9\t商1F09"
+                    "place": "商2F05",
+                    "original": "每週四7~9\t商2F05"
                 }
             ],
             "sign": "否",
@@ -86386,13 +86428,6 @@
                     "original": "每週四3~4\t公1F19"
                 },
                 {
-                    "courseTime": "N/A",
-                    "time_category": "N/A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "第二教室公1F19"
-                },
-                {
                     "courseTime": 4,
                     "time_category": "A",
                     "sessions": [
@@ -86566,12 +86601,6 @@
                     "original": "商學院1"
                 },
                 {
-                    "grade": "1",
-                    "class": "",
-                    "category": "商學院",
-                    "original": "商學院1"
-                },
-                {
                     "grade": "2",
                     "class": "",
                     "category": "統計系",
@@ -86651,7 +86680,6 @@
                 "必",
                 "必",
                 "必",
-                "必",
                 "必"
             ],
             "title": {
@@ -86678,13 +86706,6 @@
                     ],
                     "place": "商2F11",
                     "original": "每週二5~7\t商2F11"
-                },
-                {
-                    "courseTime": "N/A",
-                    "time_category": "N/A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "第二教室公1F19"
                 },
                 {
                     "courseTime": 4,
@@ -87580,8 +87601,8 @@
                         6,
                         7
                     ],
-                    "place": "商2F08",
-                    "original": "每週四5~7\t商2F08"
+                    "place": "商1F09",
+                    "original": "每週四5~7\t商1F09"
                 }
             ],
             "sign": "否",
@@ -91283,7 +91304,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "20"
         },
         {
             "year": "110",
@@ -96548,8 +96569,8 @@
                         6,
                         7
                     ],
-                    "place": "商2F04",
-                    "original": "每週四5~7\t商2F04"
+                    "place": "商2F12",
+                    "original": "每週四5~7\t商2F12"
                 }
             ],
             "sign": "是",
@@ -103772,8 +103793,8 @@
                         5,
                         6
                     ],
-                    "place": "商1F16",
-                    "original": "每週四5~6\t商1F16"
+                    "place": "商2F05",
+                    "original": "每週四5~6\t商2F05"
                 }
             ],
             "sign": "否",
@@ -111503,8 +111524,8 @@
                     "original": "每週五5~7\t法2F01"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "22",
             "max_people": "113"
         },
         {
@@ -126622,7 +126643,7 @@
                 "ch": "國際金融法專題研究",
                 "en": "Seminar：International Finance Law",
                 "limit": false,
-                "other": "1.7人以上選修始開課，上課時間為上午8時30分至中午12時，隔週上課。2.上課地點：民生校區教學大樓9F23研討室。"
+                "other": "[停開]1110127通知停開。1.7人以上選修始開課，上課時間為上午8時30分至中午12時，隔週上課。2.上課地點：民生校區教學大樓9F23研討室。"
             },
             "teacher": [
                 "陳春山"
