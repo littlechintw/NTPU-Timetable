@@ -1,6 +1,6 @@
 {
-    "start_time": "2022-02-05 00:54:22",
-    "end_time": "2022-02-05 00:54:59",
+    "start_time": "2022-02-08 01:05:32",
+    "end_time": "2022-02-08 01:06:17",
     "data": [
         {
             "year": "110",
@@ -3250,8 +3250,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F08",
-                    "original": "每週一3~4\t商2F08"
+                    "place": "商2F07",
+                    "original": "每週一3~4\t商2F07"
                 }
             ],
             "sign": "是",
@@ -9290,8 +9290,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F07",
-                    "original": "實習每週一3~4\t商2F07"
+                    "place": "商2F06",
+                    "original": "實習每週一3~4\t商2F06"
                 }
             ],
             "sign": "否",
@@ -18176,6 +18176,53 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "M5785",
+            "department": "企博",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "企博",
+                    "original": "企博1B"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "資訊管理研究方法",
+                "en": "Research methods in information management",
+                "limit": false,
+                "other": "*1110207通知異動上課時間，原(四)10-12改至(一)10-12。"
+            },
+            "teacher": [
+                "黃旭立",
+                "方文昌"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "709",
+                    "original": "每週一10~12\t709"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M5792",
             "department": "會碩",
             "department_level": [
@@ -18716,52 +18763,6 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "50"
-        },
-        {
-            "year": "110",
-            "semester": "2",
-            "courseID": "M6151",
-            "department": "企博",
-            "department_level": [
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "企博",
-                    "original": "企博2"
-                }
-            ],
-            "compulsory": [
-                "選"
-            ],
-            "title": {
-                "ch": "決策支援系統專題研討",
-                "en": "Seminar : Decision Support System",
-                "limit": false,
-                "other": "*1110103通知新開課程。"
-            },
-            "teacher": [
-                "方文昌"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 1,
-                    "time_category": "A",
-                    "sessions": [
-                        10,
-                        11,
-                        12
-                    ],
-                    "place": "712",
-                    "original": "每週一10~12\t712"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "10"
         },
         {
             "year": "110",
@@ -24731,8 +24732,8 @@
                         7,
                         8
                     ],
-                    "place": "社103",
-                    "original": "每週一7~8\t社103"
+                    "place": "社203",
+                    "original": "每週一7~8\t社203"
                 }
             ],
             "sign": "是",
@@ -25893,8 +25894,8 @@
                         7,
                         8
                     ],
-                    "place": "社203",
-                    "original": "每週一7~8\t社203"
+                    "place": "文1F11",
+                    "original": "每週一7~8\t文1F11"
                 }
             ],
             "sign": "否",
@@ -47762,52 +47763,6 @@
         {
             "year": "110",
             "semester": "2",
-            "courseID": "M6069",
-            "department": "企碩",
-            "department_level": [
-                {
-                    "grade": "2",
-                    "class": "B",
-                    "category": "企碩",
-                    "original": "企碩2B"
-                }
-            ],
-            "compulsory": [
-                "選"
-            ],
-            "title": {
-                "ch": "科技管理專題研討",
-                "en": "Seminar : High-Tech Management",
-                "limit": false,
-                "other": "教室：教學7F12"
-            },
-            "teacher": [
-                "方文昌"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 2,
-                    "time_category": "A",
-                    "sessions": [
-                        10,
-                        11,
-                        12
-                    ],
-                    "place": "712",
-                    "original": "每週二10~12\t712"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "15"
-        },
-        {
-            "year": "110",
-            "semester": "2",
             "courseID": "M6073",
             "department": "犯罪學碩",
             "department_level": [
@@ -63499,8 +63454,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F07",
-                    "original": "實習每週一3~4\t商2F07"
+                    "place": "商2F06",
+                    "original": "實習每週一3~4\t商2F06"
                 }
             ],
             "sign": "否",
@@ -66073,7 +66028,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "15"
         },
         {
             "year": "110",
@@ -73732,8 +73687,8 @@
                         11,
                         12
                     ],
-                    "place": "401",
-                    "original": "每週三10~12\t401"
+                    "place": "C2F02",
+                    "original": "每週三10~12\tC2F02"
                 }
             ],
             "sign": "否",
@@ -78114,8 +78069,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週三7~8\t"
+                    "place": "社113",
+                    "original": "每週三7~8\t社113"
                 }
             ],
             "sign": "否",
@@ -87340,8 +87295,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F10",
-                    "original": "每週四2~4\t商2F10"
+                    "place": "商1F11",
+                    "original": "每週四2~4\t商1F11"
                 }
             ],
             "sign": "是",
@@ -98045,53 +98000,6 @@
         {
             "year": "110",
             "semester": "2",
-            "courseID": "M5785",
-            "department": "企博",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "B",
-                    "category": "企博",
-                    "original": "企博1B"
-                }
-            ],
-            "compulsory": [
-                "選"
-            ],
-            "title": {
-                "ch": "資訊管理研究方法",
-                "en": "Research methods in information management",
-                "limit": false,
-                "other": " "
-            },
-            "teacher": [
-                "黃旭立",
-                "方文昌"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 4,
-                    "time_category": "A",
-                    "sessions": [
-                        10,
-                        11,
-                        12
-                    ],
-                    "place": "709",
-                    "original": "每週四10~12\t709"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "15"
-        },
-        {
-            "year": "110",
-            "semester": "2",
             "courseID": "M5791",
             "department": "企碩",
             "department_level": [
@@ -98212,6 +98120,52 @@
         {
             "year": "110",
             "semester": "2",
+            "courseID": "M6032",
+            "department": "企博",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "B",
+                    "category": "企博",
+                    "original": "企博2B"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "策略性資訊管理專題研討",
+                "en": "Seminar : Strategic Information Management",
+                "limit": false,
+                "other": "*1110207通知異動上課時間，原(六)2-4改至(四)10-12。"
+            },
+            "teacher": [
+                "方文昌"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "",
+                    "original": "每週四10~12\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
+        },
+        {
+            "year": "110",
+            "semester": "2",
             "courseID": "M6038",
             "department": "資訊碩",
             "department_level": [
@@ -98253,7 +98207,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "20"
         },
         {
             "year": "110",
@@ -101186,8 +101140,8 @@
                         3,
                         4
                     ],
-                    "place": "商1F11",
-                    "original": "每週四2~4\t商1F11"
+                    "place": "商2F10",
+                    "original": "每週四2~4\t商2F10"
                 }
             ],
             "sign": "否",
@@ -115048,8 +115002,8 @@
                         6,
                         7
                     ],
-                    "place": "法2F16",
-                    "original": "每週五6~7\t法2F16"
+                    "place": "法4F14",
+                    "original": "每週五6~7\t法4F14"
                 }
             ],
             "sign": "否",
@@ -119574,6 +119528,52 @@
                     ],
                     "place": "商5F01",
                     "original": "每週五5~7\t商5F01"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "M6069",
+            "department": "企碩",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "B",
+                    "category": "企碩",
+                    "original": "企碩2B"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "科技管理專題研討",
+                "en": "Seminar : High-Tech Management",
+                "limit": false,
+                "other": "*1110207通知異動上課時間，原(二)10-12，改至(五)10-12。教室：教學7F12"
+            },
+            "teacher": [
+                "方文昌"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "712",
+                    "original": "每週五10~12\t712"
                 }
             ],
             "sign": "否",
@@ -128161,52 +128161,6 @@
         {
             "year": "110",
             "semester": "2",
-            "courseID": "M6032",
-            "department": "企博",
-            "department_level": [
-                {
-                    "grade": "2",
-                    "class": "B",
-                    "category": "企博",
-                    "original": "企博2B"
-                }
-            ],
-            "compulsory": [
-                "選"
-            ],
-            "title": {
-                "ch": "策略性資訊管理專題研討",
-                "en": "Seminar : Strategic Information Management",
-                "limit": false,
-                "other": " "
-            },
-            "teacher": [
-                "方文昌"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 6,
-                    "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "710",
-                    "original": "每週六2~4\t710"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "15"
-        },
-        {
-            "year": "110",
-            "semester": "2",
             "courseID": "M6082",
             "department": "企碩",
             "department_level": [
@@ -128249,6 +128203,52 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "30"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "M6151",
+            "department": "企博",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "企博",
+                    "original": "企博2"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "決策支援系統專題研討",
+                "en": "Seminar : Decision Support System",
+                "limit": false,
+                "other": "*1110103通知新開課程，1110207通知異動上課時間，原(一)10-12改至(六)2-4。"
+            },
+            "teacher": [
+                "方文昌"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 6,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "",
+                    "original": "每週六2~4\t"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "10"
         },
         {
             "year": "110",
