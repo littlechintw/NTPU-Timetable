@@ -1,6 +1,6 @@
 {
-    "start_time": "2022-02-08 01:05:32",
-    "end_time": "2022-02-08 01:06:17",
+    "start_time": "2022-02-10 01:05:32",
+    "end_time": "2022-02-10 01:06:10",
     "data": [
         {
             "year": "110",
@@ -1405,8 +1405,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週一7~8\t"
+                    "place": "法1F04",
+                    "original": "每週一7~8\t法1F04"
                 }
             ],
             "sign": "否",
@@ -8420,10 +8420,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "創新創業學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -8570,10 +8577,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "創新創業學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -9280,8 +9294,8 @@
                         3,
                         4
                     ],
-                    "place": "商6F01",
-                    "original": "每週三2~4\t商6F01"
+                    "place": "商2F09",
+                    "original": "每週三2~4\t商2F09"
                 },
                 {
                     "courseTime": 1,
@@ -10079,8 +10093,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一3~4\t"
+                    "place": "法2F02",
+                    "original": "每週一3~4\t法2F02"
                 }
             ],
             "sign": "否",
@@ -10131,8 +10145,8 @@
                         5,
                         6
                     ],
-                    "place": "",
-                    "original": "每週一5~6\t"
+                    "place": "法2F03",
+                    "original": "每週一5~6\t法2F03"
                 }
             ],
             "sign": "否",
@@ -10639,12 +10653,12 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週一7~8\t"
+                    "place": "法2F03",
+                    "original": "每週一7~8\t法2F03"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "10"
         },
         {
@@ -10861,8 +10875,8 @@
                         5,
                         6
                     ],
-                    "place": "",
-                    "original": "每週一5~6\t"
+                    "place": "法2F16",
+                    "original": "每週一5~6\t法2F16"
                 }
             ],
             "sign": "否",
@@ -10913,8 +10927,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週一3~4\t"
+                    "place": "法2F13",
+                    "original": "每週一3~4\t法2F13"
                 }
             ],
             "sign": "否",
@@ -12879,12 +12893,12 @@
                         7,
                         8
                     ],
-                    "place": "法2F03",
-                    "original": "每週一7~8\t法2F03"
+                    "place": "法4F14",
+                    "original": "每週一7~8\t法4F14"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "17",
             "max_people": "86"
         },
         {
@@ -18703,8 +18717,8 @@
                         9,
                         10
                     ],
-                    "place": "",
-                    "original": "每週一8~10\t"
+                    "place": "商8F02",
+                    "original": "每週一8~10\t商8F02"
                 }
             ],
             "sign": "否",
@@ -18756,8 +18770,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週一5~7\t"
+                    "place": "商1F15",
+                    "original": "每週一5~7\t商1F15"
                 }
             ],
             "sign": "否",
@@ -20025,8 +20039,8 @@
                         6,
                         7
                     ],
-                    "place": "商2F05",
-                    "original": "每週四5~7\t商2F05"
+                    "place": "商2F03",
+                    "original": "每週四5~7\t商2F03"
                 },
                 {
                     "courseTime": 1,
@@ -22264,7 +22278,7 @@
             "title": {
                 "ch": "邏輯與思維",
                 "en": "Logic and Thinking",
-                "limit": true,
+                "limit": false,
                 "other": "中文系學生(含雙主修)選讀，不列入其通識畢業學分數。原「理則學」更名。此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為50人。"
             },
             "teacher": [
@@ -22341,7 +22355,7 @@
             "title": {
                 "ch": "憲法與人權",
                 "en": "Constitution Law and Humanright",
-                "limit": true,
+                "limit": false,
                 "other": "1.此為大學入門課程，志願選課階段限1、2年級選讀(40人)，加退選階段開放所有年級選讀。總人數限制為60人。 \r\n2.法律學院學生(含雙主修)及經濟系學生(含雙主修)選修，不列入其通識畢業學分數。"
             },
             "teacher": [
@@ -23076,7 +23090,7 @@
             "title": {
                 "ch": "全球化與多元文化",
                 "en": "Globalization and Multi-culture",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制60人。"
             },
             "teacher": [
@@ -23139,7 +23153,7 @@
             "title": {
                 "ch": "生物多樣性",
                 "en": "Biodiversity",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為60人。"
             },
             "teacher": [
@@ -23202,7 +23216,7 @@
             "title": {
                 "ch": "生物多樣性",
                 "en": "Biodiversity",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為60人。"
             },
             "teacher": [
@@ -23279,7 +23293,7 @@
             "title": {
                 "ch": "文學與人生",
                 "en": "Literature and Life",
-                "limit": true,
+                "limit": false,
                 "other": "1.中文系學生(含雙主修)選讀，不列入其通識畢業學分數。 2.此為大學入門課程，志願選課階段限1、2年級選讀，人數限40人；加退選階段開放所有年級選讀。總人數限制為60人 3.請安排於人文大樓。"
             },
             "teacher": [
@@ -23356,7 +23370,7 @@
             "title": {
                 "ch": "臺灣音樂與文化",
                 "en": "Taiwanese Music and Culture",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為70人。(第一階段開放50人)"
             },
             "teacher": [
@@ -23433,7 +23447,7 @@
             "title": {
                 "ch": "邏輯與思維",
                 "en": "Logic and Thinking",
-                "limit": true,
+                "limit": false,
                 "other": "中文系學生(含雙主修)選讀，不列入其通識畢業學分數。原「理則學」更名。此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為130人。"
             },
             "teacher": [
@@ -23510,7 +23524,7 @@
             "title": {
                 "ch": "情緒管理與壓力調適",
                 "en": "Emotion Management and Stress Coping",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為50人。"
             },
             "teacher": [
@@ -27703,7 +27717,7 @@
                 "other": "音律電機資訊大樓4F08實驗室上課\r\n"
             },
             "teacher": [
-                "******"
+                "沈瑞欽"
             ],
             "category": "半",
             "credit": "1",
@@ -31439,10 +31453,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "經濟學系小輔系學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -31894,10 +31915,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "經濟學系小輔系學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -34649,12 +34677,6 @@
                 },
                 {
                     "grade": "1",
-                    "class": "",
-                    "category": "商學院",
-                    "original": "商學院1"
-                },
-                {
-                    "grade": "1",
                     "class": "A",
                     "category": "會計系",
                     "original": "會計系1A"
@@ -34732,7 +34754,6 @@
                 "必",
                 "必",
                 "必",
-                "必",
                 "必"
             ],
             "title": {
@@ -34742,7 +34763,6 @@
                 "other": " "
             },
             "teacher": [
-                "王蘭芬",
                 "王蘭芬"
             ],
             "category": "全",
@@ -34760,16 +34780,6 @@
                     ],
                     "place": "商2F05",
                     "original": "每週二2~4\t商2F05"
-                },
-                {
-                    "courseTime": 4,
-                    "time_category": "A",
-                    "sessions": [
-                        3,
-                        4
-                    ],
-                    "place": "公1F19",
-                    "original": "每週四3~4\t公1F19"
                 },
                 {
                     "courseTime": 4,
@@ -38459,8 +38469,8 @@
                         7,
                         8
                     ],
-                    "place": "商1F04",
-                    "original": "每週二7~8\t商1F04"
+                    "place": "商2F05",
+                    "original": "每週二7~8\t商2F05"
                 }
             ],
             "sign": "否",
@@ -40103,8 +40113,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週二7~8\t"
+                    "place": "法2F15",
+                    "original": "每週二7~8\t法2F15"
                 }
             ],
             "sign": "否",
@@ -40155,8 +40165,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週二3~4\t"
+                    "place": "法2F28",
+                    "original": "每週二3~4\t法2F28"
                 }
             ],
             "sign": "否",
@@ -40207,8 +40217,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週二3~4\t"
+                    "place": "法2F02",
+                    "original": "每週二3~4\t法2F02"
                 }
             ],
             "sign": "否",
@@ -40304,8 +40314,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週二7~8\t"
+                    "place": "法2F16",
+                    "original": "每週二7~8\t法2F16"
                 }
             ],
             "sign": "否",
@@ -40568,8 +40578,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週二3~4\t"
+                    "place": "法4F14",
+                    "original": "每週二3~4\t法4F14"
                 }
             ],
             "sign": "否",
@@ -44579,8 +44589,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F15",
-                    "original": "每週二5~6\t法2F15"
+                    "place": "",
+                    "original": "每週二5~6\t"
                 }
             ],
             "sign": "否",
@@ -44649,9 +44659,16 @@
                     "class": "",
                     "category": "財政系",
                     "original": "財政系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -47752,8 +47769,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週二5~7\t"
+                    "place": "法1F19",
+                    "original": "每週二5~7\t法1F19"
                 }
             ],
             "sign": "否",
@@ -48151,8 +48168,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週二10~12\t"
+                    "place": "709",
+                    "original": "每週二10~12\t709"
                 }
             ],
             "sign": "否",
@@ -50093,13 +50110,13 @@
                         6,
                         7
                     ],
-                    "place": "商2F10",
-                    "original": "每週二5~7\t商2F10"
+                    "place": "法2F01",
+                    "original": "每週二5~7\t法2F01"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "60"
+            "max_people": "70"
         },
         {
             "year": "110",
@@ -50481,8 +50498,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週二6~8\t"
+                    "place": "商1F04",
+                    "original": "每週二6~8\t商1F04"
                 }
             ],
             "sign": "是",
@@ -51367,9 +51384,16 @@
                     "class": "B",
                     "category": "經濟系",
                     "original": "經濟系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -51897,8 +51921,8 @@
                     "original": "每週二2~4\t社109"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "15",
             "max_people": "20"
         },
         {
@@ -52192,7 +52216,7 @@
             "title": {
                 "ch": "哲學思考與美好人生",
                 "en": "Philosophical Thinking and Good Life",
-                "limit": true,
+                "limit": false,
                 "other": "請優先安排315R。中文系學生(含雙主修)選讀，不列入通識教育畢業學分數。此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制50人。"
             },
             "teacher": [
@@ -52801,7 +52825,7 @@
             "title": {
                 "ch": "生涯管理",
                 "en": "Career Management",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為100人。"
             },
             "teacher": [
@@ -52819,8 +52843,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F09",
-                    "original": "每週二3~4\t商2F09"
+                    "place": "商3F11",
+                    "original": "每週二3~4\t商3F11"
                 }
             ],
             "sign": "是",
@@ -52871,7 +52895,7 @@
             "title": {
                 "ch": "法學概論",
                 "en": "Introduction of Law",
-                "limit": true,
+                "limit": false,
                 "other": "法律系、經濟系學生(含雙主修)選修，不計入其通識畢業學分數。此為大學入門課程，志願選課階段限1、2年級選修(40人)，加退選階段開放所有年級選修，總修課人數為60人。"
             },
             "teacher": [
@@ -52948,7 +52972,7 @@
             "title": {
                 "ch": "憲法與人權",
                 "en": "Constitution Law and Humanright",
-                "limit": true,
+                "limit": false,
                 "other": "法律系學生(含雙主修)選修，不計入其通識畢業學分數。此為大學入門課程，志願選課階段限1、2年級選修(40人)，加退選階段開放所有年級選修，總修課人數為60人。"
             },
             "teacher": [
@@ -53025,7 +53049,7 @@
             "title": {
                 "ch": "情緒管理與壓力調適",
                 "en": "Emotion Management and Stress Coping",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為50人。希望安排在法學院教室216或217"
             },
             "teacher": [
@@ -53102,7 +53126,7 @@
             "title": {
                 "ch": "文學與人生",
                 "en": "Literature and Life",
-                "limit": true,
+                "limit": false,
                 "other": "1101222通知新開。1.中文系學生(含雙主修)選讀，不列入其通識畢業學分數。 2.此為大學入門課程，志願選課階段限1、2年級選讀，人數限40人；加退選階段開放所有年級選讀。總人數限制為60人"
             },
             "teacher": [
@@ -53179,7 +53203,7 @@
             "title": {
                 "ch": "哲學概論",
                 "en": "An Introduction to Philosophy",
-                "limit": true,
+                "limit": false,
                 "other": "中文系學生(含雙主修)選讀，不列入其通識畢業學分數。此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為98人。"
             },
             "teacher": [
@@ -53242,7 +53266,7 @@
             "title": {
                 "ch": "政治與現代社會",
                 "en": "Politics and Modern Society",
-                "limit": true,
+                "limit": false,
                 "other": "原「政治概論」更名。行政系、經濟系學生(含雙主修)選讀，不列入其通識畢業學分數。此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為60人。\r\n"
             },
             "teacher": [
@@ -56266,8 +56290,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週三3~4\t"
+                    "place": "法2F03",
+                    "original": "每週三3~4\t法2F03"
                 }
             ],
             "sign": "否",
@@ -56325,8 +56349,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週三3~4\t"
+                    "place": "法2F13",
+                    "original": "每週三3~4\t法2F13"
                 }
             ],
             "sign": "否",
@@ -56384,8 +56408,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週三3~4\t"
+                    "place": "法2F28",
+                    "original": "每週三3~4\t法2F28"
                 }
             ],
             "sign": "否",
@@ -56564,7 +56588,7 @@
                 "other": "本系學生及選修本系為雙主修者，需修習本科方能計入畢業學分，請勿選修他系課程。外系限四年級選修。"
             },
             "teacher": [
-                "謝昆峯"
+                "謝昆��"
             ],
             "category": "半",
             "credit": "2",
@@ -58001,9 +58025,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "文官人才學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必"
@@ -58060,9 +58091,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "文官人才學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必"
@@ -63444,8 +63482,8 @@
                         3,
                         4
                     ],
-                    "place": "商6F01",
-                    "original": "每週三2~4\t商6F01"
+                    "place": "商2F09",
+                    "original": "每週三2~4\t商2F09"
                 },
                 {
                     "courseTime": 1,
@@ -65268,8 +65306,8 @@
                         1,
                         2
                     ],
-                    "place": "",
-                    "original": "每週三1~2\t"
+                    "place": "法2F02",
+                    "original": "每週三1~2\t法2F02"
                 }
             ],
             "sign": "否",
@@ -65789,8 +65827,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週三3~4\t"
+                    "place": "法2F17",
+                    "original": "每週三3~4\t法2F17"
                 }
             ],
             "sign": "否",
@@ -71730,8 +71768,8 @@
                         8,
                         9
                     ],
-                    "place": "",
-                    "original": "每週三7~9\t"
+                    "place": "商1F09",
+                    "original": "每週三7~9\t商1F09"
                 }
             ],
             "sign": "否",
@@ -72945,8 +72983,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週三2~4\t"
+                    "place": "法4F14",
+                    "original": "每週三2~4\t法4F14"
                 }
             ],
             "sign": "否",
@@ -75032,8 +75070,8 @@
                         8,
                         9
                     ],
-                    "place": "",
-                    "original": "每週三7~9\t"
+                    "place": "商1F09",
+                    "original": "每週三7~9\t商1F09"
                 }
             ],
             "sign": "否",
@@ -76637,7 +76675,7 @@
             "title": {
                 "ch": "觀光概論",
                 "en": "Introduction to Tourism",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀(限40人)，加退選階段開放所有年級選讀。總人數限制為50人。休運系學生(含雙主修)選讀,不列入其通識畢業學分數。"
             },
             "teacher": [
@@ -76700,7 +76738,7 @@
             "title": {
                 "ch": "時代與歷史",
                 "en": "Time and History",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為50人。歷史系學生(含雙主修)選讀，不列入其通識畢業學分數。曾修習過 「歷史-時代與歷史」的同學，不得再修習此課程。"
             },
             "teacher": [
@@ -83350,8 +83388,8 @@
                         6,
                         7
                     ],
-                    "place": "商2F03",
-                    "original": "每週四5~7\t商2F03"
+                    "place": "商5F02",
+                    "original": "每週四5~7\t商5F02"
                 }
             ],
             "sign": "是",
@@ -86260,12 +86298,6 @@
                 },
                 {
                     "grade": "1",
-                    "class": "",
-                    "category": "商學院",
-                    "original": "商學院1"
-                },
-                {
-                    "grade": "1",
                     "class": "A",
                     "category": "會計系",
                     "original": "會計系1A"
@@ -86343,7 +86375,6 @@
                 "必",
                 "必",
                 "必",
-                "必",
                 "必"
             ],
             "title": {
@@ -86353,7 +86384,6 @@
                 "other": " "
             },
             "teacher": [
-                "王蘭芬",
                 "王蘭芬"
             ],
             "category": "全",
@@ -86371,16 +86401,6 @@
                     ],
                     "place": "商2F05",
                     "original": "每週二2~4\t商2F05"
-                },
-                {
-                    "courseTime": 4,
-                    "time_category": "A",
-                    "sessions": [
-                        3,
-                        4
-                    ],
-                    "place": "公1F19",
-                    "original": "每週四3~4\t公1F19"
                 },
                 {
                     "courseTime": 4,
@@ -87179,8 +87199,8 @@
                     "original": "每週四2~4\t社B02"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "22",
             "max_people": "113"
         },
         {
@@ -87206,7 +87226,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "顏旭男"
             ],
             "category": "半",
             "credit": "3",
@@ -87221,8 +87241,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F13",
-                    "original": "每週四2~4\t法2F13"
+                    "place": "電2F03",
+                    "original": "每週四2~4\t電2F03"
                 }
             ],
             "sign": "否",
@@ -87263,10 +87283,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "永續金融學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -90284,8 +90311,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週四3~4\t"
+                    "place": "法1F04",
+                    "original": "每週四3~4\t法1F04"
                 }
             ],
             "sign": "否",
@@ -96577,8 +96604,8 @@
                         9,
                         10
                     ],
-                    "place": "",
-                    "original": "每週四8~10\t"
+                    "place": "商8F02",
+                    "original": "每週四8~10\t商8F02"
                 }
             ],
             "sign": "否",
@@ -98155,8 +98182,8 @@
                         11,
                         12
                     ],
-                    "place": "",
-                    "original": "每週四10~12\t"
+                    "place": "710",
+                    "original": "每週四10~12\t710"
                 }
             ],
             "sign": "否",
@@ -99956,9 +99983,16 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "財務金融學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -100132,8 +100166,8 @@
                         6,
                         7
                     ],
-                    "place": "商2F05",
-                    "original": "每週四5~7\t商2F05"
+                    "place": "商2F03",
+                    "original": "每週四5~7\t商2F03"
                 },
                 {
                     "courseTime": 1,
@@ -100278,9 +100312,16 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "財務金融學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -101446,7 +101487,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "131"
+            "max_people": "144"
         },
         {
             "year": "110",
@@ -101865,9 +101906,16 @@
                     "class": "B",
                     "category": "經濟系",
                     "original": "經濟系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -102777,7 +102825,7 @@
             "title": {
                 "ch": "文學與人生",
                 "en": "Literature and Life",
-                "limit": true,
+                "limit": false,
                 "other": "1.中文系學生(含雙主修)選讀，不列入其通識畢業學分數。\r\n2.此為大學入門課程，志願選課階段限1、2年級選讀，人數限60人；加退選階段開放所有年級選讀。總人數限制為90人\r\n3.請安排於人文111教室。"
             },
             "teacher": [
@@ -105932,8 +105980,8 @@
             },
             "teacher": [
                 "吳信龍",
-                "蘇虹娜",
-                "******"
+                "沈瑞欽",
+                "蘇虹娜"
             ],
             "category": "半",
             "credit": "1",
@@ -106596,8 +106644,8 @@
                         12,
                         13
                     ],
-                    "place": "202",
-                    "original": "每週五12~13\t202"
+                    "place": "210",
+                    "original": "每週五12~13\t210"
                 }
             ],
             "sign": "否",
@@ -110952,7 +111000,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "顏旭男"
             ],
             "category": "半",
             "credit": "3",
@@ -112578,8 +112626,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週五7~8\t"
+                    "place": "法2F02",
+                    "original": "每週五7~8\t法2F02"
                 }
             ],
             "sign": "否",
@@ -116100,9 +116148,16 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "財務金融學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -116357,9 +116412,16 @@
                     "class": "",
                     "category": "財政系",
                     "original": "財政系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "貨幣與金融市場學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -118529,7 +118591,7 @@
                 "other": "與學士班4年級合班。"
             },
             "teacher": [
-                "******"
+                "沈瑞欽"
             ],
             "category": "半",
             "credit": "3",
@@ -121761,7 +121823,7 @@
                 "other": "與碩士班合開"
             },
             "teacher": [
-                "******"
+                "沈瑞欽"
             ],
             "category": "半",
             "credit": "3",
@@ -121914,8 +121976,8 @@
                     "original": "每週五5~7\t社206"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "15",
             "max_people": "62"
         },
         {
@@ -121955,7 +122017,7 @@
             "title": {
                 "ch": "管理與美好人生",
                 "en": "Management and Good Life",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為100人。"
             },
             "teacher": [
@@ -121973,8 +122035,8 @@
                         10,
                         11
                     ],
-                    "place": "202",
-                    "original": "每週五10~11\t202"
+                    "place": "103",
+                    "original": "每週五10~11\t103"
                 }
             ],
             "sign": "是",
@@ -122641,7 +122703,7 @@
             "title": {
                 "ch": "人與自然",
                 "en": "Human and Nature",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為60人。"
             },
             "teacher": [
@@ -122704,7 +122766,7 @@
             "title": {
                 "ch": "人與自然",
                 "en": "Human and Nature",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為60人。"
             },
             "teacher": [
@@ -122767,7 +122829,7 @@
             "title": {
                 "ch": "全球化與多元文化",
                 "en": "Globalization and Multi-culture",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制60人。"
             },
             "teacher": [
@@ -124630,10 +124692,10 @@
                 "ch": "數位行銷專題研討",
                 "en": "Seminar on Digital Marketing",
                 "limit": false,
-                "other": "*106學年度前入學者，修此課列為系專業選修;106學年度起(含),此課列為必修\r\n**數位行銷進修學士學位學程學士後多元專長培力課程(選修)"
+                "other": "*106學年度前入學者，修此課列為系專業選修;106學年度起(含),此課列為必修\r\n**數位行銷進修學士學位學程學士後多元專長培力課程(選修)\r\n***1110209依系所通知更換授課教師(原為黃文曄老師)"
             },
             "teacher": [
-                "黃文曄"
+                "魏嘉宏"
             ],
             "category": "全",
             "credit": "2",
@@ -130197,7 +130259,7 @@
             "title": {
                 "ch": "全球化與多元文化",
                 "en": "Globalization and Multi-culture",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制60人。"
             },
             "teacher": [
@@ -131841,6 +131903,7 @@
         "財碩職2",
         "財軍碩職1",
         "財軍碩職2",
+        "貨幣與金融市場學士微學程",
         "資工碩1",
         "資工碩2",
         "資工系1",
