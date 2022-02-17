@@ -1,6 +1,6 @@
 {
-    "start_time": "2022-02-15 01:12:11",
-    "end_time": "2022-02-15 01:12:56",
+    "start_time": "2022-02-17 01:00:22",
+    "end_time": "2022-02-17 01:01:05",
     "data": [
         {
             "year": "110",
@@ -7407,7 +7407,7 @@
                 "ch": "微積分",
                 "en": "Calculus",
                 "limit": false,
-                "other": "*欲加簽者，請務必詳閱課程大綱。\r\n請排\"商學大樓\"教室"
+                "other": "*02/21(一)會排定座位表以及說明評分準則,請準時出席以免影響自身權益；欲加簽者，請務必詳閱課程大綱。\r\n請排「商學大樓」教室"
             },
             "teacher": [
                 "蔡旻曉"
@@ -12142,8 +12142,8 @@
                         10,
                         11
                     ],
-                    "place": "204",
-                    "original": "每週一10~11\t204"
+                    "place": "409",
+                    "original": "每週一10~11\t409"
                 }
             ],
             "sign": "否",
@@ -12350,8 +12350,8 @@
                         10,
                         11
                     ],
-                    "place": "409",
-                    "original": "每週一10~11\t409"
+                    "place": "法律學院研討室",
+                    "original": "每週一10~11\t法律學院研討室"
                 }
             ],
             "sign": "否",
@@ -12531,8 +12531,8 @@
                         3,
                         4
                     ],
-                    "place": "文3F02_L",
-                    "original": "每週一3~4\t文3F02_L"
+                    "place": "文3F12_L",
+                    "original": "每週一3~4\t文3F12_L"
                 }
             ],
             "sign": "否",
@@ -16891,8 +16891,8 @@
                         7,
                         8
                     ],
-                    "place": "社110",
-                    "original": "每週一6~8\t社110"
+                    "place": "社113",
+                    "original": "每週一6~8\t社113"
                 }
             ],
             "sign": "否",
@@ -18226,8 +18226,8 @@
                         11,
                         12
                     ],
-                    "place": "709",
-                    "original": "每週一10~12\t709"
+                    "place": "712",
+                    "original": "每週一10~12\t712"
                 }
             ],
             "sign": "否",
@@ -21185,7 +21185,7 @@
                 "ch": "經濟問題與政策（二）",
                 "en": "Economic Issues and Policies Ⅱ",
                 "limit": false,
-                "other": "1.限修20人(含人工加簽).\r\n2.先修: 經濟學原理(全學年40分以上)或經濟學(全學年或單學期40分以上).\r\n3.著眼於此課程與修課者有好的配對(match),因此特別提醒:加退選截止日前未曾到課者,即使選上此課程,期末成績通過的可能性很低."
+                "other": "[停開]1.限修20人(含人工加簽).\r\n2.先修: 經濟學原理(全學年40分以上)或經濟學(全學年或單學期40分以上).\r\n3.著眼於此課程與修課者有好的配對(match),因此特別提醒:加退選截止日前未曾到課者,即使選上此課程,期末成績通過的可能性很低.\r\n※111.02.16停開"
             },
             "teacher": [
                 "方振瑞"
@@ -36138,7 +36138,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "陳建宏"
             ],
             "category": "半",
             "credit": "3",
@@ -46912,8 +46912,8 @@
                         3,
                         4
                     ],
-                    "place": "資1F-10",
-                    "original": "每週二2~4\t資1F-10"
+                    "place": "商6F02",
+                    "original": "每週二2~4\t商6F02"
                 }
             ],
             "sign": "否",
@@ -51211,8 +51211,8 @@
                         3,
                         4
                     ],
-                    "place": "資1F-10",
-                    "original": "每週二2~4\t資1F-10"
+                    "place": "商6F02",
+                    "original": "每週二2~4\t商6F02"
                 }
             ],
             "sign": "否",
@@ -52132,7 +52132,7 @@
                 "ch": "總體經濟理論分析",
                 "en": "Advanced Macroeconomics",
                 "limit": false,
-                "other": "1.限修16人.\r\n2.先修:總體經濟學(全學年下學期40分以上).\r\n3.著眼於此課程與修課者有好的配對(match),因此特別提醒:加退選截止日前未曾到課者,即使選上此課程,期末成績通過的可能性很低."
+                "other": "[停開]1.限修16人.\r\n2.先修:總體經濟學(全學年下學期40分以上).\r\n3.著眼於此課程與修課者有好的配對(match),因此特別提醒:加退選截止日前未曾到課者,即使選上此課程,期末成績通過的可能性很低.\r\n※111.02.16停開"
             },
             "teacher": [
                 "方振瑞"
@@ -54517,6 +54517,50 @@
                     ],
                     "place": "文2F09",
                     "original": "每週二2~4\t文2F09"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "0"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "U1131",
+            "department": "師培中心",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "師培中心",
+                    "original": "師培中心1"
+                }
+            ],
+            "compulsory": [
+                "教選"
+            ],
+            "title": {
+                "ch": "生涯規劃及職業教育與訓練",
+                "en": "Career Planning and Vocational Education",
+                "limit": false,
+                "other": "師培一年級課程，與二年級課程合班。"
+            },
+            "teacher": [
+                "黃彥融"
+            ],
+            "category": "半",
+            "credit": "1",
+            "hours": "1",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        1
+                    ],
+                    "place": "文2F09",
+                    "original": "每週二1~1\t文2F09"
                 }
             ],
             "sign": "否",
@@ -56950,8 +56994,8 @@
                     "original": "單週三10~13\t行政系碩專教室"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "6",
             "max_people": "30"
         },
         {
@@ -61844,7 +61888,7 @@
                 "other": "1.非誠勿試，對未能達到課程要求者，本課程最多可能當掉3成修課同學。\r\n2.限修90人，限收本系及選修本系為輔系、雙主修同學，若仍有剩餘名額始開放外系同學選修，本科不計入不動產城鄉系輔系學分。\r\n3.敬請安排商2F06教室."
             },
             "teacher": [
-                "方振瑞"
+                "簡明哲"
             ],
             "category": "全",
             "credit": "3",
@@ -76087,8 +76131,8 @@
                         7,
                         8
                     ],
-                    "place": "",
-                    "original": "每週三6~8\t"
+                    "place": "資1F-10",
+                    "original": "每週三6~8\t資1F-10"
                 }
             ],
             "sign": "否",
@@ -87018,7 +87062,8 @@
                 "other": " "
             },
             "teacher": [
-                "謝欣霖"
+                "謝欣霖",
+                "沈瑞欽"
             ],
             "category": "半",
             "credit": "3",
@@ -87604,7 +87649,7 @@
                 "ch": "數理統計",
                 "en": "Mathematical Statistics",
                 "limit": false,
-                "other": "請排\"商學大樓\"教室\r\n擋修:統計推論"
+                "other": "*02/24(四)會排定座位表以及說明評分準則，請準時出席以免影響自身權益；擋修：統計推論；請排「商學大樓」教室。"
             },
             "teacher": [
                 "蔡旻曉"
@@ -92858,7 +92903,7 @@
                 "ch": "電腦輔助繪圖",
                 "en": "Computer Aided Design",
                 "limit": true,
-                "other": "1.外系限4年級學生。2.本科不計入輔系學分。3.本系1年級生請依班級選課勿跨班。公434教室(電腦教室)。"
+                "other": "**人工加簽因教室容量限制，老師僅加簽1人**\r\n1.外系限4年級學生。2.本科不計入輔系學分。3.本系1年級生請依班級選課勿跨班。公434教室(電腦教室)。"
             },
             "teacher": [
                 "葉大綱"
@@ -92879,8 +92924,8 @@
                     "original": "每週四3~4\t公4F34_GIS"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "10",
             "max_people": "54"
         },
         {
@@ -98418,7 +98463,7 @@
                 "other": "與學士班4年級合班"
             },
             "teacher": [
-                "******"
+                "陳建宏"
             ],
             "category": "半",
             "credit": "3",
@@ -101523,7 +101568,7 @@
                 "ch": "機率專題研討",
                 "en": "Seminar on Probability",
                 "limit": false,
-                "other": "請排\"商學大樓\"教室 ,須先修過機率概論或機率且達40分以上(含)者"
+                "other": "*02/24(四)課程討論,請準時出席以免影響自身權益；須先修過機率概論或機率且達40分以上(含)者；請排「商學大樓」教室 ,"
             },
             "teacher": [
                 "蔡旻曉"
@@ -101916,7 +101961,7 @@
                 "ch": "貨幣理論與政策",
                 "en": "Monetary Theory and Policy",
                 "limit": false,
-                "other": "1.限修16人. 2.先修:總體經濟學(全學年下學期40分以上). 3.著眼於此課程與修課者有好的配對(match),因此特別提醒:加退選截止日前未曾到課者,即使選上此課程,期末成績通過的可能性很低."
+                "other": "[停開]1.限修16人. 2.先修:總體經濟學(全學年下學期40分以上). 3.著眼於此課程與修課者有好的配對(match),因此特別提醒:加退選截止日前未曾到課者,即使選上此課程,期末成績通過的可能性很低.\r\n※111.02.16停開"
             },
             "teacher": [
                 "方振瑞"
@@ -106104,8 +106149,8 @@
                     "sessions": [
                         10
                     ],
-                    "place": "402",
-                    "original": "每週五10~10\t402"
+                    "place": "204",
+                    "original": "每週五10~10\t204"
                 }
             ],
             "sign": "否",
@@ -123411,70 +123456,6 @@
         {
             "year": "110",
             "semester": "2",
-            "courseID": "U4256",
-            "department": "通識",
-            "department_level": [
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "通識",
-                    "original": "通識4"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "通識",
-                    "original": "101-102向度五"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "通識",
-                    "original": "103-104向度五"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "通識",
-                    "original": "105-向度五"
-                }
-            ],
-            "compulsory": [
-                "通"
-            ],
-            "title": {
-                "ch": "地理學通論",
-                "en": "Introduction to Geography",
-                "limit": false,
-                "other": "請安排社203"
-            },
-            "teacher": [
-                "蔡怡玟"
-            ],
-            "category": "半",
-            "credit": "2",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 5,
-                    "time_category": "A",
-                    "sessions": [
-                        5,
-                        6,
-                        7
-                    ],
-                    "place": "社203",
-                    "original": "每週五5~7\t社203"
-                }
-            ],
-            "sign": "是",
-            "sign_people": "12",
-            "max_people": "0"
-        },
-        {
-            "year": "110",
-            "semester": "2",
             "courseID": "U4263",
             "department": "通識",
             "department_level": [
@@ -124121,6 +124102,70 @@
             ],
             "sign": "否",
             "sign_people": "-",
+            "max_people": "0"
+        },
+        {
+            "year": "110",
+            "semester": "2",
+            "courseID": "U4256",
+            "department": "通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "通識4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "101-102向度五"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "103-104向度五"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度五"
+                }
+            ],
+            "compulsory": [
+                "通"
+            ],
+            "title": {
+                "ch": "地理學通論",
+                "en": "Introduction to Geography",
+                "limit": false,
+                "other": "請安排社203"
+            },
+            "teacher": [
+                "蔡怡玟"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "社203",
+                    "original": "每週五5~7\t社203"
+                }
+            ],
+            "sign": "是",
+            "sign_people": "12",
             "max_people": "0"
         },
         {
@@ -128297,8 +128342,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週六2~4\t"
+                    "place": "710",
+                    "original": "每週六2~4\t710"
                 }
             ],
             "sign": "否",
@@ -131724,6 +131769,7 @@
         "嵌入式系統學分學程",
         "巨量資料探勘學士學程",
         "巨量資料探勘學士微學程",
+        "師培中心1",
         "師培中心2",
         "師培中心3",
         "性別學士微學程",
