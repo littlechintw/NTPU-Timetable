@@ -1,6 +1,6 @@
 {
-    "start_time": "2023-01-12 01:25:50",
-    "end_time": "2023-01-12 01:26:17",
+    "start_time": "2023-01-14 01:20:13",
+    "end_time": "2023-01-14 01:20:40",
     "data": [
         {
             "year": "111",
@@ -7713,8 +7713,8 @@
                         11,
                         12
                     ],
-                    "place": "413",
-                    "original": "每週一10~12\t413"
+                    "place": "303",
+                    "original": "每週一10~12\t303"
                 }
             ],
             "sign": "否",
@@ -11551,8 +11551,8 @@
                         11,
                         12
                     ],
-                    "place": "公1F02",
-                    "original": "每週一10~12\t公1F02"
+                    "place": "公1F04",
+                    "original": "每週一10~12\t公1F04"
                 },
                 {
                     "courseTime": 3,
@@ -11562,8 +11562,8 @@
                         10,
                         11
                     ],
-                    "place": "公1F02",
-                    "original": "每週三9~11\t公1F02"
+                    "place": "公1F04",
+                    "original": "每週三9~11\t公1F04"
                 },
                 {
                     "courseTime": 5,
@@ -11573,8 +11573,8 @@
                         10,
                         11
                     ],
-                    "place": "公1F03",
-                    "original": "每週五9~11\t公1F03"
+                    "place": "公1F04",
+                    "original": "每週五9~11\t公1F04"
                 }
             ],
             "sign": "是",
@@ -15283,7 +15283,7 @@
                 "ch": "都市永續與公共政策",
                 "en": "Urban Sustainability and Public Policy",
                 "limit": true,
-                "other": "密集授課，學碩合開，上課週數為4週，3月6日開始上課"
+                "other": "密集授課，學碩合開，上課週數為4週，3月6日開始上課。星期一授課時間會提前，請留意課程綱要或數位學苑公告。\r\n"
             },
             "teacher": [
                 "劉佳昊",
@@ -15299,12 +15299,12 @@
                     "courseTime": 1,
                     "time_category": "A",
                     "sessions": [
-                        9,
                         10,
-                        11
+                        11,
+                        12
                     ],
                     "place": "公1F04",
-                    "original": "每週一9~11\t公1F04"
+                    "original": "每週一10~12\t公1F04"
                 },
                 {
                     "courseTime": 3,
@@ -15314,8 +15314,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週三9~11\t"
+                    "place": "公1F04",
+                    "original": "每週三9~11\t公1F04"
                 },
                 {
                     "courseTime": 5,
@@ -15325,8 +15325,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週五9~11\t"
+                    "place": "公1F04",
+                    "original": "每週五9~11\t公1F04"
                 }
             ],
             "sign": "是",
@@ -22819,8 +22819,8 @@
                         10,
                         11
                     ],
-                    "place": "303",
-                    "original": "每週一10~11\t303"
+                    "place": "413",
+                    "original": "每週一10~11\t413"
                 }
             ],
             "sign": "是",
@@ -22917,8 +22917,8 @@
                         12,
                         13
                     ],
-                    "place": "303",
-                    "original": "每週一12~13\t303"
+                    "place": "413",
+                    "original": "每週一12~13\t413"
                 }
             ],
             "sign": "否",
@@ -27124,9 +27124,16 @@
                     "class": "B",
                     "category": "會計系",
                     "original": "會計系2B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必"
             ],
@@ -36279,8 +36286,8 @@
                         6,
                         7
                     ],
-                    "place": "文2F08",
-                    "original": "每週二5~7\t文2F08"
+                    "place": "商2F10",
+                    "original": "每週二5~7\t商2F10"
                 },
                 {
                     "courseTime": 5,
@@ -41102,8 +41109,8 @@
                         5,
                         6
                     ],
-                    "place": "商1F16",
-                    "original": "每週二5~6\t商1F16"
+                    "place": "公1F21",
+                    "original": "每週二5~6\t公1F21"
                 }
             ],
             "sign": "否",
@@ -42067,8 +42074,8 @@
                         5,
                         6
                     ],
-                    "place": "公1F21",
-                    "original": "每週二5~6\t公1F21"
+                    "place": "公2F35",
+                    "original": "每週二5~6\t公2F35"
                 }
             ],
             "sign": "否",
@@ -46058,8 +46065,8 @@
                         6,
                         7
                     ],
-                    "place": "商2F10",
-                    "original": "每週二5~7\t商2F10"
+                    "place": "商1F16",
+                    "original": "每週二5~7\t商1F16"
                 }
             ],
             "sign": "是",
@@ -61183,8 +61190,8 @@
                         3,
                         4
                     ],
-                    "place": "文4F06",
-                    "original": "每週三2~4\t文4F06"
+                    "place": "商2F09",
+                    "original": "每週三2~4\t商2F09"
                 }
             ],
             "sign": "否",
@@ -64279,8 +64286,8 @@
                         11,
                         12
                     ],
-                    "place": "公1F02",
-                    "original": "每週一10~12\t公1F02"
+                    "place": "公1F04",
+                    "original": "每週一10~12\t公1F04"
                 },
                 {
                     "courseTime": 3,
@@ -64290,8 +64297,8 @@
                         10,
                         11
                     ],
-                    "place": "公1F02",
-                    "original": "每週三9~11\t公1F02"
+                    "place": "公1F04",
+                    "original": "每週三9~11\t公1F04"
                 },
                 {
                     "courseTime": 5,
@@ -64301,8 +64308,8 @@
                         10,
                         11
                     ],
-                    "place": "公1F03",
-                    "original": "每週五9~11\t公1F03"
+                    "place": "公1F04",
+                    "original": "每週五9~11\t公1F04"
                 }
             ],
             "sign": "是",
@@ -67102,7 +67109,7 @@
                 "ch": "都市永續與公共政策",
                 "en": "Urban Sustainability and Public Policy",
                 "limit": true,
-                "other": "密集授課，學碩合開，上課週數為4週，3月6日開始上課"
+                "other": "密集授課，學碩合開，上課週數為4週，3月6日開始上課。星期一授課時間會提前，請留意課程綱要或數位學苑公告。\r\n"
             },
             "teacher": [
                 "劉佳昊",
@@ -67118,12 +67125,12 @@
                     "courseTime": 1,
                     "time_category": "A",
                     "sessions": [
-                        9,
                         10,
-                        11
+                        11,
+                        12
                     ],
                     "place": "公1F04",
-                    "original": "每週一9~11\t公1F04"
+                    "original": "每週一10~12\t公1F04"
                 },
                 {
                     "courseTime": 3,
@@ -67133,8 +67140,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週三9~11\t"
+                    "place": "公1F04",
+                    "original": "每週三9~11\t公1F04"
                 },
                 {
                     "courseTime": 5,
@@ -67144,8 +67151,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週五9~11\t"
+                    "place": "公1F04",
+                    "original": "每週五9~11\t公1F04"
                 }
             ],
             "sign": "是",
@@ -72266,10 +72273,10 @@
                 "ch": "衝突管理",
                 "en": "Conflict Management",
                 "limit": false,
-                "other": "本課程由劉惠雯老師授課。"
+                "other": "本課程由楊惠雯老師授課。"
             },
             "teacher": [
-                "******"
+                "楊惠雯"
             ],
             "category": "半",
             "credit": "3",
@@ -73759,8 +73766,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F09",
-                    "original": "每週三2~4\t商2F09"
+                    "place": "文4F06",
+                    "original": "每週三2~4\t文4F06"
                 }
             ],
             "sign": "是",
@@ -79231,10 +79238,10 @@
                 "ch": "企業倫理",
                 "en": "Business Ethics",
                 "limit": false,
-                "other": " "
+                "other": "*1120112通知異動授課教師。"
             },
             "teacher": [
-                "吳雪伶"
+                "黃啟瑞"
             ],
             "category": "半",
             "credit": "1",
@@ -95196,7 +95203,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "24"
         },
         {
             "year": "111",
@@ -99381,8 +99388,8 @@
                         11,
                         12
                     ],
-                    "place": "209",
-                    "original": "每週四10~12\t209"
+                    "place": "302",
+                    "original": "每週四10~12\t302"
                 }
             ],
             "sign": "否",
@@ -102341,8 +102348,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週四5~7\t"
+                    "place": "公2F26",
+                    "original": "每週四5~7\t公2F26"
                 }
             ],
             "sign": "否",
@@ -106194,9 +106201,16 @@
                     "class": "A",
                     "category": "企碩",
                     "original": "企碩1A"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必"
             ],
             "title": {
@@ -111730,8 +111744,8 @@
                         6,
                         7
                     ],
-                    "place": "文2F08",
-                    "original": "每週二5~7\t文2F08"
+                    "place": "商2F10",
+                    "original": "每週二5~7\t商2F10"
                 },
                 {
                     "courseTime": 5,
@@ -112669,8 +112683,8 @@
                         11,
                         12
                     ],
-                    "place": "公1F02",
-                    "original": "每週一10~12\t公1F02"
+                    "place": "公1F04",
+                    "original": "每週一10~12\t公1F04"
                 },
                 {
                     "courseTime": 3,
@@ -112680,8 +112694,8 @@
                         10,
                         11
                     ],
-                    "place": "公1F02",
-                    "original": "每週三9~11\t公1F02"
+                    "place": "公1F04",
+                    "original": "每週三9~11\t公1F04"
                 },
                 {
                     "courseTime": 5,
@@ -112691,8 +112705,8 @@
                         10,
                         11
                     ],
-                    "place": "公1F03",
-                    "original": "每週五9~11\t公1F03"
+                    "place": "公1F04",
+                    "original": "每週五9~11\t公1F04"
                 }
             ],
             "sign": "是",
@@ -112743,8 +112757,8 @@
                         3,
                         4
                     ],
-                    "place": "公2F04",
-                    "original": "每週五3~4\t公2F04"
+                    "place": "公2F05",
+                    "original": "每週五3~4\t公2F05"
                 }
             ],
             "sign": "否",
@@ -115147,7 +115161,7 @@
                 "ch": "都市永續與公共政策",
                 "en": "Urban Sustainability and Public Policy",
                 "limit": true,
-                "other": "密集授課，學碩合開，上課週數為4週，3月6日開始上課"
+                "other": "密集授課，學碩合開，上課週數為4週，3月6日開始上課。星期一授課時間會提前，請留意課程綱要或數位學苑公告。\r\n"
             },
             "teacher": [
                 "劉佳昊",
@@ -115163,12 +115177,12 @@
                     "courseTime": 1,
                     "time_category": "A",
                     "sessions": [
-                        9,
                         10,
-                        11
+                        11,
+                        12
                     ],
                     "place": "公1F04",
-                    "original": "每週一9~11\t公1F04"
+                    "original": "每週一10~12\t公1F04"
                 },
                 {
                     "courseTime": 3,
@@ -115178,8 +115192,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週三9~11\t"
+                    "place": "公1F04",
+                    "original": "每週三9~11\t公1F04"
                 },
                 {
                     "courseTime": 5,
@@ -115189,8 +115203,8 @@
                         10,
                         11
                     ],
-                    "place": "",
-                    "original": "每週五9~11\t"
+                    "place": "公1F04",
+                    "original": "每週五9~11\t公1F04"
                 }
             ],
             "sign": "是",
@@ -126003,6 +126017,12 @@
                     "original": "(進修)金融2"
                 },
                 {
+                    "grade": "2",
+                    "class": "",
+                    "category": "(進修)金融",
+                    "original": "(進修)金融2"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "(進修)數位行銷",
@@ -126013,13 +126033,14 @@
                 "必",
                 "必",
                 "必",
+                "必",
                 "必"
             ],
             "title": {
                 "ch": "統計學",
                 "en": "Statistics",
                 "limit": true,
-                "other": "*數位行銷進修學士學位學程學士後多元專長培力課程(必修)\r\n*金融系學士後多元專長培力課程(必修)"
+                "other": "*數位行銷進修學士學位學程學士後多元專長培力課程(必修)\r\n*金融系學士後多元專長培力課程(必修)\r\n*20230415~20230617上課教室為教學大樓507電腦暨語言教室"
             },
             "teacher": [
                 "詹嘉豪"
@@ -126039,6 +126060,13 @@
                     ],
                     "place": "506",
                     "original": "每週六2~4\t506"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室507電腦暨語言教室"
                 }
             ],
             "sign": "否",
@@ -128957,8 +128985,8 @@
                         6,
                         7
                     ],
-                    "place": "407",
-                    "original": "每週六5~7\t407"
+                    "place": "507電腦暨語言教室",
+                    "original": "每週六5~7\t507電腦暨語言教室"
                 }
             ],
             "sign": "否",
