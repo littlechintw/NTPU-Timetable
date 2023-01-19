@@ -1,6 +1,6 @@
 {
-    "start_time": "2023-01-14 01:20:13",
-    "end_time": "2023-01-14 01:20:40",
+    "start_time": "2023-01-19 01:27:41",
+    "end_time": "2023-01-19 01:28:08",
     "data": [
         {
             "year": "111",
@@ -10916,7 +10916,7 @@
                 "ch": "不動產個案研究",
                 "en": "Real Estate Case Study",
                 "limit": true,
-                "other": "與不動產學士班合開。不動產系學生欲修本門課程者請選修流水U2053"
+                "other": "上課教室為社111。\r\n與不動產學士班合開。不動產系學生欲修本門課程者請選修流水U2053"
             },
             "teacher": [
                 "Chantalle Rietdijk"
@@ -10933,8 +10933,8 @@
                         7,
                         8
                     ],
-                    "place": "公1F01",
-                    "original": "每週一7~8\t公1F01"
+                    "place": "",
+                    "original": "每週一7~8\t"
                 }
             ],
             "sign": "是",
@@ -13503,8 +13503,8 @@
                         10,
                         11
                     ],
-                    "place": "409",
-                    "original": "每週一10~11\t409"
+                    "place": "404",
+                    "original": "每週一10~11\t404"
                 }
             ],
             "sign": "否",
@@ -14204,7 +14204,7 @@
                 "ch": "不動產個案研究",
                 "en": "Real Estate Case Study",
                 "limit": true,
-                "other": "1.主修國際化群組者必選，其他組選修。2.全英語授課。3.本系指定為取得[外語能力指標檢核]之英語授課專業課程。4.108學年度(含)以前申請輔系者本科不計入輔系學分。5.本科不計入進修學士班畢業學分。由城市治理學程(IPUG)新聘教師授課。"
+                "other": "上課教室為社111。\r\n1.主修國際化群組者必選，其他組選修。2.全英語授課。3.本系指定為取得[外語能力指標檢核]之英語授課專業課程。4.108學年度(含)以前申請輔系者本科不計入輔系學分。5.本科不計入進修學士班畢業學分。由城市治理學程(IPUG)新聘教師授課。"
             },
             "teacher": [
                 "Chantalle Rietdijk"
@@ -14221,8 +14221,8 @@
                         7,
                         8
                     ],
-                    "place": "公1F01",
-                    "original": "每週一7~8\t公1F01"
+                    "place": "",
+                    "original": "每週一7~8\t"
                 }
             ],
             "sign": "否",
@@ -15588,7 +15588,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "108"
+            "max_people": "113"
         },
         {
             "year": "111",
@@ -18447,6 +18447,59 @@
         {
             "year": "111",
             "semester": "2",
+            "courseID": "M5225",
+            "department": "犯罪學碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "Python資料科學與人工智慧",
+                "en": "Journey to Data Scientists and Artificial Intelligence with Python",
+                "limit": false,
+                "other": "112.1.17新開課程"
+            },
+            "teacher": [
+                "楊喨智"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "place": "資B1F-01",
+                    "original": "每週一7~9\t資B1F-01"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "5"
+        },
+        {
+            "year": "111",
+            "semester": "2",
             "courseID": "M5290",
             "department": "通訊碩",
             "department_level": [
@@ -19382,8 +19435,8 @@
                         11,
                         12
                     ],
-                    "place": "404",
-                    "original": "每週一10~12\t404"
+                    "place": "409",
+                    "original": "每週一10~12\t409"
                 }
             ],
             "sign": "否",
@@ -19880,6 +19933,59 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "10"
+        },
+        {
+            "year": "111",
+            "semester": "2",
+            "courseID": "P1040",
+            "department": "犯碩職",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "犯碩職",
+                    "original": "犯碩職1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "犯碩職",
+                    "original": "犯碩職2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "Python資料科學與人工智慧",
+                "en": "Journey to Data Scientists and Artificial Intelligence with Python",
+                "limit": false,
+                "other": "1、112.1.17新開課程。 \r\n2、與一般碩士生合班上課。"
+            },
+            "teacher": [
+                "楊喨智"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "place": "資B1F-01",
+                    "original": "每週一7~9\t資B1F-01"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "5"
         },
         {
             "year": "111",
@@ -34418,7 +34524,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "陳金雄"
             ],
             "category": "半",
             "credit": "3",
@@ -41356,6 +41462,51 @@
         {
             "year": "111",
             "semester": "2",
+            "courseID": "U2133",
+            "department": "外語系",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "外語系",
+                    "original": "外語系2"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "經貿英文",
+                "en": "English for Economics",
+                "limit": false,
+                "other": " "
+            },
+            "teacher": [
+                "薛迪安"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文1F10",
+                    "original": "每週二3~4\t文1F10"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
+        },
+        {
+            "year": "111",
+            "semester": "2",
             "courseID": "U2149",
             "department": "財政系",
             "department_level": [
@@ -45674,6 +45825,119 @@
         {
             "year": "111",
             "semester": "2",
+            "courseID": "M5222",
+            "department": "資工碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "電資博",
+                    "original": "電資博1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "資工碩",
+                    "original": "資工碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "資工碩",
+                    "original": "資工碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "雲端應用安全",
+                "en": "Cloud Applications Security",
+                "limit": false,
+                "other": "112/1/17新增資安課程。"
+            },
+            "teacher": [
+                "林德垣"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "電1F05",
+                    "original": "每週二10~12\t電1F05"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "111",
+            "semester": "2",
+            "courseID": "M5226",
+            "department": "通訊碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "通訊碩",
+                    "original": "通訊碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "通訊碩",
+                    "original": "通訊碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "物聯網安全",
+                "en": "IoT Security",
+                "limit": false,
+                "other": "112.1.18新開資安課程"
+            },
+            "teacher": [
+                "劉恩成"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "電2F05",
+                    "original": "每週二2~4\t電2F05"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "20"
+        },
+        {
+            "year": "111",
+            "semester": "2",
             "courseID": "M5379",
             "department": "企碩",
             "department_level": [
@@ -49546,6 +49810,112 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "12"
+        },
+        {
+            "year": "111",
+            "semester": "2",
+            "courseID": "U3206",
+            "department": "資工系",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "資工系",
+                    "original": "資工系3"
+                },
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "資工系",
+                    "original": "資工系4"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "雲端應用安全",
+                "en": "Cloud Applications Security",
+                "limit": false,
+                "other": "112/1/17新增資安課程。"
+            },
+            "teacher": [
+                "林德垣"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "電1F05",
+                    "original": "每週二10~12\t電1F05"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "111",
+            "semester": "2",
+            "courseID": "U3208",
+            "department": "通訊系",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "通訊系",
+                    "original": "通訊系3"
+                },
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "通訊系",
+                    "original": "通訊系4"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "物聯網安全",
+                "en": "IoT Security",
+                "limit": false,
+                "other": "112.1.18新開資安課程"
+            },
+            "teacher": [
+                "劉恩成"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "電2F05",
+                    "original": "每週二2~4\t電2F05"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
         },
         {
             "year": "111",
@@ -63931,8 +64301,8 @@
                         3,
                         4
                     ],
-                    "place": "公2F01",
-                    "original": "每週三3~4\t公2F01"
+                    "place": "公2F26",
+                    "original": "每週三3~4\t公2F26"
                 }
             ],
             "sign": "否",
@@ -65232,8 +65602,8 @@
                         12,
                         13
                     ],
-                    "place": "301",
-                    "original": "每週三12~13\t301"
+                    "place": "315",
+                    "original": "每週三12~13\t315"
                 }
             ],
             "sign": "否",
@@ -65277,8 +65647,8 @@
                         10,
                         11
                     ],
-                    "place": "408",
-                    "original": "每週三10~11\t408"
+                    "place": "208",
+                    "original": "每週三10~11\t208"
                 }
             ],
             "sign": "否",
@@ -70966,7 +71336,7 @@
                 "other": "1111228通知開課"
             },
             "teacher": [
-                "******"
+                "許宏誌"
             ],
             "category": "半",
             "credit": "3",
@@ -72291,8 +72661,8 @@
                         11,
                         12
                     ],
-                    "place": "208",
-                    "original": "每週三10~12\t208"
+                    "place": "410",
+                    "original": "每週三10~12\t410"
                 }
             ],
             "sign": "否",
@@ -72542,8 +72912,8 @@
                         11,
                         12
                     ],
-                    "place": "207",
-                    "original": "每週三10~12\t207"
+                    "place": "408",
+                    "original": "每週三10~12\t408"
                 }
             ],
             "sign": "否",
@@ -72630,8 +73000,8 @@
                         11,
                         12
                     ],
-                    "place": "410",
-                    "original": "每週三10~12\t410"
+                    "place": "409",
+                    "original": "每週三10~12\t409"
                 }
             ],
             "sign": "否",
@@ -72909,8 +73279,8 @@
                         11,
                         12
                     ],
-                    "place": "409",
-                    "original": "每週三10~12\t409"
+                    "place": "207",
+                    "original": "每週三10~12\t207"
                 }
             ],
             "sign": "否",
@@ -90203,11 +90573,11 @@
                     "courseTime": 4,
                     "time_category": "A",
                     "sessions": [
-                        7,
-                        8
+                        3,
+                        4
                     ],
                     "place": "",
-                    "original": "每週四7~8\t"
+                    "original": "每週四3~4\t"
                 }
             ],
             "sign": "否",
@@ -97504,7 +97874,7 @@
                 "other": "1111228通知開課"
             },
             "teacher": [
-                "******"
+                "許宏誌"
             ],
             "category": "半",
             "credit": "3",
@@ -99155,8 +99525,8 @@
                         11,
                         12
                     ],
-                    "place": "409",
-                    "original": "每週四10~12\t409"
+                    "place": "408",
+                    "original": "每週四10~12\t408"
                 }
             ],
             "sign": "否",
@@ -99441,8 +99811,8 @@
                         11,
                         12
                     ],
-                    "place": "408",
-                    "original": "每週四10~12\t408"
+                    "place": "209",
+                    "original": "每週四10~12\t209"
                 }
             ],
             "sign": "是",
@@ -99647,7 +100017,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "47"
         },
         {
             "year": "111",
@@ -101615,7 +101985,7 @@
                 "other": "1111228通知開課"
             },
             "teacher": [
-                "******"
+                "許宏誌"
             ],
             "category": "半",
             "credit": "3",
@@ -106673,8 +107043,8 @@
                         5,
                         6
                     ],
-                    "place": "公2F02",
-                    "original": "每週五5~6\t公2F02"
+                    "place": "公2F27",
+                    "original": "每週五5~6\t公2F27"
                 }
             ],
             "sign": "否",
@@ -112716,6 +113086,58 @@
         {
             "year": "111",
             "semester": "2",
+            "courseID": "M5224",
+            "department": "犯罪學碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "正義理論專題研究",
+                "en": "Seminar:Justice Theory",
+                "limit": false,
+                "other": "112.1.17新開課程"
+            },
+            "teacher": [
+                "王冠生"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        12,
+                        13
+                    ],
+                    "place": "715",
+                    "original": "每週五12~13\t715"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "5"
+        },
+        {
+            "year": "111",
+            "semester": "2",
             "courseID": "M5231",
             "department": "財碩",
             "department_level": [
@@ -113850,6 +114272,58 @@
             "sign": "是",
             "sign_people": "9",
             "max_people": "0"
+        },
+        {
+            "year": "111",
+            "semester": "2",
+            "courseID": "P1026",
+            "department": "犯碩職",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "犯碩職",
+                    "original": "犯碩職1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "犯碩職",
+                    "original": "犯碩職2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "正義理論專題研究",
+                "en": "Seminar:Justice Theory",
+                "limit": false,
+                "other": "1、112.1.17新開課程。\r\n2、教學大樓715（與一般碩士生合班上課）。"
+            },
+            "teacher": [
+                "王冠生"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        12,
+                        13
+                    ],
+                    "place": "715",
+                    "original": "每週五12~13\t715"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "5"
         },
         {
             "year": "111",
@@ -115057,7 +115531,7 @@
                 "ch": "領隊導遊實務",
                 "en": "Practice of Tour Guiding",
                 "limit": false,
-                "other": " "
+                "other": "*1120116通知異動上課時間，原(五)5-6改至(五)3-4。"
             },
             "teacher": [
                 "洪維勵"
@@ -115071,11 +115545,11 @@
                     "courseTime": 5,
                     "time_category": "A",
                     "sessions": [
-                        5,
-                        6
+                        3,
+                        4
                     ],
-                    "place": "商2F02",
-                    "original": "每週五5~6\t商2F02"
+                    "place": "商1F05",
+                    "original": "每週五3~4\t商1F05"
                 }
             ],
             "sign": "否",
@@ -120552,8 +121026,8 @@
                     "original": "每週五6~8\t公2F05"
                 }
             ],
-            "sign": "是",
-            "sign_people": "5",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "25"
         },
         {
