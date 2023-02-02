@@ -1,6 +1,6 @@
 {
-    "start_time": "2023-01-31 01:28:07",
-    "end_time": "2023-01-31 01:28:35",
+    "start_time": "2023-02-02 01:35:24",
+    "end_time": "2023-02-02 01:35:49",
     "data": [
         {
             "year": "111",
@@ -1472,7 +1472,7 @@
                 "ch": "質性研究方法",
                 "en": "Qualitative Research Methods",
                 "limit": false,
-                "other": " "
+                "other": "教室為社111"
             },
             "teacher": [
                 "Chantalle Rietdijk"
@@ -1489,8 +1489,8 @@
                         3,
                         4
                     ],
-                    "place": "公1F02",
-                    "original": "每週一3~4\t公1F02"
+                    "place": "",
+                    "original": "每週一3~4\t"
                 }
             ],
             "sign": "否",
@@ -6857,9 +6857,9 @@
                     "original": "每週一8~10\t公2F06"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "10"
+            "sign": "是",
+            "sign_people": "2",
+            "max_people": "15"
         },
         {
             "year": "111",
@@ -7137,7 +7137,7 @@
                 "other": "1.Offered by Prof. Muhammad Adeel\r\n2.教室請安排在社科大樓"
             },
             "teacher": [
-                "阿迪爾"
+                "Muhammad Adeel"
             ],
             "category": "半",
             "credit": "3",
@@ -18800,7 +18800,7 @@
                 "other": "1.offered by Dr. Muhammad Adeel\r\n2.教室請安排在社科大樓"
             },
             "teacher": [
-                "阿迪爾"
+                "Muhammad Adeel"
             ],
             "category": "半",
             "credit": "3",
@@ -29229,8 +29229,8 @@
                         5,
                         6
                     ],
-                    "place": "文4F09",
-                    "original": "每週二5~6\t文4F09"
+                    "place": "文2F01",
+                    "original": "每週二5~6\t文2F01"
                 }
             ],
             "sign": "否",
@@ -38493,8 +38493,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F25",
-                    "original": "每週二3~4\t法2F25"
+                    "place": "法1F05",
+                    "original": "每週二3~4\t法1F05"
                 }
             ],
             "sign": "否",
@@ -40719,7 +40719,7 @@
                 "ch": "刑法專題研究（一）",
                 "en": "Seminar：Criminal Law I",
                 "limit": true,
-                "other": "先修科目：刑法分則。刑事法學群。"
+                "other": "先修科目：刑法分則。刑事法學群。\r\n本課程開放大三以上、且已修讀刑法總則的同學選課，有意選課的同學，請至台北校區9F法律學系辦公室洽詢。"
             },
             "teacher": [
                 "劉幸義"
@@ -45461,8 +45461,8 @@
                         6,
                         7
                     ],
-                    "place": "商1F09",
-                    "original": "每週二5~7\t商1F09"
+                    "place": "商2F03",
+                    "original": "每週二5~7\t商2F03"
                 }
             ],
             "sign": "否",
@@ -45535,8 +45535,8 @@
                         6,
                         7
                     ],
-                    "place": "商2F03",
-                    "original": "每週二5~7\t商2F03"
+                    "place": "商5F02",
+                    "original": "每週二5~7\t商5F02"
                 }
             ],
             "sign": "是",
@@ -45588,8 +45588,8 @@
                         6,
                         7
                     ],
-                    "place": "商5F02",
-                    "original": "每週二5~7\t商5F02"
+                    "place": "商4F05-2",
+                    "original": "每週二5~7\t商4F05-2"
                 }
             ],
             "sign": "否",
@@ -46329,8 +46329,8 @@
                         6,
                         7
                     ],
-                    "place": "商1F16",
-                    "original": "每週二5~7\t商1F16"
+                    "place": "商1F15",
+                    "original": "每週二5~7\t商1F15"
                 }
             ],
             "sign": "是",
@@ -46802,52 +46802,6 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "40"
-        },
-        {
-            "year": "111",
-            "semester": "2",
-            "courseID": "M6042",
-            "department": "企碩",
-            "department_level": [
-                {
-                    "grade": "2",
-                    "class": "B",
-                    "category": "企碩",
-                    "original": "企碩2B"
-                }
-            ],
-            "compulsory": [
-                "選"
-            ],
-            "title": {
-                "ch": "服務創新管理",
-                "en": "Service Innovation Management",
-                "limit": false,
-                "other": "教室：教學7F10"
-            },
-            "teacher": [
-                "張惠真"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 2,
-                    "time_category": "A",
-                    "sessions": [
-                        10,
-                        11,
-                        12
-                    ],
-                    "place": "710",
-                    "original": "每週二10~12\t710"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "15"
         },
         {
             "year": "111",
@@ -48921,8 +48875,8 @@
                         8,
                         9
                     ],
-                    "place": "商1F15",
-                    "original": "每週二7~9\t商1F15"
+                    "place": "商1F16",
+                    "original": "每週二7~9\t商1F16"
                 }
             ],
             "sign": "否",
@@ -49803,8 +49757,8 @@
                         6,
                         7
                     ],
-                    "place": "商1F09",
-                    "original": "每週二5~7\t商1F09"
+                    "place": "商2F03",
+                    "original": "每週二5~7\t商2F03"
                 }
             ],
             "sign": "否",
@@ -52882,7 +52836,7 @@
                 "ch": "人類居住環境替選方案：實例與政策",
                 "en": "Alternative Human Habitat: Practice and Policy",
                 "limit": true,
-                "other": "*本課程因教師調配問題，請暫勿選課！不動產城鄉系學碩進修部學生請選擇該系選修U4367。\r\n不動產城鄉系學生(含雙主修)選讀，不列入其通識畢業學分數。"
+                "other": "[停開]*本課程因教師調配問題，請暫勿選課！不動產城鄉系學碩進修部學生請選擇該系選修U4367。\r\n不動產城鄉系學生(含雙主修)選讀，不列入其通識畢業學分數。"
             },
             "teacher": [
                 "Chantalle Rietdijk"
@@ -52962,8 +52916,8 @@
                         5,
                         6
                     ],
-                    "place": "文2F01",
-                    "original": "每週二5~6\t文2F01"
+                    "place": "文2F08",
+                    "original": "每週二5~6\t文2F08"
                 }
             ],
             "sign": "否",
@@ -53617,7 +53571,7 @@
                 "ch": "中國寓言導讀",
                 "en": "An Introduction to Chinese Fables",
                 "limit": false,
-                "other": "1.請安排於文210教室。\r\n2.中文系學生(含雙主修)選讀，不列入其通識畢業學分數。"
+                "other": "[停開]1.請安排於文210教室。\r\n2.中文系學生(含雙主修)選讀，不列入其通識畢業學分數。"
             },
             "teacher": [
                 "林觀"
@@ -53986,6 +53940,69 @@
                     ],
                     "place": "社114",
                     "original": "每週二3~4\t社114"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "0"
+        },
+        {
+            "year": "111",
+            "semester": "2",
+            "courseID": "U4376",
+            "department": "中文系",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "通識4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "101-102向度一"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "103-104向度二"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度二"
+                }
+            ],
+            "compulsory": [
+                "通"
+            ],
+            "title": {
+                "ch": "道家文化",
+                "en": "Taoist Culture",
+                "limit": false,
+                "other": "1.請安排於文210教室。\r\n2.中文系學生(含雙主修)選讀，不列入其通識畢業學分數。"
+            },
+            "teacher": [
+                "林觀"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "",
+                    "original": "每週二5~6\t"
                 }
             ],
             "sign": "否",
@@ -62273,8 +62290,8 @@
                         6,
                         7
                     ],
-                    "place": "法1F19",
-                    "original": "每週三5~7\t法1F19"
+                    "place": "公1F15",
+                    "original": "每週三5~7\t公1F15"
                 }
             ],
             "sign": "否",
@@ -68765,8 +68782,8 @@
                         3,
                         4
                     ],
-                    "place": "",
-                    "original": "每週三3~4\t"
+                    "place": "商3F10",
+                    "original": "每週三3~4\t商3F10"
                 }
             ],
             "sign": "是",
@@ -72149,8 +72166,8 @@
                 "選"
             ],
             "title": {
-                "ch": "韌性理論與都市規劃設計",
-                "en": "Resilience Theory in Urban Planning & Design",
+                "ch": "韌性理論與環境規劃之應用",
+                "en": "Resilience theory and applications in environmental planning",
                 "limit": false,
                 "other": " "
             },
@@ -77535,8 +77552,8 @@
                     "original": "每週三5~6\t電1F03"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "0"
         },
         {
@@ -83350,7 +83367,7 @@
                 "ch": "研究方法",
                 "en": "Research Methodology",
                 "limit": false,
-                "other": " "
+                "other": "*人工加簽：僅加簽企碩乙組或GMBA學生。"
             },
             "teacher": [
                 "陳宥杉"
@@ -83372,8 +83389,8 @@
                     "original": "每週四5~7\t商5F02"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "7",
             "max_people": "37"
         },
         {
@@ -89559,8 +89576,8 @@
                         8,
                         9
                     ],
-                    "place": "法2F02",
-                    "original": "每週四8~9\t法2F02"
+                    "place": "法4F14",
+                    "original": "每週四8~9\t法4F14"
                 }
             ],
             "sign": "否",
@@ -94113,8 +94130,8 @@
                         7,
                         8
                     ],
-                    "place": "文2F09",
-                    "original": "每週四7~8\t文2F09"
+                    "place": "文3F10_L",
+                    "original": "每週四7~8\t文3F10_L"
                 }
             ],
             "sign": "是",
@@ -98580,7 +98597,7 @@
                 "other": "1.Offered by Prof. Muhammad Adeel\r\n2.教室請安排在社科大樓"
             },
             "teacher": [
-                "阿迪爾"
+                "Muhammad Adeel"
             ],
             "category": "半",
             "credit": "3",
@@ -101951,8 +101968,8 @@
                     "original": "每週四5~7\t商2F03"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "7",
             "max_people": "39"
         },
         {
@@ -107026,7 +107043,7 @@
                 "ch": "永續與韌性城市",
                 "en": "Sustainable and resilient cities",
                 "limit": true,
-                "other": " "
+                "other": "教室為社111。"
             },
             "teacher": [
                 "Chantalle Rietdijk"
@@ -107043,8 +107060,8 @@
                         5,
                         6
                     ],
-                    "place": "公2F27",
-                    "original": "每週五5~6\t公2F27"
+                    "place": "",
+                    "original": "每週五5~6\t"
                 }
             ],
             "sign": "否",
@@ -112953,8 +112970,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F01",
-                    "original": "每週五3~4\t法2F01"
+                    "place": "法1F19",
+                    "original": "每週五3~4\t法1F19"
                 }
             ],
             "sign": "是",
@@ -113682,7 +113699,7 @@
                 "other": "本課程由楊臻欣老師授課"
             },
             "teacher": [
-                "******"
+                "楊臻欣"
             ],
             "category": "半",
             "credit": "2",
@@ -119294,8 +119311,8 @@
                         6,
                         7
                     ],
-                    "place": "",
-                    "original": "每週五5~7\t"
+                    "place": "商5F02",
+                    "original": "每週五5~7\t商5F02"
                 }
             ],
             "sign": "否",
@@ -119563,6 +119580,52 @@
         {
             "year": "111",
             "semester": "2",
+            "courseID": "M6042",
+            "department": "企碩",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "B",
+                    "category": "企碩",
+                    "original": "企碩2B"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "服務創新管理",
+                "en": "Service Innovation Management",
+                "limit": false,
+                "other": "教室：教學7F10；1120201通知異動上課時間，原(二)10-12改至(五)10-12。"
+            },
+            "teacher": [
+                "張惠真"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "710",
+                    "original": "每週五10~12\t710"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
+        },
+        {
+            "year": "111",
+            "semester": "2",
             "courseID": "M6046",
             "department": "企碩",
             "department_level": [
@@ -119719,7 +119782,7 @@
                 "ch": "大陸企業專題研討",
                 "en": "Seminar on Study of Business in China",
                 "limit": false,
-                "other": "教室：教學7F10"
+                "other": "教室：教學7F11"
             },
             "teacher": [
                 "陳明璋"
@@ -119737,8 +119800,8 @@
                         11,
                         12
                     ],
-                    "place": "710",
-                    "original": "每週五10~12\t710"
+                    "place": "711",
+                    "original": "每週五10~12\t711"
                 }
             ],
             "sign": "否",
