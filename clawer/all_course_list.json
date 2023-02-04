@@ -1,6 +1,6 @@
 {
-    "start_time": "2023-02-02 01:35:24",
-    "end_time": "2023-02-02 01:35:49",
+    "start_time": "2023-02-04 01:23:08",
+    "end_time": "2023-02-04 01:23:33",
     "data": [
         {
             "year": "111",
@@ -32764,8 +32764,8 @@
                         11,
                         12
                     ],
-                    "place": "204",
-                    "original": "每週二10~12\t204"
+                    "place": "205",
+                    "original": "每週二10~12\t205"
                 }
             ],
             "sign": "否",
@@ -38497,8 +38497,8 @@
                     "original": "每週二3~4\t法1F05"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "4",
             "max_people": "20"
         },
         {
@@ -39151,8 +39151,8 @@
                     "original": "每週二5~6\t法2F13"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "4",
             "max_people": "20"
         },
         {
@@ -41115,8 +41115,8 @@
                     "original": "每週二5~6\t法2F13"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "8"
         },
         {
@@ -43120,8 +43120,8 @@
                     "original": "每週二3~4\t法1F05"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "8"
         },
         {
@@ -49643,7 +49643,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "鄭竹君"
             ],
             "category": "半",
             "credit": "3",
@@ -51369,8 +51369,8 @@
                         12,
                         13
                     ],
-                    "place": "205",
-                    "original": "每週二12~13\t205"
+                    "place": "204",
+                    "original": "每週二12~13\t204"
                 }
             ],
             "sign": "否",
@@ -51432,8 +51432,8 @@
                         10,
                         11
                     ],
-                    "place": "205",
-                    "original": "每週二10~11\t205"
+                    "place": "204",
+                    "original": "每週二10~11\t204"
                 }
             ],
             "sign": "否",
@@ -54001,8 +54001,8 @@
                         5,
                         6
                     ],
-                    "place": "",
-                    "original": "每週二5~6\t"
+                    "place": "文2F10",
+                    "original": "每週二5~6\t文2F10"
                 }
             ],
             "sign": "否",
@@ -70801,8 +70801,8 @@
                     "original": "每週三2~4\t"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "6"
         },
         {
@@ -72777,8 +72777,8 @@
                         11,
                         12
                     ],
-                    "place": "507電腦暨語言教室",
-                    "original": "每週三10~12\t507電腦暨語言教室"
+                    "place": "105電腦教室",
+                    "original": "每週三10~12\t105電腦教室"
                 }
             ],
             "sign": "否",
@@ -73123,8 +73123,8 @@
                         11,
                         12
                     ],
-                    "place": "503電腦教室",
-                    "original": "每週三10~12\t503電腦教室"
+                    "place": "507電腦暨語言教室",
+                    "original": "每週三10~12\t507電腦暨語言教室"
                 }
             ],
             "sign": "否",
@@ -78193,8 +78193,8 @@
                         12,
                         13
                     ],
-                    "place": "105電腦教室",
-                    "original": "每週三11~13\t105電腦教室"
+                    "place": "503電腦教室",
+                    "original": "每週三11~13\t503電腦教室"
                 }
             ],
             "sign": "是",
@@ -89576,8 +89576,8 @@
                         8,
                         9
                     ],
-                    "place": "法4F14",
-                    "original": "每週四8~9\t法4F14"
+                    "place": "法1F19",
+                    "original": "每週四8~9\t法1F19"
                 }
             ],
             "sign": "否",
@@ -92586,8 +92586,8 @@
                     "original": "每週四3~4\t法2F01"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "19",
             "max_people": "95"
         },
         {
@@ -93080,12 +93080,12 @@
                         8,
                         9
                     ],
-                    "place": "法4F14",
-                    "original": "每週四8~9\t法4F14"
+                    "place": "法1F19",
+                    "original": "每週四8~9\t法1F19"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "22",
             "max_people": "113"
         },
         {
@@ -98018,7 +98018,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "鄭竹君"
             ],
             "category": "半",
             "credit": "3",
@@ -113015,8 +113015,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F02",
-                    "original": "每週五5~6\t法2F02"
+                    "place": "法4F14",
+                    "original": "每週五5~6\t法4F14"
                 }
             ],
             "sign": "否",
@@ -116215,13 +116215,13 @@
                         5,
                         6
                     ],
-                    "place": "法2F02",
-                    "original": "每週五5~6\t法2F02"
+                    "place": "法4F14",
+                    "original": "每週五5~6\t法4F14"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "86"
+            "sign": "是",
+            "sign_people": "24",
+            "max_people": "121"
         },
         {
             "year": "111",
@@ -121066,7 +121066,7 @@
             "title": {
                 "ch": "全球政治經濟及公共政策",
                 "en": "Global Political Economy and Public Policy",
-                "limit": true,
+                "limit": false,
                 "other": "全英語授課。\r\n111.12.28通知課程時間異動:由三7-9改為五6-8"
             },
             "teacher": [
