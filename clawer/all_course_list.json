@@ -1,6 +1,6 @@
 {
-    "start_time": "2023-02-04 01:23:08",
-    "end_time": "2023-02-04 01:23:33",
+    "start_time": "2023-02-09 01:26:12",
+    "end_time": "2023-02-09 01:26:39",
     "data": [
         {
             "year": "111",
@@ -113,8 +113,8 @@
                         5,
                         6
                     ],
-                    "place": "文3F01_L",
-                    "original": "每週一5~6\t文3F01_L"
+                    "place": "文4F05_L",
+                    "original": "每週一5~6\t文4F05_L"
                 }
             ],
             "sign": "否",
@@ -1155,6 +1155,51 @@
             "sign": "是",
             "sign_people": "8",
             "max_people": "0"
+        },
+        {
+            "year": "111",
+            "semester": "2",
+            "courseID": "M6080",
+            "department": "會博",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "會博",
+                    "original": "會博2"
+                }
+            ],
+            "compulsory": [
+                "必"
+            ],
+            "title": {
+                "ch": "會計研究專題研討（二）",
+                "en": "Seminar on Directed Study（II） ",
+                "limit": true,
+                "other": "上課教室：商6F27，博士班在職組。"
+            },
+            "teacher": [
+                "李建然",
+                "鄭桂蕙"
+            ],
+            "category": "半",
+            "credit": "1",
+            "hours": "1",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        8
+                    ],
+                    "place": "商6F27",
+                    "original": "每週一8~8\t商6F27"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "10"
         },
         {
             "year": "111",
@@ -5191,8 +5236,8 @@
                         5,
                         6
                     ],
-                    "place": "文4F05_L",
-                    "original": "每週一5~6\t文4F05_L"
+                    "place": "文3F10_L",
+                    "original": "每週一5~6\t文3F10_L"
                 }
             ],
             "sign": "否",
@@ -9352,7 +9397,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "69"
         },
         {
             "year": "111",
@@ -9510,7 +9555,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "69"
         },
         {
             "year": "111",
@@ -16516,8 +16561,8 @@
                         5,
                         6
                     ],
-                    "place": "文3F01_L",
-                    "original": "每週一5~6\t文3F01_L"
+                    "place": "文4F05_L",
+                    "original": "每週一5~6\t文4F05_L"
                 }
             ],
             "sign": "否",
@@ -19622,8 +19667,8 @@
                         11,
                         12
                     ],
-                    "place": "203",
-                    "original": "每週一10~12\t203"
+                    "place": "310",
+                    "original": "每週一10~12\t310"
                 }
             ],
             "sign": "否",
@@ -22443,10 +22488,10 @@
                 "ch": "政治社會學",
                 "en": "Political Sociology",
                 "limit": false,
-                "other": "與大三合開，上課時間10:10-13:00，本科課程為本系新進教師彭昉老師授課。"
+                "other": "與大三合開，上課時間10:10-13:00。"
             },
             "teacher": [
-                "沈幼蓀"
+                "彭昉"
             ],
             "category": "半",
             "credit": "3",
@@ -27236,9 +27281,16 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必"
@@ -29874,7 +29926,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "80"
+            "max_people": "81"
         },
         {
             "year": "111",
@@ -34760,7 +34812,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "46"
+            "max_people": "48"
         },
         {
             "year": "111",
@@ -35937,7 +35989,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "46"
+            "max_people": "48"
         },
         {
             "year": "111",
@@ -35997,7 +36049,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "46"
+            "max_people": "48"
         },
         {
             "year": "111",
@@ -38091,9 +38143,23 @@
                     "class": "",
                     "category": "行政碩",
                     "original": "行政碩1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -45422,18 +45488,32 @@
                 },
                 {
                     "grade": "1",
-                    "class": "",
+                    "class": "A",
                     "category": "企碩",
-                    "original": "企碩1"
+                    "original": "企碩1A"
                 },
                 {
                     "grade": "2",
-                    "class": "",
+                    "class": "A",
                     "category": "企碩",
-                    "original": "企碩2"
+                    "original": "企碩2A"
+                },
+                {
+                    "grade": "3",
+                    "class": "A",
+                    "category": "企管系",
+                    "original": "企管系3A"
+                },
+                {
+                    "grade": "3",
+                    "class": "B",
+                    "category": "企管系",
+                    "original": "企管系3B"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -47412,9 +47492,23 @@
                     "class": "B",
                     "category": "(進修)企管",
                     "original": "(進修)企管3B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -49719,6 +49813,30 @@
             "department": "財務金融碩士學位學程",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "",
+                    "category": "財務金融碩士學位學程",
+                    "original": "財務金融碩士學位學程1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "財務金融碩士學位學程",
+                    "original": "財務金融碩士學位學程2"
+                },
+                {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "企碩",
+                    "original": "企碩1A"
+                },
+                {
+                    "grade": "2",
+                    "class": "A",
+                    "category": "企碩",
+                    "original": "企碩2A"
+                },
+                {
                     "grade": "3",
                     "class": "A",
                     "category": "企管系",
@@ -49732,6 +49850,10 @@
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -54646,7 +54768,7 @@
             ],
             "category": "半",
             "credit": "0",
-            "hours": "0",
+            "hours": "2",
             "language": "英語English",
             "course_detail": [
                 {
@@ -54656,8 +54778,8 @@
                         5,
                         6
                     ],
-                    "place": "文3F01_L",
-                    "original": "每週三5~6\t文3F01_L"
+                    "place": "文4F05_L",
+                    "original": "每週三5~6\t文4F05_L"
                 }
             ],
             "sign": "否",
@@ -56052,7 +56174,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "151"
+            "max_people": "153"
         },
         {
             "year": "111",
@@ -69174,8 +69296,8 @@
                         5,
                         6
                     ],
-                    "place": "文3F01_L",
-                    "original": "每週三5~6\t文3F01_L"
+                    "place": "文4F05_L",
+                    "original": "每週三5~6\t文4F05_L"
                 }
             ],
             "sign": "否",
@@ -71165,9 +71287,23 @@
                     "class": "",
                     "category": "企碩",
                     "original": "企碩2"
+                },
+                {
+                    "grade": "4",
+                    "class": "A",
+                    "category": "企管系",
+                    "original": "企管系4A"
+                },
+                {
+                    "grade": "4",
+                    "class": "B",
+                    "category": "企管系",
+                    "original": "企管系4B"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -73123,8 +73259,8 @@
                         11,
                         12
                     ],
-                    "place": "507電腦暨語言教室",
-                    "original": "每週三10~12\t507電腦暨語言教室"
+                    "place": "503電腦教室",
+                    "original": "每週三10~12\t503電腦教室"
                 }
             ],
             "sign": "否",
@@ -75661,6 +75797,30 @@
             "department": "財務金融碩士學位學程",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "",
+                    "category": "財務金融碩士學位學程",
+                    "original": "財務金融碩士學位學程1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "財務金融碩士學位學程",
+                    "original": "財務金融碩士學位學程2"
+                },
+                {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "企碩",
+                    "original": "企碩1A"
+                },
+                {
+                    "grade": "2",
+                    "class": "A",
+                    "category": "企碩",
+                    "original": "企碩2A"
+                },
+                {
                     "grade": "4",
                     "class": "A",
                     "category": "企管系",
@@ -75674,6 +75834,10 @@
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -78193,8 +78357,8 @@
                         12,
                         13
                     ],
-                    "place": "503電腦教室",
-                    "original": "每週三11~13\t503電腦教室"
+                    "place": "507電腦暨語言教室",
+                    "original": "每週三11~13\t507電腦暨語言教室"
                 }
             ],
             "sign": "是",
@@ -79615,9 +79779,23 @@
                     "class": "",
                     "category": "金融碩",
                     "original": "金融碩1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必"
             ],
@@ -87662,7 +87840,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "67"
         },
         {
             "year": "111",
@@ -87750,7 +87928,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "67"
         },
         {
             "year": "111",
@@ -88172,7 +88350,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "69"
         },
         {
             "year": "111",
@@ -88239,7 +88417,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "69"
         },
         {
             "year": "111",
@@ -89096,66 +89274,6 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "60"
-        },
-        {
-            "year": "111",
-            "semester": "2",
-            "courseID": "M5211",
-            "department": "社學碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "社學碩",
-                    "original": "社學碩1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "社學碩",
-                    "original": "社學碩2"
-                },
-                {
-                    "grade": "3",
-                    "class": "",
-                    "category": "社學碩",
-                    "original": "社學碩3"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "社會網絡",
-                "en": "Social Network",
-                "limit": false,
-                "other": "本科課程與本系學士班合班上課。"
-            },
-            "teacher": [
-                "韋岱思"
-            ],
-            "category": "半",
-            "credit": "0",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 4,
-                    "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "社101",
-                    "original": "每週四2~4\t社101"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "10"
         },
         {
             "year": "111",
@@ -98090,6 +98208,66 @@
         {
             "year": "111",
             "semester": "2",
+            "courseID": "M5211",
+            "department": "社學碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社學碩",
+                    "original": "社學碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "社學碩",
+                    "original": "社學碩2"
+                },
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "社學碩",
+                    "original": "社學碩3"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "社會網絡",
+                "en": "Social Network",
+                "limit": false,
+                "other": "本科課程與本系學士班合班上課。"
+            },
+            "teacher": [
+                "韋岱思"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "社101",
+                    "original": "每週四2~4\t社101"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "10"
+        },
+        {
+            "year": "111",
+            "semester": "2",
             "courseID": "M5212",
             "department": "社工碩",
             "department_level": [
@@ -106594,9 +106772,16 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必"
             ],
@@ -109625,7 +109810,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "115"
+            "max_people": "119"
         },
         {
             "year": "111",
@@ -118301,7 +118486,7 @@
                 "other": "本科課程與本系學士班四年級合班上課，任課教師為本系新進彭昉老師。"
             },
             "teacher": [
-                "戴翠莪"
+                "彭昉"
             ],
             "category": "半",
             "credit": "3",
@@ -119317,7 +119502,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "5"
+            "max_people": "10"
         },
         {
             "year": "111",
@@ -119634,9 +119819,23 @@
                     "class": "A",
                     "category": "企碩",
                     "original": "企碩2A"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -121826,7 +122025,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "58"
+            "max_people": "65"
         },
         {
             "year": "111",
