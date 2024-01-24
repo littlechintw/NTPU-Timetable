@@ -130,7 +130,7 @@ def course_info_decode(data):
 
 def get_course(year, semester, week):
     course_json_list = []
-    url = 'https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query_all.queryByAllConditions'
+    url = 'http://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query_all.queryByAllConditions'
     data = 'qYear=' + str(year) + '&qTerm=' + str(semester) + '&week=' + str(week) + '&seq1=A&seq2=M'
     r = requests.get(url, data)
     sp = BeautifulSoup(r.text, 'lxml')
