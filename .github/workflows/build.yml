@@ -21,8 +21,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Clean npm config
+        run: npm config delete registry
+      
+      - name: Set npm registry to official
+        run: npm config set registry https://registry.npmjs.org/
+      
       - name: Install
-        run: npm install --legacy-peer-deps --registry=https://registry.npmjs.org/
+        run: npm install --legacy-peer-deps
 
       - name: Build
         run: npm run build --openssl-legacy-provider
