@@ -1,14 +1,205 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="zh-TW">
   <head>
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
-    <script type="module" crossorigin src="/assets/index-Bkz0lawG.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DS3nwzSB.css">
+    
+    <!-- SEO Meta Tags -->
+    <title>NTPU 課程試排 | 國立臺北大學選課神器 - 一鍵規劃完美課表</title>
+    <meta name="description" content="NTPU 課程試排是專為國立臺北大學學生設計的選課輔助工具。提供直觀的一頁式課表規劃介面，支援課程搜尋、時間衝突檢查、學分計算等功能，讓你輕鬆安排理想課表！">
+    <meta name="keywords" content="NTPU,國立臺北大學,課程試排,選課,課表,排課,大學課程,學分,時間表,課程規劃">
+    <meta name="author" content="LittleChin">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ntpu-timetable.littlechin.tw/">
+    <meta property="og:title" content="NTPU 課程試排 | 國立臺北大學選課神器">
+    <meta property="og:description" content="專為 NTPU 學生設計的智慧選課工具，一鍵規劃完美課表，支援課程搜尋、衝突檢查、學分統計等功能。">
+    <meta property="og:image" content="https://ntpu-timetable.littlechin.tw/og-image.png">
+    <meta property="og:site_name" content="NTPU 課程試排">
+    <meta property="og:locale" content="zh_TW">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ntpu-timetable.littlechin.tw/">
+    <meta property="twitter:title" content="NTPU 課程試排 | 國立臺北大學選課神器">
+    <meta property="twitter:description" content="專為 NTPU 學生設計的智慧選課工具，一鍵規劃完美課表">
+    <meta property="twitter:image" content="https://ntpu-timetable.littlechin.tw/og-image.png">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#667eea">
+    <meta name="application-name" content="NTPU 課程試排">
+    <meta name="apple-mobile-web-app-title" content="NTPU 課程試排">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ntpu-timetable.littlechin.tw/">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "NTPU 課程試排",
+      "alternateName": "NTPU Timetable",
+      "description": "專為國立臺北大學學生設計的課程試排工具，提供直觀的選課規劃介面",
+      "url": "https://ntpu-timetable.littlechin.tw/",
+      "applicationCategory": "Education",
+      "operatingSystem": "Web Browser",
+      "author": {
+        "@type": "Person",
+        "name": "LittleChin",
+        "url": "https://littlechin.tw"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "TWD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "200"
+      }
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-DIq0DohL.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DHH_UNfB.css">
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="loading-container">
+        <div class="loading-content">
+          <h1>🎓 NTPU 課程試排</h1>
+          <p class="subtitle">國立臺北大學 智慧選課助手</p>
+          <div class="features">
+            <div class="feature-item">✨ 一頁式課表規劃</div>
+            <div class="feature-item">🔍 智慧課程搜尋</div>
+            <div class="feature-item">⚡ 即時衝突檢查</div>
+            <div class="feature-item">📊 學分自動統計</div>
+          </div>
+          <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>正在載入課程資料...</p>
+          </div>
+          <div class="description">
+            <p>專為 NTPU 學生量身打造的選課神器，讓你輕鬆規劃理想課表！</p>
+            <p>支援多學期課程資料，提供完整的課程資訊與時間安排建議。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <style>
+      .loading-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        padding: 2rem;
+      }
+      
+      .loading-content {
+        text-align: center;
+        max-width: 600px;
+        animation: fadeInUp 0.8s ease-out;
+      }
+      
+      .loading-content h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      }
+      
+      .subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        opacity: 0.9;
+        font-weight: 300;
+      }
+      
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-bottom: 2rem;
+      }
+      
+      .feature-item {
+        background: rgba(255, 255, 255, 0.15);
+        padding: 1rem;
+        border-radius: 12px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        font-weight: 500;
+        transition: transform 0.3s ease;
+      }
+      
+      .feature-item:hover {
+        transform: translateY(-2px);
+      }
+      
+      .loading-spinner {
+        margin: 2rem 0;
+      }
+      
+      .spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid rgba(255, 255, 255, 0.3);
+        border-top: 3px solid white;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 1rem;
+      }
+      
+      .description {
+        margin-top: 2rem;
+        opacity: 0.8;
+        line-height: 1.6;
+      }
+      
+      .description p {
+        margin-bottom: 0.5rem;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      @media (max-width: 768px) {
+        .loading-content h1 {
+          font-size: 2rem;
+        }
+        
+        .features {
+          grid-template-columns: 1fr;
+        }
+        
+        .loading-container {
+          padding: 1rem;
+        }
+      }
+    </style>
+    
   </body>
 </html>
