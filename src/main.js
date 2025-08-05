@@ -44,9 +44,7 @@ const handleResize = () => {
   windowHeightData.txt = `it changed to ${newHeight} from ${oldHeight}`
   
   // 更新 store 中的 windowHeight
-  if (store.dispatch) {
-    store.dispatch('updateWindowHeight', newHeight)
-  }
+  store.dispatch('updateWindowHeight', newHeight)
 }
 
 window.addEventListener('resize', handleResize)
