@@ -1,4 +1,4 @@
-name: Python CI
+name: Fetch NTPU Timetable Data
 on:
   push:
   schedule:
