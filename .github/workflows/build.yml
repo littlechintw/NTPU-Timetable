@@ -42,6 +42,9 @@ jobs:
             cp package.node12.json package.json
           fi
           npm install --legacy-peer-deps
+          
+          # 只顯示安全報告，不進行修復
+          npm audit --audit-level=moderate || echo "Build continues despite vulnerabilities"
 
       - name: Build with Vite
         run: npm run build

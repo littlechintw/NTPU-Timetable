@@ -61,8 +61,9 @@ jobs:
           # 安裝依賴，使用 --legacy-peer-deps 解決版本衝突
           npm install --legacy-peer-deps
           
-          # 嘗試修復安全漏洞（但不強制，避免破壞性更改）
-          npm audit fix --force || echo "Security audit fix attempted, continuing..."
+          # 只檢查安全漏洞，不進行修復（避免破壞性更改）
+          echo "🔍 Security audit report:"
+          npm audit --audit-level=moderate || echo "⚠️ Some vulnerabilities found, but build will continue"
 
       - name: Lint code (if lint script exists)
         run: |

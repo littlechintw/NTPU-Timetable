@@ -66,10 +66,10 @@ if npm ls --depth=0 2>&1 | grep -q "ERESOLVE\|peer dep"; then
 fi
 
 # 檢查安全漏洞
-audit_output=$(npm audit --audit-level=high 2>/dev/null || echo "audit failed")
+audit_output=$(npm audit --audit-level=moderate 2>/dev/null || echo "audit failed")
 if echo "$audit_output" | grep -q "vulnerabilities"; then
     vuln_count=$(echo "$audit_output" | grep -o "[0-9]* vulnerabilities" | head -1)
-    echo "⚠️ 安全漏洞: $vuln_count"
+    echo "⚠️ 安全漏洞: $vuln_count (不影響構建)"
     problems=$((problems + 1))
 fi
 
@@ -91,9 +91,10 @@ echo ""
 if [ $problems -gt 0 ]; then
     echo "🔧 修復建議:"
     echo "1. 執行: npm install --legacy-peer-deps"
-    echo "2. 執行: npm audit fix --force"
+    echo "2. 檢查漏洞: npm audit (不建議使用 --force)"
     echo "3. 清理快取: npm cache clean --force"
     echo "4. 如果問題持續，嘗試使用 Node.js 18+"
+    echo "5. 安全漏洞通常不影響構建，可以稍後處理"
     echo ""
 fi
 
