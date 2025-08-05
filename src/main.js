@@ -12,12 +12,12 @@ import JSONView from 'vue-json-viewer'
 Vue.use(JSONView)
 
 // Google Analytics
-import VueAnalytics from 'vue-analytics'
-Vue.use(VueAnalytics, {
-  id: 'UA-167881827-3',
-  router,
-  checkDuplicatedScript: true
-})
+import VueGtag from 'vue-gtag'
+Vue.use(VueGtag, {
+  config: {
+    id: 'UA-167881827-3'
+  }
+}, router)
 
 new Vue({
   el: '#app',
