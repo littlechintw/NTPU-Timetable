@@ -40,6 +40,11 @@ jobs:
           echo "Current directory: $(pwd)"
           echo "Branch: ${{ github.ref_name }}"
 
+      - name: Pre-build monitoring
+        run: |
+          chmod +x monitor-build.sh
+          ./monitor-build.sh
+
       - name: Install dependencies
         run: |
           # 清除舊的依賴
