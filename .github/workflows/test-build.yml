@@ -91,7 +91,18 @@ jobs:
           echo "Memory info:"
           free -h || echo "Memory info not available"
           
-          npm run build
+          # 嘗試構建，如果失敗則降級到穩定配置
+          if ! npm run build; then
+            echo "⚠️ Build failed, trying with stable config..."
+            if [ -f vite.config.stable.js ]; then
+              cp vite.config.stable.js vite.config.js
+              echo "🔄 Switched to stable Vite config"
+              npm run build
+            else
+              echo "❌ No stable config available, build failed"
+              exit 1
+            fi
+          fi
         env:
           NODE_OPTIONS: "--max-old-space-size=4096"
 

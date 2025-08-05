@@ -2,9 +2,17 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
 
-// 穩定配置，不使用 vite-plugin-vuetify（避免版本衝突）
+// 穩定版 Vite 配置，包含基本的 Vuetify 支援但避免插件問題
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [
+    vue({
+      template: {
+        compilerOptions: {
+          isCustomElement: (tag) => tag.startsWith('v-')
+        }
+      }
+    })
+  ],
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src')
@@ -16,19 +24,15 @@ export default defineConfig({
   build: {
     target: 'es2015',
     rollupOptions: {
+      external: [],
       output: {
         manualChunks: {
-          vendor: ['vue', 'vue-router', 'vuex'],
-          vuetify: ['vuetify']
+          vendor: ['vue', 'vue-router', 'vuex']
         }
       }
     }
   },
-  css: {
-    preprocessorOptions: {
-      sass: {
-        additionalData: `@import "vuetify/lib/styles/main.sass"\n`
-      }
-    }
+  optimizeDeps: {
+    include: ['vuetify', 'vuetify/lib/**']
   }
 })
