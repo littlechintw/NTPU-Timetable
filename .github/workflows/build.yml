@@ -25,7 +25,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          # 移除 cache 設定，因為沒有 lock 文件
+          # cache: 'npm'
 
       - name: Clean npm config
         run: npm config delete registry || true
