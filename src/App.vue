@@ -21,6 +21,18 @@
     </nav>
 
     <RouterView />
+    
+    <!-- 底部版權資訊 -->
+    <footer class="app-footer">
+      <div class="footer-content">
+        <div class="footer-left">
+          <p>&copy; {{ new Date().getFullYear() }} <a href="https://littlechin.tw" target="_blank" rel="noopener noreferrer">littlechin.tw</a>. All Rights Reserved.</p>
+        </div>
+        <div class="footer-right">
+          
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -111,6 +123,57 @@ body.dark-mode {
 
 #app {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 讓 RouterView 佔滿剩餘空間 */
+.router-view-container {
+  flex: 1;
+}
+
+/* 底部版權資訊 */
+.app-footer {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5rem 2rem;
+  margin-top: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .app-footer {
+  background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+  border-top: 1px solid #4a5568;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.footer-left p,
+.footer-right p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-right a {
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.footer-right a:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  text-decoration: underline;
 }
 
 /* 頂部導航欄 */
@@ -439,6 +502,21 @@ body.dark-mode {
   }
   
   .top-navbar {
+    padding: 1rem;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  
+  .footer-left,
+  .footer-right {
+    width: 100%;
+  }
+  
+  .app-footer {
     padding: 1rem;
   }
 }
