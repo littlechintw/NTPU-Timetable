@@ -6,22 +6,17 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview --host",
-    "serve": "vite --host",
-    "lint": "echo 'Linting skipped for now'"
+    "serve": "vite --host"
   },
   "dependencies": {
     "vue": "^3.2.31",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.2",
-    "vuetify": "^3.0.0",
-    "@mdi/font": "^6.9.96",
     "vue-json-viewer": "^3.0.4",
-    "vue-gtag": "^2.0.1",
-    "sass": "^1.49.9"
+    "vue-gtag": "^2.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
-    "vite": "^2.9.9",
-    "vite-plugin-vuetify": "^1.0.2"
+    "vite": "^2.9.9"
   }
 }

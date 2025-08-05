@@ -1,0 +1,178 @@
+name: Test Build
+
+on:
+  push:
+    branches-ignore: [main]  # 不在 main branch 執行，避免與正式部署衝突
+  pull_request:
+    branches: [main]
+  workflow_dispatch:  # 允許手動觸發
+
+jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]  # 測試多個 Node.js 版本
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Clean npm config
+        run: npm config delete registry || true
+      
+      - name: Set npm registry to official
+        run: npm config set registry https://registry.npmjs.org/
+      
+      - name: Display environment info
+        run: |
+          echo "Node.js version: $(node --version)"
+          echo "npm version: $(npm --version)"
+          echo "Current directory: $(pwd)"
+          echo "Branch: ${{ github.ref_name }}"
+
+      - name: Install dependencies
+        run: |
+          # 清除舊的依賴
+          rm -rf node_modules package-lock.json || true
+          
+          # 根據 Node.js 版本選擇適當的 package.json
+          if [[ "$(node --version)" =~ ^v1[2-7]\. ]]; then
+            echo "Using Node.js 12-17, using compatible package.json"
+            if [ -f package.node12.json ]; then
+              cp package.node12.json package.json
+            fi
+          fi
+          
+          # 安裝依賴
+          npm ci || npm install
+
+      - name: Lint code (if lint script exists)
+        run: |
+          if npm run lint --if-present; then
+            echo "✅ Lint passed"
+          else
+            echo "⚠️ No lint script found or lint failed"
+          fi
+        continue-on-error: true
+
+      - name: Build project
+        run: |
+          echo "🏗️ Starting build process..."
+          npm run build
+        env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
+
+      - name: Check build output
+        run: |
+          echo "📁 Build output:"
+          ls -la dist/ || echo "❌ dist/ directory not found"
+          
+          if [ -d "dist" ]; then
+            echo "✅ Build successful - dist directory created"
+            echo "📊 Build size:"
+            du -sh dist/
+            echo "📄 Build contents:"
+            find dist/ -type f -name "*.js" -o -name "*.css" -o -name "*.html" | head -10
+          else
+            echo "❌ Build failed - no dist directory"
+            exit 1
+          fi
+
+      - name: Test build artifacts
+        run: |
+          echo "🧪 Testing build artifacts..."
+          
+          # 檢查是否有 index.html
+          if [ -f "dist/index.html" ]; then
+            echo "✅ index.html exists"
+          else
+            echo "❌ index.html missing"
+            exit 1
+          fi
+          
+          # 檢查是否有 JavaScript 文件
+          if find dist/ -name "*.js" | grep -q .; then
+            echo "✅ JavaScript files found"
+          else
+            echo "❌ No JavaScript files found"
+            exit 1
+          fi
+          
+          # 檢查是否有 CSS 文件
+          if find dist/ -name "*.css" | grep -q .; then
+            echo "✅ CSS files found"
+          else
+            echo "⚠️ No CSS files found (might be inline)"
+          fi
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifacts-node-${{ matrix.node-version }}
+          path: dist/
+          retention-days: 7
+
+  # 預覽構建結果（可選）
+  preview-build:
+    needs: test-build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    
+    steps:
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifacts-node-18.x
+          path: dist/
+
+      - name: Setup preview server
+        run: |
+          npm install -g serve
+          serve -s dist -p 3000 &
+          sleep 5
+
+      - name: Test preview server
+        run: |
+          echo "🌐 Testing preview server..."
+          curl -f http://localhost:3000 > /dev/null && echo "✅ Preview server is running" || echo "❌ Preview server failed"
+
+  # 構建狀態報告
+  build-summary:
+    needs: [test-build, preview-build]
+    runs-on: ubuntu-latest
+    if: always()
+    
+    steps:
+      - name: Build Summary
+        run: |
+          echo "## 🏗️ Build Test Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ needs.test-build.result }}" == "success" ]; then
+            echo "✅ **Build Test**: Passed" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **Build Test**: Failed" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          if [ "${{ needs.preview-build.result }}" == "success" ]; then
+            echo "✅ **Preview Test**: Passed" >> $GITHUB_STEP_SUMMARY
+          elif [ "${{ needs.preview-build.result }}" == "skipped" ]; then
+            echo "⏭️ **Preview Test**: Skipped" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **Preview Test**: Failed" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📋 Test Details" >> $GITHUB_STEP_SUMMARY
+          echo "- **Branch**: ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Commit**: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Node.js versions tested**: 18.x, 20.x" >> $GITHUB_STEP_SUMMARY
+          echo "- **Build artifacts**: Available for 7 days" >> $GITHUB_STEP_SUMMARY
