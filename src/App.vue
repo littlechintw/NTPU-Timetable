@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import config from "../config.json";
+import config from "./config.json";
 import { useStore } from "vuex";
 import { onMounted, ref } from "vue";
 
