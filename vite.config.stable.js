@@ -16,9 +16,11 @@ export default defineConfig({
   publicDir: 'public', // 指定 public 目錄
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src')
+      '@': resolve(__dirname, 'src'),
+      '@root': resolve(__dirname, '.')
     }
   },
+  assetsInclude: ['**/*.json'],
   define: {
     'process.env': {}
   },
