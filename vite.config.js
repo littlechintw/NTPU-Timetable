@@ -5,6 +5,8 @@ import { resolve } from 'path'
 // 穩定配置，不使用 vite-plugin-vuetify（避免版本衝突）
 export default defineConfig({
   plugins: [vue()],
+  root: '.', // 確保根目錄是項目根目錄
+  publicDir: 'public', // 指定 public 目錄
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src')
@@ -15,6 +17,7 @@ export default defineConfig({
   },
   build: {
     target: 'es2015',
+    outDir: 'dist',
     rollupOptions: {
       output: {
         manualChunks: {
@@ -24,11 +27,8 @@ export default defineConfig({
       }
     }
   },
-  css: {
-    preprocessorOptions: {
-      sass: {
-        additionalData: `@import "vuetify/lib/styles/main.sass"\n`
-      }
-    }
+  server: {
+    host: true,
+    port: 8080
   }
 })
