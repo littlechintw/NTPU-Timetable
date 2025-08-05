@@ -47,9 +47,7 @@ export default {
       window_width.value = window.innerWidth;
       
       // 更新 store 中的 window height
-      if (store.dispatch) {
-        store.dispatch('updateWindowHeight', window.innerHeight);
-      }
+      store.dispatch('updateWindowHeight', window.innerHeight);
     });
 
     return {
