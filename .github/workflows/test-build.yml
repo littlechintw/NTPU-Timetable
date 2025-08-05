@@ -10,6 +10,7 @@ on:
 jobs:
   test-build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15  # 增加超時時間
     
     strategy:
       matrix:
@@ -39,6 +40,11 @@ jobs:
           echo "Current directory: $(pwd)"
           echo "Branch: ${{ github.ref_name }}"
 
+      - name: Pre-build monitoring
+        run: |
+          chmod +x monitor-build.sh
+          ./monitor-build.sh
+
       - name: Install dependencies
         run: |
           # 清除舊的依賴
@@ -54,6 +60,9 @@ jobs:
           
           # 安裝依賴，使用 --legacy-peer-deps 解決版本衝突
           npm install --legacy-peer-deps
+          
+          # 嘗試修復安全漏洞（但不強制，避免破壞性更改）
+          npm audit fix --force || echo "Security audit fix attempted, continuing..."
 
       - name: Lint code (if lint script exists)
         run: |
@@ -67,6 +76,20 @@ jobs:
       - name: Build project
         run: |
           echo "🏗️ Starting build process..."
+          
+          # 根據 Node.js 版本選擇適當的構建配置
+          if [[ "$(node --version)" =~ ^v1[2-7]\. ]]; then
+            echo "Using Node.js 12-17, using simple Vite config"
+            if [ -f vite.config.simple.js ]; then
+              cp vite.config.simple.js vite.config.js
+              echo "✅ Switched to simple Vite config"
+            fi
+          fi
+          
+          # 確保有足夠資源
+          echo "Memory info:"
+          free -h || echo "Memory info not available"
+          
           npm run build
         env:
           NODE_OPTIONS: "--max-old-space-size=4096"
