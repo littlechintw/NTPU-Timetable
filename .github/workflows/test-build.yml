@@ -52,8 +52,8 @@ jobs:
             fi
           fi
           
-          # 安裝依賴
-          npm ci || npm install
+          # 安裝依賴，使用 --legacy-peer-deps 解決版本衝突
+          npm install --legacy-peer-deps
 
       - name: Lint code (if lint script exists)
         run: |

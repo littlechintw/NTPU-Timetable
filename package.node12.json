@@ -6,7 +6,8 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview --host",
-    "serve": "vite --host"
+    "serve": "vite --host",
+    "lint": "echo 'Linting skipped for now'"
   },
   "dependencies": {
     "vue": "^3.2.31",

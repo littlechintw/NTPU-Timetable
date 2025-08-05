@@ -41,7 +41,7 @@ jobs:
             echo "Using Node.js 12-17, using compatible package.json"
             cp package.node12.json package.json
           fi
-          npm ci || npm install
+          npm install --legacy-peer-deps
 
       - name: Build with Vite
         run: npm run build
