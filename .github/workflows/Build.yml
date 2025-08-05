@@ -32,6 +32,12 @@ jobs:
     - name: Install dependencies
       run: npm ci
       
+    - name: Copy data files to public directory
+      run: |
+        cp config.json public/
+        mkdir -p public/clawer
+        cp clawer/all_course_list.json public/clawer/
+      
     - name: Build project
       run: npm run build
       
