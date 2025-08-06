@@ -1478,6 +1478,11 @@ onMounted(async () => {
   overflow: hidden; /* 防止容器本身產生滾動條 */
 }
 
+/* 確保卡片內容的 padding 對稱 */
+.timetable-container .card-body {
+  padding: 1rem;
+}
+
 /* 卡片樣式 */
 .card {
   background: white;
@@ -2132,56 +2137,24 @@ onMounted(async () => {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch; /* iOS 滑動優化 */
   border-radius: 8px;
-  border: 1px solid #e0e0e0;
   max-width: 100%;
-  position: relative;
-}
-
-/* 滑動提示漸變效果 */
-.timetable:before,
-.timetable:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 20px;
-  pointer-events: none;
-  z-index: 2;
-}
-
-.timetable:before {
-  left: 0;
-  background: linear-gradient(to right, rgba(255,255,255,0.8), transparent);
-}
-
-.timetable:after {
-  right: 0;
-  background: linear-gradient(to left, rgba(255,255,255,0.8), transparent);
-}
-
-/* 黑暗模式下的滑動提示 */
-.dark-mode .timetable:before {
-  background: linear-gradient(to right, rgba(45,55,72,0.8), transparent);
-}
-
-.dark-mode .timetable:after {
-  background: linear-gradient(to left, rgba(45,55,72,0.8), transparent);
+  box-shadow: 0 0 0 1px #e0e0e0; /* 使用 box-shadow 作為外框 */
 }
 
 .timetable-table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: collapse; /* 改回 collapse 以統一處理邊框 */
   min-width: 800px;
   table-layout: fixed;
+  border: none; /* 移除表格本身的邊框 */
 }
 
 /* 黑暗模式下的課表 */
 .dark-mode .timetable {
-  border: 1px solid #4a5568;
+  box-shadow: 0 0 0 1px #4a5568; /* 使用 box-shadow 作為外框 */
 }
 
 .dark-mode .timetable-table {
-  border: 1px solid #4a5568;
   background: #2d3748;
 }
 
@@ -2191,25 +2164,44 @@ onMounted(async () => {
   padding: 0.8rem;
   text-align: center;
   font-weight: 500;
+  border: none; /* 完全移除邊框 */
+}
+
+/* 時間欄標題特殊樣式 */
+.day-header:first-child {
+  background: linear-gradient(135deg, #5a6c7d 0%, #6c757d 100%);
 }
 
 /* 黑暗模式下的日期標題 */
 .dark-mode .day-header {
   background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%) !important;
-  border: 1px solid #4a5568;
+}
+
+.dark-mode .day-header:first-child {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%) !important;
 }
 
 .time-cell {
-  border: 1px solid #e0e0e0;
+  border: none; /* 完全移除邊框 */
   padding: 0;
   vertical-align: top;
   width: 12.5%;
+  border-bottom: 1px solid #e0e0e0; /* 只保留底邊框作為水平分隔 */
+}
+
+/* 時間欄（第一欄）特殊背景 */
+.time-cell:first-child {
+  background-color: #f8f9fa;
 }
 
 /* 黑暗模式下的時間格子 */
 .dark-mode .time-cell {
-  border: 1px solid #4a5568 !important;
   background: #2d3748 !important;
+  border-bottom: 1px solid #4a5568 !important;
+}
+
+.dark-mode .time-cell:first-child {
+  background-color: #1a202c !important;
 }
 
 .cell-content {
@@ -2375,7 +2367,7 @@ onMounted(async () => {
   /* 課表手機版優化 */
   .timetable {
     border-radius: 4px;
-    margin: 0 -0.5rem; /* 讓課表延伸到卡片邊緣 */
+    margin: 0; /* 移除負邊距以確保對稱 */
   }
   
   .timetable-table {
