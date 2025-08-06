@@ -1075,6 +1075,10 @@ const changeCourseSelectStatus = (ID) => {
   if (existingIndex !== -1) {
     // 移除課程
     tmpList.splice(existingIndex, 1)
+    // 重新分配索引
+    tmpList.forEach((course, index) => {
+      course.index = index
+    })
     writeCourse(false, tmpData)
   } else {
     // 添加課程
@@ -1084,8 +1088,12 @@ const changeCourseSelectStatus = (ID) => {
   }
   
   localStorage.setItem("SelectCourse", JSON.stringify(tmpList))
-  searchCourse()
+  
+  // 強制更新已選課程列表
   selectListMaker()
+  
+  // 更新搜尋結果（重新計算顏色和衝突狀態）
+  searchCourse()
 }
 
 // 寫入課程到課表
@@ -1125,17 +1133,24 @@ const writeCourse = (mode, chipData) => {
 
 // 建立選課列表
 const selectListMaker = () => {
-  selectList.value = []
+  // 清空現有列表
+  selectList.value.splice(0)
+  
   const tmpList = getCourseSelectStatus()
+  console.log('更新已選課程列表，課程數量:', tmpList.length)
+  
   for (let i = 0; i < tmpList.length; i++) {
-    selectList.value.push({
+    const courseItem = {
       title: tmpList[i].courseID + " " + tmpList[i].title.ch,
       subtitle: tmpList[i].teacher + " | 學分 / 時數: " + tmpList[i].credit + " / " + tmpList[i].hours,
       courseID: tmpList[i].courseID,
       department: tmpList[i].department,
       course_detail: tmpList[i].course_detail
-    })
+    }
+    selectList.value.push(courseItem)
   }
+  
+  console.log('已選課程列表更新完成，當前課程:', selectList.value.map(c => c.courseID))
 }
 
 // 重置所有資料
