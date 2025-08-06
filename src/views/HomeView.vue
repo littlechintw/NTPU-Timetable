@@ -91,22 +91,141 @@
 
             <div class="filter-section">
               <label>篩選條件:</label>
-              <div class="filter-chips">
-                <span 
-                  v-for="(chip, index) in filterChips" 
-                  :key="index"
-                  class="chip chip-removable"
-                >
-                  {{ chip }}
-                  <button @click="filterRemove(chip)">×</button>
-                </span>
+              
+              <!-- 已選擇的篩選條件顯示 -->
+              <div class="selected-filters" v-if="hasActiveFilters">
+                <div v-if="activeFilters.departments.length > 0" class="filter-category">
+                  <span class="category-label">系所：</span>
+                  <span 
+                    v-for="dept in activeFilters.departments" 
+                    :key="dept"
+                    class="chip chip-removable chip-department"
+                  >
+                    {{ dept }}
+                    <button @click="removeFilter('departments', dept)">×</button>
+                  </span>
+                </div>
+                
+                <div v-if="activeFilters.courseTypes.length > 0" class="filter-category">
+                  <span class="category-label">性質：</span>
+                  <span 
+                    v-for="type in activeFilters.courseTypes" 
+                    :key="type"
+                    class="chip chip-removable chip-coursetype"
+                  >
+                    {{ type }}
+                    <button @click="removeFilter('courseTypes', type)">×</button>
+                  </span>
+                </div>
+                
+                <div v-if="activeFilters.credits.length > 0" class="filter-category">
+                  <span class="category-label">學分：</span>
+                  <span 
+                    v-for="credit in activeFilters.credits" 
+                    :key="credit"
+                    class="chip chip-removable chip-credit"
+                  >
+                    {{ credit }}{{ credit === '4+' ? '' : '學分' }}
+                    <button @click="removeFilter('credits', credit)">×</button>
+                  </span>
+                </div>
+                
+                <div v-if="activeFilters.timeSlots.length > 0" class="filter-category">
+                  <span class="category-label">時間：</span>
+                  <span 
+                    v-for="time in activeFilters.timeSlots" 
+                    :key="time"
+                    class="chip chip-removable chip-time"
+                  >
+                    {{ time.replace('週', '').replace('上午', '上').replace('下午', '下') }}
+                    <button @click="removeFilter('timeSlots', time)">×</button>
+                  </span>
+                </div>
               </div>
-              <select v-model="selectedFilter" @change="addFilter" class="filter-select">
-                <option value="">選擇篩選條件</option>
-                <option v-for="item in filterItems" :key="item" :value="item">
-                  {{ item }}
-                </option>
-              </select>
+              
+              <!-- 篩選控制區域 -->
+              <div class="filter-controls">
+                <!-- 系所篩選 -->
+                <div class="filter-group">
+                  <label class="filter-group-title">系所</label>
+                  <select v-model="selectedDepartment" @change="addDepartmentFilter" class="filter-select">
+                    <option value="">選擇系所...</option>
+                    <option v-for="dept in availableDepartments" :key="dept" :value="dept">
+                      {{ dept }}
+                    </option>
+                  </select>
+                </div>
+                
+                <!-- 快速篩選按鈕 -->
+                <div class="quick-filters">
+                  <div class="filter-group">
+                    <label class="filter-group-title">課程性質</label>
+                    <div class="filter-buttons">
+                      <button 
+                        v-for="type in filterOptions.courseTypes"
+                        :key="type"
+                        class="filter-btn"
+                        :class="{ active: activeFilters.courseTypes.includes(type) }"
+                        @click="toggleCategoryFilter('courseTypes', type)"
+                      >
+                        {{ type }}
+                      </button>
+                    </div>
+                  </div>
+                  
+                  <div class="filter-group">
+                    <label class="filter-group-title">學分數</label>
+                    <div class="filter-buttons">
+                      <button 
+                        v-for="credit in filterOptions.credits"
+                        :key="credit"
+                        class="filter-btn"
+                        :class="{ active: activeFilters.credits.includes(credit) }"
+                        @click="toggleCategoryFilter('credits', credit)"
+                      >
+                        {{ credit }}{{ credit === '4+' ? '' : '學分' }}
+                      </button>
+                    </div>
+                  </div>
+                  
+                  <div class="filter-group">
+                    <label class="filter-group-title">上課時間</label>
+                    <div class="time-filter-grid">
+                      <div class="time-day-group" v-for="day in 7" :key="day">
+                        <div class="day-header">
+                          {{ ['一', '二', '三', '四', '五', '六', '日'][day - 1] }}
+                        </div>
+                        <div class="time-period-buttons">
+                          <button 
+                            class="time-btn"
+                            :class="{ active: activeFilters.timeSlots.includes(getTimeSlot(day, 'morning')) }"
+                            @click="toggleCategoryFilter('timeSlots', getTimeSlot(day, 'morning'))"
+                          >
+                            上午
+                          </button>
+                          <button 
+                            class="time-btn"
+                            :class="{ active: activeFilters.timeSlots.includes(getTimeSlot(day, 'afternoon')) }"
+                            @click="toggleCategoryFilter('timeSlots', getTimeSlot(day, 'afternoon'))"
+                          >
+                            下午
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="filter-actions">
+                  <button 
+                    v-if="hasActiveFilters"
+                    class="btn btn-outline" 
+                    @click="clearAllFilters"
+                  >
+                    清除所有篩選
+                  </button>
+                </div>
+              </div>
             </div>
 
             <div class="course-info-text">
@@ -362,7 +481,7 @@ const recalculateColors = () => {
   }
   
   // 重新計算搜尋結果和選課列表
-  if (searchInput.value || filterChips.value.length > 0) {
+  if (searchInput.value || hasActiveFilters.value) {
     searchCourse()
   }
   selectListMaker()
@@ -416,11 +535,65 @@ const searchList = ref([])
 const filterChips = ref([])
 const filterItems = ref([])
 const selectedFilter = ref('')
+const showAdvancedFilter = ref(false)
 const filterTime = [
   "週一上午", "週一下午", "週二上午", "週二下午", "週三上午", "週三下午",
   "週四上午", "週四下午", "週五上午", "週五下午", "週六上午", "週六下午",
   "週日上午", "週日下午"
 ]
+
+// 新的分類篩選系統
+const activeFilters = ref({
+  departments: [],     // 系所篩選 (OR 關係)
+  courseTypes: [],     // 必選修篩選 (OR 關係) 
+  credits: [],         // 學分數篩選 (OR 關係)
+  timeSlots: []        // 時間篩選 (OR 關係)
+})
+
+// 篩選選項
+const filterOptions = ref({
+  departments: [],
+  courseTypes: ['必修', '選修'],
+  credits: ['1', '2', '3', '4+'],
+  timeSlots: filterTime
+})
+
+// 額外的篩選相關變數
+const selectedDepartment = ref('')
+
+// 計算屬性
+const hasActiveFilters = computed(() => {
+  return activeFilters.value.departments.length > 0 ||
+         activeFilters.value.courseTypes.length > 0 ||
+         activeFilters.value.credits.length > 0 ||
+         activeFilters.value.timeSlots.length > 0
+})
+
+const availableDepartments = computed(() => {
+  // 從 department_level 的 original 中提取選項
+  const departments = new Set()
+  
+  if (courseData.data && courseData.data.length > 0) {
+    courseData.data.forEach(course => {
+      if (course.department_level && course.department_level.length > 0) {
+        course.department_level.forEach(level => {
+          if (level.original) {
+            departments.add(level.original)
+          }
+        })
+      }
+    })
+  }
+  
+  return Array.from(departments).sort()
+})
+
+// 輔助函數：產生時間篩選字串
+const getTimeSlot = (day, period) => {
+  const days = ['週一', '週二', '週三', '週四', '週五', '週六', '週日']
+  const periods = { morning: '上午', afternoon: '下午' }
+  return `${days[day - 1]}${periods[period]}`
+}
 
 const selectList = ref([])
 const colorTable = [
@@ -494,18 +667,47 @@ const loadCourseData = async () => {
 }
 
 // 新增篩選條件
-const addFilter = () => {
-  if (selectedFilter.value && !filterChips.value.includes(selectedFilter.value)) {
-    filterChips.value.push(selectedFilter.value)
-    selectedFilter.value = ''
+// 新的篩選方法
+const addDepartmentFilter = () => {
+  if (selectedDepartment.value && !activeFilters.value.departments.includes(selectedDepartment.value)) {
+    activeFilters.value.departments.push(selectedDepartment.value)
+    selectedDepartment.value = ''
+    searchCourse()
   }
 }
 
-// 移除篩選條件
-const filterRemove = (item) => {
-  const index = filterChips.value.indexOf(item)
+// 切換分類篩選條件
+const toggleCategoryFilter = (category, value) => {
+  const index = activeFilters.value[category].indexOf(value)
   if (index > -1) {
-    filterChips.value.splice(index, 1)
+    activeFilters.value[category].splice(index, 1)
+  } else {
+    activeFilters.value[category].push(value)
+  }
+  searchCourse()
+}
+
+// 移除單個篩選條件
+const removeFilter = (category, value) => {
+  const index = activeFilters.value[category].indexOf(value)
+  if (index > -1) {
+    activeFilters.value[category].splice(index, 1)
+    searchCourse()
+  }
+}
+
+// 清除所有篩選條件
+const clearAllFilters = () => {
+  activeFilters.value.departments = []
+  activeFilters.value.courseTypes = []
+  activeFilters.value.credits = []
+  activeFilters.value.timeSlots = []
+  
+  if (searchInput.value) {
+    searchCourse()
+  } else {
+    searchList.value = []
+    searchResult.value = ''
   }
 }
 
@@ -613,29 +815,40 @@ const getTableCardColor = (chip) => {
 
 // 搜尋課程
 const searchCourse = () => {
-  if (searchInput.value === "" && filterChips.value.length === 0) return
+  // 清空之前的搜尋結果
+  searchList.value = []
+  searchResult.value = ''
+  
+  if (searchInput.value === "" && !hasActiveFilters.value) {
+    return
+  }
   if (!courseData.data || courseData.data.length === 0) return
   
-  searchList.value = []
   let flag = 0
+  const maxResults = 150
   
   for (let i = 0; i < courseData.data.length; i++) {
-    searchResult.value = "找到 " + flag + " 門課程"
-    if (flag >= 150) {
-      searchResult.value = "找到 " + flag + "+ 筆資料，僅顯示前 " + flag + " 筆資料"
-      return
+    if (flag >= maxResults) {
+      searchResult.value = `找到 ${flag}+ 筆資料，僅顯示前 ${maxResults} 筆資料`
+      break
     }
     
     const tmp = courseData.data[i]
-    const tmpJson = [
-      tmp.courseID,
-      tmp.title.ch,
-      tmp.title.en,
-      tmp.teacher,
-      tmp.department
-    ]
     
-    if (String(tmpJson).indexOf(searchInput.value) !== -1) {
+    // 檢查搜尋關鍵字
+    let keywordMatch = true
+    if (searchInput.value.trim() !== "") {
+      const tmpJson = [
+        tmp.courseID,
+        tmp.title.ch,
+        tmp.title.en,
+        tmp.teacher.join(' '),
+        tmp.department
+      ]
+      keywordMatch = String(tmpJson).toLowerCase().indexOf(searchInput.value.toLowerCase()) !== -1
+    }
+    
+    if (keywordMatch) {
       const filterFlag = verifySearchItem(tmp)
       if (filterFlag.result === true) {
         searchList.value.push({
@@ -651,19 +864,183 @@ const searchCourse = () => {
     }
   }
   
-  if (searchList.value.length === 0) {
-    searchList.value.push({
+  // 更新搜尋結果提示
+  if (flag === 0) {
+    searchResult.value = "沒有找到符合條件的課程"
+    searchList.value = [{
       title: "404 Not Found!",
-      subtitle: "Please change the key word and search again!",
+      subtitle: "請修改搜尋條件或篩選條件後重試",
       courseID: "0000",
       color: "orange"
-    })
+    }]
+  } else {
+    const activeFilterCount = Object.values(activeFilters.value).reduce((total, arr) => total + arr.length, 0)
+    const filterText = activeFilterCount > 0 ? ` (已套用 ${activeFilterCount} 個篩選條件)` : ''
+    searchResult.value = `找到 ${flag} 門課程${filterText}`
   }
 }
 
-// 驗證搜尋項目
+// 驗證搜尋項目 - 新的篩選邏輯 (同類 OR，不同類 AND)
 const verifySearchItem = (item) => {
-  return { result: true, color: "" }
+  // 如果沒有任何篩選條件，直接通過
+  if (!hasActiveFilters.value) {
+    return { result: true, color: "" }
+  }
+  
+  let hasConflict = false
+  
+  // 檢查系所篩選 (OR 關係)
+  if (activeFilters.value.departments.length > 0) {
+    const departmentMatch = activeFilters.value.departments.some(dept => {
+      // 檢查 department_level 中的 original
+      if (item.department_level && item.department_level.length > 0) {
+        return item.department_level.some(level => 
+          level.original && level.original === dept
+        )
+      }
+      return false
+    })
+    if (!departmentMatch) return { result: false, color: "" }
+  }
+  
+  // 檢查必選修篩選 (OR 關係)  
+  if (activeFilters.value.courseTypes.length > 0) {
+    const courseTypeMatch = activeFilters.value.courseTypes.some(type => {
+      // 檢查 item 的必選修資訊
+      if (item.compulsory && item.compulsory.length > 0) {
+        return item.compulsory.some(comp => {
+          // 將篩選條件轉換為對應的簡寫形式
+          if (type === '必修' && comp === '必') return true
+          if (type === '選修' && comp === '選') return true
+          return false
+        })
+      }
+      return false
+    })
+    if (!courseTypeMatch) return { result: false, color: "" }
+  }
+  
+  // 檢查學分數篩選 (OR 關係)
+  if (activeFilters.value.credits.length > 0) {
+    const courseCredits = item.credit ? parseInt(item.credit) : 0
+    const creditMatch = activeFilters.value.credits.some(creditRange => {
+      if (creditRange === '1') return courseCredits === 1
+      if (creditRange === '2') return courseCredits === 2
+      if (creditRange === '3') return courseCredits === 3
+      if (creditRange === '4+') return courseCredits >= 4
+      return false
+    })
+    if (!creditMatch) return { result: false, color: "" }
+  }
+  
+  // 檢查時間篩選 (OR 關係)
+  if (activeFilters.value.timeSlots.length > 0) {
+    const timeMatch = activeFilters.value.timeSlots.some(timeSlot => 
+      checkTimeFilter(item, timeSlot)
+    )
+    if (!timeMatch) return { result: false, color: "" }
+  }
+  
+  // 檢查時間衝突
+  const selectedCourses = getCourseSelectStatus()
+  for (const selectedCourse of selectedCourses) {
+    if (hasTimeConflict(item, selectedCourse)) {
+      hasConflict = true
+      break
+    }
+  }
+  
+  // 所有篩選條件都通過 (AND 關係)
+  let color = ""
+  if (hasConflict) {
+    color = "red"
+  }
+  
+  return { result: true, color }
+}
+
+// 檢查時間篩選
+const checkTimeFilter = (course, timeFilter) => {
+  const timeMapping = {
+    "週一上午": { day: 1, sessions: [1, 2, 3, 4] },
+    "週一下午": { day: 1, sessions: [5, 6, 7, 8, 9] },
+    "週二上午": { day: 2, sessions: [1, 2, 3, 4] },
+    "週二下午": { day: 2, sessions: [5, 6, 7, 8, 9] },
+    "週三上午": { day: 3, sessions: [1, 2, 3, 4] },
+    "週三下午": { day: 3, sessions: [5, 6, 7, 8, 9] },
+    "週四上午": { day: 4, sessions: [1, 2, 3, 4] },
+    "週四下午": { day: 4, sessions: [5, 6, 7, 8, 9] },
+    "週五上午": { day: 5, sessions: [1, 2, 3, 4] },
+    "週五下午": { day: 5, sessions: [5, 6, 7, 8, 9] },
+    "週六上午": { day: 6, sessions: [1, 2, 3, 4] },
+    "週六下午": { day: 6, sessions: [5, 6, 7, 8, 9] },
+    "週日上午": { day: 7, sessions: [1, 2, 3, 4] },
+    "週日下午": { day: 7, sessions: [5, 6, 7, 8, 9] }
+  }
+  
+  const filter = timeMapping[timeFilter]
+  if (!filter) return false
+  
+  for (const detail of course.course_detail) {
+    if (detail.courseTime === filter.day) {
+      // 檢查是否有任何時段重疊
+      const hasOverlap = detail.sessions.some(session => filter.sessions.includes(session))
+      if (hasOverlap) return true
+    }
+  }
+  return false
+}
+
+// 檢查科系篩選
+const checkDepartmentFilter = (course, departmentFilter) => {
+  // 檢查課程的科系
+  if (course.department === departmentFilter) {
+    return true
+  }
+  
+  // 檢查課程的科系層級
+  for (const level of course.department_level) {
+    if (level.original === departmentFilter) {
+      return true
+    }
+  }
+  
+  return false
+}
+
+// 檢查其他篩選條件
+const checkOtherFilter = (course, filter) => {
+  // 檢查必選修
+  if (filter === "必修" && course.compulsory.some(comp => comp === "必")) {
+    return true
+  }
+  if (filter === "選修" && course.compulsory.some(comp => comp === "選")) {
+    return true
+  }
+  
+  // 檢查學分數
+  const credit = parseInt(course.credit || 0)
+  if (filter === "1學分" && credit === 1) return true
+  if (filter === "2學分" && credit === 2) return true
+  if (filter === "3學分" && credit === 3) return true
+  if (filter === "4學分" && credit === 4) return true
+  if (filter === "5學分以上" && credit >= 5) return true
+  
+  return false
+}
+
+// 檢查時間衝突
+const hasTimeConflict = (course1, course2) => {
+  for (const detail1 of course1.course_detail) {
+    for (const detail2 of course2.course_detail) {
+      if (detail1.courseTime === detail2.courseTime) {
+        // 檢查時段是否有重疊
+        const hasOverlap = detail1.sessions.some(session => detail2.sessions.includes(session))
+        if (hasOverlap) return true
+      }
+    }
+  }
+  return false
 }
 
 // 取得課程選擇狀態圖標
@@ -816,9 +1193,6 @@ onMounted(async () => {
   // 初始化黑暗模式檢測（在資料載入後）
   checkDarkMode()
   observeDarkMode()
-  
-  // 初始化篩選項目
-  filterItems.value = [...filterTime, ...courseData.fliter_item]
   
   selectListMaker()
   initTable()
@@ -1176,6 +1550,7 @@ onMounted(async () => {
 
 .filter-chips {
   margin: 0.5rem 0;
+  min-height: 2rem;
 }
 
 .chip-removable {
@@ -1187,6 +1562,14 @@ onMounted(async () => {
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
+  font-size: 0.85rem;
+}
+
+/* 黑暗模式下的可移除標籤 */
+.dark-mode .chip-removable {
+  background: #2b6cb0 !important;
+  color: #e2e8f0 !important;
+  border: 1px solid #4299e1 !important;
 }
 
 .chip-removable button {
@@ -1195,6 +1578,342 @@ onMounted(async () => {
   color: #1976d2;
   cursor: pointer;
   font-weight: bold;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.dark-mode .chip-removable button {
+  color: #e2e8f0 !important;
+}
+
+.chip-removable button:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .chip-removable button:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.quick-filters {
+  margin: 1rem 0;
+}
+
+.filter-group {
+  margin-bottom: 1rem;
+}
+
+.filter-group-title {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.dark-mode .filter-group-title {
+  color: #cbd5e0 !important;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.filter-btn {
+  padding: 0.4rem 0.8rem;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+  color: #333;
+}
+
+.dark-mode .filter-btn {
+  background: #4a5568 !important;
+  border: 1px solid #666 !important;
+  color: #e2e8f0 !important;
+}
+
+.filter-btn:hover {
+  background: #e0e0e0;
+  border-color: #bbb;
+}
+
+.dark-mode .filter-btn:hover {
+  background: #5a6578 !important;
+  border-color: #777 !important;
+}
+
+.filter-btn.active {
+  background: #2196f3;
+  color: white;
+  border-color: #2196f3;
+}
+
+.dark-mode .filter-btn.active {
+  background: #1976d2 !important;
+  color: #e2e8f0 !important;
+  border-color: #1976d2 !important;
+}
+
+/* 新的篩選系統樣式 */
+.selected-filters {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.dark-mode .selected-filters {
+  background: #2d3748 !important;
+  border: 1px solid #4a5568 !important;
+}
+
+.filter-category {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+  gap: 0.3rem;
+}
+
+.filter-category:last-child {
+  margin-bottom: 0;
+}
+
+.category-label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #666;
+  min-width: 50px;
+  margin-right: 0.5rem;
+}
+
+.dark-mode .category-label {
+  color: #a0aec0 !important;
+}
+
+/* 不同類型的篩選標籤顏色 */
+.chip-department {
+  background: #e8f5e8 !important;
+  color: #2e7d32 !important;
+  border: 1px solid #4caf50;
+}
+
+.dark-mode .chip-department {
+  background: #1b5e20 !important;
+  color: #c8e6c9 !important;
+}
+
+.chip-coursetype {
+  background: #fff3e0 !important;
+  color: #ef6c00 !important;
+  border: 1px solid #ff9800;
+}
+
+.dark-mode .chip-coursetype {
+  background: #e65100 !important;
+  color: #ffcc02 !important;
+}
+
+.chip-grade {
+  background: #f3e5f5 !important;
+  color: #7b1fa2 !important;
+  border: 1px solid #9c27b0;
+}
+
+.dark-mode .chip-grade {
+  background: #4a148c !important;
+  color: #e1bee7 !important;
+}
+
+.chip-credit {
+  background: #e0f2f1 !important;
+  color: #00695c !important;
+  border: 1px solid #009688;
+}
+
+.dark-mode .chip-credit {
+  background: #004d40 !important;
+  color: #b2dfdb !important;
+}
+
+.chip-time {
+  background: #e1f5fe !important;
+  color: #0277bd !important;
+  border: 1px solid #03a9f4;
+}
+
+.dark-mode .chip-time {
+  background: #01579b !important;
+  color: #b3e5fc !important;
+}
+
+.filter-controls {
+  margin: 1rem 0;
+}
+
+.filter-select {
+  width: 200px;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: white;
+}
+
+.dark-mode .filter-select {
+  background: #2d3748 !important;
+  border: 1px solid #4a5568 !important;
+  color: #e2e8f0 !important;
+}
+
+/* 時間篩選格子樣式 */
+.time-filter-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.time-day-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.day-header {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #666;
+  text-align: center;
+}
+
+.dark-mode .day-header {
+  color: #a0aec0 !important;
+}
+
+.time-period-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  width: 100%;
+}
+
+.time-btn {
+  padding: 0.3rem 0.5rem;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  transition: all 0.2s;
+  color: #333;
+  text-align: center;
+  width: 100%;
+}
+
+.dark-mode .time-btn {
+  background: #4a5568 !important;
+  border: 1px solid #666 !important;
+  color: #e2e8f0 !important;
+}
+
+.time-btn:hover {
+  background: #e0e0e0;
+  border-color: #bbb;
+}
+
+.dark-mode .time-btn:hover {
+  background: #5a6578 !important;
+  border-color: #777 !important;
+}
+
+.time-btn.active {
+  background: #2196f3;
+  color: white;
+  border-color: #2196f3;
+}
+
+.dark-mode .time-btn.active {
+  background: #1976d2 !important;
+  color: #e2e8f0 !important;
+  border-color: #1976d2 !important;
+}
+
+.advanced-filter {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.filter-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #666;
+  border: 1px solid #ddd;
+}
+
+.dark-mode .btn-outline {
+  color: #cbd5e0 !important;
+  border: 1px solid #666 !important;
+}
+
+.btn-outline:hover {
+  background: #f5f5f5;
+}
+
+.dark-mode .btn-outline:hover {
+  background: #4a5568 !important;
+}
+
+.btn-secondary {
+  background: #6c757d;
+  color: white;
+}
+
+.dark-mode .btn-secondary {
+  background: #5a6c7d !important;
+  color: #e2e8f0 !important;
+}
+
+.btn-secondary:hover {
+  background: #5a6268;
+}
+
+.dark-mode .btn-secondary:hover {
+  background: #667182 !important;
+}
+
+.advanced-filter-panel {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  border: 1px solid #e0e0e0;
+}
+
+.dark-mode .advanced-filter-panel {
+  background: #3a4a5c !important;
+  border: 1px solid #555 !important;
 }
 
 .filter-select {

@@ -4,8 +4,14 @@
     <nav class="top-navbar">
       <div class="navbar-content">
         <div class="navbar-left">
-          <h1 class="app-title">NTPU 課程試排</h1>
-          <span class="semester-info">{{ semesterInfo || '載入中...' }}</span>
+          <h1 class="app-title">NTPU 課程試排 
+            <span class="unofficial-badge tooltip-container" @mouseenter="showTooltip = true" @mouseleave="showTooltip = false">
+              ⚠️ Unofficial
+              <div class="custom-tooltip" v-show="showTooltip">
+                此網頁非北大官方網站，資料來源為北大官網，但不可保證完全正確
+              </div>
+            </span>
+          </h1>
         </div>
         <div class="navbar-controls">
           <button 
@@ -16,6 +22,7 @@
             <span class="theme-icon">{{ isDarkMode ? '☀️' : '🌙' }}</span>
             {{ isDarkMode ? '淺色' : '深色' }}
           </button>
+          <span class="semester-info">{{ semesterInfo || '載入中...' }}</span>
         </div>
       </div>
     </nav>
@@ -45,6 +52,9 @@ const isDarkMode = ref(false)
 
 // 學年學期資訊
 const semesterInfo = ref('載入中...')
+
+// Tooltip 顯示狀態
+const showTooltip = ref(false)
 
 // 載入學年學期資訊
 const loadSemesterInfo = async () => {
@@ -211,6 +221,61 @@ body.dark-mode {
   font-weight: 600;
   margin: 0;
   color: white;
+}
+
+.unofficial-badge {
+  font-size: 0.7rem;
+  font-weight: 400;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  margin-left: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  opacity: 0.9;
+  cursor: help;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  z-index: 1001;
+  margin-top: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.custom-tooltip::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.9);
+}
+
+.dark-mode .custom-tooltip {
+  background: rgba(255, 255, 255, 0.95);
+  color: #1a202c !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .custom-tooltip::after {
+  border-bottom-color: rgba(255, 255, 255, 0.95);
 }
 
 .semester-info {
