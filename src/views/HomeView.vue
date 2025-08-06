@@ -330,6 +330,7 @@
         <div class="card">
           <div class="card-header">
             <h3>課表</h3>
+            <span class="mobile-scroll-hint">← 左右滑動 →</span>
           </div>
           <div class="card-body">
             <div class="timetable">
@@ -1473,6 +1474,8 @@ onMounted(async () => {
 
 .timetable-container {
   min-height: 80vh;
+  max-width: 100%;
+  overflow: hidden; /* 防止容器本身產生滾動條 */
 }
 
 /* 卡片樣式 */
@@ -1525,6 +1528,21 @@ onMounted(async () => {
   padding: 0.3rem 0.6rem;
   border-radius: 12px;
   font-size: 0.85rem;
+}
+
+/* 手機滑動提示 */
+.mobile-scroll-hint {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  display: none; /* 預設隱藏 */
+}
+
+@media (max-width: 768px) {
+  .mobile-scroll-hint {
+    display: inline-block; /* 只在手機上顯示 */
+  }
 }
 
 /* 搜尋表單 */
@@ -2112,15 +2130,56 @@ onMounted(async () => {
 /* 課表樣式 */
 .timetable {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* iOS 滑動優化 */
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  max-width: 100%;
+  position: relative;
+}
+
+/* 滑動提示漸變效果 */
+.timetable:before,
+.timetable:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.timetable:before {
+  left: 0;
+  background: linear-gradient(to right, rgba(255,255,255,0.8), transparent);
+}
+
+.timetable:after {
+  right: 0;
+  background: linear-gradient(to left, rgba(255,255,255,0.8), transparent);
+}
+
+/* 黑暗模式下的滑動提示 */
+.dark-mode .timetable:before {
+  background: linear-gradient(to right, rgba(45,55,72,0.8), transparent);
+}
+
+.dark-mode .timetable:after {
+  background: linear-gradient(to left, rgba(45,55,72,0.8), transparent);
 }
 
 .timetable-table {
   width: 100%;
   border-collapse: collapse;
   min-width: 800px;
+  table-layout: fixed;
 }
 
 /* 黑暗模式下的課表 */
+.dark-mode .timetable {
+  border: 1px solid #4a5568;
+}
+
 .dark-mode .timetable-table {
   border: 1px solid #4a5568;
   background: #2d3748;
@@ -2313,13 +2372,48 @@ onMounted(async () => {
     flex-direction: column;
   }
   
+  /* 課表手機版優化 */
+  .timetable {
+    border-radius: 4px;
+    margin: 0 -0.5rem; /* 讓課表延伸到卡片邊緣 */
+  }
+  
   .timetable-table {
     font-size: 0.8rem;
+    min-width: 700px; /* 稍微減少最小寬度 */
   }
   
   .course-chip {
     font-size: 0.7rem;
     padding: 0.2rem 0.4rem;
+    max-width: 80px; /* 減少課程籌碼寬度 */
+  }
+  
+  .day-header {
+    padding: 0.6rem 0.3rem;
+    font-size: 0.9rem;
+  }
+  
+  .time-cell {
+    padding: 0;
+  }
+  
+  .cell-content {
+    min-height: 50px; /* 減少格子高度 */
+    padding: 0.3rem;
+  }
+  
+  .time-period {
+    font-size: 0.9rem;
+  }
+  
+  .time-range {
+    font-size: 0.7rem;
+  }
+  
+  /* 課表卡片在手機上的特殊處理 */
+  .timetable-container .card-body {
+    padding: 0.5rem;
   }
 }
 
