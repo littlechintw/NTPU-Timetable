@@ -1,6 +1,6 @@
 {
-    "start_time": "2025-08-07 01:27:48",
-    "end_time": "2025-08-07 01:28:19",
+    "start_time": "2025-08-09 01:20:31",
+    "end_time": "2025-08-09 01:21:03",
     "total_courses": 2156,
     "failed_weeks": [],
     "data": [
@@ -2010,8 +2010,8 @@
                     "original": "每週一10~11\t211"
                 }
             ],
-            "sign": "是",
-            "sign_people": "14",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "70"
         },
         {
@@ -3208,13 +3208,55 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "",
+                    "category": "中文系",
+                    "original": "中文系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "歷史系",
+                    "original": "歷史系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "休運系",
+                    "original": "休運系1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法律學系財經法組",
+                    "original": "法律學系財經法組1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法律學系法學組",
+                    "original": "法律學系法學組1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法律學系司法組",
+                    "original": "法律學系司法組1"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -3266,6 +3308,12 @@
                 },
                 {
                     "grade": "1",
+                    "class": "",
+                    "category": "華語學程",
+                    "original": "華語學程1"
+                },
+                {
+                    "grade": "1",
                     "class": "A",
                     "category": "不動產城鄉系",
                     "original": "不動產城鄉系1A"
@@ -3290,6 +3338,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -3603,13 +3652,55 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "",
+                    "category": "中文系",
+                    "original": "中文系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "歷史系",
+                    "original": "歷史系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "休運系",
+                    "original": "休運系1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法律學系財經法組",
+                    "original": "法律學系財經法組1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法律學系法學組",
+                    "original": "法律學系法學組1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法律學系司法組",
+                    "original": "法律學系司法組1"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -3648,13 +3739,55 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "",
+                    "category": "統計系",
+                    "original": "統計系1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "華語學程",
+                    "original": "華語學程1"
+                },
+                {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "不動產城鄉系",
+                    "original": "不動產城鄉系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "不動產城鄉系",
+                    "original": "不動產城鄉系1B"
+                },
+                {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "行政系",
+                    "original": "行政系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "行政系",
+                    "original": "行政系1B"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -3884,13 +4017,55 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "",
+                    "category": "中文系",
+                    "original": "中文系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "歷史系",
+                    "original": "歷史系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "休運系",
+                    "original": "休運系1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法律學系財經法組",
+                    "original": "法律學系財經法組1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法律學系法學組",
+                    "original": "法律學系法學組1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法律學系司法組",
+                    "original": "法律學系司法組1"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -3974,13 +4149,55 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "",
+                    "category": "統計系",
+                    "original": "統計系1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "華語學程",
+                    "original": "華語學程1"
+                },
+                {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "不動產城鄉系",
+                    "original": "不動產城鄉系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "不動產城鄉系",
+                    "original": "不動產城鄉系1B"
+                },
+                {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "行政系",
+                    "original": "行政系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "行政系",
+                    "original": "行政系1B"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -4071,13 +4288,55 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "",
+                    "category": "統計系",
+                    "original": "統計系1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "華語學程",
+                    "original": "華語學程1"
+                },
+                {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "不動產城鄉系",
+                    "original": "不動產城鄉系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "不動產城鄉系",
+                    "original": "不動產城鄉系1B"
+                },
+                {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "行政系",
+                    "original": "行政系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "行政系",
+                    "original": "行政系1B"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -4245,13 +4504,55 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "",
+                    "category": "統計系",
+                    "original": "統計系1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "華語學程",
+                    "original": "華語學程1"
+                },
+                {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "不動產城鄉系",
+                    "original": "不動產城鄉系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "不動產城鄉系",
+                    "original": "不動產城鄉系1B"
+                },
+                {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "行政系",
+                    "original": "行政系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "行政系",
+                    "original": "行政系1B"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -4290,13 +4591,55 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "",
+                    "category": "中文系",
+                    "original": "中文系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "歷史系",
+                    "original": "歷史系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "休運系",
+                    "original": "休運系1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法律學系財經法組",
+                    "original": "法律學系財經法組1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法律學系法學組",
+                    "original": "法律學系法學組1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法律學系司法組",
+                    "original": "法律學系司法組1"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -6130,7 +6473,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "60"
         },
         {
             "year": "114",
@@ -7245,8 +7588,8 @@
                         11,
                         12
                     ],
-                    "place": "315",
-                    "original": "每週一10~12\t315"
+                    "place": "308",
+                    "original": "每週一10~12\t308"
                 }
             ],
             "sign": "否",
@@ -7484,7 +7827,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "55"
+            "max_people": "57"
         },
         {
             "year": "114",
@@ -7591,8 +7934,8 @@
                         11,
                         12
                     ],
-                    "place": "308",
-                    "original": "每週一10~12\t308"
+                    "place": "315",
+                    "original": "每週一10~12\t315"
                 }
             ],
             "sign": "否",
@@ -8002,7 +8345,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "32"
         },
         {
             "year": "114",
@@ -10145,11 +10488,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "資料分析學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必"
             ],
@@ -10406,7 +10756,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "70"
         },
         {
             "year": "114",
@@ -10536,7 +10886,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "75"
+            "max_people": "70"
         },
         {
             "year": "114",
@@ -11028,7 +11378,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "58"
         },
         {
             "year": "114",
@@ -11158,7 +11508,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "58"
         },
         {
             "year": "114",
@@ -12965,16 +13315,9 @@
                     "class": "",
                     "category": "會碩",
                     "original": "會碩1"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "投資管理碩士微學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選"
             ],
             "title": {
@@ -14556,13 +14899,13 @@
                         12,
                         13
                     ],
-                    "place": "207",
-                    "original": "每週一12~13\t207"
+                    "place": "314",
+                    "original": "每週一12~13\t314"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "36"
+            "max_people": "55"
         },
         {
             "year": "114",
@@ -18697,8 +19040,8 @@
                         6,
                         7
                     ],
-                    "place": "商5F25",
-                    "original": "每週一5~7\t商5F25"
+                    "place": "商5F01",
+                    "original": "每週一5~7\t商5F01"
                 }
             ],
             "sign": "否",
@@ -19752,9 +20095,16 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "財務金融碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "投資管理碩士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -20091,9 +20441,16 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -20120,8 +20477,8 @@
                         6,
                         7
                     ],
-                    "place": "商5F01",
-                    "original": "每週一5~7\t商5F01"
+                    "place": "商5F25",
+                    "original": "每週一5~7\t商5F25"
                 }
             ],
             "sign": "否",
@@ -20800,7 +21157,7 @@
                 "other": "*由新聘謝璦如老師教授此課程。\n*統碩：「類別資料分析」、「淺度機器學習」、「多變量分析」、「變異數分析」、「時間數列」5科至少選修2科。\n*請安排商7F02教室。\n*英語授課。"
             },
             "teacher": [
-                "******"
+                "謝璦如"
             ],
             "category": "半",
             "credit": "3",
@@ -21330,9 +21687,16 @@
                     "class": "A",
                     "category": "企碩",
                     "original": "企碩2A"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -22386,12 +22750,6 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "N/A",
-                    "original": "英語商學學士學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "學分學程",
                     "original": "勞動法與人力資源管理學分學程"
                 },
@@ -22415,7 +22773,6 @@
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -22952,11 +23309,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "戶外體驗與青少年服務學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -23072,6 +23436,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "金融科技與量化金融學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "資訊安全與應用學士學分學程"
                 },
                 {
@@ -23082,6 +23452,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -23306,9 +23677,23 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "電子商務學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "鑑識學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -23878,7 +24263,7 @@
                 "ch": "基礎程式設計(C++)",
                 "en": "Introduction to Programming (C++)",
                 "limit": true,
-                "other": "衛星課程(本校協同教師：白宏達)。主導：陽明交大温宏斌老師。同步遠距上課時間：一2-4節(9:00-12:00)；10/20 與 12/15上午 9:00–12:00為期中考試與期末考試時間，選修課程同學務必配合保留時間參與考試。"
+                "other": "衛星課程(本校協同教師：白宏達)。主導：陽明交大温宏斌老師。同步遠距上課時間：一2-4節(9:00-12:00)；10/20 與 12/15上午 9:00–12:00為期中考試與期末考試時間，選修課程同學務必配合保留時間參與考試。*主導課程第一次上課時間為9/1，請同學先自行上網觀看課程影片。"
             },
             "teacher": [
                 "白宏達"
@@ -24805,9 +25190,23 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -24834,13 +25233,13 @@
                         6,
                         7
                     ],
-                    "place": "商5F01",
-                    "original": "每週一5~7\t商5F01"
+                    "place": "商5F25",
+                    "original": "每週一5~7\t商5F25"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "13"
+            "max_people": "23"
         },
         {
             "year": "114",
@@ -24859,9 +25258,37 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "財務金融學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "會計專業實務學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -26085,6 +26512,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "創新創業學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "文化與觀光學士學分學程"
                 },
                 {
@@ -26137,6 +26570,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通",
@@ -27663,6 +28097,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "傳播學士學分學程"
                 },
@@ -27692,6 +28132,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通",
@@ -27982,11 +28423,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "微學程",
+                    "original": "賽會活動企劃學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度二"
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通",
@@ -29569,6 +30017,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "法律暨企業社會責任學士學分學程"
                 },
@@ -29592,6 +30046,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -30662,8 +31117,8 @@
                         12,
                         13
                     ],
-                    "place": "201",
-                    "original": "每週二12~13\t201"
+                    "place": "505",
+                    "original": "每週二12~13\t505"
                 }
             ],
             "sign": "否",
@@ -30933,8 +31388,8 @@
                         12,
                         13
                     ],
-                    "place": "411",
-                    "original": "每週二12~13\t411"
+                    "place": "208",
+                    "original": "每週二12~13\t208"
                 }
             ],
             "sign": "否",
@@ -31283,7 +31738,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "45"
+            "max_people": "60"
         },
         {
             "year": "114",
@@ -33503,7 +33958,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "100"
+            "max_people": "110"
         },
         {
             "year": "114",
@@ -34251,7 +34706,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "110"
         },
         {
             "year": "114",
@@ -35223,9 +35678,16 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "財務金融碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "投資管理碩士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必"
             ],
@@ -37493,7 +37955,7 @@
             ],
             "sign": "是",
             "sign_people": "4",
-            "max_people": "20"
+            "max_people": "30"
         },
         {
             "year": "114",
@@ -40125,7 +40587,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "63"
+            "max_people": "65"
         },
         {
             "year": "114",
@@ -40206,7 +40668,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "63"
+            "max_people": "65"
         },
         {
             "year": "114",
@@ -40225,9 +40687,16 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "英語商學學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "財務金融學士學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必"
             ],
@@ -40259,7 +40728,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "67"
+            "max_people": "72"
         },
         {
             "year": "114",
@@ -41009,12 +41478,6 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "N/A",
-                    "original": "英語商學學士學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "學分學程",
                     "original": "資料拓析學士學分學程"
                 },
@@ -41038,7 +41501,6 @@
                 }
             ],
             "compulsory": [
-                "必",
                 "必",
                 "必",
                 "必",
@@ -41847,7 +42309,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "100"
         },
         {
             "year": "114",
@@ -42479,6 +42941,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "會計專業實務學士學分學程"
                 },
@@ -42493,6 +42961,7 @@
                 "必",
                 "必",
                 "選",
+                "必",
                 "必",
                 "必",
                 "必"
@@ -44297,8 +44766,8 @@
                         5,
                         6
                     ],
-                    "place": "公2F02",
-                    "original": "每週二5~6\t公2F02"
+                    "place": "公1F10",
+                    "original": "每週二5~6\t公1F10"
                 }
             ],
             "sign": "否",
@@ -45915,8 +46384,8 @@
                         12,
                         13
                     ],
-                    "place": "208",
-                    "original": "每週二12~13\t208"
+                    "place": "404",
+                    "original": "每週二12~13\t404"
                 }
             ],
             "sign": "否",
@@ -50337,9 +50806,16 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系3B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -51838,9 +52314,16 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "財務金融碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "投資管理碩士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -52373,9 +52856,23 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系3B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -52408,7 +52905,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "10"
         },
         {
             "year": "114",
@@ -52707,9 +53204,16 @@
                     "class": "",
                     "category": "會碩",
                     "original": "會碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -52916,7 +53420,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "23"
+            "max_people": "33"
         },
         {
             "year": "114",
@@ -53128,9 +53632,16 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "財務金融碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "投資管理碩士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -54649,9 +55160,30 @@
                     "class": "",
                     "category": "金融系",
                     "original": "金融系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "財務金融學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "金融科技與量化金融學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "金融科技與量化金融學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -54915,6 +55447,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "賽會活動企劃學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "環境、社會與企業治理學士微學程"
                 },
                 {
@@ -54942,6 +55480,7 @@
                 "選",
                 "選",
                 "必",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -54981,7 +55520,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "43"
+            "max_people": "30"
         },
         {
             "year": "114",
@@ -55641,9 +56180,16 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系3B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -55676,7 +56222,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "29"
         },
         {
             "year": "114",
@@ -56223,6 +56769,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "鑑識學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "資料拓析學士學分學程"
                 },
@@ -56252,6 +56804,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -56451,9 +57004,16 @@
                     "class": "B",
                     "category": "會計系",
                     "original": "會計系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -57673,11 +58233,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "微學程",
+                    "original": "商業人工智慧學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度四"
                 }
             ],
             "compulsory": [
+                "通",
                 "通"
             ],
             "title": {
@@ -59516,9 +60083,16 @@
                     "class": "",
                     "category": "統碩",
                     "original": "統碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必"
             ],
@@ -62259,8 +62833,8 @@
                         10,
                         11
                     ],
-                    "place": "411",
-                    "original": "每週三10~11\t411"
+                    "place": "209",
+                    "original": "每週三10~11\t209"
                 }
             ],
             "sign": "否",
@@ -65778,8 +66352,8 @@
                     "original": "每週三10~12\t201"
                 }
             ],
-            "sign": "是",
-            "sign_people": "15",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "75"
         },
         {
@@ -71839,8 +72413,8 @@
                     "original": "每週三5~6\t公1F27"
                 }
             ],
-            "sign": "是",
-            "sign_people": "16",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "0"
         },
         {
@@ -72834,13 +73408,13 @@
                         7,
                         8
                     ],
-                    "place": "公1F20",
-                    "original": "每週三7~8\t公1F20"
+                    "place": "公1F27",
+                    "original": "每週三7~8\t公1F27"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "6"
+            "max_people": "10"
         },
         {
             "year": "114",
@@ -73467,7 +74041,7 @@
                 "other": "1.限法碩法專組學生修習，與學士班合班。2.先修科目：民法總則或民法概要。"
             },
             "teacher": [
-                "******"
+                "黃泰然"
             ],
             "category": "半",
             "credit": "2",
@@ -73477,9 +74051,12 @@
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週三7~8"
+                    "sessions": [
+                        7,
+                        8
+                    ],
+                    "place": "法2F02",
+                    "original": "每週三7~8\t法2F02"
                 }
             ],
             "sign": "否",
@@ -74020,13 +74597,13 @@
                         12,
                         13
                     ],
-                    "place": "304",
-                    "original": "每週三12~13\t304"
+                    "place": "307",
+                    "original": "每週三12~13\t307"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "61"
         },
         {
             "year": "114",
@@ -74374,13 +74951,13 @@
                         10,
                         11
                     ],
-                    "place": "304",
-                    "original": "每週三10~11\t304"
+                    "place": "307",
+                    "original": "每週三10~11\t307"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "51"
         },
         {
             "year": "114",
@@ -75561,13 +76138,13 @@
                         7,
                         8
                     ],
-                    "place": "公2F36",
-                    "original": "每週三7~8\t公2F36"
+                    "place": "公1F27",
+                    "original": "每週三7~8\t公1F27"
                 }
             ],
             "sign": "是",
-            "sign_people": "8",
-            "max_people": "69"
+            "sign_people": "10",
+            "max_people": "80"
         },
         {
             "year": "114",
@@ -77248,6 +77825,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "醫療科技暨法律學分學程"
                 },
@@ -77287,6 +77870,7 @@
                 "選",
                 "選",
                 "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -77296,7 +77880,7 @@
                 "other": "1.先修科目：民法總則或民法概要，財經法組任必修科目之一。2.本課程下學期亦有開設。"
             },
             "teacher": [
-                "******"
+                "黃泰然"
             ],
             "category": "半",
             "credit": "2",
@@ -77910,8 +78494,8 @@
                     "original": "每週三5~6\t公1F27"
                 }
             ],
-            "sign": "是",
-            "sign_people": "16",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "0"
         },
         {
@@ -80114,7 +80698,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "20"
         },
         {
             "year": "114",
@@ -80385,6 +80969,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "N/A",
+                    "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
                     "original": "職涯探索及創新創業學程"
                 },
                 {
@@ -80413,6 +81003,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -81410,8 +82001,8 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "學分學程",
-                    "original": "金融科技與量化金融學士學分學程"
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
                 },
                 {
                     "grade": "1",
@@ -81774,9 +82365,23 @@
                     "class": "A",
                     "category": "企碩",
                     "original": "企碩2A"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "金融科技與量化金融學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -82680,8 +83285,8 @@
                         11,
                         12
                     ],
-                    "place": "314",
-                    "original": "每週三10~12\t314"
+                    "place": "103",
+                    "original": "每週三10~12\t103"
                 }
             ],
             "sign": "否",
@@ -83458,13 +84063,13 @@
                         3,
                         4
                     ],
-                    "place": "商7F01",
-                    "original": "每週三2~4\t商7F01"
+                    "place": "法2F01",
+                    "original": "每週三2~4\t法2F01"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "39"
+            "max_people": "85"
         },
         {
             "year": "114",
@@ -83915,10 +84520,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "N/A",
+                    "original": "財務金融學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
                     "original": "全球經濟分析與領袖人才英語學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -84277,9 +84889,30 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "財務金融學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "鑑識學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "會計專業實務學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -84414,10 +85047,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "賽會活動企劃學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "人文與資訊學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -84966,6 +85606,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "賽會籌組人力就業學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "商業智慧與大數據分析學程"
                 },
@@ -85019,6 +85665,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -86349,8 +86996,8 @@
                         12,
                         13
                     ],
-                    "place": "307",
-                    "original": "每週三12~13\t307"
+                    "place": "411",
+                    "original": "每週三12~13\t411"
                 }
             ],
             "sign": "是",
@@ -86465,8 +87112,8 @@
                         10,
                         11
                     ],
-                    "place": "307",
-                    "original": "每週三10~11\t307"
+                    "place": "411",
+                    "original": "每週三10~11\t411"
                 }
             ],
             "sign": "是",
@@ -89500,12 +90147,6 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "N/A",
-                    "original": "英語商學碩士學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "學分學程",
                     "original": "法律暨企業社會責任學士學分學程"
                 },
@@ -89529,7 +90170,6 @@
                 }
             ],
             "compulsory": [
-                "必",
                 "必",
                 "必",
                 "必",
@@ -90386,8 +91026,8 @@
                         12,
                         13
                     ],
-                    "place": "209",
-                    "original": "每週四12~13\t209"
+                    "place": "202",
+                    "original": "每週四12~13\t202"
                 }
             ],
             "sign": "否",
@@ -90452,8 +91092,8 @@
                         10,
                         11
                     ],
-                    "place": "401",
-                    "original": "每週四10~11\t401"
+                    "place": "202",
+                    "original": "每週四10~11\t202"
                 }
             ],
             "sign": "否",
@@ -91261,7 +91901,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "118"
         },
         {
             "year": "114",
@@ -91393,7 +92033,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "120"
         },
         {
             "year": "114",
@@ -91817,7 +92457,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "118"
         },
         {
             "year": "114",
@@ -91963,7 +92603,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "120"
         },
         {
             "year": "114",
@@ -93794,7 +94434,7 @@
             ],
             "sign": "是",
             "sign_people": "4",
-            "max_people": "20"
+            "max_people": "60"
         },
         {
             "year": "114",
@@ -95608,8 +96248,8 @@
                         11,
                         12
                     ],
-                    "place": "202",
-                    "original": "每週四10~12\t202"
+                    "place": "409",
+                    "original": "每週四10~12\t409"
                 }
             ],
             "sign": "否",
@@ -95677,6 +96317,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "鑑識學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "家事法與社會工作學分學程"
                 },
@@ -95694,6 +96340,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -95882,7 +96529,7 @@
                 "other": "*統計系學生務必選週四志願課程，才列入本系畢業學分.\n*由新聘謝璦如老師教授此課程."
             },
             "teacher": [
-                "******"
+                "謝璦如"
             ],
             "category": "全",
             "credit": "3",
@@ -99976,7 +100623,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "63"
+            "max_people": "58"
         },
         {
             "year": "114",
@@ -100601,7 +101248,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "63"
+            "max_people": "58"
         },
         {
             "year": "114",
@@ -102011,7 +102658,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "3"
+            "max_people": "5"
         },
         {
             "year": "114",
@@ -103912,7 +104559,7 @@
             ],
             "sign": "是",
             "sign_people": "6",
-            "max_people": "34"
+            "max_people": "30"
         },
         {
             "year": "114",
@@ -105322,7 +105969,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "36"
+            "max_people": "0"
         },
         {
             "year": "114",
@@ -107893,9 +108540,16 @@
                     "class": "",
                     "category": "資訊碩",
                     "original": "資訊碩1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "商業人工智慧學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -108714,10 +109368,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "N/A",
+                    "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
                     "original": "財務金融碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -110022,10 +110683,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "N/A",
+                    "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
                     "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -110822,9 +111490,16 @@
                     "class": "",
                     "category": "資訊碩",
                     "original": "資訊碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -111614,6 +112289,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "消費者保護與消費行為學分學程"
                 },
@@ -111631,6 +112312,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -111778,7 +112460,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "11"
         },
         {
             "year": "114",
@@ -111881,7 +112563,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "7"
         },
         {
             "year": "114",
@@ -112826,7 +113508,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "14"
         },
         {
             "year": "114",
@@ -113859,9 +114541,23 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系3B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "行銷管理英語學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -113916,11 +114612,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "資料分析學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -114513,6 +115216,12 @@
                     "original": "休運系3"
                 },
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "城市治理碩士學位學程",
@@ -114580,6 +115289,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -115787,7 +116497,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "9"
+            "max_people": "12"
         },
         {
             "year": "114",
@@ -117635,11 +118345,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "微學程",
+                    "original": "商業人工智慧學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度一"
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通"
@@ -120001,6 +120718,12 @@
                 },
                 {
                     "grade": "1",
+                    "class": "",
+                    "category": "智慧永續",
+                    "original": "智慧永續1"
+                },
+                {
+                    "grade": "1",
                     "class": "A",
                     "category": "經濟系",
                     "original": "經濟系1A"
@@ -120019,6 +120742,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -120897,13 +121621,69 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "會計系",
+                    "original": "會計系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "會計系",
+                    "original": "會計系1B"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "金融系",
+                    "original": "金融系1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "通識1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "財政系",
+                    "original": "財政系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社學系",
+                    "original": "社學系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社工系",
+                    "original": "社工系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "電機系",
+                    "original": "電機系1"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -120942,13 +121722,69 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "會計系",
+                    "original": "會計系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "會計系",
+                    "original": "會計系1B"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "金融系",
+                    "original": "金融系1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "財政系",
+                    "original": "財政系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社學系",
+                    "original": "社學系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社工系",
+                    "original": "社工系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "通訊系",
+                    "original": "通訊系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "電機系",
+                    "original": "電機系1"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -120987,13 +121823,48 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "企管系",
+                    "original": "企管系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "企管系",
+                    "original": "企管系1B"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "智慧永續",
+                    "original": "智慧永續1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "經濟系",
+                    "original": "經濟系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "資工系",
+                    "original": "資工系1"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -121032,13 +121903,69 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "會計系",
+                    "original": "會計系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "會計系",
+                    "original": "會計系1B"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "金融系",
+                    "original": "金融系1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "財政系",
+                    "original": "財政系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社學系",
+                    "original": "社學系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社工系",
+                    "original": "社工系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "通訊系",
+                    "original": "通訊系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "電機系",
+                    "original": "電機系1"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -121077,13 +122004,48 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "企管系",
+                    "original": "企管系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "企管系",
+                    "original": "企管系1B"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "智慧永續",
+                    "original": "智慧永續1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "經濟系",
+                    "original": "經濟系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "資工系",
+                    "original": "資工系1"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -121122,13 +122084,48 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "企管系",
+                    "original": "企管系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "企管系",
+                    "original": "企管系1B"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "智慧永續",
+                    "original": "智慧永續1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "經濟系",
+                    "original": "經濟系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "資工系",
+                    "original": "資工系1"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -121167,13 +122164,69 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "會計系",
+                    "original": "會計系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "會計系",
+                    "original": "會計系1B"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "金融系",
+                    "original": "金融系1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "財政系",
+                    "original": "財政系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社學系",
+                    "original": "社學系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社工系",
+                    "original": "社工系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "通訊系",
+                    "original": "通訊系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "電機系",
+                    "original": "電機系1"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -121212,13 +122265,69 @@
             "department": "語言",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "會計系",
+                    "original": "會計系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "會計系",
+                    "original": "會計系1B"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "金融系",
+                    "original": "金融系1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "通識",
                     "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "財政系",
+                    "original": "財政系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社學系",
+                    "original": "社學系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社工系",
+                    "original": "社工系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "通訊系",
+                    "original": "通訊系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "電機系",
+                    "original": "電機系1"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -124989,7 +126098,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "100"
         },
         {
             "year": "114",
@@ -127169,7 +128278,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "43"
+            "max_people": "60"
         },
         {
             "year": "114",
@@ -127677,7 +128786,7 @@
                 "ch": "休閒遊憩規劃與管理",
                 "en": "Planning and Management for Leisure and Recreation",
                 "limit": false,
-                "other": "1.本科不計入輔系學分。2.本系生選課後若有餘額，將於第二次選課階段增開外系生選修名額。"
+                "other": "1.本科不計入輔系學分。"
             },
             "teacher": [
                 "張耀仁"
@@ -127700,7 +128809,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "37"
+            "max_people": "30"
         },
         {
             "year": "114",
@@ -131989,6 +133098,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "消費者保護與消費行為學分學程"
                 },
@@ -132000,6 +133115,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -132496,6 +133612,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
                 },
@@ -132507,6 +133629,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -134564,6 +135687,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "戶外體驗與青少年服務學士微學程"
                 },
@@ -134581,6 +135710,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -134701,9 +135831,23 @@
                     "class": "",
                     "category": "休運系",
                     "original": "休運系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "會計專業實務學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -135610,8 +136754,8 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "2",
-            "max_people": "10"
+            "sign_people": "3",
+            "max_people": "12"
         },
         {
             "year": "114",
@@ -143703,7 +144847,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "25"
+            "max_people": "29"
         },
         {
             "year": "114",
@@ -143749,7 +144893,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "25"
+            "max_people": "20"
         },
         {
             "year": "114",
@@ -144086,7 +145230,7 @@
                 "other": "*由新聘謝璦如老師教授此課程.\n*上課地點請安排515教室."
             },
             "teacher": [
-                "******"
+                "謝璦如"
             ],
             "category": "半",
             "credit": "3",
@@ -145756,7 +146900,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "32"
         },
         {
             "year": "114",
@@ -147232,6 +148376,7 @@
         "經博1",
         "經博2",
         "經濟分析學士微學程",
+        "經濟系1",
         "經濟系1A",
         "經濟系1B",
         "經濟系2A",
@@ -147317,6 +148462,7 @@
         "通訊系3",
         "通訊系4",
         "通訊系統實作學分學程",
+        "通識1",
         "通識2",
         "通識4",
         "都博1",
