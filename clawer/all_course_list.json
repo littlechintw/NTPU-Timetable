@@ -1,7 +1,7 @@
 {
-    "start_time": "2025-08-12 01:19:40",
-    "end_time": "2025-08-12 01:20:10",
-    "total_courses": 2156,
+    "start_time": "2025-08-14 01:21:30",
+    "end_time": "2025-08-14 01:21:59",
+    "total_courses": 2157,
     "failed_weeks": [],
     "data": [
         {
@@ -2687,8 +2687,8 @@
                         10,
                         11
                     ],
-                    "place": "102",
-                    "original": "每週一10~11\t102"
+                    "place": "303",
+                    "original": "每週一10~11\t303"
                 }
             ],
             "sign": "否",
@@ -2826,8 +2826,8 @@
                         12,
                         13
                     ],
-                    "place": "102",
-                    "original": "每週一12~13\t102"
+                    "place": "303",
+                    "original": "每週一12~13\t303"
                 }
             ],
             "sign": "否",
@@ -7588,8 +7588,8 @@
                         11,
                         12
                     ],
-                    "place": "308",
-                    "original": "每週一10~12\t308"
+                    "place": "102",
+                    "original": "每週一10~12\t102"
                 }
             ],
             "sign": "否",
@@ -7821,8 +7821,8 @@
                         11,
                         12
                     ],
-                    "place": "303",
-                    "original": "每週一10~12\t303"
+                    "place": "308",
+                    "original": "每週一10~12\t308"
                 }
             ],
             "sign": "否",
@@ -8299,6 +8299,52 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "20"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "P1024",
+            "department": "財軍碩職",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "財軍碩職",
+                    "original": "財軍碩職1"
+                }
+            ],
+            "compulsory": [
+                "必"
+            ],
+            "title": {
+                "ch": "國際金融",
+                "en": "International Finance",
+                "limit": false,
+                "other": "國防部勤務大隊會客大樓教學點\n*1140813依系所通知新開課程"
+            },
+            "teacher": [
+                "王偉弘"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~12"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
         },
         {
             "year": "114",
@@ -22488,7 +22534,7 @@
                 "ch": "大數據暨品牌行銷",
                 "en": "Big Data and Brand Marketing",
                 "limit": false,
-                "other": "教室：教學大樓714-5。"
+                "other": "教室：教學大樓713。"
             },
             "teacher": [
                 "李緖東",
@@ -22507,8 +22553,8 @@
                         11,
                         12
                     ],
-                    "place": "714-5",
-                    "original": "每週一10~12\t714-5"
+                    "place": "713",
+                    "original": "每週一10~12\t713"
                 }
             ],
             "sign": "否",
@@ -32026,7 +32072,7 @@
             ],
             "sign": "是",
             "sign_people": "5",
-            "max_people": "20"
+            "max_people": "23"
         },
         {
             "year": "114",
@@ -32078,7 +32124,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "23"
         },
         {
             "year": "114",
@@ -37035,8 +37081,8 @@
                         11,
                         12
                     ],
-                    "place": "303",
-                    "original": "每週二10~12\t303"
+                    "place": "311",
+                    "original": "每週二10~12\t311"
                 }
             ],
             "sign": "否",
@@ -49517,7 +49563,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "學術英語專業學術英語學士微學程"
+                    "original": "學術英文專業學術英文學士微學程"
                 }
             ],
             "compulsory": [
@@ -49701,7 +49747,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "學術英語專業學術英語學士微學程"
+                    "original": "學術英文專業學術英文學士微學程"
                 }
             ],
             "compulsory": [
@@ -50200,7 +50246,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "學術英語專業學術英語學士微學程"
+                    "original": "學術英文專業學術英文學士微學程"
                 }
             ],
             "compulsory": [
@@ -53546,7 +53592,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "30"
         },
         {
             "year": "114",
@@ -54094,8 +54140,8 @@
                         11,
                         12
                     ],
-                    "place": "401",
-                    "original": "每週二10~12\t401"
+                    "place": "303",
+                    "original": "每週二10~12\t303"
                 }
             ],
             "sign": "否",
@@ -57580,8 +57626,8 @@
                         10,
                         11
                     ],
-                    "place": "311",
-                    "original": "每週二10~11\t311"
+                    "place": "401",
+                    "original": "每週二10~11\t401"
                 }
             ],
             "sign": "否",
@@ -59666,7 +59712,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "6",
+            "sign_people": "1",
             "max_people": "0"
         },
         {
@@ -59883,7 +59929,7 @@
                 "ch": "學校輔導工作",
                 "en": "School Counseling",
                 "limit": false,
-                "other": "師培一年級及二年級合併上課，請安排人文606教室。"
+                "other": "師培一年級及二年級合併上課。第一週上課地點在文606教室。"
             },
             "teacher": [
                 "吳璧純"
@@ -59900,12 +59946,12 @@
                         1,
                         2
                     ],
-                    "place": "文6F06",
-                    "original": "每週二1~2\t文6F06"
+                    "place": "文2F07",
+                    "original": "每週二1~2\t文2F07"
                 }
             ],
-            "sign": "是",
-            "sign_people": "3",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "0"
         },
         {
@@ -61738,8 +61784,8 @@
                         11,
                         12
                     ],
-                    "place": "204",
-                    "original": "每週三10~12\t204"
+                    "place": "314",
+                    "original": "每週三10~12\t314"
                 }
             ],
             "sign": "否",
@@ -69700,9 +69746,13 @@
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週三5~7"
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "法2F27",
+                    "original": "每週三5~7\t法2F27"
                 }
             ],
             "sign": "否",
@@ -78935,7 +78985,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "學術英語專業學術英語學士微學程"
+                    "original": "學術英文專業學術英文學士微學程"
                 }
             ],
             "compulsory": [
@@ -79793,7 +79843,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "學術英語專業學術英語學士微學程"
+                    "original": "學術英文專業學術英文學士微學程"
                 }
             ],
             "compulsory": [
@@ -83420,8 +83470,8 @@
                         11,
                         12
                     ],
-                    "place": "401",
-                    "original": "每週三10~12\t401"
+                    "place": "304",
+                    "original": "每週三10~12\t304"
                 }
             ],
             "sign": "否",
@@ -94610,7 +94660,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "32"
+            "max_people": "37"
         },
         {
             "year": "114",
@@ -95072,7 +95122,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "32"
+            "max_people": "37"
         },
         {
             "year": "114",
@@ -107833,7 +107883,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "學術英語專業學術英語學士微學程"
+                    "original": "學術英文專業學術英文學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -114517,8 +114567,8 @@
                         6,
                         7
                     ],
-                    "place": "社103",
-                    "original": "每週四5~7\t社103"
+                    "place": "法2F27",
+                    "original": "每週四5~7\t法2F27"
                 }
             ],
             "sign": "否",
@@ -120470,8 +120520,8 @@
                         10,
                         11
                     ],
-                    "place": "102",
-                    "original": "每週五10~11\t102"
+                    "place": "315",
+                    "original": "每週五10~11\t315"
                 }
             ],
             "sign": "是",
@@ -128273,8 +128323,8 @@
                         10,
                         11
                     ],
-                    "place": "315",
-                    "original": "每週五10~11\t315"
+                    "place": "211",
+                    "original": "每週五10~11\t211"
                 }
             ],
             "sign": "是",
@@ -131649,7 +131699,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "學術英語專業學術英語學士微學程"
+                    "original": "學術英文專業學術英文學士微學程"
                 }
             ],
             "compulsory": [
@@ -132067,7 +132117,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "學術英語專業學術英語學士微學程"
+                    "original": "學術英文專業學術英文學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -134269,7 +134319,7 @@
                 "ch": "證券市場",
                 "en": "Security Markets",
                 "limit": true,
-                "other": "1、初選期間不開放其他年級選課，加退選期間不受此限"
+                "other": "[停開]1、初選期間不開放其他年級選課，加退選期間不受此限\n2、1140812依系所通知停開"
             },
             "teacher": [
                 "葉淑玲"
@@ -134293,7 +134343,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "25"
+            "max_people": "0"
         },
         {
             "year": "114",
@@ -141665,7 +141715,7 @@
                 "ch": "資訊管理",
                 "en": "Information Management",
                 "limit": false,
-                "other": "教室：教學大樓714-5。"
+                "other": "教室：教學大樓713。"
             },
             "teacher": [
                 "張瑋倫",
@@ -141684,8 +141734,8 @@
                         3,
                         4
                     ],
-                    "place": "714-5",
-                    "original": "每週六2~4\t714-5"
+                    "place": "713",
+                    "original": "每週六2~4\t713"
                 }
             ],
             "sign": "否",
@@ -144963,7 +145013,7 @@
                 "ch": "體適能與健康管理",
                 "en": "Physical Fitness and Health Management",
                 "limit": false,
-                "other": "教室：教學大樓714-5、三峽校區等。外系修課請洽企管系助教(18113)。"
+                "other": "教室：教學大樓713、三峽校區等。外系修課請洽企管系助教(18113)。"
             },
             "teacher": [
                 "陳建榮"
@@ -144981,8 +145031,8 @@
                         6,
                         7
                     ],
-                    "place": "714-5",
-                    "original": "每週六5~7\t714-5"
+                    "place": "713",
+                    "original": "每週六5~7\t713"
                 }
             ],
             "sign": "否",
@@ -148229,7 +148279,7 @@
         "外語系4",
         "多媒體與網路科技產碩專班1",
         "多媒體與網路科技產碩專班2",
-        "學術英語專業學術英語學士微學程",
+        "學術英文專業學術英文學士微學程",
         "家事法與社會工作學分學程",
         "嵌入式系統學分學程",
         "師培中心2",
@@ -148430,6 +148480,7 @@
         "財碩2",
         "財碩職1",
         "財碩職2",
+        "財軍碩職1",
         "財軍碩職2",
         "貨幣與金融市場學士微學程",
         "資工碩1",
