@@ -1,6 +1,6 @@
 {
-    "start_time": "2025-08-14 01:21:30",
-    "end_time": "2025-08-14 01:21:59",
+    "start_time": "2025-08-16 01:18:00",
+    "end_time": "2025-08-16 01:18:31",
     "total_courses": 2157,
     "failed_weeks": [],
     "data": [
@@ -18099,7 +18099,7 @@
                 "ch": "華語（五）",
                 "en": "Mandarin (5)",
                 "limit": true,
-                "other": "Please make sure to select Mandarin(5) & (6) as a package. This course is a 36-hours intensive course(Sep. 8 - Oct. 29, 2025). Class times are Mondays and Wednesdays 13:10-15:00.與華語（六）同一教室"
+                "other": "[停開]1140815通知停開。Please make sure to select Mandarin(5) & (6) as a package. This course is a 36-hours intensive course(Sep. 8 - Oct. 29, 2025). Class times are Mondays and Wednesdays 13:10-15:00.與華語（六）同一教室"
             },
             "teacher": [
                 "楊孝柔"
@@ -18804,7 +18804,7 @@
                 "ch": "華語聽力與口說（CEFR A2）",
                 "en": "Mandarin Listening and Speaking (CEFR A2)",
                 "limit": true,
-                "other": "Recommended for international students who have CEFR A2 level or above."
+                "other": "Recommended for international students who have CEFR A2 level or above.(教室：文11F11)"
             },
             "teacher": [
                 "林宛蓉"
@@ -18817,12 +18817,9 @@
                 {
                     "courseTime": 1,
                     "time_category": "A",
-                    "sessions": [
-                        3,
-                        4
-                    ],
-                    "place": "社207",
-                    "original": "每週一3~4\t社207"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一3~4"
                 }
             ],
             "sign": "是",
@@ -21269,8 +21266,8 @@
                         11,
                         12
                     ],
-                    "place": "713",
-                    "original": "每週一10~12\t713"
+                    "place": "719",
+                    "original": "每週一10~12\t719"
                 }
             ],
             "sign": "否",
@@ -22506,8 +22503,8 @@
                         11,
                         12
                     ],
-                    "place": "N/A",
-                    "original": "每週一10~12"
+                    "place": "714-5",
+                    "original": "每週一10~12\t714-5"
                 }
             ],
             "sign": "否",
@@ -24016,7 +24013,7 @@
                 "ch": "環境政治",
                 "en": "Politics of the Environment",
                 "limit": false,
-                "other": " "
+                "other": "Social Sciences Building 111."
             },
             "teacher": [
                 "李莎蕊"
@@ -24029,13 +24026,9 @@
                 {
                     "courseTime": 1,
                     "time_category": "A",
-                    "sessions": [
-                        5,
-                        6,
-                        7
-                    ],
-                    "place": "社208",
-                    "original": "每週一5~7\t社208"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一5~7"
                 }
             ],
             "sign": "否",
@@ -36658,8 +36651,8 @@
                         11,
                         12
                     ],
-                    "place": "714-5",
-                    "original": "每週二10~12\t714-5"
+                    "place": "713",
+                    "original": "每週二10~12\t713"
                 }
             ],
             "sign": "否",
@@ -45347,23 +45340,9 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "企業併購碩士學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "勞動法與人力資源管理學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "勞動法與人力資源管理微學程"
                 }
             ],
             "compulsory": [
-                "選",
-                "選",
                 "選",
                 "選",
                 "選",
@@ -65676,8 +65655,8 @@
                         11,
                         12
                     ],
-                    "place": "714-5",
-                    "original": "每週三10~12\t714-5"
+                    "place": "713",
+                    "original": "每週三10~12\t713"
                 }
             ],
             "sign": "否",
@@ -69751,8 +69730,8 @@
                         6,
                         7
                     ],
-                    "place": "法2F27",
-                    "original": "每週三5~7\t法2F27"
+                    "place": "公5F32",
+                    "original": "每週三5~7\t公5F32"
                 }
             ],
             "sign": "否",
@@ -80157,7 +80136,7 @@
                 "ch": "華語（六）",
                 "en": "Mandarin (6)",
                 "limit": true,
-                "other": "Please make sure to select Mandarin(5) & (6) as a package. This course is a 36-hours intensive course(Nov. 3 - Dec. 24, 2025). Class times are Mondays and Wednesdays 13:10-15:00.與華語（五）同一教室"
+                "other": "[停開]1140815通知停開。Please make sure to select Mandarin(5) & (6) as a package. This course is a 36-hours intensive course(Nov. 3 - Dec. 24, 2025). Class times are Mondays and Wednesdays 13:10-15:00.與華語（五）同一教室"
             },
             "teacher": [
                 "楊孝柔"
@@ -108625,8 +108604,8 @@
                         6,
                         7
                     ],
-                    "place": "商7F40",
-                    "original": "每週四5~7\t商7F40"
+                    "place": "商3F16",
+                    "original": "每週四5~7\t商3F16"
                 }
             ],
             "sign": "否",
@@ -110093,8 +110072,8 @@
                         11,
                         12
                     ],
-                    "place": "719",
-                    "original": "每週四10~12\t719"
+                    "place": "713",
+                    "original": "每週四10~12\t713"
                 }
             ],
             "sign": "否",
@@ -113728,10 +113707,10 @@
                 "ch": "行銷研究專題研討",
                 "en": "Seminar on Marketing Research",
                 "limit": false,
-                "other": "教學大樓610教室。"
+                "other": "教學大樓610教室。\n*1140815依系所通知教師異動。"
             },
             "teacher": [
-                "羅偉元"
+                "張志煒"
             ],
             "category": "半",
             "credit": "3",
@@ -118433,8 +118412,8 @@
                         5,
                         6
                     ],
-                    "place": "資B1F-01",
-                    "original": "每週四5~6\t資B1F-01"
+                    "place": "資1F-09",
+                    "original": "每週四5~6\t資1F-09"
                 }
             ],
             "sign": "是",
@@ -128196,12 +128175,6 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "高齡社會與法微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
                     "original": "醫療科技暨法律微學程"
                 },
                 {
@@ -128212,7 +128185,6 @@
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -129387,17 +129359,10 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "高齡社會與法微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
                     "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -143669,8 +143634,8 @@
                         10,
                         11
                     ],
-                    "place": "商7F01",
-                    "original": "每週六9~11\t商7F01"
+                    "place": "商7F02",
+                    "original": "每週六9~11\t商7F02"
                 }
             ],
             "sign": "否",
@@ -145993,8 +145958,8 @@
                         5,
                         6
                     ],
-                    "place": "商7F01",
-                    "original": "每週六1~6\t商7F01"
+                    "place": "商7F02",
+                    "original": "每週六1~6\t商7F02"
                 }
             ],
             "sign": "否",
@@ -147984,8 +147949,8 @@
                         8,
                         9
                     ],
-                    "place": "商7F01",
-                    "original": "每週日1~9\t商7F01"
+                    "place": "商7F02",
+                    "original": "每週日1~9\t商7F02"
                 }
             ],
             "sign": "否",
