@@ -1,7 +1,7 @@
 {
-    "start_time": "2025-08-21 01:15:22",
-    "end_time": "2025-08-21 01:15:47",
-    "total_courses": 2157,
+    "start_time": "2025-08-23 01:13:37",
+    "end_time": "2025-08-23 01:14:03",
+    "total_courses": 2158,
     "failed_weeks": [],
     "data": [
         {
@@ -2194,7 +2194,7 @@
                 "ch": "公共政策",
                 "en": "Public Policy",
                 "limit": false,
-                "other": "113學年度(含)前入學為二年級必修，114學年度入學為一年級必修。兩屆皆可修習。課程總限修人數為45人，為保障一年級新生選課權益，將保留50%名額於第二次選課時開放。"
+                "other": "113學年度(含)前入學為二年級必修，114學年度入學為一年級必修。兩屆皆可修習。課程總限修人數為45人，為保障一年級新生選課權益，有保留50%名額於本次選課時開放。"
             },
             "teacher": [
                 "楊臻欣"
@@ -7233,7 +7233,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "連志剛"
             ],
             "category": "全",
             "credit": "3",
@@ -19848,90 +19848,6 @@
         {
             "year": "114",
             "semester": "1",
-            "courseID": "M5125",
-            "department": "社工碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "社工碩",
-                    "original": "社工碩1"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "性別與人權學士學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "高齡社區照顧學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "性別學士微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "高齡社區照顧微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "高齡社會與法微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "社會共融與障礙微學程"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選",
-                "選",
-                "選",
-                "選",
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "跨文化長期照顧政策專題",
-                "en": "Seminar on Cross-Cultural Long-Term Care Policies",
-                "limit": false,
-                "other": "*教室：社科721社工系會議室。與學士班合辦上課。"
-            },
-            "teacher": [
-                "王品"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 1,
-                    "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週一6~8"
-                }
-            ],
-            "sign": "是",
-            "sign_people": "3",
-            "max_people": "15"
-        },
-        {
-            "year": "114",
-            "semester": "1",
             "courseID": "M5127",
             "department": "資源碩",
             "department_level": [
@@ -23534,97 +23450,6 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "35"
-        },
-        {
-            "year": "114",
-            "semester": "1",
-            "courseID": "U3014",
-            "department": "社工系",
-            "department_level": [
-                {
-                    "grade": "3",
-                    "class": "",
-                    "category": "社工系",
-                    "original": "社工系3"
-                },
-                {
-                    "grade": "4",
-                    "class": "",
-                    "category": "社工系",
-                    "original": "社工系4"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "性別與人權學士學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "高齡社區照顧學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "性別學士微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "高齡社區照顧微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "高齡社會與法微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "社會共融與障礙微學程"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選",
-                "選",
-                "選",
-                "選",
-                "選",
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "跨文化長期照顧政策專題",
-                "en": "Seminar on Cross-Cultural Long-Term Care Policies",
-                "limit": true,
-                "other": "*教室：社科721社工系會議室。\n與碩士班合班上課。"
-            },
-            "teacher": [
-                "王品"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 1,
-                    "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週一6~8"
-                }
-            ],
-            "sign": "是",
-            "sign_people": "2",
-            "max_people": "10"
         },
         {
             "year": "114",
@@ -31142,7 +30967,7 @@
                 "ch": "公共政策",
                 "en": "Public Policy",
                 "limit": false,
-                "other": "113學年度(含)前入學為二年級必修，114學年度入學為一年級必修。兩屆皆可修習。課程總限修人數為45人，為保障一年級新生選課權益，將保留50％名額於第二次選課時開放。"
+                "other": "113學年度(含)前入學為二年級必修，114學年度入學為一年級必修。兩屆皆可修習。課程總限修人數為45人，為保障一年級新生選課權益，有保留50％名額於本次選課時開放。"
             },
             "teacher": [
                 "羅清俊"
@@ -31368,7 +31193,7 @@
                 "ch": "社會科學研究方法",
                 "en": "Social Science Research Methods",
                 "limit": false,
-                "other": "113學年度(含)前入學為二年級必修，114學年度入學為一年級必修。兩屆皆可修習。課程總限修人數為60人，為保障一年級新生選課權益，將保留50％名額於第二次選課時開放。"
+                "other": "113學年度(含)前入學為二年級必修，114學年度入學為一年級必修。兩屆皆可修習。課程總限修人數為60人，為保障一年級新生選課權益，有保留50％名額於本次選課時開放。"
             },
             "teacher": [
                 "黃婉玲"
@@ -31625,7 +31450,7 @@
                 "ch": "公共政策",
                 "en": "Public Policy",
                 "limit": false,
-                "other": "113學年度(含)前入學為二年級必修，114學年度入學為一年級必修。兩屆皆可修習。課程總限修人數為45人，為保障一年級新生選課權益，將保留50％名額於第二次選課時開放。"
+                "other": "113學年度(含)前入學為二年級必修，114學年度入學為一年級必修。兩屆皆可修習。課程總限修人數為45人，為保障一年級新生選課權益，有保留50％名額於本次選課時開放。"
             },
             "teacher": [
                 "賴沅暉"
@@ -50736,7 +50561,7 @@
                 "ch": "勞動經濟學（一）",
                 "en": "Labor Economics Ⅰ",
                 "limit": false,
-                "other": "敬請安排社206教室。"
+                "other": "[停開]敬請安排社206教室。依114.08.21系所通知本課程停開。"
             },
             "teacher": [
                 "陳文豪"
@@ -51377,6 +51202,90 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "10"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "M5125",
+            "department": "社工碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社工碩",
+                    "original": "社工碩1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "性別學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社會與法微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "社會共融與障礙微學程"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "跨文化長期照顧政策專題",
+                "en": "Seminar on Cross-Cultural Long-Term Care Policies",
+                "limit": false,
+                "other": "*教室：社科721社工系會議室。與學士班合辦上課。"
+            },
+            "teacher": [
+                "王品"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二2~4"
+                }
+            ],
+            "sign": "是",
+            "sign_people": "3",
+            "max_people": "15"
         },
         {
             "year": "114",
@@ -53784,6 +53693,52 @@
         {
             "year": "114",
             "semester": "1",
+            "courseID": "M6185",
+            "department": "企碩",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "A",
+                    "category": "企碩",
+                    "original": "企碩2A"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "計量決策分析",
+                "en": "Quantitative Decision Making",
+                "limit": false,
+                "other": "1140822通知新開課程"
+            },
+            "teacher": [
+                "吳泰熙"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "商5F44",
+                    "original": "每週二5~7\t商5F44"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
+        },
+        {
+            "year": "114",
+            "semester": "1",
             "courseID": "N2013",
             "department": "(進修)經濟",
             "department_level": [
@@ -55045,6 +55000,97 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "34"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "U3014",
+            "department": "社工系",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "社工系",
+                    "original": "社工系3"
+                },
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "社工系",
+                    "original": "社工系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "性別學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社會與法微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "社會共融與障礙微學程"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "跨文化長期照顧政策專題",
+                "en": "Seminar on Cross-Cultural Long-Term Care Policies",
+                "limit": true,
+                "other": "*教室：社科721社工系會議室。與碩士班合班上課。"
+            },
+            "teacher": [
+                "王品"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二2~4"
+                }
+            ],
+            "sign": "是",
+            "sign_people": "2",
+            "max_people": "10"
         },
         {
             "year": "114",
@@ -62199,7 +62245,7 @@
                 "ch": "金融倫理學",
                 "en": "Financial Ethics",
                 "limit": false,
-                "other": "*此課程為密集授課，預計2025/9-2025/11每週三第3-6節上課。"
+                "other": "*此課程為密集授課，預計2025/9/17-2025/11每週三第3-6節上課。"
             },
             "teacher": [
                 "池祥麟",
@@ -84025,7 +84071,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "49"
+            "max_people": "10"
         },
         {
             "year": "114",
@@ -103308,7 +103354,7 @@
             "title": {
                 "ch": "德國民法專題研究",
                 "en": "Seminar：German Civil Law",
-                "limit": true,
+                "limit": false,
                 "other": "第1次初選限民事法學組學生選修。"
             },
             "teacher": [
@@ -108869,7 +108915,7 @@
             ],
             "title": {
                 "ch": "經濟史",
-                "en": "History of Economic",
+                "en": "Economic History",
                 "limit": false,
                 "other": " "
             },
@@ -115658,7 +115704,7 @@
                 "ch": "無線網路導論",
                 "en": "Introduction to Wireless Networks",
                 "limit": false,
-                "other": "請安排電102"
+                "other": "[停開]請安排電102，依114.8.18系所通知本課程停開。"
             },
             "teacher": [
                 "陳裕賢"
@@ -120461,7 +120507,7 @@
                 "ch": "社會科學研究方法",
                 "en": "Social Science Research Methods",
                 "limit": false,
-                "other": "113學年度(含)前入學為二年級必修，114學年度入學為一年級必修。兩屆皆可修習。課程總限修人數為65人，為保障一年級新生選課權益，將保留50％名額於第二次選課時開放。"
+                "other": "113學年度(含)前入學為二年級必修，114學年度入學為一年級必修。兩屆皆可修習。課程總限修人數為65人，為保障一年級新生選課權益，有保留50％名額於本次選課時開放。"
             },
             "teacher": [
                 "李有容"
@@ -123262,11 +123308,18 @@
                     ],
                     "place": "社B01",
                     "original": "每週五3~4\t社B01"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室社B02"
                 }
             ],
             "sign": "是",
             "sign_people": "20",
-            "max_people": "100"
+            "max_people": "110"
         },
         {
             "year": "114",
@@ -140505,7 +140558,7 @@
                 "other": "此為財政學系大一基礎必修課程，為保障本系重補修生權益與老師授課品質，初選及第2次選課期間不開放外系選課，加退選期間開放外系加選。"
             },
             "teacher": [
-                "******"
+                "余俊憲"
             ],
             "category": "全",
             "credit": "3",
