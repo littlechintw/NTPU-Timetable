@@ -1,7 +1,7 @@
 {
-    "start_time": "2025-08-23 01:13:37",
-    "end_time": "2025-08-23 01:14:03",
-    "total_courses": 2158,
+    "start_time": "2025-08-26 01:16:52",
+    "end_time": "2025-08-26 01:17:22",
+    "total_courses": 2159,
     "failed_weeks": [],
     "data": [
         {
@@ -47279,7 +47279,7 @@
                 "ch": "行政專業英文",
                 "en": "Professional English in Public Administration",
                 "limit": false,
-                "other": "★英語授課。\n★EMI課程。\n跨學群共同選修。"
+                "other": "★本學期為中、英語授課，不列入EMI課程採計。\n跨學群共同選修。"
             },
             "teacher": [
                 "黃朝盟"
@@ -61550,7 +61550,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "薛敏正"
             ],
             "category": "半",
             "credit": "1",
@@ -133751,8 +133751,8 @@
                         6,
                         7
                     ],
-                    "place": "社113",
-                    "original": "每週五5~7\t社113"
+                    "place": "社108",
+                    "original": "每週五5~7\t社108"
                 }
             ],
             "sign": "否",
@@ -134153,6 +134153,59 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "10"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "M6186",
+            "department": "企碩",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "B",
+                    "category": "企博",
+                    "original": "企博2B"
+                },
+                {
+                    "grade": "2",
+                    "class": "A",
+                    "category": "企碩",
+                    "original": "企碩2A"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "招募與選任專題研討",
+                "en": "Seminar on Recruitment and Staffing",
+                "limit": false,
+                "other": "1140825通知新開課程"
+            },
+            "teacher": [
+                "林俊佑"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "商1F04",
+                    "original": "每週五5~7\t商1F04"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "20"
         },
         {
             "year": "114",
@@ -136984,8 +137037,8 @@
                         6,
                         7
                     ],
-                    "place": "社113",
-                    "original": "每週五5~7\t社113"
+                    "place": "社108",
+                    "original": "每週五5~7\t社108"
                 }
             ],
             "sign": "否",
