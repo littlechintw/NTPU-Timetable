@@ -1,7 +1,7 @@
 {
-    "start_time": "2025-08-26 01:16:52",
-    "end_time": "2025-08-26 01:17:22",
-    "total_courses": 2159,
+    "start_time": "2025-08-28 01:14:14",
+    "end_time": "2025-08-28 01:14:41",
+    "total_courses": 2162,
     "failed_weeks": [],
     "data": [
         {
@@ -5316,7 +5316,7 @@
                 "ch": "公共政策",
                 "en": "Public Policy",
                 "limit": true,
-                "other": "★114學年度入學一年級及113學年度入學（升二年級之學生）必修。\n★本課程114學年度，由羅清俊老師、胡龍騰老師、李仲彬老師共開設4班，113及114學年度入學者皆可修習。\n政策分析與行政管理學士微學程。\n"
+                "other": "★114學年度入學一年級及113學年度入學（升二年級之學生）必修。\n★本課程114學年度，由羅清俊老師、胡龍騰老師、李仲彬老師共開設4班，113及114學年度入學者皆可修習。\n政策分析與行政管理學士微學程。\n★羅清俊教授114學年度在學士班開設的U2160「公共政策」，不開放紙本申請跨學制選課、不開放人工加簽。重大事由加簽以應屆畢業生缺少學分，致影響畢業者，並與本系所開設其他三班公共政策課程時間衝堂為原則。"
             },
             "teacher": [
                 "羅清俊"
@@ -24097,11 +24097,18 @@
                     ],
                     "place": "法2F01",
                     "original": "每週一2~4\t法2F01"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室商1F02"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "50"
         },
         {
             "year": "114",
@@ -29017,7 +29024,7 @@
                 "ch": "體育：桌球",
                 "en": "Physical Education:Table Tennis",
                 "limit": false,
-                "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點:教學大樓B1。\n*1140303選課人數不足停開。"
+                "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點:教學大樓B1。"
             },
             "teacher": [
                 "李靜雯"
@@ -30062,7 +30069,7 @@
             ],
             "sign": "是",
             "sign_people": "9",
-            "max_people": "45"
+            "max_people": "50"
         },
         {
             "year": "114",
@@ -30967,7 +30974,7 @@
                 "ch": "公共政策",
                 "en": "Public Policy",
                 "limit": false,
-                "other": "113學年度(含)前入學為二年級必修，114學年度入學為一年級必修。兩屆皆可修習。課程總限修人數為45人，為保障一年級新生選課權益，有保留50％名額於本次選課時開放。"
+                "other": "113學年度(含)前入學為二年級必修，114學年度入學為一年級必修。兩屆皆可修習。課程總限修人數為45人，為保障一年級新生選課權益，有保留50％名額於本次選課時開放。本課不開放紙本申請跨學制選課、不開放人工加簽。\n重大事由加簽以應屆畢業生缺少學分，致影響畢業者，並與本系所開設其他班公共政策課程時間衝堂為原則。"
             },
             "teacher": [
                 "羅清俊"
@@ -42901,8 +42908,8 @@
                         7,
                         8
                     ],
-                    "place": "文2F02",
-                    "original": "每週二6~8\t文2F02"
+                    "place": "文2F11",
+                    "original": "每週二6~8\t文2F11"
                 }
             ],
             "sign": "否",
@@ -43038,8 +43045,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F28",
-                    "original": "每週二7~8\t法2F28"
+                    "place": "法2F02",
+                    "original": "每週二7~8\t法2F02"
                 },
                 {
                     "courseTime": 3,
@@ -43048,8 +43055,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F28",
-                    "original": "每週三3~4\t法2F28"
+                    "place": "法2F02",
+                    "original": "每週三3~4\t法2F02"
                 }
             ],
             "sign": "否",
@@ -43783,8 +43790,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F28",
-                    "original": "每週二7~8\t法2F28"
+                    "place": "法2F02",
+                    "original": "每週二7~8\t法2F02"
                 },
                 {
                     "courseTime": 3,
@@ -43793,8 +43800,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F28",
-                    "original": "每週三3~4\t法2F28"
+                    "place": "法2F02",
+                    "original": "每週三3~4\t法2F02"
                 }
             ],
             "sign": "否",
@@ -47279,7 +47286,7 @@
                 "ch": "行政專業英文",
                 "en": "Professional English in Public Administration",
                 "limit": false,
-                "other": "★本學期為中、英語授課，不列入EMI課程採計。\n跨學群共同選修。"
+                "other": "★本學期為中、英語授課(因課程內容涉及本系專業核心知識領域，會有中文釋疑)。★EMI課程。\n跨學群共同選修。"
             },
             "teacher": [
                 "黃朝盟"
@@ -47741,8 +47748,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F03",
-                    "original": "每週二7~8\t法2F03"
+                    "place": "文2F02",
+                    "original": "每週二7~8\t文2F02"
                 }
             ],
             "sign": "否",
@@ -53739,6 +53746,52 @@
         {
             "year": "114",
             "semester": "1",
+            "courseID": "M6187",
+            "department": "資源碩",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "資源碩",
+                    "original": "資源碩2"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "清潔生產與工業生態學",
+                "en": "Cleaner Production and Industrial Ecology",
+                "limit": false,
+                "other": "與碩職合班於民生校區夜間上課"
+            },
+            "teacher": [
+                "洪淑惠"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "310",
+                    "original": "每週二10~12\t310"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
+        },
+        {
+            "year": "114",
+            "semester": "1",
             "courseID": "N2013",
             "department": "(進修)經濟",
             "department_level": [
@@ -54102,7 +54155,7 @@
                 "ch": "生態學原理與應用",
                 "en": "Principles and Applications of Ecology",
                 "limit": false,
-                "other": " "
+                "other": "[停開]*1140826依系所通知調整開課時間故停開，請改選P1047週三課程。"
             },
             "teacher": [
                 "王之佑"
@@ -54180,6 +54233,59 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "18"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "P1034",
+            "department": "環碩職",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "環碩職",
+                    "original": "環碩職1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "環碩職",
+                    "original": "環碩職2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "清潔生產與工業生態學",
+                "en": "Cleaner Production and Industrial Ecology",
+                "limit": false,
+                "other": "*1140826依系所通知新開。"
+            },
+            "teacher": [
+                "洪淑惠"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "310",
+                    "original": "每週二10~12\t310"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
         },
         {
             "year": "114",
@@ -57162,15 +57268,19 @@
                         5,
                         6
                     ],
-                    "place": "商1F15",
-                    "original": "每週二5~6\t商1F15"
+                    "place": "資1F-10",
+                    "original": "每週二5~6\t資1F-10"
                 },
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週三2~4"
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "資1F-08",
+                    "original": "每週三2~4\t資1F-08"
                 }
             ],
             "sign": "否",
@@ -58940,8 +59050,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F03",
-                    "original": "每週二7~8\t法2F03"
+                    "place": "文2F02",
+                    "original": "每週二7~8\t文2F02"
                 }
             ],
             "sign": "否",
@@ -62471,8 +62581,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F02",
-                    "original": "每週三3~4\t法2F02"
+                    "place": "法2F28",
+                    "original": "每週三3~4\t法2F28"
                 }
             ],
             "sign": "否",
@@ -64382,8 +64492,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F02",
-                    "original": "每週三3~4\t法2F02"
+                    "place": "法2F28",
+                    "original": "每週三3~4\t法2F28"
                 }
             ],
             "sign": "否",
@@ -70577,8 +70687,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F28",
-                    "original": "每週二7~8\t法2F28"
+                    "place": "法2F02",
+                    "original": "每週二7~8\t法2F02"
                 },
                 {
                     "courseTime": 3,
@@ -70587,8 +70697,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F28",
-                    "original": "每週三3~4\t法2F28"
+                    "place": "法2F02",
+                    "original": "每週三3~4\t法2F02"
                 }
             ],
             "sign": "否",
@@ -71359,8 +71469,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F28",
-                    "original": "每週二7~8\t法2F28"
+                    "place": "法2F02",
+                    "original": "每週二7~8\t法2F02"
                 },
                 {
                     "courseTime": 3,
@@ -71369,8 +71479,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F28",
-                    "original": "每週三3~4\t法2F28"
+                    "place": "法2F02",
+                    "original": "每週三3~4\t法2F02"
                 }
             ],
             "sign": "否",
@@ -81203,7 +81313,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "13"
         },
         {
             "year": "114",
@@ -82690,7 +82800,7 @@
                 "ch": "環境會計",
                 "en": "Environmental Accounting",
                 "limit": false,
-                "other": "與碩職合班於民生校區夜間上課"
+                "other": "[停開]與碩職合班於民生校區夜間上課。114.8.26通知停開。"
             },
             "teacher": [
                 "周嫦娥"
@@ -82708,8 +82818,8 @@
                         11,
                         12
                     ],
-                    "place": "310",
-                    "original": "每週三10~12\t310"
+                    "place": "N/A",
+                    "original": "每週三10~12"
                 }
             ],
             "sign": "否",
@@ -83651,6 +83761,59 @@
         {
             "year": "114",
             "semester": "1",
+            "courseID": "P1047",
+            "department": "環碩職",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "環碩職",
+                    "original": "環碩職1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "環碩職",
+                    "original": "環碩職2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "生態學原理與應用",
+                "en": "Principles and Applications of Ecology",
+                "limit": false,
+                "other": "*1140826依系所通知調整開課時間故新開。"
+            },
+            "teacher": [
+                "王之佑"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "310",
+                    "original": "每週三10~12\t310"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
+        },
+        {
+            "year": "114",
+            "semester": "1",
             "courseID": "P2007",
             "department": "環碩職",
             "department_level": [
@@ -83675,7 +83838,7 @@
                 "ch": "環境會計",
                 "en": "Environmental Accounting",
                 "limit": false,
-                "other": " "
+                "other": "[停開]*1140826依系所通知停開。"
             },
             "teacher": [
                 "周嫦娥"
@@ -86476,15 +86639,19 @@
                         5,
                         6
                     ],
-                    "place": "商1F15",
-                    "original": "每週二5~6\t商1F15"
+                    "place": "資1F-10",
+                    "original": "每週二5~6\t資1F-10"
                 },
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週三2~4"
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "資1F-08",
+                    "original": "每週三2~4\t資1F-08"
                 }
             ],
             "sign": "否",
@@ -123931,7 +124098,7 @@
             "title": {
                 "ch": "民法概要",
                 "en": "Introduction to the Study of Civil Law",
-                "limit": false,
+                "limit": true,
                 "other": "1.本科不列入輔系學分，但為本系高年級科目之先修科目。\n2.週五第13節為本課程的補課時段，請勿安排其他課程。"
             },
             "teacher": [
