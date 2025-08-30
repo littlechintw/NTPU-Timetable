@@ -1,7 +1,7 @@
 {
-    "start_time": "2025-08-28 01:14:14",
-    "end_time": "2025-08-28 01:14:41",
-    "total_courses": 2162,
+    "start_time": "2025-08-30 01:10:32",
+    "end_time": "2025-08-30 01:11:01",
+    "total_courses": 2164,
     "failed_weeks": [],
     "data": [
         {
@@ -5339,7 +5339,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "60"
+            "max_people": "68"
         },
         {
             "year": "114",
@@ -8040,7 +8040,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "14"
         },
         {
             "year": "114",
@@ -8093,7 +8093,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "14"
         },
         {
             "year": "114",
@@ -8146,7 +8146,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "14"
         },
         {
             "year": "114",
@@ -8199,7 +8199,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "14"
         },
         {
             "year": "114",
@@ -8252,7 +8252,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "14"
         },
         {
             "year": "114",
@@ -16105,7 +16105,7 @@
                 "ch": "不動產行銷",
                 "en": "Real Estate Marketing",
                 "limit": true,
-                "other": "本科不計入輔系學分。請安排較大教室。\n第1次上課在公8F23教室上課。"
+                "other": "本科不計入輔系學分。請安排較大教室。\n第1次上課在公2F36教室上課。"
             },
             "teacher": [
                 "游舜德"
@@ -23073,18 +23073,6 @@
             "department": "行政系",
             "department_level": [
                 {
-                    "grade": "1",
-                    "class": "A",
-                    "category": "行政系",
-                    "original": "行政系1A"
-                },
-                {
-                    "grade": "1",
-                    "class": "B",
-                    "category": "行政系",
-                    "original": "行政系1B"
-                },
-                {
                     "grade": "2",
                     "class": "A",
                     "category": "行政系",
@@ -23141,8 +23129,6 @@
                 "選",
                 "選",
                 "選",
-                "選",
-                "選",
                 "選"
             ],
             "title": {
@@ -23171,8 +23157,8 @@
                     "original": "每週一7~9\t公2F34"
                 }
             ],
-            "sign": "是",
-            "sign_people": "6",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "30"
         },
         {
@@ -32387,7 +32373,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "52"
+            "max_people": "53"
         },
         {
             "year": "114",
@@ -32666,7 +32652,7 @@
                 "ch": "電腦概論與程式設計",
                 "en": "Introduction to Computer Science and Programming",
                 "limit": true,
-                "other": "因本系人數選不到，請先限制外系人數為0"
+                "other": " "
             },
             "teacher": [
                 "謝榮桂"
@@ -33005,7 +32991,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "52"
+            "max_people": "53"
         },
         {
             "year": "114",
@@ -40461,7 +40447,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "67"
         },
         {
             "year": "114",
@@ -40542,7 +40528,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "67"
         },
         {
             "year": "114",
@@ -44379,9 +44365,9 @@
                     "original": "每週二5~6\t公2F35"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "15"
+            "sign": "是",
+            "sign_people": "4",
+            "max_people": "16"
         },
         {
             "year": "114",
@@ -47834,7 +47820,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -52850,6 +52836,52 @@
         {
             "year": "114",
             "semester": "1",
+            "courseID": "M5357",
+            "department": "企博",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "企博",
+                    "original": "企博1"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "綠色環境管理",
+                "en": "Green Environmental Management",
+                "limit": false,
+                "other": "(1)1140829收到系所通知新開課程\n(2)與企碩2A之M6066課程合開"
+            },
+            "teacher": [
+                "陳宥杉"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "商1F16",
+                    "original": "每週二5~7\t商1F16"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "10"
+        },
+        {
+            "year": "114",
+            "semester": "1",
             "courseID": "M5448",
             "department": "國企碩",
             "department_level": [
@@ -57686,7 +57718,7 @@
                 "ch": "東南亞概論：台灣的視角",
                 "en": "Introduction to Southeast Asia : Taiwan Perspective",
                 "limit": false,
-                "other": " "
+                "other": "[停開]*1140829依系所通知停開。"
             },
             "teacher": [
                 "李威瀚"
@@ -57839,7 +57871,7 @@
                 "ch": "東南亞的性別、婚姻與家庭議題",
                 "en": "Gender, Marriage, and Family Issues in Southeast Asia",
                 "limit": false,
-                "other": "經濟系學生選讀，不列入其通識畢業學分數。"
+                "other": "[停開]經濟系學生選讀，不列入其通識畢業學分數。\n*1140829依系所通知停開。"
             },
             "teacher": [
                 "李威瀚"
@@ -66617,7 +66649,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "61"
+            "max_people": "62"
         },
         {
             "year": "114",
@@ -66744,7 +66776,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "61"
+            "max_people": "62"
         },
         {
             "year": "114",
@@ -69027,7 +69059,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "64"
+            "max_people": "62"
         },
         {
             "year": "114",
@@ -69342,7 +69374,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "61"
+            "max_people": "62"
         },
         {
             "year": "114",
@@ -80882,6 +80914,83 @@
         {
             "year": "114",
             "semester": "1",
+            "courseID": "U4398",
+            "department": "行政系",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "A",
+                    "category": "行政系",
+                    "original": "行政系2A"
+                },
+                {
+                    "grade": "2",
+                    "class": "B",
+                    "category": "行政系",
+                    "original": "行政系2B"
+                },
+                {
+                    "grade": "3",
+                    "class": "A",
+                    "category": "行政系",
+                    "original": "行政系3A"
+                },
+                {
+                    "grade": "3",
+                    "class": "B",
+                    "category": "行政系",
+                    "original": "行政系3B"
+                },
+                {
+                    "grade": "4",
+                    "class": "A",
+                    "category": "行政系",
+                    "original": "行政系4A"
+                },
+                {
+                    "grade": "4",
+                    "class": "B",
+                    "category": "行政系",
+                    "original": "行政系4B"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "台灣公共行政專題",
+                "en": "Seminar in Taiwan’s Public Administration",
+                "limit": false,
+                "other": "1140828通知新開。"
+            },
+            "teacher": [
+                "張四明"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三3~4"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "60"
+        },
+        {
+            "year": "114",
+            "semester": "1",
             "courseID": "M5005",
             "department": "民藝與文資所",
             "department_level": [
@@ -91923,7 +92032,7 @@
                 "ch": "電腦概論與程式設計",
                 "en": "Introduction to Computer Science and Programming",
                 "limit": true,
-                "other": "因本系人數選不到，請先限制外系人數為0"
+                "other": " "
             },
             "teacher": [
                 "謝榮桂"
@@ -91946,7 +92055,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "56"
+            "max_people": "66"
         },
         {
             "year": "114",
@@ -94424,7 +94533,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "60"
+            "max_people": "75"
         },
         {
             "year": "114",
@@ -95526,7 +95635,7 @@
             ],
             "sign": "是",
             "sign_people": "12",
-            "max_people": "60"
+            "max_people": "62"
         },
         {
             "year": "114",
@@ -95855,8 +95964,8 @@
                     "original": "每週四10~12\t204"
                 }
             ],
-            "sign": "是",
-            "sign_people": "7",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "36"
         },
         {
@@ -99886,7 +99995,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "66"
         },
         {
             "year": "114",
@@ -100101,7 +100210,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "64"
+            "max_people": "66"
         },
         {
             "year": "114",
@@ -103202,8 +103311,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F24",
-                    "original": "每週四5~6\t法2F24"
+                    "place": "法2F16",
+                    "original": "每週四5~6\t法2F16"
                 }
             ],
             "sign": "否",
@@ -105583,8 +105692,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F24",
-                    "original": "每週四5~6\t法2F24"
+                    "place": "法2F16",
+                    "original": "每週四5~6\t法2F16"
                 }
             ],
             "sign": "否",
@@ -133698,7 +133807,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "50"
+            "max_people": "20"
         },
         {
             "year": "114",
@@ -144588,7 +144697,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "25"
+            "max_people": "60"
         },
         {
             "year": "114",
@@ -148414,6 +148523,7 @@
         "人文與資訊學士學分學程",
         "人文與資訊學士微學程",
         "人權與正義學士微學程",
+        "企博1",
         "企博1A",
         "企博1B",
         "企博2A",
