@@ -1,7 +1,7 @@
 {
-    "start_time": "2025-09-02 01:15:03",
-    "end_time": "2025-09-02 01:15:33",
-    "total_courses": 2165,
+    "start_time": "2025-09-04 01:10:37",
+    "end_time": "2025-09-04 01:11:09",
+    "total_courses": 2166,
     "failed_weeks": [],
     "data": [
         {
@@ -3811,8 +3811,8 @@
                         7,
                         8
                     ],
-                    "place": "文3F10_L",
-                    "original": "每週一7~8\t文3F10_L"
+                    "place": "文3F01_L",
+                    "original": "每週一7~8\t文3F01_L"
                 }
             ],
             "sign": "否",
@@ -7248,8 +7248,8 @@
                         11,
                         12
                     ],
-                    "place": "301",
-                    "original": "每週一10~12\t301"
+                    "place": "506",
+                    "original": "每週一10~12\t506"
                 }
             ],
             "sign": "否",
@@ -7934,8 +7934,8 @@
                         11,
                         12
                     ],
-                    "place": "506",
-                    "original": "每週一10~12\t506"
+                    "place": "301",
+                    "original": "每週一10~12\t301"
                 }
             ],
             "sign": "否",
@@ -12338,8 +12338,8 @@
                         3,
                         4
                     ],
-                    "place": "文2F02",
-                    "original": "實習每週四3~4\t文2F02"
+                    "place": "商2F08",
+                    "original": "實習每週四3~4\t商2F08"
                 }
             ],
             "sign": "否",
@@ -12613,8 +12613,8 @@
                         3,
                         4
                     ],
-                    "place": "商3F11",
-                    "original": "每週三2~4\t商3F11"
+                    "place": "商2F06",
+                    "original": "每週三2~4\t商2F06"
                 },
                 {
                     "courseTime": 1,
@@ -27773,7 +27773,7 @@
                 "ch": "數位傳播與人文藝術",
                 "en": "Humanities, Arts and Digital Communication",
                 "limit": false,
-                "other": "政治大學主播遠距課程；黃葳威老師；限電腦加退選。"
+                "other": "政治大學主播遠距課程；黃葳威老師；限電腦加退選。114.9.3通知上課時間異動至每週一第9至10節。上課地點變更為Google Meet線上平台。"
             },
             "teacher": [
                 "******"
@@ -27787,11 +27787,11 @@
                     "courseTime": 1,
                     "time_category": "A",
                     "sessions": [
-                        8,
-                        9
+                        9,
+                        10
                     ],
-                    "place": "資B1F-02",
-                    "original": "每週一8~9\t資B1F-02"
+                    "place": "N/A",
+                    "original": "每週一9~10"
                 }
             ],
             "sign": "否",
@@ -30838,8 +30838,8 @@
                         10,
                         11
                     ],
-                    "place": "301",
-                    "original": "每週二10~11\t301"
+                    "place": "303",
+                    "original": "每週二10~11\t303"
                 }
             ],
             "sign": "否",
@@ -30883,8 +30883,8 @@
                         12,
                         13
                     ],
-                    "place": "301",
-                    "original": "每週二12~13\t301"
+                    "place": "303",
+                    "original": "每週二12~13\t303"
                 }
             ],
             "sign": "否",
@@ -31460,8 +31460,8 @@
                         12,
                         13
                     ],
-                    "place": "309",
-                    "original": "每週二12~13\t309"
+                    "place": "311",
+                    "original": "每週二12~13\t311"
                 }
             ],
             "sign": "否",
@@ -31929,8 +31929,8 @@
                         10,
                         11
                     ],
-                    "place": "309",
-                    "original": "每週二10~11\t309"
+                    "place": "311",
+                    "original": "每週二10~11\t311"
                 }
             ],
             "sign": "否",
@@ -36892,8 +36892,8 @@
                         11,
                         12
                     ],
-                    "place": "311",
-                    "original": "每週二10~12\t311"
+                    "place": "301",
+                    "original": "每週二10~12\t301"
                 }
             ],
             "sign": "否",
@@ -38898,7 +38898,7 @@
                 "ch": "會計學",
                 "en": "Accounting",
                 "limit": false,
-                "other": " "
+                "other": "9月9日停課，改於9月11日實習實作時段上課。"
             },
             "teacher": [
                 "黃瓊慧"
@@ -46303,8 +46303,8 @@
                         12,
                         13
                     ],
-                    "place": "303",
-                    "original": "每週二12~13\t303"
+                    "place": "309",
+                    "original": "每週二12~13\t309"
                 }
             ],
             "sign": "否",
@@ -46865,8 +46865,8 @@
                         10,
                         11
                     ],
-                    "place": "303",
-                    "original": "每週二10~11\t303"
+                    "place": "309",
+                    "original": "每週二10~11\t309"
                 }
             ],
             "sign": "否",
@@ -54792,9 +54792,13 @@
                 {
                     "courseTime": 2,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週二5~7"
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "電2F03",
+                    "original": "每週二5~7\t電2F03"
                 }
             ],
             "sign": "否",
@@ -57666,7 +57670,7 @@
             "title": {
                 "ch": "邏輯與思維",
                 "en": "Logic and Thinking",
-                "limit": true,
+                "limit": false,
                 "other": "中文系學生修習不列入通識畢業學分。此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為50人。"
             },
             "teacher": [
@@ -70064,8 +70068,8 @@
                         3,
                         4
                     ],
-                    "place": "商3F11",
-                    "original": "每週三2~4\t商3F11"
+                    "place": "商2F06",
+                    "original": "每週三2~4\t商2F06"
                 },
                 {
                     "courseTime": 1,
@@ -72196,8 +72200,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F06",
-                    "original": "每週三3~4\t商2F06"
+                    "place": "商3F11",
+                    "original": "每週三3~4\t商3F11"
                 },
                 {
                     "courseTime": 4,
@@ -72206,8 +72210,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F08",
-                    "original": "每週四3~4\t商2F08"
+                    "place": "文2F02",
+                    "original": "每週四3~4\t文2F02"
                 },
                 {
                     "courseTime": 3,
@@ -72216,8 +72220,8 @@
                         1,
                         2
                     ],
-                    "place": "商2F06",
-                    "original": "實習每週三1~2\t商2F06"
+                    "place": "商3F11",
+                    "original": "實習每週三1~2\t商3F11"
                 }
             ],
             "sign": "否",
@@ -83094,8 +83098,8 @@
                         8,
                         9
                     ],
-                    "place": "公2F38",
-                    "original": "每週三7~9\t公2F38"
+                    "place": "公2F06",
+                    "original": "每週三7~9\t公2F06"
                 }
             ],
             "sign": "否",
@@ -87934,8 +87938,8 @@
                         5,
                         6
                     ],
-                    "place": "公1F30",
-                    "original": "每週三5~6\t公1F30"
+                    "place": "法1F19",
+                    "original": "每週三5~6\t法1F19"
                 }
             ],
             "sign": "否",
@@ -88631,6 +88635,57 @@
             ],
             "sign": "是",
             "sign_people": "8",
+            "max_people": "0"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "U4425",
+            "department": "通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "通識4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度四"
+                }
+            ],
+            "compulsory": [
+                "通"
+            ],
+            "title": {
+                "ch": "性別與休閒",
+                "en": "Gender and Leisure",
+                "limit": true,
+                "other": "休運系學生(含雙主修)選讀,不列入其通識畢業學分數。"
+            },
+            "teacher": [
+                "蔡瓊姿"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "商1F04",
+                    "original": "每週三3~4\t商1F04"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "0"
         },
         {
@@ -92473,8 +92528,8 @@
                         3,
                         4
                     ],
-                    "place": "公2F36",
-                    "original": "每週四3~4\t公2F36"
+                    "place": "公1F11",
+                    "original": "每週四3~4\t公1F11"
                 }
             ],
             "sign": "否",
@@ -98901,7 +98956,7 @@
                 "ch": "會計學",
                 "en": "Accounting",
                 "limit": false,
-                "other": " "
+                "other": "9月9日停課，改於9月11日實習實作時段上課。"
             },
             "teacher": [
                 "黃瓊慧"
@@ -101394,8 +101449,8 @@
                         3,
                         4
                     ],
-                    "place": "文2F02",
-                    "original": "實習每週四3~4\t文2F02"
+                    "place": "商2F08",
+                    "original": "實習每週四3~4\t商2F08"
                 }
             ],
             "sign": "否",
@@ -102378,8 +102433,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F06",
-                    "original": "每週三3~4\t商2F06"
+                    "place": "商3F11",
+                    "original": "每週三3~4\t商3F11"
                 },
                 {
                     "courseTime": 4,
@@ -102388,8 +102443,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F08",
-                    "original": "每週四3~4\t商2F08"
+                    "place": "文2F02",
+                    "original": "每週四3~4\t文2F02"
                 },
                 {
                     "courseTime": 3,
@@ -102398,8 +102453,8 @@
                         1,
                         2
                     ],
-                    "place": "商2F06",
-                    "original": "實習每週三1~2\t商2F06"
+                    "place": "商3F11",
+                    "original": "實習每週三1~2\t商3F11"
                 }
             ],
             "sign": "否",
@@ -139853,7 +139908,7 @@
                 "ch": "團體活動設計與實施",
                 "en": "The Theories and Practices of Group Intervention",
                 "limit": false,
-                "other": "師培一年級課程，與二年級合開。※上課地點：文10F16教室。"
+                "other": "師培一年級課程，與二年級合開。※上課地點：文8F01教室。"
             },
             "teacher": [
                 "林維能"
@@ -142422,7 +142477,7 @@
                 "ch": "當代犯罪學選讀",
                 "en": "Selected Readings on Contemporary Criminology",
                 "limit": false,
-                "other": "教室:台北教學大樓8F20研討室（與在職專班合班上課）"
+                "other": "教室:台北教學大樓7F08研討室（與在職專班合班上課）"
             },
             "teacher": [
                 "周愫嫻"
@@ -143641,7 +143696,7 @@
                 "ch": "當代犯罪學選讀",
                 "en": "Selected Readings on Contemporary Criminology",
                 "limit": false,
-                "other": "教學大樓8F20（與日間一般碩士生合班上課）"
+                "other": "教學大樓7F08（與日間一般碩士生合班上課）"
             },
             "teacher": [
                 "周愫嫻"
@@ -143658,8 +143713,8 @@
                         8,
                         9
                     ],
-                    "place": "820",
-                    "original": "每週六8~9\t820"
+                    "place": "708",
+                    "original": "每週六8~9\t708"
                 }
             ],
             "sign": "否",
@@ -144222,7 +144277,7 @@
                 "ch": "少年犯罪與防制政策研究",
                 "en": "Juvenile Delinquency and Prevention",
                 "limit": false,
-                "other": "教室:台北教學大樓8F20研討室。（與在職專班合班）"
+                "other": "教室:台北教學大樓7F08研討室。（與在職專班合班）"
             },
             "teacher": [
                 "周愫嫻"
@@ -144890,8 +144945,8 @@
                         6,
                         7
                     ],
-                    "place": "411",
-                    "original": "每週六5~7\t411"
+                    "place": "413",
+                    "original": "每週六5~7\t413"
                 }
             ],
             "sign": "否",
@@ -145457,7 +145512,7 @@
                 "ch": "少年犯罪與防制政策研究",
                 "en": "Juvenile Delinquency and Prevention",
                 "limit": false,
-                "other": "民生教學大樓8F20研討室（與一般碩士生合班上課）\n"
+                "other": "民生教學大樓7F08研討室（與一般碩士生合班上課）\n"
             },
             "teacher": [
                 "周愫嫻"
@@ -145475,8 +145530,8 @@
                         6,
                         7
                     ],
-                    "place": "820",
-                    "original": "每週六5~7\t820"
+                    "place": "708",
+                    "original": "每週六5~7\t708"
                 }
             ],
             "sign": "否",
@@ -146488,7 +146543,7 @@
             "title": {
                 "ch": "全球化與多元文化",
                 "en": "Globalization and Multi-Culture",
-                "limit": true,
+                "limit": false,
                 "other": "此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制53人。請安排 210 教室。"
             },
             "teacher": [
@@ -146571,8 +146626,8 @@
                         1,
                         2
                     ],
-                    "place": "411",
-                    "original": "每週六1~2\t411"
+                    "place": "505",
+                    "original": "每週六1~2\t505"
                 }
             ],
             "sign": "是",
@@ -146650,8 +146705,8 @@
                         3,
                         4
                     ],
-                    "place": "411",
-                    "original": "每週六3~4\t411"
+                    "place": "505",
+                    "original": "每週六3~4\t505"
                 }
             ],
             "sign": "是",
@@ -146919,8 +146974,8 @@
                         3,
                         4
                     ],
-                    "place": "202",
-                    "original": "每週六1~4\t202"
+                    "place": "413",
+                    "original": "每週六1~4\t413"
                 },
                 {
                     "courseTime": "N/A",
