@@ -1,7 +1,7 @@
 {
-    "start_time": "2025-09-06 01:10:36",
-    "end_time": "2025-09-06 01:11:06",
-    "total_courses": 2563,
+    "start_time": "2025-09-09 01:13:38",
+    "end_time": "2025-09-09 01:14:06",
+    "total_courses": 2570,
     "failed_weeks": [],
     "data": [
         {
@@ -1022,8 +1022,8 @@
                     "original": "每週一7~8"
                 }
             ],
-            "sign": "是",
-            "sign_people": "8",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "42"
         },
         {
@@ -1475,7 +1475,7 @@
                 "ch": "資源管理專題討論（一）",
                 "en": "Seminar on Natural Resources Managemnet Ⅰ",
                 "limit": false,
-                "other": "113.9.11通知調整上課時間。上課教室至：民生校區/教805教室"
+                "other": "113.9.11通知調整上課時間。上課教室至：民生校區/教805教室。114.9.8通知調整上課時間。"
             },
             "teacher": [
                 "李育明"
@@ -1489,11 +1489,11 @@
                     "courseTime": 1,
                     "time_category": "A",
                     "sessions": [
-                        9,
-                        10
+                        12,
+                        13
                     ],
                     "place": "N/A",
-                    "original": "每週一9~10"
+                    "original": "每週一12~13"
                 }
             ],
             "sign": "否",
@@ -1520,7 +1520,7 @@
                 "ch": "資源管理專題討論（二）",
                 "en": "Seminar on Natural Resources Managemnet Ⅱ",
                 "limit": false,
-                "other": "113.9.11通知調整上課時間。上課教室至：民生校區/教808教室"
+                "other": "113.9.11通知調整上課時間。上課教室至：民生校區/教808教室。114.9.8通知調整上課時間。"
             },
             "teacher": [
                 "林晉勗"
@@ -1534,11 +1534,11 @@
                     "courseTime": 1,
                     "time_category": "A",
                     "sessions": [
-                        9,
-                        10
+                        12,
+                        13
                     ],
                     "place": "N/A",
-                    "original": "每週一9~10"
+                    "original": "每週一12~13"
                 }
             ],
             "sign": "否",
@@ -1614,7 +1614,7 @@
                 "ch": "自然資源與環境管理總論",
                 "en": "Topics on Natural Resources and Environmental Management",
                 "limit": false,
-                "other": " "
+                "other": "114.9.8通知調整上課時間。"
             },
             "teacher": [
                 "林晉勗",
@@ -1632,11 +1632,11 @@
                     "courseTime": 1,
                     "time_category": "A",
                     "sessions": [
-                        11,
-                        12
+                        10,
+                        11
                     ],
                     "place": "N/A",
-                    "original": "每週一11~12"
+                    "original": "每週一10~11"
                 }
             ],
             "sign": "否",
@@ -6389,8 +6389,8 @@
                         3,
                         4
                     ],
-                    "place": "公1F27",
-                    "original": "每週一3~4\t公1F27"
+                    "place": "公1F10",
+                    "original": "每週一3~4\t公1F10"
                 }
             ],
             "sign": "否",
@@ -12245,7 +12245,7 @@
                 "ch": "資料結構",
                 "en": "Data Structures",
                 "limit": false,
-                "other": "電腦教室資1F-14"
+                "other": " "
             },
             "teacher": [
                 "沈瑞欽"
@@ -13969,8 +13969,8 @@
                         3,
                         4
                     ],
-                    "place": "公2F02",
-                    "original": "每週一2~4\t公2F02"
+                    "place": "公1F02",
+                    "original": "每週一2~4\t公1F02"
                 }
             ],
             "sign": "否",
@@ -14096,8 +14096,8 @@
                         3,
                         4
                     ],
-                    "place": "公2F04",
-                    "original": "每週一2~4\t公2F04"
+                    "place": "公1F04",
+                    "original": "每週一2~4\t公1F04"
                 }
             ],
             "sign": "否",
@@ -14163,8 +14163,8 @@
                         3,
                         4
                     ],
-                    "place": "公2F03",
-                    "original": "每週一2~4\t公2F03"
+                    "place": "公1F20",
+                    "original": "每週一2~4\t公1F20"
                 }
             ],
             "sign": "否",
@@ -15264,8 +15264,8 @@
                         5,
                         6
                     ],
-                    "place": "公2F01",
-                    "original": "每週一5~6\t公2F01"
+                    "place": "公2F05",
+                    "original": "每週一5~6\t公2F05"
                 }
             ],
             "sign": "否",
@@ -17280,7 +17280,7 @@
                 "ch": "不動產個案研究",
                 "en": "Real Estate Case Study",
                 "limit": false,
-                "other": " "
+                "other": "Today’s class(SEP.8th) will be held in Humanities Building, Room 1F11."
             },
             "teacher": [
                 "李莎蕊"
@@ -20929,9 +20929,13 @@
                 {
                     "courseTime": 1,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週一5~7"
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "電4F08",
+                    "original": "每週一5~7\t電4F08"
                 }
             ],
             "sign": "否",
@@ -21683,8 +21687,8 @@
                         6,
                         7
                     ],
-                    "place": "商8F40",
-                    "original": "每週一5~7\t商8F40"
+                    "place": "商8F19",
+                    "original": "每週一5~7\t商8F19"
                 }
             ],
             "sign": "否",
@@ -24528,13 +24532,13 @@
                         3,
                         4
                     ],
-                    "place": "商7F41",
-                    "original": "每週一2~4\t商7F41"
+                    "place": "商8F40",
+                    "original": "每週一2~4\t商8F40"
                 }
             ],
             "sign": "是",
             "sign_people": "1",
-            "max_people": "6"
+            "max_people": "8"
         },
         {
             "year": "114",
@@ -24941,42 +24945,27 @@
         {
             "year": "114",
             "semester": "1",
-            "courseID": "P1005",
+            "courseID": "P1001",
             "department": "會碩職",
             "department_level": [
                 {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "企業併購碩士學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "租稅行政救濟學分學程"
-                },
-                {
-                    "grade": "1",
+                    "grade": "2",
                     "class": "",
                     "category": "會碩職",
-                    "original": "會碩職1"
+                    "original": "會碩職2"
                 }
             ],
             "compulsory": [
-                "選",
-                "選",
                 "選"
             ],
             "title": {
-                "ch": "高等審計學",
-                "en": "Advanced Auditing",
-                "limit": true,
-                "other": "607教室上課"
+                "ch": "公司治理與風險管理",
+                "en": "Corporate Governance and Risk Management",
+                "limit": false,
+                "other": "607教室上課\n*1140908依系所通知課程時間異動。\n*前8週上課時段為週三10-12節。"
             },
             "teacher": [
-                "葉淑玲",
-                "林孝倫"
+                "王怡心"
             ],
             "category": "半",
             "credit": "3",
@@ -24997,7 +24986,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "29"
+            "max_people": "30"
         },
         {
             "year": "114",
@@ -26165,8 +26154,8 @@
                         6,
                         7
                     ],
-                    "place": "商2F12",
-                    "original": "每週一5~7\t商2F12"
+                    "place": "商8F19",
+                    "original": "每週一5~7\t商8F19"
                 }
             ],
             "sign": "否",
@@ -28932,6 +28921,164 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "N2024",
+            "department": "(進修)北醫通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "(進修)北醫通識2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "美學、文化與藝術學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "美學、文化與藝術學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度一"
+                }
+            ],
+            "compulsory": [
+                "通",
+                "通",
+                "通"
+            ],
+            "title": {
+                "ch": "藝術作品及名畫欣賞",
+                "en": "Appreciation of Art & Artists",
+                "limit": true,
+                "other": "授課教師：陳瑞玲；上課地點：北醫-雙和校區9704"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一5~6"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "1"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "N2056",
+            "department": "(進修)北醫通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "(進修)北醫通識2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度五"
+                }
+            ],
+            "compulsory": [
+                "通"
+            ],
+            "title": {
+                "ch": "資訊行為導論",
+                "en": "Introduction to Information Behaviors",
+                "limit": true,
+                "other": "授課教師：邱子�琚F上課地點：北醫-信義校區3001"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一3~4"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "1"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "N2062",
+            "department": "(進修)北醫通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "(進修)北醫通識2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度五"
+                }
+            ],
+            "compulsory": [
+                "通"
+            ],
+            "title": {
+                "ch": "資訊科技與書香社會",
+                "en": "Information technology & reading society",
+                "limit": true,
+                "other": "授課教師：邱子�琚F上課地點：北醫-信義校區智慧群組教室-8004；資工系學生選讀，不列入其通識畢業學分數。"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一7~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "1"
         },
         {
             "year": "114",
@@ -32889,8 +33036,8 @@
                         1,
                         2
                     ],
-                    "place": "社113",
-                    "original": "每週一1~2\t社113"
+                    "place": "社114",
+                    "original": "每週一1~2\t社114"
                 }
             ],
             "sign": "是",
@@ -32954,8 +33101,8 @@
                         3,
                         4
                     ],
-                    "place": "社113",
-                    "original": "每週一3~4\t社113"
+                    "place": "社114",
+                    "original": "每週一3~4\t社114"
                 }
             ],
             "sign": "是",
@@ -34862,8 +35009,8 @@
                         3,
                         4
                     ],
-                    "place": "公2F01",
-                    "original": "每週二3~4\t公2F01"
+                    "place": "公2F06",
+                    "original": "每週二3~4\t公2F06"
                 }
             ],
             "sign": "否",
@@ -38156,7 +38303,7 @@
                 "ch": "社會科學研究方法",
                 "en": "Social Science Research Methods",
                 "limit": true,
-                "other": "★本課程113學年度入學者為二年級必修、114學年度入學一年級必修。114學年度由黃婉玲老師開設2班、陳澤鑫老師開設2班，共開設4班，皆可選修。"
+                "other": "★本課程113學年度入學者為二年級必修、114學年度入學一年級必修。114學年度由黃婉玲老師開設2班、陳澤鑫老師開設2班，共開設4班，皆可選修。截至114.09.08止，按學生來信先後順序，加簽名額已滿。"
             },
             "teacher": [
                 "黃婉玲"
@@ -54822,8 +54969,8 @@
                         1,
                         2
                     ],
-                    "place": "公1F21",
-                    "original": "每週二1~2\t公1F21"
+                    "place": "公2F06",
+                    "original": "每週二1~2\t公2F06"
                 }
             ],
             "sign": "否",
@@ -57129,7 +57276,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "20"
         },
         {
             "year": "114",
@@ -57279,7 +57426,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "2",
+            "sign_people": "5",
             "max_people": "12"
         },
         {
@@ -65094,6 +65241,130 @@
         {
             "year": "114",
             "semester": "1",
+            "courseID": "N2048",
+            "department": "(進修)北醫通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "(進修)北醫通識2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度二"
+                }
+            ],
+            "compulsory": [
+                "通",
+                "通",
+                "通"
+            ],
+            "title": {
+                "ch": "情緒管理",
+                "en": "Emotional Management",
+                "limit": true,
+                "other": "授課教師：劉玉華；上課地點：北醫-信義校區2204"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二5~6"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "1"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "N2055",
+            "department": "(進修)北醫通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "(進修)北醫通識2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "美學、文化與藝術學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "美學、文化與藝術學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度一"
+                }
+            ],
+            "compulsory": [
+                "通",
+                "通",
+                "通"
+            ],
+            "title": {
+                "ch": "中國藝術史",
+                "en": "The History of Chinese Arts",
+                "limit": true,
+                "other": "授課教師：陳瑞玲；上課地點：北醫-信義校區8001"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二7~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "1"
+        },
+        {
+            "year": "114",
+            "semester": "1",
             "courseID": "N4007",
             "department": "(進修)通識",
             "department_level": [
@@ -66833,8 +67104,8 @@
                     "original": "每週二7~8\t文2F09"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "40"
         },
         {
@@ -85224,7 +85495,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "46"
+            "max_people": "50"
         },
         {
             "year": "114",
@@ -94365,27 +94636,42 @@
         {
             "year": "114",
             "semester": "1",
-            "courseID": "P1001",
+            "courseID": "P1005",
             "department": "會碩職",
             "department_level": [
                 {
-                    "grade": "2",
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "企業併購碩士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "租稅行政救濟學分學程"
+                },
+                {
+                    "grade": "1",
                     "class": "",
                     "category": "會碩職",
-                    "original": "會碩職2"
+                    "original": "會碩職1"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
-                "ch": "公司治理與風險管理",
-                "en": "Corporate Governance and Risk Management",
-                "limit": false,
-                "other": "607教室上課"
+                "ch": "高等審計學",
+                "en": "Advanced Auditing",
+                "limit": true,
+                "other": "607教室上課\n*1140908依系所通知課程時間異動。\n*葉淑玲老師部份前8週上課時段為週一10-12節。"
             },
             "teacher": [
-                "王怡心"
+                "葉淑玲",
+                "林孝倫"
             ],
             "category": "半",
             "credit": "3",
@@ -94406,7 +94692,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "29"
         },
         {
             "year": "114",
@@ -99737,8 +100023,8 @@
                     "original": "每週三5~6\t法1F19"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "120"
         },
         {
@@ -107320,7 +107606,7 @@
                 "ch": "量化資料分析",
                 "en": "Quantitative Data Analysis",
                 "limit": false,
-                "other": "本課程在社會學系6樓專業教室上課。"
+                "other": "上課教室:社學系6F專業教室。"
             },
             "teacher": [
                 "戴翠莪"
@@ -107333,13 +107619,9 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": [
-                        6,
-                        7,
-                        8
-                    ],
-                    "place": "社207",
-                    "original": "每週四6~8\t社207"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四6~8"
                 }
             ],
             "sign": "是",
@@ -107535,8 +107817,8 @@
                         3,
                         4
                     ],
-                    "place": "商5F01",
-                    "original": "每週四2~4\t商5F01"
+                    "place": "社101",
+                    "original": "每週四2~4\t社101"
                 }
             ],
             "sign": "否",
@@ -124710,9 +124992,13 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四2~4"
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "電4F08",
+                    "original": "每週四2~4\t電4F08"
                 }
             ],
             "sign": "否",
@@ -126413,7 +126699,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "12"
         },
         {
             "year": "114",
@@ -128551,6 +128837,12 @@
                 },
                 {
                     "grade": "1",
+                    "class": "B",
+                    "category": "經濟系",
+                    "original": "經濟系1B"
+                },
+                {
+                    "grade": "1",
                     "class": "",
                     "category": "法律學系財經法組",
                     "original": "法律學系財經法組1"
@@ -128593,6 +128885,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -132098,6 +132391,68 @@
         {
             "year": "114",
             "semester": "1",
+            "courseID": "N2066",
+            "department": "(進修)北醫通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "(進修)北醫通識2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度一"
+                }
+            ],
+            "compulsory": [
+                "通",
+                "通",
+                "通"
+            ],
+            "title": {
+                "ch": "設計思考",
+                "en": "Design thinking",
+                "limit": true,
+                "other": "授課教師：邱佳慧、王明旭；上課地點：北醫-部分遠距教學(同步)，請同學務必至北醫系統確認老師授課進度表授課時間，再行選課。"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "1",
+            "hours": "1",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四1~1"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "1"
+        },
+        {
+            "year": "114",
+            "semester": "1",
             "courseID": "U2223",
             "department": "臺北醫大通識",
             "department_level": [
@@ -132151,6 +132506,68 @@
                     "sessions": "N/A",
                     "place": "N/A",
                     "original": "每週四1~1"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "1"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "N2065",
+            "department": "(進修)北醫通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "(進修)北醫通識2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "美學、文化與藝術學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "美學、文化與藝術學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度一"
+                }
+            ],
+            "compulsory": [
+                "通",
+                "通",
+                "通"
+            ],
+            "title": {
+                "ch": "創意學",
+                "en": "Creativity",
+                "limit": true,
+                "other": "授課教師：蔡宗良；上課地點：北醫-信義校區8006"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四1~2"
                 }
             ],
             "sign": "否",
@@ -134268,8 +134685,8 @@
                         3,
                         4
                     ],
-                    "place": "公1F10",
-                    "original": "每週四3~4\t公1F10"
+                    "place": "公2F36",
+                    "original": "每週四3~4\t公2F36"
                 }
             ],
             "sign": "是",
@@ -139083,9 +139500,16 @@
                     "class": "",
                     "category": "北科大",
                     "original": "北科大2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "調查方法與資料分析學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必"
             ],
             "title": {
@@ -146400,9 +146824,30 @@
                     "class": "",
                     "category": "北醫大",
                     "original": "北醫大2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "社會共融與障礙微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -149901,8 +150346,8 @@
                         6,
                         7
                     ],
-                    "place": "商7F41",
-                    "original": "每週五5~7\t商7F41"
+                    "place": "商8F40",
+                    "original": "每週五5~7\t商8F40"
                 }
             ],
             "sign": "是",
@@ -157293,7 +157738,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "12",
+            "sign_people": "6",
             "max_people": "60"
         },
         {
@@ -166807,6 +167252,7 @@
         "(進修)公政4B",
         "(進修)共同3",
         "(進修)共同4",
+        "(進修)北醫通識2",
         "(進修)數位行銷1",
         "(進修)數位行銷2",
         "(進修)數位行銷3",
