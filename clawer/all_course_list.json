@@ -1,6 +1,6 @@
 {
-    "start_time": "2025-09-09 01:13:38",
-    "end_time": "2025-09-09 01:14:06",
+    "start_time": "2025-09-11 01:13:31",
+    "end_time": "2025-09-11 01:14:06",
     "total_courses": 2570,
     "failed_weeks": [],
     "data": [
@@ -48,8 +48,8 @@
                         5,
                         6
                     ],
-                    "place": "社113",
-                    "original": "每週一5~6\t社113"
+                    "place": "社108",
+                    "original": "每週一5~6\t社108"
                 }
             ],
             "sign": "否",
@@ -2331,8 +2331,8 @@
                     "original": "每週一12~13\t402"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "9",
             "max_people": "45"
         },
         {
@@ -9642,8 +9642,8 @@
                         8,
                         9
                     ],
-                    "place": "社207",
-                    "original": "每週一7~9\t社207"
+                    "place": "商2F12",
+                    "original": "每週一7~9\t商2F12"
                 }
             ],
             "sign": "否",
@@ -10081,7 +10081,7 @@
                 "ch": "會計學",
                 "en": "Accounting",
                 "limit": false,
-                "other": " "
+                "other": "人工加簽限收財政系學生"
             },
             "teacher": [
                 "林孝倫"
@@ -10113,8 +10113,8 @@
                     "original": "實習每週一8~9\t商2F05"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "90"
         },
         {
@@ -12488,17 +12488,10 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "全球勞動法英語微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
                     "original": "創新創業學士微學程"
                 }
             ],
             "compulsory": [
-                "必",
                 "必",
                 "必",
                 "必",
@@ -13299,16 +13292,9 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "勞動法與人力資源管理微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "全球勞動法英語微學程"
                 }
             ],
             "compulsory": [
-                "必",
                 "必",
                 "必",
                 "必",
@@ -14009,7 +13995,7 @@
             "teacher": [
                 "黃瓊慧"
             ],
-            "category": "半",
+            "category": "全",
             "credit": "3",
             "hours": "3",
             "language": "中文",
@@ -17116,8 +17102,8 @@
                         5,
                         6
                     ],
-                    "place": "社108",
-                    "original": "每週一5~6\t社108"
+                    "place": "社113",
+                    "original": "每週一5~6\t社113"
                 }
             ],
             "sign": "否",
@@ -20203,9 +20189,9 @@
                     "original": "每週一3~4\t商1F01"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "120"
+            "sign": "是",
+            "sign_people": "5",
+            "max_people": "140"
         },
         {
             "year": "114",
@@ -20870,7 +20856,7 @@
                 "ch": "監獄學理論與實務",
                 "en": "Theories and Practice on Corrections",
                 "limit": false,
-                "other": "教室:台北教學大樓820研討室（與在職專班合班上課）；本課程原名「監獄學」，已修過該課者請勿重複修課。"
+                "other": "教室:台北教學大樓708研討室（與在職專班合班上課）；本課程原名「監獄學」，已修過該課者請勿重複修課。"
             },
             "teacher": [
                 "林健陽"
@@ -22649,7 +22635,7 @@
                 "ch": "環保犯罪學",
                 "en": "Green Criminology",
                 "limit": false,
-                "other": "本課程為通識中心、犯研所和資源所並列課程，由陳湘繁與黃蘭�漲悎v共授。教室：公院。請安排教室\"公235\"，上課需要有長型大桌子。"
+                "other": "本課程為通識中心、犯研所和資源所並列課程，由陳湘繁與黃蘭�漲悎v共授。教室：公院。上課需要有長型大桌子。"
             },
             "teacher": [
                 "黃蘭媖",
@@ -25226,7 +25212,7 @@
                 "ch": "監獄學理論與實務",
                 "en": "Theories and Practice on Corrections",
                 "limit": false,
-                "other": "教學大樓820研討室（與一般碩士生合班上課）\n*本課程原名「監獄學」，已修過該課者請勿重複修課。\n"
+                "other": "教學大樓708研討室（與一般碩士生合班上課）\n*本課程原名「監獄學」，已修過該課者請勿重複修課。\n"
             },
             "teacher": [
                 "林健陽"
@@ -25244,8 +25230,8 @@
                         11,
                         12
                     ],
-                    "place": "820",
-                    "original": "每週一10~12\t820"
+                    "place": "708",
+                    "original": "每週一10~12\t708"
                 }
             ],
             "sign": "否",
@@ -28448,15 +28434,8 @@
                         9,
                         10
                     ],
-                    "place": "資B1F-04",
-                    "original": "每週一7~10\t資B1F-04"
-                },
-                {
-                    "courseTime": "N/A",
-                    "time_category": "N/A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "第二教室文7F01"
+                    "place": "文7F01",
+                    "original": "每週一7~10\t文7F01"
                 }
             ],
             "sign": "否",
@@ -32349,7 +32328,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "14",
+            "sign_people": "54",
             "max_people": "70"
         },
         {
@@ -35503,8 +35482,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F03",
-                    "original": "每週二3~4\t法2F03"
+                    "place": "法2F16",
+                    "original": "每週二3~4\t法2F16"
                 }
             ],
             "sign": "否",
@@ -38320,8 +38299,8 @@
                         3,
                         4
                     ],
-                    "place": "公1F20",
-                    "original": "每週二3~4\t公1F20"
+                    "place": "法2F28",
+                    "original": "每週二3~4\t法2F28"
                 }
             ],
             "sign": "是",
@@ -38761,8 +38740,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F03",
-                    "original": "每週二3~4\t法2F03"
+                    "place": "法2F16",
+                    "original": "每週二3~4\t法2F16"
                 }
             ],
             "sign": "否",
@@ -39426,8 +39405,8 @@
                     "original": "每週二1~2\t公1F13"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "69"
         },
         {
@@ -41695,8 +41674,8 @@
                         8,
                         9
                     ],
-                    "place": "法2F15",
-                    "original": "每週二7~9\t法2F15"
+                    "place": "法2F28",
+                    "original": "每週二7~9\t法2F28"
                 }
             ],
             "sign": "否",
@@ -43482,15 +43461,15 @@
                         3,
                         4
                     ],
-                    "place": "資B1F-01",
-                    "original": "每週二2~4\t資B1F-01"
+                    "place": "電1F03",
+                    "original": "每週二2~4\t電1F03"
                 },
                 {
                     "courseTime": "N/A",
                     "time_category": "N/A",
                     "sessions": "N/A",
                     "place": "N/A",
-                    "original": "第二教室電1F03"
+                    "original": "第二教室資B1F-01"
                 }
             ],
             "sign": "否",
@@ -43566,7 +43545,7 @@
                 "ch": "會計學",
                 "en": "Accounting",
                 "limit": false,
-                "other": " "
+                "other": "人工加簽限收財政系學生"
             },
             "teacher": [
                 "林孝倫"
@@ -43598,8 +43577,8 @@
                     "original": "實習每週一8~9\t商2F05"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "90"
         },
         {
@@ -45722,7 +45701,7 @@
             "title": {
                 "ch": "風險管理與保險",
                 "en": "Risk Management and Insurance",
-                "limit": false,
+                "limit": true,
                 "other": "原課程名稱為\"保險學\"，113學年度起改名為\"風險管理與保險\"。"
             },
             "teacher": [
@@ -46438,8 +46417,8 @@
                         8,
                         9
                     ],
-                    "place": "法2F15",
-                    "original": "每週二7~9\t法2F15"
+                    "place": "法2F28",
+                    "original": "每週二7~9\t法2F28"
                 }
             ],
             "sign": "否",
@@ -50369,8 +50348,8 @@
                         5,
                         6
                     ],
-                    "place": "公1F10",
-                    "original": "每週二5~6\t公1F10"
+                    "place": "公1F15",
+                    "original": "每週二5~6\t公1F15"
                 }
             ],
             "sign": "否",
@@ -52124,30 +52103,9 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "國際經貿談判與訴訟人才學"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "跨國法律實務英語學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "跨國法律實務英語微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "全球勞動法英語微學程"
                 }
             ],
             "compulsory": [
-                "選",
-                "選",
-                "選",
                 "選",
                 "選"
             ],
@@ -54642,8 +54600,8 @@
                         5,
                         6
                     ],
-                    "place": "公1F10",
-                    "original": "每週二5~6\t公1F10"
+                    "place": "公1F15",
+                    "original": "每週二5~6\t公1F15"
                 }
             ],
             "sign": "否",
@@ -54691,16 +54649,9 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "勞動法與人力資源管理微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "全球勞動法英語微學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -55842,9 +55793,9 @@
                     "original": "每週二3~4\t商1F02"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "120"
+            "sign": "是",
+            "sign_people": "5",
+            "max_people": "130"
         },
         {
             "year": "114",
@@ -58953,8 +58904,8 @@
                         6,
                         7
                     ],
-                    "place": "商1F16",
-                    "original": "每週二5~7\t商1F16"
+                    "place": "商1F01",
+                    "original": "每週二5~7\t商1F01"
                 }
             ],
             "sign": "否",
@@ -60522,13 +60473,13 @@
                         6,
                         7
                     ],
-                    "place": "商1F16",
-                    "original": "每週二5~7\t商1F16"
+                    "place": "商1F01",
+                    "original": "每週二5~7\t商1F01"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "34"
+            "max_people": "42"
         },
         {
             "year": "114",
@@ -61845,12 +61796,12 @@
                         7,
                         8
                     ],
-                    "place": "社205",
-                    "original": "每週二6~8\t社205"
+                    "place": "電2F04",
+                    "original": "每週二6~8\t電2F04"
                 }
             ],
             "sign": "是",
-            "sign_people": "8",
+            "sign_people": "10",
             "max_people": "46"
         },
         {
@@ -62862,8 +62813,8 @@
                         6,
                         7
                     ],
-                    "place": "商1F16",
-                    "original": "每週二5~7\t商1F16"
+                    "place": "商1F01",
+                    "original": "每週二5~7\t商1F01"
                 }
             ],
             "sign": "否",
@@ -67216,8 +67167,8 @@
                         7,
                         8
                     ],
-                    "place": "文1F10",
-                    "original": "每週二7~8\t文1F10"
+                    "place": "文2F01",
+                    "original": "每週二7~8\t文2F01"
                 }
             ],
             "sign": "否",
@@ -68028,8 +67979,8 @@
                         8,
                         9
                     ],
-                    "place": "文2F01",
-                    "original": "每週二7~9\t文2F01"
+                    "place": "文1F10",
+                    "original": "每週二7~9\t文1F10"
                 }
             ],
             "sign": "是",
@@ -68410,8 +68361,8 @@
                         5,
                         6
                     ],
-                    "place": "社113",
-                    "original": "每週三5~6\t社113"
+                    "place": "社108",
+                    "original": "每週三5~6\t社108"
                 }
             ],
             "sign": "否",
@@ -69091,8 +69042,8 @@
                     "original": "每週三3~4"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "42"
         },
         {
@@ -70764,7 +70715,7 @@
                 "ch": "智慧醫療管理專題討論",
                 "en": "Smart Healthcare Management Seminar",
                 "limit": false,
-                "other": "請將教師安排於社科大樓20人-30人之空間。"
+                "other": "請將教師安排於社科大樓20人-30人之空間。(上課教室：社8F12)"
             },
             "teacher": [
                 "Muhammad Adeel",
@@ -70778,12 +70729,9 @@
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": [
-                        7,
-                        8
-                    ],
-                    "place": "社208",
-                    "original": "每週三7~8\t社208"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三7~8"
                 }
             ],
             "sign": "否",
@@ -74006,8 +73954,8 @@
                         8,
                         9
                     ],
-                    "place": "法1F19",
-                    "original": "每週三7~9\t法1F19"
+                    "place": "法2F28",
+                    "original": "每週三7~9\t法2F28"
                 }
             ],
             "sign": "否",
@@ -74080,8 +74028,8 @@
                         8,
                         9
                     ],
-                    "place": "法2F28",
-                    "original": "每週三7~9\t法2F28"
+                    "place": "法1F19",
+                    "original": "每週三7~9\t法1F19"
                 }
             ],
             "sign": "否",
@@ -76496,8 +76444,8 @@
                         8,
                         9
                     ],
-                    "place": "法1F19",
-                    "original": "每週三7~9\t法1F19"
+                    "place": "法2F28",
+                    "original": "每週三7~9\t法2F28"
                 }
             ],
             "sign": "否",
@@ -77438,8 +77386,8 @@
                         8,
                         9
                     ],
-                    "place": "法2F28",
-                    "original": "每週三7~9\t法2F28"
+                    "place": "法1F19",
+                    "original": "每週三7~9\t法1F19"
                 }
             ],
             "sign": "是",
@@ -79537,7 +79485,7 @@
             "teacher": [
                 "黃瓊慧"
             ],
-            "category": "半",
+            "category": "全",
             "credit": "3",
             "hours": "3",
             "language": "中文",
@@ -83606,8 +83554,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F13",
-                    "original": "每週三3~4\t法2F13"
+                    "place": "電1F06",
+                    "original": "每週三3~4\t電1F06"
                 }
             ],
             "sign": "否",
@@ -85135,16 +85083,9 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "勞動法與人力資源管理微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "全球勞動法英語微學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -85444,8 +85385,8 @@
                         5,
                         6
                     ],
-                    "place": "社108",
-                    "original": "每週三5~6\t社108"
+                    "place": "社113",
+                    "original": "每週三5~6\t社113"
                 }
             ],
             "sign": "否",
@@ -87502,8 +87443,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F13",
-                    "original": "每週三3~4\t法2F13"
+                    "place": "電1F06",
+                    "original": "每週三3~4\t電1F06"
                 }
             ],
             "sign": "是",
@@ -89277,25 +89218,11 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "學分學程",
-                    "original": "跨國法律實務英語學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "跨國法律實務英語微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "微學程",
                     "original": "文化與溝通英語授課微學程"
                 }
             ],
             "compulsory": [
-                "選",
-                "選",
                 "選",
                 "選",
                 "選",
@@ -90874,9 +90801,12 @@
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週三3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "公1F11",
+                    "original": "每週三3~4\t公1F11"
                 }
             ],
             "sign": "否",
@@ -91216,8 +91146,8 @@
                         8,
                         9
                     ],
-                    "place": "商2F02",
-                    "original": "每週三7~9\t商2F02"
+                    "place": "商5F44",
+                    "original": "每週三7~9\t商5F44"
                 }
             ],
             "sign": "否",
@@ -107799,7 +107729,7 @@
                 "ch": "財務管理",
                 "en": "Financial Management",
                 "limit": false,
-                "other": " "
+                "other": "人工加簽限GMBA或企碩乙組學生"
             },
             "teacher": [
                 "游擱嘉"
@@ -107821,8 +107751,8 @@
                     "original": "每週四2~4\t社101"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "7",
             "max_people": "45"
         },
         {
@@ -125116,7 +125046,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "15"
         },
         {
             "year": "114",
@@ -125485,7 +125415,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "2"
+            "max_people": "1"
         },
         {
             "year": "114",
@@ -129545,8 +129475,8 @@
                     "original": "每週四2~4\t社205"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "50"
         },
         {
@@ -129647,8 +129577,8 @@
                     "original": "每週四5~7\t法2F27"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "72"
         },
         {
@@ -130256,7 +130186,7 @@
             ],
             "sign": "是",
             "sign_people": "3",
-            "max_people": "18"
+            "max_people": "23"
         },
         {
             "year": "114",
@@ -141445,7 +141375,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "86"
+            "max_people": "92"
         },
         {
             "year": "114",
@@ -145888,7 +145818,7 @@
                 "ch": "組織經濟學",
                 "en": "Organizational Economics",
                 "limit": true,
-                "other": " "
+                "other": "[停開]1140910依系所通知停開"
             },
             "teacher": [
                 "劉坤億"
@@ -153141,8 +153071,8 @@
                         8,
                         9
                     ],
-                    "place": "文2F10",
-                    "original": "每週五7~9\t文2F10"
+                    "place": "文2F07",
+                    "original": "每週五7~9\t文2F07"
                 }
             ],
             "sign": "否",
@@ -153454,8 +153384,8 @@
                         8,
                         9
                     ],
-                    "place": "文2F07",
-                    "original": "每週五7~9\t文2F07"
+                    "place": "文2F10",
+                    "original": "每週五7~9\t文2F10"
                 }
             ],
             "sign": "否",
