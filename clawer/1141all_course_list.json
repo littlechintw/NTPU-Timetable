@@ -1,7 +1,7 @@
 {
-    "start_time": "2025-09-11 01:13:31",
-    "end_time": "2025-09-11 01:14:06",
-    "total_courses": 2570,
+    "start_time": "2025-09-13 01:07:40",
+    "end_time": "2025-09-13 01:08:11",
+    "total_courses": 2573,
     "failed_weeks": [],
     "data": [
         {
@@ -54,7 +54,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "30"
         },
         {
             "year": "114",
@@ -6261,8 +6261,8 @@
                     "original": "每週一3~4\t法1F19"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "19",
             "max_people": "110"
         },
         {
@@ -8959,7 +8959,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "48"
+            "max_people": "49"
         },
         {
             "year": "114",
@@ -9178,8 +9178,8 @@
                     "original": "實習每週一3~4\t商2F05"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "6",
             "max_people": "70"
         },
         {
@@ -9296,7 +9296,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "48"
+            "max_people": "49"
         },
         {
             "year": "114",
@@ -9412,7 +9412,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "48"
+            "max_people": "49"
         },
         {
             "year": "114",
@@ -9588,7 +9588,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "48"
+            "max_people": "49"
         },
         {
             "year": "114",
@@ -9852,7 +9852,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "48"
+            "max_people": "49"
         },
         {
             "year": "114",
@@ -10231,7 +10231,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "48"
+            "max_people": "49"
         },
         {
             "year": "114",
@@ -10583,7 +10583,7 @@
                 "ch": "微積分",
                 "en": "Calculus",
                 "limit": false,
-                "other": "*全英語授課，不限科系。加簽名額限具有僑澳生身分學生。"
+                "other": "*全英語授課，不限科系。"
             },
             "teacher": [
                 "余日彰"
@@ -10606,7 +10606,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "2",
+            "sign_people": "3",
             "max_people": "49"
         },
         {
@@ -10823,7 +10823,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "48"
+            "max_people": "49"
         },
         {
             "year": "114",
@@ -10926,8 +10926,8 @@
                         6,
                         7
                     ],
-                    "place": "公1F12",
-                    "original": "每週四5~7\t公1F12"
+                    "place": "公2F36",
+                    "original": "每週四5~7\t公2F36"
                 },
                 {
                     "courseTime": 1,
@@ -10936,8 +10936,8 @@
                         1,
                         2
                     ],
-                    "place": "公1F01",
-                    "original": "實習每週一1~2\t公1F01"
+                    "place": "公1F30",
+                    "original": "實習每週一1~2\t公1F30"
                 }
             ],
             "sign": "否",
@@ -12529,7 +12529,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "67"
+            "max_people": "68"
         },
         {
             "year": "114",
@@ -12659,7 +12659,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "67"
+            "max_people": "68"
         },
         {
             "year": "114",
@@ -17108,7 +17108,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -17266,7 +17266,7 @@
                 "ch": "不動產個案研究",
                 "en": "Real Estate Case Study",
                 "limit": false,
-                "other": "Today’s class(SEP.8th) will be held in Humanities Building, Room 1F11."
+                "other": "社科院111教室 (Social Science Bulding Room 111)"
             },
             "teacher": [
                 "李莎蕊"
@@ -17279,12 +17279,9 @@
                 {
                     "courseTime": 1,
                     "time_category": "A",
-                    "sessions": [
-                        3,
-                        4
-                    ],
-                    "place": "社208",
-                    "original": "每週一3~4\t社208"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一3~4"
                 }
             ],
             "sign": "否",
@@ -17339,8 +17336,8 @@
                     "original": "每週一7~8\t文2F12"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "29"
         },
         {
@@ -19018,8 +19015,8 @@
                         3,
                         4
                     ],
-                    "place": "文3F02_L",
-                    "original": "每週一3~4\t文3F02_L"
+                    "place": "文1F11",
+                    "original": "每週一3~4\t文1F11"
                 }
             ],
             "sign": "是",
@@ -21379,9 +21376,9 @@
                     "original": "每週一10~12\t711"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "12"
+            "sign": "是",
+            "sign_people": "2",
+            "max_people": "15"
         },
         {
             "year": "114",
@@ -21673,8 +21670,8 @@
                         6,
                         7
                     ],
-                    "place": "商8F19",
-                    "original": "每週一5~7\t商8F19"
+                    "place": "商8F18",
+                    "original": "每週一5~7\t商8F18"
                 }
             ],
             "sign": "否",
@@ -26140,8 +26137,8 @@
                         6,
                         7
                     ],
-                    "place": "商8F19",
-                    "original": "每週一5~7\t商8F19"
+                    "place": "商8F18",
+                    "original": "每週一5~7\t商8F18"
                 }
             ],
             "sign": "否",
@@ -27365,7 +27362,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "26"
+            "max_people": "31"
         },
         {
             "year": "114",
@@ -28641,8 +28638,8 @@
                         7,
                         8
                     ],
-                    "place": "社113",
-                    "original": "每週一7~8\t社113"
+                    "place": "社108",
+                    "original": "每週一7~8\t社108"
                 },
                 {
                     "courseTime": 3,
@@ -28651,8 +28648,8 @@
                         7,
                         8
                     ],
-                    "place": "社113",
-                    "original": "每週三7~8\t社113"
+                    "place": "社108",
+                    "original": "每週三7~8\t社108"
                 }
             ],
             "sign": "是",
@@ -28784,7 +28781,7 @@
                 "ch": "高階華語（三）",
                 "en": "Advanced Mandarin (3)",
                 "limit": true,
-                "other": "It's recommended that students complete Advanced Mandarin (2).\n僑生選課前請洽華語中心"
+                "other": "[停開]It's recommended that students complete Advanced Mandarin (2).\n僑生選課前請洽華語中心。114.9.12通知停開。"
             },
             "teacher": [
                 "潘奕叡",
@@ -28802,8 +28799,8 @@
                         7,
                         8
                     ],
-                    "place": "社108",
-                    "original": "每週一7~8\t社108"
+                    "place": "社113",
+                    "original": "每週一7~8\t社113"
                 },
                 {
                     "courseTime": 3,
@@ -29301,8 +29298,8 @@
                     "original": "每週一12~13\t210"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "10",
             "max_people": "50"
         },
         {
@@ -35277,6 +35274,58 @@
         {
             "year": "114",
             "semester": "1",
+            "courseID": "M5504",
+            "department": "法博",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "法博",
+                    "original": "法博1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "法博",
+                    "original": "法博2"
+                }
+            ],
+            "compulsory": [
+                "必",
+                "必"
+            ],
+            "title": {
+                "ch": "財經法專題綜合研究",
+                "en": "Seminar：Omnibus Financial and Economic Law",
+                "limit": false,
+                "other": "1140912通知新開。博士班獨開課程。博士班財經法領域二選一必修。98學年以後入學者必修。"
+            },
+            "teacher": [
+                "王怡蘋"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        1,
+                        2
+                    ],
+                    "place": "法5F19",
+                    "original": "每週二1~2\t法5F19"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "5"
+        },
+        {
+            "year": "114",
+            "semester": "1",
             "courseID": "M6062",
             "department": "法碩法專組",
             "department_level": [
@@ -36986,8 +37035,8 @@
                     "original": "每週二5~6\t法1F19"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "13",
             "max_people": "75"
         },
         {
@@ -37603,7 +37652,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "68"
+            "max_people": "75"
         },
         {
             "year": "114",
@@ -38299,8 +38348,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F28",
-                    "original": "每週二3~4\t法2F28"
+                    "place": "公1F13",
+                    "original": "每週二3~4\t公1F13"
                 }
             ],
             "sign": "是",
@@ -41361,7 +41410,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "41"
         },
         {
             "year": "114",
@@ -44268,8 +44317,8 @@
                     "original": "實習每週四5~6\t商2F09"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "80"
         },
         {
@@ -45350,7 +45399,7 @@
                 "ch": "機率概論",
                 "en": "Introduction to Probability",
                 "limit": false,
-                "other": "*擋修:微積分.\n*英語授課."
+                "other": "*擋修:微積分.\n*英語授課.\n加簽名額限統計系學生(含雙輔生)"
             },
             "teacher": [
                 "朱是鍇"
@@ -45372,8 +45421,8 @@
                     "original": "每週二2~4\t商2F08"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "3",
             "max_people": "93"
         },
         {
@@ -45585,7 +45634,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "81"
+            "max_people": "82"
         },
         {
             "year": "114",
@@ -45666,7 +45715,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "81"
+            "max_people": "82"
         },
         {
             "year": "114",
@@ -47655,8 +47704,8 @@
                     "original": "每週二5~7\t法2F01"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "20",
             "max_people": "110"
         },
         {
@@ -51647,12 +51696,12 @@
                         7,
                         8
                     ],
-                    "place": "法5F16",
-                    "original": "每週二7~8\t法5F16"
+                    "place": "法2F25",
+                    "original": "每週二7~8\t法2F25"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "4",
             "max_people": "20"
         },
         {
@@ -53116,8 +53165,8 @@
                         3,
                         4
                     ],
-                    "place": "公1F13",
-                    "original": "每週二3~4\t公1F13"
+                    "place": "公1F20",
+                    "original": "每週二3~4\t公1F20"
                 }
             ],
             "sign": "是",
@@ -58308,8 +58357,8 @@
                         6,
                         7
                     ],
-                    "place": "商8F19",
-                    "original": "每週二5~7\t商8F19"
+                    "place": "商8F18",
+                    "original": "每週二5~7\t商8F18"
                 }
             ],
             "sign": "否",
@@ -60854,8 +60903,8 @@
                         6,
                         7
                     ],
-                    "place": "商5F44",
-                    "original": "每週二5~7\t商5F44"
+                    "place": "商5F01",
+                    "original": "每週二5~7\t商5F01"
                 }
             ],
             "sign": "否",
@@ -62046,8 +62095,8 @@
                     "original": "每週二5~7\t法2F03"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "16",
             "max_people": "95"
         },
         {
@@ -62507,8 +62556,8 @@
                         6,
                         7
                     ],
-                    "place": "商8F19",
-                    "original": "每週二5~7\t商8F19"
+                    "place": "商8F18",
+                    "original": "每週二5~7\t商8F18"
                 }
             ],
             "sign": "否",
@@ -63430,7 +63479,7 @@
                 "ch": "企業研究方法",
                 "en": "Business Research Methods",
                 "limit": false,
-                "other": " "
+                "other": "[停開]114.9.11通知停開"
             },
             "teacher": [
                 "吳泰熙"
@@ -64175,7 +64224,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "21"
         },
         {
             "year": "114",
@@ -66693,7 +66742,7 @@
                 "ch": "網路生活應用",
                 "en": "Internet Applications in Our Daily Life",
                 "limit": false,
-                "other": "資工系、企管系學生選讀，不列入其通識畢業學分數。"
+                "other": "資工系、企管系學生選讀，不列入其通識畢業學分數。114.9.11通知上課教室異動。"
             },
             "teacher": [
                 "溫演福"
@@ -66710,12 +66759,12 @@
                         3,
                         4
                     ],
-                    "place": "法1F04",
-                    "original": "每週二3~4\t法1F04"
+                    "place": "法2F03",
+                    "original": "每週二3~4\t法2F03"
                 }
             ],
             "sign": "是",
-            "sign_people": "14",
+            "sign_people": "35",
             "max_people": "80"
         },
         {
@@ -66904,7 +66953,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "33"
         },
         {
             "year": "114",
@@ -68367,7 +68416,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "30"
         },
         {
             "year": "114",
@@ -75853,7 +75902,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "67"
+            "max_people": "71"
         },
         {
             "year": "114",
@@ -76187,7 +76236,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "67"
+            "max_people": "71"
         },
         {
             "year": "114",
@@ -76332,8 +76381,8 @@
                     "original": "實習每週一3~4\t商2F05"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "6",
             "max_people": "70"
         },
         {
@@ -76559,7 +76608,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "67"
+            "max_people": "71"
         },
         {
             "year": "114",
@@ -76668,7 +76717,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "67"
+            "max_people": "71"
         },
         {
             "year": "114",
@@ -77188,7 +77237,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "67"
+            "max_people": "71"
         },
         {
             "year": "114",
@@ -81456,7 +81505,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "80"
+            "max_people": "85"
         },
         {
             "year": "114",
@@ -82603,8 +82652,8 @@
                     "original": "每週三3~4\t法2F25"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "4",
             "max_people": "20"
         },
         {
@@ -82885,7 +82934,7 @@
                 "ch": "經典與研究",
                 "en": "Study in Classics and Cannons",
                 "limit": false,
-                "other": "請安排於人文7F25教室"
+                "other": "[停開]1140911通知課程停開。請安排於人文7F25教室"
             },
             "teacher": [
                 "楊�暌s"
@@ -83453,13 +83502,13 @@
                         3,
                         4
                     ],
-                    "place": "法5F19",
-                    "original": "每週三3~4\t法5F19"
+                    "place": "法2F24",
+                    "original": "每週三3~4\t法2F24"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "25"
         },
         {
             "year": "114",
@@ -83558,8 +83607,8 @@
                     "original": "每週三3~4\t電1F06"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "4",
             "max_people": "20"
         },
         {
@@ -83620,8 +83669,8 @@
                         9,
                         10
                     ],
-                    "place": "法2F02",
-                    "original": "每週三9~10\t法2F02"
+                    "place": "法2F16",
+                    "original": "每週三9~10\t法2F16"
                 }
             ],
             "sign": "否",
@@ -83933,13 +83982,13 @@
                         7,
                         8
                     ],
-                    "place": "法5F16",
-                    "original": "每週三7~8\t法5F16"
+                    "place": "法2F25",
+                    "original": "每週三7~8\t法2F25"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "25"
         },
         {
             "year": "114",
@@ -84388,7 +84437,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "67"
+            "max_people": "77"
         },
         {
             "year": "114",
@@ -84742,7 +84791,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "56"
+            "max_people": "66"
         },
         {
             "year": "114",
@@ -84861,7 +84910,7 @@
                 "ch": "政治哲學導論",
                 "en": "Introduction to Political Philosophy",
                 "limit": true,
-                "other": " "
+                "other": "[停開]1140911依系所通知停開"
             },
             "teacher": [
                 "朱紹俊"
@@ -85391,7 +85440,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -85436,7 +85485,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "50"
+            "max_people": "55"
         },
         {
             "year": "114",
@@ -86493,8 +86542,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F01",
-                    "original": "每週三7~8\t法2F01"
+                    "place": "社103",
+                    "original": "每週三7~8\t社103"
                 }
             ],
             "sign": "否",
@@ -86605,8 +86654,8 @@
                     "original": "每週三7~8\t法2F16"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "17",
             "max_people": "100"
         },
         {
@@ -86848,13 +86897,13 @@
                         9,
                         10
                     ],
-                    "place": "法2F02",
-                    "original": "每週三9~10\t法2F02"
+                    "place": "法2F16",
+                    "original": "每週三9~10\t法2F16"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "100"
+            "sign": "是",
+            "sign_people": "17",
+            "max_people": "115"
         },
         {
             "year": "114",
@@ -86914,8 +86963,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F01",
-                    "original": "每週三5~6\t法2F01"
+                    "place": "社103",
+                    "original": "每週三5~6\t社103"
                 }
             ],
             "sign": "是",
@@ -87923,8 +87972,8 @@
                         3,
                         4
                     ],
-                    "place": "法5F19",
-                    "original": "每週三3~4\t法5F19"
+                    "place": "法2F24",
+                    "original": "每週三3~4\t法2F24"
                 }
             ],
             "sign": "否",
@@ -89799,6 +89848,51 @@
         {
             "year": "114",
             "semester": "1",
+            "courseID": "U4242",
+            "department": "語言",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "共同科",
+                    "original": "共同科4"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "越南語（一）",
+                "en": "Vietnamese(1)",
+                "limit": false,
+                "other": "1140911通知上課時間異動。本課程限非越南語母語者修習。"
+            },
+            "teacher": [
+                "范垂玲"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "商1F04",
+                    "original": "每週三3~4\t商1F04"
+                }
+            ],
+            "sign": "是",
+            "sign_people": "7",
+            "max_people": "35"
+        },
+        {
+            "year": "114",
+            "semester": "1",
             "courseID": "U4250",
             "department": "語言",
             "department_level": [
@@ -90410,6 +90504,51 @@
         {
             "year": "114",
             "semester": "1",
+            "courseID": "U4308",
+            "department": "語言",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "共同科",
+                    "original": "共同科4"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "越南語（一）",
+                "en": "Vietnamese(1)",
+                "limit": false,
+                "other": "1140911通知上課時間異動。本課程限非越南語母語者修習。"
+            },
+            "teacher": [
+                "范垂玲"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "商1F04",
+                    "original": "每週三5~6\t商1F04"
+                }
+            ],
+            "sign": "是",
+            "sign_people": "7",
+            "max_people": "35"
+        },
+        {
+            "year": "114",
+            "semester": "1",
             "courseID": "U4316",
             "department": "語言",
             "department_level": [
@@ -90731,7 +90870,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "18"
+            "max_people": "20"
         },
         {
             "year": "114",
@@ -91866,7 +92005,7 @@
                 "ch": "近代漢語音韻學專題研究",
                 "en": "Special Topics in Modern Chinese Historical Phonology",
                 "limit": false,
-                "other": "1.請安排於人文7F25教室\n2.本課程為學碩合開"
+                "other": "[停開]1140911通知課程停開。\n1.請安排於人文7F25教室\n2.本課程為學碩合開"
             },
             "teacher": [
                 "李柏翰"
@@ -93429,7 +93568,7 @@
                 "ch": "人工智慧專題研討",
                 "en": "Seminar on Artificial Intelligence",
                 "limit": false,
-                "other": "第一堂課請務必到場"
+                "other": "第一堂課請務必到場。114.9.12通知上課教室異動。"
             },
             "teacher": [
                 "楊溥泰"
@@ -93447,8 +93586,8 @@
                         3,
                         4
                     ],
-                    "place": "商3F10",
-                    "original": "每週三2~4\t商3F10"
+                    "place": "商4F05-1",
+                    "original": "每週三2~4\t商4F05-1"
                 }
             ],
             "sign": "否",
@@ -95568,7 +95707,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "94"
+            "max_people": "100"
         },
         {
             "year": "114",
@@ -96393,7 +96532,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "41"
+            "max_people": "43"
         },
         {
             "year": "114",
@@ -97156,12 +97295,12 @@
                         3,
                         4
                     ],
-                    "place": "社205",
-                    "original": "每週三2~4\t社205"
+                    "place": "電2F04",
+                    "original": "每週三2~4\t電2F04"
                 }
             ],
             "sign": "是",
-            "sign_people": "8",
+            "sign_people": "25",
             "max_people": "46"
         },
         {
@@ -97332,7 +97471,7 @@
                 "ch": "近代漢語音韻學專題研究",
                 "en": "Special Topics in Modern Chinese Historical Phonology",
                 "limit": true,
-                "other": "1.請安排於人文7F25教室\n2.本課程為學碩合開"
+                "other": "[停開]1140911通知課程停開。\n1.請安排於人文7F25教室\n2.本課程為學碩合開"
             },
             "teacher": [
                 "李柏翰"
@@ -97925,8 +98064,8 @@
                         7,
                         8
                     ],
-                    "place": "社113",
-                    "original": "每週一7~8\t社113"
+                    "place": "社108",
+                    "original": "每週一7~8\t社108"
                 },
                 {
                     "courseTime": 3,
@@ -97935,8 +98074,8 @@
                         7,
                         8
                     ],
-                    "place": "社113",
-                    "original": "每週三7~8\t社113"
+                    "place": "社108",
+                    "original": "每週三7~8\t社108"
                 }
             ],
             "sign": "是",
@@ -97984,7 +98123,7 @@
                 "ch": "高階華語（三）",
                 "en": "Advanced Mandarin (3)",
                 "limit": true,
-                "other": "It's recommended that students complete Advanced Mandarin (2).\n僑生選課前請洽華語中心"
+                "other": "[停開]It's recommended that students complete Advanced Mandarin (2).\n僑生選課前請洽華語中心。114.9.12通知停開。"
             },
             "teacher": [
                 "潘奕叡",
@@ -98002,8 +98141,8 @@
                         7,
                         8
                     ],
-                    "place": "社108",
-                    "original": "每週一7~8\t社108"
+                    "place": "社113",
+                    "original": "每週一7~8\t社113"
                 },
                 {
                     "courseTime": 3,
@@ -98261,6 +98400,66 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "U4243",
+            "department": "微型通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "微型通識4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
+                }
+            ],
+            "compulsory": [
+                "通",
+                "通",
+                "通"
+            ],
+            "title": {
+                "ch": "通識微型課程-播客製作",
+                "en": "General Education Miniature Course: Podcast Making",
+                "limit": false,
+                "other": "本課程主題為播客製作。本課程與北大不好意思電台合作，由學生依據播客製作的學習目標，提出自主學習課程計畫方式規劃各類相關活動，總計27學時(1學分)的學習活動，以取得微學分。成績以P或F評分。於畢業前可擇一向度適用之。(上課時間是晚上7:00-9:00)"
+            },
+            "teacher": [
+                "陳淑惠"
+            ],
+            "category": "半",
+            "credit": "1",
+            "hours": "1",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "商2F02",
+                    "original": "每週三10~12\t商2F02"
+                }
+            ],
+            "sign": "是",
+            "sign_people": "4",
+            "max_people": "20"
         },
         {
             "year": "114",
@@ -99767,7 +99966,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "120"
+            "max_people": "128"
         },
         {
             "year": "114",
@@ -105148,8 +105347,8 @@
                     "original": "每週四3~4\t法4F14"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "23",
             "max_people": "130"
         },
         {
@@ -107127,7 +107326,7 @@
             ],
             "sign": "是",
             "sign_people": "4",
-            "max_people": "69"
+            "max_people": "76"
         },
         {
             "year": "114",
@@ -107638,6 +107837,12 @@
                 },
                 {
                     "grade": "1",
+                    "class": "A",
+                    "category": "企碩",
+                    "original": "企碩1A"
+                },
+                {
+                    "grade": "1",
                     "class": "",
                     "category": "智慧醫療碩士學位學程",
                     "original": "智慧醫療碩士學位學程1"
@@ -107712,6 +107917,7 @@
             "compulsory": [
                 "必",
                 "必",
+                "必",
                 "選",
                 "選",
                 "必",
@@ -107749,6 +107955,13 @@
                     ],
                     "place": "社101",
                     "original": "每週四2~4\t社101"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室法2F19"
                 }
             ],
             "sign": "是",
@@ -107990,8 +108203,8 @@
                         3,
                         4
                     ],
-                    "place": "商8F26",
-                    "original": "每週四2~4\t商8F26"
+                    "place": "商8F18",
+                    "original": "每週四2~4\t商8F18"
                 }
             ],
             "sign": "否",
@@ -111645,8 +111858,8 @@
                     "original": "實習每週四5~6\t商2F09"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "80"
         },
         {
@@ -112202,8 +112415,8 @@
                         6,
                         7
                     ],
-                    "place": "公1F12",
-                    "original": "每週四5~7\t公1F12"
+                    "place": "公2F36",
+                    "original": "每週四5~7\t公2F36"
                 },
                 {
                     "courseTime": 1,
@@ -112212,8 +112425,8 @@
                         1,
                         2
                     ],
-                    "place": "公1F01",
-                    "original": "實習每週一1~2\t公1F01"
+                    "place": "公1F30",
+                    "original": "實習每週一1~2\t公1F30"
                 }
             ],
             "sign": "否",
@@ -115569,7 +115782,56 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "80"
+            "max_people": "85"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "P2031",
+            "department": "企軍經管碩職",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "企軍經管碩職",
+                    "original": "企軍經管碩職2"
+                }
+            ],
+            "compulsory": [
+                "必"
+            ],
+            "title": {
+                "ch": "撰寫論文",
+                "en": "Thesis Writing",
+                "limit": false,
+                "other": "企軍經管碩職二年級務必選本項課程(限企軍經管碩職二年級選課)\n*1140911依系所通知調整時間教室。"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "6",
+            "hours": "6",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "商5F02",
+                    "original": "每週四2~7\t商5F02"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
         },
         {
             "year": "114",
@@ -116640,7 +116902,7 @@
                 "ch": "醫療系統",
                 "en": "Healthcare System",
                 "limit": false,
-                "other": " "
+                "other": "[停開]1140912通知停開"
             },
             "teacher": [
                 "陳介然"
@@ -116810,12 +117072,12 @@
                         5,
                         6
                     ],
-                    "place": "法5F16",
-                    "original": "每週四5~6\t法5F16"
+                    "place": "法2F25",
+                    "original": "每週四5~6\t法2F25"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "4",
             "max_people": "20"
         },
         {
@@ -118854,7 +119116,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "46"
+            "max_people": "61"
         },
         {
             "year": "114",
@@ -119554,7 +119816,7 @@
             ],
             "sign": "是",
             "sign_people": "4",
-            "max_people": "51"
+            "max_people": "59"
         },
         {
             "year": "114",
@@ -120272,7 +120534,7 @@
                 "ch": "不動產開發",
                 "en": "Real Estate Development",
                 "limit": true,
-                "other": "主修經營與管理組者必選，其他組別為選修。合班授課。第二教室：公8F23教室"
+                "other": "主修經營與管理組者必選，其他組別為選修。合班授課。"
             },
             "teacher": [
                 "游舜德"
@@ -120289,15 +120551,8 @@
                         3,
                         4
                     ],
-                    "place": "公1F21",
-                    "original": "每週四3~4\t公1F21"
-                },
-                {
-                    "courseTime": "N/A",
-                    "time_category": "N/A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "第二教室公8F23_製圖室"
+                    "place": "公8F23_製圖室",
+                    "original": "每週四3~4\t公8F23_製圖室"
                 }
             ],
             "sign": "否",
@@ -120540,9 +120795,9 @@
                     "original": "每週四5~6\t公1F27"
                 }
             ],
-            "sign": "是",
-            "sign_people": "16",
-            "max_people": "92"
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "128"
         },
         {
             "year": "114",
@@ -121719,51 +121974,6 @@
         {
             "year": "114",
             "semester": "1",
-            "courseID": "U4242",
-            "department": "語言",
-            "department_level": [
-                {
-                    "grade": "4",
-                    "class": "",
-                    "category": "共同科",
-                    "original": "共同科4"
-                }
-            ],
-            "compulsory": [
-                "選"
-            ],
-            "title": {
-                "ch": "越南語（一）",
-                "en": "Vietnamese(1)",
-                "limit": false,
-                "other": "本課程限非越南語母語者修習。"
-            },
-            "teacher": [
-                "范垂玲"
-            ],
-            "category": "半",
-            "credit": "2",
-            "hours": "2",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 4,
-                    "time_category": "A",
-                    "sessions": [
-                        3,
-                        4
-                    ],
-                    "place": "文4F07",
-                    "original": "每週四3~4\t文4F07"
-                }
-            ],
-            "sign": "是",
-            "sign_people": "7",
-            "max_people": "35"
-        },
-        {
-            "year": "114",
-            "semester": "1",
             "courseID": "U4267",
             "department": "語言",
             "department_level": [
@@ -122177,51 +122387,6 @@
         {
             "year": "114",
             "semester": "1",
-            "courseID": "U4308",
-            "department": "語言",
-            "department_level": [
-                {
-                    "grade": "4",
-                    "class": "",
-                    "category": "共同科",
-                    "original": "共同科4"
-                }
-            ],
-            "compulsory": [
-                "選"
-            ],
-            "title": {
-                "ch": "越南語（一）",
-                "en": "Vietnamese(1)",
-                "limit": false,
-                "other": "本課程限非越南語母語者修習。"
-            },
-            "teacher": [
-                "范垂玲"
-            ],
-            "category": "半",
-            "credit": "2",
-            "hours": "2",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 4,
-                    "time_category": "A",
-                    "sessions": [
-                        5,
-                        6
-                    ],
-                    "place": "商1F15",
-                    "original": "每週四5~6\t商1F15"
-                }
-            ],
-            "sign": "是",
-            "sign_people": "7",
-            "max_people": "35"
-        },
-        {
-            "year": "114",
-            "semester": "1",
             "courseID": "U4309",
             "department": "語言",
             "department_level": [
@@ -122601,7 +122766,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "6"
+            "max_people": "11"
         },
         {
             "year": "114",
@@ -124063,13 +124228,13 @@
                         11,
                         12
                     ],
-                    "place": "713",
-                    "original": "每週四10~12\t713"
+                    "place": "719",
+                    "original": "每週四10~12\t719"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "60"
         },
         {
             "year": "114",
@@ -127504,8 +127669,8 @@
                         6,
                         7
                     ],
-                    "place": "商8F19",
-                    "original": "每週四5~7\t商8F19"
+                    "place": "商8F18",
+                    "original": "每週四5~7\t商8F18"
                 }
             ],
             "sign": "否",
@@ -128386,7 +128551,7 @@
                 "ch": "永續金融",
                 "en": "Sustainable Finance",
                 "limit": false,
-                "other": "教學大樓815教室，未開放旁聽"
+                "other": "教學大樓826教室，未開放旁聽"
             },
             "teacher": [
                 "陳宥杉",
@@ -128405,8 +128570,8 @@
                         12,
                         13
                     ],
-                    "place": "815",
-                    "original": "每週四11~13\t815"
+                    "place": "826",
+                    "original": "每週四11~13\t826"
                 }
             ],
             "sign": "否",
@@ -128633,7 +128798,7 @@
                 "ch": "不動產投資與管理",
                 "en": "Real Estate Investments Management",
                 "limit": false,
-                "other": "教學大樓826教室，未開放旁聽"
+                "other": "教學大樓815教室，未開放旁聽"
             },
             "teacher": [
                 "游舜德",
@@ -128652,8 +128817,8 @@
                         12,
                         13
                     ],
-                    "place": "826",
-                    "original": "每週四11~13\t826"
+                    "place": "815",
+                    "original": "每週四11~13\t815"
                 }
             ],
             "sign": "否",
@@ -131910,8 +132075,8 @@
                         6,
                         7
                     ],
-                    "place": "商8F19",
-                    "original": "每週四5~7\t商8F19"
+                    "place": "商8F18",
+                    "original": "每週四5~7\t商8F18"
                 }
             ],
             "sign": "否",
@@ -134357,8 +134522,8 @@
                     "original": "每週四7~8\t文2F08"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "40"
         },
         {
@@ -140993,8 +141158,8 @@
                     "original": "每週五10~12\t311"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "6",
             "max_people": "33"
         },
         {
@@ -141535,7 +141700,7 @@
                 "ch": "會計學",
                 "en": "Accounting",
                 "limit": true,
-                "other": "財經法組任必修課程之一，其他組同學修畢計入自由學分。"
+                "other": "財經法組任必修課程之一，其他組同學修畢計入自由學分。114.9.12通知上課教室異動。"
             },
             "teacher": [
                 "曾家璿"
@@ -141553,8 +141718,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F08",
-                    "original": "每週五2~4\t商2F08"
+                    "place": "商1F01",
+                    "original": "每週五2~4\t商1F01"
                 }
             ],
             "sign": "否",
@@ -141739,13 +141904,13 @@
                         6,
                         7
                     ],
-                    "place": "公1F27",
-                    "original": "每週五5~7\t公1F27"
+                    "place": "法4F14",
+                    "original": "每週五5~7\t法4F14"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "128"
+            "max_people": "140"
         },
         {
             "year": "114",
@@ -143405,8 +143570,8 @@
                     "original": "每週五5~7\t法2F01"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "21",
             "max_people": "139"
         },
         {
@@ -147068,7 +147233,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "70"
+            "max_people": "80"
         },
         {
             "year": "114",
@@ -147799,8 +147964,8 @@
                         7,
                         8
                     ],
-                    "place": "公2F35",
-                    "original": "每週五7~8\t公2F35"
+                    "place": "公2F06",
+                    "original": "每週五7~8\t公2F06"
                 }
             ],
             "sign": "否",
@@ -149946,6 +150111,18 @@
                     "original": "法碩法專組2"
                 },
                 {
+                    "grade": "3",
+                    "class": "",
+                    "category": "法碩法專組",
+                    "original": "法碩法專組3"
+                },
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "法碩法專組",
+                    "original": "法碩法專組4"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
@@ -149953,6 +150130,8 @@
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -152454,7 +152633,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "45"
+            "max_people": "49"
         },
         {
             "year": "114",
@@ -153256,7 +153435,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "94"
+            "max_people": "100"
         },
         {
             "year": "114",
@@ -153849,7 +154028,7 @@
                 "ch": "運動俱樂部經營管理",
                 "en": "Management in Sport Club",
                 "limit": false,
-                "other": " "
+                "other": "114.9.12通知上課教室異動"
             },
             "teacher": [
                 "謝立文"
@@ -153867,8 +154046,8 @@
                         3,
                         4
                     ],
-                    "place": "商1F05",
-                    "original": "每週五2~4\t商1F05"
+                    "place": "商2F04",
+                    "original": "每週五2~4\t商2F04"
                 }
             ],
             "sign": "是",
@@ -154454,7 +154633,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "61"
+            "max_people": "58"
         },
         {
             "year": "114",
@@ -167359,6 +167538,7 @@
         "師培中心2",
         "師培中心3",
         "師培中心4",
+        "微型通識4",
         "性別學士微學程",
         "性別與人權學士學分學程",
         "戶外體驗與青少年服務學士微學程",
