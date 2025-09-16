@@ -1,6 +1,6 @@
 {
-    "start_time": "2025-09-13 01:07:40",
-    "end_time": "2025-09-13 01:08:11",
+    "start_time": "2025-09-16 01:11:25",
+    "end_time": "2025-09-16 01:11:56",
     "total_courses": 2573,
     "failed_weeks": [],
     "data": [
@@ -2282,8 +2282,8 @@
                         10,
                         11
                     ],
-                    "place": "105電腦教室",
-                    "original": "每週一10~11\t105電腦教室"
+                    "place": "507電腦暨語言教室",
+                    "original": "每週一10~11\t507電腦暨語言教室"
                 }
             ],
             "sign": "否",
@@ -4171,8 +4171,8 @@
                     "original": "每週一3~4\t公1F15"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "69"
         },
         {
@@ -5496,7 +5496,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "2",
+            "sign_people": "5",
             "max_people": "75"
         },
         {
@@ -8138,7 +8138,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "43"
+            "max_people": "47"
         },
         {
             "year": "114",
@@ -13440,8 +13440,8 @@
                     "original": "實習每週四3~4\t商2F08"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "18",
             "max_people": "55"
         },
         {
@@ -15905,13 +15905,13 @@
                         5,
                         6
                     ],
-                    "place": "法5F16",
-                    "original": "每週一5~6\t法5F16"
+                    "place": "法2F25",
+                    "original": "每週一5~6\t法2F25"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "25"
         },
         {
             "year": "114",
@@ -20287,8 +20287,8 @@
                     "original": "每週一3~4\t文4F08"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "6",
             "max_people": "30"
         },
         {
@@ -20339,8 +20339,8 @@
                     "original": "每週一7~8\t公1F03"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "58"
         },
         {
@@ -22022,7 +22022,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "19"
         },
         {
             "year": "114",
@@ -27933,7 +27933,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "26"
+            "max_people": "23"
         },
         {
             "year": "114",
@@ -43447,8 +43447,8 @@
                     "original": "實習每週四3~4\t法2F28"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "50"
         },
         {
@@ -49890,8 +49890,8 @@
                         1,
                         2
                     ],
-                    "place": "文1F11",
-                    "original": "每週二1~2\t文1F11"
+                    "place": "文2F11",
+                    "original": "每週二1~2\t文2F11"
                 },
                 {
                     "courseTime": 4,
@@ -49900,8 +49900,8 @@
                         5,
                         6
                     ],
-                    "place": "文1F11",
-                    "original": "每週四5~6\t文1F11"
+                    "place": "商1F16",
+                    "original": "每週四5~6\t商1F16"
                 }
             ],
             "sign": "否",
@@ -55578,7 +55578,7 @@
                 "ch": "都市發展",
                 "en": "Urban Development",
                 "limit": true,
-                "other": "1.彈性課程，正式上課時間請詳課程大綱。2.公823教室。3.全英語授課。4.不動產系指定為取得[外語能力指標檢核]之英語授課專業課程。5.本科不計入輔系學分。6.邀請土耳其中東科技大學Dr. Aylin Topal教授前來客座講授政治經濟學、都市發展及永續性議題單元。"
+                "other": "1.彈性課程，正式上課時間請詳課程大綱。2.114.9.15通知教室異動至公2F06教室。3.全英語授課。4.不動產系指定為取得[外語能力指標檢核]之英語授課專業課程。5.本科不計入輔系學分。6.邀請土耳其中東科技大學Dr. Aylin Topal教授前來客座講授政治經濟學、都市發展及永續性議題單元。"
             },
             "teacher": [
                 "林映辰"
@@ -55595,8 +55595,8 @@
                         10,
                         11
                     ],
-                    "place": "公1F27",
-                    "original": "每週二10~11\t公1F27"
+                    "place": "公2F06",
+                    "original": "每週二10~11\t公2F06"
                 }
             ],
             "sign": "否",
@@ -61850,8 +61850,8 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "10",
-            "max_people": "46"
+            "sign_people": "15",
+            "max_people": "55"
         },
         {
             "year": "114",
@@ -68146,7 +68146,7 @@
                 "ch": "分科/分領域(群科)教材教法－輔導/輔導活動",
                 "en": "Instructional Materials and Methods - Guidance & Comprehensive Activities",
                 "limit": false,
-                "other": "師培二年級課程。\n教材教法與教學實習課程依師資生擬任教科別分別修習。\n分科/分領域(群科)教材教法之先修課程為教育基礎課程及教育方法課程各一科必修為原則。\n非師培中心2年級以上之同學不得修習，如選修不計入畢業學分且須繳交學分費。 請排在文906教室"
+                "other": "[停開]※依1140915師培中心通知，本課程停開。\n師培二年級課程。教材教法與教學實習課程依師資生擬任教科別分別修習。分科/分領域(群科)教材教法之先修課程為教育基礎課程及教育方法課程各一科必修為原則。非師培中心2年級以上之同學不得修習，如選修不計入畢業學分且須繳交學分費。 請排在文906教室"
             },
             "teacher": [
                 "林維能"
@@ -76985,8 +76985,8 @@
                         6,
                         7
                     ],
-                    "place": "文2F02",
-                    "original": "每週三5~7\t文2F02"
+                    "place": "商3F11",
+                    "original": "每週三5~7\t商3F11"
                 }
             ],
             "sign": "否",
@@ -111124,8 +111124,8 @@
                     "original": "實習每週四3~4\t法2F28"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "50"
         },
         {
@@ -114726,8 +114726,8 @@
                     "original": "實習每週四3~4\t商2F08"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "18",
             "max_people": "55"
         },
         {
@@ -115557,8 +115557,8 @@
                         1,
                         2
                     ],
-                    "place": "文1F11",
-                    "original": "每週二1~2\t文1F11"
+                    "place": "文2F11",
+                    "original": "每週二1~2\t文2F11"
                 },
                 {
                     "courseTime": 4,
@@ -115567,8 +115567,8 @@
                         5,
                         6
                     ],
-                    "place": "文1F11",
-                    "original": "每週四5~6\t文1F11"
+                    "place": "商1F16",
+                    "original": "每週四5~6\t商1F16"
                 }
             ],
             "sign": "否",
@@ -117437,6 +117437,55 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "1"
+        },
+        {
+            "year": "114",
+            "semester": "1",
+            "courseID": "M6036",
+            "department": "犯罪學碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "公開情報蒐集",
+                "en": "Open-Source INTelligence, OSINT",
+                "limit": false,
+                "other": "教室:三峽社科大樓512教室"
+            },
+            "teacher": [
+                "沈伯洋"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四5~6"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "8"
         },
         {
             "year": "114",
@@ -126967,55 +127016,6 @@
         {
             "year": "114",
             "semester": "1",
-            "courseID": "M6036",
-            "department": "犯罪學碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "犯罪學碩",
-                    "original": "犯罪學碩1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "犯罪學碩",
-                    "original": "犯罪學碩2"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "公開情報蒐集",
-                "en": "Open-Source INTelligence, OSINT",
-                "limit": false,
-                "other": "教室:三峽社科大樓512教室"
-            },
-            "teacher": [
-                "沈伯洋"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 4,
-                    "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四5~6"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "8"
-        },
-        {
-            "year": "114",
-            "semester": "1",
             "courseID": "M6051",
             "department": "財務金融碩士學位學程",
             "department_level": [
@@ -130736,7 +130736,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "6",
+            "sign_people": "14",
             "max_people": "35"
         },
         {
@@ -145097,6 +145097,80 @@
         {
             "year": "114",
             "semester": "1",
+            "courseID": "M6145",
+            "department": "犯罪學碩",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "人權與正義學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "性別學士微學程"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "法律與社會",
+                "en": "Law and Society",
+                "limit": false,
+                "other": "教室:教學大樓7F08（許春金老師1學分，黃蘭�漲悎v1學分）與在職專班合班上課"
+            },
+            "teacher": [
+                "黃蘭媖",
+                "許春金"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週五10~11"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "8"
+        },
+        {
+            "year": "114",
+            "semester": "1",
             "courseID": "M6169",
             "department": "法碩法專組",
             "department_level": [
@@ -150795,7 +150869,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "23"
+            "max_people": "19"
         },
         {
             "year": "114",
@@ -151986,80 +152060,6 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "25"
-        },
-        {
-            "year": "114",
-            "semester": "1",
-            "courseID": "M6145",
-            "department": "犯罪學碩",
-            "department_level": [
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "性別與人權學士學分學程"
-                },
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "犯罪學碩",
-                    "original": "犯罪學碩1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "犯罪學碩",
-                    "original": "犯罪學碩2"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "人權與正義學士微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "性別學士微學程"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選",
-                "選",
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "法律與社會",
-                "en": "Law and Society",
-                "limit": false,
-                "other": "教室:教學大樓7F08（許春金老師1學分，黃蘭�漲悎v1學分）與在職專班合班上課"
-            },
-            "teacher": [
-                "黃蘭媖",
-                "許春金"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 5,
-                    "time_category": "A",
-                    "sessions": [
-                        10,
-                        11
-                    ],
-                    "place": "N/A",
-                    "original": "每週五10~11"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "8"
         },
         {
             "year": "114",
@@ -154633,7 +154633,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "58"
+            "max_people": "53"
         },
         {
             "year": "114",
@@ -163738,8 +163738,8 @@
                         6,
                         7
                     ],
-                    "place": "413",
-                    "original": "每週六5~7\t413"
+                    "place": "411",
+                    "original": "每週六5~7\t411"
                 }
             ],
             "sign": "否",
