@@ -1,6 +1,6 @@
 {
-    "start_time": "2025-09-23 01:11:35",
-    "end_time": "2025-09-23 01:12:07",
+    "start_time": "2025-09-27 01:09:59",
+    "end_time": "2025-09-27 01:10:31",
     "total_courses": 2574,
     "failed_weeks": [],
     "data": [
@@ -560,8 +560,8 @@
                     "original": "每週一3~4"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "7",
             "max_people": "36"
         },
         {
@@ -980,8 +980,8 @@
                     "original": "每週一1~2"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "42"
         },
         {
@@ -6448,8 +6448,8 @@
                         5,
                         6
                     ],
-                    "place": "公1F03",
-                    "original": "每週一5~6\t公1F03"
+                    "place": "公1F14",
+                    "original": "每週一5~6\t公1F14"
                 }
             ],
             "sign": "否",
@@ -12776,8 +12776,8 @@
                         8,
                         9
                     ],
-                    "place": "法2F03",
-                    "original": "每週一7~9\t法2F03"
+                    "place": "法2F16",
+                    "original": "每週一7~9\t法2F16"
                 }
             ],
             "sign": "是",
@@ -13825,8 +13825,8 @@
                     "original": "實習每週一3~4\t商2F09"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "59"
         },
         {
@@ -14019,8 +14019,8 @@
                     "original": "實習每週一3~4"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "50"
         },
         {
@@ -14720,7 +14720,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "3",
+            "sign_people": "4",
             "max_people": "20"
         },
         {
@@ -22355,7 +22355,7 @@
                 "ch": "應用賽局理論專題研究",
                 "en": "Topics in Applied Game Theory",
                 "limit": false,
-                "other": "於台北校區教學大樓教室上課。"
+                "other": "[停開]於台北校區教學大樓教室上課。"
             },
             "teacher": [
                 "葉俊顯",
@@ -24180,8 +24180,8 @@
                         8,
                         9
                     ],
-                    "place": "法2F03",
-                    "original": "每週一7~9\t法2F03"
+                    "place": "法2F16",
+                    "original": "每週一7~9\t法2F16"
                 }
             ],
             "sign": "否",
@@ -27782,7 +27782,7 @@
                 "ch": "社會工作管理",
                 "en": "Social Work Management",
                 "limit": true,
-                "other": " "
+                "other": "[停開]"
             },
             "teacher": [
                 "王淑楨"
@@ -34405,8 +34405,8 @@
                     "original": "每週二3~4"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "7",
             "max_people": "36"
         },
         {
@@ -34657,8 +34657,8 @@
                     "original": "每週二1~2"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "42"
         },
         {
@@ -37136,8 +37136,8 @@
                     "original": "每週二3~4\t資B1F-06"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "92"
         },
         {
@@ -42937,8 +42937,8 @@
                     "original": "實習每週四5~6\t商2F11"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "90"
         },
         {
@@ -44131,8 +44131,8 @@
                     "original": "實習每週四3~4\t文1F10"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "3",
             "max_people": "70"
         },
         {
@@ -44545,8 +44545,8 @@
                     "original": "實習每週四5~6\t商2F08"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "95"
         },
         {
@@ -52384,7 +52384,7 @@
                 "ch": "建築法規",
                 "en": "Building Act",
                 "limit": false,
-                "other": "先修：都市計畫。本科不計入輔系學分。\n"
+                "other": "[停開]先修：都市計畫。本科不計入輔系學分。\n*1140924選課人數不足停開。"
             },
             "teacher": [
                 "陳建忠"
@@ -60547,8 +60547,8 @@
                     "original": "每週二5~7\t商1F01"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "6",
             "max_people": "42"
         },
         {
@@ -61214,8 +61214,8 @@
                     "original": "每週二10~12\t306"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "45"
         },
         {
@@ -63014,8 +63014,8 @@
                     "original": "每週二5~7\t文4F07"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "46"
         },
         {
@@ -67248,8 +67248,8 @@
                     "original": "每週二7~8\t文2F01"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "10",
             "max_people": "50"
         },
         {
@@ -67538,8 +67538,8 @@
                     "original": "每週二3~4\t文1F10"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "12",
             "max_people": "60"
         },
         {
@@ -69329,8 +69329,8 @@
                     "original": "每週三1~2"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "7",
             "max_people": "36"
         },
         {
@@ -73478,8 +73478,8 @@
                         3,
                         4
                     ],
-                    "place": "文4F07",
-                    "original": "每週三3~4\t文4F07"
+                    "place": "文4F09",
+                    "original": "每週三3~4\t文4F09"
                 }
             ],
             "sign": "否",
@@ -79418,8 +79418,8 @@
                     "original": "實習每週一3~4\t商2F09"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "59"
         },
         {
@@ -79615,8 +79615,8 @@
                     "original": "實習每週一3~4"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "50"
         },
         {
@@ -85976,8 +85976,8 @@
                         3,
                         4
                     ],
-                    "place": "文4F09",
-                    "original": "每週三3~4\t文4F09"
+                    "place": "文4F07",
+                    "original": "每週三3~4\t文4F07"
                 }
             ],
             "sign": "是",
@@ -86830,7 +86830,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "7",
+            "sign_people": "8",
             "max_people": "40"
         },
         {
@@ -91370,7 +91370,7 @@
                 "ch": "影像發聲與參與式行動研究",
                 "en": "Photovoice and Participatory Action Research",
                 "limit": false,
-                "other": "學碩合班，英語授課。"
+                "other": "學碩合班，英語授課。上課教室:社722教室"
             },
             "teacher": [
                 "林予安"
@@ -91383,13 +91383,9 @@
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "社107",
-                    "original": "每週三2~4\t社107"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三2~4"
                 }
             ],
             "sign": "否",
@@ -96872,7 +96868,7 @@
                 "ch": "影像發聲與參與式行動研究",
                 "en": "Photovoice and Participatory Action Research",
                 "limit": true,
-                "other": "學碩合班，英語授課。"
+                "other": "學碩合班，英語授課。上課教室:社722教室"
             },
             "teacher": [
                 "林予安"
@@ -96885,13 +96881,9 @@
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "社107",
-                    "original": "每週三2~4\t社107"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三2~4"
                 }
             ],
             "sign": "否",
@@ -100054,25 +100046,11 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "微學程",
-                    "original": "傳播學士微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "人文與資訊學士微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度五"
                 }
             ],
             "compulsory": [
-                "通",
-                "通",
                 "通"
             ],
             "title": {
@@ -100101,7 +100079,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "1",
+            "sign_people": "5",
             "max_people": "48"
         },
         {
@@ -100353,8 +100331,8 @@
                     "original": "每週三5~6\t資B1F-04"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "48"
         },
         {
@@ -100405,7 +100383,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "14",
+            "sign_people": "15",
             "max_people": "70"
         },
         {
@@ -100660,8 +100638,8 @@
                         3,
                         4
                     ],
-                    "place": "文4F09",
-                    "original": "每週三3~4\t文4F09"
+                    "place": "文4F07",
+                    "original": "每週三3~4\t文4F07"
                 }
             ],
             "sign": "是",
@@ -109796,8 +109774,8 @@
                     "original": "實習每週四5~6\t商2F11"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "90"
         },
         {
@@ -111671,8 +111649,8 @@
                     "original": "實習每週四3~4\t文1F10"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "3",
             "max_people": "70"
         },
         {
@@ -111965,8 +111943,8 @@
                     "original": "實習每週四5~6\t商2F08"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "95"
         },
         {
@@ -117067,7 +117045,7 @@
                 "ch": "國際住宅政策",
                 "en": "Global Housing Policies",
                 "limit": false,
-                "other": "(本課程與U3027合班)第1次上課在公2F35。First class will be held in P2F35."
+                "other": "(本課程與U3027合班)"
             },
             "teacher": [
                 "彭建文"
@@ -117084,15 +117062,15 @@
                         8,
                         9
                     ],
-                    "place": "公2F05",
-                    "original": "每週四8~9\t公2F05"
+                    "place": "公1F30",
+                    "original": "每週四8~9\t公1F30"
                 },
                 {
                     "courseTime": "N/A",
                     "time_category": "N/A",
                     "sessions": "N/A",
                     "place": "N/A",
-                    "original": "第二教室公2F35"
+                    "original": "第二教室公1F21"
                 }
             ],
             "sign": "否",
@@ -120444,6 +120422,13 @@
                     ],
                     "place": "公1F30",
                     "original": "每週四8~9\t公1F30"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室公1F21"
                 }
             ],
             "sign": "否",
@@ -120621,6 +120606,13 @@
                     ],
                     "place": "公8F23_製圖室",
                     "original": "每週四3~4\t公8F23_製圖室"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室公1F10"
                 }
             ],
             "sign": "否",
@@ -124902,8 +124894,8 @@
                     "original": "每週四5~7\t電1F02"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "68"
         },
         {
@@ -125514,7 +125506,7 @@
                 "ch": "應用計量經濟學（一）",
                 "en": "Applied Econometrics I",
                 "limit": false,
-                "other": "※本課程是開給有修習過計量經濟學的碩博士生,尚未修習過計量經濟學的同學建議辦理退選。※上課教室為社3F22室(經濟學系研究生電腦室)。\n"
+                "other": "[停開]※本課程是開給有修習過計量經濟學的碩博士生,尚未修習過計量經濟學的同學建議辦理退選。※上課教室為社3F22室(經濟學系研究生電腦室)。\n"
             },
             "teacher": [
                 "簡明哲"
@@ -129823,8 +129815,8 @@
                         6,
                         7
                     ],
-                    "place": "法2F27",
-                    "original": "每週四5~7\t法2F27"
+                    "place": "商2F07",
+                    "original": "每週四5~7\t商2F07"
                 }
             ],
             "sign": "是",
@@ -132950,18 +132942,11 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "微學程",
-                    "original": "傳播學士微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度五"
                 }
             ],
             "compulsory": [
-                "通",
                 "通"
             ],
             "title": {
@@ -135112,8 +135097,8 @@
                         5,
                         6
                     ],
-                    "place": "公1F03",
-                    "original": "每週四5~6\t公1F03"
+                    "place": "公1F12",
+                    "original": "每週四5~6\t公1F12"
                 }
             ],
             "sign": "是",
@@ -158158,8 +158143,8 @@
                         3,
                         4
                     ],
-                    "place": "社202",
-                    "original": "每週五3~4\t社202"
+                    "place": "商2F08",
+                    "original": "每週五3~4\t商2F08"
                 }
             ],
             "sign": "是",
@@ -160467,8 +160452,8 @@
                         4,
                         5
                     ],
-                    "place": "406",
-                    "original": "每週六3~5\t406"
+                    "place": "307",
+                    "original": "每週六3~5\t307"
                 },
                 {
                     "courseTime": 6,
@@ -160478,8 +160463,8 @@
                         7,
                         8
                     ],
-                    "place": "406",
-                    "original": "實習每週六6~8\t406"
+                    "place": "307",
+                    "original": "實習每週六6~8\t307"
                 }
             ],
             "sign": "是",
@@ -161532,8 +161517,8 @@
                     "original": "每週六1~2\t社B02"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "10"
         },
         {
@@ -162027,8 +162012,8 @@
                     "original": "每週六6~7\t315"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "6",
             "max_people": "35"
         },
         {
@@ -162731,8 +162716,8 @@
                     "original": "每週六1~2"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "46"
         },
         {
