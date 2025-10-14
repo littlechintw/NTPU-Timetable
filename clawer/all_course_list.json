@@ -1,6 +1,6 @@
 {
-    "start_time": "2025-10-11 01:10:21",
-    "end_time": "2025-10-11 01:10:53",
+    "start_time": "2025-10-14 01:12:45",
+    "end_time": "2025-10-14 01:13:15",
     "total_courses": 2574,
     "failed_weeks": [],
     "data": [
@@ -14014,9 +14014,12 @@
                 {
                     "courseTime": 1,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "實習每週一3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "商6F01",
+                    "original": "實習每週一3~4\t商6F01"
                 }
             ],
             "sign": "是",
@@ -79610,9 +79613,12 @@
                 {
                     "courseTime": 1,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "實習每週一3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "商6F01",
+                    "original": "實習每週一3~4\t商6F01"
                 }
             ],
             "sign": "是",
