@@ -1,6 +1,6 @@
 {
-    "start_time": "2025-10-14 01:12:45",
-    "end_time": "2025-10-14 01:13:15",
+    "start_time": "2025-10-16 01:14:22",
+    "end_time": "2025-10-16 01:14:49",
     "total_courses": 2574,
     "failed_weeks": [],
     "data": [
@@ -18041,7 +18041,8 @@
                 "other": " "
             },
             "teacher": [
-                "陳彥豪"
+                "陳彥豪",
+                "翁素涵"
             ],
             "category": "半",
             "credit": "2",
@@ -59691,7 +59692,7 @@
                 "ch": "國際金融市場",
                 "en": "International Financial Markets",
                 "limit": false,
-                "other": " "
+                "other": "114.10.15通知上課教室異動至商6F44國企所研討室。"
             },
             "teacher": [
                 "蕭榮烈"
@@ -67736,7 +67737,7 @@
                 "ch": "多元文化與社會正義",
                 "en": "Multiculture and Social Justice",
                 "limit": false,
-                "other": " "
+                "other": "114.10.15通知上課教室異動"
             },
             "teacher": [
                 "王冠生"
@@ -67753,8 +67754,8 @@
                         7,
                         8
                     ],
-                    "place": "社104",
-                    "original": "每週二7~8\t社104"
+                    "place": "文2F02",
+                    "original": "每週二7~8\t文2F02"
                 }
             ],
             "sign": "否",
@@ -89348,7 +89349,8 @@
                 "other": "麻煩安排人文學院4F05教室"
             },
             "teacher": [
-                "陳彥豪"
+                "陳彥豪",
+                "王震宇"
             ],
             "category": "全",
             "credit": "2",
