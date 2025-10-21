@@ -1,6 +1,6 @@
 {
-    "start_time": "2025-10-18 01:10:48",
-    "end_time": "2025-10-18 01:11:16",
+    "start_time": "2025-10-21 01:16:09",
+    "end_time": "2025-10-21 01:16:41",
     "total_courses": 2574,
     "failed_weeks": [],
     "data": [
@@ -32683,7 +32683,7 @@
                 "ch": "新媒體之媒體識讀",
                 "en": "Media Literacy of New Media",
                 "limit": false,
-                "other": " "
+                "other": "114.10.27當天起，上課教室改在社112上課。"
             },
             "teacher": [
                 "許智超"
@@ -32700,12 +32700,12 @@
                         5,
                         6
                     ],
-                    "place": "社101",
-                    "original": "每週一5~6\t社101"
+                    "place": "社112",
+                    "original": "每週一5~6\t社112"
                 }
             ],
-            "sign": "是",
-            "sign_people": "12",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "60"
         },
         {
@@ -32848,7 +32848,7 @@
                 "ch": "媒體實作與創意思考",
                 "en": "Media Practice and Creative Thinking",
                 "limit": false,
-                "other": " "
+                "other": "114.10.20當天起，上課教室改在社112上課。"
             },
             "teacher": [
                 "許智超"
@@ -32865,12 +32865,12 @@
                         7,
                         8
                     ],
-                    "place": "社101",
-                    "original": "每週一7~8\t社101"
+                    "place": "社112",
+                    "original": "每週一7~8\t社112"
                 }
             ],
-            "sign": "是",
-            "sign_people": "12",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "60"
         },
         {
@@ -46097,8 +46097,8 @@
                         6,
                         7
                     ],
-                    "place": "社101",
-                    "original": "每週二5~7\t社101"
+                    "place": "社112",
+                    "original": "每週二5~7\t社112"
                 }
             ],
             "sign": "否",
