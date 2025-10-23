@@ -1,6 +1,6 @@
 {
-    "start_time": "2025-10-21 01:16:09",
-    "end_time": "2025-10-21 01:16:41",
+    "start_time": "2025-10-23 01:15:51",
+    "end_time": "2025-10-23 01:16:17",
     "total_courses": 2574,
     "failed_weeks": [],
     "data": [
@@ -107901,6 +107901,13 @@
                     ],
                     "place": "社101",
                     "original": "每週四2~4\t社101"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室公1F21"
                 },
                 {
                     "courseTime": "N/A",
