@@ -1,6 +1,6 @@
 {
-    "start_time": "2025-11-11 01:18:49",
-    "end_time": "2025-11-11 01:19:21",
+    "start_time": "2025-11-13 01:18:51",
+    "end_time": "2025-11-13 01:19:22",
     "total_courses": 2574,
     "failed_weeks": [],
     "data": [
@@ -2157,8 +2157,8 @@
                         10,
                         11
                     ],
-                    "place": "414",
-                    "original": "每週一10~11\t414"
+                    "place": "402",
+                    "original": "每週一10~11\t402"
                 }
             ],
             "sign": "否",
@@ -25942,7 +25942,7 @@
                 "ch": "運動與社會",
                 "en": "Sport and Society",
                 "limit": false,
-                "other": "商學院EMI教室"
+                "other": "自114.11.17起，上課教室異動至商7F02。"
             },
             "teacher": [
                 "林彥君"
@@ -25962,6 +25962,13 @@
                     ],
                     "place": "商3F17_階梯教室",
                     "original": "每週一6~8\t商3F17_階梯教室"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室商7F02"
                 }
             ],
             "sign": "是",
@@ -41585,6 +41592,12 @@
                     "original": "企碩2A"
                 },
                 {
+                    "grade": "2",
+                    "class": "A",
+                    "category": "企碩",
+                    "original": "企碩2A"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "智慧醫療碩士學位學程",
@@ -41612,6 +41625,7 @@
             "compulsory": [
                 "選",
                 "必",
+                "必",
                 "選",
                 "必",
                 "必",
@@ -41621,7 +41635,7 @@
                 "ch": "策略管理",
                 "en": "Strategy Management",
                 "limit": false,
-                "other": "需通過所有一年級必修科目(含基礎課程)，重修者不在此限。 "
+                "other": "需通過所有一年級必修科目(含基礎課程)，重修者不在此限。自114.11.17起，上課教室異動至法2F18。 "
             },
             "teacher": [
                 "鄭啟均"
@@ -41641,6 +41655,13 @@
                     ],
                     "place": "商3F16",
                     "original": "每週二2~4\t商3F16"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室法2F18"
                 }
             ],
             "sign": "否",
@@ -58699,7 +58720,7 @@
                 "ch": "人工智慧",
                 "en": "Artificial Intelligence",
                 "limit": false,
-                "other": "資訊系統管理領域。"
+                "other": "資訊系統管理領域。自114.11.17起，上課教室異動至商1F05。"
             },
             "teacher": [
                 "戴敏育"
@@ -58719,6 +58740,13 @@
                     ],
                     "place": "商3F17_階梯教室",
                     "original": "每週二2~4\t商3F17_階梯教室"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室商1F05"
                 }
             ],
             "sign": "是",
@@ -58759,7 +58787,7 @@
                 "ch": "商業溝通",
                 "en": "Communication in Business",
                 "limit": false,
-                "other": " "
+                "other": "自114.11.17起，上課教室異動至法1F05。"
             },
             "teacher": [
                 "李佩芳"
@@ -58779,6 +58807,13 @@
                     ],
                     "place": "商3F17_階梯教室",
                     "original": "每週二5~7\t商3F17_階梯教室"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室法1F05"
                 }
             ],
             "sign": "是",
@@ -60674,7 +60709,7 @@
                 "ch": "金融機構管理專題研討",
                 "en": "Seminar on Financial Institutions Management",
                 "limit": false,
-                "other": "人工加簽僅加簽GMBA或企碩一般生。"
+                "other": "人工加簽僅加簽GMBA或企碩一般生。自114.11.17起，上課教室異動至商1F16。"
             },
             "teacher": [
                 "吳孟紋"
@@ -60694,6 +60729,13 @@
                     ],
                     "place": "商3F16",
                     "original": "每週二5~7\t商3F16"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室商1F16"
                 }
             ],
             "sign": "是",
@@ -92369,7 +92411,7 @@
                 "ch": "永續數據分析",
                 "en": "Sustainability and ESG Data Analytics",
                 "limit": false,
-                "other": " "
+                "other": "自114.11.17起，上課教室異動至商7F01。"
             },
             "teacher": [
                 "戴敏育"
@@ -92389,6 +92431,13 @@
                     ],
                     "place": "商3F17_階梯教室",
                     "original": "每週三2~4\t商3F17_階梯教室"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室商7F01"
                 }
             ],
             "sign": "是",
@@ -122908,7 +122957,7 @@
                 "ch": "雲端運算",
                 "en": "Cloud Computing",
                 "limit": false,
-                "other": "資訊系統管理領埋。"
+                "other": "資訊系統管理領埋。自114.11.17起，上課教室異動至商2F04。"
             },
             "teacher": [
                 "黃懷陞"
@@ -122928,6 +122977,13 @@
                     ],
                     "place": "商3F16",
                     "original": "每週四5~7\t商3F16"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室商2F04"
                 }
             ],
             "sign": "否",
@@ -125053,7 +125109,7 @@
                 "ch": "數位行銷",
                 "en": "E-Marketing",
                 "limit": false,
-                "other": "網路行銷主領域必選；與「電子商務」及「網路行銷管理」三擇二修習。"
+                "other": "網路行銷主領域必選；與「電子商務」及「網路行銷管理」三擇二修習。自114.11.17起，上課教室異動至商2F02。"
             },
             "teacher": [
                 "潘令妍"
@@ -125073,6 +125129,13 @@
                     ],
                     "place": "商3F16",
                     "original": "每週四2~4\t商3F16"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室商2F02"
                 }
             ],
             "sign": "是",
