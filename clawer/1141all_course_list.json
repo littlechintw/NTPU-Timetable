@@ -1,6 +1,6 @@
 {
-    "start_time": "2025-12-16 01:23:28",
-    "end_time": "2025-12-16 01:23:57",
+    "start_time": "2025-12-18 01:19:18",
+    "end_time": "2025-12-18 01:19:46",
     "total_courses": 2574,
     "failed_weeks": [],
     "data": [
@@ -61925,6 +61925,13 @@
                     ],
                     "place": "電2F04",
                     "original": "每週二6~8\t電2F04"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室電2F06"
                 }
             ],
             "sign": "是",
