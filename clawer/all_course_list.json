@@ -1,7 +1,7 @@
 {
-    "start_time": "2025-12-23 06:44:31",
-    "end_time": "2025-12-23 06:45:00",
-    "total_courses": 2084,
+    "start_time": "2025-12-25 01:22:38",
+    "end_time": "2025-12-25 01:23:03",
+    "total_courses": 2085,
     "failed_weeks": [],
     "data": [
         {
@@ -216,6 +216,51 @@
         {
             "year": "114",
             "semester": "2",
+            "courseID": "N5002",
+            "department": "(進修)體育",
+            "department_level": [
+                {
+                    "grade": "5",
+                    "class": "",
+                    "category": "(進修)體育",
+                    "original": "(進修)體育5"
+                }
+            ],
+            "compulsory": [
+                "必"
+            ],
+            "title": {
+                "ch": "體育：桌球",
+                "en": "Physical Education:Table Tennis",
+                "limit": false,
+                "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點:教學大樓B1。\n3.1141223依體育室通知異動上課時間。"
+            },
+            "teacher": [
+                "李至斌"
+            ],
+            "category": "半",
+            "credit": "0",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "教學大樓B1桌球教室",
+                    "original": "每週一10~11\t教學大樓B1桌球教室"
+                }
+            ],
+            "sign": "是",
+            "sign_people": "6",
+            "max_people": "32"
+        },
+        {
+            "year": "114",
+            "semester": "2",
             "courseID": "N5004",
             "department": "(進修)體育",
             "department_level": [
@@ -374,6 +419,65 @@
             ],
             "sign": "否",
             "sign_people": "-",
+            "max_people": "32"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N5033",
+            "department": "(進修)體育",
+            "department_level": [
+                {
+                    "grade": "5",
+                    "class": "",
+                    "category": "(進修)體育",
+                    "original": "(進修)體育5"
+                },
+                {
+                    "grade": "5",
+                    "class": "",
+                    "category": "(進修)體育",
+                    "original": "(進修)體育5"
+                }
+            ],
+            "compulsory": [
+                "必",
+                "必"
+            ],
+            "title": {
+                "ch": "體育：匹克球",
+                "en": "Physical Education: Pickleball",
+                "limit": false,
+                "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點:臺北校區戶外籃排球場。\n3.雨天備案：313教室。\n4.1141223依體育室通知異動上課時間。"
+            },
+            "teacher": [
+                "李至斌"
+            ],
+            "category": "半",
+            "credit": "0",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        8,
+                        9
+                    ],
+                    "place": "臺北校區戶外籃排球場",
+                    "original": "每週一8~9\t臺北校區戶外籃排球場"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室313"
+                }
+            ],
+            "sign": "是",
+            "sign_people": "6",
             "max_people": "32"
         },
         {
@@ -1075,6 +1179,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
                 },
@@ -1083,9 +1193,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "法律暨企業社會責任學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -1303,6 +1421,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
                 },
@@ -1316,10 +1440,18 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -5358,11 +5490,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "全球經濟分析與領袖人才英語學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必"
@@ -11543,11 +11682,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "性別學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -13336,6 +13482,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "文官人才學士微學程"
                 },
@@ -13347,6 +13505,8 @@
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -15082,11 +15242,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "性別學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -15575,7 +15742,7 @@
             ],
             "title": {
                 "ch": "不動產與城鄉環境實務操作",
-                "en": "Intership of real estate and built environment",
+                "en": "Internship of real estate and built environment",
                 "limit": true,
                 "other": "A組，詳細選課流程資訊預計於115年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。同意選課之名單由系辦公室統一通知課務組不開放自行選課，若有疑問請洽系辦公室。"
             },
@@ -15634,7 +15801,7 @@
             ],
             "title": {
                 "ch": "不動產與城鄉環境實務操作",
-                "en": "Intership of real estate and built environment",
+                "en": "Internship of real estate and built environment",
                 "limit": true,
                 "other": "F組，詳細選課流程資訊預計於115年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。同意選課之名單由系辦公室統一通知課務組不開放自行選課，若有疑問請洽系辦公室。"
             },
@@ -17936,9 +18103,23 @@
                     "class": "B",
                     "category": "經濟系",
                     "original": "經濟系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -18960,6 +19141,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
                 },
@@ -18974,9 +19161,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "法律暨企業社會責任學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -19353,9 +19548,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "資訊安全與應用學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "智慧永續發展與管理微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -20344,9 +20546,23 @@
                     "class": "B",
                     "category": "企碩",
                     "original": "企碩2B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -20830,9 +21046,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "公共事務數據分析學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "智慧永續發展與管理微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -21164,9 +21387,23 @@
                     "class": "",
                     "category": "(進修)經濟",
                     "original": "(進修)經濟4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -21270,9 +21507,23 @@
                     "class": "B",
                     "category": "(進修)企管",
                     "original": "(進修)企管4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -21910,9 +22161,23 @@
                     "class": "",
                     "category": "歷史系",
                     "original": "歷史系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "歷史實踐與文化資產學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "歷史實踐與文化資產學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -22113,6 +22378,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
                 },
@@ -22127,9 +22398,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "法律暨企業社會責任學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -22445,6 +22724,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "晶片系統學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "數位多媒體學士學分學程"
                 },
                 {
@@ -22461,6 +22746,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -23547,9 +23833,16 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系3B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "商務溝通學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -23590,6 +23883,12 @@
             "department": "通訊系",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "晶片系統學士學分學程"
+                },
+                {
                     "grade": "3",
                     "class": "",
                     "category": "通訊系",
@@ -23603,6 +23902,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -23855,9 +24155,23 @@
                     "class": "B",
                     "category": "經濟系",
                     "original": "經濟系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -24245,6 +24559,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "晶片系統學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "數位多媒體學士學分學程"
                 },
                 {
@@ -24267,6 +24587,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -24329,11 +24650,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "性別學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -24503,6 +24831,12 @@
             "department": "電機系",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "晶片系統學士學分學程"
+                },
+                {
                     "grade": "4",
                     "class": "",
                     "category": "電機系",
@@ -24510,6 +24844,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -26017,6 +26352,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "人權與正義學士微學程"
                 },
@@ -26034,6 +26375,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通"
@@ -26147,11 +26489,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度一"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通"
             ],
             "title": {
@@ -29015,6 +29371,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
                 },
@@ -29023,9 +29385,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "法律暨企業社會責任學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -38085,11 +38455,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "智慧永續發展與管理微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必"
             ],
@@ -42824,6 +43208,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "人權與正義學士微學程"
                 },
@@ -42835,6 +43225,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -42879,9 +43270,23 @@
                     "class": "",
                     "category": "(進修)不動產城鄉",
                     "original": "(進修)不動產城鄉2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -43808,9 +44213,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "全球化公共事務英語學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "智慧永續發展與管理微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -44797,7 +45209,7 @@
             ],
             "title": {
                 "ch": "不動產與城鄉環境實務操作",
-                "en": "Intership of real estate and built environment",
+                "en": "Internship of real estate and built environment",
                 "limit": true,
                 "other": "B組，詳細選課流程資訊預計於115年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。同意選課之名單由系辦公室統一通知課務組不開放自行選課，若有疑問請洽系辦公室。"
             },
@@ -44995,7 +45407,7 @@
             ],
             "title": {
                 "ch": "不動產與城鄉環境實務操作",
-                "en": "Intership of real estate and built environment",
+                "en": "Internship of real estate and built environment",
                 "limit": true,
                 "other": "D組，詳細選課流程資訊預計於115年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。同意選課之名單由系辦公室統一通知課務組不開放自行選課，若有疑問請洽系辦公室。"
             },
@@ -47134,25 +47546,11 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "學分學程",
-                    "original": "環境、社會與企業治理學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "環境、社會與企業治理學士微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "微學程",
                     "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
-                "選",
-                "選",
                 "選",
                 "選",
                 "選",
@@ -48358,11 +48756,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -48744,9 +49156,30 @@
                     "class": "",
                     "category": "財務金融碩士學位學程",
                     "original": "財務金融碩士學位學程2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "智慧永續發展與管理微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -48855,9 +49288,23 @@
                     "class": "",
                     "category": "經碩",
                     "original": "經碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -50330,8 +50777,8 @@
                         11,
                         12
                     ],
-                    "place": "N/A",
-                    "original": "每週二10~12"
+                    "place": "710",
+                    "original": "每週二10~12\t710"
                 }
             ],
             "sign": "否",
@@ -51511,9 +51958,23 @@
                     "class": "",
                     "category": "財政系",
                     "original": "財政系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "公共事務數據分析學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "公共事務數據分析學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -52864,11 +53325,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "ESP專業英文學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "ESP專業英文學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "行銷管理英語學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -52931,11 +53406,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "ESP專業英文學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "全球經濟分析與領袖人才英語學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "ESP專業英文學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -53346,6 +53835,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "晶片系統學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "資訊安全與應用學士學分學程"
                 },
                 {
@@ -53374,6 +53869,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -53765,6 +54261,12 @@
             "department": "電機系",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "晶片系統學士學分學程"
+                },
+                {
                     "grade": "4",
                     "class": "",
                     "category": "電機系",
@@ -53772,6 +54274,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -54358,6 +54861,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
                 },
@@ -54369,6 +54884,8 @@
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通",
                 "通",
                 "通"
@@ -55288,6 +55805,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "領隊導遊人才培育學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "跨文化與國際移動學士微學程"
                 },
                 {
@@ -55298,6 +55821,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通",
@@ -55515,11 +56039,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度一"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通"
             ],
             "title": {
@@ -55799,12 +56337,6 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "性別與人權學士學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
                     "original": "台灣經濟與社會發展英語學分學程"
                 },
                 {
@@ -55821,7 +56353,6 @@
                 }
             ],
             "compulsory": [
-                "通",
                 "通",
                 "通",
                 "通"
@@ -56405,6 +56936,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "美學、文化與藝術學士微學程"
                 },
@@ -56416,6 +56959,8 @@
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通",
                 "通",
                 "通"
@@ -57019,51 +57564,6 @@
         {
             "year": "114",
             "semester": "2",
-            "courseID": "N5002",
-            "department": "(進修)體育",
-            "department_level": [
-                {
-                    "grade": "5",
-                    "class": "",
-                    "category": "(進修)體育",
-                    "original": "(進修)體育5"
-                }
-            ],
-            "compulsory": [
-                "必"
-            ],
-            "title": {
-                "ch": "體育：桌球",
-                "en": "Physical Education:Table Tennis",
-                "limit": false,
-                "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點:教學大樓B1。"
-            },
-            "teacher": [
-                "李至斌"
-            ],
-            "category": "半",
-            "credit": "0",
-            "hours": "2",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 3,
-                    "time_category": "A",
-                    "sessions": [
-                        8,
-                        9
-                    ],
-                    "place": "教學大樓B1桌球教室",
-                    "original": "每週三8~9\t教學大樓B1桌球教室"
-                }
-            ],
-            "sign": "是",
-            "sign_people": "6",
-            "max_people": "32"
-        },
-        {
-            "year": "114",
-            "semester": "2",
             "courseID": "N5014",
             "department": "(進修)體育",
             "department_level": [
@@ -57263,65 +57763,6 @@
                     ],
                     "place": "教學大樓B1桌球教室",
                     "original": "每週三12~13\t教學大樓B1桌球教室"
-                }
-            ],
-            "sign": "是",
-            "sign_people": "6",
-            "max_people": "32"
-        },
-        {
-            "year": "114",
-            "semester": "2",
-            "courseID": "N5033",
-            "department": "(進修)體育",
-            "department_level": [
-                {
-                    "grade": "5",
-                    "class": "",
-                    "category": "(進修)體育",
-                    "original": "(進修)體育5"
-                },
-                {
-                    "grade": "5",
-                    "class": "",
-                    "category": "(進修)體育",
-                    "original": "(進修)體育5"
-                }
-            ],
-            "compulsory": [
-                "必",
-                "必"
-            ],
-            "title": {
-                "ch": "體育：匹克球",
-                "en": "Physical Education: Pickleball",
-                "limit": false,
-                "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點:臺北校區戶外籃排球場。\n3.雨天備案：教學大樓B1桌球教室。"
-            },
-            "teacher": [
-                "李至斌"
-            ],
-            "category": "半",
-            "credit": "0",
-            "hours": "2",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 3,
-                    "time_category": "A",
-                    "sessions": [
-                        6,
-                        7
-                    ],
-                    "place": "臺北校區戶外籃排球場",
-                    "original": "每週三6~7\t臺北校區戶外籃排球場"
-                },
-                {
-                    "courseTime": "N/A",
-                    "time_category": "N/A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "第二教室教學大樓B1桌球教室"
                 }
             ],
             "sign": "是",
@@ -58356,6 +58797,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
                 },
@@ -58364,9 +58811,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "法律暨企業社會責任學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -68281,58 +68736,6 @@
         {
             "year": "114",
             "semester": "2",
-            "courseID": "N2025",
-            "department": "(進修)法律",
-            "department_level": [
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "(進修)法律",
-                    "original": "(進修)法律2"
-                },
-                {
-                    "grade": "4",
-                    "class": "",
-                    "category": "(進修)法律",
-                    "original": "(進修)法律4"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "專利法",
-                "en": "Patent Law",
-                "limit": true,
-                "other": "1、進修學士班任必修科目。2、先修科目：民法總則或民法概要。3.本課程下次開課為116學年度，請同學留意。"
-            },
-            "teacher": [
-                "黃泰然"
-            ],
-            "category": "半",
-            "credit": "2",
-            "hours": "2",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 3,
-                    "time_category": "A",
-                    "sessions": [
-                        12,
-                        13
-                    ],
-                    "place": "403",
-                    "original": "每週三12~13\t403"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "45"
-        },
-        {
-            "year": "114",
-            "semester": "2",
             "courseID": "N2043",
             "department": "(進修)公政",
             "department_level": [
@@ -69883,11 +70286,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -70183,7 +70600,7 @@
             ],
             "title": {
                 "ch": "不動產與城鄉環境實務操作",
-                "en": "Intership of real estate and built environment",
+                "en": "Internship of real estate and built environment",
                 "limit": true,
                 "other": "E組，詳細選課流程資訊預計於115年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。同意選課之名單由系辦公室統一通知課務組不開放自行選課，若有疑問請洽系辦公室。"
             },
@@ -70920,7 +71337,19 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "永續發展與治理英語學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "永續發展與治理英語學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -70936,6 +71365,8 @@
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -72612,6 +73043,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "全球化公共事務英語學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "全球經濟分析與領袖人才英語學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "A-EGP進階英文學士微學程"
                 },
@@ -72620,9 +73063,25 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "商務溝通學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "領隊導遊人才培育學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "全球化公共事務英語學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -73950,9 +74409,23 @@
                     "class": "",
                     "category": "民藝與文資所",
                     "original": "民藝與文資所2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "歷史實踐與文化資產學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "歷史實踐與文化資產學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -74233,11 +74706,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -76432,6 +76919,12 @@
             "department": "資工系",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "晶片系統學士學分學程"
+                },
+                {
                     "grade": "2",
                     "class": "",
                     "category": "資工系",
@@ -76439,6 +76932,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -77125,9 +77619,23 @@
                     "class": "",
                     "category": "社學系",
                     "original": "社學系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -77917,9 +78425,44 @@
                     "class": "B",
                     "category": "會計系",
                     "original": "會計系3B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "ESP專業英文學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "全球經濟分析與領袖人才英語學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "ESP專業英文學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -78353,6 +78896,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "晶片系統學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "數位多媒體學士學分學程"
                 },
                 {
@@ -78381,6 +78930,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -78735,6 +79285,12 @@
             "department": "電機系",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "晶片系統學士學分學程"
+                },
+                {
                     "grade": "4",
                     "class": "",
                     "category": "電機系",
@@ -78742,6 +79298,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -79357,7 +79914,7 @@
                 "ch": "語言與心理",
                 "en": "Language and Mind",
                 "limit": false,
-                "other": "應外系學生選讀，不列入其通識畢業學分數。"
+                "other": "[停開]應外系學生選讀，不列入其通識畢業學分數。\n*1141224依系所通知停開。\n"
             },
             "teacher": [
                 "張中倩"
@@ -79641,6 +80198,57 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "53"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N4064",
+            "department": "外語系",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "(進修)通識4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度二"
+                }
+            ],
+            "compulsory": [
+                "通"
+            ],
+            "title": {
+                "ch": "幽默與人生",
+                "en": "Humor and Life",
+                "limit": false,
+                "other": "*1141224依系所通知新開。"
+            },
+            "teacher": [
+                "張中倩"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        12,
+                        13
+                    ],
+                    "place": "507電腦暨語言教室",
+                    "original": "每週三12~13\t507電腦暨語言教室"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
         },
         {
             "year": "114",
@@ -80260,6 +80868,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "人權與正義學士微學程"
                 },
@@ -80277,6 +80891,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通"
@@ -80673,6 +81288,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "人權與正義學士微學程"
                 },
@@ -80690,6 +81311,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通"
@@ -81160,9 +81782,13 @@
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週三7~9"
+                    "sessions": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "place": "商6F01",
+                    "original": "每週三7~9\t商6F01"
                 }
             ],
             "sign": "否",
@@ -82251,6 +82877,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
                 },
@@ -82264,10 +82896,18 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -84653,17 +85293,10 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "智慧永續發展與管理微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
                     "original": "不動產與城鄉環境微學程"
                 }
             ],
             "compulsory": [
-                "必",
                 "必",
                 "必",
                 "必",
@@ -89421,9 +90054,23 @@
                     "class": "",
                     "category": "智慧永續",
                     "original": "智慧永續1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -90790,8 +91437,8 @@
                         3,
                         4
                     ],
-                    "place": "文3F12_L",
-                    "original": "每週四2~4\t文3F12_L"
+                    "place": "文3F01_L",
+                    "original": "每週四2~4\t文3F01_L"
                 }
             ],
             "sign": "否",
@@ -94610,9 +95257,23 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -97295,8 +97956,8 @@
                         3,
                         4
                     ],
-                    "place": "文3F01_L",
-                    "original": "每週四3~4\t文3F01_L"
+                    "place": "文5F07_L",
+                    "original": "每週四3~4\t文5F07_L"
                 }
             ],
             "sign": "否",
@@ -97745,9 +98406,23 @@
                     "class": "",
                     "category": "社工系",
                     "original": "社工系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -100954,9 +101629,23 @@
                     "class": "",
                     "category": "民藝與文資所",
                     "original": "民藝與文資所2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "歷史實踐與文化資產學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "歷史實踐與文化資產學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -101466,9 +102155,16 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "調查方法與資料分析學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "調查方法學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -102109,9 +102805,23 @@
                     "class": "",
                     "category": "都碩",
                     "original": "都碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "都市更新學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "都市更新微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -104448,6 +105158,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "人權與正義學士微學程"
                 },
@@ -104459,6 +105175,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -104802,6 +105519,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "晶片系統學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "資訊安全與應用學士學分學程"
                 },
                 {
@@ -104824,6 +105547,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -105070,9 +105794,23 @@
                     "class": "B",
                     "category": "經濟系",
                     "original": "經濟系3B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -105309,9 +106047,16 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "調查方法與資料分析學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "調查方法學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -105761,11 +106506,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "人權與正義學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -105860,6 +106619,12 @@
             "department": "電機系",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "晶片系統學士學分學程"
+                },
+                {
                     "grade": "4",
                     "class": "",
                     "category": "電機系",
@@ -105867,6 +106632,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -106806,11 +107572,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度五"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通"
             ],
             "title": {
@@ -107713,11 +108493,46 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "永續發展與治理英語學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "永續發展與治理英語學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "智慧永續發展與管理微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度五"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
+                "通",
+                "通",
+                "通",
                 "通"
             ],
             "title": {
@@ -109317,6 +110132,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
                 },
@@ -109325,9 +110146,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "法律暨企業社會責任學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -109540,6 +110369,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
                 },
@@ -109548,9 +110383,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "法律暨企業社會責任學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -111756,9 +112599,15 @@
                 },
                 {
                     "grade": "1",
-                    "class": "",
+                    "class": "A",
                     "category": "經濟系",
-                    "original": "經濟系1"
+                    "original": "經濟系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "經濟系",
+                    "original": "經濟系1B"
                 },
                 {
                     "grade": "1",
@@ -111768,6 +112617,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -112890,17 +113740,10 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "智慧永續發展與管理微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
                     "original": "不動產與城鄉環境微學程"
                 }
             ],
             "compulsory": [
-                "必",
                 "必",
                 "必",
                 "必",
@@ -114922,6 +115765,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "文官人才學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "不動產估價師學士學分學程"
                 },
                 {
@@ -114929,6 +115778,12 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "文官人才學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -114954,6 +115809,8 @@
                 "選",
                 "選",
                 "選",
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -116951,6 +117808,12 @@
             "department": "犯罪學碩",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "犯罪學碩",
@@ -116976,6 +117839,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -118306,6 +119170,58 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "50"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N2025",
+            "department": "(進修)法律",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "(進修)法律",
+                    "original": "(進修)法律2"
+                },
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "(進修)法律",
+                    "original": "(進修)法律4"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "專利法",
+                "en": "Patent Law",
+                "limit": true,
+                "other": "1、進修學士班任必修科目。2、先修科目：民法總則或民法概要。3.本課程下次開課為116學年度，請同學留意。\n*1141223依系所通知異動上課時間。"
+            },
+            "teacher": [
+                "黃泰然"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "506",
+                    "original": "每週五10~11\t506"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -120273,7 +121189,7 @@
             ],
             "title": {
                 "ch": "不動產與城鄉環境實務操作",
-                "en": "Intership of real estate and built environment",
+                "en": "Internship of real estate and built environment",
                 "limit": true,
                 "other": "C組，詳細選課流程資訊預計於115年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。同意選課之名單由系辦公室統一通知課務組不開放自行選課，若有疑問請洽系辦公室。"
             },
@@ -122577,23 +123493,9 @@
                     "class": "",
                     "category": "歷史碩",
                     "original": "歷史碩2"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "日本研究學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "日本研究微學程"
                 }
             ],
             "compulsory": [
-                "選",
-                "選",
                 "選",
                 "選"
             ],
@@ -122800,6 +123702,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "人權與正義學士微學程"
                 },
@@ -122811,6 +123719,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -122956,9 +123865,23 @@
                     "class": "",
                     "category": "社學碩",
                     "original": "社學碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -124538,9 +125461,23 @@
                     "class": "",
                     "category": "(進修)經濟",
                     "original": "(進修)經濟4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -125319,9 +126256,23 @@
                     "class": "",
                     "category": "社學系",
                     "original": "社學系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -125827,9 +126778,23 @@
                     "class": "",
                     "category": "社學系",
                     "original": "社學系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -126771,6 +127736,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "人權與正義學士微學程"
                 },
@@ -126782,6 +127753,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -127272,6 +128244,12 @@
             "department": "通訊系",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "晶片系統學士學分學程"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "通訊碩",
@@ -127291,6 +128269,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -129089,6 +130068,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "人權與正義學士微學程"
                 },
@@ -129106,6 +130091,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通"
@@ -129160,11 +130146,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社區照顧微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度五"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通",
                 "通"
             ],
@@ -132683,11 +133683,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "人權與正義學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -133667,11 +134674,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "環境、社會與企業治理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -135944,9 +136965,23 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "賽會籌組人力就業學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "日本研究學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "日本研究微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -136295,6 +137330,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "人權與正義學士微學程"
                 },
@@ -136318,6 +137359,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通",
@@ -137891,7 +138933,6 @@
         "經博1",
         "經博2",
         "經濟分析學士微學程",
-        "經濟系1",
         "經濟系1A",
         "經濟系1B",
         "經濟系2A",
