@@ -1,7 +1,7 @@
 {
-    "start_time": "2025-12-25 01:22:38",
-    "end_time": "2025-12-25 01:23:03",
-    "total_courses": 2085,
+    "start_time": "2025-12-27 01:21:02",
+    "end_time": "2025-12-27 01:21:29",
+    "total_courses": 2087,
     "failed_weeks": [],
     "data": [
         {
@@ -520,7 +520,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -562,7 +562,7 @@
             ],
             "sign": "是",
             "sign_people": "7",
-            "max_people": "36"
+            "max_people": "40"
         },
         {
             "year": "114",
@@ -604,7 +604,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -646,7 +646,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -688,7 +688,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -730,7 +730,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -772,7 +772,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -814,7 +814,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -856,7 +856,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -898,7 +898,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -940,7 +940,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -982,7 +982,7 @@
             ],
             "sign": "是",
             "sign_people": "6",
-            "max_people": "30"
+            "max_people": "33"
         },
         {
             "year": "114",
@@ -1024,7 +1024,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -1066,7 +1066,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "36"
+            "max_people": "40"
         },
         {
             "year": "114",
@@ -1108,7 +1108,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -1150,7 +1150,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -13938,9 +13938,23 @@
                     "class": "B",
                     "category": "(進修)公政",
                     "original": "(進修)公政4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -16711,6 +16725,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "台灣經濟與社會發展英語學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "A-EGP進階英文學士微學程"
                 },
@@ -16731,9 +16751,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "全球化公共事務英語學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "台灣經濟與社會發展英語微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -18573,59 +18601,6 @@
         {
             "year": "114",
             "semester": "2",
-            "courseID": "M5118",
-            "department": "城市治理碩士學位學程",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "城市治理碩士學位學程",
-                    "original": "城市治理碩士學位學程1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "城市治理碩士學位學程",
-                    "original": "城市治理碩士學位學程2"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "城市環境和人類體驗",
-                "en": "Urban Environments and Human Experience",
-                "limit": false,
-                "other": " "
-            },
-            "teacher": [
-                "楊明浩"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "英語English",
-            "course_detail": [
-                {
-                    "courseTime": 1,
-                    "time_category": "A",
-                    "sessions": [
-                        7,
-                        8,
-                        9
-                    ],
-                    "place": "公2F02",
-                    "original": "每週一7~9\t公2F02"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "25"
-        },
-        {
-            "year": "114",
-            "semester": "2",
             "courseID": "M5140",
             "department": "通訊碩",
             "department_level": [
@@ -20135,6 +20110,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
                     "original": "調查方法與資料分析學程"
                 },
                 {
@@ -20148,9 +20129,17 @@
                     "class": "",
                     "category": "犯罪學碩",
                     "original": "犯罪學碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -21931,6 +21920,12 @@
             "department": "犯碩職",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "犯碩職",
@@ -21941,9 +21936,17 @@
                     "class": "",
                     "category": "犯碩職",
                     "original": "犯碩職2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -21997,7 +22000,7 @@
                 "ch": "企業價值分析",
                 "en": "Business Analysis Evaluation",
                 "limit": false,
-                "other": "教室:教學大樓607研討室"
+                "other": "[停開]教室:教學大樓607研討室\n*1141226依系所通知停開。"
             },
             "teacher": [
                 "葉淑玲",
@@ -23387,7 +23390,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "郭盈旻"
             ],
             "category": "半",
             "credit": "3",
@@ -28606,7 +28609,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -28648,7 +28651,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -28690,7 +28693,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -28732,7 +28735,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -28774,7 +28777,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -28816,7 +28819,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -28942,7 +28945,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -28984,7 +28987,7 @@
             ],
             "sign": "是",
             "sign_people": "7",
-            "max_people": "36"
+            "max_people": "40"
         },
         {
             "year": "114",
@@ -29026,7 +29029,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -29068,7 +29071,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -29110,7 +29113,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -29152,7 +29155,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "33"
         },
         {
             "year": "114",
@@ -29194,7 +29197,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -29236,7 +29239,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -29278,7 +29281,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -35069,7 +35072,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "胡銘哲"
             ],
             "category": "半",
             "credit": "3",
@@ -41885,6 +41888,12 @@
             "department": "犯罪學碩",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "台灣經濟與社會發展英語學分學程"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "犯罪學碩",
@@ -41895,9 +41904,17 @@
                     "class": "",
                     "category": "犯罪學碩",
                     "original": "犯罪學碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "台灣經濟與社會發展英語微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -43208,6 +43225,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "性別與人權學士學分學程"
                 },
@@ -43222,9 +43245,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "性別學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -56040,6 +56071,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "美學、文化與藝術學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "高齡社區照顧學分學程"
                 },
                 {
@@ -56051,11 +56088,19 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "微學程",
+                    "original": "美學、文化與藝術學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度一"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通",
                 "通",
                 "通"
@@ -56684,11 +56729,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "美學、文化與藝術學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "美學、文化與藝術學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度六"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通"
             ],
             "title": {
@@ -57060,11 +57119,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "台灣經濟與社會發展英語學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "台灣經濟與社會發展英語微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度五"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通"
             ],
             "title": {
@@ -57809,7 +57882,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -57851,7 +57924,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -57893,7 +57966,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -57935,7 +58008,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -57977,7 +58050,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -58061,7 +58134,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -58103,7 +58176,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -58145,7 +58218,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -58187,7 +58260,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -58229,7 +58302,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -58271,7 +58344,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -58313,7 +58386,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -58355,7 +58428,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -65676,7 +65749,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "胡銘哲"
             ],
             "category": "半",
             "credit": "3",
@@ -71451,6 +71524,72 @@
         {
             "year": "114",
             "semester": "2",
+            "courseID": "U4086",
+            "department": "不動產城鄉系",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "A",
+                    "category": "不動產城鄉系",
+                    "original": "不動產城鄉系4A"
+                },
+                {
+                    "grade": "4",
+                    "class": "B",
+                    "category": "不動產城鄉系",
+                    "original": "不動產城鄉系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "都市更新學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "都市更新微學程"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "都市更新權利變換估價實務",
+                "en": "Valuation Practice for Urban Renewal Rights Transfer",
+                "limit": false,
+                "other": " "
+            },
+            "teacher": [
+                "林秋綿"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "公1F20",
+                    "original": "每週三3~4\t公1F20"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "60"
+        },
+        {
+            "year": "114",
+            "semester": "2",
             "courseID": "U4096",
             "department": "不動產城鄉系",
             "department_level": [
@@ -73055,6 +73194,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "台灣經濟與社會發展英語學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "A-EGP進階英文學士微學程"
                 },
@@ -73075,9 +73220,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "全球化公共事務英語學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "台灣經濟與社會發展英語微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -74458,6 +74611,55 @@
         {
             "year": "114",
             "semester": "2",
+            "courseID": "M5118",
+            "department": "城市治理碩士學位學程",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "城市治理碩士學位學程",
+                    "original": "城市治理碩士學位學程1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "城市治理碩士學位學程",
+                    "original": "城市治理碩士學位學程2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "城市環境和人類體驗",
+                "en": "Urban Environments and Human Experience",
+                "limit": false,
+                "other": "社科111教室"
+            },
+            "teacher": [
+                "楊明浩"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三7~9"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
+        },
+        {
+            "year": "114",
+            "semester": "2",
             "courseID": "M5127",
             "department": "不動產城鄉碩",
             "department_level": [
@@ -74514,66 +74716,6 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "26"
-        },
-        {
-            "year": "114",
-            "semester": "2",
-            "courseID": "M5128",
-            "department": "不動產城鄉碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "不動產城鄉博",
-                    "original": "不動產城鄉博1"
-                },
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "不動產城鄉碩",
-                    "original": "不動產城鄉碩1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "不動產城鄉碩",
-                    "original": "不動產城鄉碩2"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "不動產估價專題",
-                "en": "Seminar on Real Estate Appraisal",
-                "limit": false,
-                "other": "博碩士班不限年級均可選修"
-            },
-            "teacher": [
-                "林秋綿"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 3,
-                    "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "公2F26",
-                    "original": "每週三2~4\t公2F26"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "30"
         },
         {
             "year": "114",
@@ -75259,9 +75401,23 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "全球經濟分析與領袖人才英語學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "台灣經濟與社會發展英語學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "台灣經濟與社會發展英語微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -75659,10 +75815,24 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
                     "original": "全球經濟分析與領袖人才英語學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -78676,11 +78846,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "台灣經濟與社會發展英語學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "經濟資料科學學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "台灣經濟與社會發展英語微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -80474,11 +80658,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "美學、文化與藝術學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "美學、文化與藝術學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度二"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通"
             ],
             "title": {
@@ -82133,7 +82331,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82175,7 +82373,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "33"
         },
         {
             "year": "114",
@@ -82217,7 +82415,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82259,7 +82457,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82301,7 +82499,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82343,7 +82541,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82385,7 +82583,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82427,7 +82625,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82469,7 +82667,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82511,7 +82709,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82553,7 +82751,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82623,7 +82821,7 @@
             ],
             "sign": "是",
             "sign_people": "6",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82665,7 +82863,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82707,7 +82905,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82752,7 +82950,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82794,7 +82992,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -82836,7 +83034,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -91591,7 +91789,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "郭盈旻"
             ],
             "category": "半",
             "credit": "3",
@@ -99094,6 +99292,65 @@
         {
             "year": "114",
             "semester": "2",
+            "courseID": "U3184",
+            "department": "不動產城鄉系",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "A",
+                    "category": "不動產城鄉系",
+                    "original": "不動產城鄉系3A"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "不動產與城鄉環境實務操作",
+                "en": "Internship of real estate and built environment",
+                "limit": false,
+                "other": "G組，詳細選課流程資訊預計於115年2月開學時公告於系網頁，限本系學士班學生選課。本科不計入輔系學分。同意選課之名單由系辦公室統一通知課務組不開放自行選課，若有疑問請洽系辦公室。"
+            },
+            "teacher": [
+                "何彥陞"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        9,
+                        10
+                    ],
+                    "place": "公2F26",
+                    "original": "每週四9~10\t公2F26"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "23"
+        },
+        {
+            "year": "114",
+            "semester": "2",
             "courseID": "U3185",
             "department": "行政系",
             "department_level": [
@@ -101407,6 +101664,66 @@
         {
             "year": "114",
             "semester": "2",
+            "courseID": "M5128",
+            "department": "不動產城鄉碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "不動產城鄉博",
+                    "original": "不動產城鄉博1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "不動產城鄉碩",
+                    "original": "不動產城鄉碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "不動產城鄉碩",
+                    "original": "不動產城鄉碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "不動產估價專題",
+                "en": "Seminar on Real Estate Appraisal",
+                "limit": false,
+                "other": "博碩士班不限年級均可選修"
+            },
+            "teacher": [
+                "林秋綿"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "公2F05",
+                    "original": "每週四2~4\t公2F05"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
             "courseID": "M5129",
             "department": "不動產城鄉碩",
             "department_level": [
@@ -102004,9 +102321,23 @@
                     "class": "",
                     "category": "社工碩",
                     "original": "社工碩1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "台灣經濟與社會發展英語學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "台灣經濟與社會發展英語微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -105861,9 +106192,23 @@
                     "class": "",
                     "category": "社工系",
                     "original": "社工系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "台灣經濟與社會發展英語學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "台灣經濟與社會發展英語微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -109785,7 +110130,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -109827,7 +110172,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -109869,7 +110214,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -109911,7 +110256,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -109953,7 +110298,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -121233,9 +121578,23 @@
                     "class": "",
                     "category": "財政系",
                     "original": "財政系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -122848,6 +123207,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "台灣經濟與社會發展英語學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "A-EGP進階英文學士微學程"
                 },
@@ -122868,9 +123233,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "全球化公共事務英語學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "台灣經濟與社會發展英語微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -125529,9 +125902,23 @@
                     "class": "",
                     "category": "(進修)數位行銷",
                     "original": "(進修)數位行銷4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -128381,11 +128768,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度二"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通"
             ],
             "title": {
@@ -128432,11 +128833,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度二"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通"
             ],
             "title": {
@@ -130140,12 +130555,6 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "N/A",
-                    "original": "職涯探索及創新創業學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "學分學程",
                     "original": "高齡社區照顧學分學程"
                 },
@@ -130163,7 +130572,6 @@
                 }
             ],
             "compulsory": [
-                "通",
                 "通",
                 "通",
                 "通"
@@ -135290,7 +135698,7 @@
                 "ch": "物聯網趨勢與應用",
                 "en": "IoT Trends and Applications",
                 "limit": false,
-                "other": "請安排電腦教室\n*數位行銷進修學士學位學程學士後多元專長培力課程(選修)"
+                "other": "[停開]請安排電腦教室\n*數位行銷進修學士學位學程學士後多元專長培力課程(選修)\n*1141226依系所通知停開。"
             },
             "teacher": [
                 "魏家惠"
@@ -136975,11 +137383,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "日本研究微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -137216,11 +137638,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "美學、文化與藝術學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "美學、文化與藝術學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度一"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通"
             ],
             "title": {
@@ -137468,6 +137904,12 @@
             "department": "會碩職",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "會碩職",
@@ -137478,9 +137920,17 @@
                     "class": "",
                     "category": "會碩職",
                     "original": "會碩職2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必"
             ],
@@ -138216,9 +138666,23 @@
                     "class": "",
                     "category": "法律學系司法組",
                     "original": "法律學系司法組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "職涯探索及創新創業學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "職涯探索及創新創業微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
