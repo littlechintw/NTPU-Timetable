@@ -1,7 +1,7 @@
 {
-    "start_time": "2025-12-27 01:21:02",
-    "end_time": "2025-12-27 01:21:29",
-    "total_courses": 2087,
+    "start_time": "2025-12-30 01:23:03",
+    "end_time": "2025-12-30 01:23:29",
+    "total_courses": 2088,
     "failed_weeks": [],
     "data": [
         {
@@ -11473,7 +11473,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "全球勞動法英語微學程"
+                    "original": "全球勞動法英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -14362,7 +14362,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "全球勞動法英語微學程"
+                    "original": "全球勞動法英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -17104,7 +17104,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "全球勞動法英語微學程"
+                    "original": "全球勞動法英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -28733,8 +28733,8 @@
                     "original": "每週二7~8"
                 }
             ],
-            "sign": "是",
-            "sign_people": "8",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "46"
         },
         {
@@ -34373,12 +34373,6 @@
                     "original": "經濟系3B"
                 },
                 {
-                    "grade": "3",
-                    "class": "B",
-                    "category": "經濟系",
-                    "original": "經濟系3B"
-                },
-                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
@@ -34430,7 +34424,6 @@
                 "必",
                 "必",
                 "必",
-                "必",
                 "必"
             ],
             "title": {
@@ -34456,13 +34449,6 @@
                     ],
                     "place": "社103",
                     "original": "每週二3~4\t社103"
-                },
-                {
-                    "courseTime": "N/A",
-                    "time_category": "N/A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "第二教室電2F03"
                 }
             ],
             "sign": "否",
@@ -35762,8 +35748,8 @@
                     "original": "每週二10~12\t103"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "9",
             "max_people": "60"
         },
         {
@@ -47151,7 +47137,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "全球勞動法英語微學程"
+                    "original": "全球勞動法英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -62638,7 +62624,7 @@
                 "other": " "
             },
             "teacher": [
-                "******"
+                "胡銘哲"
             ],
             "category": "半",
             "credit": "3",
@@ -65173,7 +65159,7 @@
                 "ch": "微積分",
                 "en": "Calculus",
                 "limit": false,
-                "other": " "
+                "other": "*遠距教學課程.首次上課(2/25)無法到班者，請勿選課:僅於首次上課日(2/25)在教室現場設定「教學影片觀看權限」，日後不再開通，未到班者將無法觀看任何課程影片與後續遠距內容，選課前請審慎評估。"
             },
             "teacher": [
                 "蔡旻曉"
@@ -73005,7 +72991,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "全球勞動法英語微學程"
+                    "original": "全球勞動法英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -73420,7 +73406,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "全球勞動法英語微學程"
+                    "original": "全球勞動法英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -82819,8 +82805,8 @@
                     "original": "每週四5~6"
                 }
             ],
-            "sign": "是",
-            "sign_people": "6",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "46"
         },
         {
@@ -86297,12 +86283,6 @@
                 },
                 {
                     "grade": "3",
-                    "class": "A",
-                    "category": "經濟系",
-                    "original": "經濟系3A"
-                },
-                {
-                    "grade": "3",
                     "class": "B",
                     "category": "經濟系",
                     "original": "經濟系3B"
@@ -86359,7 +86339,6 @@
                 "必",
                 "必",
                 "必",
-                "必",
                 "必"
             ],
             "title": {
@@ -86385,13 +86364,6 @@
                     ],
                     "place": "社103",
                     "original": "每週四3~4\t社103"
-                },
-                {
-                    "courseTime": "N/A",
-                    "time_category": "N/A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "第二教室電1F06"
                 }
             ],
             "sign": "否",
@@ -115874,6 +115846,70 @@
         {
             "year": "114",
             "semester": "2",
+            "courseID": "P1029",
+            "department": "政碩職",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "政碩職",
+                    "original": "政碩職1"
+                }
+            ],
+            "compulsory": [
+                "必"
+            ],
+            "title": {
+                "ch": "公共政策研究",
+                "en": "Research on Public Policies",
+                "limit": true,
+                "other": "碩一必修。\n*1141229依系所通知調整課程時間。"
+            },
+            "teacher": [
+                "楊臻欣"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": "N",
+                    "time_category": "N",
+                    "sessions": "N",
+                    "place": "N/A",
+                    "original": "每週未維護0"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "O",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "行政系碩專教室",
+                    "original": "單週五10~12\t行政系碩專教室"
+                },
+                {
+                    "courseTime": 6,
+                    "time_category": "E",
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "行政系碩專教室",
+                    "original": "雙週六5~7\t行政系碩專教室"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
             "courseID": "U1033",
             "department": "不動產城鄉系",
             "department_level": [
@@ -129705,7 +129741,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "全球勞動法英語微學程"
+                    "original": "全球勞動法英語學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -131932,8 +131968,8 @@
                         3,
                         4
                     ],
-                    "place": "308",
-                    "original": "每週六2~4\t308"
+                    "place": "502電腦教室",
+                    "original": "每週六2~4\t502電腦教室"
                 },
                 {
                     "courseTime": 6,
@@ -131941,8 +131977,8 @@
                     "sessions": [
                         1
                     ],
-                    "place": "308",
-                    "original": "實習每週六1~1\t308"
+                    "place": "502電腦教室",
+                    "original": "實習每週六1~1\t502電腦教室"
                 },
                 {
                     "courseTime": 6,
@@ -131950,13 +131986,13 @@
                     "sessions": [
                         5
                     ],
-                    "place": "308",
-                    "original": "實習每週六5~5\t308"
+                    "place": "505",
+                    "original": "實習每週六5~5\t505"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "79"
+            "max_people": "48"
         },
         {
             "year": "114",
@@ -132873,7 +132909,7 @@
                 "ch": "公共政策研究",
                 "en": "Research on Public Policies",
                 "limit": true,
-                "other": "碩一必修。"
+                "other": "碩一必修。\n*1141229依系所通知調整課程時間。"
             },
             "teacher": [
                 "楊臻欣"
@@ -132884,15 +132920,33 @@
             "language": "中文",
             "course_detail": [
                 {
+                    "courseTime": "N",
+                    "time_category": "N",
+                    "sessions": "N",
+                    "place": "N/A",
+                    "original": "每週未維護0"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "O",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "行政系碩專教室",
+                    "original": "單週五10~12\t行政系碩專教室"
+                },
+                {
                     "courseTime": 6,
-                    "time_category": "A",
+                    "time_category": "E",
                     "sessions": [
                         5,
                         6,
                         7
                     ],
                     "place": "行政系碩專教室",
-                    "original": "每週六5~7\t行政系碩專教室"
+                    "original": "雙週六5~7\t行政系碩專教室"
                 }
             ],
             "sign": "否",
@@ -139201,7 +139255,7 @@
         "休運系4",
         "傳播學士學分學程",
         "傳播學士微學程",
-        "全球勞動法英語微學程",
+        "全球勞動法英語學士微學程",
         "全球化公共事務英語學士學分學程",
         "全球化公共事務英語學士微學程",
         "全球經濟分析與領袖人才英語學程",
