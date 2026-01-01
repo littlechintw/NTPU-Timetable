@@ -1,7 +1,7 @@
 {
-    "start_time": "2025-12-30 01:23:03",
-    "end_time": "2025-12-30 01:23:29",
-    "total_courses": 2088,
+    "start_time": "2026-01-01 01:41:57",
+    "end_time": "2026-01-01 01:42:22",
+    "total_courses": 2089,
     "failed_weeks": [],
     "data": [
         {
@@ -4961,7 +4961,7 @@
                 "ch": "社會研究方法實作",
                 "en": "Practice of  Social Research Methods",
                 "limit": false,
-                "other": "本科課程任課教師改為陳克瀚老師。"
+                "other": " "
             },
             "teacher": [
                 "戴翠莪"
@@ -11559,8 +11559,8 @@
                         7,
                         8
                     ],
-                    "place": "公2F01",
-                    "original": "每週一7~8\t公2F01"
+                    "place": "公2F26",
+                    "original": "每週一7~8\t公2F26"
                 }
             ],
             "sign": "否",
@@ -14063,7 +14063,7 @@
                 "ch": "政府與企業專題",
                 "en": "Seminar in Government and Business",
                 "limit": true,
-                "other": " "
+                "other": "[停開]*1141231依系所通知課程停開。"
             },
             "teacher": [
                 "周育仁"
@@ -19859,6 +19859,52 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "M5931",
+            "department": "企博",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "企博",
+                    "original": "企博1A"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "公司理財專題研討",
+                "en": "Seminar on Corporate Finance",
+                "limit": false,
+                "other": "114.12.30通知上課時間異動。"
+            },
+            "teacher": [
+                "林美珍"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        8,
+                        9,
+                        10
+                    ],
+                    "place": "商4F05-3",
+                    "original": "每週一8~10\t商4F05-3"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "10"
         },
         {
             "year": "114",
@@ -47878,7 +47924,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "22"
         },
         {
             "year": "114",
@@ -48062,7 +48108,7 @@
                 "ch": "不動產金融研究",
                 "en": "Seminar in Real Estate Finance",
                 "limit": false,
-                "other": "博碩士班不限年級均可選修"
+                "other": "1.博碩士班不限年級均可選修。\n2.本班不開放商學院學生選修。"
             },
             "teacher": [
                 "彭蒂菁"
@@ -48080,8 +48126,8 @@
                         3,
                         4
                     ],
-                    "place": "公2F26",
-                    "original": "每週二2~4\t公2F26"
+                    "place": "公2F39",
+                    "original": "每週二2~4\t公2F39"
                 }
             ],
             "sign": "否",
@@ -50051,24 +50097,31 @@
         {
             "year": "114",
             "semester": "2",
-            "courseID": "M5931",
-            "department": "企博",
+            "courseID": "M5930",
+            "department": "企碩",
             "department_level": [
                 {
                     "grade": "1",
                     "class": "A",
                     "category": "企博",
                     "original": "企博1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "企碩",
+                    "original": "企碩1A"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
-                "ch": "公司理財專題研討",
-                "en": "Seminar on Corporate Finance",
+                "ch": "行為財務專題研討",
+                "en": "Seminar on Behavioral Finance",
                 "limit": false,
-                "other": " "
+                "other": "114.12.30通知上課時間異動。"
             },
             "teacher": [
                 "林美珍"
@@ -50076,23 +50129,23 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "中文",
+            "language": "英語English",
             "course_detail": [
                 {
                     "courseTime": 2,
                     "time_category": "A",
                     "sessions": [
-                        8,
-                        9,
-                        10
+                        2,
+                        3,
+                        4
                     ],
                     "place": "商4F05-3",
-                    "original": "每週二8~10\t商4F05-3"
+                    "original": "每週二2~4\t商4F05-3"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "15"
         },
         {
             "year": "114",
@@ -58103,7 +58156,7 @@
                 "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點：崇越館。"
             },
             "teacher": [
-                "陳秋丹"
+                "陳建瑋"
             ],
             "category": "半",
             "credit": "0",
@@ -75496,59 +75549,6 @@
         {
             "year": "114",
             "semester": "2",
-            "courseID": "M5930",
-            "department": "企碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "A",
-                    "category": "企博",
-                    "original": "企博1A"
-                },
-                {
-                    "grade": "1",
-                    "class": "A",
-                    "category": "企碩",
-                    "original": "企碩1A"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "行為財務專題研討",
-                "en": "Seminar on Behavioral Finance",
-                "limit": false,
-                "other": " "
-            },
-            "teacher": [
-                "林美珍"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "英語English",
-            "course_detail": [
-                {
-                    "courseTime": 3,
-                    "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "商4F05-3",
-                    "original": "每週三2~4\t商4F05-3"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "15"
-        },
-        {
-            "year": "114",
-            "semester": "2",
             "courseID": "M5933",
             "department": "企碩",
             "department_level": [
@@ -82300,7 +82300,7 @@
                 "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點：崇越館。"
             },
             "teacher": [
-                "陳建瑋"
+                "陳秋丹"
             ],
             "category": "半",
             "credit": "0",
@@ -101899,7 +101899,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "20"
         },
         {
             "year": "114",
@@ -102280,7 +102280,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "22"
+            "max_people": "15"
         },
         {
             "year": "114",
@@ -102897,7 +102897,7 @@
             "title": {
                 "ch": "高齡社會學與社會福利專題",
                 "en": "Sociology of Aging and Welfare to the Elderly",
-                "limit": true,
+                "limit": false,
                 "other": "上課教室：社科722社工系碩博教室。"
             },
             "teacher": [
@@ -106800,7 +106800,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "60"
+            "max_people": "50"
         },
         {
             "year": "114",
@@ -111356,7 +111356,7 @@
                 "ch": "公共經濟學",
                 "en": "Public Economics",
                 "limit": false,
-                "other": "先修:經濟學原理(或經濟學)。\n開放隨班附讀。"
+                "other": "先修:經濟學原理(或經濟學)。"
             },
             "teacher": [
                 "林柔均"
@@ -123974,7 +123974,7 @@
             "title": {
                 "ch": "優勢觀點與社會工作",
                 "en": "Strengths perspective and social work",
-                "limit": true,
+                "limit": false,
                 "other": "學碩合班。"
             },
             "teacher": [
@@ -125121,6 +125121,52 @@
             "sign": "是",
             "sign_people": "1",
             "max_people": "6"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "M5251",
+            "department": "企博",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "企博",
+                    "original": "企博1B"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "國際經營策略",
+                "en": "International Management Strategy",
+                "limit": false,
+                "other": "114.12.31通知新開課程"
+            },
+            "teacher": [
+                "陳宥杉"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週五10~12"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "10"
         },
         {
             "year": "114",
@@ -128317,8 +128363,8 @@
                 "選"
             ],
             "title": {
-                "ch": "商業智能與鑑識會計(二)",
-                "en": "Business Intelligence and Forensic Accounting(II)",
+                "ch": "商業智能與鑑識會計（二）",
+                "en": "Business Intelligence and Forensic Accounting (II)",
                 "limit": true,
                 "other": "教室：請安排資1F-10\n課程更名,原名:鑑識會計專題研討(二)"
             },
@@ -134439,7 +134485,7 @@
                 "ch": "產業經濟學",
                 "en": "Industrial Economics",
                 "limit": false,
-                "other": "開放隨班附讀。"
+                "other": " "
             },
             "teacher": [
                 "李曉雲"
