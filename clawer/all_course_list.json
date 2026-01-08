@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-01-06 01:24:48",
-    "end_time": "2026-01-06 01:25:15",
+    "start_time": "2026-01-08 01:25:21",
+    "end_time": "2026-01-08 01:25:50",
     "total_courses": 2090,
     "failed_weeks": [],
     "data": [
@@ -560,8 +560,8 @@
                     "original": "每週一3~4"
                 }
             ],
-            "sign": "是",
-            "sign_people": "7",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "0"
         },
         {
@@ -854,8 +854,8 @@
                     "original": "每週一1~2"
                 }
             ],
-            "sign": "是",
-            "sign_people": "8",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "0"
         },
         {
@@ -1492,7 +1492,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "97"
+            "max_people": "78"
         },
         {
             "year": "114",
@@ -2181,7 +2181,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "47"
+            "max_people": "49"
         },
         {
             "year": "114",
@@ -2613,7 +2613,7 @@
                 "ch": "大學英文：基礎商用英文",
                 "en": "College English：An Introduction to Business English",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "柯博仁"
@@ -3712,7 +3712,7 @@
                 "ch": "大學英文：基礎商用英文",
                 "en": "College English：An Introduction to Business English",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "李錦雲"
@@ -3799,7 +3799,7 @@
                 "ch": "大學英文：當代議題聽講訓練",
                 "en": "College English：An Introduction to Academic Listening and Speaking on Contemporary Topics",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "趙嚴忠"
@@ -3886,7 +3886,7 @@
                 "ch": "大學英文：當代議題聽講訓練",
                 "en": "College English：An Introduction to Academic Listening and Speaking on Contemporary Topics",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "詹琤琦"
@@ -3973,7 +3973,7 @@
                 "ch": "大學英文：當代議題聽講訓練",
                 "en": "College English：An Introduction to Academic Listening and Speaking on Contemporary Topics",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "趙嚴忠"
@@ -4060,7 +4060,7 @@
                 "ch": "大學英文：英文閱讀與討論",
                 "en": "College English：English Reading and Discussion",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "陳尹珊"
@@ -4147,7 +4147,7 @@
                 "ch": "大學英文：基礎商用英文",
                 "en": "College English：An Introduction to Business English",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "黎淑惠"
@@ -4234,7 +4234,7 @@
                 "ch": "大學英文：英文閱讀與討論",
                 "en": "College English：English Reading and Discussion",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "許瑞玟"
@@ -4321,7 +4321,7 @@
                 "ch": "大學英文：英文閱讀與討論",
                 "en": "College English：English Reading and Discussion",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "許瑞玟"
@@ -4397,13 +4397,13 @@
                         3,
                         4
                     ],
-                    "place": "商1F01",
-                    "original": "每週一3~4\t商1F01"
+                    "place": "社B02",
+                    "original": "每週一3~4\t社B02"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "155"
         },
         {
             "year": "114",
@@ -5820,8 +5820,8 @@
                         3,
                         4
                     ],
-                    "place": "電1F02",
-                    "original": "每週一3~4\t電1F02"
+                    "place": "公5F32",
+                    "original": "每週一3~4\t公5F32"
                 }
             ],
             "sign": "否",
@@ -7841,7 +7841,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "41"
+            "max_people": "43"
         },
         {
             "year": "114",
@@ -8692,7 +8692,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "43"
         },
         {
             "year": "114",
@@ -8808,7 +8808,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "41"
+            "max_people": "42"
         },
         {
             "year": "114",
@@ -9044,7 +9044,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "43"
+            "max_people": "44"
         },
         {
             "year": "114",
@@ -9160,7 +9160,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "41"
+            "max_people": "42"
         },
         {
             "year": "114",
@@ -9381,7 +9381,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "36"
+            "max_people": "37"
         },
         {
             "year": "114",
@@ -9662,7 +9662,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "41"
+            "max_people": "42"
         },
         {
             "year": "114",
@@ -9968,7 +9968,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "73"
+            "max_people": "67"
         },
         {
             "year": "114",
@@ -10140,7 +10140,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "63"
+            "max_people": "67"
         },
         {
             "year": "114",
@@ -10729,8 +10729,8 @@
                         6,
                         7
                     ],
-                    "place": "商2F04",
-                    "original": "每週一5~7\t商2F04"
+                    "place": "公1F02",
+                    "original": "每週一5~7\t公1F02"
                 },
                 {
                     "courseTime": 4,
@@ -10745,7 +10745,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "51"
+            "max_people": "54"
         },
         {
             "year": "114",
@@ -13100,7 +13100,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "44"
+            "max_people": "39"
         },
         {
             "year": "114",
@@ -13601,7 +13601,8 @@
                 "other": "1.本科不計入經濟學系雙主修加修課程學分。\n"
             },
             "teacher": [
-                "林宛瑩"
+                "林宛瑩",
+                "鄭桂蕙"
             ],
             "category": "全",
             "credit": "2",
@@ -14034,7 +14035,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "15"
         },
         {
             "year": "114",
@@ -15099,13 +15100,13 @@
                         7,
                         8
                     ],
-                    "place": "公1F04",
-                    "original": "每週一7~8\t公1F04"
+                    "place": "公5F32",
+                    "original": "每週一7~8\t公5F32"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "52"
+            "max_people": "80"
         },
         {
             "year": "114",
@@ -20792,7 +20793,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "5"
         },
         {
             "year": "114",
@@ -23260,8 +23261,8 @@
                         3,
                         4
                     ],
-                    "place": "商5F44",
-                    "original": "每週一2~4\t商5F44"
+                    "place": "商5F01",
+                    "original": "每週一2~4\t商5F01"
                 }
             ],
             "sign": "否",
@@ -23637,7 +23638,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "35"
         },
         {
             "year": "114",
@@ -23931,8 +23932,8 @@
                         3,
                         4
                     ],
-                    "place": "商5F01",
-                    "original": "每週一2~4\t商5F01"
+                    "place": "商5F25",
+                    "original": "每週一2~4\t商5F25"
                 }
             ],
             "sign": "否",
@@ -24465,7 +24466,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "15"
         },
         {
             "year": "114",
@@ -29059,8 +29060,8 @@
                     "original": "每週二3~4"
                 }
             ],
-            "sign": "是",
-            "sign_people": "7",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "0"
         },
         {
@@ -29311,8 +29312,8 @@
                     "original": "每週二1~2"
                 }
             ],
-            "sign": "是",
-            "sign_people": "8",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "0"
         },
         {
@@ -31618,7 +31619,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "79"
+            "max_people": "82"
         },
         {
             "year": "114",
@@ -31789,7 +31790,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "50"
+            "max_people": "51"
         },
         {
             "year": "114",
@@ -33043,7 +33044,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "78"
+            "max_people": "82"
         },
         {
             "year": "114",
@@ -33456,7 +33457,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "57"
+            "max_people": "58"
         },
         {
             "year": "114",
@@ -33776,7 +33777,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "29"
+            "max_people": "32"
         },
         {
             "year": "114",
@@ -33950,7 +33951,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "29"
+            "max_people": "32"
         },
         {
             "year": "114",
@@ -34149,8 +34150,8 @@
                         7,
                         8
                     ],
-                    "place": "公1F16",
-                    "original": "每週二7~8\t公1F16"
+                    "place": "公5F32",
+                    "original": "每週二7~8\t公5F32"
                 }
             ],
             "sign": "否",
@@ -34288,8 +34289,8 @@
                         7,
                         8
                     ],
-                    "place": "公1F20",
-                    "original": "每週二7~8\t公1F20"
+                    "place": "公5F32",
+                    "original": "每週二7~8\t公5F32"
                 }
             ],
             "sign": "否",
@@ -36399,7 +36400,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "84"
+            "max_people": "89"
         },
         {
             "year": "114",
@@ -37005,7 +37006,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -37356,7 +37357,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "71"
+            "max_people": "75"
         },
         {
             "year": "114",
@@ -37843,7 +37844,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "88"
+            "max_people": "108"
         },
         {
             "year": "114",
@@ -38374,7 +38375,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "61"
         },
         {
             "year": "114",
@@ -39881,7 +39882,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "69"
+            "max_people": "61"
         },
         {
             "year": "114",
@@ -43872,7 +43873,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "13"
         },
         {
             "year": "114",
@@ -45076,8 +45077,8 @@
                         3,
                         4
                     ],
-                    "place": "電1F01",
-                    "original": "每週二3~4\t電1F01"
+                    "place": "公5F32",
+                    "original": "每週二3~4\t公5F32"
                 }
             ],
             "sign": "否",
@@ -47946,8 +47947,8 @@
                         3,
                         4
                     ],
-                    "place": "社201",
-                    "original": "每週二2~4\t社201"
+                    "place": "法2F03",
+                    "original": "每週二2~4\t法2F03"
                 }
             ],
             "sign": "否",
@@ -48725,7 +48726,7 @@
                 "ch": "策略管理",
                 "en": "Strategy Management",
                 "limit": false,
-                "other": "碩甲組、碩乙組選修、博班選修"
+                "other": "1.碩甲組、碩乙組選修、博班選修。\n2.培養學生以管理顧問的實務角度，運用生成式AI 進行策略規劃的能力。"
             },
             "teacher": [
                 "黃朝盟"
@@ -50713,22 +50714,15 @@
                     "class": "",
                     "category": "國企碩",
                     "original": "國企碩2"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "N/A",
-                    "original": "財務金融碩士學程"
                 }
             ],
             "compulsory": [
                 "選",
-                "選",
                 "選"
             ],
             "title": {
-                "ch": "財務時間數列分析",
-                "en": "Financial Time Series Analysis",
+                "ch": "時間數列分析與預測",
+                "en": "Time Series and Forecasting",
                 "limit": false,
                 "other": " "
             },
@@ -50744,12 +50738,12 @@
                     "courseTime": 2,
                     "time_category": "A",
                     "sessions": [
-                        5,
-                        6,
-                        7
+                        2,
+                        3,
+                        4
                     ],
-                    "place": "商2F12",
-                    "original": "每週二5~7\t商2F12"
+                    "place": "商2F03",
+                    "original": "每週二2~4\t商2F03"
                 }
             ],
             "sign": "是",
@@ -50868,8 +50862,8 @@
                         11,
                         12
                     ],
-                    "place": "710",
-                    "original": "每週二10~12\t710"
+                    "place": "711",
+                    "original": "每週二10~12\t711"
                 }
             ],
             "sign": "否",
@@ -51916,7 +51910,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "3"
         },
         {
             "year": "114",
@@ -51970,13 +51964,13 @@
                         3,
                         4
                     ],
-                    "place": "社201",
-                    "original": "每週二2~4\t社201"
+                    "place": "法2F03",
+                    "original": "每週二2~4\t法2F03"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "40"
+            "sign": "是",
+            "sign_people": "10",
+            "max_people": "60"
         },
         {
             "year": "114",
@@ -54350,7 +54344,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "45"
+            "max_people": "30"
         },
         {
             "year": "114",
@@ -65082,8 +65076,8 @@
                         3,
                         4
                     ],
-                    "place": "公2F36",
-                    "original": "每週三2~4\t公2F36"
+                    "place": "公5F32",
+                    "original": "每週三2~4\t公5F32"
                 }
             ],
             "sign": "是",
@@ -65455,7 +65449,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "64"
+            "max_people": "60"
         },
         {
             "year": "114",
@@ -65523,7 +65517,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "60"
         },
         {
             "year": "114",
@@ -66042,8 +66036,8 @@
                         6,
                         7
                     ],
-                    "place": "電1F02",
-                    "original": "每週三5~7\t電1F02"
+                    "place": "公5F32",
+                    "original": "每週三5~7\t公5F32"
                 }
             ],
             "sign": "否",
@@ -66115,7 +66109,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "80"
+            "max_people": "70"
         },
         {
             "year": "114",
@@ -67490,7 +67484,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "3"
+            "max_people": "4"
         },
         {
             "year": "114",
@@ -67574,13 +67568,13 @@
                     "sessions": [
                         7
                     ],
-                    "place": "文3F09_L",
-                    "original": "每週三7~7\t文3F09_L"
+                    "place": "資B1F-04",
+                    "original": "每週三7~7\t資B1F-04"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "59"
         },
         {
             "year": "114",
@@ -68347,9 +68341,16 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "國際外交學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -68829,9 +68830,16 @@
                     "class": "",
                     "category": "(進修)法律",
                     "original": "(進修)法律1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "國際外交學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -68855,13 +68863,13 @@
                         12,
                         13
                     ],
-                    "place": "206",
-                    "original": "每週三12~13\t206"
+                    "place": "211",
+                    "original": "每週三12~13\t211"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "52"
         },
         {
             "year": "114",
@@ -69981,9 +69989,16 @@
                     "class": "",
                     "category": "法律學系司法組",
                     "original": "法律學系司法組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "國際外交學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -70916,9 +70931,16 @@
                     "class": "",
                     "category": "法律學系司法組",
                     "original": "法律學系司法組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "國際外交學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -75494,7 +75516,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "7"
+            "max_people": "6"
         },
         {
             "year": "114",
@@ -76819,7 +76841,7 @@
                 "ch": "金融科技與創新研討",
                 "en": "Seminar on Financial Technology and Innovation",
                 "limit": false,
-                "other": "*上課地點為教學大樓9樓統碩在職研究室上課(A9F03)."
+                "other": "*上課地點為教學大樓3樓309教室"
             },
             "teacher": [
                 "顏汝芳"
@@ -76837,8 +76859,8 @@
                         11,
                         12
                     ],
-                    "place": "903",
-                    "original": "每週三10~12\t903"
+                    "place": "309",
+                    "original": "每週三10~12\t309"
                 }
             ],
             "sign": "否",
@@ -78452,7 +78474,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "17"
+            "max_people": "20"
         },
         {
             "year": "114",
@@ -78889,7 +78911,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "27"
         },
         {
             "year": "114",
@@ -81926,8 +81948,8 @@
                         1,
                         2
                     ],
-                    "place": "文6F06",
-                    "original": "每週三1~2\t文6F06"
+                    "place": "文1F09",
+                    "original": "每週三1~2\t文1F09"
                 }
             ],
             "sign": "否",
@@ -85235,7 +85257,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "31"
+            "max_people": "32"
         },
         {
             "year": "114",
@@ -85841,8 +85863,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F27",
-                    "original": "每週四5~6\t法2F27"
+                    "place": "公5F32",
+                    "original": "每週四5~6\t公5F32"
                 }
             ],
             "sign": "是",
@@ -86080,7 +86102,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "29"
+            "max_people": "31"
         },
         {
             "year": "114",
@@ -86160,7 +86182,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "29"
+            "max_people": "31"
         },
         {
             "year": "114",
@@ -88602,7 +88624,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "55"
+            "max_people": "56"
         },
         {
             "year": "114",
@@ -88690,7 +88712,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "52"
+            "max_people": "53"
         },
         {
             "year": "114",
@@ -88845,7 +88867,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "54"
+            "max_people": "55"
         },
         {
             "year": "114",
@@ -89112,7 +89134,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "84"
+            "max_people": "89"
         },
         {
             "year": "114",
@@ -90228,7 +90250,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "46"
         },
         {
             "year": "114",
@@ -90316,7 +90338,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "55"
+            "max_people": "56"
         },
         {
             "year": "114",
@@ -90577,7 +90599,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "71"
+            "max_people": "75"
         },
         {
             "year": "114",
@@ -91011,7 +91033,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "88"
+            "max_people": "108"
         },
         {
             "year": "114",
@@ -92419,7 +92441,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "64"
+            "max_people": "55"
         },
         {
             "year": "114",
@@ -92521,7 +92543,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "62"
+            "max_people": "55"
         },
         {
             "year": "114",
@@ -92747,8 +92769,8 @@
                         6,
                         7
                     ],
-                    "place": "商2F04",
-                    "original": "每週一5~7\t商2F04"
+                    "place": "公1F02",
+                    "original": "每週一5~7\t公1F02"
                 },
                 {
                     "courseTime": 4,
@@ -92763,7 +92785,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "51"
+            "max_people": "54"
         },
         {
             "year": "114",
@@ -93229,7 +93251,7 @@
                     "time_category": "N/A",
                     "sessions": "N/A",
                     "place": "N/A",
-                    "original": "第二教室商1F05"
+                    "original": "第二教室商1F15"
                 }
             ],
             "sign": "否",
@@ -94956,9 +94978,16 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "國際外交學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -97687,7 +97716,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "70"
+            "max_people": "72"
         },
         {
             "year": "114",
@@ -98788,8 +98817,8 @@
                         7,
                         8
                     ],
-                    "place": "法1F19",
-                    "original": "每週四7~8\t法1F19"
+                    "place": "公5F32",
+                    "original": "每週四7~8\t公5F32"
                 }
             ],
             "sign": "否",
@@ -103992,13 +104021,13 @@
                         6,
                         7
                     ],
-                    "place": "商1F15",
-                    "original": "每週四5~7\t商1F15"
+                    "place": "商1F05",
+                    "original": "每週四5~7\t商1F05"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "17"
         },
         {
             "year": "114",
@@ -106670,7 +106699,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "45"
+            "max_people": "50"
         },
         {
             "year": "114",
@@ -107378,13 +107407,13 @@
                         6,
                         7
                     ],
-                    "place": "商1F15",
-                    "original": "每週四5~7\t商1F15"
+                    "place": "商1F05",
+                    "original": "每週四5~7\t商1F05"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "18"
         },
         {
             "year": "114",
@@ -108923,6 +108952,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "國際外交學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "永續發展與治理英語學士學分學程"
                 },
                 {
@@ -108957,6 +108992,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通",
@@ -111857,7 +111893,7 @@
                 "ch": "大學英文：當代議題聽講訓練",
                 "en": "College English：An Introduction to Academic Listening and Speaking on Contemporary Topics",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "詹琤琦"
@@ -112682,7 +112718,7 @@
                 "ch": "大學英文：基礎商用英文",
                 "en": "College English：An Introduction to Business English",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "李國仲"
@@ -112783,7 +112819,7 @@
                 "ch": "大學英文：基礎商用英文",
                 "en": "College English：An Introduction to Business English",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "邵宗瑩"
@@ -112870,7 +112906,7 @@
                 "ch": "大學英文：基礎商用英文",
                 "en": "College English：An Introduction to Business English",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "邵宗瑩"
@@ -112971,7 +113007,7 @@
                 "ch": "大學英文：當代議題聽講訓練",
                 "en": "College English：An Introduction to Academic Listening and Speaking on Contemporary Topics",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "彭怡婷"
@@ -113058,7 +113094,7 @@
                 "ch": "大學英文：當代議題聽講訓練",
                 "en": "College English：An Introduction to Academic Listening and Speaking on Contemporary Topics",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "彭怡婷"
@@ -113145,7 +113181,7 @@
                 "ch": "大學英文：英文閱讀與討論",
                 "en": "College English：English Reading and Discussion",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "陳尹珊"
@@ -113246,7 +113282,7 @@
                 "ch": "大學英文：英文閱讀與討論",
                 "en": "College English：English Reading and Discussion",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "蔡蕙如"
@@ -113347,7 +113383,7 @@
                 "ch": "大學英文：英文閱讀與討論",
                 "en": "College English：English Reading and Discussion",
                 "limit": true,
-                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。\n3.第一週不用實體上課，請至另行公告之網址觀看課程介紹並依興趣於加退選其間選課。"
+                "other": "1.本課程為1學期主題式大學英文課程，僅供114學年度入學之學士班新生英文未達本校免修標準，且成績達學測均標或達CEFR B1者修習。\n2.若重覆修習，僅採計一門為畢業學分。"
             },
             "teacher": [
                 "林怡利"
@@ -114215,7 +114251,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "52"
+            "max_people": "55"
         },
         {
             "year": "114",
@@ -116162,8 +116198,8 @@
                         3,
                         4
                     ],
-                    "place": "電1F01",
-                    "original": "每週五2~4\t電1F01"
+                    "place": "公5F32",
+                    "original": "每週五2~4\t公5F32"
                 }
             ],
             "sign": "否",
@@ -117564,11 +117600,11 @@
                     "courseTime": 5,
                     "time_category": "A",
                     "sessions": [
-                        6,
-                        7
+                        5,
+                        6
                     ],
-                    "place": "公2F38",
-                    "original": "每週五6~7\t公2F38"
+                    "place": "公2F27",
+                    "original": "每週五5~6\t公2F27"
                 }
             ],
             "sign": "否",
@@ -118120,9 +118156,16 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "國際外交學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -118257,9 +118300,16 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "國際外交學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -119634,11 +119684,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "國際外交學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -119715,13 +119772,13 @@
                         10,
                         11
                     ],
-                    "place": "506",
-                    "original": "每週五10~11\t506"
+                    "place": "406",
+                    "original": "每週五10~11\t406"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "60"
         },
         {
             "year": "114",
@@ -120476,7 +120533,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "35"
         },
         {
             "year": "114",
@@ -120600,6 +120657,12 @@
                     "class": "",
                     "category": "法律學系司法組",
                     "original": "法律學系司法組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "國際外交學士學分學程"
                 }
             ],
             "compulsory": [
@@ -120614,7 +120677,8 @@
                 "必",
                 "必",
                 "必",
-                "必"
+                "必",
+                "選"
             ],
             "title": {
                 "ch": "歐洲刑事人權法",
@@ -121571,9 +121635,16 @@
                     "class": "",
                     "category": "外語系",
                     "original": "外語系2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "國際外交學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -121597,13 +121668,13 @@
                         3,
                         4
                     ],
-                    "place": "文4F05_L",
-                    "original": "每週五3~4\t文4F05_L"
+                    "place": "商3F11",
+                    "original": "每週五3~4\t商3F11"
                 }
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "40"
+            "max_people": "86"
         },
         {
             "year": "114",
@@ -122883,9 +122954,16 @@
                     "class": "",
                     "category": "法律學系司法組",
                     "original": "法律學系司法組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "國際外交學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -125292,7 +125370,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "11"
         },
         {
             "year": "114",
@@ -126158,7 +126236,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "39"
         },
         {
             "year": "114",
@@ -126900,7 +126978,7 @@
             ],
             "sign": "是",
             "sign_people": "12",
-            "max_people": "60"
+            "max_people": "80"
         },
         {
             "year": "114",
@@ -127515,7 +127593,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "67"
         },
         {
             "year": "114",
@@ -127793,7 +127871,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "90"
+            "max_people": "80"
         },
         {
             "year": "114",
@@ -133666,9 +133744,16 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "國際外交學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -135086,9 +135171,16 @@
                     "class": "",
                     "category": "法律學系司法組",
                     "original": "法律學系司法組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "國際外交學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -135468,7 +135560,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "11"
         },
         {
             "year": "114",
@@ -135789,7 +135881,7 @@
             ],
             "sign": "是",
             "sign_people": "2",
-            "max_people": "14"
+            "max_people": "17"
         },
         {
             "year": "114",
