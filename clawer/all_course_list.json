@@ -1,7 +1,7 @@
 {
-    "start_time": "2026-01-08 01:25:21",
-    "end_time": "2026-01-08 01:25:50",
-    "total_courses": 2090,
+    "start_time": "2026-01-10 01:22:52",
+    "end_time": "2026-01-10 01:23:18",
+    "total_courses": 2091,
     "failed_weeks": [],
     "data": [
         {
@@ -2636,7 +2636,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -3735,7 +3735,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -3822,7 +3822,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -3909,7 +3909,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -3996,7 +3996,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -4083,7 +4083,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -4170,7 +4170,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -4257,7 +4257,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -4344,7 +4344,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -4685,7 +4685,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "100"
         },
         {
             "year": "114",
@@ -4807,7 +4807,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "100"
         },
         {
             "year": "114",
@@ -10316,7 +10316,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "52"
+            "max_people": "59"
         },
         {
             "year": "114",
@@ -10531,7 +10531,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "82"
+            "max_people": "93"
         },
         {
             "year": "114",
@@ -12521,8 +12521,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F15",
-                    "original": "每週一5~6\t法2F15"
+                    "place": "法2F01",
+                    "original": "每週一5~6\t法2F01"
                 }
             ],
             "sign": "否",
@@ -12952,8 +12952,8 @@
                         12,
                         13
                     ],
-                    "place": "209",
-                    "original": "每週一12~13\t209"
+                    "place": "210",
+                    "original": "每週一12~13\t210"
                 }
             ],
             "sign": "否",
@@ -14603,13 +14603,13 @@
                         5,
                         6
                     ],
-                    "place": "法2F15",
-                    "original": "每週一5~6\t法2F15"
+                    "place": "法2F01",
+                    "original": "每週一5~6\t法2F01"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "43"
+            "max_people": "90"
         },
         {
             "year": "114",
@@ -14835,7 +14835,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "86"
+            "max_people": "90"
         },
         {
             "year": "114",
@@ -21328,18 +21328,11 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "學分學程",
-                    "original": "傳播學士學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "微學程",
                     "original": "傳播學士微學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選"
@@ -25007,6 +25000,59 @@
             "sign": "是",
             "sign_people": "8",
             "max_people": "40"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U4400",
+            "department": "企管系",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "A",
+                    "category": "企管系",
+                    "original": "企管系4A"
+                },
+                {
+                    "grade": "4",
+                    "class": "B",
+                    "category": "企管系",
+                    "original": "企管系4B"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "資料探勘",
+                "en": "Data Mining",
+                "limit": false,
+                "other": "115.1.8通知新增課程"
+            },
+            "teacher": [
+                "魏嘉宏"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "資1F-14",
+                    "original": "每週一5~7\t資1F-14"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "20"
         },
         {
             "year": "114",
@@ -31518,7 +31564,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "74"
         },
         {
             "year": "114",
@@ -32836,7 +32882,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "69"
         },
         {
             "year": "114",
@@ -33659,7 +33705,7 @@
             ],
             "sign": "是",
             "sign_people": "20",
-            "max_people": "104"
+            "max_people": "109"
         },
         {
             "year": "114",
@@ -38315,7 +38361,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "56"
+            "max_people": "61"
         },
         {
             "year": "114",
@@ -39593,7 +39639,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "71"
         },
         {
             "year": "114",
@@ -39984,7 +40030,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "65"
+            "max_people": "81"
         },
         {
             "year": "114",
@@ -41334,7 +41380,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "100"
         },
         {
             "year": "114",
@@ -41460,7 +41506,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "100"
         },
         {
             "year": "114",
@@ -47433,9 +47479,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "智慧運算系統英語授課學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "人工智慧英語授課學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -48059,9 +48112,16 @@
                     "class": "",
                     "category": "資工碩",
                     "original": "資工碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "人工智慧英語授課學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -52619,7 +52679,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "86"
+            "max_people": "118"
         },
         {
             "year": "114",
@@ -53958,9 +54018,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "智慧運算系統英語授課學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "人工智慧英語授課學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -56725,12 +56792,6 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "學分學程",
-                    "original": "海山人文與創意實踐學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "微學程",
                     "original": "海山人文與創意實踐微學程"
                 },
@@ -56742,7 +56803,6 @@
                 }
             ],
             "compulsory": [
-                "通",
                 "通",
                 "通"
             ],
@@ -56985,12 +57045,6 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "學分學程",
-                    "original": "海山人文與創意實踐學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "微學程",
                     "original": "海山人文與創意實踐微學程"
                 },
@@ -57002,7 +57056,6 @@
                 }
             ],
             "compulsory": [
-                "通",
                 "通",
                 "通"
             ],
@@ -60437,7 +60490,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "82"
+            "max_people": "93"
         },
         {
             "year": "114",
@@ -60576,7 +60629,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "82"
+            "max_people": "85"
         },
         {
             "year": "114",
@@ -64885,7 +64938,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "82"
+            "max_people": "100"
         },
         {
             "year": "114",
@@ -65001,7 +65054,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "82"
+            "max_people": "87"
         },
         {
             "year": "114",
@@ -66739,7 +66792,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "100"
         },
         {
             "year": "114",
@@ -66865,7 +66918,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "100"
         },
         {
             "year": "114",
@@ -75270,7 +75323,7 @@
                 "ch": "綠色廣告管理專題研討",
                 "en": "Seminar on Green Advertising Management",
                 "limit": false,
-                "other": " "
+                "other": "115.1.8通知上課時間異動"
             },
             "teacher": [
                 "游志青"
@@ -75284,12 +75337,12 @@
                     "courseTime": 3,
                     "time_category": "A",
                     "sessions": [
-                        2,
-                        3,
-                        4
+                        7,
+                        8,
+                        9
                     ],
-                    "place": "商5F01",
-                    "original": "每週三2~4\t商5F01"
+                    "place": "商4F05-3",
+                    "original": "每週三7~9\t商4F05-3"
                 }
             ],
             "sign": "否",
@@ -85177,7 +85230,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "121"
         },
         {
             "year": "114",
@@ -85556,7 +85609,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "125"
         },
         {
             "year": "114",
@@ -85796,7 +85849,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "123"
         },
         {
             "year": "114",
@@ -91582,13 +91635,13 @@
                         3,
                         4
                     ],
-                    "place": "法2F16",
-                    "original": "每週四2~4\t法2F16"
+                    "place": "法2F01",
+                    "original": "每週四2~4\t法2F01"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "113"
+            "max_people": "118"
         },
         {
             "year": "114",
@@ -92666,7 +92719,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "82"
+            "max_people": "86"
         },
         {
             "year": "114",
@@ -95292,8 +95345,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F01",
-                    "original": "每週四3~4\t法2F01"
+                    "place": "法2F16",
+                    "original": "每週四3~4\t法2F16"
                 }
             ],
             "sign": "否",
@@ -97340,7 +97393,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "86"
+            "max_people": "90"
         },
         {
             "year": "114",
@@ -97515,13 +97568,13 @@
                         3,
                         4
                     ],
-                    "place": "法2F01",
-                    "original": "每週四3~4\t法2F01"
+                    "place": "法2F16",
+                    "original": "每週四3~4\t法2F16"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "100"
         },
         {
             "year": "114",
@@ -100647,7 +100700,7 @@
             ],
             "sign": "是",
             "sign_people": "21",
-            "max_people": "108"
+            "max_people": "113"
         },
         {
             "year": "114",
@@ -101292,9 +101345,16 @@
                     "class": "",
                     "category": "電機碩",
                     "original": "電機碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "人工智慧英語授課學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -107034,9 +107094,16 @@
                     "class": "",
                     "category": "電機系",
                     "original": "電機系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "人工智慧英語授課學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -111916,7 +111983,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -112741,7 +112808,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -112842,7 +112909,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -112929,7 +112996,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "50"
         },
         {
             "year": "114",
@@ -113030,7 +113097,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -113117,7 +113184,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "50"
         },
         {
             "year": "114",
@@ -113204,7 +113271,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "50"
         },
         {
             "year": "114",
@@ -113305,7 +113372,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -113406,7 +113473,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -117301,10 +117368,12 @@
                 "ch": "商業統計專題研討",
                 "en": "Seminar on business statistics",
                 "limit": true,
-                "other": "***老師&****老師合授。依「指導老師」選課。\"統計計算專題研討\"&\"商業統計專題研討\"&\"財務統計專題研討\"&\"醫學統計專題研討\",此4科選1科必修課;限收本系(含輔系、雙主修)3&4年級同學。交換生不能選此課程。"
+                "other": "余日彰老師&林財川老師&陳秉洋老師合授。依「指導老師」選課。\"統計計算專題研討\"&\"商業統計專題研討\"&\"財務統計專題研討\"&\"醫學統計專題研討\",此4科選1科必修課;限收本系(含輔系、雙主修)3&4年級同學。交換生不能選此課程。"
             },
             "teacher": [
-                "******"
+                "余日彰",
+                "陳秉洋",
+                "林財川"
             ],
             "category": "半",
             "credit": "3",
@@ -117347,10 +117416,12 @@
                 "ch": "醫學統計專題研討",
                 "en": "Seminar on medical statistics",
                 "limit": true,
-                "other": "***老師&***老師合授。依「指導老師」選課。\"統計計算專題研討\"&\"商業統計專題研討\"&\"財務統計專題研討\"&\"醫學統計專題研討\",此4科選1科必修課;限收本系(含輔系、雙主修)3&4年級同學。交換生不能選此課程。"
+                "other": "朱是鍇老師&黃怡婷老師&黃偉恆老師合授。依「指導老師」選課。\"統計計算專題研討\"&\"商業統計專題研討\"&\"財務統計專題研討\"&\"醫學統計專題研討\",此4科選1科必修課;限收本系(含輔系、雙主修)3&4年級同學。交換生不能選此課程。"
             },
             "teacher": [
-                "******"
+                "朱是鍇",
+                "黃偉恆",
+                "黃怡婷"
             ],
             "category": "半",
             "credit": "3",
@@ -117393,10 +117464,12 @@
                 "ch": "財務統計專題研討",
                 "en": "Seminar on financial statistics",
                 "limit": true,
-                "other": "***老師&***老師合授,依「指導老師」選課。\"統計計算專題研討\"&\"商業統計專題研討\"&\"財務統計專題研討\"&\"醫學統計專題研討\",此4科選1科必修課;限收本系(含輔系、雙主修)3&4年級同學。交換生不能選此課程。"
+                "other": "謝璦如老師&莊惠菁老師&翁新傑老師合授,依「指導老師」選課。\"統計計算專題研討\"&\"商業統計專題研討\"&\"財務統計專題研討\"&\"醫學統計專題研討\",此4科選1科必修課;限收本系(含輔系、雙主修)3&4年級同學。交換生不能選此課程。"
             },
             "teacher": [
-                "******"
+                "謝璦如",
+                "翁新傑",
+                "莊惠菁"
             ],
             "category": "半",
             "credit": "3",
@@ -117439,7 +117512,7 @@
                 "ch": "統計計算專題研討",
                 "en": "Seminar on statistical computing",
                 "limit": true,
-                "other": "***老師&***老師合授,依「指導老師」選課。\"統計計算專題研討\"&\"商業統計專題研討\"&\"財務統計專題研討\"&\"醫學統計專題研討\",此4科選1科必修課;限收本系(含輔系、雙主修)3&4年級同學。交換生不能選此課程。"
+                "other": "[停開]115年1月8日系所通知停開。\n***老師&***老師合授,依「指導老師」選課。\"統計計算專題研討\"&\"商業統計專題研討\"&\"財務統計專題研討\"&\"醫學統計專題研討\",此4科選1科必修課;限收本系(含輔系、雙主修)3&4年級同學。交換生不能選此課程。"
             },
             "teacher": [
                 "******"
@@ -119495,9 +119568,16 @@
                     "class": "B",
                     "category": "(進修)公政",
                     "original": "(進修)公政1B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "醫療科技暨法律學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -120707,7 +120787,7 @@
             ],
             "sign": "是",
             "sign_people": "20",
-            "max_people": "104"
+            "max_people": "109"
         },
         {
             "year": "114",
@@ -121215,7 +121295,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "108"
+            "max_people": "113"
         },
         {
             "year": "114",
@@ -121490,7 +121570,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "103"
         },
         {
             "year": "114",
@@ -130391,12 +130471,6 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "學分學程",
-                    "original": "海山人文與創意實踐學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "微學程",
                     "original": "海山人文與創意實踐微學程"
                 },
@@ -130408,7 +130482,6 @@
                 }
             ],
             "compulsory": [
-                "通",
                 "通",
                 "通"
             ],
@@ -139490,6 +139563,7 @@
         "人工智慧探索應用學分學程",
         "人工智慧自然語言技術學分學程",
         "人工智慧英語授課學士學分學程",
+        "人工智慧英語授課學士微學程",
         "人工智慧視覺技術學分學程",
         "人文學院4",
         "人文與數位學士微學程",
