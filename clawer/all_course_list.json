@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-01-10 01:22:52",
-    "end_time": "2026-01-10 01:23:18",
+    "start_time": "2026-01-13 01:21:52",
+    "end_time": "2026-01-13 01:22:18",
     "total_courses": 2091,
     "failed_weeks": [],
     "data": [
@@ -2543,8 +2543,8 @@
                         10,
                         11
                     ],
-                    "place": "514",
-                    "original": "每週一10~11\t514"
+                    "place": "208",
+                    "original": "每週一10~11\t208"
                 }
             ],
             "sign": "否",
@@ -10329,9 +10329,16 @@
                     "class": "",
                     "category": "金融系",
                     "original": "金融系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必"
             ],
             "title": {
@@ -10375,9 +10382,16 @@
                     "class": "",
                     "category": "統計系",
                     "original": "統計系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必"
             ],
             "title": {
@@ -19651,7 +19665,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "N/A",
-                    "original": "財務金融碩士學程"
+                    "original": "電子商務碩士學程"
                 },
                 {
                     "grade": "N/A",
@@ -19878,9 +19892,23 @@
                     "class": "A",
                     "category": "企碩",
                     "original": "企碩1A"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "財務金融碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -20552,7 +20580,7 @@
                 "ch": "非營利行銷專題研討",
                 "en": "Seminar on Marketing for Nonprofit Organizations",
                 "limit": false,
-                "other": " "
+                "other": "[停開]115.1.12通知停開。"
             },
             "teacher": [
                 "游志青"
@@ -22417,6 +22445,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "企業永續發展學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "職涯探索及創新創業學程"
                 },
@@ -22464,6 +22498,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -23384,9 +23419,23 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "財務金融學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "金融科技與量化金融學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -23432,9 +23481,16 @@
                     "class": "",
                     "category": "金融系",
                     "original": "金融系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -23542,11 +23598,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "戶外體驗與青少年服務學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -23597,9 +23660,16 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系3B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -24525,9 +24595,16 @@
                     "class": "",
                     "category": "統計系",
                     "original": "統計系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -26757,6 +26834,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "創新創業學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "職涯探索及創新創業學程"
                 },
@@ -26786,6 +26869,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通",
@@ -26966,6 +27050,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "美學、文化與藝術學士學分學程"
                 },
@@ -26983,6 +27073,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通"
@@ -27537,6 +27628,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "文創產業行銷學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "美學、文化與藝術學士學分學程"
                 },
@@ -27554,6 +27651,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通"
@@ -27898,11 +27996,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "微學程",
+                    "original": "商業人工智慧學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度五"
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通",
@@ -29454,8 +29559,8 @@
                     "sessions": [
                         13
                     ],
-                    "place": "102",
-                    "original": "每週二13~13\t102"
+                    "place": "103",
+                    "original": "每週二13~13\t103"
                 }
             ],
             "sign": "否",
@@ -30086,8 +30191,8 @@
                         3,
                         4
                     ],
-                    "place": "社109",
-                    "original": "每週二3~4\t社109"
+                    "place": "社208",
+                    "original": "每週二3~4\t社208"
                 }
             ],
             "sign": "否",
@@ -34160,6 +34265,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "鑑識學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "不動產估價師學士學分學程"
                 },
@@ -34171,6 +34282,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必"
@@ -34299,6 +34411,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "鑑識學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "不動產估價師學士學分學程"
                 },
@@ -34310,6 +34428,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必"
@@ -34653,9 +34772,16 @@
                     "class": "",
                     "category": "國企碩",
                     "original": "國企碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必"
             ],
@@ -38384,11 +38510,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "金融科技學士學分學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必"
@@ -38565,6 +38698,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
                 },
@@ -38582,6 +38721,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -40275,9 +40415,30 @@
                     "class": "",
                     "category": "智慧永續",
                     "original": "智慧永續3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "商業智慧與大數據分析學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "金融科技與量化金融學士學分學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -40792,6 +40953,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "會計專業實務學士學分學程"
                 },
@@ -40806,6 +40973,7 @@
                 "必",
                 "必",
                 "選",
+                "必",
                 "必",
                 "必",
                 "必"
@@ -43448,8 +43616,8 @@
                         12,
                         13
                     ],
-                    "place": "307",
-                    "original": "每週二12~13\t307"
+                    "place": "309",
+                    "original": "每週二12~13\t309"
                 }
             ],
             "sign": "否",
@@ -48731,9 +48899,16 @@
                     "class": "A",
                     "category": "企碩",
                     "original": "企碩1A"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -49569,10 +49744,10 @@
                 "選"
             ],
             "title": {
-                "ch": "高級經濟學",
-                "en": "Advanced Economic Theory",
+                "ch": "經濟數學",
+                "en": "Mathematics for Economics",
                 "limit": false,
-                "other": " "
+                "other": "115.1.9通知課名異動。"
             },
             "teacher": [
                 "涂登才"
@@ -50472,9 +50647,16 @@
                     "class": "",
                     "category": "統碩",
                     "original": "統碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "財務金融碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -50832,6 +51014,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "N/A",
+                    "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
                     "original": "財務金融碩士學程"
                 },
                 {
@@ -50842,6 +51030,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -51209,8 +51398,8 @@
                         11,
                         12
                     ],
-                    "place": "102",
-                    "original": "每週二10~12\t102"
+                    "place": "301",
+                    "original": "每週二10~12\t301"
                 }
             ],
             "sign": "否",
@@ -52463,9 +52652,16 @@
                     "class": "",
                     "category": "休運系",
                     "original": "休運系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "賽會籌組人力就業學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -53675,9 +53871,16 @@
                     "class": "B",
                     "category": "會計系",
                     "original": "會計系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -54084,9 +54287,16 @@
                     "class": "",
                     "category": "統計系",
                     "original": "統計系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -55186,8 +55396,8 @@
                         12,
                         13
                     ],
-                    "place": "407",
-                    "original": "每週二12~13\t407"
+                    "place": "312",
+                    "original": "每週二12~13\t312"
                 }
             ],
             "sign": "否",
@@ -65900,11 +66110,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "全球經濟分析與領袖人才英語學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -74344,9 +74561,16 @@
                     "class": "",
                     "category": "金融碩",
                     "original": "金融碩1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "財務金融碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -74525,9 +74749,16 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "財務金融碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -76704,16 +76935,9 @@
                     "class": "B",
                     "category": "(進修)企管",
                     "original": "(進修)企管4B"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "N/A",
-                    "original": "文創產業行銷學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選"
             ],
@@ -77344,9 +77568,16 @@
                     "class": "",
                     "category": "企輔系",
                     "original": "企輔系2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -78751,6 +78982,24 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "財務金融學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "企業永續發展學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "金融科技與量化金融學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "ESP專業英文學士學分學程"
                 },
@@ -78783,9 +79032,19 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "金融科技與量化金融學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -84348,8 +84607,8 @@
                         10,
                         11
                     ],
-                    "place": "407",
-                    "original": "每週四10~11\t407"
+                    "place": "312",
+                    "original": "每週四10~11\t312"
                 }
             ],
             "sign": "否",
@@ -86359,10 +86618,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "永續健康產業與管理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "永續金融學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -87354,9 +87620,16 @@
                     "class": "",
                     "category": "統碩",
                     "original": "統碩1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必"
             ],
             "title": {
@@ -102797,9 +103070,16 @@
                     "class": "",
                     "category": "資訊碩",
                     "original": "資訊碩1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "商業人工智慧學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -103418,9 +103698,16 @@
                     "class": "",
                     "category": "資訊碩",
                     "original": "資訊碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -104199,9 +104486,16 @@
                     "class": "A",
                     "category": "企碩",
                     "original": "企碩2A"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "商業人工智慧學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -106505,9 +106799,23 @@
                     "class": "",
                     "category": "財政系",
                     "original": "財政系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "財務金融學士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -106726,9 +107034,16 @@
                     "class": "",
                     "category": "金融系",
                     "original": "金融系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "財務金融學士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -108139,8 +108454,8 @@
                         12,
                         13
                     ],
-                    "place": "407",
-                    "original": "每週四12~13\t407"
+                    "place": "312",
+                    "original": "每週四12~13\t312"
                 }
             ],
             "sign": "否",
@@ -109019,6 +109334,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "企業永續發展學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "國際外交學士學分學程"
                 },
                 {
@@ -109065,6 +109386,7 @@
                 "通",
                 "通",
                 "通",
+                "通",
                 "通"
             ],
             "title": {
@@ -109084,9 +109406,12 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四7~8"
+                    "sessions": [
+                        7,
+                        8
+                    ],
+                    "place": "公1F04",
+                    "original": "每週四7~8\t公1F04"
                 }
             ],
             "sign": "否",
@@ -109474,11 +109799,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "微學程",
+                    "original": "商業人工智慧學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度五"
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通",
@@ -110864,6 +111196,12 @@
             "department_level": [
                 {
                     "grade": "2",
+                    "class": "A",
+                    "category": "會計系",
+                    "original": "會計系2A"
+                },
+                {
+                    "grade": "2",
                     "class": "B",
                     "category": "會計系",
                     "original": "會計系2B"
@@ -110933,6 +111271,7 @@
                 "必",
                 "必",
                 "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -110957,13 +111296,13 @@
                         6,
                         7
                     ],
-                    "place": "社B02",
-                    "original": "每週五5~7\t社B02"
+                    "place": "商1F02",
+                    "original": "每週五5~7\t商1F02"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "68"
+            "max_people": "117"
         },
         {
             "year": "114",
@@ -118153,7 +118492,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "中文",
+            "language": "英語English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -124992,9 +125331,16 @@
                     "class": "B",
                     "category": "企管系",
                     "original": "企管系4B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -125045,10 +125391,24 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "N/A",
+                    "original": "電子商務學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
                     "original": "財務金融碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "投資管理碩士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -125325,9 +125685,23 @@
                     "class": "",
                     "category": "資訊碩",
                     "original": "資訊碩1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -125891,6 +126265,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "N/A",
+                    "original": "英語商學碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
                     "original": "財務金融碩士學程"
                 },
                 {
@@ -125901,6 +126281,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -125947,9 +126328,16 @@
                     "class": "",
                     "category": "資訊碩",
                     "original": "資訊碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "電子商務碩士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -126363,8 +126751,8 @@
                         11,
                         12
                     ],
-                    "place": "303",
-                    "original": "每週五10~12\t303"
+                    "place": "506",
+                    "original": "每週五10~12\t506"
                 }
             ],
             "sign": "否",
@@ -127349,9 +127737,16 @@
                     "class": "",
                     "category": "金融系",
                     "original": "金融系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "財務金融學士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -128137,9 +128532,16 @@
                     "class": "",
                     "category": "金融系",
                     "original": "金融系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "金融科技與量化金融學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -128370,9 +128772,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "創新創業學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "英語商學學士學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -128831,9 +129240,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "會計專業實務學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "商業資料分析學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -129183,8 +129599,8 @@
                         10,
                         11
                     ],
-                    "place": "211",
-                    "original": "每週五10~11\t211"
+                    "place": "103",
+                    "original": "每週五10~11\t103"
                 }
             ],
             "sign": "是",
@@ -129248,8 +129664,8 @@
                         8,
                         9
                     ],
-                    "place": "211",
-                    "original": "每週五8~9\t211"
+                    "place": "103",
+                    "original": "每週五8~9\t103"
                 }
             ],
             "sign": "是",
@@ -130740,11 +131156,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "創新創業學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度五"
                 }
             ],
             "compulsory": [
+                "通",
                 "通"
             ],
             "title": {
@@ -131072,6 +131495,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "企業永續發展學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "職涯探索及創新創業學程"
                 },
@@ -131089,6 +131518,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通"
@@ -134211,8 +134641,8 @@
                         5,
                         6
                     ],
-                    "place": "305",
-                    "original": "每週六5~6\t305"
+                    "place": "315",
+                    "original": "每週六5~6\t315"
                 }
             ],
             "sign": "否",
@@ -134520,8 +134950,8 @@
                         3,
                         4
                     ],
-                    "place": "305",
-                    "original": "每週六3~4\t305"
+                    "place": "403",
+                    "original": "每週六3~4\t403"
                 }
             ],
             "sign": "否",
@@ -134734,8 +135164,8 @@
                         5,
                         6
                     ],
-                    "place": "307",
-                    "original": "每週六5~6\t307"
+                    "place": "314",
+                    "original": "每週六5~6\t314"
                 }
             ],
             "sign": "否",
@@ -136506,8 +136936,8 @@
                         3,
                         4
                     ],
-                    "place": "307",
-                    "original": "每週六2~4\t307"
+                    "place": "314",
+                    "original": "每週六2~4\t314"
                 }
             ],
             "sign": "否",
@@ -136633,8 +137063,8 @@
                         6,
                         7
                     ],
-                    "place": "310",
-                    "original": "每週六5~7\t310"
+                    "place": "405",
+                    "original": "每週六5~7\t405"
                 }
             ],
             "sign": "否",
@@ -137678,7 +138108,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "2"
+            "max_people": "3"
         },
         {
             "year": "114",
@@ -139717,6 +140147,7 @@
         "民藝與文資所2",
         "氣候變遷與淨零策略學分學程",
         "氣候變遷與淨零策略微學程",
+        "永續健康產業與管理學士微學程",
         "永續創新國際學院1",
         "永續創新國際學院碩士班1",
         "永續發展與治理英語學士學分學程",
