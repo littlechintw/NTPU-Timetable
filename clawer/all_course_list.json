@@ -1,7 +1,7 @@
 {
-    "start_time": "2026-01-13 01:21:52",
-    "end_time": "2026-01-13 01:22:18",
-    "total_courses": 2091,
+    "start_time": "2026-01-15 01:23:44",
+    "end_time": "2026-01-15 01:24:15",
+    "total_courses": 2095,
     "failed_weeks": [],
     "data": [
         {
@@ -22361,7 +22361,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "12",
+            "sign_people": "25",
             "max_people": "60"
         },
         {
@@ -36425,7 +36425,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "55"
+            "max_people": "60"
         },
         {
             "year": "114",
@@ -39129,8 +39129,8 @@
                     "original": "每週二2~4\t商1F09"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "64"
         },
         {
@@ -52086,6 +52086,66 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "10"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U2065",
+            "department": "歷史系",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "歷史系",
+                    "original": "歷史系2"
+                },
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "歷史系",
+                    "original": "歷史系3"
+                },
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "歷史系",
+                    "original": "歷史系4"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "國族與帝國",
+                "en": "Nations & Empires",
+                "limit": true,
+                "other": "115.1.13通知新開課程"
+            },
+            "teacher": [
+                "羅國暉"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "文2F12",
+                    "original": "每週二6~8\t文2F12"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
         },
         {
             "year": "114",
@@ -82094,6 +82154,57 @@
         {
             "year": "114",
             "semester": "2",
+            "courseID": "U4401",
+            "department": "外語系",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "通識4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度一"
+                }
+            ],
+            "compulsory": [
+                "通"
+            ],
+            "title": {
+                "ch": "歐美現代小說欣賞",
+                "en": "Appreciation of Modern Novel in Europe and America",
+                "limit": false,
+                "other": "115.1.13通知新開課程。應外系學生修習不列入通識畢業學分"
+            },
+            "teacher": [
+                "王景智"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        7,
+                        8
+                    ],
+                    "place": "文4F06",
+                    "original": "每週三7~8\t文4F06"
+                }
+            ],
+            "sign": "是",
+            "sign_people": "6",
+            "max_people": "0"
+        },
+        {
+            "year": "114",
+            "semester": "2",
             "courseID": "N4018",
             "department": "(進修)通識",
             "department_level": [
@@ -89169,7 +89280,7 @@
                 "ch": "統計學",
                 "en": "Statistics",
                 "limit": false,
-                "other": "*統計系學生務必選週四志願課程，才列入本系畢業學分."
+                "other": "*統計系學生務必選週四志願課程，才列入本系畢業學分.人工加簽限113-2有修過此授課老師相同課程之學生。"
             },
             "teacher": [
                 "林定香"
@@ -89191,8 +89302,8 @@
                     "original": "每週四2~4\t商1F16"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "55"
         },
         {
@@ -104223,7 +104334,7 @@
                 "ch": "金融行銷",
                 "en": "Finance Marketing",
                 "limit": false,
-                "other": " "
+                "other": "[停開]115.1.14通知停開"
             },
             "teacher": [
                 "林靖"
@@ -104245,8 +104356,8 @@
                     "original": "每週四5~7\t商8F02"
                 }
             ],
-            "sign": "是",
-            "sign_people": "1",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "5"
         },
         {
@@ -104527,6 +104638,59 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "15"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "M6169",
+            "department": "國企碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "國企碩",
+                    "original": "國企碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "國企碩",
+                    "original": "國企碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "國際金融控股公司管理與實務",
+                "en": "International Financial Holding Company Management and Practice",
+                "limit": false,
+                "other": "115.1.14通知新開課程"
+            },
+            "teacher": [
+                "林靖"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "商8F02",
+                    "original": "每週四5~7\t商8F02"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "5"
         },
         {
             "year": "114",
@@ -106003,8 +106167,8 @@
                         6,
                         7
                     ],
-                    "place": "社201",
-                    "original": "每週四5~7\t社201"
+                    "place": "法2F27",
+                    "original": "每週四5~7\t法2F27"
                 }
             ],
             "sign": "是",
@@ -134595,9 +134759,12 @@
                 {
                     "courseTime": 6,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週六3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "306",
+                    "original": "每週六3~4\t306"
                 }
             ],
             "sign": "否",
@@ -135525,6 +135692,56 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "P1028",
+            "department": "政碩職",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "政碩職",
+                    "original": "政碩職1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "政碩職",
+                    "original": "政碩職2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "全球化與區域化專題研究",
+                "en": "Seminar on Globalization and Regionalization",
+                "limit": true,
+                "other": "*1150113依系所通知新開。"
+            },
+            "teacher": [
+                "羅至美",
+                "吳玉山"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 6,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週六3~4"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "20"
         },
         {
             "year": "114",
@@ -137599,7 +137816,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "25"
         },
         {
             "year": "114",
