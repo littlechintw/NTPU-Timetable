@@ -1,7 +1,7 @@
 {
-    "start_time": "2026-01-15 01:23:44",
-    "end_time": "2026-01-15 01:24:15",
-    "total_courses": 2095,
+    "start_time": "2026-01-17 01:22:03",
+    "end_time": "2026-01-17 01:22:32",
+    "total_courses": 2098,
     "failed_weeks": [],
     "data": [
         {
@@ -1600,9 +1600,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "智慧財產權學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -1694,9 +1701,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "智慧財產權學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -4641,10 +4655,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "消費者保護學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -4763,10 +4784,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "消費者保護學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -5371,25 +5399,11 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "學分學程",
-                    "original": "法律暨企業社會責任學士學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "法律暨企業社會責任學士微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "微學程",
                     "original": "政策分析與行政管理微學程"
                 }
             ],
             "compulsory": [
-                "必",
-                "必",
                 "必",
                 "必",
                 "必",
@@ -8265,9 +8279,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "法律暨企業社會責任學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -11346,9 +11367,16 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -12250,9 +12278,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "醫療科技暨法律學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -12799,9 +12834,16 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -13418,6 +13460,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "租稅行政救濟學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "國際經貿談判與訴訟人才學"
                 },
@@ -13429,6 +13477,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -14232,9 +14281,16 @@
                     "class": "",
                     "category": "法律學系司法組",
                     "original": "法律學系司法組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -15441,9 +15497,16 @@
                     "class": "",
                     "category": "法律學系司法組",
                     "original": "法律學系司法組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -15527,9 +15590,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "醫療科技暨法律學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -16741,7 +16811,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
@@ -16771,7 +16841,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -20072,8 +20142,8 @@
                         11,
                         12
                     ],
-                    "place": "N/A",
-                    "original": "每週一10~12"
+                    "place": "708",
+                    "original": "每週一10~12\t708"
                 }
             ],
             "sign": "否",
@@ -23964,11 +24034,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "勞動法與人力資源管理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "勞動法與人力資源管理微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "商務溝通學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -26852,6 +26936,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "智慧財產權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
                 },
@@ -26864,11 +26954,19 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "微學程",
+                    "original": "智慧財產權學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度四"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通",
                 "通",
                 "通",
@@ -26926,8 +27024,20 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "智慧財產權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "智慧財產權學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -26937,6 +27047,8 @@
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通",
                 "通",
                 "通"
@@ -27576,11 +27688,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度三"
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通"
             ],
@@ -31246,10 +31365,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "消費者保護學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -33625,11 +33751,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "不動產估價師學士學分學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必"
             ],
@@ -34477,18 +34610,11 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "學分學程",
-                    "original": "租稅行政救濟學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "微學程",
                     "original": "租稅規劃學士學分微學程"
                 }
             ],
             "compulsory": [
-                "必",
                 "必",
                 "必"
             ],
@@ -34628,7 +34754,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
@@ -34646,7 +34772,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -39550,13 +39676,13 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -41061,9 +41187,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "智慧財產權學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -41166,9 +41299,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "智慧財產權學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -41352,6 +41492,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "消費者保護與消費行為學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -41371,10 +41517,18 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "消費者保護學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -41475,6 +41629,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "消費者保護與消費行為學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -41494,10 +41654,18 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "消費者保護學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -41601,6 +41769,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "消費者保護與消費行為學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -41620,10 +41794,18 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "消費者保護學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -42067,9 +42249,30 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "法律暨企業社會責任學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "法律暨企業社會責任學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -42166,7 +42369,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "1",
@@ -42184,7 +42387,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -42278,16 +42481,9 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "國際外交學士學分學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -43039,9 +43235,16 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -43507,7 +43710,19 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "勞動法與人力資源管理學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "性別與人權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
                 },
                 {
                     "grade": "N/A",
@@ -43526,9 +43741,25 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "勞動法與人力資源管理微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社會與法微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -44721,9 +44952,30 @@
                     "class": "",
                     "category": "法律學系司法組",
                     "original": "法律學系司法組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "法律暨企業社會責任學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "法律暨企業社會責任學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -44822,9 +45074,16 @@
                     "class": "",
                     "category": "法律學系司法組",
                     "original": "法律學系司法組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -49464,7 +49723,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "13"
         },
         {
             "year": "114",
@@ -50089,13 +50348,13 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -51810,13 +52069,13 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "高齡社區照顧學分學程"
                 },
                 {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "高齡社區照顧學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
@@ -51828,7 +52087,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -52310,9 +52569,30 @@
                     "class": "",
                     "category": "社學系",
                     "original": "社學系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "醫療科技暨法律學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社會與法微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -53555,13 +53835,13 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -56780,13 +57060,13 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -57504,13 +57784,13 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -58901,6 +59181,90 @@
         {
             "year": "114",
             "semester": "2",
+            "courseID": "U4402",
+            "department": "體育",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "體育",
+                    "original": "體育4"
+                }
+            ],
+            "compulsory": [
+                "必"
+            ],
+            "title": {
+                "ch": "體育：室內飛輪",
+                "en": "Physical Education:Indoor Cycling",
+                "limit": true,
+                "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點：體育館3樓飛輪教室"
+            },
+            "teacher": [
+                "李至斌"
+            ],
+            "category": "半",
+            "credit": "0",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三3~4"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "0"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U4403",
+            "department": "體育",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "體育",
+                    "original": "體育4"
+                }
+            ],
+            "compulsory": [
+                "必"
+            ],
+            "title": {
+                "ch": "體育：游泳",
+                "en": "Physical Education:Swimming",
+                "limit": true,
+                "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點：體育館游泳池。"
+            },
+            "teacher": [
+                "李至斌"
+            ],
+            "category": "半",
+            "credit": "0",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三5~6"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "0"
+        },
+        {
+            "year": "114",
+            "semester": "2",
             "courseID": "M5058",
             "department": "不動產城鄉博",
             "department_level": [
@@ -60219,7 +60583,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
@@ -60237,7 +60601,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -66322,12 +66686,6 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "租稅行政救濟學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
                     "original": "不動產估價師學士學分學程"
                 },
                 {
@@ -66338,7 +66696,6 @@
                 }
             ],
             "compulsory": [
-                "必",
                 "必",
                 "必",
                 "必",
@@ -66683,9 +67040,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "智慧財產權學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -66788,9 +67152,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "智慧財產權學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -66873,6 +67244,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "消費者保護與消費行為學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -66892,10 +67269,18 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "消費者保護學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -66996,6 +67381,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "消費者保護與消費行為學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -67015,10 +67406,18 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "消費者保護學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -67122,6 +67521,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "消費者保護與消費行為學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -67141,10 +67546,18 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "消費者保護學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -68536,9 +68949,37 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "醫療科技暨法律學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "智慧財產權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "智慧財產權學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -68677,9 +69118,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "國際外交學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -69166,9 +69614,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "國際外交學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "刑事犯罪學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -70325,9 +70780,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "國際外交學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -71267,9 +71729,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "國際外交學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -73677,7 +74146,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
@@ -73707,7 +74176,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -75902,13 +76371,13 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -77438,12 +77907,6 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
                 },
                 {
@@ -77451,6 +77914,12 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
@@ -77474,7 +77943,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -79325,7 +79794,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
@@ -79337,7 +79806,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -80469,11 +80938,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度三"
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通"
             ],
@@ -82480,23 +82956,9 @@
                     "class": "A",
                     "category": "企碩",
                     "original": "企碩1A"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "企業併購碩士學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "租稅行政救濟學分學程"
                 }
             ],
             "compulsory": [
-                "基",
-                "基",
                 "基"
             ],
             "title": {
@@ -86860,7 +87322,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
@@ -86872,7 +87334,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -95923,9 +96385,16 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -96010,9 +96479,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "高齡社區照顧微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社會與法微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -96151,6 +96627,58 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "20"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "M5295",
+            "department": "犯罪學碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "犯罪學專題研究",
+                "en": "Seminar : Criminology",
+                "limit": false,
+                "other": "1.1150115通知本課程新開。2.與法律系合班上課。3.教室：三峽法學大樓2F03教室。"
+            },
+            "teacher": [
+                "沈伯洋"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "法2F03",
+                    "original": "每週四5~6\t法2F03"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "6"
         },
         {
             "year": "114",
@@ -96803,10 +97331,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "基礎法學學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -96873,9 +97408,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "刑事犯罪學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -99159,9 +99701,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "高齡社區照顧微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社會與法微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -102876,13 +103425,13 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -105038,6 +105587,12 @@
             "department": "(進修)社工",
             "department_level": [
                 {
+                    "grade": "2",
+                    "class": "",
+                    "category": "(進修)社工",
+                    "original": "(進修)社工2"
+                },
+                {
                     "grade": "3",
                     "class": "",
                     "category": "(進修)社工",
@@ -105045,6 +105600,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -105770,6 +106326,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "消費者保護與消費行為學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "文官人才學士學分學程"
                 },
@@ -105787,6 +106355,8 @@
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -106172,8 +106742,8 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "10",
-            "max_people": "50"
+            "sign_people": "20",
+            "max_people": "68"
         },
         {
             "year": "114",
@@ -106828,13 +107398,13 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -109509,6 +110079,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "學分學程",
                     "original": "永續發展與治理英語學士學分學程"
                 },
@@ -109544,6 +110120,7 @@
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通",
@@ -114996,6 +115573,18 @@
                     "class": "",
                     "category": "法律學系司法組",
                     "original": "法律學系司法組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "基礎法學與社會學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "基礎法學與社會學士微學程"
                 }
             ],
             "compulsory": [
@@ -115004,7 +115593,9 @@
                 "必",
                 "必",
                 "選",
-                "選"
+                "選",
+                "必",
+                "必"
             ],
             "title": {
                 "ch": "法理學（一）",
@@ -116234,12 +116825,19 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "法律暨企業社會責任學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
                 "選",
                 "必",
                 "選",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -116901,6 +117499,12 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "法律暨企業社會責任學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
@@ -116908,6 +117512,7 @@
                 "選",
                 "選",
                 "選",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -117386,13 +117991,13 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -118336,16 +118941,9 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "企業併購碩士學分學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -118738,9 +119336,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "國際外交學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -118882,9 +119487,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "國際外交學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "刑事犯罪學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -118930,6 +119542,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "基礎法學與社會學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "性別與人權學士學分學程"
                 },
                 {
@@ -118955,9 +119573,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "性別學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "基礎法學與社會學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -119147,9 +119773,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "國際外交學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -119315,9 +119948,23 @@
                     "class": "",
                     "category": "法碩法專組",
                     "original": "法碩法專組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "基礎法學與社會學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "基礎法學與社會學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -120076,10 +120723,80 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "租稅行政救濟學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "醫療科技暨法律學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "智慧財產權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "法律暨企業社會責任學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "消費者保護與消費行為學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "高齡社區照顧學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "消費者保護與消費行為學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "智慧財產權學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "高齡社會與法微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "法律暨企業社會責任學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -120328,9 +121045,44 @@
                     "class": "",
                     "category": "(進修)法律",
                     "original": "(進修)法律4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "醫療科技暨法律學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "智慧財產權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "智慧財產權學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
+                "選",
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -121246,6 +121998,12 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "國際外交學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "刑事犯罪學士微學程"
                 }
             ],
             "compulsory": [
@@ -121261,6 +122019,7 @@
                 "必",
                 "必",
                 "必",
+                "選",
                 "選"
             ],
             "title": {
@@ -121653,9 +122412,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "國際外交學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -122484,9 +123250,16 @@
                     "class": "",
                     "category": "法律學系司法組",
                     "original": "法律學系司法組4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "租稅行政救濟學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -123543,9 +124316,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "國際外交學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -124031,7 +124811,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "台灣經濟與社會發展英語學分學程"
+                    "original": "社會創新與政策英語學士學分學程"
                 },
                 {
                     "grade": "N/A",
@@ -124061,7 +124841,7 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
-                    "original": "台灣經濟與社會發展英語微學程"
+                    "original": "社會創新與政策英語學士微學程"
                 }
             ],
             "compulsory": [
@@ -129210,16 +129990,9 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "鑑識學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "刑事犯罪學士微學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -131384,11 +132157,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度三"
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通"
             ],
@@ -134827,9 +135607,16 @@
                     "class": "",
                     "category": "(進修)法律",
                     "original": "(進修)法律1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "N/A",
+                    "original": "國際經貿談判與訴訟人才學"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -135080,6 +135867,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "家事法與社會工作學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "性別與人權學士學分學程"
                 },
                 {
@@ -135087,9 +135880,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "人權與正義學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "基礎法學學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -136932,16 +137733,9 @@
                     "class": "",
                     "category": "(進修)社工",
                     "original": "(進修)社工3"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "家事法與社會工作學分學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選"
             ],
             "title": {
@@ -138215,8 +139009,8 @@
                         3,
                         4
                     ],
-                    "place": "商1F04",
-                    "original": "每週六2~4\t商1F04"
+                    "place": "商1F15",
+                    "original": "每週六2~4\t商1F15"
                 }
             ],
             "sign": "否",
@@ -138475,8 +139269,8 @@
                         8,
                         9
                     ],
-                    "place": "商1F04",
-                    "original": "每週六7~9\t商1F04"
+                    "place": "商1F15",
+                    "original": "每週六7~9\t商1F15"
                 }
             ],
             "sign": "否",
@@ -139178,7 +139972,7 @@
                 "other": "1.限本系及雙主修。\n2.本課程修習前請洽系辦申請，上課地點為實習機構，團督地點由授課教師或系辦另行通知。\n3.學雜費收費標準：以上課時數折半計算，亦即以3小時計費。"
             },
             "teacher": [
-                "******"
+                "張富勝"
             ],
             "category": "半",
             "credit": "3",
@@ -140272,8 +141066,6 @@
         "勞動法與人力資源管理學分學程",
         "勞動法與人力資源管理微學程",
         "古典文學學士微學程",
-        "台灣經濟與社會發展英語學分學程",
-        "台灣經濟與社會發展英語微學程",
         "商務溝通學士微學程",
         "商學院1",
         "商學院2",
@@ -140428,6 +141220,8 @@
         "社工系2",
         "社工系3",
         "社工系4",
+        "社會創新與政策英語學士學分學程",
+        "社會創新與政策英語學士微學程",
         "社會關懷學士微學程",
         "社碩職1",
         "社碩職2",
