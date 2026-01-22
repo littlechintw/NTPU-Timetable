@@ -1,7 +1,7 @@
 {
-    "start_time": "2026-01-20 01:24:59",
-    "end_time": "2026-01-20 01:25:27",
-    "total_courses": 2099,
+    "start_time": "2026-01-22 01:27:43",
+    "end_time": "2026-01-22 01:28:15",
+    "total_courses": 2100,
     "failed_weeks": [],
     "data": [
         {
@@ -21016,9 +21016,23 @@
                     "class": "",
                     "category": "統碩",
                     "original": "統碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -28562,7 +28576,7 @@
                 "other": "師培一年級課程與二年級合班"
             },
             "teacher": [
-                "******"
+                "丁士珍"
             ],
             "category": "半",
             "credit": "2",
@@ -28607,7 +28621,7 @@
                 "other": "師培一年級課程與二年級合班"
             },
             "teacher": [
-                "******"
+                "丁士珍"
             ],
             "category": "半",
             "credit": "2",
@@ -32429,11 +32443,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "公共事務數據分析學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -32596,11 +32624,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "公共事務數據分析學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -33274,11 +33316,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "公共事務數據分析學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -42605,11 +42661,18 @@
                 {
                     "grade": "1",
                     "class": "",
+                    "category": "行政博",
+                    "original": "行政博1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
                     "category": "行政碩",
                     "original": "行政碩1"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -49209,11 +49272,18 @@
                 {
                     "grade": "1",
                     "class": "",
+                    "category": "行政博",
+                    "original": "行政博1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
                     "category": "行政碩",
                     "original": "行政碩1"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -49626,6 +49696,12 @@
             "department": "通訊碩",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "通訊碩",
@@ -49636,9 +49712,17 @@
                     "class": "",
                     "category": "通訊碩",
                     "original": "通訊碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -54769,13 +54853,27 @@
             "department": "通訊系",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
                     "grade": "4",
                     "class": "",
                     "category": "通訊系",
                     "original": "通訊系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -58006,7 +58104,7 @@
                 "other": "師培一年級課程與二年級合班"
             },
             "teacher": [
-                "******"
+                "黃雁祥"
             ],
             "category": "半",
             "credit": "3",
@@ -61653,7 +61751,7 @@
                 "ch": "經濟思想史",
                 "en": "History of Economic Thought",
                 "limit": false,
-                "other": "建議先修:個體經濟學。\n限修80人。\n敬請安排任何非社B02之教室。"
+                "other": "建議先修:總體經濟學。\n限修80人。\n敬請安排任何非社B02之教室。"
             },
             "teacher": [
                 "鄭仲棠"
@@ -65959,11 +66057,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "智慧財產權學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -76574,6 +76686,12 @@
             "department": "通訊碩",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "通訊碩",
@@ -76584,9 +76702,17 @@
                     "class": "",
                     "category": "通訊碩",
                     "original": "通訊碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -78674,8 +78800,8 @@
                     "original": "每週三7~9\t社113"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "40"
         },
         {
@@ -79590,7 +79716,7 @@
                 "other": "課程由114-2新聘教師授課"
             },
             "teacher": [
-                "******"
+                "官歆芸"
             ],
             "category": "半",
             "credit": "3",
@@ -80194,13 +80320,27 @@
             "department": "通訊系",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
                     "grade": "4",
                     "class": "",
                     "category": "通訊系",
                     "original": "通訊系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -82878,7 +83018,7 @@
                 "other": "師培一年級課程與二年級合班"
             },
             "teacher": [
-                "******"
+                "黃雁祥"
             ],
             "category": "半",
             "credit": "2",
@@ -103629,7 +103769,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "8"
+            "max_people": "15"
         },
         {
             "year": "114",
@@ -107561,7 +107701,7 @@
                 "other": "課程由114-2新聘教師授課"
             },
             "teacher": [
-                "******"
+                "官歆芸"
             ],
             "category": "半",
             "credit": "3",
@@ -107643,8 +107783,8 @@
                         6,
                         7
                     ],
-                    "place": "社103",
-                    "original": "每週四5~7\t社103"
+                    "place": "社206",
+                    "original": "每週四5~7\t社206"
                 }
             ],
             "sign": "否",
@@ -109849,11 +109989,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度四"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通"
             ],
             "title": {
@@ -110898,7 +111052,7 @@
                 "other": "師培一年級課程與二年級合班"
             },
             "teacher": [
-                "******"
+                "黃雁祥"
             ],
             "category": "半",
             "credit": "2",
@@ -114554,6 +114708,107 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "45"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U1220",
+            "department": "語言",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "A",
+                    "category": "會計系",
+                    "original": "會計系1A"
+                },
+                {
+                    "grade": "1",
+                    "class": "B",
+                    "category": "會計系",
+                    "original": "會計系1B"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "金融系",
+                    "original": "金融系1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "語文通識1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "財政系",
+                    "original": "財政系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社學系",
+                    "original": "社學系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社工系",
+                    "original": "社工系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "通訊系",
+                    "original": "通訊系1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "電機系",
+                    "original": "電機系1"
+                }
+            ],
+            "compulsory": [
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必",
+                "必"
+            ],
+            "title": {
+                "ch": "大學英文",
+                "en": "College English",
+                "limit": false,
+                "other": "※1150120依語言中心通知:新開本課程，本課程為全學年制，由語言中心統一分班。"
+            },
+            "teacher": [
+                "詹琤琦"
+            ],
+            "category": "全",
+            "credit": "2",
+            "hours": "2",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文3F12_L",
+                    "original": "每週五3~4\t文3F12_L"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "0"
         },
         {
             "year": "114",
@@ -118756,11 +119011,18 @@
                 {
                     "grade": "1",
                     "class": "",
+                    "category": "行政博",
+                    "original": "行政博1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
                     "category": "行政碩",
                     "original": "行政碩1"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -132627,7 +132889,7 @@
                 "other": "師培一年級課程與二年級合班"
             },
             "teacher": [
-                "******"
+                "丁士珍"
             ],
             "category": "半",
             "credit": "2",
@@ -140787,7 +141049,8 @@
                 "other": " "
             },
             "teacher": [
-                "葉淑玲"
+                "葉淑玲",
+                "李淑華"
             ],
             "category": "半",
             "credit": "6",
