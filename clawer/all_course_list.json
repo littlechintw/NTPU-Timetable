@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-01-24 01:23:19",
-    "end_time": "2026-01-24 01:23:47",
+    "start_time": "2026-01-27 01:41:02",
+    "end_time": "2026-01-27 01:41:31",
     "total_courses": 2100,
     "failed_weeks": [],
     "data": [
@@ -15430,8 +15430,8 @@
             "title": {
                 "ch": "漢語語法學",
                 "en": "Chinese Syntax",
-                "limit": true,
-                "other": "加簽僅限外籍生及僑生。The add-on quota is only for international students and overseas Chinese students."
+                "limit": false,
+                "other": " "
             },
             "teacher": [
                 "鍾叡逸"
@@ -49474,18 +49474,6 @@
             "department": "資工碩",
             "department_level": [
                 {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "數位多媒體學士學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "資訊安全與應用學士學分學程"
-                },
-                {
                     "grade": "1",
                     "class": "",
                     "category": "電資博",
@@ -49514,18 +49502,9 @@
                     "class": "",
                     "category": "多媒體與網路科技產碩專班",
                     "original": "多媒體與網路科技產碩專班2"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
-                "選",
-                "選",
-                "選",
                 "選",
                 "選",
                 "選",
@@ -72537,7 +72516,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "52"
+            "max_people": "61"
         },
         {
             "year": "114",
@@ -72625,7 +72604,7 @@
                 "ch": "都市更新權利變換估價實務",
                 "en": "Valuation Practice for Urban Renewal Rights Transfer",
                 "limit": false,
-                "other": " "
+                "other": "本科不計入輔系學分。"
             },
             "teacher": [
                 "林秋綿"
@@ -86662,8 +86641,8 @@
                         5,
                         6
                     ],
-                    "place": "公1F03",
-                    "original": "每週四5~6\t公1F03"
+                    "place": "資B1F-01",
+                    "original": "每週四5~6\t資B1F-01"
                 },
                 {
                     "courseTime": "N/A",
@@ -87127,7 +87106,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "31"
+            "max_people": "32"
         },
         {
             "year": "114",
@@ -87207,7 +87186,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "31"
+            "max_people": "32"
         },
         {
             "year": "114",
@@ -100262,8 +100241,8 @@
             "title": {
                 "ch": "華語文教材教法",
                 "en": "Methods and Materials in Chinese Language Teaching",
-                "limit": true,
-                "other": "加簽僅限外籍生及僑生。The add-on quota is only for international students and overseas Chinese students."
+                "limit": false,
+                "other": " "
             },
             "teacher": [
                 "林宛蓉"
@@ -101256,7 +101235,7 @@
             "title": {
                 "ch": "華語文課程與教學設計",
                 "en": "Chinese Language Course and Instructional Design",
-                "limit": true,
+                "limit": false,
                 "other": "Recommended for international students who have CEFR B2 level or above."
             },
             "teacher": [
@@ -138989,13 +138968,27 @@
             "department": "社碩職",
             "department_level": [
                 {
+                    "grade": "1",
+                    "class": "",
+                    "category": "社碩職",
+                    "original": "社碩職1"
+                },
+                {
                     "grade": "2",
                     "class": "",
                     "category": "社碩職",
                     "original": "社碩職2"
+                },
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "社碩職",
+                    "original": "社碩職3"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -141551,6 +141544,7 @@
         "社會關懷學士微學程",
         "社碩職1",
         "社碩職2",
+        "社碩職3",
         "租稅行政救濟學分學程",
         "租稅規劃學士學分微學程",
         "程式設計學士微學程",
