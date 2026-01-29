@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-01-27 01:41:02",
-    "end_time": "2026-01-27 01:41:31",
+    "start_time": "2026-01-29 01:48:42",
+    "end_time": "2026-01-29 01:49:12",
     "total_courses": 2100,
     "failed_weeks": [],
     "data": [
@@ -1231,8 +1231,8 @@
                         10,
                         11
                     ],
-                    "place": "103",
-                    "original": "每週一10~11\t103"
+                    "place": "514",
+                    "original": "每週一10~11\t514"
                 }
             ],
             "sign": "否",
@@ -1492,7 +1492,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "78"
+            "max_people": "85"
         },
         {
             "year": "114",
@@ -2133,6 +2133,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -2157,10 +2163,18 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人文與資訊學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -4417,7 +4431,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "155"
+            "max_people": "163"
         },
         {
             "year": "114",
@@ -4706,7 +4720,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "100"
+            "max_people": "105"
         },
         {
             "year": "114",
@@ -4835,7 +4849,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "100"
+            "max_people": "105"
         },
         {
             "year": "114",
@@ -9989,7 +10003,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "67"
+            "max_people": "70"
         },
         {
             "year": "114",
@@ -10161,7 +10175,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "67"
+            "max_people": "70"
         },
         {
             "year": "114",
@@ -15430,7 +15444,7 @@
             "title": {
                 "ch": "漢語語法學",
                 "en": "Chinese Syntax",
-                "limit": false,
+                "limit": true,
                 "other": " "
             },
             "teacher": [
@@ -21436,16 +21450,9 @@
                     "class": "",
                     "category": "(進修)數位行銷",
                     "original": "(進修)數位行銷4"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "傳播學士微學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選"
             ],
@@ -21566,7 +21573,7 @@
                 "ch": "循環經濟之理論與實務",
                 "en": "Theory and Practice of Circular Economy",
                 "limit": false,
-                "other": " "
+                "other": "[停開]*1150128依系所通知停開。"
             },
             "teacher": [
                 "李叢禎"
@@ -21637,8 +21644,8 @@
                         11,
                         12
                     ],
-                    "place": "401",
-                    "original": "每週一10~12\t401"
+                    "place": "404",
+                    "original": "每週一10~12\t404"
                 }
             ],
             "sign": "否",
@@ -22299,8 +22306,8 @@
                         3,
                         4
                     ],
-                    "place": "社208",
-                    "original": "每週一2~4\t社208"
+                    "place": "商2F03",
+                    "original": "每週一2~4\t商2F03"
                 }
             ],
             "sign": "否",
@@ -22340,11 +22347,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "海山人文與創意實踐學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "歷史實踐與文化資產學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "海山人文與創意實踐微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -26433,8 +26454,8 @@
                         12,
                         13
                     ],
-                    "place": "505",
-                    "original": "每週一12~13\t505"
+                    "place": "514",
+                    "original": "每週一12~13\t514"
                 }
             ],
             "sign": "是",
@@ -26789,6 +26810,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "海山人文與創意實踐學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "高齡社區照顧學分學程"
                 },
                 {
@@ -26800,11 +26827,19 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "微學程",
+                    "original": "海山人文與創意實踐微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度一"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通",
                 "通",
                 "通"
@@ -26938,6 +26973,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "文化與觀光學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "職涯探索及創新創業學程"
                 },
@@ -26952,6 +26993,12 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "文化與觀光學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -26979,6 +27026,8 @@
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通",
                 "通",
                 "通",
@@ -27039,6 +27088,18 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "傳播學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -27046,6 +27107,18 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "傳播學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "人文與資訊學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -27061,6 +27134,10 @@
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
+                "通",
+                "通",
                 "通",
                 "通",
                 "通",
@@ -27183,7 +27260,19 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "傳播學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "美學、文化與藝術學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "傳播學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -27199,6 +27288,8 @@
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通",
                 "通",
                 "通",
@@ -31421,8 +31512,8 @@
                         10,
                         11
                     ],
-                    "place": "407",
-                    "original": "每週二10~11\t407"
+                    "place": "312",
+                    "original": "每週二10~11\t312"
                 }
             ],
             "sign": "否",
@@ -31833,6 +31924,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -31863,6 +31960,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人文與資訊學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 },
                 {
@@ -31873,6 +31976,8 @@
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -32111,6 +32216,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -32141,6 +32252,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人文與資訊學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 },
                 {
@@ -32151,6 +32268,8 @@
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -32518,6 +32637,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -32548,6 +32673,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人文與資訊學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 },
                 {
@@ -32558,6 +32689,8 @@
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -32595,7 +32728,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "74"
+            "max_people": "75"
         },
         {
             "year": "114",
@@ -32756,6 +32889,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -32786,6 +32925,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人文與資訊學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 },
                 {
@@ -32796,6 +32941,8 @@
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -32996,6 +33143,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -33026,6 +33179,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人文與資訊學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 },
                 {
@@ -33039,6 +33198,8 @@
                 "必",
                 "選",
                 "選",
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -41772,7 +41933,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "100"
+            "max_people": "106"
         },
         {
             "year": "114",
@@ -41912,7 +42073,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "100"
+            "max_people": "106"
         },
         {
             "year": "114",
@@ -43784,12 +43945,6 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "學分學程",
-                    "original": "高齡社區照顧學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "微學程",
                     "original": "人權與正義學士微學程"
                 },
@@ -43819,7 +43974,6 @@
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -43910,8 +44064,8 @@
                         12,
                         13
                     ],
-                    "place": "309",
-                    "original": "每週二12~13\t309"
+                    "place": "208",
+                    "original": "每週二12~13\t208"
                 }
             ],
             "sign": "否",
@@ -57419,18 +57573,11 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "微學程",
-                    "original": "海山人文與創意實踐微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度六"
                 }
             ],
             "compulsory": [
-                "通",
                 "通"
             ],
             "title": {
@@ -57672,18 +57819,11 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "微學程",
-                    "original": "海山人文與創意實踐微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度一"
                 }
             ],
             "compulsory": [
-                "通",
                 "通"
             ],
             "title": {
@@ -66227,7 +66367,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "60"
+            "max_people": "62"
         },
         {
             "year": "114",
@@ -66295,7 +66435,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "60"
+            "max_people": "61"
         },
         {
             "year": "114",
@@ -67559,7 +67699,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "100"
+            "max_people": "106"
         },
         {
             "year": "114",
@@ -67699,7 +67839,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "100"
+            "max_people": "106"
         },
         {
             "year": "114",
@@ -69745,7 +69885,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "52"
+            "max_people": "58"
         },
         {
             "year": "114",
@@ -71450,9 +71590,23 @@
                     "class": "B",
                     "category": "不動產城鄉系",
                     "original": "不動產城鄉系2B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "人文與資訊學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -71501,7 +71655,19 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "華語學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "文化與溝通外語授課學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "華語文教學微學程"
                 },
                 {
                     "grade": "N/A",
@@ -71511,6 +71677,8 @@
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -72317,9 +72485,23 @@
                     "class": "",
                     "category": "外語系",
                     "original": "外語系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "華語學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "華語文教學微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -72529,9 +72711,23 @@
                     "class": "",
                     "category": "休運系",
                     "original": "休運系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "文化與觀光學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "文化與觀光學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -75623,7 +75819,19 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "文化與觀光學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "歷史實踐與文化資產學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "文化與觀光學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -75633,6 +75841,8 @@
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -77165,13 +77375,13 @@
                         8,
                         9
                     ],
-                    "place": "商1F16",
-                    "original": "每週三7~9\t商1F16"
+                    "place": "商1F11",
+                    "original": "每週三7~9\t商1F11"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "29"
+            "max_people": "37"
         },
         {
             "year": "114",
@@ -79710,8 +79920,8 @@
                         8,
                         9
                     ],
-                    "place": "商2F09",
-                    "original": "每週三7~9\t商2F09"
+                    "place": "商2F08",
+                    "original": "每週三7~9\t商2F08"
                 }
             ],
             "sign": "否",
@@ -80108,8 +80318,8 @@
                         8,
                         9
                     ],
-                    "place": "商1F16",
-                    "original": "每週三7~9\t商1F16"
+                    "place": "商1F11",
+                    "original": "每週三7~9\t商1F11"
                 }
             ],
             "sign": "否",
@@ -80599,9 +80809,23 @@
                     "class": "",
                     "category": "人文學院",
                     "original": "人文學院4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "文化與觀光學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "文化與觀光學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -81804,6 +82028,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "文化與觀光學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "美學、文化與藝術學士學分學程"
                 },
                 {
@@ -81817,6 +82047,12 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "海山人文與創意實踐學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "文化與觀光學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -81844,6 +82080,8 @@
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通",
                 "通",
                 "通",
@@ -85359,6 +85597,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -85389,6 +85633,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人文與資訊學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 },
                 {
@@ -85399,6 +85649,8 @@
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -85760,6 +86012,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -85790,6 +86048,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人文與資訊學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 },
                 {
@@ -85800,6 +86064,8 @@
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -85837,7 +86103,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "63"
+            "max_people": "64"
         },
         {
             "year": "114",
@@ -92927,7 +93193,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "80"
+            "max_people": "83"
         },
         {
             "year": "114",
@@ -93459,7 +93725,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "55"
+            "max_people": "57"
         },
         {
             "year": "114",
@@ -93561,7 +93827,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "55"
+            "max_people": "57"
         },
         {
             "year": "114",
@@ -94172,7 +94438,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "58"
+            "max_people": "59"
         },
         {
             "year": "114",
@@ -94274,7 +94540,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "58"
+            "max_people": "59"
         },
         {
             "year": "114",
@@ -96057,9 +96323,23 @@
                     "class": "",
                     "category": "歷史碩",
                     "original": "歷史碩1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "海山人文與創意實踐學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "海山人文與創意實踐微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -96453,8 +96733,8 @@
                     "original": "每週四5~6\t社5F12"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "10",
             "max_people": "12"
         },
         {
@@ -99101,11 +99381,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "調查方法與資料分析學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "人文與資訊學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -99571,11 +99865,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "調查方法與資料分析學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "人文與資訊學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -100241,7 +100549,7 @@
             "title": {
                 "ch": "華語文教材教法",
                 "en": "Methods and Materials in Chinese Language Teaching",
-                "limit": false,
+                "limit": true,
                 "other": " "
             },
             "teacher": [
@@ -100847,9 +101155,23 @@
                     "class": "",
                     "category": "歷史系",
                     "original": "歷史系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "海山人文與創意實踐學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "海山人文與創意實踐微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -102674,9 +102996,23 @@
                     "class": "",
                     "category": "民藝與文資所",
                     "original": "民藝與文資所2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "文化與觀光學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "文化與觀光學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選"
             ],
@@ -103145,7 +103481,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "30"
         },
         {
             "year": "114",
@@ -103289,7 +103625,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "23"
+            "max_people": "45"
         },
         {
             "year": "114",
@@ -106203,7 +106539,7 @@
             "title": {
                 "ch": "公司治理",
                 "en": "Corporate Governance",
-                "limit": false,
+                "limit": true,
                 "other": "上課地點：國防部勤務大隊會客大樓教學點"
             },
             "teacher": [
@@ -108169,7 +108505,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "42"
+            "max_people": "34"
         },
         {
             "year": "114",
@@ -114847,6 +115183,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -114877,6 +115219,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人文與資訊學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 },
                 {
@@ -114887,6 +115235,8 @@
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -115329,6 +115679,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -115359,6 +115715,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人文與資訊學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 },
                 {
@@ -115369,6 +115731,8 @@
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -120993,12 +121357,6 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "學分學程",
-                    "original": "高齡社區照顧學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -121028,7 +121386,6 @@
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -128395,7 +128752,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "28"
+            "max_people": "24"
         },
         {
             "year": "114",
@@ -132065,18 +132422,11 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "微學程",
-                    "original": "海山人文與創意實踐微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度四"
                 }
             ],
             "compulsory": [
-                "通",
                 "通"
             ],
             "title": {
@@ -132283,11 +132633,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "華語學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "華語文教學微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度三"
                 }
             ],
             "compulsory": [
+                "通",
+                "通",
                 "通"
             ],
             "title": {
@@ -133181,6 +133545,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -133205,10 +133575,18 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人文與資訊學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -133357,6 +133735,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -133381,11 +133765,19 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人文與資訊學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 }
             ],
             "compulsory": [
                 "選",
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -133444,6 +133836,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人文與資訊學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "智慧財產權學士學分學程"
                 },
                 {
@@ -133468,11 +133866,19 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人文與資訊學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 }
             ],
             "compulsory": [
                 "選",
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -136776,9 +137182,12 @@
                 {
                     "courseTime": 6,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週六3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "行政系會議室",
+                    "original": "每週六3~4\t行政系會議室"
                 }
             ],
             "sign": "否",
