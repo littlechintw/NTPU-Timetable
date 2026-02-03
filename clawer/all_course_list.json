@@ -1,7 +1,7 @@
 {
-    "start_time": "2026-01-31 01:45:06",
-    "end_time": "2026-01-31 01:45:36",
-    "total_courses": 2100,
+    "start_time": "2026-02-03 01:54:51",
+    "end_time": "2026-02-03 01:55:16",
+    "total_courses": 2101,
     "failed_weeks": [],
     "data": [
         {
@@ -24427,7 +24427,7 @@
                 "ch": "循環經濟之理論與實務",
                 "en": "Theory and Practice of Circular Economy",
                 "limit": false,
-                "other": " "
+                "other": "[停開]依經濟系1150130通知：本課程停開。"
             },
             "teacher": [
                 "李叢禎"
@@ -78032,7 +78032,7 @@
                 "other": "教室:教學大樓607研討室"
             },
             "teacher": [
-                "******"
+                "彭火樹"
             ],
             "category": "半",
             "credit": "3",
@@ -78661,6 +78661,52 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "50"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U2103",
+            "department": "休運系",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "休運系",
+                    "original": "休運系2"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "運動欣賞",
+                "en": "Introduction to Sport",
+                "limit": false,
+                "other": "115.2.2通知新開課程"
+            },
+            "teacher": [
+                "吳慧卿"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "place": "商2F11",
+                    "original": "每週三7~9\t商2F11"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
         },
         {
             "year": "114",
@@ -95413,7 +95459,7 @@
                 "ch": "桌球（二）",
                 "en": "Table Tennis（Ⅱ）",
                 "limit": false,
-                "other": " "
+                "other": "[停開]115.2.2通知停開。"
             },
             "teacher": [
                 "吳慧卿"
@@ -104402,7 +104448,7 @@
                 "ch": "性別與犯罪",
                 "en": "Gender and Crime",
                 "limit": false,
-                "other": "1.上課教室：臺北教學大樓820研討室。(與在職專班合班上課)。\n2.授課教師：沈勝昂教授。"
+                "other": "[停開]依犯研所1150202通知：本課程停開。\n1.上課教室：臺北教學大樓820研討室。(與在職專班合班上課)。\n2.授課教師：沈勝昂教授。"
             },
             "teacher": [
                 "沈勝昂"
@@ -106508,7 +106554,7 @@
                 "ch": "性別與犯罪",
                 "en": "Gender and Crime",
                 "limit": false,
-                "other": "1.教室：臺北教學大樓820研討室。(與一般碩士生合班上課)。\n2.授課教師：沈勝昂教授。"
+                "other": "[停開]1.教室：臺北教學大樓820研討室。(與一般碩士生合班上課)。\n2.授課教師：沈勝昂教授。\n*1150202依系所通知停開。"
             },
             "teacher": [
                 "沈勝昂"
@@ -119146,9 +119192,9 @@
                 "other": "朱是鍇老師&黃怡婷老師&黃偉恆老師合授。依「指導老師」選課。\"統計計算專題研討\"&\"商業統計專題研討\"&\"財務統計專題研討\"&\"醫學統計專題研討\",此4科選1科必修課;限收本系(含輔系、雙主修)3&4年級同學。交換生不能選此課程。"
             },
             "teacher": [
-                "朱是鍇",
                 "黃偉恆",
-                "黃怡婷"
+                "黃怡婷",
+                "朱是鍇"
             ],
             "category": "半",
             "credit": "3",
@@ -123355,8 +123401,8 @@
                     "original": "每週五7~8\t公2F01"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "13"
         },
         {
@@ -137192,8 +137238,7 @@
                 "other": "*1150113依系所通知新開。"
             },
             "teacher": [
-                "羅至美",
-                "吳玉山"
+                "羅至美"
             ],
             "category": "半",
             "credit": "2",
