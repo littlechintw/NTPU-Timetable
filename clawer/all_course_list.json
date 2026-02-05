@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-02-03 01:54:51",
-    "end_time": "2026-02-03 01:55:16",
+    "start_time": "2026-02-05 01:51:24",
+    "end_time": "2026-02-05 01:51:58",
     "total_courses": 2101,
     "failed_weeks": [],
     "data": [
@@ -16782,9 +16782,12 @@
                 {
                     "courseTime": 1,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週一3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "商1F02",
+                    "original": "每週一3~4\t商1F02"
                 }
             ],
             "sign": "否",
@@ -18137,7 +18140,7 @@
             ],
             "title": {
                 "ch": "資訊經濟學",
-                "en": "Inforamtion Economics",
+                "en": "Information Economics",
                 "limit": false,
                 "other": "建議先修學士班賽局理論。\n與學士班合班。\n敬請安排社205教室。"
             },
@@ -23321,7 +23324,7 @@
             ],
             "title": {
                 "ch": "資訊經濟學",
-                "en": "Inforamtion Economics",
+                "en": "Information Economics",
                 "limit": false,
                 "other": "學士班先修：賽局理論。\n與碩博士班合班。\n敬請安排社205教室。"
             },
@@ -47822,9 +47825,12 @@
                 {
                     "courseTime": 2,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週二3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "商1F02",
+                    "original": "每週二3~4\t商1F02"
                 }
             ],
             "sign": "是",
@@ -108271,8 +108277,8 @@
                         6,
                         7
                     ],
-                    "place": "商2F07",
-                    "original": "每週四5~7\t商2F07"
+                    "place": "商1F02",
+                    "original": "每週四5~7\t商1F02"
                 }
             ],
             "sign": "否",
@@ -119415,58 +119421,6 @@
         {
             "year": "114",
             "semester": "2",
-            "courseID": "M5200",
-            "department": "行政碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "行政博",
-                    "original": "行政博1"
-                },
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "行政碩",
-                    "original": "行政碩1"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "中國對外戰略專題",
-                "en": "Seminar on China's Foreign Strategy",
-                "limit": false,
-                "other": "碩班三組選修、博班選修\n"
-            },
-            "teacher": [
-                "蘇軍瑋"
-            ],
-            "category": "半",
-            "credit": "1",
-            "hours": "1",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 5,
-                    "time_category": "A",
-                    "sessions": [
-                        5,
-                        6
-                    ],
-                    "place": "公2F27",
-                    "original": "每週五5~6\t公2F27"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "15"
-        },
-        {
-            "year": "114",
-            "semester": "2",
             "courseID": "U3026",
             "department": "休運系",
             "department_level": [
@@ -120203,6 +120157,58 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "10"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "M5200",
+            "department": "行政碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "行政博",
+                    "original": "行政博1"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "行政碩",
+                    "original": "行政碩1"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "中國對外戰略專題",
+                "en": "Seminar on China's Foreign Strategy",
+                "limit": false,
+                "other": "碩班三組選修、博班選修\n"
+            },
+            "teacher": [
+                "蘇軍瑋"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "公2F27",
+                    "original": "每週五5~6\t公2F27"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
         },
         {
             "year": "114",
@@ -128165,15 +128171,15 @@
                         11,
                         12
                     ],
-                    "place": "403",
-                    "original": "每週五10~12\t403"
+                    "place": "410",
+                    "original": "每週五10~12\t410"
                 },
                 {
                     "courseTime": "N/A",
                     "time_category": "N/A",
                     "sessions": "N/A",
                     "place": "N/A",
-                    "original": "第二教室401"
+                    "original": "第二教室412"
                 }
             ],
             "sign": "是",
@@ -128505,8 +128511,8 @@
                         11,
                         12
                     ],
-                    "place": "410",
-                    "original": "每週五10~12\t410"
+                    "place": "403",
+                    "original": "每週五10~12\t403"
                 }
             ],
             "sign": "是",
@@ -128604,8 +128610,8 @@
                         11,
                         12
                     ],
-                    "place": "302",
-                    "original": "每週五10~12\t302"
+                    "place": "401",
+                    "original": "每週五10~12\t401"
                 }
             ],
             "sign": "是",
@@ -131201,8 +131207,8 @@
                         10,
                         11
                     ],
-                    "place": "103",
-                    "original": "每週五10~11\t103"
+                    "place": "202",
+                    "original": "每週五10~11\t202"
                 }
             ],
             "sign": "是",
@@ -131266,8 +131272,8 @@
                         8,
                         9
                     ],
-                    "place": "103",
-                    "original": "每週五8~9\t103"
+                    "place": "202",
+                    "original": "每週五8~9\t202"
                 }
             ],
             "sign": "是",
@@ -131584,8 +131590,8 @@
                         10,
                         11
                     ],
-                    "place": "514",
-                    "original": "每週五10~11\t514"
+                    "place": "103",
+                    "original": "每週五10~11\t103"
                 }
             ],
             "sign": "是",
@@ -135004,8 +135010,8 @@
                         6,
                         7
                     ],
-                    "place": "306",
-                    "original": "每週六5~7\t306"
+                    "place": "301",
+                    "original": "每週六5~7\t301"
                 }
             ],
             "sign": "否",
@@ -136735,8 +136741,8 @@
                         7,
                         8
                     ],
-                    "place": "410",
-                    "original": "雙週六5~8\t410"
+                    "place": "405",
+                    "original": "雙週六5~8\t405"
                 }
             ],
             "sign": "否",
@@ -136801,8 +136807,8 @@
                         1,
                         2
                     ],
-                    "place": "408",
-                    "original": "每週六1~2\t408"
+                    "place": "409",
+                    "original": "每週六1~2\t409"
                 }
             ],
             "sign": "否",
@@ -138790,8 +138796,8 @@
                         6,
                         7
                     ],
-                    "place": "405",
-                    "original": "每週六5~7\t405"
+                    "place": "410",
+                    "original": "每週六5~7\t410"
                 }
             ],
             "sign": "否",
@@ -138844,8 +138850,8 @@
                         3,
                         4
                     ],
-                    "place": "309",
-                    "original": "每週六2~4\t309"
+                    "place": "403",
+                    "original": "每週六2~4\t403"
                 }
             ],
             "sign": "否",
