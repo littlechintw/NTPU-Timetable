@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-02-07 01:47:49",
-    "end_time": "2026-02-07 01:48:18",
+    "start_time": "2026-02-10 02:08:28",
+    "end_time": "2026-02-10 02:08:54",
     "total_courses": 2101,
     "failed_weeks": [],
     "data": [
@@ -28623,7 +28623,7 @@
                 "ch": "生涯規劃及職業教育與訓練",
                 "en": "Career Planning and Vocational Education",
                 "limit": false,
-                "other": "師培一年級課程，與二年級合開。"
+                "other": "[停開]師培一年級課程，與二年級合開。依1150209師培中心通知本課程停開。"
             },
             "teacher": [
                 "黃彥融"
@@ -28757,7 +28757,7 @@
                 "ch": "特殊教育導論",
                 "en": "Introduction to Special Education",
                 "limit": false,
-                "other": "師培一年級課程，與二年級合開。"
+                "other": "師培一年級課程，與二年級合開。依1150209師培中心通知本課程停開。"
             },
             "teacher": [
                 "黃彥融"
