@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-02-10 02:08:28",
-    "end_time": "2026-02-10 02:08:54",
+    "start_time": "2026-02-12 01:57:32",
+    "end_time": "2026-02-12 01:58:02",
     "total_courses": 2101,
     "failed_weeks": [],
     "data": [
@@ -1539,8 +1539,8 @@
                         3,
                         4
                     ],
-                    "place": "公2F02",
-                    "original": "每週一3~4\t公2F02"
+                    "place": "公2F26",
+                    "original": "每週一3~4\t公2F26"
                 }
             ],
             "sign": "否",
@@ -28757,7 +28757,7 @@
                 "ch": "特殊教育導論",
                 "en": "Introduction to Special Education",
                 "limit": false,
-                "other": "師培一年級課程，與二年級合開。依1150209師培中心通知本課程停開。"
+                "other": "[停開]師培一年級課程，與二年級合開。依1150209師培中心通知本課程停開。"
             },
             "teacher": [
                 "黃彥融"
@@ -51561,8 +51561,8 @@
                         6,
                         7
                     ],
-                    "place": "商3F11",
-                    "original": "每週二5~7\t商3F11"
+                    "place": "商2F12",
+                    "original": "每週二5~7\t商2F12"
                 }
             ],
             "sign": "否",
@@ -53809,8 +53809,8 @@
                         6,
                         7
                     ],
-                    "place": "商3F11",
-                    "original": "每週二5~7\t商3F11"
+                    "place": "商2F12",
+                    "original": "每週二5~7\t商2F12"
                 }
             ],
             "sign": "否",
@@ -103554,7 +103554,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "32"
         },
         {
             "year": "114",
@@ -108578,7 +108578,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "34"
+            "max_people": "33"
         },
         {
             "year": "114",
@@ -132875,8 +132875,8 @@
                     "original": "每週五3~4\t公1F27"
                 }
             ],
-            "sign": "是",
-            "sign_people": "21",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "0"
         },
         {
