@@ -1,7 +1,7 @@
 {
-    "start_time": "2026-02-21 01:47:09",
-    "end_time": "2026-02-21 01:47:37",
-    "total_courses": 2453,
+    "start_time": "2026-02-24 01:53:02",
+    "end_time": "2026-02-24 01:53:30",
+    "total_courses": 2458,
     "failed_weeks": [],
     "data": [
         {
@@ -5015,8 +5015,8 @@
                     "original": "每週一3~4\t法1F19"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "21",
             "max_people": "115"
         },
         {
@@ -9051,8 +9051,8 @@
                     "original": "每週一5~7\t商2F05"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "50"
         },
         {
@@ -9997,8 +9997,8 @@
                     "original": "每週一5~7\t商2F10"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "50"
         },
         {
@@ -12781,7 +12781,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "25"
         },
         {
             "year": "114",
@@ -14410,11 +14410,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "租稅行政救濟學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "租稅規劃學士學分微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -15737,8 +15744,8 @@
                     "original": "每週一7~8\t法4F14"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "18",
             "max_people": "100"
         },
         {
@@ -17732,13 +17739,13 @@
                         3,
                         4
                     ],
-                    "place": "商1F02",
-                    "original": "每週一3~4\t商1F02"
+                    "place": "商1F01",
+                    "original": "每週一3~4\t商1F01"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "90"
+            "sign": "是",
+            "sign_people": "3",
+            "max_people": "95"
         },
         {
             "year": "114",
@@ -17958,13 +17965,13 @@
                         7,
                         8
                     ],
-                    "place": "法2F15",
-                    "original": "每週一7~8\t法2F15"
+                    "place": "法2F27",
+                    "original": "每週一7~8\t法2F27"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "50"
+            "max_people": "60"
         },
         {
             "year": "114",
@@ -18803,8 +18810,8 @@
                         3,
                         4
                     ],
-                    "place": "商8F40",
-                    "original": "每週一2~4\t商8F40"
+                    "place": "商7F40",
+                    "original": "每週一2~4\t商7F40"
                 }
             ],
             "sign": "是",
@@ -18905,7 +18912,7 @@
                 "ch": "量化資料分析",
                 "en": "Quantitative Data Analysis",
                 "limit": true,
-                "other": " "
+                "other": "地點：社科722社工系碩博教室。"
             },
             "teacher": [
                 "童伊廸"
@@ -18918,13 +18925,9 @@
                 {
                     "courseTime": 1,
                     "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "社207",
-                    "original": "每週一2~4\t社207"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一2~4"
                 }
             ],
             "sign": "是",
@@ -20740,7 +20743,7 @@
             ],
             "sign": "是",
             "sign_people": "1",
-            "max_people": "6"
+            "max_people": "7"
         },
         {
             "year": "114",
@@ -22596,8 +22599,8 @@
                         3,
                         4
                     ],
-                    "place": "商7F40",
-                    "original": "每週一2~4\t商7F40"
+                    "place": "商8F40",
+                    "original": "每週一2~4\t商8F40"
                 }
             ],
             "sign": "是",
@@ -22811,7 +22814,7 @@
                 "ch": "永續金融",
                 "en": "Sustainable Finance",
                 "limit": false,
-                "other": "與進修部合開(N4034)\n教室：教學7F14-5"
+                "other": "[停開]115.2.23通知課程停開。教室：教學7F14-5"
             },
             "teacher": [
                 "陳宥杉",
@@ -25521,7 +25524,7 @@
                 "ch": "中小企業管理",
                 "en": "Management of Small Business",
                 "limit": false,
-                "other": "限修60人。"
+                "other": "限修64人。"
             },
             "teacher": [
                 "許文忠"
@@ -26061,7 +26064,7 @@
                 "ch": "網路行銷",
                 "en": "Internet Marketing",
                 "limit": false,
-                "other": " "
+                "other": "115.2.23通知上課教室異動"
             },
             "teacher": [
                 "洪秀瑜"
@@ -26079,8 +26082,8 @@
                         6,
                         7
                     ],
-                    "place": "商2F02",
-                    "original": "每週一5~7\t商2F02"
+                    "place": "商2F04",
+                    "original": "每週一5~7\t商2F04"
                 }
             ],
             "sign": "否",
@@ -31663,7 +31666,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "50"
+            "max_people": "48"
         },
         {
             "year": "114",
@@ -52776,13 +52779,13 @@
                         6,
                         7
                     ],
-                    "place": "商3F16",
-                    "original": "每週二5~7\t商3F16"
+                    "place": "商4F05-3",
+                    "original": "每週二5~7\t商4F05-3"
                 }
             ],
             "sign": "是",
             "sign_people": "1",
-            "max_people": "6"
+            "max_people": "7"
         },
         {
             "year": "114",
@@ -54253,8 +54256,8 @@
                         6,
                         7
                     ],
-                    "place": "商5F01",
-                    "original": "每週二5~7\t商5F01"
+                    "place": "商3F16",
+                    "original": "每週二5~7\t商3F16"
                 }
             ],
             "sign": "否",
@@ -57053,6 +57056,52 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "10"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "M6175",
+            "department": "國企碩",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "國企碩",
+                    "original": "國企碩2"
+                }
+            ],
+            "compulsory": [
+                "選"
+            ],
+            "title": {
+                "ch": "金融科技專題研討",
+                "en": "Seminar on Financial Technology and Innovation",
+                "limit": false,
+                "other": "115.2.23通知新開課程"
+            },
+            "teacher": [
+                "李佩芳"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "商2F12",
+                    "original": "每週二2~4\t商2F12"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
         },
         {
             "year": "114",
@@ -59933,6 +59982,13 @@
                     ],
                     "place": "公1F10",
                     "original": "每週二2~4\t公1F10"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室公4F34_GIS"
                 }
             ],
             "sign": "否",
@@ -60146,8 +60202,8 @@
                         6,
                         7
                     ],
-                    "place": "商4F05-3",
-                    "original": "每週二5~7\t商4F05-3"
+                    "place": "商5F01",
+                    "original": "每週二5~7\t商5F01"
                 }
             ],
             "sign": "否",
@@ -61522,6 +61578,54 @@
             "sign": "是",
             "sign_people": "4",
             "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N2048",
+            "department": "(進修)北醫通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "(進修)北醫通識2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度二"
+                }
+            ],
+            "compulsory": [
+                "通"
+            ],
+            "title": {
+                "ch": "規訓與懲罰：當代主體的消逝",
+                "en": "Discipline & punish: the birth of prison: disappear of contemporary subject",
+                "limit": false,
+                "other": "任課教師：施聖文；上課地點：北醫-信義校區8001"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二7~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "1"
         },
         {
             "year": "114",
@@ -89478,6 +89582,54 @@
         {
             "year": "114",
             "semester": "2",
+            "courseID": "N2052",
+            "department": "(進修)北醫通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "(進修)北醫通識2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度一"
+                }
+            ],
+            "compulsory": [
+                "通"
+            ],
+            "title": {
+                "ch": "短篇故事的力量",
+                "en": "The power of short stories",
+                "limit": false,
+                "other": "任課教師：曾佳婕；上課地點：北醫-信義校區6204"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三5~6"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "1"
+        },
+        {
+            "year": "114",
+            "semester": "2",
             "courseID": "N4002",
             "department": "(進修)公政",
             "department_level": [
@@ -91391,7 +91543,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "5",
+            "sign_people": "6",
             "max_people": "120"
         },
         {
@@ -92316,11 +92468,11 @@
                     "courseTime": 3,
                     "time_category": "A",
                     "sessions": [
-                        1,
-                        2
+                        5,
+                        6
                     ],
                     "place": "文9F06",
-                    "original": "每週三1~2\t文9F06"
+                    "original": "每週三5~6\t文9F06"
                 }
             ],
             "sign": "否",
@@ -93264,7 +93416,7 @@
             "title": {
                 "ch": "體育：羽球",
                 "en": "Physical Education: Badminton",
-                "limit": true,
+                "limit": false,
                 "other": "1.Course taught in English; initial enrollment for SSDM students only, later open to all. 2.Four PE courses required to graduate; each additional counts as 1 elective credit, not included in graduation credit minimum. 3.Class Location: Gymnasium 1F."
             },
             "teacher": [
@@ -98137,8 +98289,8 @@
                     "original": "每週四5~7\t商5F25"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "3",
             "max_people": "37"
         },
         {
@@ -98946,7 +99098,7 @@
                 "ch": "個體經濟學",
                 "en": "Microeconomics",
                 "limit": false,
-                "other": "先修:微積分、經濟學原理(或經濟學)。\n敬請安排教學大樓206教室。"
+                "other": "先修:微積分、經濟學原理(或經濟學)。"
             },
             "teacher": [
                 "陳俊廷"
@@ -106470,8 +106622,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F16",
-                    "original": "每週四3~4\t法2F16"
+                    "place": "商1F02",
+                    "original": "每週四3~4\t商1F02"
                 }
             ],
             "sign": "否",
@@ -109067,13 +109219,13 @@
                         3,
                         4
                     ],
-                    "place": "法2F16",
-                    "original": "每週四3~4\t法2F16"
+                    "place": "商1F02",
+                    "original": "每週四3~4\t商1F02"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "110"
+            "max_people": "165"
         },
         {
             "year": "114",
@@ -109872,8 +110024,8 @@
                     "original": "每週四3~4\t文5F07_L"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "46"
         },
         {
@@ -112995,13 +113147,13 @@
                         3,
                         4
                     ],
-                    "place": "商7F40",
-                    "original": "每週四2~4\t商7F40"
+                    "place": "商2F02",
+                    "original": "每週四2~4\t商2F02"
                 }
             ],
             "sign": "是",
             "sign_people": "1",
-            "max_people": "6"
+            "max_people": "12"
         },
         {
             "year": "114",
@@ -114232,8 +114384,8 @@
                         3,
                         4
                     ],
-                    "place": "商5F44",
-                    "original": "每週四2~4\t商5F44"
+                    "place": "商3F17_階梯教室",
+                    "original": "每週四2~4\t商3F17_階梯教室"
                 }
             ],
             "sign": "否",
@@ -114592,8 +114744,8 @@
                         9,
                         10
                     ],
-                    "place": "商7F40",
-                    "original": "每週四8~10\t商7F40"
+                    "place": "商8F40",
+                    "original": "每週四8~10\t商8F40"
                 }
             ],
             "sign": "是",
@@ -116751,8 +116903,8 @@
                         6,
                         7
                     ],
-                    "place": "商8F40",
-                    "original": "每週四5~7\t商8F40"
+                    "place": "商7F41",
+                    "original": "每週四5~7\t商7F41"
                 }
             ],
             "sign": "是",
@@ -117493,6 +117645,59 @@
             "sign": "是",
             "sign_people": "1",
             "max_people": "15"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "M6151",
+            "department": "犯罪學碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "犯罪學碩",
+                    "original": "犯罪學碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "比較犯罪學",
+                "en": "Comparative Criminology",
+                "limit": false,
+                "other": "1.上課教室：臺北教學大樓820研討室。(與在職專班合班上課)。\n2.授課教師：林育聖及王舜永老師。"
+            },
+            "teacher": [
+                "林育聖"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "英語English",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "820",
+                    "original": "每週四10~12\t820"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "8"
         },
         {
             "year": "114",
@@ -119244,9 +119449,13 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四6~8"
+                    "sessions": [
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "商2F07",
+                    "original": "每週四6~8\t商2F07"
                 }
             ],
             "sign": "否",
@@ -121694,6 +121903,120 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "25"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N2051",
+            "department": "(進修)北醫通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "(進修)北醫通識2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度二"
+                }
+            ],
+            "compulsory": [
+                "通"
+            ],
+            "title": {
+                "ch": "(ESP)心理健康促進工作坊",
+                "en": "(ESP)Mental health promotion workshop",
+                "limit": false,
+                "other": "任課教師：韓德彥；請同學務必至北醫系統確認老師授課進度表授課時間，再行選課。"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "1",
+            "hours": "1",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週四10~12"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "1"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N2014",
+            "department": "(進修)北醫通識",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "(進修)北醫通識2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "美學、文化與藝術學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "美學、文化與藝術學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度一"
+                }
+            ],
+            "compulsory": [
+                "通",
+                "通",
+                "通"
+            ],
+            "title": {
+                "ch": "創意學",
+                "en": "Creativity",
+                "limit": false,
+                "other": "任課教師：蔡宗良；上課地點：北醫-信義校區8005"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四1~2"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "1"
         },
         {
             "year": "114",
@@ -124737,8 +125060,8 @@
                         3,
                         4
                     ],
-                    "place": "文2F12",
-                    "original": "每週四3~4\t文2F12"
+                    "place": "文6F06",
+                    "original": "每週四3~4\t文6F06"
                 }
             ],
             "sign": "否",
@@ -124824,7 +125147,7 @@
                 "ch": "教學簡報設計與實作",
                 "en": "Instructional Presentation Design and Practice",
                 "limit": false,
-                "other": "師培一年級課程，與師培二年級合班。請幫忙安排在資訊教室文3F02_L教室，謝謝。"
+                "other": "[停開]依師培中心1150223通知本課程停開，師培一年級課程，與師培二年級合班。請幫忙安排在資訊教室文3F02_L教室，謝謝。"
             },
             "teacher": [
                 "李俊儀"
@@ -136575,7 +136898,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "20",
+            "sign_people": "30",
             "max_people": "125"
         },
         {
@@ -142722,59 +143045,6 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "12"
-        },
-        {
-            "year": "114",
-            "semester": "2",
-            "courseID": "M6151",
-            "department": "犯罪學碩",
-            "department_level": [
-                {
-                    "grade": "1",
-                    "class": "",
-                    "category": "犯罪學碩",
-                    "original": "犯罪學碩1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "犯罪學碩",
-                    "original": "犯罪學碩2"
-                }
-            ],
-            "compulsory": [
-                "選",
-                "選"
-            ],
-            "title": {
-                "ch": "比較犯罪學",
-                "en": "Comparative Criminology",
-                "limit": false,
-                "other": "1.上課教室：臺北教學大樓820研討室。(與在職專班合班上課)。\n2.授課教師：林育聖及王舜永老師。"
-            },
-            "teacher": [
-                "林育聖"
-            ],
-            "category": "半",
-            "credit": "3",
-            "hours": "3",
-            "language": "英語English",
-            "course_detail": [
-                {
-                    "courseTime": 5,
-                    "time_category": "A",
-                    "sessions": [
-                        10,
-                        11,
-                        12
-                    ],
-                    "place": "N/A",
-                    "original": "每週五10~12"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "8"
         },
         {
             "year": "114",
@@ -157711,6 +157981,7 @@
         "(進修)公政4A",
         "(進修)公政4B",
         "(進修)共同4",
+        "(進修)北醫通識2",
         "(進修)數位行銷1",
         "(進修)數位行銷2",
         "(進修)數位行銷3",
