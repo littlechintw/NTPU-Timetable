@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-02-26 01:51:01",
-    "end_time": "2026-02-26 01:51:31",
+    "start_time": "2026-02-28 01:41:27",
+    "end_time": "2026-02-28 01:41:57",
     "total_courses": 2459,
     "failed_weeks": [],
     "data": [
@@ -4557,7 +4557,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "210"
+            "max_people": "212"
         },
         {
             "year": "114",
@@ -32065,7 +32065,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "32"
+            "max_people": "35"
         },
         {
             "year": "114",
@@ -45038,8 +45038,8 @@
                     "original": "實習每週五3~4\t商2F10"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "55"
         },
         {
@@ -70663,8 +70663,8 @@
                     "original": "每週三7~9\t電1F03"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "3",
             "max_people": "69"
         },
         {
@@ -79028,8 +79028,8 @@
                     "original": "每週三3~4\t文2F09"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "29"
         },
         {
@@ -82335,8 +82335,8 @@
                         8,
                         9
                     ],
-                    "place": "社110",
-                    "original": "每週三7~9\t社110"
+                    "place": "社114",
+                    "original": "每週三7~9\t社114"
                 }
             ],
             "sign": "否",
@@ -82948,7 +82948,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "6"
+            "max_people": "10"
         },
         {
             "year": "114",
@@ -85483,7 +85483,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "37"
+            "max_people": "39"
         },
         {
             "year": "114",
@@ -86664,7 +86664,7 @@
             ],
             "sign": "是",
             "sign_people": "6",
-            "max_people": "35"
+            "max_people": "50"
         },
         {
             "year": "114",
@@ -87680,7 +87680,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "18"
+            "max_people": "10"
         },
         {
             "year": "114",
@@ -88602,7 +88602,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "35"
+            "max_people": "40"
         },
         {
             "year": "114",
@@ -92168,7 +92168,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "6",
+            "sign_people": "15",
             "max_people": "30"
         },
         {
@@ -98445,7 +98445,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "16"
         },
         {
             "year": "114",
@@ -103219,6 +103219,13 @@
                     ],
                     "place": "公1F27",
                     "original": "每週四2~4\t公1F27"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室社B02"
                 }
             ],
             "sign": "否",
@@ -103755,7 +103762,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "71"
+            "max_people": "74"
         },
         {
             "year": "114",
@@ -103857,7 +103864,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "71"
+            "max_people": "74"
         },
         {
             "year": "114",
@@ -111059,8 +111066,8 @@
                         3,
                         4
                     ],
-                    "place": "社108",
-                    "original": "每週四3~4\t社108"
+                    "place": "文2F12",
+                    "original": "每週四3~4\t文2F12"
                 }
             ],
             "sign": "是",
@@ -112217,8 +112224,8 @@
                         7,
                         8
                     ],
-                    "place": "社105",
-                    "original": "每週四7~8\t社105"
+                    "place": "社103",
+                    "original": "每週四7~8\t社103"
                 }
             ],
             "sign": "是",
@@ -112401,8 +112408,8 @@
                         1,
                         2
                     ],
-                    "place": "文2F09",
-                    "original": "每週四1~2\t文2F09"
+                    "place": "文4F05_L",
+                    "original": "每週四1~2\t文4F05_L"
                 }
             ],
             "sign": "是",
@@ -112481,8 +112488,8 @@
                         3,
                         4
                     ],
-                    "place": "文2F09",
-                    "original": "每週四3~4\t文2F09"
+                    "place": "文4F05_L",
+                    "original": "每週四3~4\t文4F05_L"
                 }
             ],
             "sign": "是",
@@ -112814,8 +112821,8 @@
                         5,
                         6
                     ],
-                    "place": "社105",
-                    "original": "每週四5~6\t社105"
+                    "place": "社103",
+                    "original": "每週四5~6\t社103"
                 }
             ],
             "sign": "是",
@@ -114177,7 +114184,7 @@
                 "ch": "投資學",
                 "en": "Investments",
                 "limit": false,
-                "other": "114.12.19通知上課時間異動。"
+                "other": "114.12.19通知上課時間異動。115.2.26通知上課教室異動。"
             },
             "teacher": [
                 "盧建霖"
@@ -114195,13 +114202,13 @@
                         3,
                         4
                     ],
-                    "place": "商5F01",
-                    "original": "每週四2~4\t商5F01"
+                    "place": "商5F25",
+                    "original": "每週四2~4\t商5F25"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "46"
+            "max_people": "47"
         },
         {
             "year": "114",
@@ -116541,7 +116548,7 @@
                 "ch": "高齡社會學與社會福利專題",
                 "en": "Sociology of Aging and Welfare to the Elderly",
                 "limit": false,
-                "other": "上課教室：社科722社工系碩博教室。"
+                "other": "上課教室：社科708社工系團督室。"
             },
             "teacher": [
                 "劉素芬"
@@ -117822,8 +117829,8 @@
             "title": {
                 "ch": "組織發展專題研討",
                 "en": "Seminar on Organizational Development",
-                "limit": true,
-                "other": "一年級不得修習，教室：教學7F09"
+                "limit": false,
+                "other": "教室：教學7F09"
             },
             "teacher": [
                 "劉仲矩"
@@ -119102,7 +119109,7 @@
                 "ch": "運動與法律",
                 "en": "Sport and Law",
                 "limit": false,
-                "other": " "
+                "other": "115.2.26通知上課教室異動"
             },
             "teacher": [
                 "林彥君"
@@ -119120,8 +119127,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F12",
-                    "original": "每週四2~4\t商2F12"
+                    "place": "電1F04",
+                    "original": "每週四2~4\t電1F04"
                 }
             ],
             "sign": "是",
@@ -119789,7 +119796,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "53"
+            "max_people": "57"
         },
         {
             "year": "114",
@@ -122436,8 +122443,8 @@
                     "original": "每週四5~6\t文2F10"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "40"
         },
         {
@@ -123298,7 +123305,7 @@
                 "ch": "通訊與生活",
                 "en": "Communication Technology and Human Life",
                 "limit": false,
-                "other": "通訊系學生選讀者不列入其通識畢業學分數。教師：蔡宜學；教室：二教204(e) 。【不開放進修部學生修習】"
+                "other": "[停開]通訊系學生選讀者不列入其通識畢業學分數。教師：蔡宜學；教室：二教204(e) 。【不開放進修部學生修習】"
             },
             "teacher": [
                 "******"
@@ -124448,8 +124455,8 @@
                     "original": "每週四7~8\t文2F10"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "40"
         },
         {
@@ -133034,8 +133041,8 @@
                     "original": "實習每週五3~4\t商2F10"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "55"
         },
         {
@@ -140571,9 +140578,13 @@
                 {
                     "courseTime": 5,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週五2~4"
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "社102",
+                    "original": "每週五2~4\t社102"
                 }
             ],
             "sign": "否",
@@ -141837,7 +141848,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "11"
+            "max_people": "16"
         },
         {
             "year": "114",
@@ -142411,8 +142422,8 @@
                     "original": "每週五2~4\t電1F05"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "3",
             "max_people": "20"
         },
         {
@@ -143830,8 +143841,8 @@
             "title": {
                 "ch": "社會工作管理",
                 "en": "Social Work Management",
-                "limit": true,
-                "other": "2年級以上可選。\n多元培力生選課不受年級限制。"
+                "limit": false,
+                "other": " "
             },
             "teacher": [
                 "王淑楨"
@@ -147958,7 +147969,7 @@
                 "ch": "數位創新",
                 "en": "Digital Innovation",
                 "limit": false,
-                "other": "數位行銷學程學生選讀，不列入其通識畢業學分數。教師：蘇威豪；教室：六教525(e) 。【不開放進修部學生修習】"
+                "other": "[停開]數位行銷學程學生選讀，不列入其通識畢業學分數。教師：蘇威豪；教室：六教525(e) 。【不開放進修部學生修習】"
             },
             "teacher": [
                 "******"
@@ -155072,7 +155083,7 @@
                 "ch": "精神醫療社會工作",
                 "en": "Psychiatric Social Work",
                 "limit": true,
-                "other": "雙主修、輔系、學分學程者請洽社工系辦選課，分機：67013。\n多元培力生選課不受年級限制，選本課程前須先修「社會工作概論」。"
+                "other": "雙主修、輔系、學分學程者請洽社工系辦選課，分機：67013。\n多元培力生選課不受年級限制，選本課程前須先修「社會工作概論」。\n2年級以上可選。"
             },
             "teacher": [
                 "張如杏"
