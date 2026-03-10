@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-03-07 01:45:25",
-    "end_time": "2026-03-07 01:45:55",
+    "start_time": "2026-03-10 01:47:25",
+    "end_time": "2026-03-10 01:47:52",
     "total_courses": 2460,
     "failed_weeks": [],
     "data": [
@@ -8316,7 +8316,7 @@
                 "ch": "研究方法",
                 "en": "Research Methodology",
                 "limit": false,
-                "other": "教學大樓6F10"
+                "other": "[停開]教學大樓6F10\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "羅偉元"
@@ -14474,7 +14474,7 @@
                 "ch": "地政專業文獻選讀",
                 "en": "Selected Literatures in Land Economics",
                 "limit": true,
-                "other": "本科不計入輔系學分，本科學士班學生不得選修。限進修學士班公共事務學院大三以上學生選修。本科主題為地政相關文獻，非一般語言訓練課程，請務必參閱授課大綱。"
+                "other": "[停開]本科不計入輔系學分，本科學士班學生不得選修。限進修學士班公共事務學院大三以上學生選修。本科主題為地政相關文獻，非一般語言訓練課程，請務必參閱授課大綱。*1150309選課人數不足停開。"
             },
             "teacher": [
                 "馮君君"
@@ -14519,7 +14519,7 @@
                 "ch": "刑事訴訟實務",
                 "en": "Practices on Criminal Procedures",
                 "limit": true,
-                "other": "1.先修科目：刑事訴訟法。"
+                "other": "[停開]1.先修科目：刑事訴訟法。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "陳世雄"
@@ -17004,8 +17004,8 @@
                         3,
                         4
                     ],
-                    "place": "公1F01",
-                    "original": "每週一3~4\t公1F01"
+                    "place": "公1F27",
+                    "original": "每週一3~4\t公1F27"
                 }
             ],
             "sign": "否",
@@ -17245,6 +17245,13 @@
                     ],
                     "place": "文4F07",
                     "original": "每週一5~6\t文4F07"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室文2F01"
                 }
             ],
             "sign": "否",
@@ -17403,7 +17410,7 @@
                 "ch": "都市更新爭訟分析",
                 "en": "Analysis of Urban Renewal Litigation Case",
                 "limit": true,
-                "other": "先修：民法概要。本科不計入輔系學分。限大四。"
+                "other": "[停開]先修：民法概要。本科不計入輔系學分。限大四。115.3.9(第3周))通知停開"
             },
             "teacher": [
                 "何彥陞"
@@ -18859,7 +18866,7 @@
                 "ch": "產業與區域發展專題",
                 "en": "Industrial and Regional Development Economics",
                 "limit": false,
-                "other": " "
+                "other": "[停開]115.3.9通知停開"
             },
             "teacher": [
                 "周志龍"
@@ -23373,7 +23380,7 @@
                 "ch": "地理資訊系統實務",
                 "en": "The Practice of Geographic Information System",
                 "limit": true,
-                "other": "1.先修:地理資訊系統。2.本科不計入輔系學分。3.本科日間學士班為群組課程，不同意上修。"
+                "other": "[停開]1.先修:地理資訊系統。2.本科不計入輔系學分。3.本科日間學士班為群組課程，不同意上修。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "詹士樑"
@@ -24188,7 +24195,7 @@
                 "ch": "高等資料庫",
                 "en": "Advanced Database",
                 "limit": false,
-                "other": "*請排教515電腦教室.\n*「資料庫應用與商業智慧分析」與「高等資料庫」均改為「二擇一」選修課程，此二科修習合計學分若超過3學分的部份，不計入畢業學分."
+                "other": "[停開]*請排教515電腦教室.\n*「資料庫應用與商業智慧分析」與「高等資料庫」均改為「二擇一」選修課程，此二科修習合計學分若超過3學分的部份，不計入畢業學分.\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "莊東穎"
@@ -24255,7 +24262,7 @@
                 "ch": "Python生成式AI實作",
                 "en": "Generative AI Practice with Python",
                 "limit": false,
-                "other": "教室：三峽資訊中心電腦教室（與一般碩士生、通識合班上課）"
+                "other": "[停開]教室：三峽資訊中心電腦教室（與一般碩士生、通識合班上課）\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "楊喨智"
@@ -25520,7 +25527,7 @@
                 "ch": "中小企業管理",
                 "en": "Management of Small Business",
                 "limit": false,
-                "other": "限修64人。"
+                "other": "限修68人。"
             },
             "teacher": [
                 "許文忠"
@@ -25543,7 +25550,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "9",
+            "sign_people": "13",
             "max_people": "55"
         },
         {
@@ -26082,8 +26089,8 @@
                     "original": "每週一5~7\t商2F04"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "7",
             "max_people": "40"
         },
         {
@@ -32344,7 +32351,7 @@
                 "ch": "體育：桌球",
                 "en": "Physical Education:Table Tennis",
                 "limit": false,
-                "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點:教學大樓B1。"
+                "other": "[停開]1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點:教學大樓B1。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "李靜雯"
@@ -32727,8 +32734,8 @@
                     "original": "每週二7~8"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "9",
             "max_people": "46"
         },
         {
@@ -32853,8 +32860,8 @@
                     "original": "每週二5~6"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "9",
             "max_people": "48"
         },
         {
@@ -32895,8 +32902,8 @@
                     "original": "每週二7~8"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "9",
             "max_people": "48"
         },
         {
@@ -42007,8 +42014,8 @@
                     "original": "實習每週四5~6\t商2F08"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "120"
         },
         {
@@ -46693,7 +46700,7 @@
                 "ch": "賽局理論與理性決策",
                 "en": "Game Theory and Rational Decision Making",
                 "limit": false,
-                "other": "碩乙組選修、博班選修\n"
+                "other": "[停開]碩乙組選修、博班選修。115.3.9通知停開\n"
             },
             "teacher": [
                 "陳澤鑫"
@@ -48068,7 +48075,7 @@
                 "ch": "建築與都市環境",
                 "en": "Architecture and Urban Environment",
                 "limit": false,
-                "other": "本科不計入輔系學分。"
+                "other": "[停開]本科不計入輔系學分。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "王佳惠"
@@ -48210,7 +48217,7 @@
                 "ch": "不動產經營管理",
                 "en": "Real Estate Management",
                 "limit": true,
-                "other": "本科不計入輔系學分。本科不開放日間部學生(含輔系雙主修)選修。進修三、四年級皆可選修。本系多培生不限年級，暫不開放外系多培生選修。"
+                "other": "[停開]本科不計入輔系學分。本科不開放日間部學生(含輔系雙主修)選修。進修三、四年級皆可選修。本系多培生不限年級，暫不開放外系多培生選修。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "游舜德"
@@ -48578,7 +48585,7 @@
                 "ch": "大地測量學",
                 "en": "Geodetic Surveying",
                 "limit": false,
-                "other": "本科不計入輔系學分。"
+                "other": "[停開]本科不計入輔系學分。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "陳國華"
@@ -48734,7 +48741,7 @@
                 "ch": "美國檢警制度概論",
                 "en": "Introduction to U.S. Police and Prosecutors",
                 "limit": false,
-                "other": "教室：三峽社科大樓（與一般碩士生合班上課）。"
+                "other": "[停開]教室：三峽社科大樓（與一般碩士生合班上課）。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "林茂弘"
@@ -53396,7 +53403,7 @@
                 "ch": "不動產開發管理法制專論",
                 "en": "Seminar on Legal Analysis for the Real Estate Development & Management",
                 "limit": false,
-                "other": " "
+                "other": "[停開]115.3.9通知停開"
             },
             "teacher": [
                 "林木興"
@@ -53763,8 +53770,8 @@
                     "original": "每週二5~7\t商1F05"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "32"
         },
         {
@@ -54312,7 +54319,7 @@
                 "ch": "藥物濫用與犯罪",
                 "en": "Substance Abuse and Crime",
                 "limit": false,
-                "other": "上課教室：台北教學大樓820研討室(與在職專班合班上課)"
+                "other": "上課教室：台北教學大樓708研討室(與在職專班合班上課)"
             },
             "teacher": [
                 "紀致光"
@@ -54330,8 +54337,8 @@
                         12,
                         13
                     ],
-                    "place": "820",
-                    "original": "每週二11~13\t820"
+                    "place": "708",
+                    "original": "每週二11~13\t708"
                 }
             ],
             "sign": "否",
@@ -57163,7 +57170,7 @@
                 "ch": "數據驅動的市場洞察",
                 "en": "Data-driven market insights",
                 "limit": true,
-                "other": "*114學年度起入學新生改為必修\n*請排台北校區的電腦教室 \n*數位行銷進修學士學位學程學士後多元專長培力課程(選修)\n*原名為「市場調查」、「消費市場分析」，已修過並通過「市場調查」、「消費市場分析」課程之同學，請勿再選修此課程，將不重複承認畢業學分。\n"
+                "other": "[停開]*114學年度起入學新生改為必修\n*請排台北校區的電腦教室 \n*數位行銷進修學士學位學程學士後多元專長培力課程(選修)\n*原名為「市場調查」、「消費市場分析」，已修過並通過「市場調查」、「消費市場分析」課程之同學，請勿再選修此課程，將不重複承認畢業學分。\n*1150309選課人數不足停開。\n"
             },
             "teacher": [
                 "李佩芳"
@@ -57357,7 +57364,7 @@
                 "ch": "景氣分析與預測",
                 "en": "Business Forecasting",
                 "limit": false,
-                "other": "*數位行銷進修學士學位學程學士後多元專長培力課程(選修)"
+                "other": "[停開]*數位行銷進修學士學位學程學士後多元專長培力課程(選修)\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "劉祥熹"
@@ -57410,7 +57417,7 @@
                 "ch": "投資學",
                 "en": "Investments",
                 "limit": false,
-                "other": " "
+                "other": "[停開]*1150309選課人數不足停開。"
             },
             "teacher": [
                 "劉曦敏"
@@ -57569,7 +57576,7 @@
                 "ch": "藥物濫用與犯罪",
                 "en": "Substance Abuse and Crime",
                 "limit": false,
-                "other": "教室：台北教學大樓820研討室（與一般碩士生合班上課）。"
+                "other": "教室：台北教學大樓708研討室（與一般碩士生合班上課）。"
             },
             "teacher": [
                 "紀致光"
@@ -57587,8 +57594,8 @@
                         12,
                         13
                     ],
-                    "place": "820",
-                    "original": "每週二11~13\t820"
+                    "place": "708",
+                    "original": "每週二11~13\t708"
                 }
             ],
             "sign": "否",
@@ -63313,8 +63320,8 @@
                     "original": "每週二5~6\t社105"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "60"
         },
         {
@@ -63944,7 +63951,7 @@
                 "ch": "李梅樹文化英文導覽（二）",
                 "en": "English Tour Guide Training to Heritage of Li Mei-Shu  (II)",
                 "limit": false,
-                "other": " "
+                "other": "[停開]本課程自第三周(3/10)起課程停開。"
             },
             "teacher": [
                 "楊凡逸"
@@ -64902,7 +64909,7 @@
                 "ch": "體育：匹克球",
                 "en": "Physical Education: Pickleball",
                 "limit": false,
-                "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點:臺北校區戶外籃排球場。\n3.請安排雨天備案教室。"
+                "other": "[停開]1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點:臺北校區戶外籃排球場。\n3.請安排雨天備案教室。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "蔡舜璽"
@@ -66043,7 +66050,7 @@
                 "ch": "區域研究專題討論（二）",
                 "en": "Seminars on Regional Studies 2",
                 "limit": true,
-                "other": "115.2.24通知授課教師異動"
+                "other": "[停開]115.2.24通知授課教師異動。115.3.9通知停開"
             },
             "teacher": [
                 "******"
@@ -66227,7 +66234,7 @@
                 "ch": "不動產與城鄉環境進階專題討論（四）",
                 "en": "Advanced Seminar in Real Estate and Built Environment Ⅳ",
                 "limit": false,
-                "other": "授課老師與碩班專討(四)相同。109學年度(含)以後入學者為必修，1學分2小時。108學年度以前入學者可選為選修課，但仍須完成修業規定中所要求的原本各項規定。進階專討(一)至(四)之間無關聯性可依照學生需求自行修課。授課教師與碩班專討(四)相同。"
+                "other": "[停開]授課老師與碩班專討(四)相同。109學年度(含)以後入學者為必修，1學分2小時。108學年度以前入學者可選為選修課，但仍須完成修業規定中所要求的原本各項規定。進階專討(一)至(四)之間無關聯性可依照學生需求自行修課。授課教師與碩班專討(四)相同。115.3.9通知停開。"
             },
             "teacher": [
                 "******"
@@ -78235,7 +78242,7 @@
                 "ch": "台灣公共政策專題",
                 "en": "Seminar in Taiwan Public Policy",
                 "limit": true,
-                "other": "公共政策學群。\n本課程由張四明教授、吳秀光教授共同授課。"
+                "other": "[停開]公共政策學群。\n本課程由張四明教授、吳秀光教授共同授課。\n115.3.9通知停開。"
             },
             "teacher": [
                 "張四明",
@@ -85747,7 +85754,7 @@
                 "ch": "科技產業概論",
                 "en": "Introduction to Technology  Industry",
                 "limit": false,
-                "other": "[停開]1、初選期間不開放其他年級選課，加退選期間不受此限。\n*選課人數不足停開。"
+                "other": "[停開]1、初選期間不開放其他年級選課，加退選期間不受此限。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "李震華"
@@ -86118,7 +86125,7 @@
                 "ch": "管理資訊系統",
                 "en": "Management Information System",
                 "limit": false,
-                "other": "上課地點：國防部勤務大隊會客大樓教學點"
+                "other": "[停開]上課地點：國防部勤務大隊會客大樓教學點\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "張志煒"
@@ -86504,8 +86511,8 @@
                     "original": "每週三7~9\t資1F-08"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "30"
         },
         {
@@ -89626,7 +89633,7 @@
                 "ch": "語言學初探",
                 "en": "An Introduction to Language",
                 "limit": false,
-                "other": "應外系學生選讀，不列入其通識畢業學分數。"
+                "other": "[停開]應外系學生選讀，不列入其通識畢業學分數。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "張中倩"
@@ -89814,7 +89821,7 @@
                 "ch": "Excel之統計資料分析",
                 "en": "Excel for Statistical Data Analysis",
                 "limit": false,
-                "other": "企管系、統計系學生修習不列入通識畢業學分。"
+                "other": "[停開]企管系、統計系學生修習不列入通識畢業學分。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "凌嘉華"
@@ -89865,7 +89872,7 @@
                 "ch": "統計與生活",
                 "en": "Statistics and Living",
                 "limit": false,
-                "other": "統計系學生修習不列入通識畢業學分。"
+                "other": "[停開]統計系學生修習不列入通識畢業學分。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "凌嘉華"
@@ -90132,7 +90139,7 @@
                 "ch": "廣告創意與設計",
                 "en": "Advertising Creativity and Design",
                 "limit": false,
-                "other": " "
+                "other": "[停開]*1150309選課人數不足停開。"
             },
             "teacher": [
                 "湯素貞"
@@ -92167,7 +92174,7 @@
                 "ch": "生成式人工智慧概論與實作",
                 "en": "Introduction to Generative AI: Theory and Practice",
                 "limit": false,
-                "other": "資工系學生選讀，不列入其通識畢業學分數。"
+                "other": "[停開]資工系學生選讀，不列入其通識畢業學分數。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "黃振益"
@@ -93343,8 +93350,8 @@
                     "original": "每週四5~6"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "7",
             "max_people": "46"
         },
         {
@@ -101994,8 +102001,8 @@
                     "original": "實習每週四5~6\t商2F08"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "120"
         },
         {
@@ -108345,7 +108352,7 @@
                 "ch": "公司法專題研究",
                 "en": "Seminar : Corporation Law",
                 "limit": true,
-                "other": "1.先修科目：公司法。如未曾過公司法擬修習本課程，請洽臺北法律系辦陳助教。"
+                "other": "[停開]1.先修科目：公司法。如未曾過公司法擬修習本課程，請洽臺北法律系辦陳助教。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "方元沂"
@@ -114388,8 +114395,8 @@
                     "original": "每週四6~8"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "15"
         },
         {
@@ -116493,7 +116500,7 @@
                 "ch": "高齡社會學與社會福利專題",
                 "en": "Sociology of Aging and Welfare to the Elderly",
                 "limit": false,
-                "other": "上課教室：社科708社工系團督室。"
+                "other": "地點：社科722社工系碩博教室。"
             },
             "teacher": [
                 "劉素芬"
@@ -117804,8 +117811,8 @@
                     "original": "每週四10~12\t709"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "12"
         },
         {
@@ -122218,7 +122225,7 @@
                 "ch": "經濟學與人生",
                 "en": "Economics and Human Life",
                 "limit": true,
-                "other": "不列入經濟學系通識畢業學分數。\n限修30人。\n敬請安排教學405教室(有自動升降的螢幕)。"
+                "other": "[停開]不列入經濟學系通識畢業學分數。\n限修30人。\n*1150309選課人數不足停開。\n敬請安排教學405教室(有自動升降的螢幕)。"
             },
             "teacher": [
                 "侯美惠"
@@ -124507,7 +124514,7 @@
                 "ch": "Python資料科學與人工智慧",
                 "en": "Journey to Data Scientists and Artificial Intelligence with Python",
                 "limit": false,
-                "other": "經濟系、智永學程學生選讀，不列入其通識畢業學分數。"
+                "other": "[停開]經濟系、智永學程學生選讀，不列入其通識畢業學分數。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "黃振益"
@@ -125344,7 +125351,7 @@
                 "ch": "體育：籃球",
                 "en": "Physical Education:Baseketball",
                 "limit": false,
-                "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點:臺北校區戶外籃排球場。\n3.請安排雨天備案教室。"
+                "other": "[停開]1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點:臺北校區戶外籃排球場。\n3.請安排雨天備案教室。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "陳羿戎"
@@ -129367,8 +129374,8 @@
                         7,
                         8
                     ],
-                    "place": "公1F15",
-                    "original": "每週五7~8\t公1F15"
+                    "place": "公1F30",
+                    "original": "每週五7~8\t公1F30"
                 }
             ],
             "sign": "否",
@@ -132042,8 +132049,8 @@
                     "original": "每週五5~7\t公1F27"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "22",
             "max_people": "128"
         },
         {
@@ -135672,8 +135679,8 @@
                     "original": "每週五12~13\t404"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "45"
         },
         {
@@ -135766,8 +135773,8 @@
                     "original": "每週五10~11\t404"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "45"
         },
         {
@@ -135849,7 +135856,7 @@
                 "ch": "東南亞國協法律概論",
                 "en": "Introduction to the Law of ASEAN",
                 "limit": true,
-                "other": "國際法暨比較法學群。"
+                "other": "[停開]國際法暨比較法學群。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "李佩蓉"
@@ -135957,8 +135964,8 @@
                     "original": "每週五10~11\t406"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "66"
         },
         {
@@ -136276,7 +136283,7 @@
                 "ch": "公共政策成本效益分析",
                 "en": "Cost-Benefit Analysis for Public Policy",
                 "limit": true,
-                "other": " "
+                "other": "[停開]*1150309選課人數不足停開。"
             },
             "teacher": [
                 "鄭惠文"
@@ -136356,7 +136363,7 @@
                 "ch": "台灣公共政策專題",
                 "en": "Seminar in Taiwan Public Policy",
                 "limit": true,
-                "other": " "
+                "other": "[停開]*1150309選課人數不足停開。"
             },
             "teacher": [
                 "李有容"
@@ -136578,7 +136585,7 @@
                 "ch": "初級日文（四）",
                 "en": "Second-year Japanese (4)",
                 "limit": false,
-                "other": "建議有「初級日文(三)」以上程度之學生選修。\n"
+                "other": "[停開]建議有「初級日文(三)」以上程度之學生選修。\n*1150309選課人數不足停開。\n"
             },
             "teacher": [
                 "謝佩真"
@@ -138045,8 +138052,8 @@
                     "original": "每週五5~6\t公1F21"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "10",
             "max_people": "60"
         },
         {
@@ -139644,7 +139651,7 @@
                 "ch": "中級寫作",
                 "en": "Intermediate Writing",
                 "limit": false,
-                "other": "建議達本校「外語能力指標檢核辦法之英語檢定」標準(含)以上同學選修。"
+                "other": "[停開]建議達本校「外語能力指標檢核辦法之英語檢定」標準(含)以上同學選修。115.3.9通知停開。"
             },
             "teacher": [
                 "殷雅玲"
@@ -141445,8 +141452,8 @@
                         11,
                         12
                     ],
-                    "place": "713",
-                    "original": "每週五10~12\t713"
+                    "place": "709",
+                    "original": "每週五10~12\t709"
                 }
             ],
             "sign": "否",
@@ -141829,12 +141836,12 @@
                         11,
                         12
                     ],
-                    "place": "709",
-                    "original": "每週五10~12\t709"
+                    "place": "713",
+                    "original": "每週五10~12\t713"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "16"
         },
         {
@@ -143875,7 +143882,7 @@
                 "ch": "金融行銷",
                 "en": "Finance Marketing",
                 "limit": false,
-                "other": "教學大樓815教室"
+                "other": "[停開]教學大樓815教室\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "林靖",
@@ -148527,8 +148534,8 @@
                     "original": "每週五3~4\t電1F06"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "3",
             "max_people": "60"
         },
         {
@@ -148592,8 +148599,8 @@
                     "original": "每週五1~2\t電1F06"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "3",
             "max_people": "60"
         },
         {
@@ -148998,8 +149005,8 @@
                     "original": "每週五7~8\t電1F06"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "3",
             "max_people": "60"
         },
         {
@@ -149416,8 +149423,8 @@
                     "original": "每週五5~6\t電1F06"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "3",
             "max_people": "60"
         },
         {
@@ -149694,7 +149701,7 @@
                 "ch": "體育：羽球",
                 "en": "Physical Education: Badminton",
                 "limit": false,
-                "other": "1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點：三峽校區崇越館。"
+                "other": "[停開]1.學生畢業前必須修過四次體育課。第五次(含)以上修習體育課者，每學期計1學分，但不計入各學系最低畢業學分數內。\n2.上課地點：三峽校區崇越館。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "張維仁"
@@ -151732,7 +151739,7 @@
                 "ch": "投資學",
                 "en": "Investments",
                 "limit": false,
-                "other": "教學大樓6F10"
+                "other": "[停開]教學大樓6F10\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "陳淑玲",
@@ -152742,7 +152749,7 @@
                 "ch": "國際金融法",
                 "en": "International Finance Law",
                 "limit": true,
-                "other": "1、國際法暨比較法學群。 2、授課老師極為重視出席到課率，請同學審慎衡量時間分配再行選課，謝謝。"
+                "other": "[停開]1、國際法暨比較法學群。 2、授課老師極為重視出席到課率，請同學審慎衡量時間分配再行選課，謝謝。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "吳嘉生"
@@ -152822,7 +152829,7 @@
                 "ch": "國際環境法",
                 "en": "International Environmental Law",
                 "limit": true,
-                "other": "1、國際法暨比較法學群。 2、授課老師極為重視出席到課率，請同學審慎衡量時間分配再行選課，謝謝。"
+                "other": "[停開]1、國際法暨比較法學群。 2、授課老師極為重視出席到課率，請同學審慎衡量時間分配再行選課，謝謝。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "吳嘉生"
@@ -152930,8 +152937,8 @@
                     "original": "每週六3~4\t406"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "45"
         },
         {
@@ -153078,7 +153085,7 @@
                 "ch": "不動產經濟分析",
                 "en": "Real Estate Economics Analysis",
                 "limit": true,
-                "other": "不計入輔系學分。建議先修：經濟學及土地經濟學。本科暫不開放商學院學生修課。"
+                "other": "[停開]不計入輔系學分。建議先修：經濟學及土地經濟學。本科暫不開放商學院學生修課。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "彭蒂菁"
@@ -154178,7 +154185,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "9",
+            "sign_people": "10",
             "max_people": "12"
         },
         {
@@ -154289,7 +154296,7 @@
                 "ch": "經濟套裝軟體（二）",
                 "en": "Computer Application in Economics Ⅱ",
                 "limit": false,
-                "other": "本課程主要教授Stata軟體，範圍涵蓋大數據分析及實證報告撰寫。\n本課程為獨立課程，毋須先修經濟套裝軟體（一）。\n敬請安排電腦教室。"
+                "other": "[停開]本課程主要教授Stata軟體，範圍涵蓋大數據分析及實證報告撰寫。\n本課程為獨立課程，毋須先修經濟套裝軟體（一）。\n*1150309選課人數不足停開。\n敬請安排電腦教室。"
             },
             "teacher": [
                 "劉育昇"
@@ -154364,8 +154371,8 @@
                     "original": "每週六2~4\t506"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "41"
         },
         {
@@ -154939,7 +154946,7 @@
                 "ch": "證券交易法",
                 "en": "Securities Exchange Law",
                 "limit": true,
-                "other": "1、先修科目：商事法總論暨公司法。財經法學群。2、外系同學如已修過商事法課程，欲選修本課程，請至法律學系辦公室登記，謝謝"
+                "other": "[停開]1、先修科目：商事法總論暨公司法。財經法學群。2、外系同學如已修過商事法課程，欲選修本課程，請至法律學系辦公室登記，謝謝\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "林振東"
@@ -155088,8 +155095,8 @@
                     "original": "每週六5~7\t410"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "6",
             "max_people": "35"
         },
         {
@@ -155618,8 +155625,8 @@
                     "original": "每週六5~7\t社碩職_619研討室"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "30"
         },
         {
@@ -155649,7 +155656,7 @@
                 "ch": "ESG管理師證照與實務",
                 "en": "ESG management certification and practice",
                 "limit": false,
-                "other": "教室:教學大樓607研討室\n*原課名「企業趨勢與分析」，114學年度更名為「ESG管理師證照與實務」。"
+                "other": "[停開]教室:教學大樓607研討室\n*原課名「企業趨勢與分析」，114學年度更名為「ESG管理師證照與實務」。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "黃瓊慧"
@@ -155764,7 +155771,7 @@
                 "ch": "台灣社會研究",
                 "en": "Research on Taiwan Society",
                 "limit": false,
-                "other": "上課教室：教學大樓6樓618代管教室。"
+                "other": "[停開]上課教室：教學大樓6樓618代管教室。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "韋岱思",
