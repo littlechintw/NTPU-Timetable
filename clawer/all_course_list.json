@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-03-10 01:47:25",
-    "end_time": "2026-03-10 01:47:52",
+    "start_time": "2026-03-12 01:50:57",
+    "end_time": "2026-03-12 01:51:27",
     "total_courses": 2460,
     "failed_weeks": [],
     "data": [
@@ -4555,8 +4555,8 @@
                     "original": "每週一3~4\t社B02"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "28",
             "max_people": "212"
         },
         {
@@ -15195,7 +15195,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "2",
+            "sign_people": "8",
             "max_people": "60"
         },
         {
@@ -26191,8 +26191,8 @@
                     "original": "每週一5~7\t文4F08"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "25"
         },
         {
@@ -41667,8 +41667,8 @@
                     "original": "實習每週四3~4\t文1F11"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "70"
         },
         {
@@ -42485,8 +42485,8 @@
                     "original": "每週二7~9\t法1F04"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "12",
             "max_people": "65"
         },
         {
@@ -53227,7 +53227,7 @@
                 "ch": "城市競爭力與都市行銷",
                 "en": "City Competitiveness and Urban Marketing",
                 "limit": true,
-                "other": "教室請安排至公共事務大樓2F26室"
+                "other": "[停開]教室請安排至公共事務大樓2F26室。115.3.12通知停開。"
             },
             "teacher": [
                 "塔瑪娜"
@@ -60262,8 +60262,8 @@
                     "original": "每週二5~7\t資B1F-06"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "69"
         },
         {
@@ -63638,8 +63638,8 @@
                     "original": "每週二3~4\t文1F09"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "10",
             "max_people": "50"
         },
         {
@@ -63870,8 +63870,8 @@
                     "original": "每週二5~6\t社203"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "10",
             "max_people": "50"
         },
         {
@@ -64167,8 +64167,8 @@
                     "original": "每週二7~8\t公1F30"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "99"
         },
         {
@@ -65801,7 +65801,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "4",
+            "sign_people": "8",
             "max_people": "46"
         },
         {
@@ -69305,8 +69305,8 @@
                         3,
                         4
                     ],
-                    "place": "公2F38",
-                    "original": "每週三2~4\t公2F38"
+                    "place": "公2F01",
+                    "original": "每週三2~4\t公2F01"
                 }
             ],
             "sign": "否",
@@ -82667,8 +82667,8 @@
                         3,
                         4
                     ],
-                    "place": "商4F05-1",
-                    "original": "每週三2~4\t商4F05-1"
+                    "place": "商4F05-3",
+                    "original": "每週三2~4\t商4F05-3"
                 }
             ],
             "sign": "否",
@@ -86094,8 +86094,8 @@
                     "original": "每週三10~12\t607"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "5",
             "max_people": "28"
         },
         {
@@ -88959,7 +88959,7 @@
                 "ch": "政府會計",
                 "en": "Governmental Accounting",
                 "limit": true,
-                "other": " "
+                "other": "[停開]1150311通知自第三週起停開"
             },
             "teacher": [
                 "張信一"
@@ -93935,8 +93935,8 @@
                     "original": "每週四1~2"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "1",
             "max_people": "40"
         },
         {
@@ -101707,8 +101707,8 @@
                     "original": "實習每週四3~4\t文1F11"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "70"
         },
         {
@@ -118527,6 +118527,13 @@
                     ],
                     "place": "713",
                     "original": "每週四10~12\t713"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室105電腦教室"
                 }
             ],
             "sign": "否",
@@ -122225,7 +122232,7 @@
                 "ch": "經濟學與人生",
                 "en": "Economics and Human Life",
                 "limit": true,
-                "other": "[停開]不列入經濟學系通識畢業學分數。\n限修30人。\n*1150309選課人數不足停開。\n敬請安排教學405教室(有自動升降的螢幕)。"
+                "other": "[停開]不列入經濟學系通識畢業學分數。\n限修30人。\n敬請安排教學405教室(有自動升降的螢幕)。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "侯美惠"
@@ -135680,7 +135687,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "1",
+            "sign_people": "5",
             "max_people": "45"
         },
         {
@@ -144014,8 +144021,8 @@
                     "original": "每週五10~12\t607"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "4",
             "max_people": "28"
         },
         {
@@ -154296,7 +154303,7 @@
                 "ch": "經濟套裝軟體（二）",
                 "en": "Computer Application in Economics Ⅱ",
                 "limit": false,
-                "other": "[停開]本課程主要教授Stata軟體，範圍涵蓋大數據分析及實證報告撰寫。\n本課程為獨立課程，毋須先修經濟套裝軟體（一）。\n*1150309選課人數不足停開。\n敬請安排電腦教室。"
+                "other": "[停開]本課程主要教授Stata軟體，範圍涵蓋大數據分析及實證報告撰寫。\n本課程為獨立課程，毋須先修經濟套裝軟體（一）。\n敬請安排電腦教室。\n*1150309選課人數不足停開。"
             },
             "teacher": [
                 "劉育昇"
