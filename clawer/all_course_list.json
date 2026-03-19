@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-03-17 01:53:56",
-    "end_time": "2026-03-17 01:54:21",
+    "start_time": "2026-03-19 01:58:58",
+    "end_time": "2026-03-19 01:59:26",
     "total_courses": 2461,
     "failed_weeks": [],
     "data": [
@@ -82939,7 +82939,7 @@
                 "ch": "通訊數學",
                 "en": "Mathematics In Communication",
                 "limit": false,
-                "other": "與學士班合開。第二教室為B1F06。"
+                "other": "與學士班合開。"
             },
             "teacher": [
                 "王鵬華"
@@ -117631,7 +117631,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
