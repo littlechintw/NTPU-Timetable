@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-03-24 01:51:30",
-    "end_time": "2026-03-24 01:52:00",
+    "start_time": "2026-03-26 02:03:50",
+    "end_time": "2026-03-26 02:04:19",
     "total_courses": 2461,
     "failed_weeks": [],
     "data": [
@@ -9809,7 +9809,7 @@
                 "ch": "微積分",
                 "en": "Calculus",
                 "limit": false,
-                "other": "*全英語授課，不限科系。"
+                "other": "*全英語授課，不限科系。1150324通知上課教室異動。"
             },
             "teacher": [
                 "余日彰"
@@ -9827,8 +9827,8 @@
                         6,
                         7
                     ],
-                    "place": "公2F36",
-                    "original": "每週一5~7\t公2F36"
+                    "place": "法2F15",
+                    "original": "每週一5~7\t法2F15"
                 }
             ],
             "sign": "否",
@@ -63504,15 +63504,8 @@
                         5,
                         6
                     ],
-                    "place": "公1F04",
-                    "original": "每週二5~6\t公1F04"
-                },
-                {
-                    "courseTime": "N/A",
-                    "time_category": "N/A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "第二教室社106"
+                    "place": "社106",
+                    "original": "每週二5~6\t社106"
                 }
             ],
             "sign": "否",
@@ -140951,7 +140944,7 @@
                 "ch": "自然解方與氣候變遷",
                 "en": "Nature-based Solutions and Climate Change",
                 "limit": false,
-                "other": "114.3.5停開。"
+                "other": " "
             },
             "teacher": [
                 "王之佑"
