@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-03-28 01:55:51",
-    "end_time": "2026-03-28 01:56:21",
+    "start_time": "2026-03-31 02:05:27",
+    "end_time": "2026-03-31 02:05:54",
     "total_courses": 2461,
     "failed_weeks": [],
     "data": [
@@ -4553,6 +4553,13 @@
                     ],
                     "place": "社B02",
                     "original": "每週一3~4\t社B02"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室社104"
                 }
             ],
             "sign": "是",
@@ -25958,8 +25965,8 @@
                         6,
                         7
                     ],
-                    "place": "公1F13",
-                    "original": "每週一5~7\t公1F13"
+                    "place": "電2F04",
+                    "original": "每週一5~7\t電2F04"
                 }
             ],
             "sign": "否",
@@ -42025,6 +42032,12 @@
                 },
                 {
                     "grade": "1",
+                    "class": "",
+                    "category": "商學院",
+                    "original": "商學院1"
+                },
+                {
+                    "grade": "1",
                     "class": "A",
                     "category": "會計系",
                     "original": "會計系1A"
@@ -42109,6 +42122,7 @@
                 "必",
                 "必",
                 "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -42135,6 +42149,13 @@
                     ],
                     "place": "商2F06",
                     "original": "每週二2~4\t商2F06"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室電1F01"
                 },
                 {
                     "courseTime": 4,
@@ -102005,6 +102026,12 @@
                 },
                 {
                     "grade": "1",
+                    "class": "",
+                    "category": "商學院",
+                    "original": "商學院1"
+                },
+                {
+                    "grade": "1",
                     "class": "A",
                     "category": "會計系",
                     "original": "會計系1A"
@@ -102089,6 +102116,7 @@
                 "必",
                 "必",
                 "必",
+                "必",
                 "必"
             ],
             "title": {
@@ -102115,6 +102143,13 @@
                     ],
                     "place": "商2F06",
                     "original": "每週二2~4\t商2F06"
+                },
+                {
+                    "courseTime": "N/A",
+                    "time_category": "N/A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "第二教室電1F01"
                 },
                 {
                     "courseTime": 4,
