@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-03-31 02:05:27",
-    "end_time": "2026-03-31 02:05:54",
+    "start_time": "2026-04-02 02:01:36",
+    "end_time": "2026-04-02 02:02:03",
     "total_courses": 2461,
     "failed_weeks": [],
     "data": [
@@ -11377,7 +11377,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -22549,7 +22549,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -38747,7 +38747,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -42249,7 +42249,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -45204,7 +45204,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -57845,7 +57845,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -81080,7 +81080,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -86253,7 +86253,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -102715,7 +102715,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -104050,7 +104050,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -114765,7 +114765,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "中文",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -126325,7 +126325,7 @@
             "category": "半",
             "credit": "1",
             "hours": "1",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -141900,7 +141900,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
