@@ -1,7 +1,7 @@
 {
-    "start_time": "2026-04-07 02:06:02",
-    "end_time": "2026-04-07 02:06:35",
-    "total_courses": 2461,
+    "start_time": "2026-04-09 01:59:07",
+    "end_time": "2026-04-09 01:59:40",
+    "total_courses": 2462,
     "failed_weeks": [],
     "data": [
         {
@@ -120299,6 +120299,59 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "41"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U3163",
+            "department": "AI聯盟",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "AI聯盟",
+                    "original": "AI聯盟3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "人工智慧探索應用學分學程"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "機率與統計-台大",
+                "en": "Probability and Statistics",
+                "limit": true,
+                "other": "(主導)台大葉丙成老師。同步遠距上課時間：週四11-13節，2/26(20:00-22:00)；3/12、3/26、4/9、4/30、5/14、6/4(20:00-21:00)。同步考試時間：4/16及6/11(14:30-17:30)（在此時段無法應考的學生請勿修課）。遠距上課位置：https://meet.google.com/ipj-iqku-idj"
+            },
+            "teacher": [
+                "******"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "0",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "商2F12",
+                    "original": "每週四6~8\t商2F12"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "50"
         },
         {
             "year": "114",
