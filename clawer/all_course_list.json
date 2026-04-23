@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-04-21 02:22:53",
-    "end_time": "2026-04-21 02:23:22",
+    "start_time": "2026-04-23 02:24:22",
+    "end_time": "2026-04-23 02:24:59",
     "total_courses": 2462,
     "failed_weeks": [],
     "data": [
@@ -40846,7 +40846,6 @@
                 "other": "因課程分組進行討論方式，請安排第2間教室公2F26、第3間教室（公2F27、公2F25、公2F37或公2F38）\n"
             },
             "teacher": [
-                "蘇軍瑋",
                 "蘇軍瑋"
             ],
             "category": "全",
@@ -40862,23 +40861,12 @@
                         6,
                         7
                     ],
-                    "place": "公2F36",
-                    "original": "每週二5~7\t公2F36"
-                },
-                {
-                    "courseTime": 2,
-                    "time_category": "A",
-                    "sessions": [
-                        5,
-                        6,
-                        7
-                    ],
-                    "place": "公2F26",
-                    "original": "每週二5~7\t公2F26"
+                    "place": "電1F03",
+                    "original": "每週二5~7\t電1F03"
                 }
             ],
-            "sign": "是",
-            "sign_people": "8",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "46"
         },
         {
@@ -58208,8 +58196,8 @@
                         6,
                         7
                     ],
-                    "place": "文2F07",
-                    "original": "每週二5~7\t文2F07"
+                    "place": "商5F25",
+                    "original": "每週二5~7\t商5F25"
                 }
             ],
             "sign": "否",
