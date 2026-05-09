@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-05-07 02:36:34",
-    "end_time": "2026-05-07 02:37:01",
+    "start_time": "2026-05-09 02:36:02",
+    "end_time": "2026-05-09 02:36:30",
     "total_courses": 2462,
     "failed_weeks": [],
     "data": [
@@ -108358,8 +108358,8 @@
                 "選"
             ],
             "title": {
-                "ch": "公司法專題研究",
-                "en": "Seminar : Corporation Law",
+                "ch": "公司法專題研究（四）",
+                "en": "Seminar : Corporation Law IV",
                 "limit": true,
                 "other": "[停開]1.先修科目：公司法。如未曾過公司法擬修習本課程，請洽臺北法律系辦陳助教。\n*1150309選課人數不足停開。"
             },
