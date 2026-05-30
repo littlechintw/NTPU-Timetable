@@ -1,7 +1,7 @@
 {
-    "start_time": "2026-05-28 02:50:03",
-    "end_time": "2026-05-28 02:50:34",
-    "total_courses": 2462,
+    "start_time": "2026-05-30 02:47:01",
+    "end_time": "2026-05-30 02:47:30",
+    "total_courses": 2505,
     "failed_weeks": [],
     "data": [
         {
@@ -32330,6 +32330,803 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U1285",
+            "department": "中文系",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修1"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "大一國文：經典閱讀與詮釋（二）",
+                "en": "Chinese:the Classics Reading and Interpretation II",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生；惟本校中文系學生不得選修。 (2)上課時間：8/4(二)、8/11(二)、8/18(二)、8/25(二)9點至17點，及8/31(一)8點至17點，共36節。 (3)上課方式：實體授課，於臺北校區「209」教室。 (4)開班人數：未達17人停開。"
+            },
+            "teacher": [
+                "陳思愉",
+                "陳思愉",
+                "陳思愉",
+                "陳思愉"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "209",
+                    "original": "每週一1~4\t209"
+                },
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "209",
+                    "original": "每週一5~8\t209"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "209",
+                    "original": "每週二2~4\t209"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "209",
+                    "original": "每週二5~8\t209"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N1033",
+            "department": "(進修)經濟",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修1"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "經濟學",
+                "en": "Economics",
+                "limit": false,
+                "other": "*本課程為全學年(下)。(1)開放對象：本校、外校；惟本科不計入不動產城鄉系輔系學分；不計入經濟學系畢業學分。(2)上課時間：8/3(一)~9/1(二)，每週一、二、三、四第10-12節。(3)上課方式：實體授課，民生校區402教室。(4)開班人數：未達19人停開。"
+            },
+            "teacher": [
+                "劉名寰",
+                "劉名寰",
+                "劉名寰",
+                "劉名寰"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~12"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~12"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週三10~12"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週四10~12"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U1283",
+            "department": "統計系",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修1"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "統計學",
+                "en": "Statistics",
+                "limit": false,
+                "other": "*本課程為全學年(下)，本校生(上)成績未達40分以上不得修習下半部。(1)開放對象：本校生、外校生、準大新生；惟本校統計系(含雙輔生)選修此課程不列入畢業學分。(2)上課時間：8/3(一)~9/1(二)，每週一、二、三第5節~第8節，共56節。(3)上課方式：實體授課，於三峽校區「  」教室。(4)開班人數：未達13人停開。"
+            },
+            "teacher": [
+                "王偉弘",
+                "王偉弘",
+                "王偉弘"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一5~8"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二5~8"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三5~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U1284",
+            "department": "統計系",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修1"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "微積分",
+                "en": "Calculus",
+                "limit": false,
+                "other": "*本課程為全學年(下)；本校生(上)成績未達40分以上不得選修下半部。(1)開放對象：本校生、外校生、準大新生；惟本校統計系(含雙輔生)選修此課程不列入畢業學分。 (2)上課時間：8/3(一)~9/1(二)，每週一、二、三、四第6-8節，共54節。 (3)上課方式：實體(首次、期中考、期末考)+遠距授課，首次上課(8/3)、期中考、期末考須親自到班上課及應考(考試時間另行公布)。 (4)首次上課(8/3)無法到班者，請勿選課:僅於首次上課日(8/3)在教室現場設定「教學影片觀看權限」，日後不再開通，未到班者將無法觀看任何課程影片與後續遠距內容，選課前請審慎評估。 (5)實體(首次、期中考、期末考)上課地點:於三峽校區「  」教室。 (6)開班人數:未達21人停開。"
+            },
+            "teacher": [
+                "蔡旻曉",
+                "蔡旻曉",
+                "蔡旻曉",
+                "蔡旻曉"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一6~8"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二6~8"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三6~8"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四6~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U2245",
+            "department": "經濟系",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修2"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "總體經濟學",
+                "en": "Macroeconomics",
+                "limit": false,
+                "other": "*本課程為全學年(下)，本校生(上)成績未達40分以上不得修習下半部。 (1)開放對象：本校生、外校生，須修過「經濟學原理」或「經濟學」且成績及格者。外校生請上傳成績單佐證。(2)上課時間：8/3(一)~9/4(五)每週一、三、五第5節~第7節，及8/7(五)、8/14(五)、8/21(五)第2節~第4節，共54節。 (3)上課方式：採同步與非同步混合式遠距教學，無實體上課教室。 (4)開班人數：未達5人停開。"
+            },
+            "teacher": [
+                "王宜甲",
+                "王宜甲",
+                "王宜甲",
+                "王宜甲"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一5~7"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三5~7"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五2~4"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五5~7"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "35"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N3054",
+            "department": "(進修)公政",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修3"
+                }
+            ],
+            "compulsory": [
+                "暑選"
+            ],
+            "title": {
+                "ch": "政策規劃",
+                "en": "Policy Planning",
+                "limit": false,
+                "other": "(1)開放對象：開放本校、外校、準大生，不開放外國學生選讀。(2)上課時間：8/3(一)起至9/1(二)，每週一、二、三、四第10-11節。(3)上課方式：實體授課，民生校區206教室。(4)開班人數：未達10人停開。"
+            },
+            "teacher": [
+                "沈建中",
+                "沈建中",
+                "沈建中",
+                "沈建中"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~11"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~11"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週三10~11"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週四10~11"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "12"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N4085",
+            "department": "(進修)企管",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修4"
+                }
+            ],
+            "compulsory": [
+                "暑選"
+            ],
+            "title": {
+                "ch": "電腦網路應用",
+                "en": "Application of Computer Network",
+                "limit": false,
+                "other": "(1)開放對象：本校、外校、準大新生。(2)上課時間：8/3(一)~9/1(二)，每週一、二、三第10-13節。(3)上課方式：實體授課，民生校區312教室。(4)開班人數：未達10人停開。"
+            },
+            "teacher": [
+                "魏嘉宏",
+                "魏嘉宏",
+                "魏嘉宏"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~13"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~13"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週三10~13"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U3248",
+            "department": "企管系",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修3"
+                }
+            ],
+            "compulsory": [
+                "暑選"
+            ],
+            "title": {
+                "ch": "商業程式設計",
+                "en": "Business Computer Programming",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/31(一)，每週一、二第2節~第7節，共54節。\n(3)上課方式：實體授課，於三峽校區「   」電腦教室(需要安裝Anaconda軟體)。 (4)開班人數：未達10人停開。"
+            },
+            "teacher": [
+                "魏嘉宏",
+                "魏嘉宏"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一2~7"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二2~7"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N4086",
+            "department": "(進修)通識",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度四"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "媒體實作與創意思考",
+                "en": "Media Practice and Creative Thinking",
+                "limit": false,
+                "other": "(1)開放對象：開放本校、外校、準大生。 (2)上課時間：8/3(一)起至8/31(一)，每週一、二第10-13節。(3)上課方式：實體授課，民生校區303教室。(4)開班人數：未達5人停開。"
+            },
+            "teacher": [
+                "許智超",
+                "許智超"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~13"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~13"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "50"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U2243",
+            "department": "通識",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度四"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "全球化與多元文化",
+                "en": "Globalization and Multi-Culture",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/31(一)，每週一、五第1節~第4節，共36節。(3)上課方式：實體授課，於三峽校區「   」教室。 (4)開班人數：未達3人停開。"
+            },
+            "teacher": [
+                "曾秀珍",
+                "曾秀珍"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一1~4"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五1~4"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U4428",
+            "department": "通識",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度四"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "文化創意產業",
+                "en": "Introduction to the Industry of Cultural Creativity",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/31(一)，每週一、二第5節~第8節，共36節。(3)上課方式：實體授課，於臺北校區「207」教室。 (4)開班人數：未達10人停開。"
+            },
+            "teacher": [
+                "雷碧秀",
+                "雷碧秀"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "207",
+                    "original": "每週一5~8\t207"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二5~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U4431",
+            "department": "通識",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度三"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "歐洲聯盟：跨國法律與政策",
+                "en": "European Union:Transnational Law and Policies",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/31(一)，每週一、五第5節~第8節，共36節。(3)上課方式：實體授課，於三峽校區「   」教室。 (4)開班人數：未達3人停開。"
+            },
+            "teacher": [
+                "曾秀珍",
+                "曾秀珍"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一5~8"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五5~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
         },
         {
             "year": "114",
@@ -64701,6 +65498,791 @@
         {
             "year": "114",
             "semester": "2",
+            "courseID": "U1285",
+            "department": "中文系",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修1"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "大一國文：經典閱讀與詮釋（二）",
+                "en": "Chinese:the Classics Reading and Interpretation II",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生；惟本校中文系學生不得選修。 (2)上課時間：8/4(二)、8/11(二)、8/18(二)、8/25(二)9點至17點，及8/31(一)8點至17點，共36節。 (3)上課方式：實體授課，於臺北校區「209」教室。 (4)開班人數：未達17人停開。"
+            },
+            "teacher": [
+                "陳思愉",
+                "陳思愉",
+                "陳思愉",
+                "陳思愉"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "209",
+                    "original": "每週一1~4\t209"
+                },
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "209",
+                    "original": "每週一5~8\t209"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "209",
+                    "original": "每週二2~4\t209"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "209",
+                    "original": "每週二5~8\t209"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N1033",
+            "department": "(進修)經濟",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修1"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "經濟學",
+                "en": "Economics",
+                "limit": false,
+                "other": "*本課程為全學年(下)。(1)開放對象：本校、外校；惟本科不計入不動產城鄉系輔系學分；不計入經濟學系畢業學分。(2)上課時間：8/3(一)~9/1(二)，每週一、二、三、四第10-12節。(3)上課方式：實體授課，民生校區402教室。(4)開班人數：未達19人停開。"
+            },
+            "teacher": [
+                "劉名寰",
+                "劉名寰",
+                "劉名寰",
+                "劉名寰"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~12"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~12"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週三10~12"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週四10~12"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U1283",
+            "department": "統計系",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修1"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "統計學",
+                "en": "Statistics",
+                "limit": false,
+                "other": "*本課程為全學年(下)，本校生(上)成績未達40分以上不得修習下半部。(1)開放對象：本校生、外校生、準大新生；惟本校統計系(含雙輔生)選修此課程不列入畢業學分。(2)上課時間：8/3(一)~9/1(二)，每週一、二、三第5節~第8節，共56節。(3)上課方式：實體授課，於三峽校區「  」教室。(4)開班人數：未達13人停開。"
+            },
+            "teacher": [
+                "王偉弘",
+                "王偉弘",
+                "王偉弘"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一5~8"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二5~8"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三5~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U1284",
+            "department": "統計系",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修1"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "微積分",
+                "en": "Calculus",
+                "limit": false,
+                "other": "*本課程為全學年(下)；本校生(上)成績未達40分以上不得選修下半部。(1)開放對象：本校生、外校生、準大新生；惟本校統計系(含雙輔生)選修此課程不列入畢業學分。 (2)上課時間：8/3(一)~9/1(二)，每週一、二、三、四第6-8節，共54節。 (3)上課方式：實體(首次、期中考、期末考)+遠距授課，首次上課(8/3)、期中考、期末考須親自到班上課及應考(考試時間另行公布)。 (4)首次上課(8/3)無法到班者，請勿選課:僅於首次上課日(8/3)在教室現場設定「教學影片觀看權限」，日後不再開通，未到班者將無法觀看任何課程影片與後續遠距內容，選課前請審慎評估。 (5)實體(首次、期中考、期末考)上課地點:於三峽校區「  」教室。 (6)開班人數:未達21人停開。"
+            },
+            "teacher": [
+                "蔡旻曉",
+                "蔡旻曉",
+                "蔡旻曉",
+                "蔡旻曉"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一6~8"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二6~8"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三6~8"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四6~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N3054",
+            "department": "(進修)公政",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修3"
+                }
+            ],
+            "compulsory": [
+                "暑選"
+            ],
+            "title": {
+                "ch": "政策規劃",
+                "en": "Policy Planning",
+                "limit": false,
+                "other": "(1)開放對象：開放本校、外校、準大生，不開放外國學生選讀。(2)上課時間：8/3(一)起至9/1(二)，每週一、二、三、四第10-11節。(3)上課方式：實體授課，民生校區206教室。(4)開班人數：未達10人停開。"
+            },
+            "teacher": [
+                "沈建中",
+                "沈建中",
+                "沈建中",
+                "沈建中"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~11"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~11"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週三10~11"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週四10~11"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "12"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U4432",
+            "department": "中文系",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修4"
+                }
+            ],
+            "compulsory": [
+                "暑選"
+            ],
+            "title": {
+                "ch": "王陽明哲學",
+                "en": "Philosophy of Wang Yang-ming",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/21(五)，每週二、三、四第3節~第6節，共36節。(3)上課方式：實體授課，於三峽校區「文7F09」教室。 (4)開班人數：未達1人停開。"
+            },
+            "teacher": [
+                "袁光儀",
+                "袁光儀",
+                "袁光儀",
+                "袁光儀",
+                "袁光儀",
+                "袁光儀"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文7F09",
+                    "original": "每週二3~4\t文7F09"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "文7F09",
+                    "original": "每週二5~6\t文7F09"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文7F09",
+                    "original": "每週三3~4\t文7F09"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "文7F09",
+                    "original": "每週三5~6\t文7F09"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文7F09",
+                    "original": "每週四3~4\t文7F09"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "文7F09",
+                    "original": "每週四5~6\t文7F09"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N4085",
+            "department": "(進修)企管",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修4"
+                }
+            ],
+            "compulsory": [
+                "暑選"
+            ],
+            "title": {
+                "ch": "電腦網路應用",
+                "en": "Application of Computer Network",
+                "limit": false,
+                "other": "(1)開放對象：本校、外校、準大新生。(2)上課時間：8/3(一)~9/1(二)，每週一、二、三第10-13節。(3)上課方式：實體授課，民生校區312教室。(4)開班人數：未達10人停開。"
+            },
+            "teacher": [
+                "魏嘉宏",
+                "魏嘉宏",
+                "魏嘉宏"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~13"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~13"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週三10~13"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U3248",
+            "department": "企管系",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修3"
+                }
+            ],
+            "compulsory": [
+                "暑選"
+            ],
+            "title": {
+                "ch": "商業程式設計",
+                "en": "Business Computer Programming",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/31(一)，每週一、二第2節~第7節，共54節。\n(3)上課方式：實體授課，於三峽校區「   」電腦教室(需要安裝Anaconda軟體)。 (4)開班人數：未達10人停開。"
+            },
+            "teacher": [
+                "魏嘉宏",
+                "魏嘉宏"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一2~7"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二2~7"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N4086",
+            "department": "(進修)通識",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度四"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "媒體實作與創意思考",
+                "en": "Media Practice and Creative Thinking",
+                "limit": false,
+                "other": "(1)開放對象：開放本校、外校、準大生。 (2)上課時間：8/3(一)起至8/31(一)，每週一、二第10-13節。(3)上課方式：實體授課，民生校區303教室。(4)開班人數：未達5人停開。"
+            },
+            "teacher": [
+                "許智超",
+                "許智超"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~13"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~13"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "50"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N4088",
+            "department": "外語系",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度四"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "英文翻譯與寫作",
+                "en": "English Translation and Writing",
+                "limit": false,
+                "other": "(1)開放對象：開放本校、外校、準大生；應外系學生選讀，不列入其通識畢業學分數。(2)上課時間：8/4(二)至9/1(二)每週二、五晚間6:30至10:10，上課日期：8/4(二)、8/7(五)、8/11(二)、8/14(五)、8/18(二)、8/21(五)、8/25(二)、8/28(五)、9/1(二)晚間6:30至10:10，期中考、期末考為線上考試。(3)上課方式：本課程採混合式遠距教學方式，期中考前線上(Google Meet)方式上課，期中考後非同步學習。(4)開班人數：未達18人停開。"
+            },
+            "teacher": [
+                "張中倩",
+                "張中倩"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~13"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週五10~13"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "21"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U4428",
+            "department": "通識",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度四"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "文化創意產業",
+                "en": "Introduction to the Industry of Cultural Creativity",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/31(一)，每週一、二第5節~第8節，共36節。(3)上課方式：實體授課，於臺北校區「207」教室。 (4)開班人數：未達10人停開。"
+            },
+            "teacher": [
+                "雷碧秀",
+                "雷碧秀"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "207",
+                    "original": "每週一5~8\t207"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二5~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
             "courseID": "M5081",
             "department": "統碩",
             "department_level": [
@@ -92434,6 +94016,647 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "18"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N1033",
+            "department": "(進修)經濟",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修1"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "經濟學",
+                "en": "Economics",
+                "limit": false,
+                "other": "*本課程為全學年(下)。(1)開放對象：本校、外校；惟本科不計入不動產城鄉系輔系學分；不計入經濟學系畢業學分。(2)上課時間：8/3(一)~9/1(二)，每週一、二、三、四第10-12節。(3)上課方式：實體授課，民生校區402教室。(4)開班人數：未達19人停開。"
+            },
+            "teacher": [
+                "劉名寰",
+                "劉名寰",
+                "劉名寰",
+                "劉名寰"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~12"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~12"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週三10~12"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週四10~12"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U1283",
+            "department": "統計系",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修1"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "統計學",
+                "en": "Statistics",
+                "limit": false,
+                "other": "*本課程為全學年(下)，本校生(上)成績未達40分以上不得修習下半部。(1)開放對象：本校生、外校生、準大新生；惟本校統計系(含雙輔生)選修此課程不列入畢業學分。(2)上課時間：8/3(一)~9/1(二)，每週一、二、三第5節~第8節，共56節。(3)上課方式：實體授課，於三峽校區「  」教室。(4)開班人數：未達13人停開。"
+            },
+            "teacher": [
+                "王偉弘",
+                "王偉弘",
+                "王偉弘"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一5~8"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二5~8"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三5~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U1284",
+            "department": "統計系",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修1"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "微積分",
+                "en": "Calculus",
+                "limit": false,
+                "other": "*本課程為全學年(下)；本校生(上)成績未達40分以上不得選修下半部。(1)開放對象：本校生、外校生、準大新生；惟本校統計系(含雙輔生)選修此課程不列入畢業學分。 (2)上課時間：8/3(一)~9/1(二)，每週一、二、三、四第6-8節，共54節。 (3)上課方式：實體(首次、期中考、期末考)+遠距授課，首次上課(8/3)、期中考、期末考須親自到班上課及應考(考試時間另行公布)。 (4)首次上課(8/3)無法到班者，請勿選課:僅於首次上課日(8/3)在教室現場設定「教學影片觀看權限」，日後不再開通，未到班者將無法觀看任何課程影片與後續遠距內容，選課前請審慎評估。 (5)實體(首次、期中考、期末考)上課地點:於三峽校區「  」教室。 (6)開班人數:未達21人停開。"
+            },
+            "teacher": [
+                "蔡旻曉",
+                "蔡旻曉",
+                "蔡旻曉",
+                "蔡旻曉"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一6~8"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二6~8"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三6~8"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四6~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U2245",
+            "department": "經濟系",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修2"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "總體經濟學",
+                "en": "Macroeconomics",
+                "limit": false,
+                "other": "*本課程為全學年(下)，本校生(上)成績未達40分以上不得修習下半部。 (1)開放對象：本校生、外校生，須修過「經濟學原理」或「經濟學」且成績及格者。外校生請上傳成績單佐證。(2)上課時間：8/3(一)~9/4(五)每週一、三、五第5節~第7節，及8/7(五)、8/14(五)、8/21(五)第2節~第4節，共54節。 (3)上課方式：採同步與非同步混合式遠距教學，無實體上課教室。 (4)開班人數：未達5人停開。"
+            },
+            "teacher": [
+                "王宜甲",
+                "王宜甲",
+                "王宜甲",
+                "王宜甲"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一5~7"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三5~7"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五2~4"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五5~7"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "35"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N3054",
+            "department": "(進修)公政",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修3"
+                }
+            ],
+            "compulsory": [
+                "暑選"
+            ],
+            "title": {
+                "ch": "政策規劃",
+                "en": "Policy Planning",
+                "limit": false,
+                "other": "(1)開放對象：開放本校、外校、準大生，不開放外國學生選讀。(2)上課時間：8/3(一)起至9/1(二)，每週一、二、三、四第10-11節。(3)上課方式：實體授課，民生校區206教室。(4)開班人數：未達10人停開。"
+            },
+            "teacher": [
+                "沈建中",
+                "沈建中",
+                "沈建中",
+                "沈建中"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~11"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~11"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週三10~11"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週四10~11"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "12"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U4432",
+            "department": "中文系",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修4"
+                }
+            ],
+            "compulsory": [
+                "暑選"
+            ],
+            "title": {
+                "ch": "王陽明哲學",
+                "en": "Philosophy of Wang Yang-ming",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/21(五)，每週二、三、四第3節~第6節，共36節。(3)上課方式：實體授課，於三峽校區「文7F09」教室。 (4)開班人數：未達1人停開。"
+            },
+            "teacher": [
+                "袁光儀",
+                "袁光儀",
+                "袁光儀",
+                "袁光儀",
+                "袁光儀",
+                "袁光儀"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文7F09",
+                    "original": "每週二3~4\t文7F09"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "文7F09",
+                    "original": "每週二5~6\t文7F09"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文7F09",
+                    "original": "每週三3~4\t文7F09"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "文7F09",
+                    "original": "每週三5~6\t文7F09"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文7F09",
+                    "original": "每週四3~4\t文7F09"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "文7F09",
+                    "original": "每週四5~6\t文7F09"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N4085",
+            "department": "(進修)企管",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修4"
+                }
+            ],
+            "compulsory": [
+                "暑選"
+            ],
+            "title": {
+                "ch": "電腦網路應用",
+                "en": "Application of Computer Network",
+                "limit": false,
+                "other": "(1)開放對象：本校、外校、準大新生。(2)上課時間：8/3(一)~9/1(二)，每週一、二、三第10-13節。(3)上課方式：實體授課，民生校區312教室。(4)開班人數：未達10人停開。"
+            },
+            "teacher": [
+                "魏嘉宏",
+                "魏嘉宏",
+                "魏嘉宏"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~13"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~13"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週三10~13"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N4087",
+            "department": "(進修)通識",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度一"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "音樂藝術與文化產業",
+                "en": "Musical Arts, Culture and Industry",
+                "limit": false,
+                "other": "(1)開放對象：開放本校、外校、準大生。(2)上課時間：8/5(三)、8/12(三)、8/19(三)、8/26(三)第5-12節及9/2(三)第5-8節。(3)上課方式：實體授課，民生校區209教室。(4)開班人數：未達19人停開。"
+            },
+            "teacher": [
+                "林玲光"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週三5~12"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U4429",
+            "department": "通識",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度一"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "編輯設計與數位出版學",
+                "en": "Editorial Design and Digital Publishing",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/5(三)~9/2(三)，每週三、四第5節~第8節，共36節。(3)上課方式：實體授課，於臺北校區「207」教室。 (4)開班人數：未達10人停開。"
+            },
+            "teacher": [
+                "雷碧秀",
+                "雷碧秀"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "207",
+                    "original": "每週三5~8\t207"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四5~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
         },
         {
             "year": "114",
@@ -125240,6 +127463,449 @@
         {
             "year": "114",
             "semester": "2",
+            "courseID": "N1033",
+            "department": "(進修)經濟",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修1"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "經濟學",
+                "en": "Economics",
+                "limit": false,
+                "other": "*本課程為全學年(下)。(1)開放對象：本校、外校；惟本科不計入不動產城鄉系輔系學分；不計入經濟學系畢業學分。(2)上課時間：8/3(一)~9/1(二)，每週一、二、三、四第10-12節。(3)上課方式：實體授課，民生校區402教室。(4)開班人數：未達19人停開。"
+            },
+            "teacher": [
+                "劉名寰",
+                "劉名寰",
+                "劉名寰",
+                "劉名寰"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~12"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~12"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週三10~12"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12
+                    ],
+                    "place": "N/A",
+                    "original": "每週四10~12"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "40"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U1284",
+            "department": "統計系",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修1"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "微積分",
+                "en": "Calculus",
+                "limit": false,
+                "other": "*本課程為全學年(下)；本校生(上)成績未達40分以上不得選修下半部。(1)開放對象：本校生、外校生、準大新生；惟本校統計系(含雙輔生)選修此課程不列入畢業學分。 (2)上課時間：8/3(一)~9/1(二)，每週一、二、三、四第6-8節，共54節。 (3)上課方式：實體(首次、期中考、期末考)+遠距授課，首次上課(8/3)、期中考、期末考須親自到班上課及應考(考試時間另行公布)。 (4)首次上課(8/3)無法到班者，請勿選課:僅於首次上課日(8/3)在教室現場設定「教學影片觀看權限」，日後不再開通，未到班者將無法觀看任何課程影片與後續遠距內容，選課前請審慎評估。 (5)實體(首次、期中考、期末考)上課地點:於三峽校區「  」教室。 (6)開班人數:未達21人停開。"
+            },
+            "teacher": [
+                "蔡旻曉",
+                "蔡旻曉",
+                "蔡旻曉",
+                "蔡旻曉"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一6~8"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二6~8"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三6~8"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四6~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N3054",
+            "department": "(進修)公政",
+            "department_level": [
+                {
+                    "grade": "3",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修3"
+                }
+            ],
+            "compulsory": [
+                "暑選"
+            ],
+            "title": {
+                "ch": "政策規劃",
+                "en": "Policy Planning",
+                "limit": false,
+                "other": "(1)開放對象：開放本校、外校、準大生，不開放外國學生選讀。(2)上課時間：8/3(一)起至9/1(二)，每週一、二、三、四第10-11節。(3)上課方式：實體授課，民生校區206教室。(4)開班人數：未達10人停開。"
+            },
+            "teacher": [
+                "沈建中",
+                "沈建中",
+                "沈建中",
+                "沈建中"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週一10~11"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~11"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週三10~11"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11
+                    ],
+                    "place": "N/A",
+                    "original": "每週四10~11"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "12"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U4432",
+            "department": "中文系",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修4"
+                }
+            ],
+            "compulsory": [
+                "暑選"
+            ],
+            "title": {
+                "ch": "王陽明哲學",
+                "en": "Philosophy of Wang Yang-ming",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/21(五)，每週二、三、四第3節~第6節，共36節。(3)上課方式：實體授課，於三峽校區「文7F09」教室。 (4)開班人數：未達1人停開。"
+            },
+            "teacher": [
+                "袁光儀",
+                "袁光儀",
+                "袁光儀",
+                "袁光儀",
+                "袁光儀",
+                "袁光儀"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文7F09",
+                    "original": "每週二3~4\t文7F09"
+                },
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "文7F09",
+                    "original": "每週二5~6\t文7F09"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文7F09",
+                    "original": "每週三3~4\t文7F09"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "文7F09",
+                    "original": "每週三5~6\t文7F09"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文7F09",
+                    "original": "每週四3~4\t文7F09"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "文7F09",
+                    "original": "每週四5~6\t文7F09"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U4429",
+            "department": "通識",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度一"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "編輯設計與數位出版學",
+                "en": "Editorial Design and Digital Publishing",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/5(三)~9/2(三)，每週三、四第5節~第8節，共36節。(3)上課方式：實體授課，於臺北校區「207」教室。 (4)開班人數：未達10人停開。"
+            },
+            "teacher": [
+                "雷碧秀",
+                "雷碧秀"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "207",
+                    "original": "每週三5~8\t207"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四5~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "30"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U4430",
+            "department": "通識",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度五"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "行動媒體科技探索實作",
+                "en": "Mobile Media Technology Exploration and Practice",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/6(四)~9/3(四)，每週四、五第5節~第8節，共36節。(3)上課方式：實體授課，於三峽校區「   」教室。 (4)開班人數：未達5人停開。"
+            },
+            "teacher": [
+                "許智超",
+                "許智超"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五5~8"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四5~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "50"
+        },
+        {
+            "year": "114",
+            "semester": "2",
             "courseID": "N5007",
             "department": "(進修)體育",
             "department_level": [
@@ -149738,6 +152404,306 @@
         {
             "year": "114",
             "semester": "2",
+            "courseID": "U2245",
+            "department": "經濟系",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修2"
+                }
+            ],
+            "compulsory": [
+                "暑必"
+            ],
+            "title": {
+                "ch": "總體經濟學",
+                "en": "Macroeconomics",
+                "limit": false,
+                "other": "*本課程為全學年(下)，本校生(上)成績未達40分以上不得修習下半部。 (1)開放對象：本校生、外校生，須修過「經濟學原理」或「經濟學」且成績及格者。外校生請上傳成績單佐證。(2)上課時間：8/3(一)~9/4(五)每週一、三、五第5節~第7節，及8/7(五)、8/14(五)、8/21(五)第2節~第4節，共54節。 (3)上課方式：採同步與非同步混合式遠距教學，無實體上課教室。 (4)開班人數：未達5人停開。"
+            },
+            "teacher": [
+                "王宜甲",
+                "王宜甲",
+                "王宜甲",
+                "王宜甲"
+            ],
+            "category": "全",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一5~7"
+                },
+                {
+                    "courseTime": 3,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週三5~7"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五2~4"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五5~7"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "35"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "N4088",
+            "department": "外語系",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "(進修)暑修",
+                    "original": "(進修)暑修4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度四"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "英文翻譯與寫作",
+                "en": "English Translation and Writing",
+                "limit": false,
+                "other": "(1)開放對象：開放本校、外校、準大生；應外系學生選讀，不列入其通識畢業學分數。(2)上課時間：8/4(二)至9/1(二)每週二、五晚間6:30至10:10，上課日期：8/4(二)、8/7(五)、8/11(二)、8/14(五)、8/18(二)、8/21(五)、8/25(二)、8/28(五)、9/1(二)晚間6:30至10:10，期中考、期末考為線上考試。(3)上課方式：本課程採混合式遠距教學方式，期中考前線上(Google Meet)方式上課，期中考後非同步學習。(4)開班人數：未達18人停開。"
+            },
+            "teacher": [
+                "張中倩",
+                "張中倩"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週二10~13"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": [
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "place": "N/A",
+                    "original": "每週五10~13"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "21"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U2243",
+            "department": "通識",
+            "department_level": [
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度四"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "全球化與多元文化",
+                "en": "Globalization and Multi-Culture",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/31(一)，每週一、五第1節~第4節，共36節。(3)上課方式：實體授課，於三峽校區「   」教室。 (4)開班人數：未達3人停開。"
+            },
+            "teacher": [
+                "曾秀珍",
+                "曾秀珍"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一1~4"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五1~4"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U4430",
+            "department": "通識",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度五"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "行動媒體科技探索實作",
+                "en": "Mobile Media Technology Exploration and Practice",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/6(四)~9/3(四)，每週四、五第5節~第8節，共36節。(3)上課方式：實體授課，於三峽校區「   」教室。 (4)開班人數：未達5人停開。"
+            },
+            "teacher": [
+                "許智超",
+                "許智超"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五5~8"
+                },
+                {
+                    "courseTime": 4,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四5~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "50"
+        },
+        {
+            "year": "114",
+            "semester": "2",
+            "courseID": "U4431",
+            "department": "通識",
+            "department_level": [
+                {
+                    "grade": "4",
+                    "class": "",
+                    "category": "暑修",
+                    "original": "暑修4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度三"
+                }
+            ],
+            "compulsory": [
+                "暑通"
+            ],
+            "title": {
+                "ch": "歐洲聯盟：跨國法律與政策",
+                "en": "European Union:Transnational Law and Policies",
+                "limit": false,
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/31(一)，每週一、五第5節~第8節，共36節。(3)上課方式：實體授課，於三峽校區「   」教室。 (4)開班人數：未達3人停開。"
+            },
+            "teacher": [
+                "曾秀珍",
+                "曾秀珍"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週一5~8"
+                },
+                {
+                    "courseTime": 5,
+                    "time_category": "A",
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五5~8"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "15"
+        },
+        {
+            "year": "114",
+            "semester": "2",
             "courseID": "M6014",
             "department": "城市治理碩士學位學程",
             "department_level": [
@@ -158149,6 +161115,9 @@
         "(進修)數位行銷2",
         "(進修)數位行銷3",
         "(進修)數位行銷4",
+        "(進修)暑修1",
+        "(進修)暑修3",
+        "(進修)暑修4",
         "(進修)法律1",
         "(進修)法律2",
         "(進修)法律3",
@@ -158347,6 +161316,10 @@
         "智慧運算系統英語授課學士微學程",
         "智慧醫療碩士學位學程1",
         "智慧醫療碩士學位學程2",
+        "暑修1",
+        "暑修2",
+        "暑修3",
+        "暑修4",
         "會博1",
         "會博2",
         "會碩1",
