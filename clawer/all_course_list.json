@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-05-30 02:47:01",
-    "end_time": "2026-05-30 02:47:30",
+    "start_time": "2026-06-02 03:38:29",
+    "end_time": "2026-06-02 03:39:00",
     "total_courses": 2505,
     "failed_weeks": [],
     "data": [
@@ -33063,9 +33063,14 @@
                 {
                     "courseTime": 2,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週二5~8"
+                    "sessions": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "207",
+                    "original": "每週二5~8\t207"
                 }
             ],
             "sign": "否",
@@ -66271,9 +66276,14 @@
                 {
                     "courseTime": 2,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週二5~8"
+                    "sessions": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "207",
+                    "original": "每週二5~8\t207"
                 }
             ],
             "sign": "否",
@@ -94649,9 +94659,14 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四5~8"
+                    "sessions": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "207",
+                    "original": "每週四5~8\t207"
                 }
             ],
             "sign": "否",
@@ -127838,9 +127853,14 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四5~8"
+                    "sessions": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "207",
+                    "original": "每週四5~8\t207"
                 }
             ],
             "sign": "否",
