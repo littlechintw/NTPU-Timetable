@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-06-02 03:38:29",
-    "end_time": "2026-06-02 03:39:00",
+    "start_time": "2026-06-04 03:40:59",
+    "end_time": "2026-06-04 03:41:29",
     "total_courses": 2505,
     "failed_weeks": [],
     "data": [
@@ -14084,7 +14084,7 @@
                 "ch": "測量平差法（一）",
                 "en": "Surveying Adjustment I",
                 "limit": false,
-                "other": "本科不計入輔系學分"
+                "other": "本科不計入輔系學分\n*依不動產通知第13-16週由林柏丞老師代課。"
             },
             "teacher": [
                 "陳國華"
