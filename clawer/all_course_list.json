@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-07-14 02:08:01",
-    "end_time": "2026-07-14 02:08:29",
+    "start_time": "2026-07-16 02:14:00",
+    "end_time": "2026-07-16 02:14:32",
     "total_courses": 2505,
     "failed_weeks": [],
     "data": [
@@ -84341,23 +84341,9 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "電子商務碩士學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "氣候變遷與淨零策略學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
-                "選",
-                "選",
                 "選",
                 "選",
                 "選"
