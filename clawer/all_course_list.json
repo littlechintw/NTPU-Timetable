@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-07-30 02:03:00",
-    "end_time": "2026-07-30 02:03:28",
+    "start_time": "2026-08-01 02:29:31",
+    "end_time": "2026-08-01 02:29:59",
     "total_courses": 2505,
     "failed_weeks": [],
     "data": [
@@ -13,14 +13,14 @@
                 {
                     "grade": "1",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程1"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程1"
                 },
                 {
                     "grade": "2",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程2"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程2"
                 }
             ],
             "compulsory": [
@@ -7073,13 +7073,13 @@
             "year": "114",
             "semester": "2",
             "courseID": "M5087",
-            "department": "智慧醫療碩士學位學程",
+            "department": "人工智慧碩士學位學程",
             "department_level": [
                 {
                     "grade": "1",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程1"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程1"
                 }
             ],
             "compulsory": [
@@ -22511,13 +22511,13 @@
             "year": "114",
             "semester": "2",
             "courseID": "M6071",
-            "department": "智慧醫療碩士學位學程",
+            "department": "人工智慧碩士學位學程",
             "department_level": [
                 {
                     "grade": "2",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程2"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程2"
                 },
                 {
                     "grade": "1",
@@ -32905,16 +32905,23 @@
                     "class": "",
                     "category": "暑修",
                     "original": "暑修3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "暑選",
                 "暑選"
             ],
             "title": {
                 "ch": "商業程式設計",
                 "en": "Business Computer Programming",
                 "limit": false,
-                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/31(一)，每週一、二第2節~第7節，共54節。\n(3)上課方式：實體授課，於三峽校區「   」電腦教室(需要安裝Anaconda軟體)。 (4)開班人數：未達10人停開。"
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/31(一)，每週一、二第2節~第7節，共54節。\n(3)上課方式：實體授課，於三峽校區「資1F-14」電腦教室(需要安裝Anaconda軟體)。 (4)開班人數：未達10人停開。"
             },
             "teacher": [
                 "魏嘉宏",
@@ -39993,19 +40000,19 @@
             "year": "114",
             "semester": "2",
             "courseID": "M5240",
-            "department": "智慧醫療碩士學位學程",
+            "department": "人工智慧碩士學位學程",
             "department_level": [
                 {
                     "grade": "1",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程1"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程1"
                 },
                 {
                     "grade": "2",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程2"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程2"
                 }
             ],
             "compulsory": [
@@ -44371,7 +44378,7 @@
             "year": "114",
             "semester": "2",
             "courseID": "U2195",
-            "department": "智慧醫療碩士學位學程",
+            "department": "人工智慧碩士學位學程",
             "department_level": [
                 {
                     "grade": "2",
@@ -54336,14 +54343,14 @@
                 {
                     "grade": "1",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程1"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程1"
                 },
                 {
                     "grade": "2",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程2"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程2"
                 },
                 {
                     "grade": "N/A",
@@ -57257,14 +57264,14 @@
                 {
                     "grade": "1",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程1"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程1"
                 },
                 {
                     "grade": "2",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程2"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程2"
                 }
             ],
             "compulsory": [
@@ -57359,13 +57366,13 @@
             "year": "114",
             "semester": "2",
             "courseID": "M6047",
-            "department": "智慧醫療碩士學位學程",
+            "department": "人工智慧碩士學位學程",
             "department_level": [
                 {
                     "grade": "2",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程2"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程2"
                 }
             ],
             "compulsory": [
@@ -65235,7 +65242,7 @@
             "year": "114",
             "semester": "2",
             "courseID": "U4012",
-            "department": "智慧醫療碩士學位學程",
+            "department": "人工智慧碩士學位學程",
             "department_level": [
                 {
                     "grade": "N/A",
@@ -66190,16 +66197,23 @@
                     "class": "",
                     "category": "暑修",
                     "original": "暑修3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "暑選",
                 "暑選"
             ],
             "title": {
                 "ch": "商業程式設計",
                 "en": "Business Computer Programming",
                 "limit": false,
-                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/31(一)，每週一、二第2節~第7節，共54節。\n(3)上課方式：實體授課，於三峽校區「   」電腦教室(需要安裝Anaconda軟體)。 (4)開班人數：未達10人停開。"
+                "other": "(1)開放對象：本校生、外校生、準大新生。 (2)上課時間：8/3(一)~8/31(一)，每週一、二第2節~第7節，共54節。\n(3)上課方式：實體授課，於三峽校區「資1F-14」電腦教室(需要安裝Anaconda軟體)。 (4)開班人數：未達10人停開。"
             },
             "teacher": [
                 "魏嘉宏",
@@ -66504,14 +66518,14 @@
                 {
                     "grade": "1",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程1"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程1"
                 },
                 {
                     "grade": "2",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程2"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程2"
                 }
             ],
             "compulsory": [
@@ -84057,14 +84071,14 @@
                 {
                     "grade": "1",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程1"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程1"
                 },
                 {
                     "grade": "2",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程2"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程2"
                 },
                 {
                     "grade": "N/A",
@@ -86092,8 +86106,8 @@
                 {
                     "grade": "1",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程1"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程1"
                 },
                 {
                     "grade": "N/A",
@@ -86981,13 +86995,13 @@
             "year": "114",
             "semester": "2",
             "courseID": "M6121",
-            "department": "智慧醫療碩士學位學程",
+            "department": "人工智慧碩士學位學程",
             "department_level": [
                 {
                     "grade": "2",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程2"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程2"
                 }
             ],
             "compulsory": [
@@ -100571,8 +100585,8 @@
                 {
                     "grade": "1",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程1"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程1"
                 },
                 {
                     "grade": "N/A",
@@ -100719,13 +100733,13 @@
             "year": "114",
             "semester": "2",
             "courseID": "M5469",
-            "department": "智慧醫療碩士學位學程",
+            "department": "人工智慧碩士學位學程",
             "department_level": [
                 {
                     "grade": "1",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程1"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程1"
                 }
             ],
             "compulsory": [
@@ -119940,13 +119954,13 @@
             "year": "114",
             "semester": "2",
             "courseID": "M6134",
-            "department": "智慧醫療碩士學位學程",
+            "department": "人工智慧碩士學位學程",
             "department_level": [
                 {
                     "grade": "2",
                     "class": "",
-                    "category": "智慧醫療碩士學位學程",
-                    "original": "智慧醫療碩士學位學程2"
+                    "category": "人工智慧碩士學位學程",
+                    "original": "人工智慧碩士學位學程2"
                 }
             ],
             "compulsory": [
@@ -127029,7 +127043,7 @@
             "year": "114",
             "semester": "2",
             "courseID": "U4043",
-            "department": "智慧醫療碩士學位學程",
+            "department": "人工智慧碩士學位學程",
             "department_level": [
                 {
                     "grade": "N/A",
@@ -161465,6 +161479,8 @@
         "人工智慧學士微學程",
         "人工智慧工業應用學分學程",
         "人工智慧探索應用學分學程",
+        "人工智慧碩士學位學程1",
+        "人工智慧碩士學位學程2",
         "人工智慧自然語言技術學分學程",
         "人工智慧英語授課學士學分學程",
         "人工智慧英語授課學士微學程",
@@ -161601,8 +161617,6 @@
         "智慧財產權學士學分學程",
         "智慧財產權學士微學程",
         "智慧運算系統英語授課學士微學程",
-        "智慧醫療碩士學位學程1",
-        "智慧醫療碩士學位學程2",
         "暑修1",
         "暑修2",
         "暑修3",
