@@ -1,7 +1,7 @@
 {
-    "start_time": "2026-08-01 02:29:31",
-    "end_time": "2026-08-01 02:29:59",
-    "total_courses": 2505,
+    "start_time": "2026-08-04 02:09:31",
+    "end_time": "2026-08-04 02:09:57",
+    "total_courses": 2502,
     "failed_weeks": [],
     "data": [
         {
@@ -104861,59 +104861,6 @@
         {
             "year": "114",
             "semester": "2",
-            "courseID": "U2041",
-            "department": "中文系",
-            "department_level": [
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "中文系",
-                    "original": "中文系2"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "古典文學學士微學程"
-                }
-            ],
-            "compulsory": [
-                "必",
-                "必"
-            ],
-            "title": {
-                "ch": "中國文學史",
-                "en": "History of Chinese Literature",
-                "limit": true,
-                "other": "本課程屬本系二年級必修課，建議同學於本學年修讀。"
-            },
-            "teacher": [
-                "劉寧慧"
-            ],
-            "category": "全",
-            "credit": "3",
-            "hours": "3",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 4,
-                    "time_category": "A",
-                    "sessions": [
-                        5,
-                        6,
-                        7
-                    ],
-                    "place": "文2F12",
-                    "original": "每週四5~7\t文2F12"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "55"
-        },
-        {
-            "year": "114",
-            "semester": "2",
             "courseID": "U2069",
             "department": "法律學系法學組",
             "department_level": [
@@ -130657,96 +130604,6 @@
         {
             "year": "114",
             "semester": "2",
-            "courseID": "U1107",
-            "department": "中文系",
-            "department_level": [
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "通識",
-                    "original": "語文通識1"
-                }
-            ],
-            "compulsory": [
-                "必"
-            ],
-            "title": {
-                "ch": "大一國文：經典閱讀與詮釋（二）",
-                "en": "Chinese:the Classics Reading and Interpretation II",
-                "limit": true,
-                "other": "授課主題：再探《水滸傳》：變調的人生藍圖"
-            },
-            "teacher": [
-                "劉寧慧"
-            ],
-            "category": "半",
-            "credit": "2",
-            "hours": "2",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 5,
-                    "time_category": "A",
-                    "sessions": [
-                        3,
-                        4
-                    ],
-                    "place": "文2F11",
-                    "original": "每週五3~4\t文2F11"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "0"
-        },
-        {
-            "year": "114",
-            "semester": "2",
-            "courseID": "U1109",
-            "department": "中文系",
-            "department_level": [
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "通識",
-                    "original": "語文通識1"
-                }
-            ],
-            "compulsory": [
-                "必"
-            ],
-            "title": {
-                "ch": "大一國文：經典閱讀與詮釋（二）",
-                "en": "Chinese:the Classics Reading and Interpretation II",
-                "limit": true,
-                "other": "授課主題：再探《水滸傳》：變調的人生藍圖"
-            },
-            "teacher": [
-                "劉寧慧"
-            ],
-            "category": "半",
-            "credit": "2",
-            "hours": "2",
-            "language": "中文",
-            "course_detail": [
-                {
-                    "courseTime": 5,
-                    "time_category": "A",
-                    "sessions": [
-                        5,
-                        6
-                    ],
-                    "place": "文2F11",
-                    "original": "每週五5~6\t文2F11"
-                }
-            ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "0"
-        },
-        {
-            "year": "114",
-            "semester": "2",
             "courseID": "U1117",
             "department": "語言",
             "department_level": [
@@ -155704,7 +155561,7 @@
             ],
             "title": {
                 "ch": "法院實習",
-                "en": "Judical Court Intership",
+                "en": "Judical Court Internship",
                 "limit": true,
                 "other": "1.法專組先修科目：民事及刑事訴訟法。2.六78非上課時間，實習地點於新北地院，每週至少10小時，每學期不得少於180小時。3.本課程初選無法選課，有意選修者請至系網頁下載申請書，填寫後至遲於115年1月5日前繳交。4.說明甄選會將於115年2月4日上午10時於法604會議室召開。"
             },
