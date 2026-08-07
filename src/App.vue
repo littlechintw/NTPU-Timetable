@@ -45,10 +45,11 @@
 
 <script setup>
 import { RouterView } from 'vue-router'
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, provide } from 'vue'
 
-// 黑暗模式狀態
+// 黑暗模式狀態（提供給子路由頁面，避免各自維護一份、再靠 DOM 觀察同步）
 const isDarkMode = ref(false)
+provide('isDarkMode', isDarkMode)
 
 // 學年學期資訊
 const semesterInfo = ref('載入中...')

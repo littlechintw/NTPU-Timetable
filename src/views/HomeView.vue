@@ -38,16 +38,16 @@
           </div>
 
           <div class="course-actions">
-            <a 
+            <a
               class="btn btn-info"
-              :href="`https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?g_serial=${overlayData.courseID}&g_year=${overlayData.year}&g_term=${overlayData.semester}&show_info=all`"
+              :href="courseInfoUrl"
               target="_blank"
             >
               課程資訊
             </a>
-            <a 
+            <a
               class="btn btn-info"
-              :href="`https://google.com/search?q=${overlayData.title?.ch} ${overlayData.teacher?.join(' ')} 課程`"
+              :href="googleSearchUrl"
               target="_blank"
             >
               Google 搜尋
@@ -384,110 +384,20 @@
 </template>
 
 <script setup>
-import { ref, reactive, onMounted, computed, provide } from 'vue'
+import { ref, reactive, onMounted, computed, provide, inject, watch } from 'vue'
 
-// 黑暗模式
-const isDarkMode = ref(false)
+// 黑暗模式（由 App.vue 提供並統一管理，這裡只讀取／共用同一份狀態）
+const isDarkMode = inject('isDarkMode', ref(false))
 
-// 檢測黑暗模式
-const checkDarkMode = () => {
-  const prevMode = isDarkMode.value
-  
-  // 多種方式檢測黑暗模式
-  const appElement = document.getElementById('app')
-  const hasAppDarkClass = appElement?.classList.contains('dark-mode')
-  const hasDocDarkClass = document.documentElement.classList.contains('dark-mode')
-  const hasBodyDarkClass = document.body.classList.contains('dark-mode')
-  
-  isDarkMode.value = hasAppDarkClass || hasDocDarkClass || hasBodyDarkClass
-  
-  console.log('黑暗模式檢測:', {
-    prevMode,
-    currentMode: isDarkMode.value,
-    appElement: !!appElement,
-    hasAppDarkClass,
-    hasDocDarkClass,
-    hasBodyDarkClass
-  })
-  
-  // 如果模式改變了，重新計算顏色
-  if (prevMode !== isDarkMode.value && courseData.data && courseData.data.length > 0) {
-    console.log('模式改變，重新計算顏色')
-    setTimeout(() => {
-      recalculateColors()
-    }, 100) // 延遲一點以確保 DOM 更新完成
-  }
-}
-
-// 監聽黑暗模式變化
-const observeDarkMode = () => {
-  // 監聽 app 元素的 class 變化
-  const appElement = document.getElementById('app')
-  if (appElement) {
-    const observer = new MutationObserver((mutations) => {
-      mutations.forEach((mutation) => {
-        if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-          checkDarkMode()
-        }
-      })
-    })
-    
-    observer.observe(appElement, {
-      attributes: true,
-      attributeFilter: ['class']
-    })
-  }
-  
-  // 監聽 body 和 documentElement 的變化
-  const bodyObserver = new MutationObserver(() => checkDarkMode())
-  bodyObserver.observe(document.body, { attributes: true, attributeFilter: ['class'] })
-  bodyObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] })
-  
-  // 監聽 localStorage 變化（從其他標籤頁）
-  window.addEventListener('storage', (e) => {
-    if (e.key === 'darkMode') {
-      setTimeout(checkDarkMode, 50)
-    }
-  })
-  
-  // 定期檢查（作為後備方案）
-  setInterval(checkDarkMode, 1000)
-}
-
-// 重新計算課程顏色（用於黑暗模式切換）
+// 重新計算課程顏色（用於黑暗模式切換）：直接以目前的調色盤重建課表，
+// 比逐格修補顏色更不容易出錯，且效能影響可忽略（已選課程數量很少）
 const recalculateColors = () => {
-  console.log('開始重新計算顏色，當前黑暗模式:', isDarkMode.value)
-  
-  const tmpList = getCourseSelectStatus()
-  
-  // 只更新顏色，不重新初始化時間表
-  for (let i = 0; i < tmpList.length; i++) {
-    const course = tmpList[i]
-    course.index = i // 更新索引
-    
-    // 重新設置課程在時間表中的顏色
-    const convertSessions = convertTimeToSession(course.course_detail)
-    for (let j = 0; j < convertSessions.length; j++) {
-      const convertTime = convertSessionToTime(convertSessions[j])
-      const r = convertTime[0]
-      const c = convertTime[1]
-      
-      // 更新時間表中對應格子的顏色
-      for (let k = 0; k < bodyData.value[r][c].chip.length; k++) {
-        if (bodyData.value[r][c].chip[k].courseID === course.courseID) {
-          bodyData.value[r][c].chip[k].color = getColorTable()[course.index % 14]
-        }
-      }
-    }
-  }
-  
-  // 重新計算搜尋結果和選課列表
+  initTable()
+
   if (searchInput.value || hasActiveFilters.value) {
     searchCourse()
   }
   selectListMaker()
-  
-  console.log('顏色重新計算完成')
 }
 
 // 計算當前學年學期
@@ -515,12 +425,6 @@ const getColorTable = () => {
   return isDarkMode.value ? darkColorTable : colorTable
 }
 
-// 切換黑暗模式
-const toggleDarkMode = () => {
-  isDarkMode.value = !isDarkMode.value
-  localStorage.setItem('darkMode', isDarkMode.value.toString())
-}
-
 // 課程資料
 const courseData = reactive({
   start_time: "載入中...",
@@ -533,10 +437,6 @@ const searchInput = ref('')
 const searchResult = ref('')
 const searchList = ref([])
 
-const filterChips = ref([])
-const filterItems = ref([])
-const selectedFilter = ref('')
-const showAdvancedFilter = ref(false)
 const filterTime = [
   "週一上午", "週一下午", "週二上午", "週二下午", "週三上午", "週三下午",
   "週四上午", "週四下午", "週五上午", "週五下午", "週六上午", "週六下午",
@@ -631,6 +531,24 @@ const overlayData = ref({
   url: ""
 })
 
+// 課程資訊/搜尋連結：課程資料含使用者無法控制的特殊字元（& # 空白等），需編碼避免產生錯誤的網址
+const courseInfoUrl = computed(() => {
+  const d = overlayData.value
+  const params = new URLSearchParams({
+    g_serial: d.courseID,
+    g_year: d.year,
+    g_term: d.semester,
+    show_info: 'all'
+  })
+  return `https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?${params.toString()}`
+})
+
+const googleSearchUrl = computed(() => {
+  const d = overlayData.value
+  const query = `${d.title?.ch || ''} ${d.teacher?.join(' ') || ''} 課程`
+  return `https://google.com/search?q=${encodeURIComponent(query)}`
+})
+
 const daysData = ["時間", "日", "一", "二", "三", "四", "五", "六"]
 const bodyData = ref([])
 
@@ -658,7 +576,6 @@ const loadCourseData = async () => {
     if (response.ok) {
       const data = await response.json()
       Object.assign(courseData, data)
-      console.log('課程資料載入成功:', courseData.data.length, '門課程')
     } else {
       console.error('無法載入課程資料:', response.status)
     }
@@ -712,6 +629,23 @@ const clearAllFilters = () => {
   }
 }
 
+// 部分課程時間尚未確定（例如 courseTime/sessions 為 "N/A"），無法排入課表，須先過濾掉
+const isValidCourseDetail = (detail) => {
+  return typeof detail.courseTime === 'number' && Array.isArray(detail.sessions)
+}
+
+// 將「星期、節次」轉換成課表格子的 [row, col]
+const convertTimeToCell = (courseTime, session) => {
+  const col = courseTime === 7 ? 1 : courseTime + 1 // 週日 -> 第1欄；週一~週六 -> 第2~7欄
+  let row = 10 // 超出範圍的場次（例如延伸的晚間課程）一律併入「晚上」那一格
+  if (session >= 1 && session <= 4) {
+    row = session - 1
+  } else if (session >= 5 && session <= 9) {
+    row = session
+  }
+  return { row, col }
+}
+
 // 初始化課表
 const initTable = () => {
   bodyData.value = []
@@ -757,33 +691,21 @@ const initTable = () => {
   for (let i = 0; i < selectCourse.length; i++) {
     const tmpCourseDetail = selectCourse[i].course_detail
     for (let j = 0; j < tmpCourseDetail.length; j++) {
+      if (!isValidCourseDetail(tmpCourseDetail[j])) continue // 課程時間未定，無法排入課表
+
       const tmpTime = tmpCourseDetail[j].courseTime
       const tmpSessions = tmpCourseDetail[j].sessions
       for (let k = 0; k < tmpSessions.length; k++) {
-        let convertTime = -1
-        let convertSessions = -1
-        
-        if (tmpTime === 7) {
-          convertTime = 1  // 週日 -> 第1欄 (索引1)
-        } else {
-          convertTime = tmpTime + 1  // 週一~週六 -> 第2~7欄 (索引2-7)
-        }
-        
-        if (tmpSessions[k] >= 1 && tmpSessions[k] <= 4) {
-          convertSessions = tmpSessions[k] - 1
-        } else if (tmpSessions[k] >= 5 && tmpSessions[k] <= 9) {
-          convertSessions = tmpSessions[k]
-        } else {
-          convertSessions = 10
-          k += 10
-        }
-        
-        changeBodyChip(true, convertSessions, convertTime, {
+        const { row, col } = convertTimeToCell(tmpTime, tmpSessions[k])
+
+        changeBodyChip(true, row, col, {
           title: selectCourse[i].courseID + " " + selectCourse[i].title.ch,
-          color: colorTable[selectCourse[i].index % 14],
+          color: getColorTable()[selectCourse[i].index % 14],
           courseID: selectCourse[i].courseID,
           courseName: selectCourse[i].title.ch
         })
+
+        if (row === 10) break // 晚上場次已併成一格，不需重複記錄
       }
     }
   }
@@ -827,7 +749,8 @@ const searchCourse = () => {
   
   let flag = 0
   const maxResults = 150
-  
+  const selectedCourses = getCourseSelectStatus() // 只讀取一次 localStorage，避免在迴圈中對每個候選課程重複解析
+
   for (let i = 0; i < courseData.data.length; i++) {
     if (flag >= maxResults) {
       searchResult.value = `找到 ${flag}+ 筆資料，僅顯示前 ${maxResults} 筆資料`
@@ -850,7 +773,7 @@ const searchCourse = () => {
     }
     
     if (keywordMatch) {
-      const filterFlag = verifySearchItem(tmp)
+      const filterFlag = verifySearchItem(tmp, selectedCourses)
       if (filterFlag.result === true) {
         searchList.value.push({
           title: tmp.courseID + " " + tmp.title.ch,
@@ -882,14 +805,8 @@ const searchCourse = () => {
 }
 
 // 驗證搜尋項目 - 新的篩選邏輯 (同類 OR，不同類 AND)
-const verifySearchItem = (item) => {
-  // 如果沒有任何篩選條件，直接通過
-  if (!hasActiveFilters.value) {
-    return { result: true, color: "" }
-  }
-  
-  let hasConflict = false
-  
+// 注意：時間衝突一律要檢查（不論是否有套用篩選條件），才能正確標示紅色衝突提示
+const verifySearchItem = (item, selectedCourses) => {
   // 檢查系所篩選 (OR 關係)
   if (activeFilters.value.departments.length > 0) {
     const departmentMatch = activeFilters.value.departments.some(dept => {
@@ -941,23 +858,17 @@ const verifySearchItem = (item) => {
     )
     if (!timeMatch) return { result: false, color: "" }
   }
-  
-  // 檢查時間衝突
-  const selectedCourses = getCourseSelectStatus()
+
+  // 檢查時間衝突（所有篩選條件都通過後，一律檢查）
+  let hasConflict = false
   for (const selectedCourse of selectedCourses) {
     if (hasTimeConflict(item, selectedCourse)) {
       hasConflict = true
       break
     }
   }
-  
-  // 所有篩選條件都通過 (AND 關係)
-  let color = ""
-  if (hasConflict) {
-    color = "red"
-  }
-  
-  return { result: true, color }
+
+  return { result: true, color: hasConflict ? "red" : "" }
 }
 
 // 檢查時間篩選
@@ -983,7 +894,7 @@ const checkTimeFilter = (course, timeFilter) => {
   if (!filter) return false
   
   for (const detail of course.course_detail) {
-    if (detail.courseTime === filter.day) {
+    if (detail.courseTime === filter.day && isValidCourseDetail(detail)) {
       // 檢查是否有任何時段重疊
       const hasOverlap = detail.sessions.some(session => filter.sessions.includes(session))
       if (hasOverlap) return true
@@ -992,48 +903,12 @@ const checkTimeFilter = (course, timeFilter) => {
   return false
 }
 
-// 檢查科系篩選
-const checkDepartmentFilter = (course, departmentFilter) => {
-  // 檢查課程的科系
-  if (course.department === departmentFilter) {
-    return true
-  }
-  
-  // 檢查課程的科系層級
-  for (const level of course.department_level) {
-    if (level.original === departmentFilter) {
-      return true
-    }
-  }
-  
-  return false
-}
-
-// 檢查其他篩選條件
-const checkOtherFilter = (course, filter) => {
-  // 檢查必選修
-  if (filter === "必修" && course.compulsory.some(comp => comp === "必")) {
-    return true
-  }
-  if (filter === "選修" && course.compulsory.some(comp => comp === "選")) {
-    return true
-  }
-  
-  // 檢查學分數
-  const credit = parseInt(course.credit || 0)
-  if (filter === "1學分" && credit === 1) return true
-  if (filter === "2學分" && credit === 2) return true
-  if (filter === "3學分" && credit === 3) return true
-  if (filter === "4學分" && credit === 4) return true
-  if (filter === "5學分以上" && credit >= 5) return true
-  
-  return false
-}
-
 // 檢查時間衝突
 const hasTimeConflict = (course1, course2) => {
   for (const detail1 of course1.course_detail) {
+    if (!isValidCourseDetail(detail1)) continue // 課程時間未定，無法比較是否衝突
     for (const detail2 of course2.course_detail) {
+      if (!isValidCourseDetail(detail2)) continue
       if (detail1.courseTime === detail2.courseTime) {
         // 檢查時段是否有重疊
         const hasOverlap = detail1.sessions.some(session => detail2.sessions.includes(session))
@@ -1101,33 +976,21 @@ const changeCourseSelectStatus = (ID) => {
 const writeCourse = (mode, chipData) => {
   const detail = chipData.course_detail
   for (let i = 0; i < detail.length; i++) {
+    if (!isValidCourseDetail(detail[i])) continue // 課程時間未定，無法排入課表
+
     const tmpTime = detail[i].courseTime
     const tmpSessions = detail[i].sessions
     for (let j = 0; j < tmpSessions.length; j++) {
-      let convertTime = -1
-      let convertSessions = -1
-      
-      if (tmpTime === 7) {
-        convertTime = 1  // 週日 -> 第1欄 (索引1)
-      } else {
-        convertTime = tmpTime + 1  // 週一~週六 -> 第2~7欄 (索引2-7)
-      }
-      
-      if (tmpSessions[j] >= 1 && tmpSessions[j] <= 4) {
-        convertSessions = tmpSessions[j] - 1
-      } else if (tmpSessions[j] >= 5 && tmpSessions[j] <= 9) {
-        convertSessions = tmpSessions[j]
-      } else {
-        convertSessions = 10
-        j += 10
-      }
-      
-      changeBodyChip(mode, convertSessions, convertTime, {
+      const { row, col } = convertTimeToCell(tmpTime, tmpSessions[j])
+
+      changeBodyChip(mode, row, col, {
         title: chipData.courseID + " " + chipData.title.ch,
         color: getColorTable()[chipData.index % 14],
         courseID: chipData.courseID,
         courseName: chipData.title.ch
       })
+
+      if (row === 10) break // 晚上場次已併成一格，不需重複記錄
     }
   }
 }
@@ -1138,8 +1001,7 @@ const selectListMaker = () => {
   selectList.value.splice(0)
   
   const tmpList = getCourseSelectStatus()
-  console.log('更新已選課程列表，課程數量:', tmpList.length)
-  
+
   for (let i = 0; i < tmpList.length; i++) {
     const courseItem = {
       title: tmpList[i].courseID + " " + tmpList[i].title.ch,
@@ -1150,8 +1012,6 @@ const selectListMaker = () => {
     }
     selectList.value.push(courseItem)
   }
-  
-  console.log('已選課程列表更新完成，當前課程:', selectList.value.map(c => c.courseID))
 }
 
 // 重置所有資料
@@ -1161,13 +1021,20 @@ const resetAll = () => {
   initTable()
 }
 
+// 課程編號 -> 課程資料的索引，避免每次查詢都線性掃過全部課程（目前約 2500+ 筆）
+const courseIndexByID = computed(() => {
+  const map = new Map()
+  for (const course of courseData.data) {
+    map.set(course.courseID, course)
+  }
+  return map
+})
+
 // 取得課程資料
 const getCourseIDData = (ID) => {
-  for (let i = 0; i < courseData.data.length; i++) {
-    if (courseData.data[i].courseID === ID) {
-      return courseData.data[i]
-    }
-  }
+  const course = courseIndexByID.value.get(ID)
+  if (course) return course
+
   return {
     year: "", semester: "", courseID: ID, department: "",
     department_level: [], compulsory: [],
@@ -1202,21 +1069,17 @@ onMounted(async () => {
   if (!localStorage.getItem("SelectCourse")) {
     localStorage.setItem("SelectCourse", JSON.stringify([]))
   }
-  
+
   // 載入課程資料
   await loadCourseData()
-  
-  // 初始化黑暗模式檢測（在資料載入後）
-  checkDarkMode()
-  observeDarkMode()
-  
+
   selectListMaker()
   initTable()
-  
-  // 確保初始顏色正確
-  setTimeout(() => {
-    recalculateColors()
-  }, 100)
+})
+
+// 黑暗模式切換時，以正確的調色盤重建課表
+watch(isDarkMode, () => {
+  recalculateColors()
 })
 </script>
 

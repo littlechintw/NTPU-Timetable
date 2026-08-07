@@ -155,10 +155,20 @@ def course_info_decode(data):
                 '週一': 1, '週二': 2, '週三': 3, '週四': 4,
                 '週五': 5, '週六': 6, '週日': 7
             }
+            day_found = False
             for day_str, day_num in day_mapping.items():
                 if info.find(day_str) > -1:
                     single_data['courseTime'] = day_num
+                    day_found = True
                     break
+
+            # Entries with no day-of-week and no explicit "未維護" marker aren't
+            # a time slot at all — they're notes such as a rainy-day backup
+            # classroom (e.g. "第二教室313") that the school lists in the same
+            # cell as the real time. Skip them instead of storing a fake slot.
+            if not day_found and single_data['courseTime'] != 'N':
+                logger.info(f"Skipping non-time-slot entry: {info!r}")
+                continue
 
             # Parse session times
             find_sessions = info.find('~')
