@@ -145,15 +145,22 @@
               
               <!-- 篩選控制區域 -->
               <div class="filter-controls">
-                <!-- 系所篩選 -->
+                <!-- 系所篩選：輸入文字即可從系所清單中篩選，選定或按 Enter 即加入篩選 -->
                 <div class="filter-group">
                   <label class="filter-group-title">系所</label>
-                  <select v-model="selectedDepartment" @change="addDepartmentFilter" class="filter-select">
-                    <option value="">選擇系所...</option>
-                    <option v-for="dept in availableDepartments" :key="dept" :value="dept">
-                      {{ dept }}
-                    </option>
-                  </select>
+                  <input
+                    v-model="departmentInput"
+                    type="text"
+                    list="department-options"
+                    class="filter-select"
+                    placeholder="輸入系所名稱搜尋..."
+                    autocomplete="off"
+                    @change="addDepartmentFilter"
+                    @keyup.enter="addDepartmentFilter"
+                  />
+                  <datalist id="department-options">
+                    <option v-for="dept in availableDepartments" :key="dept" :value="dept" />
+                  </datalist>
                 </div>
                 
                 <!-- 快速篩選按鈕 -->
@@ -192,7 +199,7 @@
                     <label class="filter-group-title">上課時間</label>
                     <div class="time-filter-grid">
                       <div class="time-day-group" v-for="day in 7" :key="day">
-                        <div class="day-header">
+                        <div class="time-day-label">
                           {{ ['一', '二', '三', '四', '五', '六', '日'][day - 1] }}
                         </div>
                         <div class="time-period-buttons">
@@ -312,7 +319,7 @@
           <div class="card-body text-center">
             <a
               class="btn btn-info"
-              href="https://hackmd.io/@littlechin/rJYHHfeiK"
+              href="https://github.com/littlechintw/NTPU-Timetable/blob/main/docs/USAGE.md"
               target="_blank"
             >
               使用說明
@@ -460,7 +467,7 @@ const filterOptions = ref({
 })
 
 // 額外的篩選相關變數
-const selectedDepartment = ref('')
+const departmentInput = ref('')
 
 // 計算屬性
 const hasActiveFilters = computed(() => {
@@ -584,14 +591,14 @@ const loadCourseData = async () => {
   }
 }
 
-// 新增篩選條件
-// 新的篩選方法
+// 新增篩選條件：輸入的文字須完全符合系所清單中的一個選項才會加入（避免打錯字或打到一半就套用篩選）
 const addDepartmentFilter = () => {
-  if (selectedDepartment.value && !activeFilters.value.departments.includes(selectedDepartment.value)) {
-    activeFilters.value.departments.push(selectedDepartment.value)
-    selectedDepartment.value = ''
+  const value = departmentInput.value.trim()
+  if (value && availableDepartments.value.includes(value) && !activeFilters.value.departments.includes(value)) {
+    activeFilters.value.departments.push(value)
     searchCourse()
   }
+  departmentInput.value = ''
 }
 
 // 切換分類篩選條件
@@ -1090,68 +1097,13 @@ watch(isDarkMode, () => {
   min-height: calc(100vh - 120px);
 }
 
-/* 頂部導航欄 */
-.top-navbar {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 1rem 1.5rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
-  z-index: 200;
-}
-
-.dark-mode .top-navbar {
-  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-}
-
-.navbar-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.app-title {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.navbar-controls {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.theme-toggle {
-  background: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 25px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
-}
-
-.theme-toggle:hover {
-  background: rgba(255, 255, 255, 0.25);
-  transform: translateY(-1px);
-}
-
-/* 警示橫幅樣式 */
+/* 警示橫幅樣式：低調的提醒色，不用飽和漸層搶走版面焦點 */
 .warning-banner {
-  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
-  color: white;
-  padding: 0.8rem 1rem;
+  background: var(--warning-bg);
+  color: var(--warning-text);
+  padding: 0.35rem var(--container-pad);
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid var(--warning-border);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -1159,9 +1111,19 @@ watch(isDarkMode, () => {
 
 .warning-content {
   font-weight: 500;
-  font-size: 0.95rem;
-  max-width: 1200px;
+  font-size: 0.8rem;
+  max-width: var(--container-max);
   margin: 0 auto;
+}
+
+/* 黑暗模式下的警示橫幅（用 !important 蓋過 App.vue 全域的 div 文字顏色規則） */
+.dark-mode .warning-banner {
+  background: #3a2f12 !important;
+  border-bottom: 1px solid #5c4a1a !important;
+}
+
+.dark-mode .warning-content {
+  color: #f0d78c !important;
 }
 
 /* Modal 樣式 */
@@ -1180,11 +1142,11 @@ watch(isDarkMode, () => {
 
 .modal-dialog {
   background: white;
-  border-radius: 8px;
+  border-radius: var(--radius-lg);
   max-width: 800px;
   max-height: 90vh;
   overflow-y: auto;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--shadow-lg);
 }
 
 /* 黑暗模式下的彈窗對話框 */
@@ -1211,14 +1173,28 @@ watch(isDarkMode, () => {
 .modal-close {
   background: none;
   border: none;
-  font-size: 2rem;
+  font-size: 1.6rem;
+  line-height: 1;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
   cursor: pointer;
   color: #666;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.modal-close:hover {
+  background: rgba(0, 0, 0, 0.06);
+  color: #333;
 }
 
 /* 黑暗模式下的彈窗關閉按鈕 */
 .dark-mode .modal-close {
   color: #e2e8f0 !important;
+}
+
+.dark-mode .modal-close:hover {
+  background: rgba(255, 255, 255, 0.08) !important;
 }
 
 .modal-body {
@@ -1325,8 +1301,10 @@ watch(isDarkMode, () => {
 .main-layout {
   display: grid;
   grid-template-columns: 350px 1fr;
-  gap: 1rem;
-  padding: 1rem;
+  gap: 1.25rem;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 1.25rem var(--container-pad);
 }
 
 .sidebar {
@@ -1349,9 +1327,11 @@ watch(isDarkMode, () => {
 /* 卡片樣式 */
 .card {
   background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(15, 23, 42, 0.05);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
   overflow: hidden;
+  transition: box-shadow 0.2s ease;
 }
 
 /* 黑暗模式下的卡片 */
@@ -1362,23 +1342,26 @@ watch(isDarkMode, () => {
 }
 
 .card-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 1rem;
+  background: var(--brand-tint);
+  color: var(--brand-2);
+  padding: 0.8rem 1.1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid var(--brand-tint-strong);
 }
 
 /* 黑暗模式下的卡片標題 */
 .dark-mode .card-header {
-  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%) !important;
+  background: rgba(108, 99, 214, 0.12) !important;
+  color: #c9c2f0 !important;
   border-bottom: 1px solid #4a5568;
 }
 
 .card-header h3 {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .card-body {
@@ -1392,19 +1375,32 @@ watch(isDarkMode, () => {
 }
 
 .credit-info {
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--brand-tint-strong);
+  color: var(--brand-2);
+  font-weight: 600;
   padding: 0.3rem 0.6rem;
   border-radius: 12px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+}
+
+.dark-mode .credit-info {
+  background: rgba(108, 99, 214, 0.22) !important;
+  color: #d8d3f5 !important;
 }
 
 /* 手機滑動提示 */
 .mobile-scroll-hint {
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--brand-tint-strong);
+  color: var(--brand-2);
   padding: 0.3rem 0.6rem;
   border-radius: 12px;
   font-size: 0.75rem;
   display: none; /* 預設隱藏 */
+}
+
+.dark-mode .mobile-scroll-hint {
+  background: rgba(108, 99, 214, 0.22) !important;
+  color: #d8d3f5 !important;
 }
 
 @media (max-width: 768px) {
@@ -1422,10 +1418,17 @@ watch(isDarkMode, () => {
 
 .search-input {
   flex: 1;
-  padding: 0.6rem;
+  padding: 0.6rem 0.8rem;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   font-size: 0.9rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--brand-1);
+  box-shadow: 0 0 0 3px var(--brand-ring);
 }
 
 /* 黑暗模式下的搜尋輸入框 */
@@ -1532,7 +1535,7 @@ watch(isDarkMode, () => {
   padding: 0.4rem 0.8rem;
   background: #f5f5f5;
   border: 1px solid #ddd;
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
   font-size: 0.8rem;
   transition: all 0.2s;
@@ -1556,15 +1559,15 @@ watch(isDarkMode, () => {
 }
 
 .filter-btn.active {
-  background: #2196f3;
+  background: var(--brand-1);
   color: white;
-  border-color: #2196f3;
+  border-color: var(--brand-1);
 }
 
 .dark-mode .filter-btn.active {
-  background: #1976d2 !important;
-  color: #e2e8f0 !important;
-  border-color: #1976d2 !important;
+  background: var(--brand-1) !important;
+  color: #f7fafc !important;
+  border-color: var(--brand-1) !important;
 }
 
 /* 新的篩選系統樣式 */
@@ -1572,7 +1575,7 @@ watch(isDarkMode, () => {
   margin: 1rem 0;
   padding: 1rem;
   background: #f9f9f9;
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   border: 1px solid #e0e0e0;
 }
 
@@ -1666,12 +1669,18 @@ watch(isDarkMode, () => {
 }
 
 .filter-select {
-  width: 200px;
-  padding: 0.5rem;
+  width: 100%;
+  padding: 0.5rem 0.7rem;
   border: 1px solid #ddd;
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   font-size: 0.9rem;
   background: white;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: var(--brand-1);
+  box-shadow: 0 0 0 3px var(--brand-ring);
 }
 
 .dark-mode .filter-select {
@@ -1695,14 +1704,14 @@ watch(isDarkMode, () => {
   gap: 0.3rem;
 }
 
-.day-header {
+.time-day-label {
   font-size: 0.8rem;
   font-weight: 500;
   color: #666;
   text-align: center;
 }
 
-.dark-mode .day-header {
+.dark-mode .time-day-label {
   color: #a0aec0 !important;
 }
 
@@ -1743,22 +1752,15 @@ watch(isDarkMode, () => {
 }
 
 .time-btn.active {
-  background: #2196f3;
+  background: var(--brand-1);
   color: white;
-  border-color: #2196f3;
+  border-color: var(--brand-1);
 }
 
 .dark-mode .time-btn.active {
-  background: #1976d2 !important;
-  color: #e2e8f0 !important;
-  border-color: #1976d2 !important;
-}
-
-.advanced-filter {
-  margin: 1rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  background: var(--brand-1) !important;
+  color: #f7fafc !important;
+  border-color: var(--brand-1) !important;
 }
 
 .filter-actions {
@@ -1786,51 +1788,6 @@ watch(isDarkMode, () => {
   background: #4a5568 !important;
 }
 
-.btn-secondary {
-  background: #6c757d;
-  color: white;
-}
-
-.dark-mode .btn-secondary {
-  background: #5a6c7d !important;
-  color: #e2e8f0 !important;
-}
-
-.btn-secondary:hover {
-  background: #5a6268;
-}
-
-.dark-mode .btn-secondary:hover {
-  background: #667182 !important;
-}
-
-.advanced-filter-panel {
-  background: #f8f9fa;
-  padding: 1rem;
-  border-radius: 6px;
-  margin-top: 0.5rem;
-  border: 1px solid #e0e0e0;
-}
-
-.dark-mode .advanced-filter-panel {
-  background: #3a4a5c !important;
-  border: 1px solid #555 !important;
-}
-
-.filter-select {
-  width: 100%;
-  padding: 0.5rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-/* 黑暗模式下的過濾選擇器 */
-.dark-mode .filter-select {
-  background: #4a5568 !important;
-  border: 1px solid #666 !important;
-  color: #e2e8f0 !important;
-}
-
 .course-info-text {
   margin-top: 1rem;
   font-size: 0.9rem;
@@ -1846,7 +1803,7 @@ watch(isDarkMode, () => {
 .btn {
   padding: 0.6rem 1rem;
   border: none;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
@@ -1855,32 +1812,36 @@ watch(isDarkMode, () => {
   transition: all 0.2s;
 }
 
-.btn-primary { background: #2196f3; color: white; }
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn-primary { background: var(--brand-1); color: white; }
 
 /* 黑暗模式下的主要按鈕 */
-.dark-mode .btn-primary { 
-  background: #1976d2 !important; 
-  color: #e2e8f0 !important; 
+.dark-mode .btn-primary {
+  background: var(--brand-1) !important;
+  color: #f7fafc !important;
 }
-.btn-primary:hover { background: #1976d2; }
+.btn-primary:hover { filter: brightness(1.1); box-shadow: var(--shadow-sm); }
 
 .btn-info { background: #17a2b8; color: white; }
 
 /* 黑暗模式下的資訊按鈕 */
-.dark-mode .btn-info { 
-  background: #138496 !important; 
-  color: #e2e8f0 !important; 
+.dark-mode .btn-info {
+  background: #138496 !important;
+  color: #e2e8f0 !important;
 }
 .btn-info:hover { background: #138496; }
 
-.btn-danger { background: #dc3545; color: white; }
+.btn-danger { background: var(--danger); color: white; }
 
 /* 黑暗模式下的危險按鈕 */
-.dark-mode .btn-danger { 
-  background: #c82333 !important; 
-  color: #e2e8f0 !important; 
+.dark-mode .btn-danger {
+  background: var(--danger-strong) !important;
+  color: #e2e8f0 !important;
 }
-.btn-danger:hover { background: #c82333; }
+.btn-danger:hover { background: var(--danger-strong); }
 
 .btn-full { width: 100%; margin-top: 1rem; }
 
@@ -1923,9 +1884,21 @@ watch(isDarkMode, () => {
 .bg-orange { background-color: #fff3cd; }
 
 /* 黑暗模式下的橘色背景 */
-.dark-mode .bg-orange { 
-  background-color: #744210 !important; 
-  color: #fbb040 !important; 
+.dark-mode .bg-orange {
+  background-color: #744210 !important;
+  color: #fbb040 !important;
+}
+
+/* 與已選課程時間衝突的搜尋結果：柔和的紅色提示，呼應課表上的衝突樣式 */
+.bg-red {
+  background-color: #ffebee;
+  border-left: 3px solid #f44336;
+}
+
+.dark-mode .bg-red {
+  background-color: #5d2a2a !important;
+  border-left: 3px solid #ef5350 !important;
+  color: #ffcdd2 !important;
 }
 
 .status-btn {
@@ -1937,19 +1910,25 @@ watch(isDarkMode, () => {
   font-weight: bold;
   font-size: 16px;
   flex-shrink: 0;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.status-btn.blue { background: #2196f3; color: white; }
-.status-btn.red { background: #dc3545; color: white; }
+.status-btn:hover {
+  transform: scale(1.08);
+  box-shadow: var(--shadow-sm);
+}
+
+.status-btn.blue { background: var(--brand-1); color: white; }
+.status-btn.red { background: var(--danger); color: white; }
 
 /* 黑暗模式下的狀態按鈕 */
-.dark-mode .status-btn.blue { 
-  background: #1976d2 !important; 
-  color: #e2e8f0 !important; 
+.dark-mode .status-btn.blue {
+  background: var(--brand-1) !important;
+  color: #f7fafc !important;
 }
-.dark-mode .status-btn.red { 
-  background: #c82333 !important; 
-  color: #e2e8f0 !important; 
+.dark-mode .status-btn.red {
+  background: var(--danger-strong) !important;
+  color: #e2e8f0 !important;
 }
 
 .course-content {
@@ -1999,7 +1978,7 @@ watch(isDarkMode, () => {
 .timetable {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch; /* iOS 滑動優化 */
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   max-width: 100%;
   box-shadow: 0 0 0 1px #e0e0e0; /* 使用 box-shadow 作為外框 */
 }
@@ -2021,27 +2000,35 @@ watch(isDarkMode, () => {
   background: #2d3748;
 }
 
+/* 課表標頭改用素色，讓真正需要辨識的課程色塊當視覺焦點，標頭不再搶戲 */
 .day-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: #f8f9fc;
+  color: #3a3f52;
   padding: 0.8rem;
   text-align: center;
-  font-weight: 500;
-  border: none; /* 完全移除邊框 */
+  font-weight: 700;
+  font-size: 0.9rem;
+  border: none;
+  border-bottom: 2px solid var(--brand-tint-strong);
 }
 
 /* 時間欄標題特殊樣式 */
 .day-header:first-child {
-  background: linear-gradient(135deg, #5a6c7d 0%, #6c757d 100%);
+  background: #eef0f6;
+  color: #6b7280;
+  font-weight: 600;
 }
 
 /* 黑暗模式下的日期標題 */
 .dark-mode .day-header {
-  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%) !important;
+  background: #232735 !important;
+  color: #e2e8f0 !important;
+  border-bottom: 2px solid rgba(108, 99, 214, 0.3) !important;
 }
 
 .dark-mode .day-header:first-child {
-  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%) !important;
+  background: #1a1d29 !important;
+  color: #9aa1b5 !important;
 }
 
 .time-cell {
@@ -2127,23 +2114,24 @@ watch(isDarkMode, () => {
 
 .course-chip {
   padding: 0.4rem 0.5rem;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: 0.75rem;
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
   max-width: 90px;
   overflow: hidden;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.12);
 }
 
-/* 黑暗模式下的課程籌碼 */
+/* 黑暗模式下的課程籌碼：只調整文字/邊框，背景維持各課程自己的顏色（見 darkColorTable），
+   之前這裡用 !important 蓋掉背景色，導致深色模式下所有課程籌碼都變成同一種顏色，失去辨識度 */
 .dark-mode .course-chip {
   color: #e2e8f0 !important;
-  background: rgba(255, 255, 255, 0.1) !important;
-  border: 1px solid #4a5568 !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
 .course-id {
@@ -2174,7 +2162,8 @@ watch(isDarkMode, () => {
 }
 
 .course-chip:hover {
-  transform: scale(1.05);
+  transform: translateY(-1px) scale(1.05);
+  box-shadow: 0 3px 8px rgba(15, 23, 42, 0.22);
 }
 
 /* 午休時段特殊樣式 */
@@ -2272,69 +2261,4 @@ watch(isDarkMode, () => {
   }
 }
 
-/* HomeView 黑暗模式樣式覆蓋 */
-:deep(.dark-mode) .modal-close {
-  color: #cbd5e0 !important;
-}
-
-:deep(.dark-mode) .course-info-text {
-  color: #cbd5e0 !important;
-}
-
-:deep(.dark-mode) .course-info-text small {
-  color: #e2e8f0 !important;
-}
-
-:deep(.dark-mode) .course-subtitle {
-  color: #cbd5e0 !important;
-}
-
-:deep(.dark-mode) .course-detail {
-  color: #a0aec0 !important;
-}
-
-:deep(.dark-mode) .support-text {
-  color: #cbd5e0 !important;
-}
-
-:deep(.dark-mode) .time-range {
-  color: #cbd5e0 !important;
-}
-
-:deep(.dark-mode) .chip {
-  background: #4a5568 !important;
-  color: #e2e8f0 !important;
-}
-
-:deep(.dark-mode) .chip-removable {
-  background: #2b6cb0 !important;
-  color: #e2e8f0 !important;
-  border: 1px solid #4299e1 !important;
-}
-
-:deep(.dark-mode) .chip-removable button {
-  color: #e2e8f0 !important;
-}
-
-/* 修復所有灰色文字 */
-:deep(.dark-mode) * {
-  color: inherit;
-}
-
-:deep(.dark-mode) .course-info-text,
-:deep(.dark-mode) .course-subtitle,
-:deep(.dark-mode) .course-detail,
-:deep(.dark-mode) .support-text,
-:deep(.dark-mode) .time-range {
-  color: #cbd5e0 !important;
-}
-
-:deep(.dark-mode) .course-title-text {
-  color: #f7fafc !important;
-}
-
-:deep(.dark-mode) p,
-:deep(.dark-mode) small {
-  color: #cbd5e0 !important;
-}
 </style>

@@ -3,18 +3,22 @@
     <!-- 頂部導航欄 -->
     <nav class="top-navbar">
       <div class="navbar-content">
-        <div class="navbar-left">
-          <h1 class="app-title">NTPU 課程試排 
-            <span class="unofficial-badge tooltip-container" @mouseenter="showTooltip = true" @mouseleave="showTooltip = false">
-              ⚠️ Unofficial
-              <div class="custom-tooltip" v-show="showTooltip">
-                此網頁非北大官方網站，資料來源為北大官網，但不可保證完全正確
-              </div>
-            </span>
-          </h1>
+        <div class="brand">
+          <h1 class="app-title">北大課程試排</h1>
+          <div
+            class="brand-subtitle tooltip-container"
+            @mouseenter="showTooltip = true"
+            @mouseleave="showTooltip = false"
+          >
+            <span class="brand-tag">NTPU</span>
+            <span>非官方課程試排工具</span>
+            <div class="custom-tooltip" v-show="showTooltip">
+              此網頁非北大官方網站，資料來源為北大官網，但不可保證完全正確
+            </div>
+          </div>
         </div>
         <div class="navbar-controls">
-          <button 
+          <button
             class="theme-toggle-btn"
             @click="toggleDarkMode"
             :title="isDarkMode ? '切換至淺色模式' : '切換至深色模式'"
@@ -22,6 +26,7 @@
             <span class="theme-icon">{{ isDarkMode ? '☀️' : '🌙' }}</span>
             {{ isDarkMode ? '淺色' : '深色' }}
           </button>
+          <span class="navbar-divider">·</span>
           <span class="semester-info">{{ semesterInfo || '載入中...' }}</span>
         </div>
       </div>
@@ -114,6 +119,32 @@ onMounted(async () => {
 </script>
 
 <style>
+:root {
+  /* 品牌色：--brand-2（深）只用在頂部導覽列，其餘互動元件一律用 --brand-1 的實色，不用漸層 */
+  --brand-1: #6c63d6;
+  --brand-2: #4a3b8c;
+  --brand-tint: rgba(108, 99, 214, 0.08);
+  --brand-tint-strong: rgba(108, 99, 214, 0.16);
+  --brand-ring: rgba(108, 99, 214, 0.35);
+
+  --danger: #e53e3e;
+  --danger-strong: #c53030;
+  --warning-bg: #fff8e6;
+  --warning-border: #f0c96b;
+  --warning-text: #8a6109;
+
+  --container-max: 1400px;
+  --container-pad: 1.5rem;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06), 0 1px 1px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.08), 0 2px 6px rgba(15, 23, 42, 0.05);
+  --shadow-lg: 0 16px 40px rgba(15, 23, 42, 0.14);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -121,14 +152,16 @@ onMounted(async () => {
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC",
+    "Noto Sans TC", "Microsoft JhengHei", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f0f2f8;
   color: #333;
   transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
 }
 
 body.dark-mode {
-  background-color: #1a1a1a;
+  background-color: #16181d;
   color: #e0e0e0;
 }
 
@@ -143,37 +176,47 @@ body.dark-mode {
   flex: 1;
 }
 
-/* 底部版權資訊 */
+/* 底部版權資訊：用中性色，避免品牌色在頁面首尾重複出現 */
 .app-footer {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 1.5rem 2rem;
+  background: #2d3142;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 1.25rem var(--container-pad);
   margin-top: auto;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .dark-mode .app-footer {
-  background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
-  border-top: 1px solid #4a5568;
+  background: #14161d;
+  border-top: 1px solid #2a2d38;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
+  max-width: var(--container-max);
   margin: 0 auto;
 }
 
 .footer-left p,
 .footer-right p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-left a {
   color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-left a:hover {
+  text-decoration: underline;
 }
 
 .footer-right a {
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
@@ -187,19 +230,19 @@ body.dark-mode {
   text-decoration: underline;
 }
 
-/* 頂部導航欄 */
+/* 頂部導航欄：整站唯一使用飽和品牌色的地方，其餘元件維持素色 */
 .top-navbar {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--brand-2);
   color: white;
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem var(--container-pad);
+  box-shadow: var(--shadow-md);
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
 .dark-mode .top-navbar {
-  background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+  background: #232735;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -207,38 +250,47 @@ body.dark-mode {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
+  max-width: var(--container-max);
   margin: 0 auto;
 }
 
-.navbar-left {
+.brand {
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.15rem;
+  line-height: 1;
 }
 
 .app-title {
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 1.15rem;
+  font-weight: 700;
   margin: 0;
   color: white;
+  letter-spacing: 0.02em;
 }
 
-.unofficial-badge {
-  font-size: 0.7rem;
-  font-weight: 400;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 0.2rem 0.5rem;
-  border-radius: 12px;
-  margin-left: 0.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  opacity: 0.9;
+.brand-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.68);
   cursor: help;
+}
+
+.brand-tag {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 0.05rem 0.4rem;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.16);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .tooltip-container {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
 }
 
 .custom-tooltip {
@@ -279,44 +331,46 @@ body.dark-mode {
   border-bottom-color: rgba(255, 255, 255, 0.95);
 }
 
+/* 學期資訊、深色模式切換都不用膠囊底色包住，維持素色、輕量 */
 .semester-info {
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.9);
-  background: rgba(255, 255, 255, 0.15);
-  padding: 0.3rem 0.8rem;
-  border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.8rem;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.75);
   white-space: nowrap;
 }
 
 .navbar-controls {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
+}
+
+.navbar-divider {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.8rem;
 }
 
 .theme-toggle-btn {
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  border: none;
   color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
+  padding: 0.3rem 0.5rem;
+  line-height: 1;
+  border-radius: var(--radius-sm);
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background-color 0.15s ease;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font-size: 0.9rem;
-  backdrop-filter: blur(10px);
+  gap: 0.35rem;
+  font-size: 0.8rem;
 }
 
 .theme-toggle-btn:hover {
-  background: rgba(255, 255, 255, 0.3);
-  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.14);
 }
 
 .theme-icon {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 /* 黑暗模式全局樣式 */
@@ -345,11 +399,6 @@ body.dark-mode {
   background: #2d3748;
   border: 1px solid #4a5568;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
-
-.dark-mode .card-header {
-  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
-  border-bottom: 1px solid #4a5568;
 }
 
 /* 表單元素 */
@@ -434,11 +483,6 @@ body.dark-mode {
 
 /* 課表樣式 */
 .dark-mode .timetable-table {
-  border: 1px solid #4a5568;
-}
-
-.dark-mode .day-header {
-  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
   border: 1px solid #4a5568;
 }
 
@@ -529,22 +573,9 @@ body.dark-mode {
   border: 1px solid #4a5568;
 }
 
-/* 警示橫幅 */
-.dark-mode .warning-banner {
-  background: linear-gradient(135deg, #e53e3e 0%, #c53030 100%);
-  border-bottom: 1px solid #742a2a;
-}
-
 /* 支援文字 */
 .dark-mode .support-text {
   color: #cbd5e0;
-}
-
-/* 學分資訊 */
-.dark-mode .credit-info {
-  background: rgba(255, 255, 255, 0.15);
-  color: #f7fafc;
-  font-weight: 500;
 }
 
 /* 課程資訊文字 */
@@ -564,11 +595,11 @@ body.dark-mode {
   }
   
   .app-title {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
-  
+
   .top-navbar {
-    padding: 1rem;
+    padding: 0.6rem 1rem;
   }
   
   .footer-content {
