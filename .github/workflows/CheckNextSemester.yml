@@ -1,0 +1,56 @@
+name: Check Next Semester Availability
+
+# config.json 指定目前抓取哪個學年學期，過去是手動切換。這個排程改成自動偵測：
+# - 12 月 ~ 2 月：檢查「同學年、第 2 學期」是否已開放（通常約此時開放下學期選課資料）
+# - 6 月 ~ 8 月：檢查「下一學年、第 1 學期」是否已開放
+# 一偵測到新學期資料，立刻切換 config.json 並馬上跑一次完整爬取，
+# 不用等到 Clawer.yml 的下一次排程。
+on:
+  workflow_dispatch:
+  schedule:
+    # 台灣時間週二、五 18:00 = UTC 10:00
+    - cron: "0 10 * 12,1,2 2,5"  # 12 月～2 月
+    - cron: "0 10 * 6,7,8 2,5"   # 6 月～8 月
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+          cache: "pip"
+          cache-dependency-path: clawer/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r clawer/requirements.txt
+
+      - name: Check if next semester is published
+        id: check
+        run: python3 clawer/check_next_semester.py
+
+      - name: Crawl the newly published semester
+        if: steps.check.outputs.updated == 'true'
+        run: python3 clawer/main.py
+
+      - name: Commit changes
+        if: steps.check.outputs.updated == 'true'
+        continue-on-error: true
+        run: |
+          git config --global user.email "littlechintw@gmail.com"
+          git config --global user.name "littlechintw"
+          git add config.json clawer/
+          git commit -m "Switch to ${{ steps.check.outputs.next_year }} 學年第 ${{ steps.check.outputs.next_semester }} 學期 and crawl its data"
+
+      - name: Push changes
+        if: steps.check.outputs.updated == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

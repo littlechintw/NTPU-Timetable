@@ -62,6 +62,36 @@
       </div>
     </div>
 
+    <!-- 課程異動通知：已選課程被下架或改內容時提醒使用者 -->
+    <div v-if="changeNoticeVisible" class="modal-overlay" @click="changeNoticeVisible = false">
+      <div class="modal-dialog" @click.stop>
+        <div class="modal-header">
+          <h3>⚠️ 課程異動通知</h3>
+          <button class="modal-close" @click="changeNoticeVisible = false">×</button>
+        </div>
+
+        <div class="modal-body">
+          <p class="change-notice-intro">
+            課程資料更新後，你原本已選的以下 {{ courseChangeNotices.length }} 門課程有異動，已自動從課表移除，請重新搜尋確認後再加入：
+          </p>
+
+          <div v-for="notice in courseChangeNotices" :key="notice.courseID" class="change-notice-item">
+            <div class="change-notice-title">
+              <span class="chip" :class="notice.type === 'removed' ? 'chip-removed' : 'chip-changed'">
+                {{ notice.type === 'removed' ? '已停開／下架' : '內容異動' }}
+              </span>
+              <strong>{{ notice.courseID }} {{ notice.title }}</strong>
+            </div>
+            <div class="change-notice-diff">
+              <div class="change-notice-before">異動前：{{ notice.before }}</div>
+              <div v-if="notice.after" class="change-notice-after">異動後：{{ notice.after }}</div>
+              <div v-else class="change-notice-after">此課程已從課程資料中移除，可能是停開或課號變動</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- 警示文字 -->
     <div class="warning-banner">
       <div class="warning-content">
@@ -555,6 +585,10 @@ const googleSearchUrl = computed(() => {
   const query = `${d.title?.ch || ''} ${d.teacher?.join(' ') || ''} 課程`
   return `https://google.com/search?q=${encodeURIComponent(query)}`
 })
+
+// 課程異動通知：已選課程若在新抓取的資料中被移除或內容變動，會被移出課表並列在這裡告知使用者
+const changeNoticeVisible = ref(false)
+const courseChangeNotices = ref([])
 
 const daysData = ["時間", "日", "一", "二", "三", "四", "五", "六"]
 const bodyData = ref([])
@@ -1052,6 +1086,75 @@ const getCourseIDData = (ID) => {
   }
 }
 
+// 課程內容的簽章：用來判斷課程從上次選課到現在，學年期／時間／學分／時數／教師／名稱是否有變動。
+// 一定要比對學年期：課號在不同學期可能被重新編給完全不同的課程，光比對其他欄位可能剛好都相同而漏判。
+const courseSignature = (course) => JSON.stringify({
+  year: course.year,
+  semester: course.semester,
+  title: course.title?.ch,
+  teacher: course.teacher,
+  credit: course.credit,
+  hours: course.hours,
+  detail: (course.course_detail || []).map(d => d.original)
+})
+
+// 把課程摘要成一行文字，用於異動通知的「異動前 / 異動後」對照
+const summarizeCourseForNotice = (course) => {
+  if (!course) return '（查無資料）'
+  const teacher = Array.isArray(course.teacher) ? course.teacher.join('、') : course.teacher
+  const times = (course.course_detail || [])
+    .filter(isValidCourseDetail)
+    .map(d => d.original?.replace(/\t/g, ' '))
+    .join('；')
+  const semesterText = String(course.semester) === '1' ? '上學期' : String(course.semester) === '2' ? '下學期' : `第${course.semester}學期`
+  const term = course.year ? `${course.year} 學年 ${semesterText} | ` : ''
+  return `${term}${teacher || '教師未定'} | ${course.credit ?? '?'} 學分 / ${course.hours ?? '?'} 時數 | ${times || '時間未定'}`
+}
+
+// 比對已選課程與最新抓取的課程資料：課程被下架或內容變動時，從課表移除並記錄下來告知使用者
+const reconcileSelectedCourses = () => {
+  const stored = getCourseSelectStatus()
+  if (stored.length === 0) return
+
+  const notices = []
+  const kept = []
+
+  for (const oldCourse of stored) {
+    const fresh = courseIndexByID.value.get(oldCourse.courseID)
+
+    if (!fresh) {
+      notices.push({
+        courseID: oldCourse.courseID,
+        title: oldCourse.title?.ch || oldCourse.courseID,
+        type: 'removed',
+        before: summarizeCourseForNotice(oldCourse),
+        after: null
+      })
+      continue
+    }
+
+    if (courseSignature(oldCourse) !== courseSignature(fresh)) {
+      notices.push({
+        courseID: oldCourse.courseID,
+        title: fresh.title?.ch || oldCourse.title?.ch,
+        type: 'changed',
+        before: summarizeCourseForNotice(oldCourse),
+        after: summarizeCourseForNotice(fresh)
+      })
+      continue
+    }
+
+    kept.push(oldCourse)
+  }
+
+  if (notices.length === 0) return
+
+  kept.forEach((course, i) => { course.index = i })
+  localStorage.setItem("SelectCourse", JSON.stringify(kept))
+  courseChangeNotices.value = notices
+  changeNoticeVisible.value = true
+}
+
 // 顯示課程詳細資訊
 const showCourseDetail = (courseID) => {
   if (courseID === "0000" || courseID === "lunch-break") return
@@ -1079,6 +1182,9 @@ onMounted(async () => {
 
   // 載入課程資料
   await loadCourseData()
+
+  // 課程資料是定期重新抓取的，先確認已選課程沒有被下架或改時間，有的話會被移出並記錄下來
+  reconcileSelectedCourses()
 
   selectListMaker()
   initTable()
@@ -1295,6 +1401,78 @@ watch(isDarkMode, () => {
   background: #4a5568 !important;
   color: #e2e8f0 !important;
   border: 1px solid #666 !important;
+}
+
+/* 課程異動通知 */
+.change-notice-intro {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.change-notice-item {
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid #eee;
+  background: #fafafa;
+}
+
+.dark-mode .change-notice-item {
+  border: 1px solid #4a5568 !important;
+  background: #333c4d !important;
+}
+
+.change-notice-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.chip-removed {
+  background: #fdecea !important;
+  color: var(--danger-strong) !important;
+  border: 1px solid #f5b6ae;
+}
+
+.dark-mode .chip-removed {
+  background: #5d2a2a !important;
+  color: #ffcdd2 !important;
+}
+
+.chip-changed {
+  background: var(--warning-bg) !important;
+  color: var(--warning-text) !important;
+  border: 1px solid var(--warning-border);
+}
+
+.dark-mode .chip-changed {
+  background: #3a2f12 !important;
+  color: #f0d78c !important;
+}
+
+.change-notice-diff {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.dark-mode .change-notice-diff {
+  color: #cbd5e0 !important;
+}
+
+.change-notice-before {
+  text-decoration: line-through;
+  opacity: 0.75;
+}
+
+.change-notice-after {
+  color: var(--brand-2);
+  font-weight: 500;
+}
+
+.dark-mode .change-notice-after {
+  color: #c9c2f0 !important;
 }
 
 /* 主布局 */

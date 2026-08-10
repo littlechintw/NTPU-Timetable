@@ -49,9 +49,10 @@ src/
 └─ stores/               # Pinia store（目前僅範例，尚未使用）
 
 clawer/
-├─ main.py               # 課程資料爬蟲
-├─ all_course_list.json  # 目前學期的課程資料（由爬蟲產生）
-└─ *all_course_list.json # 歷史學期資料存檔
+├─ main.py                  # 課程資料爬蟲
+├─ check_next_semester.py   # 偵測下一學期是否已開放，自動切換 config.json
+├─ all_course_list.json     # 目前學期的課程資料（由爬蟲產生）
+└─ *all_course_list.json    # 歷史學期資料存檔
 
 config.json              # 目前顯示的學年、學期（爬蟲與前端共用）
 ```
@@ -65,7 +66,11 @@ pip install -r clawer/requirements.txt
 python3 clawer/main.py
 ```
 
-正式環境的資料更新由 [`.github/workflows/Clawer.yml`](.github/workflows/Clawer.yml) 排程執行並自動提交。
+正式環境的資料更新由 [`.github/workflows/Clawer.yml`](.github/workflows/Clawer.yml) 排程執行並自動提交（每週二、四、六）。
+
+`config.json` 的學年學期不用再手動切換：[`.github/workflows/CheckNextSemester.yml`](.github/workflows/CheckNextSemester.yml) 會在 12-2 月、6-8 月的週二、五自動探測下一學期是否已在北大課程查詢系統開放，一偵測到就更新 `config.json` 並立即跑一次爬蟲。
+
+已選課程如果因為學期切換（或課程被停開、改時間）而跟最新資料不一致，前端會自動把它從課表移除，並跳出通知列出異動前後的內容（見 [`reconcileSelectedCourses`](src/views/HomeView.vue)）。
 
 ## 問題回報
 
