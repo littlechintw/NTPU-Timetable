@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-08-11 01:22:23",
-    "end_time": "2026-08-11 01:22:59",
+    "start_time": "2026-08-13 01:41:43",
+    "end_time": "2026-08-13 01:42:14",
     "total_courses": 2123,
     "failed_weeks": [],
     "data": [
@@ -959,6 +959,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
                 },
                 {
@@ -978,9 +984,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -1136,6 +1150,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
                 },
                 {
@@ -1155,9 +1175,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -5859,8 +5887,8 @@
                         3,
                         4
                     ],
-                    "place": "電1F02",
-                    "original": "每週一3~4\t電1F02"
+                    "place": "公5F32",
+                    "original": "每週一3~4\t公5F32"
                 }
             ],
             "sign": "否",
@@ -6303,7 +6331,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "50"
+            "max_people": "70"
         },
         {
             "year": "115",
@@ -6943,9 +6971,13 @@
                 {
                     "courseTime": 1,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週一5~7"
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "社5F12",
+                    "original": "每週一5~7\t社5F12"
                 }
             ],
             "sign": "否",
@@ -7104,6 +7136,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "不動產估價師學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -7127,6 +7165,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -9113,6 +9152,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "不動產估價師學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -9136,6 +9181,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -9995,6 +10041,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "不動產估價師學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -10018,6 +10070,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -10900,7 +10953,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "70"
+            "max_people": "60"
         },
         {
             "year": "115",
@@ -11030,7 +11083,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "70"
+            "max_people": "60"
         },
         {
             "year": "115",
@@ -11118,7 +11171,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "112"
+            "max_people": "119"
         },
         {
             "year": "115",
@@ -11378,7 +11431,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "69"
+            "max_people": "80"
         },
         {
             "year": "115",
@@ -11596,7 +11649,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "59"
+            "max_people": "62"
         },
         {
             "year": "115",
@@ -11726,7 +11779,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "59"
+            "max_people": "62"
         },
         {
             "year": "115",
@@ -14934,7 +14987,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "46"
         },
         {
             "year": "115",
@@ -16493,6 +16546,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "領隊導遊人才培育學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "跨文化與國際移動學士微學程"
                 },
                 {
@@ -16503,6 +16562,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -17425,13 +17485,13 @@
                         7,
                         8
                     ],
-                    "place": "文7F01",
-                    "original": "每週一7~8\t文7F01"
+                    "place": "文3F02_L",
+                    "original": "每週一7~8\t文3F02_L"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "26"
         },
         {
             "year": "115",
@@ -20031,7 +20091,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "16"
+            "max_people": "24"
         },
         {
             "year": "115",
@@ -23142,7 +23202,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "35"
+            "max_people": "38"
         },
         {
             "year": "115",
@@ -23173,16 +23233,9 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "租稅行政救濟學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "不動產估價師學士學分學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -24122,9 +24175,9 @@
                     "original": "每週一2~4\t法2F01"
                 }
             ],
-            "sign": "是",
-            "sign_people": "4",
-            "max_people": "50"
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "68"
         },
         {
             "year": "115",
@@ -25200,7 +25253,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "23"
         },
         {
             "year": "115",
@@ -30114,6 +30167,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
                 },
                 {
@@ -30133,9 +30192,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -30206,6 +30273,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
                 },
                 {
@@ -30225,9 +30298,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -30304,6 +30385,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
                 },
                 {
@@ -30323,9 +30410,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -30624,8 +30719,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F27",
-                    "original": "每週二5~6\t法2F27"
+                    "place": "法2F15",
+                    "original": "每週二5~6\t法2F15"
                 }
             ],
             "sign": "否",
@@ -31350,8 +31445,8 @@
                         10,
                         11
                     ],
-                    "place": "202",
-                    "original": "每週二10~11\t202"
+                    "place": "407",
+                    "original": "每週二10~11\t407"
                 }
             ],
             "sign": "否",
@@ -33775,8 +33870,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F27",
-                    "original": "每週二5~6\t法2F27"
+                    "place": "法2F15",
+                    "original": "每週二5~6\t法2F15"
                 }
             ],
             "sign": "否",
@@ -35100,8 +35195,8 @@
                         3,
                         4
                     ],
-                    "place": "公1F27",
-                    "original": "每週二3~4\t公1F27"
+                    "place": "公5F32",
+                    "original": "每週二3~4\t公5F32"
                 }
             ],
             "sign": "否",
@@ -36219,14 +36314,28 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "ESP專業英文學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "全球經濟分析與領袖人才英語學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "ESP專業英文學士微學程"
                 }
             ],
             "compulsory": [
                 "選",
                 "必",
                 "選",
+                "必",
+                "必",
                 "必",
                 "必",
                 "必"
@@ -36410,14 +36519,28 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "ESP專業英文學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "N/A",
                     "original": "全球經濟分析與領袖人才英語學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "ESP專業英文學士微學程"
                 }
             ],
             "compulsory": [
                 "選",
                 "必",
                 "選",
+                "必",
+                "必",
                 "必",
                 "必",
                 "必"
@@ -37044,11 +37167,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "不動產估價師學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "經濟分析學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必"
@@ -39744,7 +39874,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "50"
+            "max_people": "66"
         },
         {
             "year": "115",
@@ -39860,7 +39990,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "50"
+            "max_people": "66"
         },
         {
             "year": "115",
@@ -39906,7 +40036,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "80"
+            "max_people": "85"
         },
         {
             "year": "115",
@@ -40117,7 +40247,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "68"
+            "max_people": "60"
         },
         {
             "year": "115",
@@ -40191,7 +40321,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "68"
+            "max_people": "60"
         },
         {
             "year": "115",
@@ -40227,7 +40357,7 @@
                 "ch": "風險管理與保險",
                 "en": "Risk Management and Insurance",
                 "limit": false,
-                "other": "原課程名稱為\"保險學\"，113學年度起改名為\"風險管理與保險\"。"
+                "other": "首次上課(9/8)無法到班者，請勿選課。原課程名稱為\"保險學\"，113學年度起改名為\"風險管理與保險\"。"
             },
             "teacher": [
                 "陳淑玲"
@@ -40251,7 +40381,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "72"
+            "max_people": "86"
         },
         {
             "year": "115",
@@ -40575,7 +40705,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "50"
+            "max_people": "66"
         },
         {
             "year": "115",
@@ -40962,7 +41092,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "50"
+            "max_people": "66"
         },
         {
             "year": "115",
@@ -41417,7 +41547,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "50"
+            "max_people": "66"
         },
         {
             "year": "115",
@@ -41540,7 +41670,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "50"
+            "max_people": "66"
         },
         {
             "year": "115",
@@ -41670,7 +41800,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "105"
         },
         {
             "year": "115",
@@ -41867,7 +41997,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "105"
         },
         {
             "year": "115",
@@ -42397,12 +42527,6 @@
                     "original": "嵌入式系統學分學程"
                 },
                 {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "晶片系統學士學分學程"
-                },
-                {
                     "grade": "3",
                     "class": "",
                     "category": "資工系",
@@ -42428,7 +42552,6 @@
                 }
             ],
             "compulsory": [
-                "必",
                 "必",
                 "必",
                 "必",
@@ -42957,8 +43080,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F16",
-                    "original": "每週二7~8\t法2F16"
+                    "place": "法2F03",
+                    "original": "每週二7~8\t法2F03"
                 },
                 {
                     "courseTime": 3,
@@ -42967,8 +43090,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F16",
-                    "original": "每週三3~4\t法2F16"
+                    "place": "法2F03",
+                    "original": "每週三3~4\t法2F03"
                 }
             ],
             "sign": "否",
@@ -43202,8 +43325,8 @@
                         12,
                         13
                     ],
-                    "place": "304",
-                    "original": "每週二12~13\t304"
+                    "place": "202",
+                    "original": "每週二12~13\t202"
                 },
                 {
                     "courseTime": 5,
@@ -43212,8 +43335,8 @@
                         10,
                         11
                     ],
-                    "place": "304",
-                    "original": "每週五10~11\t304"
+                    "place": "202",
+                    "original": "每週五10~11\t202"
                 },
                 {
                     "courseTime": 2,
@@ -43222,8 +43345,8 @@
                         10,
                         11
                     ],
-                    "place": "304",
-                    "original": "實習每週二10~11\t304"
+                    "place": "202",
+                    "original": "實習每週二10~11\t202"
                 }
             ],
             "sign": "否",
@@ -43737,8 +43860,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F16",
-                    "original": "每週二7~8\t法2F16"
+                    "place": "法2F03",
+                    "original": "每週二7~8\t法2F03"
                 },
                 {
                     "courseTime": 3,
@@ -43747,8 +43870,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F16",
-                    "original": "每週三3~4\t法2F16"
+                    "place": "法2F03",
+                    "original": "每週三3~4\t法2F03"
                 }
             ],
             "sign": "否",
@@ -45678,7 +45801,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "45"
         },
         {
             "year": "115",
@@ -45863,8 +45986,8 @@
                         10,
                         11
                     ],
-                    "place": "501",
-                    "original": "每週二10~11\t501"
+                    "place": "310",
+                    "original": "每週二10~11\t310"
                 }
             ],
             "sign": "否",
@@ -49127,12 +49250,6 @@
             "department": "電機碩",
             "department_level": [
                 {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "晶片系統學士學分學程"
-                },
-                {
                     "grade": "1",
                     "class": "",
                     "category": "電資博",
@@ -49158,7 +49275,6 @@
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -50059,7 +50175,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "15"
         },
         {
             "year": "115",
@@ -53425,8 +53541,8 @@
                         11,
                         12
                     ],
-                    "place": "103",
-                    "original": "每週二10~12\t103"
+                    "place": "302",
+                    "original": "每週二10~12\t302"
                 }
             ],
             "sign": "否",
@@ -53471,8 +53587,8 @@
                         11,
                         12
                     ],
-                    "place": "407",
-                    "original": "每週二10~12\t407"
+                    "place": "501",
+                    "original": "每週二10~12\t501"
                 }
             ],
             "sign": "是",
@@ -54751,6 +54867,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "不動產估價師學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -54802,6 +54924,7 @@
                 "選",
                 "選",
                 "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -54826,8 +54949,8 @@
                         6,
                         7
                     ],
-                    "place": "法2F03",
-                    "original": "每週二5~7\t法2F03"
+                    "place": "法2F27",
+                    "original": "每週二5~7\t法2F27"
                 }
             ],
             "sign": "否",
@@ -55438,7 +55561,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "50"
         },
         {
             "year": "115",
@@ -56710,12 +56833,6 @@
             "department": "電機系",
             "department_level": [
                 {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "晶片系統學士學分學程"
-                },
-                {
                     "grade": "4",
                     "class": "",
                     "category": "電機系",
@@ -56723,7 +56840,6 @@
                 }
             ],
             "compulsory": [
-                "選",
                 "選"
             ],
             "title": {
@@ -61070,6 +61186,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
                 },
                 {
@@ -61089,9 +61211,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -61522,6 +61652,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
                 },
                 {
@@ -61541,9 +61677,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -61595,6 +61739,12 @@
                     "original": "職涯探索及創新創業學程"
                 },
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "企軍碩職",
@@ -61611,9 +61761,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "職涯探索及創新創業微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -61737,6 +61895,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
                 },
                 {
@@ -61761,10 +61925,18 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "永續金融學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -61802,7 +61974,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "70"
+            "max_people": "73"
         },
         {
             "year": "115",
@@ -62145,8 +62317,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F03",
-                    "original": "每週三3~4\t法2F03"
+                    "place": "法2F16",
+                    "original": "每週三3~4\t法2F16"
                 }
             ],
             "sign": "否",
@@ -62225,8 +62397,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F28",
-                    "original": "每週三3~4\t法2F28"
+                    "place": "法2F01",
+                    "original": "每週三3~4\t法2F01"
                 }
             ],
             "sign": "否",
@@ -62447,8 +62619,8 @@
                         12,
                         13
                     ],
-                    "place": "512",
-                    "original": "每週三12~13\t512"
+                    "place": "501",
+                    "original": "每週三12~13\t501"
                 }
             ],
             "sign": "否",
@@ -63224,13 +63396,13 @@
                         3,
                         4
                     ],
-                    "place": "法2F03",
-                    "original": "每週三3~4\t法2F03"
+                    "place": "法2F16",
+                    "original": "每週三3~4\t法2F16"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "106"
         },
         {
             "year": "115",
@@ -63296,7 +63468,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "56"
+            "max_people": "73"
         },
         {
             "year": "115",
@@ -63502,13 +63674,13 @@
                         3,
                         4
                     ],
-                    "place": "法2F28",
-                    "original": "每週三3~4\t法2F28"
+                    "place": "法2F01",
+                    "original": "每週三3~4\t法2F01"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "106"
         },
         {
             "year": "115",
@@ -65512,7 +65684,7 @@
             ],
             "sign": "是",
             "sign_people": "9",
-            "max_people": "48"
+            "max_people": "49"
         },
         {
             "year": "115",
@@ -68629,8 +68801,8 @@
                         6,
                         7
                     ],
-                    "place": "電1F01",
-                    "original": "每週三5~7\t電1F01"
+                    "place": "公5F32",
+                    "original": "每週三5~7\t公5F32"
                 }
             ],
             "sign": "否",
@@ -68815,7 +68987,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "25"
+            "max_people": "22"
         },
         {
             "year": "115",
@@ -68882,7 +69054,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "25"
+            "max_people": "22"
         },
         {
             "year": "115",
@@ -69012,7 +69184,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "25"
+            "max_people": "22"
         },
         {
             "year": "115",
@@ -69079,7 +69251,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "25"
+            "max_people": "22"
         },
         {
             "year": "115",
@@ -69147,7 +69319,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "25"
+            "max_people": "22"
         },
         {
             "year": "115",
@@ -69425,8 +69597,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F16",
-                    "original": "每週二7~8\t法2F16"
+                    "place": "法2F03",
+                    "original": "每週二7~8\t法2F03"
                 },
                 {
                     "courseTime": 3,
@@ -69435,8 +69607,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F16",
-                    "original": "每週三3~4\t法2F16"
+                    "place": "法2F03",
+                    "original": "每週三3~4\t法2F03"
                 }
             ],
             "sign": "否",
@@ -70235,8 +70407,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F16",
-                    "original": "每週二7~8\t法2F16"
+                    "place": "法2F03",
+                    "original": "每週二7~8\t法2F03"
                 },
                 {
                     "courseTime": 3,
@@ -70245,8 +70417,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F16",
-                    "original": "每週三3~4\t法2F16"
+                    "place": "法2F03",
+                    "original": "每週三3~4\t法2F03"
                 }
             ],
             "sign": "否",
@@ -71612,9 +71784,12 @@
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週三3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "社5F12",
+                    "original": "每週三3~4\t社5F12"
                 }
             ],
             "sign": "否",
@@ -71975,8 +72150,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F02",
-                    "original": "每週三7~8\t法2F02"
+                    "place": "法1F19",
+                    "original": "每週三7~8\t法1F19"
                 }
             ],
             "sign": "否",
@@ -73268,8 +73443,8 @@
                         12,
                         13
                     ],
-                    "place": "307",
-                    "original": "每週三12~13\t307"
+                    "place": "211",
+                    "original": "每週三12~13\t211"
                 }
             ],
             "sign": "是",
@@ -74065,13 +74240,13 @@
                         7,
                         8
                     ],
-                    "place": "法2F02",
-                    "original": "每週三7~8\t法2F02"
+                    "place": "法1F19",
+                    "original": "每週三7~8\t法1F19"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "82"
+            "sign": "是",
+            "sign_people": "16",
+            "max_people": "109"
         },
         {
             "year": "115",
@@ -74110,13 +74285,13 @@
                         3,
                         4
                     ],
-                    "place": "公1F12",
-                    "original": "每週三3~4\t公1F12"
+                    "place": "公1F03",
+                    "original": "每週三3~4\t公1F03"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "54"
         },
         {
             "year": "115",
@@ -74356,7 +74531,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "43"
+            "max_people": "78"
         },
         {
             "year": "115",
@@ -74421,9 +74596,16 @@
                     "class": "B",
                     "category": "不動產城鄉系",
                     "original": "不動產城鄉系2B"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "不動產估價師學士學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選"
             ],
             "title": {
@@ -76106,16 +76288,9 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "全球經濟分析與領袖人才英語學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "學術英文專業學術英文學士微學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選"
             ],
@@ -76773,16 +76948,9 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "全球經濟分析與領袖人才英語學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "學術英文專業學術英文學士微學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選"
             ],
@@ -79411,9 +79579,23 @@
                     "class": "",
                     "category": "都碩",
                     "original": "都碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -80144,8 +80326,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F01",
-                    "original": "每週三2~4\t法2F01"
+                    "place": "法2F28",
+                    "original": "每週三2~4\t法2F28"
                 }
             ],
             "sign": "否",
@@ -80366,11 +80548,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "N/A",
+                    "original": "家事法與社會工作學士學分"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "社會關懷學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -83542,12 +83731,6 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
-                    "original": "晶片系統學士學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
                     "original": "數位多媒體學士學分學程"
                 },
                 {
@@ -83582,7 +83765,6 @@
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -84030,8 +84212,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F01",
-                    "original": "每週三2~4\t法2F01"
+                    "place": "法2F28",
+                    "original": "每週三2~4\t法2F28"
                 }
             ],
             "sign": "否",
@@ -84962,8 +85144,8 @@
                         12,
                         13
                     ],
-                    "place": "307",
-                    "original": "每週三12~13\t307"
+                    "place": "211",
+                    "original": "每週三12~13\t211"
                 }
             ],
             "sign": "是",
@@ -87231,6 +87413,12 @@
                     "original": "法律暨企業社會責任學士學分學程"
                 },
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "企軍經管碩職",
@@ -87247,9 +87435,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "法律暨企業社會責任學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -87601,7 +87797,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "117"
+            "max_people": "100"
         },
         {
             "year": "115",
@@ -88392,7 +88588,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "25"
+            "max_people": "37"
         },
         {
             "year": "115",
@@ -89641,11 +89837,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "不動產估價師學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "智慧財產權學士微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -90752,7 +90955,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "11"
+            "max_people": "12"
         },
         {
             "year": "115",
@@ -90797,7 +91000,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "11"
+            "max_people": "12"
         },
         {
             "year": "115",
@@ -90894,7 +91097,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "11"
+            "max_people": "12"
         },
         {
             "year": "115",
@@ -91026,7 +91229,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "11"
+            "max_people": "12"
         },
         {
             "year": "115",
@@ -91614,7 +91817,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "70"
         },
         {
             "year": "115",
@@ -92878,15 +93081,17 @@
                         12,
                         13
                     ],
-                    "place": "506",
-                    "original": "每週四11~13\t506"
+                    "place": "306",
+                    "original": "每週四11~13\t306"
                 },
                 {
                     "courseTime": 6,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "實習每週六9~9"
+                    "sessions": [
+                        9
+                    ],
+                    "place": "306",
+                    "original": "實習每週六9~9\t306"
                 },
                 {
                     "courseTime": 4,
@@ -92894,8 +93099,8 @@
                     "sessions": [
                         10
                     ],
-                    "place": "506",
-                    "original": "實習每週四10~10\t506"
+                    "place": "306",
+                    "original": "實習每週四10~10\t306"
                 }
             ],
             "sign": "否",
@@ -94610,6 +94815,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "不動產估價師學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -94628,6 +94839,7 @@
             ],
             "compulsory": [
                 "基",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -94857,6 +95069,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "不動產估價師學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -94880,6 +95098,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -95532,6 +95751,12 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "不動產估價師學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "消費者保護與消費行為學士微學程"
                 },
@@ -95555,6 +95780,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -96870,7 +97096,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "61"
         },
         {
             "year": "115",
@@ -97085,7 +97311,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "61"
         },
         {
             "year": "115",
@@ -97857,7 +98083,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "58"
+            "max_people": "55"
         },
         {
             "year": "115",
@@ -98377,7 +98603,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "58"
+            "max_people": "55"
         },
         {
             "year": "115",
@@ -98490,7 +98716,7 @@
             ],
             "sign": "是",
             "sign_people": "16",
-            "max_people": "80"
+            "max_people": "68"
         },
         {
             "year": "115",
@@ -99600,9 +99826,12 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四5~6"
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "社5F12",
+                    "original": "每週四5~6\t社5F12"
                 }
             ],
             "sign": "否",
@@ -102038,8 +102267,8 @@
                         12,
                         13
                     ],
-                    "place": "407",
-                    "original": "每週四12~13\t407"
+                    "place": "405",
+                    "original": "每週四12~13\t405"
                 }
             ],
             "sign": "否",
@@ -102156,8 +102385,8 @@
                         12,
                         13
                     ],
-                    "place": "512",
-                    "original": "每週四12~13\t512"
+                    "place": "501",
+                    "original": "每週四12~13\t501"
                 }
             ],
             "sign": "是",
@@ -103234,16 +103463,9 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "文化與觀光學士微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "領隊導遊人才培育學士微學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選",
                 "選",
                 "選",
@@ -103790,13 +104012,13 @@
                         7,
                         8
                     ],
-                    "place": "公2F36",
-                    "original": "每週四7~8\t公2F36"
+                    "place": "公5F32",
+                    "original": "每週四7~8\t公5F32"
                 }
             ],
             "sign": "是",
             "sign_people": "12",
-            "max_people": "64"
+            "max_people": "75"
         },
         {
             "year": "115",
@@ -104514,8 +104736,8 @@
                         5,
                         6
                     ],
-                    "place": "公1F27",
-                    "original": "每週四5~6\t公1F27"
+                    "place": "公5F32",
+                    "original": "每週四5~6\t公5F32"
                 }
             ],
             "sign": "否",
@@ -105472,7 +105694,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "108"
+            "max_people": "113"
         },
         {
             "year": "115",
@@ -105603,16 +105825,9 @@
                     "class": "",
                     "category": "共同科",
                     "original": "共同科4"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "學術英文專業學術英文學士微學程"
                 }
             ],
             "compulsory": [
-                "選",
                 "選"
             ],
             "title": {
@@ -105874,32 +106089,8 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
-                    "category": "學分學程",
-                    "original": "ESP專業英文學士學分學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
                     "category": "N/A",
                     "original": "全球經濟分析與領袖人才英語學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "ESP專業英文學士微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "商務溝通學士微學程"
-                },
-                {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "微學程",
-                    "original": "學術英文專業學術英文學士微學程"
                 },
                 {
                     "grade": "N/A",
@@ -105909,10 +106100,6 @@
                 }
             ],
             "compulsory": [
-                "選",
-                "選",
-                "選",
-                "選",
                 "選",
                 "選",
                 "選"
@@ -109503,9 +109690,13 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四2~4"
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "社5F12",
+                    "original": "每週四2~4\t社5F12"
                 }
             ],
             "sign": "否",
@@ -111301,7 +111492,7 @@
             ],
             "sign": "是",
             "sign_people": "2",
-            "max_people": "14"
+            "max_people": "23"
         },
         {
             "year": "115",
@@ -112869,7 +113060,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "21"
+            "max_people": "18"
         },
         {
             "year": "115",
@@ -113829,7 +114020,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "55"
+            "max_people": "60"
         },
         {
             "year": "115",
@@ -114541,7 +114732,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "15"
         },
         {
             "year": "115",
@@ -114722,7 +114913,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "35"
+            "max_people": "20"
         },
         {
             "year": "115",
@@ -117553,6 +117744,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
                 },
                 {
@@ -117572,9 +117769,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -117676,6 +117881,12 @@
                     "original": "法律暨企業社會責任學士學分學程"
                 },
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "企碩職",
@@ -117692,9 +117903,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "法律暨企業社會責任學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -117782,6 +118001,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "氣候變遷與淨零策略學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "環境、社會與企業治理學分學程"
                 },
                 {
@@ -117801,9 +118026,17 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "環境、社會與企業治理學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "氣候變遷與淨零策略微學程"
                 }
             ],
             "compulsory": [
+                "必",
+                "必",
                 "必",
                 "必",
                 "必",
@@ -118655,8 +118888,8 @@
                         12,
                         13
                     ],
-                    "place": "304",
-                    "original": "每週五12~13\t304"
+                    "place": "511",
+                    "original": "每週五12~13\t511"
                 }
             ],
             "sign": "否",
@@ -121769,7 +122002,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "111"
+            "max_people": "113"
         },
         {
             "year": "115",
@@ -122420,9 +122653,13 @@
                 {
                     "courseTime": 5,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週五2~4"
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "社5F12",
+                    "original": "每週五2~4\t社5F12"
                 }
             ],
             "sign": "否",
@@ -122642,9 +122879,13 @@
                 {
                     "courseTime": 5,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週五5~7"
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "社5F12",
+                    "original": "每週五5~7\t社5F12"
                 }
             ],
             "sign": "否",
@@ -123070,9 +123311,16 @@
                     "class": "",
                     "category": "(進修)經濟",
                     "original": "(進修)經濟2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "不動產估價師學士學分學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必"
             ],
             "title": {
@@ -125051,8 +125299,8 @@
                         12,
                         13
                     ],
-                    "place": "304",
-                    "original": "每週二12~13\t304"
+                    "place": "202",
+                    "original": "每週二12~13\t202"
                 },
                 {
                     "courseTime": 5,
@@ -125061,8 +125309,8 @@
                         10,
                         11
                     ],
-                    "place": "304",
-                    "original": "每週五10~11\t304"
+                    "place": "202",
+                    "original": "每週五10~11\t202"
                 },
                 {
                     "courseTime": 2,
@@ -125071,8 +125319,8 @@
                         10,
                         11
                     ],
-                    "place": "304",
-                    "original": "實習每週二10~11\t304"
+                    "place": "202",
+                    "original": "實習每週二10~11\t202"
                 }
             ],
             "sign": "否",
@@ -125740,8 +125988,8 @@
                     "original": "每週五5~6\t法2F17"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "4",
             "max_people": "20"
         },
         {
@@ -126460,8 +126708,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F19",
-                    "original": "每週五3~4\t法2F19"
+                    "place": "法2F27",
+                    "original": "每週五3~4\t法2F27"
                 }
             ],
             "sign": "否",
@@ -126894,9 +127142,12 @@
                 {
                     "courseTime": 5,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週五3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "社5F38",
+                    "original": "每週五3~4\t社5F38"
                 }
             ],
             "sign": "否",
@@ -127179,7 +127430,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "60"
         },
         {
             "year": "115",
@@ -130551,13 +130802,13 @@
                         3,
                         4
                     ],
-                    "place": "法2F19",
-                    "original": "每週五3~4\t法2F19"
+                    "place": "法2F27",
+                    "original": "每週五3~4\t法2F27"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "34"
+            "sign": "是",
+            "sign_people": "6",
+            "max_people": "52"
         },
         {
             "year": "115",
@@ -133118,8 +133369,8 @@
                         11,
                         12
                     ],
-                    "place": "202",
-                    "original": "每週五10~12\t202"
+                    "place": "512",
+                    "original": "每週五10~12\t512"
                 }
             ],
             "sign": "否",
@@ -133373,8 +133624,8 @@
                         11,
                         12
                     ],
-                    "place": "512",
-                    "original": "每週五10~12\t512"
+                    "place": "304",
+                    "original": "每週五10~12\t304"
                 }
             ],
             "sign": "否",
@@ -135380,7 +135631,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "20"
         },
         {
             "year": "115",
@@ -139286,15 +139537,17 @@
                         12,
                         13
                     ],
-                    "place": "506",
-                    "original": "每週四11~13\t506"
+                    "place": "306",
+                    "original": "每週四11~13\t306"
                 },
                 {
                     "courseTime": 6,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "實習每週六9~9"
+                    "sessions": [
+                        9
+                    ],
+                    "place": "306",
+                    "original": "實習每週六9~9\t306"
                 },
                 {
                     "courseTime": 4,
@@ -139302,8 +139555,8 @@
                     "sessions": [
                         10
                     ],
-                    "place": "506",
-                    "original": "實習每週四10~10\t506"
+                    "place": "306",
+                    "original": "實習每週四10~10\t306"
                 }
             ],
             "sign": "否",
@@ -139570,8 +139823,8 @@
                         4,
                         5
                     ],
-                    "place": "307",
-                    "original": "每週六3~5\t307"
+                    "place": "314",
+                    "original": "每週六3~5\t314"
                 },
                 {
                     "courseTime": 6,
@@ -139581,8 +139834,8 @@
                         7,
                         8
                     ],
-                    "place": "307",
-                    "original": "實習每週六6~8\t307"
+                    "place": "314",
+                    "original": "實習每週六6~8\t314"
                 }
             ],
             "sign": "是",
@@ -139683,8 +139936,8 @@
                         3,
                         4
                     ],
-                    "place": "311",
-                    "original": "每週六2~4\t311"
+                    "place": "406",
+                    "original": "每週六2~4\t406"
                 }
             ],
             "sign": "否",
@@ -140162,12 +140415,6 @@
             "department": "財碩職",
             "department_level": [
                 {
-                    "grade": "N/A",
-                    "class": "N/A",
-                    "category": "學分學程",
-                    "original": "國際外交學士學分學程"
-                },
-                {
                     "grade": "2",
                     "class": "",
                     "category": "財碩職",
@@ -140175,7 +140422,6 @@
                 }
             ],
             "compulsory": [
-                "必",
                 "必"
             ],
             "title": {
@@ -140937,8 +141183,8 @@
                         6,
                         7
                     ],
-                    "place": "315",
-                    "original": "每週六6~7\t315"
+                    "place": "309",
+                    "original": "每週六6~7\t309"
                 }
             ],
             "sign": "否",
@@ -141253,8 +141499,8 @@
                         1,
                         2
                     ],
-                    "place": "202",
-                    "original": "每週六1~2\t202"
+                    "place": "403",
+                    "original": "每週六1~2\t403"
                 }
             ],
             "sign": "是",
@@ -141582,8 +141828,8 @@
                         3,
                         4
                     ],
-                    "place": "202",
-                    "original": "每週六3~4\t202"
+                    "place": "403",
+                    "original": "每週六3~4\t403"
                 }
             ],
             "sign": "是",
@@ -144249,11 +144495,18 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "微學程",
+                    "original": "商務溝通學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "通識",
                     "original": "105-向度四"
                 }
             ],
             "compulsory": [
+                "通",
                 "通",
                 "通",
                 "通"
@@ -146326,6 +146579,7 @@
         "多媒體與網路科技產碩專班2",
         "學術英文專業學術英文學士微學程",
         "家事法與社會工作學分學程",
+        "家事法與社會工作學士學分",
         "嵌入式系統學分學程",
         "師培中心4",
         "性別學士微學程",
