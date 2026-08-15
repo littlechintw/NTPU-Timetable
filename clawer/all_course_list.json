@@ -1,7 +1,7 @@
 {
-    "start_time": "2026-08-13 01:41:43",
-    "end_time": "2026-08-13 01:42:14",
-    "total_courses": 2123,
+    "start_time": "2026-08-15 01:01:05",
+    "end_time": "2026-08-15 01:01:32",
+    "total_courses": 2124,
     "failed_weeks": [],
     "data": [
         {
@@ -1016,7 +1016,7 @@
             "category": "半",
             "credit": "1",
             "hours": "1",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -1105,7 +1105,7 @@
             "category": "半",
             "credit": "1",
             "hours": "1",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -1206,7 +1206,7 @@
             "category": "半",
             "credit": "1",
             "hours": "1",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -1303,7 +1303,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -1661,7 +1661,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -1831,7 +1831,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -3046,7 +3046,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -3313,7 +3313,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -3490,7 +3490,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -3622,7 +3622,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -3754,7 +3754,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -3980,7 +3980,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -4067,7 +4067,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -4154,7 +4154,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -4241,7 +4241,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -4328,7 +4328,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -4544,7 +4544,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -4773,7 +4773,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -4891,7 +4891,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -5040,7 +5040,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -5085,7 +5085,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -5224,7 +5224,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -6810,7 +6810,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -6856,7 +6856,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -8919,7 +8919,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -9408,7 +9408,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -10238,6 +10238,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "智慧運算系統英語授課學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "通訊學士微學程"
                 },
                 {
@@ -10248,6 +10254,7 @@
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -10434,7 +10441,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -10937,7 +10944,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -11763,7 +11770,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -12020,7 +12027,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -12294,7 +12301,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -14981,8 +14988,8 @@
                         12,
                         13
                     ],
-                    "place": "207",
-                    "original": "每週一12~13\t207"
+                    "place": "407",
+                    "original": "每週一12~13\t407"
                 }
             ],
             "sign": "否",
@@ -15493,7 +15500,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -15688,7 +15695,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -16489,7 +16496,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -16583,7 +16590,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -16788,7 +16795,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -17139,7 +17146,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -17351,7 +17358,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -17580,7 +17587,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -18070,7 +18077,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -18129,7 +18136,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -18223,7 +18230,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -18355,7 +18362,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -18466,7 +18473,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -18734,7 +18741,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -19542,7 +19549,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -19722,7 +19729,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -19888,7 +19895,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -20075,7 +20082,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -20198,7 +20205,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -20649,7 +20656,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -21082,7 +21089,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -21437,9 +21444,23 @@
                     "class": "N/A",
                     "category": "N/A",
                     "original": "電子商務碩士學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選"
@@ -23037,7 +23058,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -23656,7 +23677,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -23808,7 +23829,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -23967,7 +23988,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -24754,7 +24775,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -25036,7 +25057,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -25156,7 +25177,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -25237,7 +25258,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -25297,7 +25318,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -25403,7 +25424,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -27503,7 +27524,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -30331,7 +30352,7 @@
             "category": "半",
             "credit": "1",
             "hours": "1",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -30545,7 +30566,7 @@
             "category": "半",
             "credit": "1",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -30599,7 +30620,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -31089,7 +31110,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -33319,7 +33340,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -35454,7 +35475,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -35572,7 +35593,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -35681,7 +35702,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -35962,7 +35983,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -36022,7 +36043,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -36352,7 +36373,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -36557,7 +36578,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -38181,7 +38202,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -38363,7 +38384,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -38728,7 +38749,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -39145,7 +39166,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -40164,7 +40185,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -40305,7 +40326,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -40365,7 +40386,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -40460,7 +40481,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -40506,7 +40527,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -40784,7 +40805,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -41654,7 +41675,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -41851,7 +41872,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -42143,7 +42164,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -42490,7 +42511,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -42740,7 +42761,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -46446,7 +46467,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -47058,7 +47079,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -47361,7 +47382,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -48282,7 +48303,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -48608,7 +48629,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -48754,7 +48775,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -48976,7 +48997,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -49160,7 +49181,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -49292,7 +49313,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -49553,7 +49574,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -49843,7 +49864,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -50159,7 +50180,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -50280,9 +50301,16 @@
                     "class": "",
                     "category": "電機碩",
                     "original": "電機碩2"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "智慧運算系統英語授課學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -50300,7 +50328,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -50374,7 +50402,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -50582,7 +50610,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -51131,7 +51159,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -51231,7 +51259,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -51291,7 +51319,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -51372,7 +51400,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -51530,7 +51558,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -51625,7 +51653,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -51671,7 +51699,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -51798,7 +51826,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -51904,7 +51932,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -52102,7 +52130,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -52162,7 +52190,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -52331,6 +52359,59 @@
         {
             "year": "115",
             "semester": "1",
+            "courseID": "M5318",
+            "department": "AI聯盟碩士班",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "AI聯盟碩士班",
+                    "original": "AI聯盟碩士班1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "人工智慧自然語言技術學分學程"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "生成式AI：文字與圖像生成的原理與實務",
+                "en": "Generative AI: Text and Image Synthesis Principles and Practice",
+                "limit": false,
+                "other": "衛星課程(本校協同教師：林茂廷)。主導：政大/蔡炎龍老師/每週二16:00-19:00。課程網頁:Facebook【政大應數系直播中心】https://facebook.com/groups/nccumathonline/\n課程YouTube錄影存留網: (包括1132課程錄影)【Iveai–I’ve AI】\nhttps://www.youtube.com/@ive-iveaihttps://facebook.com/groups/nccumathonline/  \n"
+            },
+            "teacher": [
+                "林茂廷"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        8,
+                        9,
+                        10
+                    ],
+                    "place": "資1F-08",
+                    "original": "每週二8~10\t資1F-08"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "0"
+        },
+        {
+            "year": "115",
+            "semester": "1",
             "courseID": "M5319",
             "department": "AI聯盟碩士班",
             "department_level": [
@@ -52370,7 +52451,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -52935,7 +53016,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -53224,7 +53305,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -53623,7 +53704,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -54348,7 +54429,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -54577,7 +54658,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -55007,7 +55088,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -55289,7 +55370,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -55545,7 +55626,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -55774,7 +55855,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -56310,7 +56391,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -56363,7 +56444,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -56476,7 +56557,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -56522,7 +56603,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -56642,7 +56723,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -56755,7 +56836,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -56854,7 +56935,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -56924,6 +57005,12 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "人工智慧學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "資料拓析學士學分微學程"
                 },
                 {
@@ -56940,6 +57027,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -57090,9 +57178,16 @@
                     "class": "",
                     "category": "電機系",
                     "original": "電機系4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "智慧運算系統英語授課學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -57108,7 +57203,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -58817,14 +58912,17 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週二3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "公1F11",
+                    "original": "每週二3~4\t公1F11"
                 }
             ],
             "sign": "否",
@@ -60011,7 +60109,7 @@
             "category": "半",
             "credit": "0",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -62121,7 +62219,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -62173,7 +62271,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -62226,7 +62324,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -64044,7 +64142,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -67877,7 +67975,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -68548,7 +68646,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -68837,7 +68935,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -70942,7 +71040,7 @@
             "category": "全",
             "credit": "4",
             "hours": "4",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -71007,7 +71105,7 @@
             "category": "半",
             "credit": "1",
             "hours": "1",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -71706,7 +71804,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -72263,7 +72361,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -75330,9 +75428,12 @@
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週三3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文1F09",
+                    "original": "每週三3~4\t文1F09"
                 }
             ],
             "sign": "否",
@@ -76209,7 +76310,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -76254,7 +76355,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -76306,7 +76407,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -76459,7 +76560,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -76608,7 +76709,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -76751,7 +76852,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -76966,7 +77067,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -77053,7 +77154,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -77251,7 +77352,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -77369,7 +77470,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -77605,7 +77706,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -78035,7 +78136,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -78122,7 +78223,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -78339,7 +78440,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -78448,7 +78549,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -78508,7 +78609,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -78763,7 +78864,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -79437,7 +79538,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -79532,7 +79633,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -79828,7 +79929,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -80016,7 +80117,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -80175,7 +80276,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -81308,7 +81409,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -81740,7 +81841,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -82003,7 +82104,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -83292,7 +83393,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -83341,7 +83442,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -83524,7 +83625,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -83944,7 +84045,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -84121,7 +84222,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -84576,7 +84677,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -84648,7 +84749,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -85802,7 +85903,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -87167,7 +87268,7 @@
             "category": "半",
             "credit": "0",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -87782,7 +87883,7 @@
             "category": "半",
             "credit": "1",
             "hours": "1",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -88396,7 +88497,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -88441,7 +88542,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -90895,7 +90996,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -92022,7 +92123,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -92089,7 +92190,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -92156,7 +92257,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -92381,7 +92482,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -92494,7 +92595,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -94868,7 +94969,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -95550,7 +95651,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -95694,7 +95795,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -96028,7 +96129,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -97080,7 +97181,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -97341,7 +97442,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -97863,7 +97964,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -98299,7 +98400,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -99347,7 +99448,7 @@
             "category": "全",
             "credit": "4",
             "hours": "4",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -101125,7 +101226,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -104668,7 +104769,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -105391,7 +105492,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -105842,7 +105943,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -106116,7 +106217,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -106196,7 +106297,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -106743,7 +106844,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -106795,10 +106896,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "智慧運算系統英語授課學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "人工智慧英語授課學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -106817,7 +106925,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -107000,7 +107108,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -107531,7 +107639,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -107606,7 +107714,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -107803,7 +107911,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -107937,7 +108045,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -108258,7 +108366,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -108604,7 +108712,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -108664,7 +108772,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -109147,7 +109255,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -109819,7 +109927,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -109865,7 +109973,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -110463,7 +110571,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -112540,7 +112648,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -112614,7 +112722,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -112702,7 +112810,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -112949,13 +113057,27 @@
             "department": "資工系",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
                     "grade": "3",
                     "class": "",
                     "category": "資工系",
                     "original": "資工系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -113364,7 +113486,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -113684,7 +113806,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -114064,7 +114186,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -114159,7 +114281,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -114384,7 +114506,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -114579,10 +114701,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "智慧運算系統英語授課學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "人工智慧英語授課學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -114599,7 +114728,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -114716,7 +114845,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -115665,7 +115794,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -115933,7 +116062,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -116518,7 +116647,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -118061,7 +118190,7 @@
             "category": "半",
             "credit": "1",
             "hours": "1",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -118121,7 +118250,7 @@
             "category": "半",
             "credit": "1",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -118310,7 +118439,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -118355,7 +118484,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -118400,7 +118529,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -119444,7 +119573,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -119531,7 +119660,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -119940,7 +120069,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -120041,7 +120170,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -120142,7 +120271,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -120236,7 +120365,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -120316,7 +120445,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -120417,7 +120546,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -120497,7 +120626,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -120598,7 +120727,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -120699,7 +120828,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -120957,7 +121086,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -121058,7 +121187,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -121215,7 +121344,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -122398,7 +122527,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -123984,7 +124113,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -124667,7 +124796,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -124948,7 +125077,7 @@
             "category": "全",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -125113,7 +125242,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -125159,7 +125288,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -125205,7 +125334,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -127342,7 +127471,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -130838,7 +130967,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -130949,7 +131078,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131043,7 +131172,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131123,7 +131252,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131203,7 +131332,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131311,7 +131440,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131523,7 +131652,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131589,7 +131718,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131648,7 +131777,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131707,7 +131836,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131766,7 +131895,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131867,7 +131996,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -132112,7 +132241,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -132412,13 +132541,27 @@
             "department": "資工碩",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
                     "grade": "1",
                     "class": "",
                     "category": "資工碩",
                     "original": "資工碩1"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -132794,7 +132937,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -134482,7 +134625,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "中文",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -134700,7 +134843,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -134928,7 +135071,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -135118,7 +135261,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -135217,13 +135360,27 @@
             "department": "資工系",
             "department_level": [
                 {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
                     "grade": "3",
                     "class": "",
                     "category": "資工系",
                     "original": "資工系3"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選"
             ],
             "title": {
@@ -135592,11 +135749,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "資訊安全與應用學士學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "資訊安全與應用學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "商業人工智慧學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -137159,7 +137330,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -137210,7 +137381,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -137261,7 +137432,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -138394,7 +138565,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 6,
@@ -138439,7 +138610,7 @@
             "category": "全",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Partially English",
             "course_detail": [
                 {
                     "courseTime": 6,
@@ -140636,7 +140807,7 @@
             "category": "半",
             "credit": "1",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 6,
@@ -140730,7 +140901,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 6,
@@ -142068,7 +142239,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 6,
@@ -143267,7 +143438,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 6,
@@ -144140,7 +144311,7 @@
             "category": "半",
             "credit": "3",
             "hours": "3",
-            "language": "英語English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 6,
