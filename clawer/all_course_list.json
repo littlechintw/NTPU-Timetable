@@ -1,7 +1,7 @@
 {
-    "start_time": "2026-08-18 01:00:37",
-    "end_time": "2026-08-18 01:01:05",
-    "total_courses": 2125,
+    "start_time": "2026-08-20 01:01:12",
+    "end_time": "2026-08-20 01:01:42",
+    "total_courses": 2126,
     "failed_weeks": [],
     "data": [
         {
@@ -1266,7 +1266,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "5"
+            "max_people": "6"
         },
         {
             "year": "115",
@@ -3544,8 +3544,8 @@
                         5,
                         6
                     ],
-                    "place": "文2F02",
-                    "original": "每週一5~6\t文2F02"
+                    "place": "法2F24",
+                    "original": "每週一5~6\t法2F24"
                 }
             ],
             "sign": "否",
@@ -13131,9 +13131,13 @@
                 {
                     "courseTime": 1,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週一6~8"
+                    "sessions": [
+                        6,
+                        7,
+                        8
+                    ],
+                    "place": "社B02",
+                    "original": "每週一6~8\t社B02"
                 }
             ],
             "sign": "否",
@@ -17978,8 +17982,8 @@
                         5,
                         6
                     ],
-                    "place": "社114",
-                    "original": "每週一5~6\t社114"
+                    "place": "法1F05",
+                    "original": "每週一5~6\t法1F05"
                 }
             ],
             "sign": "是",
@@ -20977,6 +20981,59 @@
             "sign": "否",
             "sign_people": "-",
             "max_people": "13"
+        },
+        {
+            "year": "115",
+            "semester": "1",
+            "courseID": "M5338",
+            "department": "統碩",
+            "department_level": [
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "統碩",
+                    "original": "統碩1"
+                },
+                {
+                    "grade": "2",
+                    "class": "",
+                    "category": "統碩",
+                    "original": "統碩2"
+                }
+            ],
+            "compulsory": [
+                "選",
+                "選"
+            ],
+            "title": {
+                "ch": "機器學習",
+                "en": "Machine Learning",
+                "limit": false,
+                "other": "1150819通知新開課程。*「類別資料分析」、「淺度機器學習」、「多變量分析」、「變異數分析」、「時間數列」、「機器學習」此6科至少選修2科。*請學生自備筆記型電腦。"
+            },
+            "teacher": [
+                "汪群超"
+            ],
+            "category": "半",
+            "credit": "3",
+            "hours": "3",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 1,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "電2F08",
+                    "original": "每週一5~7\t電2F08"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "17"
         },
         {
             "year": "115",
@@ -28212,8 +28269,8 @@
                         5,
                         6
                     ],
-                    "place": "商2F12",
-                    "original": "每週一5~6\t商2F12"
+                    "place": "文2F02",
+                    "original": "每週一5~6\t文2F02"
                 }
             ],
             "sign": "是",
@@ -28999,9 +29056,13 @@
                 {
                     "courseTime": 1,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週一5~7"
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "商2F12_互動",
+                    "original": "每週一5~7\t商2F12_互動"
                 }
             ],
             "sign": "否",
@@ -38513,9 +38574,13 @@
                 {
                     "courseTime": 2,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週二2~4"
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "社113",
+                    "original": "每週二2~4\t社113"
                 },
                 {
                     "courseTime": 2,
@@ -52926,7 +52991,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "16"
         },
         {
             "year": "115",
@@ -59236,9 +59301,12 @@
                 {
                     "courseTime": 2,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週二3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "商1F05",
+                    "original": "每週二3~4\t商1F05"
                 }
             ],
             "sign": "否",
@@ -59906,9 +59974,13 @@
                 {
                     "courseTime": 2,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週二5~7"
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "文4F06_互動",
+                    "original": "每週二5~7\t文4F06_互動"
                 }
             ],
             "sign": "否",
@@ -59961,9 +60033,13 @@
                 {
                     "courseTime": 2,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週二5~7"
+                    "sessions": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "place": "法2F17",
+                    "original": "每週二5~7\t法2F17"
                 }
             ],
             "sign": "否",
@@ -60007,8 +60083,8 @@
                         3,
                         4
                     ],
-                    "place": "商1F05",
-                    "original": "每週二3~4\t商1F05"
+                    "place": "公1F01",
+                    "original": "每週二3~4\t公1F01"
                 }
             ],
             "sign": "否",
@@ -79354,7 +79430,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "7"
+            "max_people": "4"
         },
         {
             "year": "115",
@@ -81490,8 +81566,8 @@
                         3,
                         4
                     ],
-                    "place": "電2F01",
-                    "original": "每週三2~4\t電2F01"
+                    "place": "資1F-14",
+                    "original": "每週三2~4\t資1F-14"
                 }
             ],
             "sign": "否",
@@ -83022,7 +83098,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "37"
+            "max_people": "30"
         },
         {
             "year": "115",
@@ -83899,7 +83975,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "5"
+            "max_people": "7"
         },
         {
             "year": "115",
@@ -85604,9 +85680,12 @@
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週三7~8"
+                    "sessions": [
+                        7,
+                        8
+                    ],
+                    "place": "文1F10",
+                    "original": "每週三7~8\t文1F10"
                 }
             ],
             "sign": "否",
@@ -85652,9 +85731,12 @@
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週三3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文5F07_L",
+                    "original": "每週三3~4\t文5F07_L"
                 }
             ],
             "sign": "否",
@@ -86306,9 +86388,12 @@
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週三5~6"
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "電1F04",
+                    "original": "每週三5~6\t電1F04"
                 }
             ],
             "sign": "是",
@@ -90496,8 +90581,8 @@
                         5,
                         6
                     ],
-                    "place": "公5F32",
-                    "original": "每週四5~6\t公5F32"
+                    "place": "公1F27",
+                    "original": "每週四5~6\t公1F27"
                 }
             ],
             "sign": "是",
@@ -108047,13 +108132,9 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "社109",
-                    "original": "每週四2~4\t社109"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四2~4"
                 }
             ],
             "sign": "否",
@@ -108368,7 +108449,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "30"
         },
         {
             "year": "115",
@@ -113942,13 +114023,9 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "社109",
-                    "original": "每週四2~4\t社109"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週四2~4"
                 }
             ],
             "sign": "否",
@@ -115703,9 +115780,12 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四7~8"
+                    "sessions": [
+                        7,
+                        8
+                    ],
+                    "place": "商2F13",
+                    "original": "每週四7~8\t商2F13"
                 }
             ],
             "sign": "否",
@@ -115751,9 +115831,12 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "社205",
+                    "original": "每週四3~4\t社205"
                 }
             ],
             "sign": "否",
@@ -115813,9 +115896,12 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "社206",
+                    "original": "每週四3~4\t社206"
                 }
             ],
             "sign": "否",
@@ -115861,9 +115947,12 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文4F07",
+                    "original": "每週四3~4\t文4F07"
                 }
             ],
             "sign": "否",
@@ -115995,9 +116084,12 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "資1F-09",
+                    "original": "每週四3~4\t資1F-09"
                 }
             ],
             "sign": "是",
@@ -116150,9 +116242,12 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四5~6"
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "社112",
+                    "original": "每週四5~6\t社112"
                 }
             ],
             "sign": "否",
@@ -116198,9 +116293,12 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四5~6"
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "社110",
+                    "original": "每週四5~6\t社110"
                 }
             ],
             "sign": "否",
@@ -116304,9 +116402,12 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文4F06_互動",
+                    "original": "每週四3~4\t文4F06_互動"
                 }
             ],
             "sign": "否",
@@ -116728,9 +116829,12 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四5~6"
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "社205",
+                    "original": "每週四5~6\t社205"
                 }
             ],
             "sign": "否",
@@ -116848,9 +116952,12 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四7~8"
+                    "sessions": [
+                        7,
+                        8
+                    ],
+                    "place": "社112",
+                    "original": "每週四7~8\t社112"
                 }
             ],
             "sign": "否",
@@ -117260,8 +117367,8 @@
                         1,
                         2
                     ],
-                    "place": "商2F02",
-                    "original": "每週四1~2\t商2F02"
+                    "place": "公1F01",
+                    "original": "每週四1~2\t公1F01"
                 }
             ],
             "sign": "否",
@@ -117305,8 +117412,8 @@
                         3,
                         4
                     ],
-                    "place": "商2F02",
-                    "original": "每週四3~4\t商2F02"
+                    "place": "公1F01",
+                    "original": "每週四3~4\t公1F01"
                 }
             ],
             "sign": "否",
@@ -125470,9 +125577,13 @@
                 {
                     "courseTime": 5,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週五2~4"
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "社110",
+                    "original": "每週五2~4\t社110"
                 }
             ],
             "sign": "否",
@@ -132377,13 +132488,9 @@
                 {
                     "courseTime": 5,
                     "time_category": "A",
-                    "sessions": [
-                        5,
-                        6,
-                        7
-                    ],
-                    "place": "社110",
-                    "original": "每週五5~7\t社110"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五5~7"
                 }
             ],
             "sign": "否",
@@ -132533,7 +132640,7 @@
                 "ch": "財務研究方法",
                 "en": "Financial Research Methods",
                 "limit": false,
-                "other": "行銷與國際企業組必修。蔡顯童(2)、林婷鈴(1)合授。"
+                "other": "1150818通知上課時間異動。行銷與國際企業組必修。"
             },
             "teacher": [
                 "盧建霖"
@@ -132547,12 +132654,12 @@
                     "courseTime": 5,
                     "time_category": "A",
                     "sessions": [
+                        6,
                         7,
-                        8,
-                        9
+                        8
                     ],
                     "place": "709",
-                    "original": "每週五7~9\t709"
+                    "original": "每週五6~8\t709"
                 }
             ],
             "sign": "否",
@@ -132600,12 +132707,12 @@
                     "courseTime": 5,
                     "time_category": "A",
                     "sessions": [
-                        7,
-                        8,
-                        9
+                        2,
+                        3,
+                        4
                     ],
                     "place": "公2F35_互動",
-                    "original": "每週五7~9\t公2F35_互動"
+                    "original": "每週五2~4\t公2F35_互動"
                 }
             ],
             "sign": "否",
@@ -143714,11 +143821,11 @@
                 "ch": "體適能與健康管理",
                 "en": "Physical Fitness and Health Management",
                 "limit": false,
-                "other": "教室：三峽校區、教學大樓826教室。外系修課請洽財金碩助教(66312)。未開放旁聽。"
+                "other": "教室：三峽校區、教學大樓826教室。外系修課請洽財金碩助教(66312)。未開放旁聽。*1150819依系所通知異動合授教師。"
             },
             "teacher": [
                 "謝立文",
-                "簡志宜"
+                "洪維勵"
             ],
             "category": "半",
             "credit": "3",
