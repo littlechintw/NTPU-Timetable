@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-08-20 01:01:12",
-    "end_time": "2026-08-20 01:01:42",
+    "start_time": "2026-08-22 01:00:52",
+    "end_time": "2026-08-22 01:01:17",
     "total_courses": 2126,
     "failed_weeks": [],
     "data": [
@@ -2389,8 +2389,8 @@
                         10,
                         11
                     ],
-                    "place": "210",
-                    "original": "每週一10~11\t210"
+                    "place": "204",
+                    "original": "每週一10~11\t204"
                 }
             ],
             "sign": "否",
@@ -10668,7 +10668,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "108"
+            "max_people": "123"
         },
         {
             "year": "115",
@@ -13140,9 +13140,9 @@
                     "original": "每週一6~8\t社B02"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "108"
+            "sign": "是",
+            "sign_people": "21",
+            "max_people": "123"
         },
         {
             "year": "115",
@@ -17362,7 +17362,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -18081,7 +18081,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -18140,7 +18140,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -18234,7 +18234,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -18366,7 +18366,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -18477,7 +18477,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 1,
@@ -24972,7 +24972,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "35"
         },
         {
             "year": "115",
@@ -26258,8 +26258,8 @@
                         10,
                         11
                     ],
-                    "place": "204",
-                    "original": "每週一10~11\t204"
+                    "place": "210",
+                    "original": "每週一10~11\t210"
                 }
             ],
             "sign": "否",
@@ -26309,8 +26309,8 @@
                         12,
                         13
                     ],
-                    "place": "204",
-                    "original": "每週一12~13\t204"
+                    "place": "210",
+                    "original": "每週一12~13\t210"
                 }
             ],
             "sign": "否",
@@ -26432,8 +26432,8 @@
                         12,
                         13
                     ],
-                    "place": "210",
-                    "original": "每週一12~13\t210"
+                    "place": "205",
+                    "original": "每週一12~13\t205"
                 }
             ],
             "sign": "是",
@@ -26534,8 +26534,8 @@
                         12,
                         13
                     ],
-                    "place": "205",
-                    "original": "每週一12~13\t205"
+                    "place": "204",
+                    "original": "每週一12~13\t204"
                 }
             ],
             "sign": "是",
@@ -48825,7 +48825,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -48971,7 +48971,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -49193,7 +49193,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -49377,7 +49377,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 2,
@@ -51965,8 +51965,8 @@
                         6,
                         7
                     ],
-                    "place": "商2F04",
-                    "original": "每週二5~7\t商2F04"
+                    "place": "社106",
+                    "original": "每週二5~7\t社106"
                 }
             ],
             "sign": "否",
@@ -54114,7 +54114,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "28"
+            "max_people": "35"
         },
         {
             "year": "115",
@@ -76517,7 +76517,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -76767,7 +76767,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -76916,7 +76916,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -77059,7 +77059,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -77361,7 +77361,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -77559,7 +77559,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -77677,7 +77677,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -77913,7 +77913,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -78343,7 +78343,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 3,
@@ -85718,7 +85718,7 @@
                 "ch": "歐美現代小說欣賞",
                 "en": "Appreciation of Modern Novel in Europe and America",
                 "limit": false,
-                "other": "應外系學生修習不列入通識畢業學分。"
+                "other": "[停開]1150820依系所通知：本課程停開。應外系學生修習不列入通識畢業學分。"
             },
             "teacher": [
                 "張懿仁"
@@ -101434,7 +101434,7 @@
                 "ch": "國際住宅政策",
                 "en": "Global Housing Policies",
                 "limit": false,
-                "other": "(本課程與U3027合班)"
+                "other": "[停開](本課程與U3027合班)"
             },
             "teacher": [
                 "彭建文"
@@ -106433,7 +106433,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -106513,7 +106513,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 4,
@@ -107679,7 +107679,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "15"
         },
         {
             "year": "115",
@@ -108797,8 +108797,8 @@
                         6,
                         7
                     ],
-                    "place": "法2F27",
-                    "original": "每週四5~7\t法2F27"
+                    "place": "社102",
+                    "original": "每週四5~7\t社102"
                 }
             ],
             "sign": "否",
@@ -112535,8 +112535,8 @@
                         6,
                         7
                     ],
-                    "place": "法2F27",
-                    "original": "每週四5~7\t法2F27"
+                    "place": "社102",
+                    "original": "每週四5~7\t社102"
                 }
             ],
             "sign": "否",
@@ -131320,7 +131320,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131414,7 +131414,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131494,7 +131494,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131574,7 +131574,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131682,7 +131682,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131894,7 +131894,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -131960,7 +131960,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -132019,7 +132019,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -132078,7 +132078,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -132137,7 +132137,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -132238,7 +132238,7 @@
             "category": "半",
             "credit": "2",
             "hours": "2",
-            "language": "英語Partially English",
+            "language": "英語Predominantly English",
             "course_detail": [
                 {
                     "courseTime": 5,
@@ -134958,8 +134958,8 @@
                     "original": "每週五2~4\t公2F35_互動"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "2",
             "max_people": "20"
         },
         {
