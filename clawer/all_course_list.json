@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-08-22 01:00:52",
-    "end_time": "2026-08-22 01:01:17",
+    "start_time": "2026-08-25 01:02:54",
+    "end_time": "2026-08-25 01:03:20",
     "total_courses": 2126,
     "failed_weeks": [],
     "data": [
@@ -7198,8 +7198,8 @@
                         11,
                         12
                     ],
-                    "place": "315",
-                    "original": "每週一10~12\t315"
+                    "place": "510",
+                    "original": "每週一10~12\t510"
                 }
             ],
             "sign": "否",
@@ -14777,8 +14777,8 @@
                         12,
                         13
                     ],
-                    "place": "206",
-                    "original": "每週一12~13\t206"
+                    "place": "315",
+                    "original": "每週一12~13\t315"
                 }
             ],
             "sign": "否",
@@ -21791,8 +21791,8 @@
                         11,
                         12
                     ],
-                    "place": "415",
-                    "original": "每週一10~12\t415"
+                    "place": "506",
+                    "original": "每週一10~12\t506"
                 }
             ],
             "sign": "否",
@@ -47201,7 +47201,7 @@
                 "ch": "非營利組織管理",
                 "en": "Nonprofit Organization Management",
                 "limit": true,
-                "other": "114學年度修課年級由2年級調整為1年級。本課程115學年度預計停開一年。公民社會學群核心課程。\n"
+                "other": "114學年度修課年級由2年級調整為1年級。公民社會學群核心課程。\n"
             },
             "teacher": [
                 "林淑馨"
@@ -74401,9 +74401,12 @@
                 {
                     "courseTime": 3,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週三5~6"
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "電1F01",
+                    "original": "每週三5~6\t電1F01"
                 }
             ],
             "sign": "否",
@@ -79430,7 +79433,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "4"
+            "max_people": "3"
         },
         {
             "year": "115",
@@ -108132,9 +108135,13 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四2~4"
+                    "sessions": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "place": "公1F12",
+                    "original": "每週四2~4\t公1F12"
                 }
             ],
             "sign": "否",
@@ -115900,8 +115907,8 @@
                         3,
                         4
                     ],
-                    "place": "社206",
-                    "original": "每週四3~4\t社206"
+                    "place": "社101",
+                    "original": "每週四3~4\t社101"
                 }
             ],
             "sign": "否",
@@ -116661,8 +116668,8 @@
                         3,
                         4
                     ],
-                    "place": "社101",
-                    "original": "每週四3~4\t社101"
+                    "place": "社105",
+                    "original": "每週四3~4\t社105"
                 }
             ],
             "sign": "是",
@@ -116708,9 +116715,12 @@
                 {
                     "courseTime": 4,
                     "time_category": "A",
-                    "sessions": "N/A",
-                    "place": "N/A",
-                    "original": "每週四3~4"
+                    "sessions": [
+                        3,
+                        4
+                    ],
+                    "place": "文2F08",
+                    "original": "每週四3~4\t文2F08"
                 }
             ],
             "sign": "否",
@@ -137628,8 +137638,8 @@
                         5,
                         6
                     ],
-                    "place": "電2F03",
-                    "original": "每週五5~6\t電2F03"
+                    "place": "電2F04",
+                    "original": "每週五5~6\t電2F04"
                 }
             ],
             "sign": "是",
@@ -137679,8 +137689,8 @@
                         3,
                         4
                     ],
-                    "place": "電2F03",
-                    "original": "每週五3~4\t電2F03"
+                    "place": "電2F04",
+                    "original": "每週五3~4\t電2F04"
                 }
             ],
             "sign": "是",
@@ -137860,8 +137870,8 @@
                         3,
                         4
                     ],
-                    "place": "社201",
-                    "original": "每週五3~4\t社201"
+                    "place": "社105",
+                    "original": "每週五3~4\t社105"
                 }
             ],
             "sign": "是",
