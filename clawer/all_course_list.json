@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-08-27 07:06:17",
-    "end_time": "2026-08-27 07:06:49",
+    "start_time": "2026-08-29 05:29:30",
+    "end_time": "2026-08-29 05:29:56",
     "total_courses": 2127,
     "failed_weeks": [],
     "data": [
@@ -5966,7 +5966,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "60"
+            "max_people": "70"
         },
         {
             "year": "115",
@@ -11006,7 +11006,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "60"
+            "max_people": "61"
         },
         {
             "year": "115",
@@ -11136,7 +11136,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "60"
+            "max_people": "61"
         },
         {
             "year": "115",
@@ -11702,7 +11702,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "62"
+            "max_people": "63"
         },
         {
             "year": "115",
@@ -11832,7 +11832,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "62"
+            "max_people": "63"
         },
         {
             "year": "115",
@@ -14175,7 +14175,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "18"
         },
         {
             "year": "115",
@@ -14829,7 +14829,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "50"
         },
         {
             "year": "115",
@@ -32943,7 +32943,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "53"
+            "max_people": "54"
         },
         {
             "year": "115",
@@ -33586,7 +33586,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "53"
+            "max_people": "54"
         },
         {
             "year": "115",
@@ -48101,7 +48101,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "45"
         },
         {
             "year": "115",
@@ -52011,8 +52011,8 @@
                         6,
                         7
                     ],
-                    "place": "社106",
-                    "original": "每週二5~7\t社106"
+                    "place": "社207",
+                    "original": "每週二5~7\t社207"
                 }
             ],
             "sign": "否",
@@ -54903,8 +54903,8 @@
                         3,
                         4
                     ],
-                    "place": "社106",
-                    "original": "每週二2~4\t社106"
+                    "place": "社110",
+                    "original": "每週二2~4\t社110"
                 }
             ],
             "sign": "是",
@@ -65522,7 +65522,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "70"
+            "max_people": "73"
         },
         {
             "year": "115",
@@ -66373,7 +66373,7 @@
                 "ch": "心理學",
                 "en": "Psychology",
                 "limit": false,
-                "other": "依114.09.04系所通知調整授課教師"
+                "other": " "
             },
             "teacher": [
                 "游以安"
@@ -67501,12 +67501,6 @@
                 },
                 {
                     "grade": "1",
-                    "class": "",
-                    "category": "商學院",
-                    "original": "商學院1"
-                },
-                {
-                    "grade": "1",
                     "class": "A",
                     "category": "會計系",
                     "original": "會計系1A"
@@ -67592,7 +67586,6 @@
                 "必",
                 "必",
                 "必",
-                "必",
                 "必"
             ],
             "title": {
@@ -67617,8 +67610,8 @@
                         6,
                         7
                     ],
-                    "place": "社B01",
-                    "original": "每週三5~7\t社B01"
+                    "place": "法2F01",
+                    "original": "每週三5~7\t法2F01"
                 }
             ],
             "sign": "否",
@@ -82437,8 +82430,8 @@
                         8,
                         9
                     ],
-                    "place": "社205",
-                    "original": "每週三7~9\t社205"
+                    "place": "社113",
+                    "original": "每週三7~9\t社113"
                 }
             ],
             "sign": "是",
@@ -88163,7 +88156,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "100"
+            "max_people": "109"
         },
         {
             "year": "115",
@@ -97462,7 +97455,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "61"
+            "max_people": "62"
         },
         {
             "year": "115",
@@ -97677,7 +97670,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "61"
+            "max_people": "62"
         },
         {
             "year": "115",
@@ -98449,7 +98442,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "55"
+            "max_people": "60"
         },
         {
             "year": "115",
@@ -98969,7 +98962,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "55"
+            "max_people": "60"
         },
         {
             "year": "115",
@@ -107995,7 +107988,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "28"
         },
         {
             "year": "115",
@@ -110852,7 +110845,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "7"
+            "max_people": "11"
         },
         {
             "year": "115",
@@ -115122,7 +115115,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "18"
         },
         {
             "year": "115",
@@ -115888,8 +115881,8 @@
                         3,
                         4
                     ],
-                    "place": "社205",
-                    "original": "每週四3~4\t社205"
+                    "place": "社206",
+                    "original": "每週四3~4\t社206"
                 }
             ],
             "sign": "否",
@@ -116889,8 +116882,8 @@
                         5,
                         6
                     ],
-                    "place": "社205",
-                    "original": "每週四5~6\t社205"
+                    "place": "商1F15",
+                    "original": "每週四5~6\t商1F15"
                 }
             ],
             "sign": "否",
@@ -123606,8 +123599,8 @@
                         11,
                         12
                     ],
-                    "place": "411",
-                    "original": "每週五10~12\t411"
+                    "place": "501",
+                    "original": "每週五10~12\t501"
                 }
             ],
             "sign": "是",
@@ -128402,7 +128395,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "30"
+            "max_people": "0"
         },
         {
             "year": "115",
@@ -133438,7 +133431,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "10"
+            "max_people": "20"
         },
         {
             "year": "115",
@@ -136230,7 +136223,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "60"
+            "max_people": "50"
         },
         {
             "year": "115",
@@ -136347,8 +136340,8 @@
                         12,
                         13
                     ],
-                    "place": "501",
-                    "original": "每週五12~13\t501"
+                    "place": "411",
+                    "original": "每週五12~13\t411"
                 }
             ],
             "sign": "是",
@@ -136686,8 +136679,8 @@
                         10,
                         11
                     ],
-                    "place": "501",
-                    "original": "每週五10~11\t501"
+                    "place": "411",
+                    "original": "每週五10~11\t411"
                 }
             ],
             "sign": "是",
@@ -139305,7 +139298,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "44"
+            "max_people": "45"
         },
         {
             "year": "115",
@@ -142836,13 +142829,13 @@
                         3,
                         4
                     ],
-                    "place": "710",
-                    "original": "每週六2~4\t710"
+                    "place": "714-5",
+                    "original": "每週六2~4\t714-5"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "30"
         },
         {
             "year": "115",
