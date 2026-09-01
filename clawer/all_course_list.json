@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-08-29 05:29:30",
-    "end_time": "2026-08-29 05:29:56",
+    "start_time": "2026-09-01 03:24:51",
+    "end_time": "2026-09-01 03:25:30",
     "total_courses": 2127,
     "failed_weeks": [],
     "data": [
@@ -4030,8 +4030,8 @@
                 {
                     "grade": "1",
                     "class": "",
-                    "category": "經濟系",
-                    "original": "經濟系1"
+                    "category": "法律學系財經法組",
+                    "original": "法律學系財經法組1"
                 },
                 {
                     "grade": "1",
@@ -4472,7 +4472,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "95"
+            "max_people": "111"
         },
         {
             "year": "115",
@@ -8557,8 +8557,8 @@
                         6,
                         7
                     ],
-                    "place": "法2F27",
-                    "original": "每週一5~7\t法2F27"
+                    "place": "商7F01",
+                    "original": "每週一5~7\t商7F01"
                 }
             ],
             "sign": "否",
@@ -8957,7 +8957,7 @@
                 "ch": "微積分",
                 "en": "Calculus",
                 "limit": false,
-                "other": "智慧永續發展與管理英語學士學程之微積分僅能修此課程、英語授課。"
+                "other": "智慧永續發展與管理英語學士學程之微積分僅能修此課程、英語授課。老師人工加簽以智慧永續發展與管理英語學士學位學程學生優先。"
             },
             "teacher": [
                 "歐士田"
@@ -8979,9 +8979,9 @@
                     "original": "每週一5~7\t商2F06"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "50"
+            "sign": "是",
+            "sign_people": "11",
+            "max_people": "59"
         },
         {
             "year": "115",
@@ -10479,7 +10479,7 @@
                 "ch": "微積分",
                 "en": "Calculus",
                 "limit": true,
-                "other": "*全英語授課。\n*「智慧永續發展與管理英語學士學程」不能選修此課程。"
+                "other": "*全英語授課。\n*「智慧永續發展與管理英語學士學程」不能選修此課程。\n老師人工加簽限外籍生、僑生之大一及大二生為主。"
             },
             "teacher": [
                 "余日彰"
@@ -10501,8 +10501,8 @@
                     "original": "每週一5~7\t公2F36"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "42"
         },
         {
@@ -11601,8 +11601,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F01",
-                    "original": "每週一6~8\t法2F01"
+                    "place": "法2F27",
+                    "original": "每週一6~8\t法2F27"
                 }
             ],
             "sign": "否",
@@ -13182,8 +13182,8 @@
                         7,
                         8
                     ],
-                    "place": "社B02",
-                    "original": "每週一6~8\t社B02"
+                    "place": "法2F01",
+                    "original": "每週一6~8\t法2F01"
                 }
             ],
             "sign": "是",
@@ -15997,7 +15997,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "43"
+            "max_people": "78"
         },
         {
             "year": "115",
@@ -16422,7 +16422,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "82"
+            "max_people": "109"
         },
         {
             "year": "115",
@@ -21664,8 +21664,8 @@
                         7,
                         8
                     ],
-                    "place": "法2F01",
-                    "original": "每週一6~8\t法2F01"
+                    "place": "法2F27",
+                    "original": "每週一6~8\t法2F27"
                 }
             ],
             "sign": "否",
@@ -24705,8 +24705,8 @@
                         6,
                         7
                     ],
-                    "place": "社105",
-                    "original": "每週一5~7\t社105"
+                    "place": "電2F06",
+                    "original": "每週一5~7\t電2F06"
                 }
             ],
             "sign": "否",
@@ -25018,7 +25018,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "35"
+            "max_people": "40"
         },
         {
             "year": "115",
@@ -30971,8 +30971,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F15",
-                    "original": "每週二5~6\t法2F15"
+                    "place": "法1F19",
+                    "original": "每週二5~6\t法1F19"
                 }
             ],
             "sign": "否",
@@ -31030,8 +31030,8 @@
                         5,
                         6
                     ],
-                    "place": "法1F19",
-                    "original": "每週二5~6\t法1F19"
+                    "place": "法2F15",
+                    "original": "每週二5~6\t法2F15"
                 }
             ],
             "sign": "否",
@@ -32279,7 +32279,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "46"
+            "max_people": "55"
         },
         {
             "year": "115",
@@ -32353,8 +32353,8 @@
                         5,
                         6
                     ],
-                    "place": "法1F19",
-                    "original": "每週二5~6\t法1F19"
+                    "place": "法2F15",
+                    "original": "每週二5~6\t法2F15"
                 }
             ],
             "sign": "否",
@@ -32651,7 +32651,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "17"
         },
         {
             "year": "115",
@@ -32988,7 +32988,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "11"
+            "max_people": "13"
         },
         {
             "year": "115",
@@ -33033,7 +33033,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "17"
         },
         {
             "year": "115",
@@ -33078,7 +33078,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "11"
+            "max_people": "13"
         },
         {
             "year": "115",
@@ -33457,7 +33457,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "17"
         },
         {
             "year": "115",
@@ -33711,7 +33711,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "11"
+            "max_people": "13"
         },
         {
             "year": "115",
@@ -34122,8 +34122,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F15",
-                    "original": "每週二5~6\t法2F15"
+                    "place": "法1F19",
+                    "original": "每週二5~6\t法1F19"
                 }
             ],
             "sign": "否",
@@ -34173,7 +34173,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "11"
+            "max_people": "13"
         },
         {
             "year": "115",
@@ -35949,7 +35949,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "25"
         },
         {
             "year": "115",
@@ -37723,8 +37723,8 @@
                         11,
                         12
                     ],
-                    "place": "315",
-                    "original": "每週二10~12\t315"
+                    "place": "411",
+                    "original": "每週二10~12\t411"
                 }
             ],
             "sign": "否",
@@ -37843,8 +37843,8 @@
                         11,
                         12
                     ],
-                    "place": "514",
-                    "original": "每週二10~12\t514"
+                    "place": "315",
+                    "original": "每週二10~12\t315"
                 }
             ],
             "sign": "否",
@@ -39150,7 +39150,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "59"
+            "max_people": "64"
         },
         {
             "year": "115",
@@ -39704,7 +39704,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "59"
+            "max_people": "64"
         },
         {
             "year": "115",
@@ -40130,7 +40130,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "67"
         },
         {
             "year": "115",
@@ -40246,7 +40246,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "67"
         },
         {
             "year": "115",
@@ -40299,7 +40299,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "85"
+            "max_people": "87"
         },
         {
             "year": "115",
@@ -40968,7 +40968,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "67"
         },
         {
             "year": "115",
@@ -41355,7 +41355,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "67"
         },
         {
             "year": "115",
@@ -41810,7 +41810,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "67"
         },
         {
             "year": "115",
@@ -41933,7 +41933,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "66"
+            "max_people": "67"
         },
         {
             "year": "115",
@@ -42130,7 +42130,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "22"
+            "max_people": "23"
         },
         {
             "year": "115",
@@ -42769,7 +42769,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "22"
+            "max_people": "23"
         },
         {
             "year": "115",
@@ -46301,8 +46301,8 @@
                         10,
                         11
                     ],
-                    "place": "411",
-                    "original": "每週二10~11\t411"
+                    "place": "203",
+                    "original": "每週二10~11\t203"
                 }
             ],
             "sign": "是",
@@ -51810,8 +51810,8 @@
                         3,
                         4
                     ],
-                    "place": "電1F03",
-                    "original": "每週二2~4\t電1F03"
+                    "place": "資1F-10",
+                    "original": "每週二2~4\t資1F-10"
                 }
             ],
             "sign": "否",
@@ -52607,10 +52607,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人工智慧探索應用學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "人工智慧自然語言技術學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -54160,7 +54167,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "37"
+            "max_people": "38"
         },
         {
             "year": "115",
@@ -55269,8 +55276,8 @@
                     "original": "每週二5~7\t法2F27"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "16",
             "max_people": "82"
         },
         {
@@ -56100,8 +56107,8 @@
                         3,
                         4
                     ],
-                    "place": "電1F03",
-                    "original": "每週二2~4\t電1F03"
+                    "place": "資1F-10",
+                    "original": "每週二2~4\t資1F-10"
                 }
             ],
             "sign": "否",
@@ -56311,10 +56318,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "學分學程",
+                    "original": "人工智慧探索應用學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "學分學程",
                     "original": "人工智慧自然語言技術學分學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選"
             ],
@@ -63205,7 +63219,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "46"
+            "max_people": "55"
         },
         {
             "year": "115",
@@ -64031,7 +64045,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "106"
+            "max_people": "109"
         },
         {
             "year": "115",
@@ -65841,7 +65855,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "48"
+            "max_people": "51"
         },
         {
             "year": "115",
@@ -65961,7 +65975,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "48"
+            "max_people": "51"
         },
         {
             "year": "115",
@@ -67094,9 +67108,9 @@
                     "original": "每週三2~4\t商1F16"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "50"
+            "sign": "是",
+            "sign_people": "11",
+            "max_people": "59"
         },
         {
             "year": "115",
@@ -67203,9 +67217,9 @@
                     "original": "每週三2~4\t商2F08"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
-            "max_people": "50"
+            "sign": "是",
+            "sign_people": "11",
+            "max_people": "59"
         },
         {
             "year": "115",
@@ -71805,8 +71819,8 @@
                         7,
                         8
                     ],
-                    "place": "法1F04",
-                    "original": "每週三7~8\t法1F04"
+                    "place": "法2F02",
+                    "original": "每週三7~8\t法2F02"
                 }
             ],
             "sign": "否",
@@ -74165,7 +74179,7 @@
             ],
             "sign": "是",
             "sign_people": "8",
-            "max_people": "40"
+            "max_people": "55"
         },
         {
             "year": "115",
@@ -74872,8 +74886,8 @@
                         7,
                         8
                     ],
-                    "place": "法1F04",
-                    "original": "每週三7~8\t法1F04"
+                    "place": "法2F02",
+                    "original": "每週三7~8\t法2F02"
                 }
             ],
             "sign": "否",
@@ -78335,8 +78349,8 @@
                         5,
                         6
                     ],
-                    "place": "文2F09",
-                    "original": "每週三5~6\t文2F09"
+                    "place": "文4F06_互動",
+                    "original": "每週三5~6\t文4F06_互動"
                 }
             ],
             "sign": "是",
@@ -79803,7 +79817,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "20"
+            "max_people": "25"
         },
         {
             "year": "115",
@@ -81863,7 +81877,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "60"
+            "max_people": "63"
         },
         {
             "year": "115",
@@ -83683,7 +83697,7 @@
                 "ch": "統計學暨實習",
                 "en": "Statistics with Recitation",
                 "limit": false,
-                "other": "衛星課程(本校協同教師：陳秉洋)。主導：台大李宗穎老師。同步遠距上課時間：星期二13:20-15:10(recitation session)/星期三9:10-12:10(lecture)。同步考試時間：期中考（10/28）、期末考（12/23），皆為同步進行紙本考試（在此時段無法應考的學生請勿修課）。遠距上課位置：https://cool.ntu.edu.tw/login/portal"
+                "other": "衛星課程(本校協同教師：陳秉洋)。主導：台大李宗穎老師。同步遠距上課時間：星期三9:10-12:10(lecture)。同步考試時間：期中考（10/28）、期末考（12/23），皆為同步進行紙本考試（在此時段無法應考的學生請勿修課）。遠距上課位置：https://cool.ntu.edu.tw/login/portal"
             },
             "teacher": [
                 "陳秉洋"
@@ -87517,7 +87531,7 @@
             "title": {
                 "ch": "體育：排球",
                 "en": "Physical Education:Volleyball",
-                "limit": true,
+                "limit": false,
                 "other": "1.Course taught in English; initial enrollment for SSDM students only, later open to all. 2.Four PE courses required to graduate; each additional counts as 1 elective credit, not included in graduation credit minimum. 3.Class Location: Gymnasium 1F."
             },
             "teacher": [
@@ -88941,8 +88955,8 @@
                         10,
                         11
                     ],
-                    "place": "208",
-                    "original": "每週四10~11\t208"
+                    "place": "314",
+                    "original": "每週四10~11\t314"
                 }
             ],
             "sign": "否",
@@ -89513,7 +89527,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "22"
+            "max_people": "28"
         },
         {
             "year": "115",
@@ -89725,7 +89739,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "22"
+            "max_people": "28"
         },
         {
             "year": "115",
@@ -91314,7 +91328,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "13"
         },
         {
             "year": "115",
@@ -91359,7 +91373,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "13"
         },
         {
             "year": "115",
@@ -91456,7 +91470,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "13"
         },
         {
             "year": "115",
@@ -91588,7 +91602,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "12"
+            "max_people": "13"
         },
         {
             "year": "115",
@@ -94176,7 +94190,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "58"
+            "max_people": "59"
         },
         {
             "year": "115",
@@ -94264,7 +94278,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "58"
+            "max_people": "59"
         },
         {
             "year": "115",
@@ -96023,7 +96037,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "58"
+            "max_people": "59"
         },
         {
             "year": "115",
@@ -96553,7 +96567,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "59"
+            "max_people": "64"
         },
         {
             "year": "115",
@@ -96987,7 +97001,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "59"
+            "max_people": "64"
         },
         {
             "year": "115",
@@ -99073,8 +99087,8 @@
                     "original": "每週四2~4\t公1F27"
                 }
             ],
-            "sign": "是",
-            "sign_people": "16",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "68"
         },
         {
@@ -100755,8 +100769,8 @@
                 "選"
             ],
             "title": {
-                "ch": "比較刑法專題研究（二）",
-                "en": "Seminar：Comparative Criminal Law II",
+                "ch": "比較刑法專題研究（一）",
+                "en": "Seminar：Comparative Criminal Law I",
                 "limit": false,
                 "other": " "
             },
@@ -100848,8 +100862,8 @@
                         8,
                         9
                     ],
-                    "place": "法2F02",
-                    "original": "每週四8~9\t法2F02"
+                    "place": "法2F01",
+                    "original": "每週四8~9\t法2F01"
                 }
             ],
             "sign": "否",
@@ -103651,13 +103665,13 @@
                         8,
                         9
                     ],
-                    "place": "法2F02",
-                    "original": "每週四8~9\t法2F02"
+                    "place": "法2F01",
+                    "original": "每週四8~9\t法2F01"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "82"
+            "max_people": "109"
         },
         {
             "year": "115",
@@ -104128,7 +104142,7 @@
                 "ch": "土地資源與市場行為",
                 "en": "Land Resource and Market Behavior",
                 "limit": false,
-                "other": "本科不計入輔系學分。公205或206教室優先。"
+                "other": "本科不計入輔系學分。"
             },
             "teacher": [
                 "彭蒂菁"
@@ -104145,8 +104159,8 @@
                         1,
                         2
                     ],
-                    "place": "公2F06",
-                    "original": "每週四1~2\t公2F06"
+                    "place": "公1F21",
+                    "original": "每週四1~2\t公1F21"
                 }
             ],
             "sign": "否",
@@ -109040,8 +109054,8 @@
                         6,
                         7
                     ],
-                    "place": "商3F17_階梯教室",
-                    "original": "每週四5~7\t商3F17_階梯教室"
+                    "place": "商3F16",
+                    "original": "每週四5~7\t商3F16"
                 }
             ],
             "sign": "是",
@@ -115175,7 +115189,7 @@
                 "other": "本課程由新任博士生講師李俊穎授課，學期後半課程可能會以線上授課方式進行。"
             },
             "teacher": [
-                "葉欣怡"
+                "李俊穎"
             ],
             "category": "半",
             "credit": "3",
@@ -115190,8 +115204,8 @@
                         3,
                         4
                     ],
-                    "place": "社113",
-                    "original": "每週四2~4\t社113"
+                    "place": "社B01",
+                    "original": "每週四2~4\t社B01"
                 }
             ],
             "sign": "否",
@@ -115728,8 +115742,8 @@
                         10,
                         11
                     ],
-                    "place": "314",
-                    "original": "每週四10~11\t314"
+                    "place": "208",
+                    "original": "每週四10~11\t208"
                 }
             ],
             "sign": "是",
@@ -123708,8 +123722,8 @@
                         11,
                         12
                     ],
-                    "place": "407",
-                    "original": "每週五10~12\t407"
+                    "place": "303",
+                    "original": "每週五10~12\t303"
                 }
             ],
             "sign": "否",
@@ -124697,7 +124711,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "82"
+            "max_people": "109"
         },
         {
             "year": "115",
@@ -126404,8 +126418,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F17",
-                    "original": "每週五5~6\t法2F17"
+                    "place": "法2F25",
+                    "original": "每週五5~6\t法2F25"
                 }
             ],
             "sign": "是",
@@ -126484,8 +126498,8 @@
                         5,
                         6
                     ],
-                    "place": "法1F05",
-                    "original": "每週五5~6\t法1F05"
+                    "place": "法2F17",
+                    "original": "每週五5~6\t法2F17"
                 }
             ],
             "sign": "否",
@@ -129357,13 +129371,13 @@
                         5,
                         6
                     ],
-                    "place": "法1F05",
-                    "original": "每週五5~6\t法1F05"
+                    "place": "法2F17",
+                    "original": "每週五5~6\t法2F17"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "26"
+            "max_people": "29"
         },
         {
             "year": "115",
@@ -131267,8 +131281,8 @@
                         7,
                         8
                     ],
-                    "place": "文3F11_L",
-                    "original": "每週五7~8\t文3F11_L"
+                    "place": "文4F05_L",
+                    "original": "每週五7~8\t文4F05_L"
                 }
             ],
             "sign": "否",
@@ -134833,7 +134847,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "60"
         },
         {
             "year": "115",
@@ -136391,8 +136405,8 @@
                         10,
                         11
                     ],
-                    "place": "303",
-                    "original": "每週五10~11\t303"
+                    "place": "208",
+                    "original": "每週五10~11\t208"
                 }
             ],
             "sign": "是",
@@ -139824,8 +139838,8 @@
                         3,
                         4
                     ],
-                    "place": "308",
-                    "original": "每週六2~4\t308"
+                    "place": "310",
+                    "original": "每週六2~4\t310"
                 },
                 {
                     "courseTime": 6,
@@ -141957,8 +141971,8 @@
                         1,
                         2
                     ],
-                    "place": "403",
-                    "original": "每週六1~2\t403"
+                    "place": "202",
+                    "original": "每週六1~2\t202"
                 }
             ],
             "sign": "是",
@@ -142286,8 +142300,8 @@
                         3,
                         4
                     ],
-                    "place": "403",
-                    "original": "每週六3~4\t403"
+                    "place": "202",
+                    "original": "每週六3~4\t202"
                 }
             ],
             "sign": "是",
