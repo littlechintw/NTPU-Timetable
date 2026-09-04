@@ -14,7 +14,7 @@
 - **多條件篩選**：系所、年級、通識向度、必修/選修/通識、學分數、上課時間（上午/下午/晚上），同類別「或」、跨類別「且」。
 - **即時衝堂提示**：課表格子與搜尋結果都會標紅提醒時間重疊的課程。
 - **深色模式**：自動偵測系統偏好，也可手動切換並記住選擇。
-- **資料自動更新**：GitHub Actions 定期（每週二、四、六）從學校課程查詢系統抓取最新資料。
+- **資料自動更新**：GitHub Actions 定期從學校課程查詢系統抓取最新資料，旺季（1、2、8、9 月）每週三、五，其他月份每週三，課程內容沒變就不會產生 commit。
 
 完整使用方式請見 [使用說明](docs/USAGE.md)。
 
@@ -69,7 +69,7 @@ pip install -r clawer/requirements.txt
 python3 clawer/main.py
 ```
 
-正式環境的資料更新由 [`.github/workflows/Clawer.yml`](.github/workflows/Clawer.yml) 排程執行並自動提交（每週二、四、六）。
+正式環境的資料更新由 [`.github/workflows/Clawer.yml`](.github/workflows/Clawer.yml) 排程執行並自動提交（旺季每週三、五晚上 8 點，其他月份每週三晚上 8 點，台灣時間）。
 
 `config.json` 的學年學期不用再手動切換：[`.github/workflows/CheckNextSemester.yml`](.github/workflows/CheckNextSemester.yml) 會在 12-2 月、6-8 月的週二、五自動探測下一學期是否已在北大課程查詢系統開放，一偵測到就更新 `config.json` 並立即跑一次爬蟲。
 

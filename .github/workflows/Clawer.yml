@@ -1,8 +1,14 @@
 name: Fetch NTPU Timetable Data
+
+# 課程資料只在學期交接前後（新學期資料公告 ～ 加退選結束）才會頻繁變動，
+# 學期中每次爬取幾乎都是零異動，所以依月份分兩種頻率。cron 是 UTC，台灣時間 20:00 = UTC 12:00。
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * 2,4,6"
+    # 選課／加退選旺季（1、2、8、9 月）：週三、週五 20:00 台灣時間
+    - cron: "0 12 * 1,2,8,9 3,5"
+    # 其他月份：每週三 20:00 台灣時間
+    - cron: "0 12 * 3,4,5,6,7,10,11,12 3"
 
 jobs:
   build:
@@ -23,14 +29,35 @@ jobs:
           pip install -r clawer/requirements.txt
       - name: Run Python
         run: python3 clawer/main.py
+
+      # JSON 裡的抓取時間戳每次都不同，直接 commit 會讓 git 歷史塞滿零異動的提交；
+      # 這裡只比對課程內容（data 欄位），沒有變動就不提交。
+      - name: Check whether course data changed
+        id: diff
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess
+          path = 'clawer/all_course_list.json'
+          new = json.load(open(path, encoding='utf-8')).get('data')
+          try:
+              old = json.loads(subprocess.check_output(['git', 'show', f'HEAD:{path}'], text=True)).get('data')
+          except Exception:
+              old = None
+          changed = new != old
+          print('course data changed' if changed else 'no course changes, skip commit')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"changed={'true' if changed else 'false'}\n")
+          PY
+
       - name: Commit
-        continue-on-error: true
+        if: steps.diff.outputs.changed == 'true'
         run: |
           git config --global user.email "littlechintw@gmail.com"
           git config --global user.name "littlechintw"
           git commit -a -m "Upgrade data by github actions"
+
       - name: Push Changes
-        if: success()
+        if: steps.diff.outputs.changed == 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
