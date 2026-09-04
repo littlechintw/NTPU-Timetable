@@ -135,6 +135,18 @@
                     <button @click="removeFilter('departments', dept)">×</button>
                   </span>
                 </div>
+
+                <div v-if="activeFilters.grades.length > 0" class="filter-category">
+                  <span class="category-label">年級：</span>
+                  <span
+                    v-for="grade in activeFilters.grades"
+                    :key="grade"
+                    class="chip chip-removable chip-department"
+                  >
+                    {{ grade }}年級
+                    <button @click="removeFilter('grades', grade)">×</button>
+                  </span>
+                </div>
                 
                 <div v-if="activeFilters.courseTypes.length > 0" class="filter-category">
                   <span class="category-label">性質：</span>
@@ -167,7 +179,7 @@
                     :key="time"
                     class="chip chip-removable chip-time"
                   >
-                    {{ time.replace('週', '').replace('上午', '上').replace('下午', '下') }}
+                    {{ time.replace('週', '').replace('上午', '上').replace('下午', '下').replace('晚上', '晚') }}
                     <button @click="removeFilter('timeSlots', time)">×</button>
                   </span>
                 </div>
@@ -175,9 +187,9 @@
               
               <!-- 篩選控制區域 -->
               <div class="filter-controls">
-                <!-- 系所篩選：輸入文字即可從系所清單中篩選，選定或按 Enter 即加入篩選 -->
+                <!-- 系所篩選：輸入文字即可從系所清單中篩選，選定或按 Enter 即加入篩選；年級另外用按鈕篩選 -->
                 <div class="filter-group">
-                  <label class="filter-group-title">系所</label>
+                  <label class="filter-group-title">系所（開放修課的系所）</label>
                   <input
                     v-model="departmentInput"
                     type="text"
@@ -195,6 +207,21 @@
                 
                 <!-- 快速篩選按鈕 -->
                 <div class="quick-filters">
+                  <div class="filter-group">
+                    <label class="filter-group-title">年級</label>
+                    <div class="filter-buttons">
+                      <button
+                        v-for="grade in filterOptions.grades"
+                        :key="grade"
+                        class="filter-btn"
+                        :class="{ active: activeFilters.grades.includes(grade) }"
+                        @click="toggleCategoryFilter('grades', grade)"
+                      >
+                        {{ grade }}年級
+                      </button>
+                    </div>
+                  </div>
+
                   <div class="filter-group">
                     <label class="filter-group-title">課程性質</label>
                     <div class="filter-buttons">
@@ -233,19 +260,14 @@
                           {{ ['一', '二', '三', '四', '五', '六', '日'][day - 1] }}
                         </div>
                         <div class="time-period-buttons">
-                          <button 
+                          <button
+                            v-for="period in timePeriods"
+                            :key="period.key"
                             class="time-btn"
-                            :class="{ active: activeFilters.timeSlots.includes(getTimeSlot(day, 'morning')) }"
-                            @click="toggleCategoryFilter('timeSlots', getTimeSlot(day, 'morning'))"
+                            :class="{ active: activeFilters.timeSlots.includes(getTimeSlot(day, period.key)) }"
+                            @click="toggleCategoryFilter('timeSlots', getTimeSlot(day, period.key))"
                           >
-                            上午
-                          </button>
-                          <button 
-                            class="time-btn"
-                            :class="{ active: activeFilters.timeSlots.includes(getTimeSlot(day, 'afternoon')) }"
-                            @click="toggleCategoryFilter('timeSlots', getTimeSlot(day, 'afternoon'))"
-                          >
-                            下午
+                            {{ period.label }}
                           </button>
                         </div>
                       </div>
@@ -279,7 +301,7 @@
           </div>
           <div class="card-body search-results">
             <div
-              v-for="course in searchList"
+              v-for="course in visibleSearchList"
               :key="course.courseID"
               class="course-item"
               :class="course.color ? `bg-${course.color}` : ''"
@@ -303,6 +325,13 @@
                 </div>
               </div>
             </div>
+            <button
+              v-if="searchList.length > visibleCount"
+              class="btn btn-outline load-more-btn"
+              @click="visibleCount += pageSize"
+            >
+              顯示更多（尚有 {{ searchList.length - visibleCount }} 筆）
+            </button>
           </div>
         </div>
 
@@ -432,7 +461,7 @@ const recalculateColors = () => {
   initTable()
 
   if (searchInput.value || hasActiveFilters.value) {
-    searchCourse()
+    searchCourse({ resetPage: false })
   }
   selectListMaker()
 }
@@ -474,16 +503,32 @@ const searchInput = ref('')
 const searchResult = ref('')
 const searchList = ref([])
 
-const filterTime = [
-  "週一上午", "週一下午", "週二上午", "週二下午", "週三上午", "週三下午",
-  "週四上午", "週四下午", "週五上午", "週五下午", "週六上午", "週六下午",
-  "週日上午", "週日下午"
+// 搜尋結果分頁：一次只渲染 pageSize 筆，按「顯示更多」再往下載入
+const pageSize = 50
+const visibleCount = ref(pageSize)
+const visibleSearchList = computed(() => searchList.value.slice(0, visibleCount.value))
+
+// 時段定義：北大節次 1~4 為上午、5~9 為下午、10~14 為晚上（進修部／碩專班多為晚上）
+const timeDays = ['週一', '週二', '週三', '週四', '週五', '週六', '週日']
+const timePeriods = [
+  { key: 'morning', label: '上午', sessions: [1, 2, 3, 4] },
+  { key: 'afternoon', label: '下午', sessions: [5, 6, 7, 8, 9] },
+  { key: 'evening', label: '晚上', sessions: [10, 11, 12, 13, 14] }
 ]
+const filterTime = timeDays.flatMap(day => timePeriods.map(p => `${day}${p.label}`))
+
+// 課程性質對應到資料中 compulsory 欄位的實際值（教育學程的 教必/教選 併入 必修/選修）
+const courseTypeMapping = {
+  '必修': ['必', '教必'],
+  '選修': ['選', '教選'],
+  '通識': ['通']
+}
 
 // 新的分類篩選系統
 const activeFilters = ref({
-  departments: [],     // 系所篩選 (OR 關係)
-  courseTypes: [],     // 必選修篩選 (OR 關係) 
+  departments: [],     // 系所篩選 (OR 關係)，值為 department_level.category
+  grades: [],          // 年級篩選 (OR 關係)，值為 department_level.grade
+  courseTypes: [],     // 必選修篩選 (OR 關係)
   credits: [],         // 學分數篩選 (OR 關係)
   timeSlots: []        // 時間篩選 (OR 關係)
 })
@@ -491,8 +536,9 @@ const activeFilters = ref({
 // 篩選選項
 const filterOptions = ref({
   departments: [],
-  courseTypes: ['必修', '選修'],
-  credits: ['1', '2', '3', '4+'],
+  grades: ['1', '2', '3', '4', '5'],
+  courseTypes: ['必修', '選修', '通識'],
+  credits: ['0', '1', '2', '3', '4+'],
   timeSlots: filterTime
 })
 
@@ -501,36 +547,31 @@ const departmentInput = ref('')
 
 // 計算屬性
 const hasActiveFilters = computed(() => {
-  return activeFilters.value.departments.length > 0 ||
-         activeFilters.value.courseTypes.length > 0 ||
-         activeFilters.value.credits.length > 0 ||
-         activeFilters.value.timeSlots.length > 0
+  return Object.values(activeFilters.value).some(list => list.length > 0)
 })
 
+// 系所篩選用的名稱：以 category（不含年級班別，如「資工系」）為主；
+// 少數資料 category 為 N/A（多為學程），退回使用 original 全名
+const getLevelDepartment = (level) => {
+  if (level.category && level.category !== 'N/A') return level.category
+  return level.original || ''
+}
+
 const availableDepartments = computed(() => {
-  // 從 department_level 的 original 中提取選項
   const departments = new Set()
-  
-  if (courseData.data && courseData.data.length > 0) {
-    courseData.data.forEach(course => {
-      if (course.department_level && course.department_level.length > 0) {
-        course.department_level.forEach(level => {
-          if (level.original) {
-            departments.add(level.original)
-          }
-        })
-      }
-    })
+  for (const course of courseData.data || []) {
+    for (const level of course.department_level || []) {
+      const name = getLevelDepartment(level)
+      if (name) departments.add(name)
+    }
   }
-  
   return Array.from(departments).sort()
 })
 
 // 輔助函數：產生時間篩選字串
-const getTimeSlot = (day, period) => {
-  const days = ['週一', '週二', '週三', '週四', '週五', '週六', '週日']
-  const periods = { morning: '上午', afternoon: '下午' }
-  return `${days[day - 1]}${periods[period]}`
+const getTimeSlot = (day, periodKey) => {
+  const period = timePeriods.find(p => p.key === periodKey)
+  return `${timeDays[day - 1]}${period ? period.label : ''}`
 }
 
 const selectList = ref([])
@@ -616,6 +657,14 @@ const loadCourseData = async () => {
     const response = await fetch('/clawer/all_course_list.json')
     if (response.ok) {
       const data = await response.json()
+      if (Array.isArray(data.data)) {
+        const seen = new Set()
+        data.data = data.data.filter(course => {
+          if (seen.has(course.courseID)) return false
+          seen.add(course.courseID)
+          return true
+        })
+      }
       Object.assign(courseData, data)
     } else {
       console.error('無法載入課程資料:', response.status)
@@ -625,10 +674,12 @@ const loadCourseData = async () => {
   }
 }
 
-// 新增篩選條件：輸入的文字須完全符合系所清單中的一個選項才會加入（避免打錯字或打到一半就套用篩選）
+// 新增篩選條件：輸入的文字須完全符合系所清單中的一個選項才會加入（避免打錯字或打到一半就套用篩選）。
+// 只有成功加入（或已在清單中）才清空輸入框；打到一半就失焦時保留文字，不會被 change 事件吃掉
 const addDepartmentFilter = () => {
   const value = departmentInput.value.trim()
-  if (value && availableDepartments.value.includes(value) && !activeFilters.value.departments.includes(value)) {
+  if (!value || !availableDepartments.value.includes(value)) return
+  if (!activeFilters.value.departments.includes(value)) {
     activeFilters.value.departments.push(value)
     searchCourse()
   }
@@ -657,10 +708,9 @@ const removeFilter = (category, value) => {
 
 // 清除所有篩選條件
 const clearAllFilters = () => {
-  activeFilters.value.departments = []
-  activeFilters.value.courseTypes = []
-  activeFilters.value.credits = []
-  activeFilters.value.timeSlots = []
+  for (const key of Object.keys(activeFilters.value)) {
+    activeFilters.value[key] = []
+  }
   
   if (searchInput.value) {
     searchCourse()
@@ -778,60 +828,61 @@ const getTableCardColor = (chip) => {
 }
 
 // 搜尋課程
-const searchCourse = () => {
-  // 清空之前的搜尋結果
+// resetPage=false 用於「重新著色／加退選後重算衝突」等不是使用者主動搜尋的情境，保留目前已展開的分頁
+const searchCourse = ({ resetPage = true } = {}) => {
   searchList.value = []
   searchResult.value = ''
-  
-  if (searchInput.value === "" && !hasActiveFilters.value) {
+  if (resetPage) visibleCount.value = pageSize
+
+  if (searchInput.value.trim() === "" && !hasActiveFilters.value) {
     return
   }
   if (!courseData.data || courseData.data.length === 0) return
-  
-  let flag = 0
-  const maxResults = 150
-  const selectedCourses = getCourseSelectStatus() // 只讀取一次 localStorage，避免在迴圈中對每個候選課程重複解析
 
-  for (let i = 0; i < courseData.data.length; i++) {
-    if (flag >= maxResults) {
-      searchResult.value = `找到 ${flag}+ 筆資料，僅顯示前 ${maxResults} 筆資料`
-      break
-    }
-    
-    const tmp = courseData.data[i]
-    
-    // 檢查搜尋關鍵字
-    let keywordMatch = true
-    if (searchInput.value.trim() !== "") {
-      const tmpJson = [
+  // 關鍵字以空白切成多個詞，全部都要出現（AND），例如「資工 演算法」
+  const keywords = searchInput.value.trim().toLowerCase().split(/\s+/).filter(Boolean)
+  const selectedCourses = getCourseSelectStatus() // 只讀取一次 localStorage，避免在迴圈中對每個候選課程重複解析
+  const matched = []
+  let timeUndeterminedCount = 0 // 通過其他條件、但因時間未定而被時間篩選排除的課程數
+
+  for (const tmp of courseData.data) {
+    if (keywords.length > 0) {
+      const haystack = [
         tmp.courseID,
         tmp.title.ch,
         tmp.title.en,
         tmp.teacher.join(' '),
-        tmp.department
-      ]
-      keywordMatch = String(tmpJson).toLowerCase().indexOf(searchInput.value.toLowerCase()) !== -1
+        tmp.department,
+        ...(tmp.department_level || []).map(level => `${level.category || ''} ${level.original || ''}`)
+      ].join(' ').toLowerCase()
+      if (!keywords.every(word => haystack.includes(word))) continue
     }
-    
-    if (keywordMatch) {
-      const filterFlag = verifySearchItem(tmp, selectedCourses)
-      if (filterFlag.result === true) {
-        searchList.value.push({
-          title: tmp.courseID + " " + tmp.title.ch,
-          subtitle: tmp.teacher + " | 學分 / 時數: " + tmp.credit + " / " + tmp.hours,
-          courseID: tmp.courseID,
-          department: tmp.department,
-          course_detail: tmp.course_detail,
-          color: filterFlag.color
-        })
-        flag += 1
-      }
+
+    const filterFlag = verifySearchItem(tmp, selectedCourses)
+    if (filterFlag.result !== true) {
+      if (filterFlag.reason === 'time-undetermined') timeUndeterminedCount += 1
+      continue
     }
+    matched.push({
+      title: tmp.courseID + " " + tmp.title.ch,
+      subtitle: tmp.teacher + " | 學分 / 時數: " + tmp.credit + " / " + tmp.hours,
+      courseID: tmp.courseID,
+      department: tmp.department,
+      course_detail: tmp.course_detail,
+      color: filterFlag.color
+    })
   }
-  
+
+  // 依課號排序，方便在結果中定位
+  matched.sort((a, b) => a.courseID.localeCompare(b.courseID))
+  searchList.value = matched
+
   // 更新搜尋結果提示
-  if (flag === 0) {
+  if (matched.length === 0) {
     searchResult.value = "沒有找到符合條件的課程"
+    if (timeUndeterminedCount > 0) {
+      searchResult.value += `（另有 ${timeUndeterminedCount} 門符合其他條件但上課時間未定的課程，取消時間篩選即可顯示）`
+    }
     searchList.value = [{
       title: "404 Not Found!",
       subtitle: "請修改搜尋條件或篩選條件後重試",
@@ -841,68 +892,65 @@ const searchCourse = () => {
   } else {
     const activeFilterCount = Object.values(activeFilters.value).reduce((total, arr) => total + arr.length, 0)
     const filterText = activeFilterCount > 0 ? ` (已套用 ${activeFilterCount} 個篩選條件)` : ''
-    searchResult.value = `找到 ${flag} 門課程${filterText}`
+    searchResult.value = `找到 ${matched.length} 門課程${filterText}`
+    if (timeUndeterminedCount > 0) {
+      searchResult.value += `，另有 ${timeUndeterminedCount} 門上課時間未定的課程未列出`
+    }
   }
 }
 
 // 驗證搜尋項目 - 新的篩選邏輯 (同類 OR，不同類 AND)
 // 注意：時間衝突一律要檢查（不論是否有套用篩選條件），才能正確標示紅色衝突提示
 const verifySearchItem = (item, selectedCourses) => {
-  // 檢查系所篩選 (OR 關係)
-  if (activeFilters.value.departments.length > 0) {
-    const departmentMatch = activeFilters.value.departments.some(dept => {
-      // 檢查 department_level 中的 original
-      if (item.department_level && item.department_level.length > 0) {
-        return item.department_level.some(level => 
-          level.original && level.original === dept
-        )
-      }
-      return false
-    })
-    if (!departmentMatch) return { result: false, color: "" }
-  }
-  
-  // 檢查必選修篩選 (OR 關係)  
-  if (activeFilters.value.courseTypes.length > 0) {
-    const courseTypeMatch = activeFilters.value.courseTypes.some(type => {
-      // 檢查 item 的必選修資訊
-      if (item.compulsory && item.compulsory.length > 0) {
-        return item.compulsory.some(comp => {
-          // 將篩選條件轉換為對應的簡寫形式
-          if (type === '必修' && comp === '必') return true
-          if (type === '選修' && comp === '選') return true
-          return false
-        })
-      }
-      return false
-    })
-    if (!courseTypeMatch) return { result: false, color: "" }
+  // 系所與必選修需一起判斷：department_level[i] 與 compulsory[i] 一一對應，
+  // 同一門課對甲系可能是必修、對乙系是選修，不能各自獨立比對。
+  // （通識向度如「105-向度二」會多出 department_level 但沒有對應的 compulsory，配對時略過即可）
+  const departments = activeFilters.value.departments
+  const grades = activeFilters.value.grades
+  const courseTypes = activeFilters.value.courseTypes
+  if (departments.length > 0 || grades.length > 0 || courseTypes.length > 0) {
+    const levels = item.department_level || []
+    const compulsory = item.compulsory || []
+    const acceptedCodes = courseTypes.flatMap(type => courseTypeMapping[type] || [])
+    const pairCount = Math.max(levels.length, compulsory.length)
+
+    let matched = false
+    for (let i = 0; i < pairCount && !matched; i++) {
+      const level = levels[i]
+      const code = compulsory[i]
+      const deptOk = departments.length === 0 || (level !== undefined && departments.includes(getLevelDepartment(level)))
+      const gradeOk = grades.length === 0 || (level !== undefined && grades.includes(String(level.grade)))
+      const typeOk = courseTypes.length === 0 || (code !== undefined && acceptedCodes.includes(code))
+      matched = deptOk && gradeOk && typeOk
+    }
+    if (!matched) return { result: false, color: "" }
   }
   
   // 檢查學分數篩選 (OR 關係)
   if (activeFilters.value.credits.length > 0) {
     const courseCredits = item.credit ? parseInt(item.credit) : 0
     const creditMatch = activeFilters.value.credits.some(creditRange => {
-      if (creditRange === '1') return courseCredits === 1
-      if (creditRange === '2') return courseCredits === 2
-      if (creditRange === '3') return courseCredits === 3
-      if (creditRange === '4+') return courseCredits >= 4
-      return false
+      if (creditRange.endsWith('+')) return courseCredits >= parseInt(creditRange)
+      return courseCredits === parseInt(creditRange)
     })
     if (!creditMatch) return { result: false, color: "" }
   }
   
-  // 檢查時間篩選 (OR 關係)
+  // 檢查時間篩選 (OR 關係)；時間未定的課程另外計數，讓使用者知道有課被排除
   if (activeFilters.value.timeSlots.length > 0) {
-    const timeMatch = activeFilters.value.timeSlots.some(timeSlot => 
+    const timeMatch = activeFilters.value.timeSlots.some(timeSlot =>
       checkTimeFilter(item, timeSlot)
     )
-    if (!timeMatch) return { result: false, color: "" }
+    if (!timeMatch) {
+      const hasAnyValidTime = (item.course_detail || []).some(isValidCourseDetail)
+      return { result: false, color: "", reason: hasAnyValidTime ? 'time' : 'time-undetermined' }
+    }
   }
 
   // 檢查時間衝突（所有篩選條件都通過後，一律檢查）
   let hasConflict = false
   for (const selectedCourse of selectedCourses) {
+    if (selectedCourse.courseID === item.courseID) continue // 已選的課不必和自己比對
     if (hasTimeConflict(item, selectedCourse)) {
       hasConflict = true
       break
@@ -913,24 +961,13 @@ const verifySearchItem = (item, selectedCourses) => {
 }
 
 // 檢查時間篩選
+const timeMapping = Object.fromEntries(
+  timeDays.flatMap((day, idx) =>
+    timePeriods.map(p => [`${day}${p.label}`, { day: idx + 1, sessions: p.sessions }])
+  )
+)
+
 const checkTimeFilter = (course, timeFilter) => {
-  const timeMapping = {
-    "週一上午": { day: 1, sessions: [1, 2, 3, 4] },
-    "週一下午": { day: 1, sessions: [5, 6, 7, 8, 9] },
-    "週二上午": { day: 2, sessions: [1, 2, 3, 4] },
-    "週二下午": { day: 2, sessions: [5, 6, 7, 8, 9] },
-    "週三上午": { day: 3, sessions: [1, 2, 3, 4] },
-    "週三下午": { day: 3, sessions: [5, 6, 7, 8, 9] },
-    "週四上午": { day: 4, sessions: [1, 2, 3, 4] },
-    "週四下午": { day: 4, sessions: [5, 6, 7, 8, 9] },
-    "週五上午": { day: 5, sessions: [1, 2, 3, 4] },
-    "週五下午": { day: 5, sessions: [5, 6, 7, 8, 9] },
-    "週六上午": { day: 6, sessions: [1, 2, 3, 4] },
-    "週六下午": { day: 6, sessions: [5, 6, 7, 8, 9] },
-    "週日上午": { day: 7, sessions: [1, 2, 3, 4] },
-    "週日下午": { day: 7, sessions: [5, 6, 7, 8, 9] }
-  }
-  
   const filter = timeMapping[timeFilter]
   if (!filter) return false
   
@@ -950,11 +987,13 @@ const hasTimeConflict = (course1, course2) => {
     if (!isValidCourseDetail(detail1)) continue // 課程時間未定，無法比較是否衝突
     for (const detail2 of course2.course_detail) {
       if (!isValidCourseDetail(detail2)) continue
-      if (detail1.courseTime === detail2.courseTime) {
-        // 檢查時段是否有重疊
-        const hasOverlap = detail1.sessions.some(session => detail2.sessions.includes(session))
-        if (hasOverlap) return true
-      }
+      if (detail1.courseTime !== detail2.courseTime) continue
+      // 單週(O)與雙週(E)的課在同一時段不會真的撞到；每週(A)則與兩者都衝突
+      const isAlternating = (a, b) => (a === 'O' && b === 'E') || (a === 'E' && b === 'O')
+      if (isAlternating(detail1.time_category, detail2.time_category)) continue
+      // 檢查時段是否有重疊
+      const hasOverlap = detail1.sessions.some(session => detail2.sessions.includes(session))
+      if (hasOverlap) return true
     }
   }
   return false
@@ -1009,8 +1048,8 @@ const changeCourseSelectStatus = (ID) => {
   // 強制更新已選課程列表
   selectListMaker()
   
-  // 更新搜尋結果（重新計算顏色和衝突狀態）
-  searchCourse()
+  // 更新搜尋結果（重新計算顏色和衝突狀態），保留使用者已展開的分頁
+  searchCourse({ resetPage: false })
 }
 
 // 寫入課程到課表
@@ -1901,7 +1940,8 @@ watch(isDarkMode, () => {
 }
 
 .time-btn {
-  padding: 0.3rem 0.5rem;
+  padding: 0.3rem 0.2rem;
+  white-space: nowrap; /* 側欄較窄時仍讓「上午／下午／晚上」維持一行 */
   background: #f5f5f5;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -1956,6 +1996,11 @@ watch(isDarkMode, () => {
 .dark-mode .btn-outline {
   color: #cbd5e0 !important;
   border: 1px solid #666 !important;
+}
+
+.load-more-btn {
+  width: 100%;
+  margin-top: 0.5rem;
 }
 
 .btn-outline:hover {
