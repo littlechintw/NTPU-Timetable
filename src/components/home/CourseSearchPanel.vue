@@ -528,6 +528,10 @@ const addDepartment = () => {
   color: #cbd5e0 !important;
 }
 
+.dark-mode .course-info-text small {
+  color: #e2e8f0 !important;
+}
+
 @media (max-width: 768px) {
   .search-form {
     flex-direction: column;
