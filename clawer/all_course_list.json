@@ -1,7 +1,7 @@
 {
-    "start_time": "2026-09-09 16:25:58",
-    "end_time": "2026-09-09 16:26:24",
-    "total_courses": 2520,
+    "start_time": "2026-09-11 16:18:57",
+    "end_time": "2026-09-11 16:19:26",
+    "total_courses": 2521,
     "failed_weeks": [],
     "data": [
         {
@@ -8039,7 +8039,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "47"
+            "max_people": "55"
         },
         {
             "year": "115",
@@ -8319,7 +8319,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "16"
         },
         {
             "year": "115",
@@ -8372,7 +8372,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "16"
         },
         {
             "year": "115",
@@ -8425,7 +8425,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "16"
         },
         {
             "year": "115",
@@ -8478,7 +8478,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "16"
         },
         {
             "year": "115",
@@ -9146,8 +9146,8 @@
                     "original": "實習每週一3~4\t商2F05"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "7",
             "max_people": "70"
         },
         {
@@ -18457,12 +18457,12 @@
                         7,
                         8
                     ],
-                    "place": "文2F10",
-                    "original": "每週一7~8\t文2F10"
+                    "place": "文4F06_互動",
+                    "original": "每週一7~8\t文4F06_互動"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "46"
         },
         {
@@ -20933,8 +20933,8 @@
                     "original": "每週一5~7\t商8F18"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "3",
             "max_people": "10"
         },
         {
@@ -24548,7 +24548,7 @@
                 "ch": "財務管理",
                 "en": "Financial Management",
                 "limit": false,
-                "other": "開放隨班附讀。"
+                "other": "[停開]開放隨班附讀。\n*1150910依系所通知停開。"
             },
             "teacher": [
                 "賴科宏"
@@ -39575,8 +39575,8 @@
                         5,
                         6
                     ],
-                    "place": "公2F36",
-                    "original": "每週二5~6\t公2F36"
+                    "place": "公1F27",
+                    "original": "每週二5~6\t公1F27"
                 }
             ],
             "sign": "否",
@@ -40030,7 +40030,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "35"
+            "max_people": "37"
         },
         {
             "year": "115",
@@ -40103,7 +40103,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "35"
+            "max_people": "37"
         },
         {
             "year": "115",
@@ -41432,7 +41432,7 @@
             ],
             "sign": "是",
             "sign_people": "2",
-            "max_people": "12"
+            "max_people": "15"
         },
         {
             "year": "115",
@@ -45456,7 +45456,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "101"
+            "max_people": "103"
         },
         {
             "year": "115",
@@ -53507,8 +53507,8 @@
                     "original": "每週二7~8\t公1F01"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "9",
             "max_people": "32"
         },
         {
@@ -53871,8 +53871,8 @@
                         5,
                         6
                     ],
-                    "place": "公1F27",
-                    "original": "每週二5~6\t公1F27"
+                    "place": "公2F36",
+                    "original": "每週二5~6\t公2F36"
                 }
             ],
             "sign": "否",
@@ -54295,8 +54295,8 @@
                         5,
                         6
                     ],
-                    "place": "公2F06",
-                    "original": "每週二5~6\t公2F06"
+                    "place": "公1F20",
+                    "original": "每週二5~6\t公1F20"
                 }
             ],
             "sign": "否",
@@ -57443,7 +57443,7 @@
                 "ch": "全球化與地緣政治",
                 "en": "Globalization and Geopolitics",
                 "limit": false,
-                "other": " "
+                "other": "Social Science Building 111"
             },
             "teacher": [
                 "李莎蕊"
@@ -57456,13 +57456,9 @@
                 {
                     "courseTime": 2,
                     "time_category": "A",
-                    "sessions": [
-                        5,
-                        6,
-                        7
-                    ],
-                    "place": "社108",
-                    "original": "每週二5~7\t社108"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二5~7"
                 }
             ],
             "sign": "否",
@@ -58391,7 +58387,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "15"
+            "max_people": "16"
         },
         {
             "year": "115",
@@ -60364,8 +60360,8 @@
                     "original": "每週二5~7\t商1F01"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "8",
             "max_people": "42"
         },
         {
@@ -63204,8 +63200,8 @@
                     "original": "每週二5~7\t商1F01"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "6",
             "max_people": "60"
         },
         {
@@ -64300,7 +64296,7 @@
                 "ch": "全球化與地緣政治",
                 "en": "Globalization and Geopolitics",
                 "limit": false,
-                "other": "與城市治理M5185課程為學碩合開，請開在同一間教室(公院或社科)"
+                "other": "Social Science Building 111"
             },
             "teacher": [
                 "李莎蕊"
@@ -64313,13 +64309,9 @@
                 {
                     "courseTime": 2,
                     "time_category": "A",
-                    "sessions": [
-                        5,
-                        6,
-                        7
-                    ],
-                    "place": "社108",
-                    "original": "每週二5~7\t社108"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週二5~7"
                 }
             ],
             "sign": "否",
@@ -66296,8 +66288,8 @@
                     "original": "每週二12~13\t310"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "4",
             "max_people": "20"
         },
         {
@@ -67029,7 +67021,7 @@
                 "ch": "網路生活應用",
                 "en": "Internet Applications in Our Daily Life",
                 "limit": false,
-                "other": " "
+                "other": "1150910通知上課教室異動"
             },
             "teacher": [
                 "溫演福"
@@ -67046,12 +67038,12 @@
                         3,
                         4
                     ],
-                    "place": "法2F03",
-                    "original": "每週二3~4\t法2F03"
+                    "place": "商1F01",
+                    "original": "每週二3~4\t商1F01"
                 }
             ],
             "sign": "是",
-            "sign_people": "35",
+            "sign_people": "76",
             "max_people": "80"
         },
         {
@@ -67774,8 +67766,8 @@
                     "original": "每週二7~8\t文2F08"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "6",
             "max_people": "60"
         },
         {
@@ -68081,13 +68073,64 @@
                         5,
                         6
                     ],
-                    "place": "社102",
-                    "original": "每週二5~6\t社102"
+                    "place": "社104",
+                    "original": "每週二5~6\t社104"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
             "max_people": "60"
+        },
+        {
+            "year": "115",
+            "semester": "1",
+            "courseID": "U4444",
+            "department": "師培中心",
+            "department_level": [
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "通識4"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "通識",
+                    "original": "105-向度二"
+                }
+            ],
+            "compulsory": [
+                "通"
+            ],
+            "title": {
+                "ch": "個人成長與家庭",
+                "en": "Personal Growth and Family",
+                "limit": false,
+                "other": " "
+            },
+            "teacher": [
+                "林維能"
+            ],
+            "category": "半",
+            "credit": "2",
+            "hours": "2",
+            "language": "中文",
+            "course_detail": [
+                {
+                    "courseTime": 2,
+                    "time_category": "A",
+                    "sessions": [
+                        5,
+                        6
+                    ],
+                    "place": "文4F06_互動",
+                    "original": "每週二5~6\t文4F06_互動"
+                }
+            ],
+            "sign": "否",
+            "sign_people": "-",
+            "max_people": "25"
         },
         {
             "year": "115",
@@ -74162,7 +74205,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "81"
+            "max_people": "83"
         },
         {
             "year": "115",
@@ -74481,7 +74524,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "57"
+            "max_people": "59"
         },
         {
             "year": "115",
@@ -74601,7 +74644,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "57"
+            "max_people": "59"
         },
         {
             "year": "115",
@@ -75146,7 +75189,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "58"
+            "max_people": "59"
         },
         {
             "year": "115",
@@ -75480,7 +75523,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "58"
+            "max_people": "59"
         },
         {
             "year": "115",
@@ -75625,8 +75668,8 @@
                     "original": "實習每週一3~4\t商2F05"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "7",
             "max_people": "70"
         },
         {
@@ -76365,7 +76408,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "58"
+            "max_people": "59"
         },
         {
             "year": "115",
@@ -79877,7 +79920,7 @@
                 "ch": "經濟學原理",
                 "en": "Principles of Economics",
                 "limit": false,
-                "other": "限修85人。外籍生(含僑生)限修最多3人。\n敬請安排社104教室。"
+                "other": "限修86人。外籍生(含僑生)限修最多3人。\n敬請安排社104教室。"
             },
             "teacher": [
                 "陳孝琪",
@@ -79921,7 +79964,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "85"
+            "max_people": "86"
         },
         {
             "year": "115",
@@ -79999,7 +80042,7 @@
                 "ch": "經濟學原理",
                 "en": "Principles of Economics",
                 "limit": false,
-                "other": "限修85人。\n實習課敬請安排與正課相同教室，請勿安排社114。"
+                "other": "限修86人。\n實習課敬請安排與正課相同教室，請勿安排社114。"
             },
             "teacher": [
                 "陳盈臻",
@@ -80017,8 +80060,8 @@
                         3,
                         4
                     ],
-                    "place": "社105",
-                    "original": "每週三3~4\t社105"
+                    "place": "商1F02",
+                    "original": "每週三3~4\t商1F02"
                 },
                 {
                     "courseTime": 4,
@@ -80027,28 +80070,8 @@
                         3,
                         4
                     ],
-                    "place": "社105",
-                    "original": "每週四3~4\t社105"
-                },
-                {
-                    "courseTime": 4,
-                    "time_category": "O",
-                    "sessions": [
-                        1,
-                        2
-                    ],
-                    "place": "電1F02",
-                    "original": "單週四1~2\t電1F02"
-                },
-                {
-                    "courseTime": 4,
-                    "time_category": "O",
-                    "sessions": [
-                        3,
-                        4
-                    ],
-                    "place": "電1F02",
-                    "original": "單週四3~4\t電1F02"
+                    "place": "商1F02",
+                    "original": "每週四3~4\t商1F02"
                 },
                 {
                     "courseTime": 4,
@@ -80057,13 +80080,13 @@
                         1,
                         2
                     ],
-                    "place": "社105",
-                    "original": "實習每週四1~2\t社105"
+                    "place": "商1F02",
+                    "original": "實習每週四1~2\t商1F02"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "85"
+            "max_people": "86"
         },
         {
             "year": "115",
@@ -83378,8 +83401,8 @@
                         3,
                         4
                     ],
-                    "place": "文2F07",
-                    "original": "每週三3~4\t文2F07"
+                    "place": "文1F10",
+                    "original": "每週三3~4\t文1F10"
                 }
             ],
             "sign": "是",
@@ -83488,7 +83511,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "84"
+            "max_people": "86"
         },
         {
             "year": "115",
@@ -86980,8 +87003,8 @@
                         3,
                         4
                     ],
-                    "place": "文1F10",
-                    "original": "每週三3~4\t文1F10"
+                    "place": "文2F07",
+                    "original": "每週三3~4\t文2F07"
                 }
             ],
             "sign": "是",
@@ -95873,8 +95896,8 @@
                     "original": "每週三12~13\t310"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "6",
             "max_people": "30"
         },
         {
@@ -98585,7 +98608,7 @@
                 }
             ],
             "sign": "是",
-            "sign_people": "12",
+            "sign_people": "15",
             "max_people": "60"
         },
         {
@@ -103661,13 +103684,13 @@
                         3,
                         4
                     ],
-                    "place": "法2F16",
-                    "original": "每週四3~4\t法2F16"
+                    "place": "法2F01",
+                    "original": "每週四3~4\t法2F01"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "110"
+            "max_people": "120"
         },
         {
             "year": "115",
@@ -103939,8 +103962,8 @@
                         5,
                         6
                     ],
-                    "place": "文3F01_L",
-                    "original": "每週四5~6\t文3F01_L"
+                    "place": "文3F10_L",
+                    "original": "每週四5~6\t文3F10_L"
                 }
             ],
             "sign": "否",
@@ -104583,8 +104606,8 @@
                     "original": "每週四7~8\t公1F27"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "3",
             "max_people": "70"
         },
         {
@@ -106762,7 +106785,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "68"
+            "max_people": "71"
         },
         {
             "year": "115",
@@ -106850,7 +106873,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "68"
+            "max_people": "71"
         },
         {
             "year": "115",
@@ -108612,7 +108635,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "68"
+            "max_people": "71"
         },
         {
             "year": "115",
@@ -112387,7 +112410,7 @@
                 "ch": "經濟學原理",
                 "en": "Principles of Economics",
                 "limit": false,
-                "other": "限修85人。外籍生(含僑生)限修最多3人。\n敬請安排社104教室。"
+                "other": "限修86人。外籍生(含僑生)限修最多3人。\n敬請安排社104教室。"
             },
             "teacher": [
                 "陳孝琪",
@@ -112431,7 +112454,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "85"
+            "max_people": "86"
         },
         {
             "year": "115",
@@ -112565,7 +112588,7 @@
                 "ch": "經濟學原理",
                 "en": "Principles of Economics",
                 "limit": false,
-                "other": "限修85人。\n實習課敬請安排與正課相同教室，請勿安排社114。"
+                "other": "限修86人。\n實習課敬請安排與正課相同教室，請勿安排社114。"
             },
             "teacher": [
                 "陳盈臻",
@@ -112583,8 +112606,8 @@
                         3,
                         4
                     ],
-                    "place": "社105",
-                    "original": "每週三3~4\t社105"
+                    "place": "商1F02",
+                    "original": "每週三3~4\t商1F02"
                 },
                 {
                     "courseTime": 4,
@@ -112593,28 +112616,8 @@
                         3,
                         4
                     ],
-                    "place": "社105",
-                    "original": "每週四3~4\t社105"
-                },
-                {
-                    "courseTime": 4,
-                    "time_category": "O",
-                    "sessions": [
-                        1,
-                        2
-                    ],
-                    "place": "電1F02",
-                    "original": "單週四1~2\t電1F02"
-                },
-                {
-                    "courseTime": 4,
-                    "time_category": "O",
-                    "sessions": [
-                        3,
-                        4
-                    ],
-                    "place": "電1F02",
-                    "original": "單週四3~4\t電1F02"
+                    "place": "商1F02",
+                    "original": "每週四3~4\t商1F02"
                 },
                 {
                     "courseTime": 4,
@@ -112623,13 +112626,13 @@
                         1,
                         2
                     ],
-                    "place": "社105",
-                    "original": "實習每週四1~2\t社105"
+                    "place": "商1F02",
+                    "original": "實習每週四1~2\t商1F02"
                 }
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "85"
+            "max_people": "86"
         },
         {
             "year": "115",
@@ -113161,7 +113164,7 @@
                 "ch": "桌球（二）",
                 "en": "Table Tennis（Ⅱ）",
                 "limit": false,
-                "other": " "
+                "other": "1150911異動上課教室"
             },
             "teacher": [
                 "吳慧卿"
@@ -113178,8 +113181,8 @@
                         7,
                         8
                     ],
-                    "place": "商1F15",
-                    "original": "每週四7~8\t商1F15"
+                    "place": "商2F13",
+                    "original": "每週四7~8\t商2F13"
                 }
             ],
             "sign": "是",
@@ -114464,8 +114467,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F01",
-                    "original": "每週四3~4\t法2F01"
+                    "place": "法2F16",
+                    "original": "每週四3~4\t法2F16"
                 }
             ],
             "sign": "否",
@@ -115293,8 +115296,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F16",
-                    "original": "每週四3~4\t法2F16"
+                    "place": "法2F01",
+                    "original": "每週四3~4\t法2F01"
                 }
             ],
             "sign": "否",
@@ -116574,8 +116577,8 @@
                         3,
                         4
                     ],
-                    "place": "法2F01",
-                    "original": "每週四3~4\t法2F01"
+                    "place": "法2F16",
+                    "original": "每週四3~4\t法2F16"
                 }
             ],
             "sign": "否",
@@ -119605,7 +119608,7 @@
                 "ch": "商業報導選讀（CEFR B1）",
                 "en": "Selected Readings in Business（CEFR B1）",
                 "limit": true,
-                "other": "Recommended for international students who have CEFR B1 level or above."
+                "other": "[停開]依系所1150910通知，本課程停開。Recommended for international students who have CEFR B1 level or above."
             },
             "teacher": [
                 "趙雪君"
@@ -121730,7 +121733,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "28"
+            "max_people": "35"
         },
         {
             "year": "115",
@@ -122784,7 +122787,7 @@
             ],
             "sign": "是",
             "sign_people": "2",
-            "max_people": "12"
+            "max_people": "15"
         },
         {
             "year": "115",
@@ -124218,8 +124221,8 @@
                         3,
                         4
                     ],
-                    "place": "商7F40",
-                    "original": "每週四2~4\t商7F40"
+                    "place": "商8F40",
+                    "original": "每週四2~4\t商8F40"
                 }
             ],
             "sign": "是",
@@ -124260,7 +124263,7 @@
                 "ch": "國際行銷管理",
                 "en": "International Marketing Management",
                 "limit": false,
-                "other": " "
+                "other": "[停開]1150910通知停開"
             },
             "teacher": [
                 "蔡顯童",
@@ -124987,8 +124990,8 @@
                         3,
                         4
                     ],
-                    "place": "商8F40",
-                    "original": "每週四2~4\t商8F40"
+                    "place": "商7F40",
+                    "original": "每週四2~4\t商7F40"
                 }
             ],
             "sign": "是",
@@ -128140,7 +128143,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "75"
+            "max_people": "83"
         },
         {
             "year": "115",
@@ -130703,7 +130706,7 @@
                 "ch": "時代與歷史",
                 "en": "Time and History",
                 "limit": true,
-                "other": "請排文學院2樓的教室。謝謝。此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為50人。歷史系學生選讀，不列入其通識畢業學分數。"
+                "other": "1150911異動上課教室。請排文學院2樓的教室。謝謝。此為大學入門課程，志願選課階段限1、2年級選讀，加退選階段開放所有年級選讀。總人數限制為50人。歷史系學生選讀，不列入其通識畢業學分數。"
             },
             "teacher": [
                 "何淑宜"
@@ -130720,8 +130723,8 @@
                         7,
                         8
                     ],
-                    "place": "商2F13",
-                    "original": "每週四7~8\t商2F13"
+                    "place": "商1F15",
+                    "original": "每週四7~8\t商1F15"
                 }
             ],
             "sign": "否",
@@ -137772,8 +137775,8 @@
                         7,
                         8
                     ],
-                    "place": "文2F12",
-                    "original": "每週五7~8\t文2F12"
+                    "place": "文2F08",
+                    "original": "每週五7~8\t文2F08"
                 }
             ],
             "sign": "是",
@@ -138725,8 +138728,8 @@
                         3,
                         4
                     ],
-                    "place": "社B02",
-                    "original": "每週五3~4\t社B02"
+                    "place": "社103",
+                    "original": "每週五3~4\t社103"
                 }
             ],
             "sign": "否",
@@ -141844,7 +141847,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "105"
+            "max_people": "110"
         },
         {
             "year": "115",
@@ -141975,13 +141978,9 @@
                 {
                     "courseTime": 5,
                     "time_category": "A",
-                    "sessions": [
-                        2,
-                        3,
-                        4
-                    ],
-                    "place": "社110",
-                    "original": "每週五2~4\t社110"
+                    "sessions": "N/A",
+                    "place": "N/A",
+                    "original": "每週五2~4"
                 }
             ],
             "sign": "否",
@@ -144063,7 +144062,7 @@
                 "ch": "海商法",
                 "en": "Maritime Law",
                 "limit": true,
-                "other": "1.限法碩法專組學生修習，與學士班合班。2.先修科目：民法總則。"
+                "other": "[停開]1.限法碩法專組學生修習，與學士班合班。2.先修科目：民法總則。"
             },
             "teacher": [
                 "許美玲"
@@ -145780,8 +145779,8 @@
                         5,
                         6
                     ],
-                    "place": "公2F35_互動",
-                    "original": "每週五5~6\t公2F35_互動"
+                    "place": "公2F06",
+                    "original": "每週五5~6\t公2F06"
                 }
             ],
             "sign": "否",
@@ -147233,7 +147232,7 @@
                 "ch": "海商法",
                 "en": "Maritime Law",
                 "limit": true,
-                "other": "先修科目：民法總則。"
+                "other": "[停開]先修科目：民法總則。"
             },
             "teacher": [
                 "許美玲"
@@ -148845,8 +148844,8 @@
                         3,
                         4
                     ],
-                    "place": "文3F02_L",
-                    "original": "每週五3~4\t文3F02_L"
+                    "place": "文4F06_互動",
+                    "original": "每週五3~4\t文4F06_互動"
                 }
             ],
             "sign": "否",
@@ -151980,7 +151979,7 @@
             ],
             "sign": "是",
             "sign_people": "6",
-            "max_people": "35"
+            "max_people": "40"
         },
         {
             "year": "115",
@@ -152397,7 +152396,7 @@
                 "ch": "巨量資料分析",
                 "en": "Big Data Analysis",
                 "limit": false,
-                "other": " "
+                "other": "1150911通知上課教室異動"
             },
             "teacher": [
                 "郭盈旻"
@@ -152415,8 +152414,8 @@
                         6,
                         7
                     ],
-                    "place": "商1F09",
-                    "original": "每週五5~7\t商1F09"
+                    "place": "商3F10",
+                    "original": "每週五5~7\t商3F10"
                 }
             ],
             "sign": "否",
@@ -153328,8 +153327,8 @@
                     "original": "每週五5~7\t商2F06"
                 }
             ],
-            "sign": "否",
-            "sign_people": "-",
+            "sign": "是",
+            "sign_people": "7",
             "max_people": "85"
         },
         {
@@ -153418,7 +153417,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "40"
+            "max_people": "60"
         },
         {
             "year": "115",
@@ -158610,7 +158609,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "51"
+            "max_people": "52"
         },
         {
             "year": "115",
@@ -158684,7 +158683,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "51"
+            "max_people": "52"
         },
         {
             "year": "115",
@@ -158758,7 +158757,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "51"
+            "max_people": "52"
         },
         {
             "year": "115",
@@ -163078,7 +163077,7 @@
             ],
             "sign": "否",
             "sign_people": "-",
-            "max_people": "0"
+            "max_people": "3"
         },
         {
             "year": "115",
