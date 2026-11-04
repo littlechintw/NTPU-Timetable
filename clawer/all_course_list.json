@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-10-21 16:51:48",
-    "end_time": "2026-10-21 16:52:19",
+    "start_time": "2026-11-04 19:31:46",
+    "end_time": "2026-11-04 19:32:12",
     "total_courses": 2521,
     "failed_weeks": [],
     "data": [
@@ -17024,7 +17024,7 @@
                 "ch": "大數據AI品牌行銷",
                 "en": "Big Data AI Brand Marketing",
                 "limit": false,
-                "other": "教室：教學大樓7F13。已修習「P2020 大數據暨品牌行銷」者，本課程學分不得重複採計為畢業學分。"
+                "other": "教室：教學大樓7F13。"
             },
             "teacher": [
                 "楊溥泰",
@@ -25555,8 +25555,8 @@
                         6,
                         7
                     ],
-                    "place": "社202",
-                    "original": "每週一5~7\t社202"
+                    "place": "社201",
+                    "original": "每週一5~7\t社201"
                 }
             ],
             "sign": "否",
@@ -27067,7 +27067,7 @@
             "year": "115",
             "semester": "1",
             "courseID": "U3211",
-            "department": "AI聯盟",
+            "department": "不動產城鄉系",
             "department_level": [
                 {
                     "grade": "3",
@@ -32160,8 +32160,8 @@
                         3,
                         4
                     ],
-                    "place": "社202",
-                    "original": "每週一3~4\t社202"
+                    "place": "社201",
+                    "original": "每週一3~4\t社201"
                 }
             ],
             "sign": "否",
@@ -55356,11 +55356,25 @@
                 {
                     "grade": "N/A",
                     "class": "N/A",
+                    "category": "學分學程",
+                    "original": "醫療科技暨法律學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
                     "category": "微學程",
                     "original": "法政策學—永續發展學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "選",
+                "選",
                 "選",
                 "選",
                 "選",
@@ -58518,7 +58532,7 @@
             "year": "115",
             "semester": "1",
             "courseID": "M5318",
-            "department": "AI聯盟碩士班",
+            "department": "經碩",
             "department_level": [
                 {
                     "grade": "1",
@@ -58578,7 +58592,7 @@
             "year": "115",
             "semester": "1",
             "courseID": "M5319",
-            "department": "AI聯盟碩士班",
+            "department": "資工碩",
             "department_level": [
                 {
                     "grade": "1",
@@ -63601,7 +63615,7 @@
             "year": "115",
             "semester": "1",
             "courseID": "U3231",
-            "department": "AI聯盟",
+            "department": "經濟系",
             "department_level": [
                 {
                     "grade": "3",
@@ -64419,7 +64433,7 @@
             "year": "115",
             "semester": "1",
             "courseID": "U4181",
-            "department": "AI聯盟",
+            "department": "資工系",
             "department_level": [
                 {
                     "grade": "4",
@@ -94320,7 +94334,7 @@
             "year": "115",
             "semester": "1",
             "courseID": "U3223",
-            "department": "AI聯盟",
+            "department": "統計系",
             "department_level": [
                 {
                     "grade": "3",
@@ -100211,7 +100225,7 @@
                 "必"
             ],
             "title": {
-                "ch": "計算機程式設計實習",
+                "ch": "計算機程式設計實驗",
                 "en": "Computer Programming Lab.",
                 "limit": true,
                 "other": "請安排資1F10教室"
@@ -142742,8 +142756,8 @@
                         5,
                         6
                     ],
-                    "place": "法2F25",
-                    "original": "每週五5~6\t法2F25"
+                    "place": "法5F18",
+                    "original": "每週五5~6\t法5F18"
                 }
             ],
             "sign": "是",
