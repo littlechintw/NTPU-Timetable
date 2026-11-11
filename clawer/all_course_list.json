@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-11-04 19:31:46",
-    "end_time": "2026-11-04 19:32:12",
+    "start_time": "2026-11-11 19:23:40",
+    "end_time": "2026-11-11 19:24:09",
     "total_courses": 2521,
     "failed_weeks": [],
     "data": [
@@ -1381,7 +1381,7 @@
             ],
             "title": {
                 "ch": "口腔暨生醫科技特論(一)",
-                "en": "",
+                "en": "Special topics in biotechnology research (I)",
                 "limit": false,
                 "other": "授課教師：王慶順／學制名稱：日間學制／系所名稱：口腔醫學院博士班共同整合課程／上課校區：口腔1F多功能討論室3／上課地點：信義校區／備註："
             },
@@ -5054,7 +5054,7 @@
             "teacher": [
                 "陳宇翔"
             ],
-            "category": "全",
+            "category": "半",
             "credit": "2",
             "hours": "2",
             "language": "中文",
@@ -5366,7 +5366,7 @@
             "teacher": [
                 "陳克瀚"
             ],
-            "category": "全",
+            "category": "半",
             "credit": "2",
             "hours": "2",
             "language": "中文",
@@ -5557,7 +5557,7 @@
             "teacher": [
                 "張毓芬"
             ],
-            "category": "全",
+            "category": "半",
             "credit": "2",
             "hours": "2",
             "language": "中文",
@@ -11816,7 +11816,7 @@
             ],
             "title": {
                 "ch": "工程數學(一)",
-                "en": "",
+                "en": "Engineering Mathematics (I)",
                 "limit": false,
                 "other": "教師：馬權威／開課班級：機械二甲／教室：三教303(e)，課程僅限日間部學生修習"
             },
@@ -11966,7 +11966,7 @@
             ],
             "title": {
                 "ch": "電路學(一)",
-                "en": "",
+                "en": "Electric Circuit Theory (I)",
                 "limit": false,
                 "other": "教師：陳晏笙／開課班級：電子二甲／教室：先鋒501 (e)，課程僅限日間部學生修習"
             },
@@ -12016,7 +12016,7 @@
             ],
             "title": {
                 "ch": "電路學(一)",
-                "en": "",
+                "en": "Electric Circuit Theory (I)",
                 "limit": false,
                 "other": "教師：陳晏笙／開課班級：電子二乙／教室：先鋒501 (e)，課程僅限日間部學生修習"
             },
@@ -12066,7 +12066,7 @@
             ],
             "title": {
                 "ch": "作業研究(一)",
-                "en": "",
+                "en": "Operations Research I",
                 "limit": false,
                 "other": "教師：蔡佩芳／開課班級：工管二甲／教室：六教625(e)，課程僅限日間部學生修習"
             },
@@ -12116,7 +12116,7 @@
             ],
             "title": {
                 "ch": "統計學(一)",
-                "en": "",
+                "en": "Statistics (I)",
                 "limit": false,
                 "other": "教師：張漢利／開課班級：工管二乙／教室：六教727(e)、六教527(e)，課程僅限日間部學生修習"
             },
@@ -12166,7 +12166,7 @@
             ],
             "title": {
                 "ch": "作業研究(一)",
-                "en": "",
+                "en": "Operations Research I",
                 "limit": false,
                 "other": "教師：蔡佩芳／開課班級：工管二乙／教室：六教525(e)、六教625(e)，課程僅限日間部學生修習"
             },
@@ -12319,7 +12319,7 @@
             ],
             "title": {
                 "ch": "工程數學(一)",
-                "en": "",
+                "en": "Engineering Mathematics (I)",
                 "limit": false,
                 "other": "教師：李士修／開課班級：電資二／教室：二教204(e)，課程僅限日間部學生修習"
             },
@@ -12419,7 +12419,7 @@
             ],
             "title": {
                 "ch": "工程材料學",
-                "en": "",
+                "en": "Engineering Materials",
                 "limit": false,
                 "other": "授課教師：張宏宜／開課系所：機械與機電工程學系／上課教室：機械B館429／課程備註：大學部三年級以上　"
             },
@@ -15541,7 +15541,7 @@
             ],
             "title": {
                 "ch": "海洋空間規劃專論",
-                "en": "",
+                "en": "Marine Spatial Planning",
                 "limit": false,
                 "other": "授課教師：黃向文／開課系所：環境生物與漁業科學學系博士班／上課教室：環漁系館206／課程備註："
             },
@@ -15653,10 +15653,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "消費者保護學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -17278,10 +17285,17 @@
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
                     "original": "消費者保護學士微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -18001,7 +18015,7 @@
             ],
             "title": {
                 "ch": "電影與文化 (進階英文-中高級)",
-                "en": "",
+                "en": "Film and Culture (High-Intermediate)",
                 "limit": false,
                 "other": "授課教師：鍾正倫／開課系所：大學部英語課程(原外語中心)／上課教室：人文大樓302／課程備註：大學部二年級以上　"
             },
@@ -20159,7 +20173,7 @@
             ],
             "title": {
                 "ch": "國際爭端與解決",
-                "en": "",
+                "en": "International Disputes and Settlement",
                 "limit": false,
                 "other": "授課教師：楊名豪／開課系所：海洋法政學士學位學程／上課教室：海空大樓704／課程備註：僅限大學部四年級，以實體授課方式進行"
             },
@@ -22677,7 +22691,7 @@
             ],
             "title": {
                 "ch": "認知人因工程",
-                "en": "",
+                "en": "Cognitive Human Factors",
                 "limit": false,
                 "other": "教師：梁曉帆／開課班級：工管所／教室：科研大樓440，課程僅限日間部學生修習"
             },
@@ -22803,7 +22817,7 @@
             ],
             "title": {
                 "ch": "AI深度學習應用與智慧型控制",
-                "en": "",
+                "en": "AI Deep Learning Application and Intelligent Control",
                 "limit": false,
                 "other": "教師：蕭耀榮／開課班級：車輛所／教室：三教206(e)，課程僅限日間部學生修習"
             },
@@ -23223,7 +23237,7 @@
             ],
             "title": {
                 "ch": "海洋生物資源保育",
-                "en": "",
+                "en": "Marine Bio-resource Conservation",
                 "limit": false,
                 "other": "授課教師：程一駿／開課系所：海洋生物研究所碩士班／上課教室：綜合二館506／課程備註：大學部二年級以上　"
             },
@@ -23559,7 +23573,7 @@
             ],
             "title": {
                 "ch": "經濟與計算",
-                "en": "",
+                "en": "Economics and Computation",
                 "limit": false,
                 "other": "授課教師：林莊傑／開課系所：資訊工程學系碩士班／上課教室：資工系館105／課程備註：僅限大四及研究生"
             },
@@ -35573,7 +35587,7 @@
             ],
             "title": {
                 "ch": "機械製圖",
-                "en": "",
+                "en": "Mechanical Drawing",
                 "limit": false,
                 "other": "教師：陳明彥／開課班級：車輛一／教室：共同313(e)，課程僅限日間部學生修習"
             },
@@ -41552,7 +41566,7 @@
             ],
             "title": {
                 "ch": "海洋環境生態永續專論",
-                "en": "TopicsonMarineEnvironmentalEcologySustainability",
+                "en": "Topics on Marine Environmental Ecology Sustainability",
                 "limit": false,
                 "other": "授課教師：王佳惠／開課系所：海洋生物科技及環境生態永續國際碩士學位學程／上課教室：電資暨綜合教學大樓310／課程備註：僅限碩一、二外籍生"
             },
@@ -46636,7 +46650,7 @@
             ],
             "title": {
                 "ch": "工程數學(一)",
-                "en": "",
+                "en": "Engineering Mathematics (I)",
                 "limit": false,
                 "other": "教師：馬權威／開課班級：機械二甲／教室：三教303(e)，課程僅限日間部學生修習"
             },
@@ -46736,7 +46750,7 @@
             ],
             "title": {
                 "ch": "電子學(一)",
-                "en": "",
+                "en": "Electronics (I)",
                 "limit": false,
                 "other": "教師：宋國明／開課班級：電機二乙／教室：先鋒501 (e)，課程僅限日間部學生修習"
             },
@@ -47099,7 +47113,7 @@
             ],
             "title": {
                 "ch": "工程數學(一)",
-                "en": "",
+                "en": "Engineering Mathematics (I)",
                 "limit": false,
                 "other": "教師：陳威丞／開課班級：半導體外生二／教室：六教526(e)，課程僅限日間部學生修習"
             },
@@ -52405,8 +52419,8 @@
                     "original": "每週二7~8\t資B1F-01"
                 }
             ],
-            "sign": "是",
-            "sign_people": "12",
+            "sign": "否",
+            "sign_people": "-",
             "max_people": "70"
         },
         {
@@ -55427,7 +55441,7 @@
             ],
             "title": {
                 "ch": "海洋法規",
-                "en": "",
+                "en": "Ocean laws and regulations",
                 "limit": false,
                 "other": "授課教師：曾煥昇／開課系所：環境生物與漁業科學學系／上課教室：環漁系館107／課程備註："
             },
@@ -58486,16 +58500,9 @@
                     "class": "",
                     "category": "不動產城鄉碩",
                     "original": "不動產城鄉碩1"
-                },
-                {
-                    "grade": "2",
-                    "class": "",
-                    "category": "不動產城鄉碩",
-                    "original": "不動產城鄉碩2"
                 }
             ],
             "compulsory": [
-                "選",
                 "選"
             ],
             "title": {
@@ -58866,7 +58873,7 @@
             ],
             "title": {
                 "ch": "電磁理論",
-                "en": "",
+                "en": "Electromagnetic Theory",
                 "limit": false,
                 "other": "教師：劉人瑋／開課班級：電子所／教室：六教224(e)，課程僅限日間部學生修習"
             },
@@ -65075,7 +65082,7 @@
             ],
             "title": {
                 "ch": "離岸風力發電工程",
-                "en": "",
+                "en": "Offshore wind power engineering",
                 "limit": false,
                 "other": "授課教師：施佑羲／開課系所：機械與機電工程學系／上課教室：機械A館212／課程備註：第二上課時間週三09:20~10:10"
             },
@@ -65117,7 +65124,7 @@
             ],
             "title": {
                 "ch": "計算渠道水力學",
-                "en": "ComputationalOpenChannelHydraulics",
+                "en": "Computational Open Channel Hydraulics",
                 "limit": false,
                 "other": "授課教師：范佳銘／開課系所：河海工程學系／上課教室：河工二館404／課程備註：大四以上及碩博士班學生"
             },
@@ -77842,7 +77849,7 @@
             ],
             "title": {
                 "ch": "電子學(一)",
-                "en": "",
+                "en": "Electronics (I)",
                 "limit": false,
                 "other": "教師：宋國明／開課班級：電機二乙／教室：先鋒501 (e)，課程僅限日間部學生修習"
             },
@@ -84754,7 +84761,7 @@
             ],
             "title": {
                 "ch": "流行文化與英語學習(進階英文-中級)",
-                "en": "",
+                "en": "Learning English through Pop Culture (Intermediate)",
                 "limit": false,
                 "other": "授課教師：鍾正倫／開課系所：大學部英語課程(原外語中心)／上課教室：人文大樓302／課程備註：大學部二年級以上　"
             },
@@ -85624,7 +85631,7 @@
             ],
             "title": {
                 "ch": "漁業生物技術概論",
-                "en": "FundamentalsofFisheriesTechniques",
+                "en": "Fundamentals of Fisheries Techniques",
                 "limit": false,
                 "other": "授課教師：魯謹萍／開課系所：環境生物與漁業科學學系／上課教室：環漁系館105／課程備註："
             },
@@ -89905,7 +89912,7 @@
             ],
             "title": {
                 "ch": "電子電路分析與設計",
-                "en": "",
+                "en": "Electronic circuit Analysis and Design",
                 "limit": false,
                 "other": "教師：劉宇晨／開課班級：電機所／教室：先鋒502 (e)，課程僅限日間部學生修習"
             },
@@ -90031,7 +90038,7 @@
             ],
             "title": {
                 "ch": "企業電子化管理",
-                "en": "",
+                "en": "E-Business Management",
                 "limit": false,
                 "other": "教師：鄭辰仰／開課班級：工管所／教室：科研大樓430，課程僅限日間部學生修習"
             },
@@ -90585,7 +90592,7 @@
             ],
             "title": {
                 "ch": "原生生物學(一)",
-                "en": "",
+                "en": "Protistology (I)",
                 "limit": false,
                 "other": "授課教師：蔡昇芳／開課系所：海洋資源與環境變遷博士學位學程／上課教室：海事大樓106／課程備註："
             },
@@ -90711,7 +90718,7 @@
             ],
             "title": {
                 "ch": "水文地質實務",
-                "en": "",
+                "en": "Applied Hydrogeology",
                 "limit": false,
                 "other": "授課教師：許世孟／開課系所：河海工程學系碩士班／上課教室：河工二館307／課程備註：大三以上及碩士班學生(須修過土壤力學)"
             },
@@ -101117,9 +101124,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "智慧財產權學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -102816,9 +102830,16 @@
                     "class": "N/A",
                     "category": "微學程",
                     "original": "智慧財產權學士微學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "必",
                 "必",
                 "必",
                 "必",
@@ -109932,7 +109953,7 @@
             "teacher": [
                 "張毓芬"
             ],
-            "category": "全",
+            "category": "半",
             "credit": "3",
             "hours": "3",
             "language": "中文",
@@ -110669,7 +110690,7 @@
             ],
             "title": {
                 "ch": "工程數學(一)",
-                "en": "",
+                "en": "Engineering Mathematics (I)",
                 "limit": false,
                 "other": "教師：郭志宇／開課班級：化工二甲／教室：三教208(e)，課程僅限日間部學生修習"
             },
@@ -110769,7 +110790,7 @@
             ],
             "title": {
                 "ch": "電路學(一)",
-                "en": "",
+                "en": "Electric Circuit Theory (I)",
                 "limit": false,
                 "other": "教師：陳晏笙／開課班級：電子二甲／教室：先鋒501 (e)，課程僅限日間部學生修習"
             },
@@ -110869,7 +110890,7 @@
             ],
             "title": {
                 "ch": "電路學(一)",
-                "en": "",
+                "en": "Electric Circuit Theory (I)",
                 "limit": false,
                 "other": "教師：陳晏笙／開課班級：電子二乙／教室：先鋒501 (e)，課程僅限日間部學生修習"
             },
@@ -110969,7 +110990,7 @@
             ],
             "title": {
                 "ch": "作業研究(一)",
-                "en": "",
+                "en": "Operations Research I",
                 "limit": false,
                 "other": "教師：蔡佩芳／開課班級：工管二甲／教室：六教625(e)，課程僅限日間部學生修習"
             },
@@ -111019,7 +111040,7 @@
             ],
             "title": {
                 "ch": "統計學(一)",
-                "en": "",
+                "en": "Statistics (I)",
                 "limit": false,
                 "other": "教師：張漢利／開課班級：工管二乙／教室：六教727(e)、六教527(e)，課程僅限日間部學生修習"
             },
@@ -111069,7 +111090,7 @@
             ],
             "title": {
                 "ch": "作業研究(一)",
-                "en": "",
+                "en": "Operations Research I",
                 "limit": false,
                 "other": "教師：蔡佩芳／開課班級：工管二乙／教室：六教525(e)、六教625(e)，課程僅限日間部學生修習"
             },
@@ -111119,7 +111140,7 @@
             ],
             "title": {
                 "ch": "工程數學(一)",
-                "en": "",
+                "en": "Engineering Mathematics (I)",
                 "limit": false,
                 "other": "教師：李穎玟／開課班級：光電二／教室：三教301(e)、億光1035，課程僅限日間部學生修習"
             },
@@ -111169,7 +111190,7 @@
             ],
             "title": {
                 "ch": "工程數學(一)",
-                "en": "",
+                "en": "Engineering Mathematics (I)",
                 "limit": false,
                 "other": "教師：陳威丞／開課班級：半導體外生二／教室：六教526(e)，課程僅限日間部學生修習"
             },
@@ -114824,7 +114845,7 @@
             ],
             "title": {
                 "ch": "海洋政策專題研究(一)總論",
-                "en": "",
+                "en": "Seminar on Ocean Policy (I)-General Provisions",
                 "limit": false,
                 "other": "授課教師：周怡／開課系所：海洋法律研究所碩士班／上課教室：海空大樓101／課程備註："
             },
@@ -115044,7 +115065,7 @@
             ],
             "title": {
                 "ch": "教育領導專題",
-                "en": "",
+                "en": "Special Topic on Educational Leadership",
                 "limit": false,
                 "other": "授課教師：陳琦媛／開課系所：教育研究所碩士班／上課教室：海事大樓625／課程備註："
             },
@@ -118014,7 +118035,7 @@
             ],
             "title": {
                 "ch": "海洋資源學",
-                "en": "",
+                "en": "Marine Resources",
                 "limit": false,
                 "other": "授課教師：蘇楠傑／開課系所：環境生物與漁業科學學系／上課教室：環漁系館105／課程備註："
             },
@@ -123216,7 +123237,7 @@
             ],
             "title": {
                 "ch": "數學物理方法",
-                "en": "",
+                "en": "Mathematical Physics",
                 "limit": false,
                 "other": "教師：劉人瑋／開課班級：電子所／教室：三教206(e)，課程僅限日間部學生修習"
             },
@@ -123258,7 +123279,7 @@
             ],
             "title": {
                 "ch": "高等計算機視覺",
-                "en": "",
+                "en": "Advanced Computer Vision",
                 "limit": false,
                 "other": "教師：陳彥安／開課班級：電子所／教室：六教426(e)，課程僅限日間部學生修習"
             },
@@ -123388,7 +123409,7 @@
             ],
             "title": {
                 "ch": "熱對流",
-                "en": "",
+                "en": "Convetive Heat Transfer",
                 "limit": false,
                 "other": "教師：彭尉祖／開課班級：機電所／教室：二教305(e)，課程僅限日間部學生修習"
             },
@@ -123735,7 +123756,7 @@
             ],
             "title": {
                 "ch": "描述性化學海洋學",
-                "en": "",
+                "en": "Descriptive Chemical Oceanography",
                 "limit": false,
                 "other": "授課教師：曾筱君／開課系所：海洋資源與環境變遷博士學位學程／上課教室：海事大樓204／課程備註：第二上課時間週四12:10~13:00"
             },
@@ -127254,7 +127275,7 @@
             ],
             "title": {
                 "ch": "材料科學導論(一)",
-                "en": "",
+                "en": "Introduction to Material Science",
                 "limit": false,
                 "other": "教師：楊詠荍／開課班級：材資二乙／教室：四教302(e)，課程僅限日間部學生修習"
             },
@@ -127354,7 +127375,7 @@
             ],
             "title": {
                 "ch": "訊息導論",
-                "en": "",
+                "en": "Introduction to Information and Entropy",
                 "limit": false,
                 "other": "授課教師：吳家琪／開課系所：通訊與導航工程學系／上課教室：技術大樓823／課程備註："
             },
@@ -128730,7 +128751,7 @@
             ],
             "title": {
                 "ch": "綠色供應鏈管理",
-                "en": "GreenSupplyChainManagement",
+                "en": "Green Supply Chain Management",
                 "limit": false,
                 "other": "授課教師：裴必達／開課系所：航運管理學系／上課教室：航管大樓407／課程備註：大學部三年級以上"
             },
@@ -141302,7 +141323,7 @@
             ],
             "title": {
                 "ch": "工程數學(一)",
-                "en": "",
+                "en": "Engineering Mathematics (I)",
                 "limit": false,
                 "other": "教師：郭志宇／開課班級：化工二甲／教室：三教208(e)，課程僅限日間部學生修習"
             },
@@ -141461,7 +141482,7 @@
             ],
             "title": {
                 "ch": "工程數學(一)",
-                "en": "",
+                "en": "Engineering Mathematics (I)",
                 "limit": false,
                 "other": "教師：李穎玟／開課班級：光電二／教室：三教301(e)、億光1035，課程僅限日間部學生修習"
             },
@@ -141561,7 +141582,7 @@
             ],
             "title": {
                 "ch": "工程數學(一)",
-                "en": "",
+                "en": "Engineering Mathematics (I)",
                 "limit": false,
                 "other": "教師：李士修／開課班級：電資二／教室：二教204(e)，課程僅限日間部學生修習"
             },
@@ -143078,7 +143099,7 @@
             ],
             "title": {
                 "ch": "國際刑法專題研究",
-                "en": "",
+                "en": "Seminar on International Criminal Law",
                 "limit": false,
                 "other": "授課教師：吳雨蒼／開課系所：海洋法律研究所博士班／上課教室：海空大樓606／課程備註："
             },
@@ -143886,7 +143907,7 @@
             ],
             "title": {
                 "ch": "法學英文名著選讀(三)",
-                "en": "",
+                "en": "Selective Readings on Legal English (Ⅲ)",
                 "limit": false,
                 "other": "授課教師：吳雨蒼／開課系所：海洋法律研究所博士班／上課教室：海空大樓606／課程備註："
             },
@@ -144225,9 +144246,16 @@
                     "class": "N/A",
                     "category": "學分學程",
                     "original": "醫療科技暨法律學分學程"
+                },
+                {
+                    "grade": "N/A",
+                    "class": "N/A",
+                    "category": "微學程",
+                    "original": "醫療科技暨法律微學程"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選"
@@ -148688,8 +148716,8 @@
                         5,
                         6
                     ],
-                    "place": "文3F12_L",
-                    "original": "每週五5~6\t文3F12_L"
+                    "place": "文3F02_L",
+                    "original": "每週五5~6\t文3F02_L"
                 }
             ],
             "sign": "是",
@@ -150026,7 +150054,7 @@
             ],
             "title": {
                 "ch": "封裝技術",
-                "en": "",
+                "en": "Packaging Technology",
                 "limit": false,
                 "other": "教師：覃鑫富／開課班級：製科所／教室：綜科110_2，課程僅限日間部學生修習"
             },
@@ -150404,7 +150432,7 @@
             ],
             "title": {
                 "ch": "水產海洋學專論",
-                "en": "",
+                "en": "Seminar in Fisheries Oceanography",
                 "limit": false,
                 "other": "授課教師：李明安／開課系所：環境生物與漁業科學學系博士班／上課教室：環漁系館206／課程備註："
             },
@@ -150499,7 +150527,7 @@
             ],
             "title": {
                 "ch": "數值分析於大地工程之應用",
-                "en": "",
+                "en": "Numerical Methods in Geotechnical Engineering",
                 "limit": false,
                 "other": "授課教師：劉芷妤／開課系所：河海工程學系碩士班／上課教室：河工二館B05／課程備註：大四以上及碩博士班學生"
             },
@@ -152623,7 +152651,7 @@
             ],
             "title": {
                 "ch": "材料科學導論(一)",
-                "en": "",
+                "en": "Introduction to Material Science",
                 "limit": false,
                 "other": "教師：楊詠荍／開課班級：材資二乙／教室：四教302(e)，課程僅限日間部學生修習"
             },
@@ -153501,7 +153529,7 @@
             ],
             "title": {
                 "ch": "Matlab程式語言",
-                "en": "MatlabProgrammingLanguage",
+                "en": "Computer Programming in Matlab",
                 "limit": false,
                 "other": "授課教師：李信德／開課系所：運輸科學系／上課教室：技術大樓401／課程備註："
             },
@@ -153543,7 +153571,7 @@
             ],
             "title": {
                 "ch": "魚類生態學",
-                "en": "",
+                "en": "Fish Ecology",
                 "limit": false,
                 "other": "授課教師：王怡甄／開課系所：環境生物與漁業科學學系／上課教室：環漁系館107／課程備註："
             },
