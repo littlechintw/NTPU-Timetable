@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-11-11 19:23:40",
-    "end_time": "2026-11-11 19:24:09",
+    "start_time": "2026-11-18 20:10:54",
+    "end_time": "2026-11-18 20:11:27",
     "total_courses": 2521,
     "failed_weeks": [],
     "data": [
@@ -5444,8 +5444,8 @@
                         5,
                         6
                     ],
-                    "place": "文3F12_L",
-                    "original": "每週一5~6\t文3F12_L"
+                    "place": "文3F02_L",
+                    "original": "每週一5~6\t文3F02_L"
                 }
             ],
             "sign": "否",
@@ -16931,8 +16931,8 @@
                 "選"
             ],
             "title": {
-                "ch": "刑事訴訟法案例解析",
-                "en": "Case Solution on Criminal Procedure Law",
+                "ch": "刑事訴訟法案例解析專題研究",
+                "en": "Seminar：Case Solution on Criminal Procedure Law",
                 "limit": true,
                 "other": "1.先修科目：刑事訴訟法\n2.刑事法學群\n3.115-1 由「刑事訴訟法案例解析專題研究」更名，重複修習者不採計學分。"
             },
@@ -19112,8 +19112,8 @@
                         7,
                         8
                     ],
-                    "place": "文3F12_L",
-                    "original": "每週一7~8\t文3F12_L"
+                    "place": "文3F02_L",
+                    "original": "每週一7~8\t文3F02_L"
                 }
             ],
             "sign": "否",
@@ -80972,8 +80972,8 @@
                 "選"
             ],
             "title": {
-                "ch": "資本市場與企業法制專題研究（一）",
-                "en": "Seminar：Capital Market and Business Law I",
+                "ch": "資本市場與企業法制專題研究",
+                "en": "Seminar：Capital Market and Business Law",
                 "limit": false,
                 "other": "本課程115由「資本市場與企業法制專題研究」更名，重複修習者不採計學分。"
             },
@@ -143649,8 +143649,8 @@
                 "選"
             ],
             "title": {
-                "ch": "刑事訴訟法案例解析",
-                "en": "Case Solution on Criminal Procedure Law",
+                "ch": "刑事訴訟法案例解析專題研究",
+                "en": "Seminar：Case Solution on Criminal Procedure Law",
                 "limit": true,
                 "other": "1.限法碩法專組學生修習，與學士班合班。2.先修科目：刑事訴訟法。"
             },
@@ -147834,8 +147834,8 @@
                 "選"
             ],
             "title": {
-                "ch": "刑事訴訟法案例解析",
-                "en": "Case Solution on Criminal Procedure Law",
+                "ch": "刑事訴訟法案例解析專題研究",
+                "en": "Seminar：Case Solution on Criminal Procedure Law",
                 "limit": true,
                 "other": "先修科目：刑事訴訟法。"
             },
