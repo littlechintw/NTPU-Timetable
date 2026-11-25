@@ -1,6 +1,6 @@
 {
-    "start_time": "2026-11-18 20:10:54",
-    "end_time": "2026-11-18 20:11:27",
+    "start_time": "2026-11-25 21:21:25",
+    "end_time": "2026-11-25 21:21:52",
     "total_courses": 2521,
     "failed_weeks": [],
     "data": [
@@ -16931,8 +16931,8 @@
                 "選"
             ],
             "title": {
-                "ch": "刑事訴訟法案例解析專題研究",
-                "en": "Seminar：Case Solution on Criminal Procedure Law",
+                "ch": "刑事訴訟法案例解析",
+                "en": "Case Solution on Criminal Procedure Law",
                 "limit": true,
                 "other": "1.先修科目：刑事訴訟法\n2.刑事法學群\n3.115-1 由「刑事訴訟法案例解析專題研究」更名，重複修習者不採計學分。"
             },
@@ -21267,9 +21267,16 @@
                     "class": "",
                     "category": "電機碩",
                     "original": "電機碩2"
+                },
+                {
+                    "grade": "1",
+                    "class": "",
+                    "category": "電機資通訊產碩專班",
+                    "original": "電機資通訊產碩專班1"
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -80972,8 +80979,8 @@
                 "選"
             ],
             "title": {
-                "ch": "資本市場與企業法制專題研究",
-                "en": "Seminar：Capital Market and Business Law",
+                "ch": "資本市場與企業法制專題研究（一）",
+                "en": "Seminar：Capital Market and Business Law I",
                 "limit": false,
                 "other": "本課程115由「資本市場與企業法制專題研究」更名，重複修習者不採計學分。"
             },
@@ -98023,8 +98030,8 @@
                         3,
                         4
                     ],
-                    "place": "文5F07_L",
-                    "original": "每週三3~4\t文5F07_L"
+                    "place": "文5F07_互動",
+                    "original": "每週三3~4\t文5F07_互動"
                 }
             ],
             "sign": "否",
@@ -120921,6 +120928,12 @@
                     "original": "電機碩2"
                 },
                 {
+                    "grade": "1",
+                    "class": "",
+                    "category": "電機資通訊產碩專班",
+                    "original": "電機資通訊產碩專班1"
+                },
+                {
                     "grade": "N/A",
                     "class": "N/A",
                     "category": "微學程",
@@ -120934,6 +120947,7 @@
                 }
             ],
             "compulsory": [
+                "選",
                 "選",
                 "選",
                 "選",
@@ -143649,8 +143663,8 @@
                 "選"
             ],
             "title": {
-                "ch": "刑事訴訟法案例解析專題研究",
-                "en": "Seminar：Case Solution on Criminal Procedure Law",
+                "ch": "刑事訴訟法案例解析",
+                "en": "Case Solution on Criminal Procedure Law",
                 "limit": true,
                 "other": "1.限法碩法專組學生修習，與學士班合班。2.先修科目：刑事訴訟法。"
             },
@@ -147834,8 +147848,8 @@
                 "選"
             ],
             "title": {
-                "ch": "刑事訴訟法案例解析專題研究",
-                "en": "Seminar：Case Solution on Criminal Procedure Law",
+                "ch": "刑事訴訟法案例解析",
+                "en": "Case Solution on Criminal Procedure Law",
                 "limit": true,
                 "other": "先修科目：刑事訴訟法。"
             },
